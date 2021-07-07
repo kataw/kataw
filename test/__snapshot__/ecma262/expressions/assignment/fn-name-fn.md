@@ -45,7 +45,7 @@ fn = function() {};
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 7
                     },
@@ -63,7 +63,7 @@ fn = function() {};
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 8,
                         "end": 11
                     }
@@ -156,7 +156,7 @@ fn = function() {};
                 "end": 35
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 12,
             "end": 36
         },
@@ -230,7 +230,7 @@ fn = function() {};
                 "end": 55
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 36,
             "end": 56
         }

@@ -70,7 +70,7 @@ for (let x of a,b) c
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         }
@@ -131,7 +131,7 @@ for (let x of a,b) c
                     "end": 17
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 15,
                 "end": 17
             },
@@ -152,7 +152,7 @@ for (let x of a,b) c
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 20
         }

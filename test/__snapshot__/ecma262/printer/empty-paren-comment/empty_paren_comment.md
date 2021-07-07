@@ -99,7 +99,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 26
                     }
@@ -184,7 +184,7 @@ let f4 = () => doThing(a, /* ... */ b);
                 "end": 63
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 26,
             "end": 63
         },
@@ -526,7 +526,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "end": 208
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 96,
                         "end": 208
                     }
@@ -569,7 +569,7 @@ let f4 = () => doThing(a, /* ... */ b);
                 "end": 222
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 208,
             "end": 223
         },
@@ -611,7 +611,7 @@ let f4 = () => doThing(a, /* ... */ b);
                 "end": 239
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 223,
             "end": 240
         },
@@ -662,7 +662,7 @@ let f4 = () => doThing(a, /* ... */ b);
                 "end": 258
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 240,
             "end": 259
         },
@@ -713,7 +713,7 @@ let f4 = () => doThing(a, /* ... */ b);
                 "end": 277
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 259,
             "end": 278
         },
@@ -791,7 +791,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "end": 314
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 283,
                         "end": 314
                     }
@@ -901,7 +901,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "end": 354
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 319,
                         "end": 354
                     }

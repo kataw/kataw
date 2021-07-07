@@ -103,7 +103,7 @@ switch (a) { default: let
                                                 "end": 32
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 25,
                                             "end": 32
                                         }

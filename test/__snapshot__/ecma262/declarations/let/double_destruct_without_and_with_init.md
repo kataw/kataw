@@ -86,7 +86,7 @@ let {x, y = z} = obj;
                                             "end": 13
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 13
                                     }
@@ -113,7 +113,7 @@ let {x, y = z} = obj;
                             "end": 20
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }

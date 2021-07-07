@@ -83,7 +83,7 @@ function bar(a = console.log) {
                             "end": 28
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 28
                     }
@@ -181,7 +181,7 @@ function bar(a = console.log) {
                             "end": 63
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 48,
                         "end": 63
                     }

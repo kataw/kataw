@@ -125,7 +125,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                             "end": 118
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 118
                     }

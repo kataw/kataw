@@ -73,7 +73,7 @@ async x => new = 1
                         },
                         "argumentList": null,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 2048,
                         "start": 10,
                         "end": 14
                     },
@@ -104,7 +104,7 @@ async x => new = 1
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }

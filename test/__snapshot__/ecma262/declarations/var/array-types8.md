@@ -76,7 +76,7 @@ var a: typeof A[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 15
                     }
@@ -154,7 +154,7 @@ var a: typeof A[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 20,
                         "end": 33
                     }
@@ -248,7 +248,7 @@ var a: typeof A[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 38,
                         "end": 53
                     }
@@ -345,7 +345,7 @@ var a: typeof A[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 58,
                         "end": 76
                     }
@@ -433,7 +433,7 @@ var a: typeof A[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 81,
                         "end": 95
                     }

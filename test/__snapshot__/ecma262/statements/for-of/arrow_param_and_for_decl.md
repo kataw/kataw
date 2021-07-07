@@ -82,7 +82,7 @@ a => {
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
-                                                "transformFlags": 128,
+                                                "transformFlags": 4224,
                                                 "start": 17,
                                                 "end": 19
                                             }
@@ -125,7 +125,7 @@ a => {
                                         "end": 27
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 25,
                                     "end": 27
                                 },
@@ -151,7 +151,7 @@ a => {
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }

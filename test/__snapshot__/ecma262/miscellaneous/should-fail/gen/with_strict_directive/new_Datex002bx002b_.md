@@ -63,7 +63,7 @@
                     },
                     "argumentList": null,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 2048,
                     "start": 13,
                     "end": 22
                 },
@@ -73,7 +73,7 @@
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 25
         }

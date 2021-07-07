@@ -97,7 +97,7 @@ class x{[x](a=await){}}
                                                 "end": 19
                                             },
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 12,
                                             "end": 19
                                         }

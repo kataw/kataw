@@ -214,7 +214,7 @@ var A = class B {
                             "end": 58
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 58
                     }

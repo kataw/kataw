@@ -171,7 +171,7 @@ function * gen() { function not_gen() { var [yield] = [42]; }}
                                                             "end": 58
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 43,
                                                         "end": 58
                                                     }

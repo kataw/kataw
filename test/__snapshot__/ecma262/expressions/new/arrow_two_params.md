@@ -82,12 +82,12 @@ new (a,b) => x
                 },
                 "argumentList": null,
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }

@@ -91,7 +91,7 @@ var O = { p: 1 }, x = 10; foo(++delete O.p ** 10)
                             "end": 16
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 16
                     },
@@ -117,7 +117,7 @@ var O = { p: 1 }, x = 10; foo(++delete O.p ** 10)
                             "end": 24
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 24
                     }
@@ -220,7 +220,7 @@ var O = { p: 1 }, x = 10; foo(++delete O.p ** 10)
                                 "end": 48
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 30,
                             "end": 48
                         }
@@ -237,7 +237,7 @@ var O = { p: 1 }, x = 10; foo(++delete O.p ** 10)
                 "end": 49
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 49
         }

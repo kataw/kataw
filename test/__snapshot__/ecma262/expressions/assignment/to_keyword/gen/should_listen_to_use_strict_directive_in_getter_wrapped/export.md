@@ -123,7 +123,7 @@ foo = {
                                                             "end": 42
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 36,
                                                         "end": 42
                                                     },
@@ -206,7 +206,7 @@ foo = {
                 "end": 52
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 52
         },

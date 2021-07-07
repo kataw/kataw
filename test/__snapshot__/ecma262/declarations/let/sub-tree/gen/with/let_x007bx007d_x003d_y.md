@@ -54,7 +54,7 @@ with (a) let
                     "end": 12
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 12
             },
@@ -90,7 +90,7 @@ with (a) let
                 "end": 19
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 19
         }

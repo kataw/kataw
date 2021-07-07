@@ -98,7 +98,7 @@ function* g(){ x ? yield : y }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 18,
                                     "end": 24
                                 },
@@ -119,12 +119,12 @@ function* g(){ x ? yield : y }
                                     "end": 28
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 14,
                                 "end": 28
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 28
                         }

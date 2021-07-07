@@ -66,7 +66,7 @@ const {x,, y} = obj;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 9
                     },
@@ -84,7 +84,7 @@ const {x,, y} = obj;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 10,
                         "end": 12
                     }
@@ -111,7 +111,7 @@ const {x,, y} = obj;
                 "end": 19
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 20
         }

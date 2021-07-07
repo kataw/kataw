@@ -137,7 +137,7 @@ const obj2 = { a:1, b:2, c:3 };
                             "end": 28
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 28
                     }
@@ -272,7 +272,7 @@ const obj2 = { a:1, b:2, c:3 };
                             "end": 59
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 34,
                         "end": 59
                     }

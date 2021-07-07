@@ -160,12 +160,12 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                                 "end": 52
                                                                             },
                                                                             "flags": 32,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 42,
                                                                             "end": 52
                                                                         },
                                                                         "flags": 34,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 37,
                                                                         "end": 52
                                                                     }
@@ -216,7 +216,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                             "end": 56
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 22,
                                         "end": 56
                                     }

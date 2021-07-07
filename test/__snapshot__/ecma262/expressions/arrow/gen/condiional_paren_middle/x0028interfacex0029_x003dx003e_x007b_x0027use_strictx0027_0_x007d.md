@@ -103,7 +103,7 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                             "end": 39
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 37,
                                         "end": 39
                                     }
@@ -145,12 +145,12 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                     "end": 48
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 48
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 49
         }

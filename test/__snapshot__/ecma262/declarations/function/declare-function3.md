@@ -341,7 +341,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 70,
                         "end": 124
                     }

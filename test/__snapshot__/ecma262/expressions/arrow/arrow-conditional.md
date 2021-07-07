@@ -123,12 +123,12 @@ a ? b : (): string => {}
                     "end": 21
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         },
@@ -144,7 +144,7 @@ a ? b : (): string => {}
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 24,
             "end": 28
         },
@@ -243,12 +243,12 @@ a ? b : (): string => {}
                     "end": 56
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 28,
                 "end": 56
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 28,
             "end": 56
         },
@@ -264,7 +264,7 @@ a ? b : (): string => {}
                 "end": 62
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 59,
             "end": 63
         },
@@ -367,12 +367,12 @@ a ? b : (): string => {}
                     "end": 85
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 63,
                 "end": 85
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 63,
             "end": 85
         },
@@ -408,7 +408,7 @@ a ? b : (): string => {}
                 "end": 92
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 88,
             "end": 92
         },
@@ -457,7 +457,7 @@ a ? b : (): string => {}
                 "end": 106
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 93,
             "end": 107
         },
@@ -493,7 +493,7 @@ a ? b : (): string => {}
                 "end": 111
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 107,
             "end": 111
         },
@@ -542,7 +542,7 @@ a ? b : (): string => {}
                 "end": 125
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 112,
             "end": 126
         },
@@ -612,12 +612,12 @@ a ? b : (): string => {}
                     "end": 138
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 126,
                 "end": 138
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 126,
             "end": 138
         },
@@ -666,7 +666,7 @@ a ? b : (): string => {}
                 "end": 152
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 139,
             "end": 152
         }

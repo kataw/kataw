@@ -72,12 +72,12 @@ new (factory())(factory())
                     "end": 16
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         },
@@ -113,7 +113,7 @@ new (factory())(factory())
                         "end": 30
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 2048,
                     "start": 17,
                     "end": 31
                 },
@@ -132,7 +132,7 @@ new (factory())(factory())
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 33
         },
@@ -215,12 +215,12 @@ new (factory())(factory())
                     "end": 60
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 33,
                 "end": 61
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 33,
             "end": 61
         }

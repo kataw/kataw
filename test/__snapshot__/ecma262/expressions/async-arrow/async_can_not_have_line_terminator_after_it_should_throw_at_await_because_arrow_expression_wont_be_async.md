@@ -50,7 +50,7 @@ g => await g
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
@@ -103,7 +103,7 @@ g => await g
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 24
         },
@@ -119,7 +119,7 @@ g => await g
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 24,
             "end": 26
         }

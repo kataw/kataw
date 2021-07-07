@@ -142,7 +142,7 @@ async function foo({x}: { x: string; }) {}
                         },
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 19,
                         "end": 38
                     }

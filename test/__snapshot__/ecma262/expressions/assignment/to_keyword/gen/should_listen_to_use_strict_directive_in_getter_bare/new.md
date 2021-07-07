@@ -126,7 +126,7 @@ foo = {
                                                             },
                                                             "argumentList": null,
                                                             "flags": 97,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 2048,
                                                             "start": 36,
                                                             "end": 44
                                                         },
@@ -152,7 +152,7 @@ foo = {
                                                         "end": 48
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 36,
                                                     "end": 48
                                                 }
@@ -195,7 +195,7 @@ foo = {
                 "end": 54
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 54
         }

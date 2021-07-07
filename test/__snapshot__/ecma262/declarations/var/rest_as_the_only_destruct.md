@@ -76,7 +76,7 @@ var [...foo] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 11
                                     }
@@ -103,7 +103,7 @@ var [...foo] = obj;
                             "end": 18
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 18
                     }

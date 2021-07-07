@@ -81,7 +81,7 @@ let f = () => (y=await foo) => y;
                             "end": 22
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 22
                     },
@@ -99,7 +99,7 @@ let f = () => (y=await foo) => y;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 22,
                         "end": 26
                     }
@@ -126,7 +126,7 @@ let f = () => (y=await foo) => y;
                 "end": 32
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 30,
             "end": 33
         }

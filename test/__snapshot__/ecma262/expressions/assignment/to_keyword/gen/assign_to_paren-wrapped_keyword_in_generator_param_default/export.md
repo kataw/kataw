@@ -84,7 +84,7 @@ function *f(x = (export) = f) {}
                             "end": 17
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 17
                     }
@@ -148,7 +148,7 @@ function *f(x = (export) = f) {}
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 26,
             "end": 28
         },

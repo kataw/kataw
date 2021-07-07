@@ -151,7 +151,7 @@ f(await 1);
                                 "end": 44
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 37,
                             "end": 44
                         }
@@ -168,7 +168,7 @@ f(await 1);
                 "end": 45
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 33,
             "end": 46
         }

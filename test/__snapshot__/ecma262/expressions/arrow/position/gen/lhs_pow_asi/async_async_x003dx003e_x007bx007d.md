@@ -74,7 +74,7 @@ async async => {}
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         },
@@ -108,12 +108,12 @@ async async => {}
                     "end": 22
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 17,
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 22
         }

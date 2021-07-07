@@ -61,7 +61,7 @@ x = /x/xxx;
                 "end": 14
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         },
@@ -99,7 +99,7 @@ x = /x/xxx;
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 29
         },
@@ -137,7 +137,7 @@ x = /x/xxx;
                 "end": 41
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 29,
             "end": 42
         },
@@ -175,7 +175,7 @@ x = /x/xxx;
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 42,
             "end": 58
         },
@@ -213,7 +213,7 @@ x = /x/xxx;
                 "end": 72
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 58,
             "end": 73
         },
@@ -251,7 +251,7 @@ x = /x/xxx;
                 "end": 85
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 73,
             "end": 86
         },
@@ -289,7 +289,7 @@ x = /x/xxx;
                 "end": 131
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 86,
             "end": 132
         }

@@ -49,7 +49,7 @@ var foob\\U1234r = 0;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 8
                     }
@@ -99,7 +99,7 @@ var foob\\U1234r = 0;
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 10,
             "end": 21
         }

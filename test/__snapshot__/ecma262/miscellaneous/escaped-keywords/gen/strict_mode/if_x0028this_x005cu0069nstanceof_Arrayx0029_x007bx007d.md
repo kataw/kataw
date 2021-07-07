@@ -57,7 +57,7 @@ if (this \u0069nstanceof Array) {}
                     "end": 30
                 },
                 "flags": 16480,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 4,
                 "end": 30
             },

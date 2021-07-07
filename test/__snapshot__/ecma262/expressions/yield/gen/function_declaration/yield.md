@@ -71,7 +71,7 @@ function not_gen() { yield }}
                                 "end": 26
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 26
                         }

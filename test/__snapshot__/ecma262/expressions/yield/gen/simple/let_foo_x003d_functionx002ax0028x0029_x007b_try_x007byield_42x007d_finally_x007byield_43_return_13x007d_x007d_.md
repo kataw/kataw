@@ -117,12 +117,12 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                     "end": 37
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 29,
                                                                 "end": 37
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 29,
                                                             "end": 37
                                                         }
@@ -173,12 +173,12 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                     "end": 56
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 48,
                                                                 "end": 56
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 48,
                                                             "end": 57
                                                         },
@@ -239,7 +239,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                             "end": 70
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 70
                     }

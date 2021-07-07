@@ -37,7 +37,7 @@ do async
                     "end": 8
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 8
             },
@@ -124,7 +124,7 @@ do async
                     "end": 26
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 26,
                 "end": 26
             },

@@ -133,7 +133,7 @@ var gen = async function *g() {
                                                 "end": 48
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 31,
                                             "end": 49
                                         },
@@ -188,12 +188,12 @@ var gen = async function *g() {
                                                                         "asteriskToken": null,
                                                                         "expression": null,
                                                                         "flags": 32,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 75,
                                                                         "end": 81
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 70,
                                                                     "end": 81
                                                                 },
@@ -288,7 +288,7 @@ var gen = async function *g() {
                                                                                                             "end": 135
                                                                                                         },
                                                                                                         "flags": 16,
-                                                                                                        "transformFlags": 128,
+                                                                                                        "transformFlags": 4224,
                                                                                                         "start": 123,
                                                                                                         "end": 135
                                                                                                     }
@@ -390,7 +390,7 @@ var gen = async function *g() {
                                                                                     "asteriskToken": null,
                                                                                     "expression": null,
                                                                                     "flags": 32,
-                                                                                    "transformFlags": 0,
+                                                                                    "transformFlags": 4096,
                                                                                     "start": 175,
                                                                                     "end": 180
                                                                                 }
@@ -438,7 +438,7 @@ var gen = async function *g() {
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 194,
                                                                     "end": 199
                                                                 },
@@ -460,12 +460,12 @@ var gen = async function *g() {
                                                     "end": 206
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 49,
                                                 "end": 206
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 49,
                                             "end": 206
                                         }
@@ -487,7 +487,7 @@ var gen = async function *g() {
                             "end": 208
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 208
                     }

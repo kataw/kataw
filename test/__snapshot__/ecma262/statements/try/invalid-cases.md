@@ -152,7 +152,7 @@ try {} catch({ x: "str" }) {}
                                                 "end": 28
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 22,
                                             "end": 28
                                         }
@@ -271,7 +271,7 @@ try {} catch({ x: "str" }) {}
                                                 "end": 63
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 57,
                                             "end": 63
                                         }
@@ -554,7 +554,7 @@ try {} catch({ x: "str" }) {}
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 125,
                                                         "end": 129
                                                     }
@@ -642,7 +642,7 @@ try {} catch({ x: "str" }) {}
                                                 "end": 147
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 143,
                                             "end": 147
                                         }
@@ -737,7 +737,7 @@ try {} catch({ x: "str" }) {}
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 155,
                         "end": 159
                     }
@@ -801,7 +801,7 @@ try {} catch({ x: "str" }) {}
                                             "end": 179
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 171,
                                         "end": 179
                                     }
@@ -906,7 +906,7 @@ try {} catch({ x: "str" }) {}
                             "end": 207
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 199,
                         "end": 207
                     }
@@ -1027,7 +1027,7 @@ try {} catch({ x: "str" }) {}
                                     "end": 245
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 236,
                                 "end": 245
                             }
@@ -1130,7 +1130,7 @@ try {} catch({ x: "str" }) {}
                                 "type": null,
                                 "right": null,
                                 "flags": 0,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 263,
                                 "end": 275
                             }
@@ -1364,7 +1364,7 @@ try {} catch({ x: "str" }) {}
                 "end": 314
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 305,
             "end": 314
         },
@@ -1641,7 +1641,7 @@ try {} catch({ x: "str" }) {}
                 "end": 383
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 366,
             "end": 383
         },
@@ -1811,7 +1811,7 @@ try {} catch({ x: "str" }) {}
                 "end": 417
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 401,
             "end": 417
         },
@@ -2318,7 +2318,7 @@ try {} catch({ x: "str" }) {}
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 568,
                                                         "end": 570
                                                     }
@@ -2382,7 +2382,7 @@ try {} catch({ x: "str" }) {}
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 577,
                                     "end": 581
                                 }
@@ -2492,7 +2492,7 @@ try {} catch({ x: "str" }) {}
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 608,
                                     "end": 612
                                 }
@@ -2556,7 +2556,7 @@ try {} catch({ x: "str" }) {}
                                                         "end": 632
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 128,
+                                                    "transformFlags": 4224,
                                                     "start": 624,
                                                     "end": 632
                                                 }
@@ -2661,7 +2661,7 @@ try {} catch({ x: "str" }) {}
                                         "end": 660
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 652,
                                     "end": 660
                                 }
@@ -2782,7 +2782,7 @@ try {} catch({ x: "str" }) {}
                                                 "end": 698
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 689,
                                             "end": 698
                                         }
@@ -2885,7 +2885,7 @@ try {} catch({ x: "str" }) {}
                                             "type": null,
                                             "right": null,
                                             "flags": 0,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 719,
                                             "end": 731
                                         }
@@ -2967,7 +2967,7 @@ try {} catch({ x: "str" }) {}
                             "end": 736
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 731,
                         "end": 736
                     }
@@ -3148,7 +3148,7 @@ try {} catch({ x: "str" }) {}
                 "end": 775
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 766,
             "end": 775
         },
@@ -3274,7 +3274,7 @@ try {} catch({ x: "str" }) {}
                 "end": 808
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 806,
             "end": 808
         },
@@ -3456,7 +3456,7 @@ try {} catch({ x: "str" }) {}
                 "end": 849
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 832,
             "end": 849
         },
@@ -3632,7 +3632,7 @@ try {} catch({ x: "str" }) {}
                 "end": 890
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 874,
             "end": 890
         },
@@ -3789,7 +3789,7 @@ try {} catch({ x: "str" }) {}
                 "end": 923
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 915,
             "end": 923
         },

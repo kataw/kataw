@@ -186,12 +186,12 @@ async function x() {
                                     "end": 44
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 20,
                                 "end": 44
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 45
                         }

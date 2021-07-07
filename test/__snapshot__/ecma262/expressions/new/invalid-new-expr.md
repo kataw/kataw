@@ -44,12 +44,12 @@ new foo ++;
                 },
                 "argumentList": null,
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         },
@@ -65,7 +65,7 @@ new foo ++;
                 "end": 12
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 8,
             "end": 13
         },
@@ -91,12 +91,12 @@ new foo ++;
                 },
                 "argumentList": null,
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 13,
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 18
         },
@@ -112,7 +112,7 @@ new foo ++;
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 20,
             "end": 25
         },
@@ -152,12 +152,12 @@ new foo ++;
                 },
                 "argumentList": null,
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 25,
                 "end": 36
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 37
         },
@@ -192,7 +192,7 @@ new foo ++;
                     },
                     "argumentList": null,
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 2048,
                     "start": 37,
                     "end": 46
                 },
@@ -202,7 +202,7 @@ new foo ++;
                 "end": 49
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 37,
             "end": 50
         }

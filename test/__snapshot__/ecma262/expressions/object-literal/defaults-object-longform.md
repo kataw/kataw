@@ -92,7 +92,7 @@ var { x: x = 10 } = x;
                             "end": 21
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 21
                     }

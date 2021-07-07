@@ -50,7 +50,7 @@ do( try { !xxx while
                     "end": 3
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 3
             },
@@ -109,7 +109,7 @@ do( try { !xxx while
                                 "end": 14
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 9,
                             "end": 14
                         },
@@ -143,7 +143,7 @@ do( try { !xxx while
                                     "end": 20
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 20,
                                 "end": 20
                             },

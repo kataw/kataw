@@ -94,7 +94,7 @@ const {x, y} = obj;
                             "end": 18
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 18
                     }

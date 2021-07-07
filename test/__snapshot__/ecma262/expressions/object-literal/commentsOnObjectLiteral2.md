@@ -169,7 +169,7 @@ var Person = makeClass(
                                                                             "end": 245
                                                                         },
                                                                         "flags": 16,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 217,
                                                                         "end": 246
                                                                     }
@@ -220,7 +220,7 @@ var Person = makeClass(
                             "end": 287
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 287
                     }

@@ -81,7 +81,7 @@ function f(){ "use strict"
                                 "end": 47
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 13,
                             "end": 48
                         },
@@ -120,7 +120,7 @@ function f(){ "use strict"
                                 "end": 57
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 48,
                             "end": 58
                         }

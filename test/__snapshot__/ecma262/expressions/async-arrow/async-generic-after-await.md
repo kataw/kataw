@@ -80,12 +80,12 @@ async () => {
                                         "end": 26
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 13,
                                     "end": 26
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 13,
                                 "end": 27
                             },
@@ -166,7 +166,7 @@ async () => {
                                     "end": 49
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 27,
                                 "end": 50
                             }
@@ -187,7 +187,7 @@ async () => {
                 "end": 52
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 53
         }

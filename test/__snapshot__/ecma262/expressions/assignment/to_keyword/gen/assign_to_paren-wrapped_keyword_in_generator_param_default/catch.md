@@ -84,7 +84,7 @@ function *f(x = (catch) = f) {}
                             "end": 17
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 17
                     }
@@ -184,7 +184,7 @@ function *f(x = (catch) = f) {}
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 27
         },

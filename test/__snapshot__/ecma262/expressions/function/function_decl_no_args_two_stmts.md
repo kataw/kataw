@@ -64,7 +64,7 @@ function f(){foo;bar}
                                 "end": 16
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 13,
                             "end": 17
                         },
@@ -80,7 +80,7 @@ function f(){foo;bar}
                                 "end": 20
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 17,
                             "end": 20
                         }

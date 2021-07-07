@@ -82,7 +82,7 @@ export bar, * as foo from 'bar';
                             "end": 16
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 11,
                         "end": 16
                     }
@@ -93,7 +93,7 @@ export bar, * as foo from 'bar';
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 16
         },
@@ -109,7 +109,7 @@ export bar, * as foo from 'bar';
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 16,
             "end": 20
         },
@@ -125,7 +125,7 @@ export bar, * as foo from 'bar';
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 20,
             "end": 25
         },
@@ -141,7 +141,7 @@ export bar, * as foo from 'bar';
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 32
         }

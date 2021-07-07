@@ -108,7 +108,7 @@ let [a, my_var] = [1, 2]; my_var;
                             "end": 24
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
@@ -135,7 +135,7 @@ let [a, my_var] = [1, 2]; my_var;
                 "end": 32
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 33
         }

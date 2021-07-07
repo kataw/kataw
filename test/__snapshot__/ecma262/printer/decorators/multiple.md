@@ -71,7 +71,7 @@ const foo = {
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 13
                     }
@@ -332,7 +332,7 @@ const foo = {
                 "end": 122
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 66,
             "end": 122
         },
@@ -348,7 +348,7 @@ const foo = {
                 "end": 125
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 123,
             "end": 125
         },
@@ -400,7 +400,7 @@ const foo = {
                             "end": 143
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 135,
                         "end": 143
                     }
@@ -540,7 +540,7 @@ const foo = {
                 "end": 247
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 217,
             "end": 247
         },

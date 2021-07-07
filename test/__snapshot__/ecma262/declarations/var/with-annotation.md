@@ -56,7 +56,7 @@ let {x}: string = y;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
@@ -83,7 +83,7 @@ let {x}: string = y;
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 14
         },
@@ -130,7 +130,7 @@ let {x}: string = y;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 19,
                         "end": 23
                     }
@@ -180,7 +180,7 @@ let {x}: string = y;
                 "end": 35
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 24,
             "end": 36
         },
@@ -219,7 +219,7 @@ let {x}: string = y;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 43,
                                         "end": 44
                                     }
@@ -238,7 +238,7 @@ let {x}: string = y;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 41,
                         "end": 44
                     }
@@ -265,7 +265,7 @@ let {x}: string = y;
                 "end": 51
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 45,
             "end": 51
         },
@@ -304,7 +304,7 @@ let {x}: string = y;
                 "end": 64
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 53,
             "end": 65
         },
@@ -351,7 +351,7 @@ let {x}: string = y;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 70,
                         "end": 74
                     }
@@ -401,7 +401,7 @@ let {x}: string = y;
                 "end": 86
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 75,
             "end": 87
         }

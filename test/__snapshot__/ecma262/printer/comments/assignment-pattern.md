@@ -63,7 +63,7 @@ let {d //comment
                                             "end": 28
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 8,
                                         "end": 28
                                     }
@@ -90,7 +90,7 @@ let {d //comment
                             "end": 34
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 34
                     }
@@ -148,7 +148,7 @@ let {d //comment
                                             "end": 50
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 44,
                                         "end": 50
                                     }
@@ -175,7 +175,7 @@ let {d //comment
                             "end": 70
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 42,
                         "end": 70
                     }
@@ -233,7 +233,7 @@ let {d //comment
                                             "end": 93
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 78,
                                         "end": 93
                                     }
@@ -260,7 +260,7 @@ let {d //comment
                             "end": 98
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 76,
                         "end": 98
                     }

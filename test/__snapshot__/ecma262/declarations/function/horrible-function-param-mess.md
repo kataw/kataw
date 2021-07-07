@@ -266,7 +266,7 @@ function processArgs<A1: {}, A2: {}>(
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 37,
                         "end": 65
                     }
@@ -578,7 +578,7 @@ function processArgs<A1: {}, A2: {}>(
                                             },
                                             "right": null,
                                             "flags": 33,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 160,
                                             "end": 213
                                         }
@@ -816,7 +816,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 },
                                                 "right": null,
                                                 "flags": 33,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 246,
                                                 "end": 259
                                             },
@@ -861,7 +861,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 },
                                                 "right": null,
                                                 "flags": 33,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 246,
                                                 "end": 273
                                             },
@@ -906,7 +906,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 },
                                                 "right": null,
                                                 "flags": 33,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 246,
                                                 "end": 292
                                             },
@@ -951,7 +951,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 },
                                                 "right": null,
                                                 "flags": 33,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 246,
                                                 "end": 305
                                             }

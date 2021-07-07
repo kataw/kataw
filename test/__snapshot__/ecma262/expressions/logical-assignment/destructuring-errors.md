@@ -113,7 +113,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         },
@@ -216,7 +216,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "end": 41
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 42
         },
@@ -313,7 +313,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "end": 64
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 42,
             "end": 65
         },
@@ -335,7 +335,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "end": 80
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 65,
             "end": 80
         },
@@ -374,7 +374,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "end": 91
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 89,
                             "end": 91
                         },
@@ -477,7 +477,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "end": 114
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 95,
             "end": 115
         },
@@ -580,7 +580,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "end": 138
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 115,
             "end": 139
         },
@@ -677,7 +677,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "end": 161
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 139,
             "end": 162
         },
@@ -699,7 +699,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "end": 177
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 162,
             "end": 177
         },
@@ -738,7 +738,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "end": 188
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 186,
                             "end": 188
                         },
@@ -860,7 +860,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "end": 208
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 192,
             "end": 208
         },
@@ -899,7 +899,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "end": 219
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 217,
                             "end": 219
                         },

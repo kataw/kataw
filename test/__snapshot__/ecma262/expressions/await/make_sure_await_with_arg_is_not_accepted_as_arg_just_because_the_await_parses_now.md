@@ -86,7 +86,7 @@ async function f(){  (await fail) => x  }
                                                 "end": 32
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 22,
                                             "end": 32
                                         }
@@ -120,7 +120,7 @@ async function f(){  (await fail) => x  }
                                 "end": 38
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 19,
                             "end": 38
                         }

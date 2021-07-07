@@ -172,7 +172,7 @@ defaultContent.filter(defaultLocale => {
                                                         "end": 91
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 64,
                                                     "end": 91
                                                 }
@@ -281,7 +281,7 @@ defaultContent.filter(defaultLocale => {
                                                         "end": 153
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 126,
                                                     "end": 153
                                                 }
@@ -298,7 +298,7 @@ defaultContent.filter(defaultLocale => {
                                         "end": 154
                                     },
                                     "flags": 268435488,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 37,
                                     "end": 154
                                 }
@@ -331,17 +331,17 @@ defaultContent.filter(defaultLocale => {
                         "end": 165
                     },
                     "flags": 268435488,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 158,
                     "end": 165
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 165
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 165
         },
@@ -401,12 +401,12 @@ defaultContent.filter(defaultLocale => {
                     "end": 257
                 },
                 "flags": 268435488,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 165,
                 "end": 257
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 165,
             "end": 258
         },
@@ -576,12 +576,12 @@ defaultContent.filter(defaultLocale => {
                                 "end": 370
                             },
                             "flags": 268435488,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 287,
                             "end": 370
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 265,
                         "end": 370
                     }
@@ -715,12 +715,12 @@ defaultContent.filter(defaultLocale => {
                     "end": 436
                 },
                 "flags": 536870944,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 371,
                 "end": 436
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 371,
             "end": 437
         }

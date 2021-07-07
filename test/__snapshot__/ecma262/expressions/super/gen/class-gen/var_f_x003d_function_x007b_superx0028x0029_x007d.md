@@ -222,7 +222,7 @@ class C { *method() { var f = function { super(); } } }
                                                                 "end": 48
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 25,
                                                             "end": 48
                                                         }

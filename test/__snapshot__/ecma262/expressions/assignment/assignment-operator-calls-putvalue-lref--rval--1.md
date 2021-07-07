@@ -78,7 +78,7 @@ Object.defineProperty(this, "x", {
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
@@ -126,7 +126,7 @@ Object.defineProperty(this, "x", {
                             "end": 32
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 18,
                         "end": 32
                     }
@@ -269,7 +269,7 @@ Object.defineProperty(this, "x", {
                 "end": 105
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 33,
             "end": 106
         },
@@ -411,7 +411,7 @@ Object.defineProperty(this, "x", {
                                                                             "end": 189
                                                                         },
                                                                         "flags": 16,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 177,
                                                                         "end": 190
                                                                     },
@@ -505,7 +505,7 @@ Object.defineProperty(this, "x", {
                                                                             "end": 219
                                                                         },
                                                                         "flags": 16,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 190,
                                                                         "end": 220
                                                                     },
@@ -535,7 +535,7 @@ Object.defineProperty(this, "x", {
                                                                             "end": 232
                                                                         },
                                                                         "flags": 16,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 220,
                                                                         "end": 233
                                                                     }
@@ -568,7 +568,7 @@ Object.defineProperty(this, "x", {
                                             "end": 238
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 137,
                                         "end": 239
                                     },
@@ -598,7 +598,7 @@ Object.defineProperty(this, "x", {
                                             "end": 249
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 239,
                                         "end": 250
                                     }
@@ -639,7 +639,7 @@ Object.defineProperty(this, "x", {
                 "end": 255
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 106,
             "end": 256
         }

@@ -194,7 +194,7 @@ do do do catch { try while while while
                                                             "end": 38
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 38,
                                                         "end": 38
                                                     },

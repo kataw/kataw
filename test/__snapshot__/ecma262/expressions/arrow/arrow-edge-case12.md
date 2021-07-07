@@ -174,7 +174,7 @@ a ? b ? (c => d) : e => f : g;
                         "end": 29
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 3,
                     "end": 29
                 },
@@ -189,12 +189,12 @@ a ? b ? (c => d) : e => f : g;
                     "end": 29
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 30
         }

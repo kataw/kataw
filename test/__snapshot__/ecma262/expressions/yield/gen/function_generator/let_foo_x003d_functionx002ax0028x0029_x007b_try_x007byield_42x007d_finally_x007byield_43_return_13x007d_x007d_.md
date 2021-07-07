@@ -197,12 +197,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                     "end": 77
                                                                                                 },
                                                                                                 "flags": 32,
-                                                                                                "transformFlags": 0,
+                                                                                                "transformFlags": 4096,
                                                                                                 "start": 69,
                                                                                                 "end": 77
                                                                                             },
                                                                                             "flags": 16,
-                                                                                            "transformFlags": 0,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 69,
                                                                                             "end": 77
                                                                                         }
@@ -253,12 +253,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                     "end": 96
                                                                                                 },
                                                                                                 "flags": 32,
-                                                                                                "transformFlags": 0,
+                                                                                                "transformFlags": 4096,
                                                                                                 "start": 88,
                                                                                                 "end": 96
                                                                                             },
                                                                                             "flags": 16,
-                                                                                            "transformFlags": 0,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 88,
                                                                                             "end": 97
                                                                                         },
@@ -319,7 +319,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                             "end": 110
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 43,
                                                         "end": 110
                                                     }

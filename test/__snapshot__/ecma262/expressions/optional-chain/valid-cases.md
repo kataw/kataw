@@ -68,7 +68,7 @@ x?.['y z']();
                 "end": 10
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         },
@@ -139,7 +139,7 @@ x?.['y z']();
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 23
         },
@@ -210,7 +210,7 @@ x?.['y z']();
                 "end": 36
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 23,
             "end": 37
         }

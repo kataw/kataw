@@ -61,7 +61,7 @@ if ( a instanceof b > c ) ;
                         "end": 19
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 4,
                     "end": 19
                 },
@@ -82,7 +82,7 @@ if ( a instanceof b > c ) ;
                     "end": 23
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 4,
                 "end": 23
             },

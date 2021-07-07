@@ -51,7 +51,7 @@ var x = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 7
                     },
@@ -69,7 +69,7 @@ var x = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 8,
                         "end": 16
                     },
@@ -87,7 +87,7 @@ var x = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 25
                     }
@@ -172,7 +172,7 @@ var x = {
                             "end": 65
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 31,
                         "end": 65
                     }

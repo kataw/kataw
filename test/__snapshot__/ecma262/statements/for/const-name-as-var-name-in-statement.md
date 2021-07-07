@@ -58,7 +58,7 @@ for (const x = y;;) { var x; }
                                 "end": 16
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 16
                         }
@@ -107,7 +107,7 @@ for (const x = y;;) { var x; }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 25,
                                         "end": 27
                                     }

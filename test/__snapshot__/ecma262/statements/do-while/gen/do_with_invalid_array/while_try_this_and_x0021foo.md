@@ -210,7 +210,7 @@ do while [catch] while try this and !foo
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 26,
             "end": 31
         },
@@ -226,7 +226,7 @@ do while [catch] while try this and !foo
                 "end": 35
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 31,
             "end": 35
         },
@@ -256,7 +256,7 @@ do while [catch] while try this and !foo
                 "end": 40
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 35,
             "end": 40
         }

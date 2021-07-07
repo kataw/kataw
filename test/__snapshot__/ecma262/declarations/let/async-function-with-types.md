@@ -178,7 +178,7 @@ const f = async <T, R, S>(
                                         },
                                         "right": null,
                                         "flags": 33,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 26,
                                         "end": 33
                                     },
@@ -223,7 +223,7 @@ const f = async <T, R, S>(
                                         },
                                         "right": null,
                                         "flags": 33,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 34,
                                         "end": 41
                                     },
@@ -268,7 +268,7 @@ const f = async <T, R, S>(
                                         },
                                         "right": null,
                                         "flags": 33,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 42,
                                         "end": 49
                                     }
@@ -331,7 +331,7 @@ const f = async <T, R, S>(
                             "end": 74
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 74
                     }

@@ -102,7 +102,7 @@ let {x:y=z}, {a:b=c} = obj;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     },
@@ -170,7 +170,7 @@ let {x:y=z}, {a:b=c} = obj;
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 12,
                         "end": 26
                     }

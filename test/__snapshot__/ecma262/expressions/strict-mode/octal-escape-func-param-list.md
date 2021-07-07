@@ -90,7 +90,7 @@ function foo(p\141ckage) { "use strict"; }
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 18
         },
@@ -106,7 +106,7 @@ function foo(p\141ckage) { "use strict"; }
                 "end": 23
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 23
         },
@@ -127,7 +127,7 @@ function foo(p\141ckage) { "use strict"; }
                             "end": 39
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 26,
                         "end": 40
                     }

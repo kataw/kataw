@@ -100,7 +100,7 @@ class C { a\n get }
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 12,
             "end": 13
         },
@@ -116,7 +116,7 @@ class C { a\n get }
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 17
         }

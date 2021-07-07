@@ -107,7 +107,7 @@ async function * gen() {await (yield 10)}
                                             "end": 39
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 31,
                                         "end": 39
                                     },
@@ -117,12 +117,12 @@ async function * gen() {await (yield 10)}
                                     "end": 40
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 24,
                                 "end": 40
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 40
                         }

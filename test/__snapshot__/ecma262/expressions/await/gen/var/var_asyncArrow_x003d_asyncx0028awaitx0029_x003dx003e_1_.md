@@ -49,7 +49,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -105,7 +105,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                             "end": 68
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 68
                     }
@@ -132,7 +132,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                 "end": 73
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 71,
             "end": 74
         },

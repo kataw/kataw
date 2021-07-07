@@ -85,7 +85,7 @@ let x = (y: any): ([,[b]]) => {} => { };
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 15
                                     }
@@ -249,7 +249,7 @@ let x = (y: any): ([,[b]]) => {} => { };
                             "end": 24
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }

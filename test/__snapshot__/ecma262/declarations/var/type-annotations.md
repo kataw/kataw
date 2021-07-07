@@ -144,7 +144,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
@@ -324,7 +324,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 55
                     }
@@ -561,7 +561,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 59,
                         "end": 95
                     }
@@ -625,7 +625,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 99,
                         "end": 113
                     }
@@ -703,7 +703,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 117,
                         "end": 132
                     }
@@ -819,7 +819,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 136,
                         "end": 157
                     }
@@ -966,7 +966,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "end": 198
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 161,
                         "end": 198
                     }
@@ -1055,7 +1055,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "end": 220
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 203,
                         "end": 220
                     }
@@ -1160,7 +1160,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "end": 251
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 225,
                         "end": 251
                     }
@@ -1316,7 +1316,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "end": 295
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 256,
                         "end": 295
                     }

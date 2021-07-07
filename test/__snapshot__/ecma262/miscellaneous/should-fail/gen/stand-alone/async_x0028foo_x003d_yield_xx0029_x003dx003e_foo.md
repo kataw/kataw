@@ -61,7 +61,7 @@ async (foo = yield x) => foo
                                 "end": 18
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 18
                         },
@@ -104,7 +104,7 @@ async (foo = yield x) => foo
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 28
         }

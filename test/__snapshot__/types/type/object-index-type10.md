@@ -385,7 +385,7 @@ type X = {[(x) =>x]: string, ({[(x) =>x]: string, (): string}): string};
                 "end": 70
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 63,
             "end": 70
         },

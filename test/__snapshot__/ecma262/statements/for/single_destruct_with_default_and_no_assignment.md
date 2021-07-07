@@ -67,7 +67,7 @@ for (let {x=y};;);
                                                 "end": 13
                                             },
                                             "flags": 0,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 10,
                                             "end": 13
                                         }
@@ -86,7 +86,7 @@ for (let {x=y};;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 14
                         }

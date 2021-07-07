@@ -120,7 +120,7 @@ function *g(){ return x + f(yield f); }
                                                     "end": 35
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 28,
                                                 "end": 35
                                             }
@@ -137,7 +137,7 @@ function *g(){ return x + f(yield f); }
                                     "end": 36
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 21,
                                 "end": 36
                             },

@@ -89,7 +89,7 @@ export *, {bar} from 'bar';
                             "end": 14
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 14
                     }
@@ -116,7 +116,7 @@ export *, {bar} from 'bar';
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 20
         },
@@ -132,7 +132,7 @@ export *, {bar} from 'bar';
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 20,
             "end": 27
         }

@@ -143,7 +143,7 @@ function* gf() { var fe = function yield() { } }
                                             "end": 46
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 20,
                                         "end": 46
                                     }

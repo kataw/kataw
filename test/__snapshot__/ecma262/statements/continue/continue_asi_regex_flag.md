@@ -82,7 +82,7 @@ for (x of 3) continue
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 26
         }
@@ -100,7 +100,7 @@ for (x of 3) continue
 ### Printed
 
 ```javascript
-for (x of 3) continue ;
+for (x of 3) continue;
 /x/g;
 
 ```

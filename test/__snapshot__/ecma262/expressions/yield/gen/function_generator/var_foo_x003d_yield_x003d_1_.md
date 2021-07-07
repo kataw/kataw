@@ -160,7 +160,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                             "end": 59
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 43,
                                                         "end": 59
                                                     }

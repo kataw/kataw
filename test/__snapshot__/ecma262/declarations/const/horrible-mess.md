@@ -263,7 +263,7 @@ const processArgs =
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 19,
                                         "end": 64
                                     }
@@ -568,7 +568,7 @@ const processArgs =
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 68,
                                             "end": 118
                                         }
@@ -635,7 +635,7 @@ const processArgs =
                                                 },
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 122,
                                                 "end": 132
                                             },
@@ -680,7 +680,7 @@ const processArgs =
                                                 },
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 122,
                                                 "end": 142
                                             },
@@ -725,7 +725,7 @@ const processArgs =
                                                 },
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 122,
                                                 "end": 157
                                             },
@@ -770,7 +770,7 @@ const processArgs =
                                                 },
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 122,
                                                 "end": 166
                                             }
@@ -1064,7 +1064,7 @@ const processArgs =
                             "end": 247
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 247
                     }

@@ -90,7 +90,7 @@ var {arguments: x, ...z} = {};
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 18,
                                         "end": 23
                                     }
@@ -124,7 +124,7 @@ var {arguments: x, ...z} = {};
                             "end": 29
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 29
                     }

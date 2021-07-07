@@ -159,7 +159,7 @@ x = class {y = 1; 'z' = 2}
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         },
@@ -344,7 +344,7 @@ x = class {y = 1; 'z' = 2}
                 "end": 56
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 26,
             "end": 56
         },
@@ -551,7 +551,7 @@ x = class {y = 1; 'z' = 2}
                 "end": 95
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 56,
             "end": 95
         },
@@ -758,7 +758,7 @@ x = class {y = 1; 'z' = 2}
                 "end": 134
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 95,
             "end": 134
         },
@@ -891,7 +891,7 @@ x = class {y = 1; 'z' = 2}
                 "end": 162
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 134,
             "end": 162
         }

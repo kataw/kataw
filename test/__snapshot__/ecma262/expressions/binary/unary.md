@@ -99,7 +99,7 @@ const anyTestFailures = !(
                                             "end": 67
                                         },
                                         "flags": 97,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 25,
                                         "end": 67
                                     },
@@ -154,12 +154,12 @@ const anyTestFailures = !(
                                             "end": 122
                                         },
                                         "flags": 97,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 116,
                                         "end": 122
                                     },
                                     "flags": 97,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 25,
                                     "end": 122
                                 },
@@ -174,7 +174,7 @@ const anyTestFailures = !(
                             "end": 124
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 124
                     }

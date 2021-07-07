@@ -57,7 +57,7 @@ for (var x in {a: 1}) label: function f() { };
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         }

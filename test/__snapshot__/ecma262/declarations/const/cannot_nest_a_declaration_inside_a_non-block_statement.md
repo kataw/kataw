@@ -104,7 +104,7 @@ switch (x) { case x: const y = x }
                                                 "end": 32
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 26,
                                             "end": 32
                                         }

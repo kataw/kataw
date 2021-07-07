@@ -100,7 +100,7 @@ class x {do: x}
                 "end": 14
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 12,
             "end": 14
         }

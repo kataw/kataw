@@ -125,12 +125,12 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                     "end": 46
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 38,
                                                 "end": 46
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 38,
                                             "end": 47
                                         },
@@ -178,12 +178,12 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                                     "end": 67
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 59,
                                                                 "end": 67
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 59,
                                                             "end": 67
                                                         }
@@ -235,12 +235,12 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                     "end": 78
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 70,
                                                 "end": 78
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 70,
                                             "end": 78
                                         }

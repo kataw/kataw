@@ -60,7 +60,7 @@ do do do /**/ /x do while while while while
                             "end": 43
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 8,
                         "end": 43
                     },

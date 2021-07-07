@@ -147,7 +147,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 22,
                         "end": 26
                     }
@@ -214,7 +214,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 0,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 64,
                                                         "end": 69
                                                     }
@@ -241,7 +241,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                             "end": 74
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 60,
                                         "end": 74
                                     }

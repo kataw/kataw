@@ -44,7 +44,7 @@ typeof x;
                 "end": 2
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 3
         },
@@ -74,7 +74,7 @@ typeof x;
                 "end": 6
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3,
             "end": 7
         },
@@ -104,7 +104,7 @@ typeof x;
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 7,
             "end": 18
         }

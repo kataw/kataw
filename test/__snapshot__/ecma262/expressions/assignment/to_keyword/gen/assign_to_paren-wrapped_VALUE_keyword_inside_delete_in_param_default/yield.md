@@ -95,7 +95,7 @@ function *f(x = delete ((yield) = f)) {}
                                             "asteriskToken": null,
                                             "expression": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 25,
                                             "end": 30
                                         },
@@ -136,7 +136,7 @@ function *f(x = delete ((yield) = f)) {}
                             "end": 36
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 36
                     }

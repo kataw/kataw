@@ -69,7 +69,7 @@ let f = a + b + async()=>d
                                     "end": 13
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 7,
                                 "end": 13
                             },
@@ -122,12 +122,12 @@ let f = a + b + async()=>d
                                 "end": 26
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 7,
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 26
                     }

@@ -109,7 +109,7 @@ let y: [.../*1*/x/*2*/];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 21
                     }
@@ -208,7 +208,7 @@ let y: [.../*1*/x/*2*/];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 27,
                         "end": 47
                     }

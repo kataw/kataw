@@ -67,7 +67,7 @@ for (let [foo = x]);
                                                 "end": 17
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 10,
                                             "end": 17
                                         }
@@ -86,7 +86,7 @@ for (let [foo = x]);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 18
                         }

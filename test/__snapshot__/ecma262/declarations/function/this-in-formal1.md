@@ -79,7 +79,7 @@ function one(this: number) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 25
                     }

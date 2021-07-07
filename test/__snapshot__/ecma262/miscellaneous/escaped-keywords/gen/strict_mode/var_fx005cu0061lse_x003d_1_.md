@@ -78,7 +78,7 @@ var f\u0061lse = 1;
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3,
             "end": 19
         }

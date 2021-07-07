@@ -177,7 +177,7 @@ var z : Object = (x) => "hi"
                             "end": 105
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 63,
                         "end": 105
                     }
@@ -327,7 +327,7 @@ var z : Object = (x) => "hi"
                             "end": 205
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 164,
                         "end": 205
                     }
@@ -412,7 +412,7 @@ var z : Object = (x) => "hi"
                             "end": 294
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 275,
                         "end": 294
                     }
@@ -478,7 +478,7 @@ var z : Object = (x) => "hi"
                 "end": 310
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 295,
             "end": 311
         },
@@ -572,7 +572,7 @@ var z : Object = (x) => "hi"
                             "end": 342
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 315,
                         "end": 342
                     }
@@ -778,7 +778,7 @@ var z : Object = (x) => "hi"
                             "end": 397
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 348,
                         "end": 397
                     }
@@ -952,7 +952,7 @@ var z : Object = (x) => "hi"
                             "end": 500
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 459,
                         "end": 500
                     }
@@ -1158,7 +1158,7 @@ var z : Object = (x) => "hi"
                             "end": 589
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 541,
                         "end": 589
                     }
@@ -1297,7 +1297,7 @@ var z : Object = (x) => "hi"
                             "end": 657
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 625,
                         "end": 657
                     }
@@ -1468,7 +1468,7 @@ var z : Object = (x) => "hi"
                             "end": 734
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 700,
                         "end": 734
                     }
@@ -1607,7 +1607,7 @@ var z : Object = (x) => "hi"
                             "end": 777
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 747,
                         "end": 777
                     }
@@ -1812,12 +1812,12 @@ var z : Object = (x) => "hi"
                                                     "end": 836
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 830,
                                                 "end": 836
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 830,
                                             "end": 836
                                         }
@@ -1838,7 +1838,7 @@ var z : Object = (x) => "hi"
                             "end": 838
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 796,
                         "end": 838
                     }
@@ -1941,7 +1941,7 @@ var z : Object = (x) => "hi"
                             "end": 925
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 904,
                         "end": 925
                     }
@@ -2052,7 +2052,7 @@ var z : Object = (x) => "hi"
                             "end": 954
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 929,
                         "end": 954
                     }

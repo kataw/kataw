@@ -82,7 +82,7 @@ for (let [foo,,] = arr);
                                 "end": 22
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 22
                         }

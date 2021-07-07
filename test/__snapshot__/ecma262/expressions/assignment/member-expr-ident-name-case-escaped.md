@@ -66,7 +66,7 @@ obj.c\u0061se = 42;
                             "end": 12
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 12
                     }
@@ -132,7 +132,7 @@ obj.c\u0061se = 42;
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 34
         }

@@ -45,7 +45,7 @@ if (foo) a; if (bar) b; else c;
                     "end": 10
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 11
             },
@@ -86,7 +86,7 @@ if (foo) a; if (bar) b; else c;
                     "end": 22
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 20,
                 "end": 23
             },
@@ -109,7 +109,7 @@ if (foo) a; if (bar) b; else c;
                     "end": 30
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 28,
                 "end": 31
             },

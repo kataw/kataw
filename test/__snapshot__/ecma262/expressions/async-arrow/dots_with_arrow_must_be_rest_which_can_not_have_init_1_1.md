@@ -77,7 +77,7 @@ async (a, ...b+b=c) => a;
                                     "end": 16
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 9,
                                 "end": 16
                             },
@@ -99,7 +99,7 @@ async (a, ...b+b=c) => a;
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         },
@@ -115,7 +115,7 @@ async (a, ...b+b=c) => a;
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 18
         },
@@ -131,7 +131,7 @@ async (a, ...b+b=c) => a;
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 25
         }

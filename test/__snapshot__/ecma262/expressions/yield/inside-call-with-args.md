@@ -95,7 +95,7 @@ function* f(){ call(yield x); }
                                                 "end": 27
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 27
                                         }
@@ -112,7 +112,7 @@ function* f(){ call(yield x); }
                                 "end": 28
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 29
                         }

@@ -211,7 +211,7 @@ let x = { foo(){ super(); } };
                 "end": 58
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 56,
             "end": 58
         },
@@ -605,7 +605,7 @@ let x = { foo(){ super(); } };
                 "end": 161
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 158,
             "end": 161
         },
@@ -725,7 +725,7 @@ let x = { foo(){ super(); } };
                 "end": 189
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 184,
             "end": 189
         },
@@ -1028,7 +1028,7 @@ let x = { foo(){ super(); } };
                 "end": 251
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 247,
             "end": 251
         },
@@ -1171,7 +1171,7 @@ let x = { foo(){ super(); } };
                                                     "end": 295
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 285,
                                                 "end": 295
                                             },
@@ -1389,7 +1389,7 @@ let x = { foo(){ super(); } };
                                                     "end": 357
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 355,
                                                 "end": 357
                                             },
@@ -1910,7 +1910,7 @@ let x = { foo(){ super(); } };
                 "end": 482
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 479,
             "end": 482
         },
@@ -2027,7 +2027,7 @@ let x = { foo(){ super(); } };
                                                         "end": 523
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 513,
                                                     "end": 524
                                                 }
@@ -2071,7 +2071,7 @@ let x = { foo(){ super(); } };
                 "end": 527
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 492,
             "end": 528
         },
@@ -2157,7 +2157,7 @@ let x = { foo(){ super(); } };
                                     "end": 553
                                 },
                                 "flags": 34,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 542,
                                 "end": 553
                             }
@@ -2196,7 +2196,7 @@ let x = { foo(){ super(); } };
                 "end": 557
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 528,
             "end": 558
         },
@@ -2299,7 +2299,7 @@ let x = { foo(){ super(); } };
                                                         "end": 586
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 578,
                                                     "end": 586
                                                 }
@@ -2343,7 +2343,7 @@ let x = { foo(){ super(); } };
                 "end": 588
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 558,
             "end": 588
         },
@@ -2439,7 +2439,7 @@ let x = { foo(){ super(); } };
                                                         "end": 616
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 608,
                                                     "end": 617
                                                 }
@@ -2482,7 +2482,7 @@ let x = { foo(){ super(); } };
                 "end": 620
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 590,
             "end": 621
         },
@@ -2549,7 +2549,7 @@ let x = { foo(){ super(); } };
                             "end": 644
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 633,
                         "end": 644
                     }
@@ -2652,7 +2652,7 @@ let x = { foo(){ super(); } };
                                 "end": 671
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 663,
                             "end": 672
                         }
@@ -2746,12 +2746,12 @@ let x = { foo(){ super(); } };
                                 "end": 697
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 685,
                             "end": 697
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 681,
                         "end": 697
                     }
@@ -2862,7 +2862,7 @@ let x = { foo(){ super(); } };
                                                                 "end": 724
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 716,
                                                             "end": 725
                                                         }
@@ -2900,7 +2900,7 @@ let x = { foo(){ super(); } };
                             "end": 729
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 703,
                         "end": 729
                     }

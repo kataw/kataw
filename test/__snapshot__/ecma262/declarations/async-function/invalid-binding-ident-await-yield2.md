@@ -99,7 +99,7 @@ async function bar () {
                                             "end": 39
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 29,
                                         "end": 39
                                     }
@@ -208,7 +208,7 @@ async function bar () {
                                             "end": 83
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 73,
                                         "end": 83
                                     }

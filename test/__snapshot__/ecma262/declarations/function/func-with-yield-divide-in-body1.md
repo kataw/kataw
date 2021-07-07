@@ -92,7 +92,7 @@ function f1() { yield / 1 /g }
                                         "end": 25
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 15,
                                     "end": 25
                                 },
@@ -113,12 +113,12 @@ function f1() { yield / 1 /g }
                                     "end": 28
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 15,
                                 "end": 28
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 28
                         }

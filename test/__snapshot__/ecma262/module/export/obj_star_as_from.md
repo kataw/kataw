@@ -104,12 +104,12 @@ export {bar}, * as foo from 'bar';
                     "end": 18
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 13,
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 18
         },
@@ -125,7 +125,7 @@ export {bar}, * as foo from 'bar';
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 22
         },
@@ -141,7 +141,7 @@ export {bar}, * as foo from 'bar';
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 27
         },
@@ -157,7 +157,7 @@ export {bar}, * as foo from 'bar';
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 34
         }

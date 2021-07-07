@@ -132,7 +132,7 @@
                                                 "end": 61
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 48,
                                             "end": 61
                                         },
@@ -212,7 +212,7 @@
 function *gf() {
   switch (1) {
     case yield* "'foo'":
-      break ;
+      break;
   }
 }
 ```

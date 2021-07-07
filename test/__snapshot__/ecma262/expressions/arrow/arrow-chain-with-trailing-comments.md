@@ -181,7 +181,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                                                     "end": 153
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 118,
                                                 "end": 154
                                             }
@@ -222,7 +222,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                 "end": 166
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 166
         },
@@ -362,7 +362,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                                                 "end": 285
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 279,
                                             "end": 286
                                         }
@@ -398,7 +398,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                 "end": 308
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 166,
             "end": 308
         }

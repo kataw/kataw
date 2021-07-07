@@ -57,7 +57,7 @@ p\u0061ckage = x;
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }

@@ -58,7 +58,7 @@ for (let x = 0; x < 10;) {
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
@@ -116,7 +116,7 @@ for (let x = 0; x < 10;) {
                                 "end": 29
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 23,
                             "end": 29
                         }
@@ -160,7 +160,7 @@ for (let x = 0; x < 10;) {
                     "end": 37
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 30,
                 "end": 37
             },
@@ -195,7 +195,7 @@ for (let x = 0; x < 10;) {
                                 "end": 47
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 41,
                             "end": 48
                         },
@@ -242,7 +242,7 @@ for (let x = 0; x < 10;) {
                                                 "end": 65
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 59,
                                             "end": 65
                                         }
@@ -286,7 +286,7 @@ for (let x = 0; x < 10;) {
                                     "end": 72
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 66,
                                 "end": 72
                             },
@@ -321,7 +321,7 @@ for (let x = 0; x < 10;) {
                                                 "end": 84
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 76,
                                             "end": 85
                                         },
@@ -351,7 +351,7 @@ for (let x = 0; x < 10;) {
                                                 "end": 97
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 85,
                                             "end": 98
                                         }
@@ -423,7 +423,7 @@ for (let x = 0; ; x  < 10) {
         y++;
         count++;
       }
-    continue ;
+    continue;
   }
 
 ```

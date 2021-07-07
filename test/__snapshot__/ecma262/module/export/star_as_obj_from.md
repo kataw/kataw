@@ -103,7 +103,7 @@ export * as foo, {bar} from 'bar';
                             "end": 21
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 18,
                         "end": 21
                     }
@@ -130,7 +130,7 @@ export * as foo, {bar} from 'bar';
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 27
         },
@@ -146,7 +146,7 @@ export * as foo, {bar} from 'bar';
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 34
         }

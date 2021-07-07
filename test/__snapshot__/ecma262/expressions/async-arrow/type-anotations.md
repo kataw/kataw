@@ -91,7 +91,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 17
                         }
@@ -132,7 +132,7 @@ async (...[x]?: string, a?) => {};
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         },
@@ -199,7 +199,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 34,
                             "end": 45
                         },
@@ -249,7 +249,7 @@ async (...[x]?: string, a?) => {};
                 "end": 55
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 56
         },
@@ -316,7 +316,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 65,
                             "end": 76
                         },
@@ -366,7 +366,7 @@ async (...[x]?: string, a?) => {};
                 "end": 86
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 56,
             "end": 87
         },
@@ -433,7 +433,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 96,
                             "end": 107
                         },
@@ -468,7 +468,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 108,
                             "end": 118
                         }
@@ -509,7 +509,7 @@ async (...[x]?: string, a?) => {};
                 "end": 125
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 87,
             "end": 126
         },
@@ -582,7 +582,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 135,
                             "end": 147
                         },
@@ -632,7 +632,7 @@ async (...[x]?: string, a?) => {};
                 "end": 157
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 126,
             "end": 158
         },
@@ -705,7 +705,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 167,
                             "end": 179
                         },
@@ -731,7 +731,7 @@ async (...[x]?: string, a?) => {};
                             "type": null,
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 180,
                             "end": 183
                         }
@@ -772,7 +772,7 @@ async (...[x]?: string, a?) => {};
                 "end": 190
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 158,
             "end": 191
         },
@@ -828,7 +828,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 200,
                             "end": 212
                         }
@@ -869,7 +869,7 @@ async (...[x]?: string, a?) => {};
                 "end": 219
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 191,
             "end": 220
         },
@@ -931,7 +931,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 229,
                             "end": 242
                         }
@@ -972,7 +972,7 @@ async (...[x]?: string, a?) => {};
                 "end": 249
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 220,
             "end": 250
         },
@@ -1046,7 +1046,7 @@ async (...[x]?: string, a?) => {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 259,
                             "end": 274
                         },
@@ -1072,7 +1072,7 @@ async (...[x]?: string, a?) => {};
                             "type": null,
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 275,
                             "end": 278
                         }
@@ -1089,7 +1089,7 @@ async (...[x]?: string, a?) => {};
                 "end": 279
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 250,
             "end": 279
         },

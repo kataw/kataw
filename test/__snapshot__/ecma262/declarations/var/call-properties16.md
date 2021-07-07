@@ -214,7 +214,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                             "end": 51
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 51
                     }

@@ -127,7 +127,7 @@ async function * gen() {yield 3 + (yield 4);}
                                                 "end": 42
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 35,
                                             "end": 42
                                         },
@@ -137,17 +137,17 @@ async function * gen() {yield 3 + (yield 4);}
                                         "end": 43
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 29,
                                     "end": 43
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 24,
                                 "end": 43
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 44
                         }

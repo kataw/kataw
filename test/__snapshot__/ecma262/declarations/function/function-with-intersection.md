@@ -105,7 +105,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 21
                     },
@@ -166,7 +166,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 22,
                         "end": 33
                     }

@@ -65,7 +65,7 @@ var a: 1e5n
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     },
@@ -83,7 +83,7 @@ var a: 1e5n
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 10,
                         "end": 11
                     }

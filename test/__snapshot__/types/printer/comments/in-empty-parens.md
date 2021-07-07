@@ -113,7 +113,7 @@ f(/* ... */ a, b);
                             "end": 25
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 25
                     }
@@ -198,7 +198,7 @@ f(/* ... */ a, b);
                 "end": 62
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 62
         },
@@ -540,7 +540,7 @@ f(/* ... */ a, b);
                             "end": 206
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 94,
                         "end": 206
                     }
@@ -1032,7 +1032,7 @@ f(/* ... */ a, b);
                 "end": 406
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 392,
             "end": 407
         },
@@ -1074,7 +1074,7 @@ f(/* ... */ a, b);
                 "end": 423
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 407,
             "end": 424
         },
@@ -1125,7 +1125,7 @@ f(/* ... */ a, b);
                 "end": 442
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 424,
             "end": 443
         },
@@ -1176,7 +1176,7 @@ f(/* ... */ a, b);
                 "end": 461
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 443,
             "end": 462
         }

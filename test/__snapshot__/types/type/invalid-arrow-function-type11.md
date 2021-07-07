@@ -134,7 +134,7 @@ type a = ([-1](x)) => T;
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 17
         },
@@ -150,7 +150,7 @@ type a = ([-1](x)) => T;
                 "end": 23
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 24
         }

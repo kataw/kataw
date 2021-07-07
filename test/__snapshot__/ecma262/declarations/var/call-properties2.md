@@ -230,7 +230,7 @@ var c: { (): string; (x: number): string } =
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 113,
                                         "end": 123
                                     }
@@ -303,7 +303,7 @@ var c: { (): string; (x: number): string } =
                             "end": 149
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 59,
                         "end": 149
                     }
@@ -513,7 +513,7 @@ var c: { (): string; (x: number): string } =
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 274,
                                         "end": 283
                                     }
@@ -586,7 +586,7 @@ var c: { (): string; (x: number): string } =
                             "end": 309
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 220,
                         "end": 309
                     }

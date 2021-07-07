@@ -203,7 +203,7 @@ function *f() {
                 "end": 75
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 61,
             "end": 76
         },

@@ -118,7 +118,7 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 0,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 26,
                                                 "end": 30
                                             },
@@ -169,7 +169,7 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                                                                 "type": null,
                                                                 "right": null,
                                                                 "flags": 0,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 33,
                                                                 "end": 41
                                                             }
@@ -353,7 +353,7 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                                     "end": 76
                                 },
                                 "flags": 34,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 20,
                                 "end": 76
                             }
@@ -392,7 +392,7 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                 "end": 80
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 80
         }

@@ -131,7 +131,7 @@ let tuple2: [number, boolean] = [1, true];
                             "end": 41
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 41
                     }

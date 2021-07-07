@@ -81,12 +81,12 @@ function fn(x = await 1) {
                                 "end": 23
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 23
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 23
                     }

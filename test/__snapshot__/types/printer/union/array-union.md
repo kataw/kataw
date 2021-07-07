@@ -107,7 +107,7 @@ let arr: (number|string)[] = [];
                             "end": 31
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 31
                     }

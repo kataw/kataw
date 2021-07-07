@@ -45,7 +45,7 @@ with (foo) bar;
                     "end": 14
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 10,
                 "end": 15
             },

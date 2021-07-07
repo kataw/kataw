@@ -63,7 +63,7 @@ import * as foo from "foo";
                         "end": 11
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 6,
                     "end": 11
                 },
@@ -100,7 +100,7 @@ import * as foo from "foo";
                 "end": 15
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 15
         },
@@ -116,7 +116,7 @@ import * as foo from "foo";
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 20
         },
@@ -132,7 +132,7 @@ import * as foo from "foo";
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 20,
             "end": 27
         }

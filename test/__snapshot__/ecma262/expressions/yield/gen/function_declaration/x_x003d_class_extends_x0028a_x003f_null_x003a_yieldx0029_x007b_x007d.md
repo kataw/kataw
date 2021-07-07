@@ -146,7 +146,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                         "end": 56
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 38,
                                                     "end": 56
                                                 },
@@ -185,7 +185,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                 "end": 61
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 61
                         }

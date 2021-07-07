@@ -96,7 +96,7 @@ switch (0) { case 1: const f = 0; default: function f() {} }
                                                 "end": 32
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 26,
                                             "end": 32
                                         }

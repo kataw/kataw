@@ -49,7 +49,7 @@ var await; var f = (async function() { await.b[c] => async });
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -105,7 +105,7 @@ var await; var f = (async function() { await.b[c] => async });
                             "end": 49
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 49
                     }
@@ -132,7 +132,7 @@ var await; var f = (async function() { await.b[c] => async });
                 "end": 58
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 52,
             "end": 58
         },

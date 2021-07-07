@@ -43,7 +43,7 @@ if (true) const x;
                     "end": 9
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 9,
                 "end": 9
             },
@@ -80,7 +80,7 @@ if (true) const x;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 15,
                         "end": 17
                     }

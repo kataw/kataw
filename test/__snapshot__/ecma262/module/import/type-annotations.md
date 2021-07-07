@@ -524,7 +524,7 @@ import { type Foo12 } from "bar";
                         "end": 188
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 183,
                     "end": 188
                 },
@@ -561,7 +561,7 @@ import { type Foo12 } from "bar";
                 "end": 198
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 188,
             "end": 198
         },
@@ -577,7 +577,7 @@ import { type Foo12 } from "bar";
                 "end": 203
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 198,
             "end": 203
         },
@@ -593,7 +593,7 @@ import { type Foo12 } from "bar";
                 "end": 209
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 203,
             "end": 210
         },

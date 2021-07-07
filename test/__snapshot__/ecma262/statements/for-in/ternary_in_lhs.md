@@ -105,12 +105,12 @@ for (a ? b : c in x);
                         "end": 19
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 12,
                     "end": 19
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 19
             },

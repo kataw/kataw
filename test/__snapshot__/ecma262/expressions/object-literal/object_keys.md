@@ -95,7 +95,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "end": 18
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 18
                     }
@@ -304,7 +304,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                 "end": 64
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 19,
             "end": 65
         },
@@ -402,7 +402,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "end": 93
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 72,
                         "end": 93
                     }
@@ -611,7 +611,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                 "end": 139
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 94,
             "end": 140
         }

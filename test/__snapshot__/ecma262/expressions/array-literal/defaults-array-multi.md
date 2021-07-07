@@ -67,7 +67,7 @@ var [x = 10, y, z] = a;
                                             "end": 11
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -112,7 +112,7 @@ var [x = 10, y, z] = a;
                             "end": 22
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 22
                     }

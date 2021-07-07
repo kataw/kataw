@@ -136,7 +136,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 16,
                         "end": 43
                     }
@@ -213,7 +213,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "end": 71
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 58,
                                         "end": 71
                                     }
@@ -288,7 +288,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "end": 91
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 78,
                                         "end": 91
                                     }
@@ -363,7 +363,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "end": 117
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 104,
                                         "end": 117
                                     }

@@ -82,7 +82,7 @@ function* f() {
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 19,
                                     "end": 24
                                 },
@@ -92,7 +92,7 @@ function* f() {
                                 "end": 25
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 26
                         },
@@ -116,7 +116,7 @@ function* f() {
                                             "asteriskToken": null,
                                             "expression": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 30,
                                             "end": 35
                                         }
@@ -133,7 +133,7 @@ function* f() {
                                 "end": 36
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 26,
                             "end": 37
                         },
@@ -157,12 +157,12 @@ function* f() {
                                             "asteriskToken": null,
                                             "expression": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 41,
                                             "end": 47
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 41,
                                         "end": 47
                                     }
@@ -199,12 +199,12 @@ function* f() {
                                 "asteriskToken": null,
                                 "expression": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 50,
                                 "end": 58
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 50,
                             "end": 59
                         },
@@ -239,7 +239,7 @@ function* f() {
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 68,
                                     "end": 74
                                 },
@@ -260,12 +260,12 @@ function* f() {
                                     "end": 78
                                 },
                                 "flags": 97,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 59,
                                 "end": 78
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 59,
                             "end": 79
                         },
@@ -287,7 +287,7 @@ function* f() {
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 79,
                                         "end": 87
                                     },
@@ -307,7 +307,7 @@ function* f() {
                                 "end": 90
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 79,
                             "end": 91
                         }

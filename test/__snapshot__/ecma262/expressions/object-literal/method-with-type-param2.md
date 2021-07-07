@@ -151,7 +151,7 @@ a={*id<T>(x: T): T {}}
                                                 },
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 10,
                                                 "end": 14
                                             }
@@ -232,7 +232,7 @@ a={*id<T>(x: T): T {}}
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }

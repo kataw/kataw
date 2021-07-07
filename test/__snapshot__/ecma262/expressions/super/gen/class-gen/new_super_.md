@@ -128,12 +128,12 @@ class C { *method() { new super; } }
                                                     },
                                                     "argumentList": null,
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 2048,
                                                     "start": 21,
                                                     "end": 31
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 21,
                                                 "end": 32
                                             }

@@ -51,7 +51,7 @@ foo() in x);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 12
                         }
@@ -95,7 +95,7 @@ foo() in x);
                     "end": 19
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 12,
                 "end": 19
             },

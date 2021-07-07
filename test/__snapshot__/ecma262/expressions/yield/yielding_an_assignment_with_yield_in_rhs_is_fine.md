@@ -120,7 +120,7 @@ function* g(x) { yield x = yield 3; }
                                             "end": 34
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 26,
                                         "end": 34
                                     },
@@ -130,12 +130,12 @@ function* g(x) { yield x = yield 3; }
                                     "end": 34
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 16,
                                 "end": 34
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 35
                         }

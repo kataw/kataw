@@ -221,7 +221,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                                 "end": 78
                                                                                                             },
                                                                                                             "flags": 32,
-                                                                                                            "transformFlags": 0,
+                                                                                                            "transformFlags": 4096,
                                                                                                             "start": 69,
                                                                                                             "end": 78
                                                                                                         }
@@ -238,7 +238,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                 "end": 79
                                                                                             },
                                                                                             "flags": 96,
-                                                                                            "transformFlags": 1024,
+                                                                                            "transformFlags": 5120,
                                                                                             "start": 60,
                                                                                             "end": 79
                                                                                         },
@@ -272,7 +272,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                 "end": 81
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 52,
                                                             "end": 81
                                                         }
@@ -313,7 +313,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                 "end": 88
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 40,
                                             "end": 88
                                         }

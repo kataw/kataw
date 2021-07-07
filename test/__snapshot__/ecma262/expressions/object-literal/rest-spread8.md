@@ -57,7 +57,7 @@ var {...{z}} = { z: 1};
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 8
                                     },
@@ -161,7 +161,7 @@ var {...{z}} = { z: 1};
                             "end": 22
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 22
                     }

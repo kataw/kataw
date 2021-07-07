@@ -61,7 +61,7 @@ var a: -z
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
@@ -102,7 +102,7 @@ var a: -z
                 "end": 9
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 9
         }

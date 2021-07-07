@@ -135,7 +135,7 @@ foo = {
                                                         "end": 53
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 36,
                                                     "end": 54
                                                 }
@@ -178,7 +178,7 @@ foo = {
                 "end": 60
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 60
         }

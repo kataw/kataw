@@ -139,12 +139,12 @@ function not_gen() { function *g() { yield void x } }}
                                                     "end": 49
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 36,
                                                 "end": 49
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 36,
                                             "end": 49
                                         }

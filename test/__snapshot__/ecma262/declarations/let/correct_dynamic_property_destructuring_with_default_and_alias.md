@@ -117,7 +117,7 @@ let {[x]: y = z} = a;
                             "end": 20
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }

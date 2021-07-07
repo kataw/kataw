@@ -119,12 +119,12 @@ class X {
                                     "end": 38
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 23,
                                 "end": 38
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 23,
                             "end": 39
                         }
@@ -266,12 +266,12 @@ class X {
                                                         "end": 89
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 70,
                                                     "end": 89
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 70,
                                                 "end": 90
                                             }

@@ -85,7 +85,7 @@ async (x, y) => ok async (x, y) => ok
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         },
@@ -152,7 +152,7 @@ async (x, y) => ok async (x, y) => ok
                 "end": 37
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 37
         }

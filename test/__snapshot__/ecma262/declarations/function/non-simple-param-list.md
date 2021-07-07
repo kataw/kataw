@@ -331,7 +331,7 @@ function f(x, ...y) { 'use strict' }
                             "end": 116
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 111,
                         "end": 116
                     }
@@ -430,7 +430,7 @@ function f(x, ...y) { 'use strict' }
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 149,
                         "end": 154
                     }
@@ -564,7 +564,7 @@ function f(x, ...y) { 'use strict' }
                 "end": 206
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 172,
             "end": 207
         },
@@ -612,7 +612,7 @@ function f(x, ...y) { 'use strict' }
                                     "end": 224
                                 },
                                 "flags": 34,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 219,
                                 "end": 224
                             }
@@ -661,7 +661,7 @@ function f(x, ...y) { 'use strict' }
                 "end": 243
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 207,
             "end": 244
         },
@@ -716,7 +716,7 @@ function f(x, ...y) { 'use strict' }
                                 "type": null,
                                 "right": null,
                                 "flags": 34,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 258,
                                 "end": 263
                             }
@@ -765,7 +765,7 @@ function f(x, ...y) { 'use strict' }
                 "end": 282
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 244,
             "end": 283
         }

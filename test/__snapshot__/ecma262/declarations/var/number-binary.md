@@ -67,7 +67,7 @@ var a: 0b1111011
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 16
                     }

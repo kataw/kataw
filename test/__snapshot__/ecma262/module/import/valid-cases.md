@@ -493,7 +493,7 @@ import { let as l } from 'm.js';
                         "end": 153
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 148,
                     "end": 153
                 },
@@ -530,7 +530,7 @@ import { let as l } from 'm.js';
                 "end": 157
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 153,
             "end": 157
         },
@@ -546,7 +546,7 @@ import { let as l } from 'm.js';
                 "end": 162
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 157,
             "end": 162
         },
@@ -562,7 +562,7 @@ import { let as l } from 'm.js';
                 "end": 171
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 162,
             "end": 172
         },
@@ -1022,7 +1022,7 @@ import { let as l } from 'm.js';
                         "end": 329
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 324,
                     "end": 329
                 },
@@ -1059,7 +1059,7 @@ import { let as l } from 'm.js';
                 "end": 335
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 329,
             "end": 335
         },
@@ -1075,7 +1075,7 @@ import { let as l } from 'm.js';
                 "end": 340
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 335,
             "end": 340
         },
@@ -1091,7 +1091,7 @@ import { let as l } from 'm.js';
                 "end": 347
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 340,
             "end": 348
         },
@@ -1195,7 +1195,7 @@ import { let as l } from 'm.js';
                         "end": 393
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 388,
                     "end": 393
                 },
@@ -1240,7 +1240,7 @@ import { let as l } from 'm.js';
                 "end": 398
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 393,
             "end": 398
         },
@@ -1256,7 +1256,7 @@ import { let as l } from 'm.js';
                 "end": 403
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 398,
             "end": 403
         },
@@ -1272,7 +1272,7 @@ import { let as l } from 'm.js';
                 "end": 410
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 403,
             "end": 411
         },

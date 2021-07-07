@@ -110,7 +110,7 @@ for (function(){ if (a in b); }.prop in x);
                                             "end": 27
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 21,
                                         "end": 27
                                     },

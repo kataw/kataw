@@ -56,13 +56,13 @@ new new A().foo
                             "end": 10
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 2048,
                         "start": 3,
                         "end": 11
                     },
                     "argumentList": null,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 2048,
                     "start": 0,
                     "end": 11
                 },
@@ -81,7 +81,7 @@ new new A().foo
                 "end": 15
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }

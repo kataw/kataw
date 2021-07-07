@@ -102,7 +102,7 @@ function *f(x = delete ((new) = f)) {}
                                             },
                                             "argumentList": null,
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 2048,
                                             "start": 25,
                                             "end": 28
                                         },
@@ -143,7 +143,7 @@ function *f(x = delete ((new) = f)) {}
                             "end": 34
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 34
                     }

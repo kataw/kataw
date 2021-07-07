@@ -93,7 +93,7 @@ let x: [y,,] = z;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
@@ -120,7 +120,7 @@ let x: [y,,] = z;
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 17
         }

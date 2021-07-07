@@ -800,7 +800,7 @@ try { var e } catch (e) {}
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 235,
                                         "end": 237
                                     }

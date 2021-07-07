@@ -65,7 +65,7 @@ let {x, ...y} = z
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 12
                                     }
@@ -92,7 +92,7 @@ let {x, ...y} = z
                             "end": 17
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 17
                     }

@@ -96,7 +96,7 @@ function bar(a = v[1 + 1]) {
                                     "end": 24
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 19,
                                 "end": 24
                             },
@@ -106,7 +106,7 @@ function bar(a = v[1 + 1]) {
                             "end": 25
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 25
                     }
@@ -217,7 +217,7 @@ function bar(a = v[1 + 1]) {
                                     "end": 56
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 51,
                                 "end": 56
                             },
@@ -227,7 +227,7 @@ function bar(a = v[1 + 1]) {
                             "end": 57
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 45,
                         "end": 57
                     }

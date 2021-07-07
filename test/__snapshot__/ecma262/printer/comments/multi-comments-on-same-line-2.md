@@ -28,7 +28,7 @@ a; /* 4 */ /* 5 */ /* 6 */
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         },
@@ -44,7 +44,7 @@ a; /* 4 */ /* 5 */ /* 6 */
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 26,
             "end": 29
         }

@@ -107,7 +107,7 @@ for (let {[x]: y = z} = a);
                                 "end": 25
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 25
                         }

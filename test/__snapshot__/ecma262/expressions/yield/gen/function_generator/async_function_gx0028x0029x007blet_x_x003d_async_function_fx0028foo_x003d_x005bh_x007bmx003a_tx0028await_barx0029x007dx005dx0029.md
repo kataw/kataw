@@ -277,7 +277,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                                         "end": 109
                                                                                                                                     },
                                                                                                                                     "flags": 32,
-                                                                                                                                    "transformFlags": 0,
+                                                                                                                                    "transformFlags": 4096,
                                                                                                                                     "start": 100,
                                                                                                                                     "end": 109
                                                                                                                                 }
@@ -323,7 +323,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                             "end": 112
                                                                                         },
                                                                                         "flags": 34,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 84,
                                                                                         "end": 112
                                                                                     }
@@ -357,7 +357,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                             "end": 115
                                                                         },
                                                                         "flags": 16,
-                                                                        "transformFlags": 128,
+                                                                        "transformFlags": 4224,
                                                                         "start": 62,
                                                                         "end": 115
                                                                     }

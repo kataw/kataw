@@ -128,7 +128,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                                         "end": 32
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 18,
                                                                     "end": 32
                                                                 }
@@ -205,7 +205,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                 "end": 42
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 42
         }

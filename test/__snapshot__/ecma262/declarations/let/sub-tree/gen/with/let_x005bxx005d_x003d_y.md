@@ -91,7 +91,7 @@ with (a) let [x] = y
                     "end": 20
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 20
             },

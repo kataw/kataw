@@ -519,7 +519,7 @@ runtimeAgent.getProperties(
                 "end": 255
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 255
         },
@@ -853,7 +853,7 @@ runtimeAgent.getProperties(
                                     "end": 433
                                 },
                                 "flags": 97,
-                                "transformFlags": 0,
+                                "transformFlags": 2048,
                                 "start": 290,
                                 "end": 439
                             },
@@ -863,7 +863,7 @@ runtimeAgent.getProperties(
                             "end": 439
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 262,
                         "end": 439
                     }
@@ -1047,7 +1047,7 @@ runtimeAgent.getProperties(
                 "end": 651
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 440,
             "end": 652
         }
@@ -1074,11 +1074,11 @@ Seq(typeDef.interface.groups).forEach(group =>
         signatures: member.signatures
       }
     )));
-const promiseFromCallback = fn =>
-    new Promise((resolve, reject) => fn((err, result) => {
-        if (err) return reject(err);
-        return resolve(result);
-      }));
+const promiseFromCallback = fn => new Promise((resolve, reject) =>
+    fn((err, result) => {
+      if (err) return reject(err);
+      return resolve(result);
+    }));
 
 runtimeAgent.getProperties(
   objectId,

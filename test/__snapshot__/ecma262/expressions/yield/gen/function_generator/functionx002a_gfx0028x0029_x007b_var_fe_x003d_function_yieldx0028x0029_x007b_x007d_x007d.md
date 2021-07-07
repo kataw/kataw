@@ -223,7 +223,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                                             "end": 86
                                                                         },
                                                                         "flags": 16,
-                                                                        "transformFlags": 128,
+                                                                        "transformFlags": 4224,
                                                                         "start": 60,
                                                                         "end": 86
                                                                     }

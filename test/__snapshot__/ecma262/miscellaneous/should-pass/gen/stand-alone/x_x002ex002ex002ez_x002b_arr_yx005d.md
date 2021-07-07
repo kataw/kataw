@@ -52,7 +52,7 @@ x, ...z + arr, y]
                 "end": 2
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -89,7 +89,7 @@ x, ...z + arr, y]
                             "end": 13
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 6,
                         "end": 13
                     },
@@ -109,7 +109,7 @@ x, ...z + arr, y]
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 16
         }

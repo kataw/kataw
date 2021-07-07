@@ -86,7 +86,7 @@ declare var union: Foo | null | void;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 11,
                         "end": 18
                     }
@@ -159,7 +159,7 @@ declare var union: Foo | null | void;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 31,
                         "end": 44
                     }
@@ -222,7 +222,7 @@ declare var union: Foo | null | void;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 57,
                         "end": 66
                     }
@@ -295,7 +295,7 @@ declare var union: Foo | null | void;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 79,
                         "end": 92
                     }
@@ -382,7 +382,7 @@ declare var union: Foo | null | void;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 105,
                         "end": 117
                     }
@@ -478,7 +478,7 @@ declare var union: Foo | null | void;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 130,
                         "end": 155
                     }

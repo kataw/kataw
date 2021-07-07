@@ -88,7 +88,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         },
@@ -146,7 +146,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 37
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 38
         },
@@ -204,7 +204,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 62
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 38,
             "end": 63
         },
@@ -262,7 +262,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 87
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 63,
             "end": 88
         },
@@ -320,7 +320,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 112
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 88,
             "end": 113
         },
@@ -387,7 +387,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 140
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 113,
             "end": 141
         },
@@ -445,7 +445,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 166
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 141,
             "end": 167
         },
@@ -495,7 +495,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 176,
                             "end": 196
                         }
@@ -529,7 +529,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 200
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 167,
             "end": 201
         },
@@ -585,7 +585,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 210,
                             "end": 233
                         }
@@ -619,7 +619,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 237
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 201,
             "end": 238
         },
@@ -675,7 +675,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 247,
                             "end": 270
                         },
@@ -725,7 +725,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 283
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 238,
             "end": 284
         },
@@ -781,7 +781,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 302,
                             "end": 335
                         }
@@ -837,7 +837,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "end": 391
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 284,
             "end": 391
         }

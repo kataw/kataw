@@ -234,7 +234,7 @@ class A<TYPE> {
                                                             },
                                                             "argumentList": null,
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 2048,
                                                             "start": 57,
                                                             "end": 69
                                                         },
@@ -255,7 +255,7 @@ class A<TYPE> {
                                                             "end": 74
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 57,
                                                         "end": 74
                                                     },
@@ -299,7 +299,7 @@ class A<TYPE> {
                                                         "end": 88
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 57,
                                                     "end": 88
                                                 },
@@ -473,7 +473,7 @@ class A<TYPE> {
                                                             },
                                                             "argumentList": null,
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 2048,
                                                             "start": 130,
                                                             "end": 142
                                                         },
@@ -494,7 +494,7 @@ class A<TYPE> {
                                                             "end": 147
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 130,
                                                         "end": 147
                                                     },
@@ -538,7 +538,7 @@ class A<TYPE> {
                                                         "end": 161
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 130,
                                                     "end": 161
                                                 },

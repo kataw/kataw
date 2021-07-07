@@ -87,7 +87,7 @@ function f(){ var x = y; function x(){} }
                                             "end": 23
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 17,
                                         "end": 23
                                     }

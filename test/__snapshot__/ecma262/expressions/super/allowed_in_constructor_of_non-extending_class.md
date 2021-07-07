@@ -105,7 +105,7 @@ class x { constructor(){ super.foo; }}
                                                     "end": 34
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 24,
                                                 "end": 35
                                             }

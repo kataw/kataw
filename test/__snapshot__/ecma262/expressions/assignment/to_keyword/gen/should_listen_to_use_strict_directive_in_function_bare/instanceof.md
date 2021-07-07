@@ -102,12 +102,12 @@ function f() {
                                     "end": 43
                                 },
                                 "flags": 97,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 30,
                                 "end": 43
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 30,
                             "end": 43
                         }
@@ -140,7 +140,7 @@ function f() {
                 "end": 47
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 45,
             "end": 47
         }

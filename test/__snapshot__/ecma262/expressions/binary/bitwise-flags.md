@@ -71,12 +71,12 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "end": 21
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 14,
                             "end": 21
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 21
                     }
@@ -143,12 +143,12 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "end": 44
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 37,
                             "end": 44
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 28,
                         "end": 44
                     }
@@ -215,12 +215,12 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "end": 67
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 60,
                             "end": 67
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 51,
                         "end": 67
                     }
@@ -289,7 +289,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                     "end": 97
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 81,
                                 "end": 97
                             },
@@ -310,12 +310,12 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "end": 106
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 81,
                             "end": 106
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 75,
                         "end": 106
                     }

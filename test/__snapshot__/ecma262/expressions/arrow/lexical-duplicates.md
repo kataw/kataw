@@ -115,7 +115,7 @@ a = b => { let b; };
                             "type": null,
                             "right": null,
                             "flags": 34,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 5,
                             "end": 9
                         }
@@ -149,7 +149,7 @@ a = b => { let b; };
                 "end": 14
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         },
@@ -218,7 +218,7 @@ a = b => { let b; };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 29,
                                             "end": 31
                                         }
@@ -250,7 +250,7 @@ a = b => { let b; };
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 33
         },
@@ -327,7 +327,7 @@ a = b => { let b; };
                                                 "end": 55
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 49,
                                             "end": 55
                                         }
@@ -359,7 +359,7 @@ a = b => { let b; };
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 33,
             "end": 57
         },
@@ -436,7 +436,7 @@ a = b => { let b; };
                 "end": 74
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 57,
             "end": 75
         },
@@ -478,7 +478,7 @@ a = b => { let b; };
                 "end": 81
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 75,
             "end": 81
         },
@@ -525,7 +525,7 @@ a = b => { let b; };
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 87,
                         "end": 91
                     }
@@ -578,7 +578,7 @@ a = b => { let b; };
                 "end": 106
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 92,
             "end": 106
         },
@@ -594,7 +594,7 @@ a = b => { let b; };
                 "end": 112
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 106,
             "end": 113
         },
@@ -653,7 +653,7 @@ a = b => { let b; };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 127,
                                             "end": 129
                                         }
@@ -685,7 +685,7 @@ a = b => { let b; };
                 "end": 131
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 113,
             "end": 131
         },
@@ -750,7 +750,7 @@ a = b => { let b; };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 151,
                                             "end": 153
                                         }
@@ -782,7 +782,7 @@ a = b => { let b; };
                 "end": 155
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 131,
             "end": 155
         },
@@ -866,7 +866,7 @@ a = b => { let b; };
                                                 "end": 175
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 167,
                                             "end": 175
                                         }
@@ -898,7 +898,7 @@ a = b => { let b; };
                 "end": 178
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 155,
             "end": 178
         },
@@ -982,7 +982,7 @@ a = b => { let b; };
                                                 "end": 198
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 190,
                                             "end": 198
                                         }
@@ -1014,7 +1014,7 @@ a = b => { let b; };
                 "end": 200
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 178,
             "end": 200
         },
@@ -1098,7 +1098,7 @@ a = b => { let b; };
                                                 "end": 220
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 212,
                                             "end": 220
                                         }
@@ -1130,7 +1130,7 @@ a = b => { let b; };
                 "end": 223
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 200,
             "end": 223
         },
@@ -1215,7 +1215,7 @@ a = b => { let b; };
                 "end": 239
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 223,
             "end": 240
         },
@@ -1317,7 +1317,7 @@ a = b => { let b; };
                 "end": 262
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 240,
             "end": 263
         },
@@ -1402,7 +1402,7 @@ a = b => { let b; };
                 "end": 279
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 263,
             "end": 280
         },
@@ -1496,7 +1496,7 @@ a = b => { let b; };
                 "end": 299
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 280,
             "end": 300
         },
@@ -1590,7 +1590,7 @@ a = b => { let b; };
                 "end": 319
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 300,
             "end": 320
         },
@@ -1693,7 +1693,7 @@ a = b => { let b; };
                 "end": 342
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 320,
             "end": 343
         },
@@ -1788,7 +1788,7 @@ a = b => { let b; };
                 "end": 361
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 343,
             "end": 362
         },
@@ -1900,7 +1900,7 @@ a = b => { let b; };
                                                 "end": 390
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 384,
                                             "end": 390
                                         }
@@ -1932,7 +1932,7 @@ a = b => { let b; };
                 "end": 393
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 362,
             "end": 394
         },
@@ -2009,7 +2009,7 @@ a = b => { let b; };
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
-                                                "transformFlags": 128,
+                                                "transformFlags": 4224,
                                                 "start": 410,
                                                 "end": 412
                                             }
@@ -2046,7 +2046,7 @@ a = b => { let b; };
                 "end": 415
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 394,
             "end": 416
         },
@@ -2124,7 +2124,7 @@ a = b => { let b; };
                             "type": null,
                             "right": null,
                             "flags": 34,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 426,
                             "end": 431
                         }
@@ -2158,7 +2158,7 @@ a = b => { let b; };
                 "end": 437
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 416,
             "end": 438
         },
@@ -2310,7 +2310,7 @@ a = b => { let b; };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 469,
                                             "end": 471
                                         }
@@ -2342,7 +2342,7 @@ a = b => { let b; };
                 "end": 474
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 438,
             "end": 474
         }

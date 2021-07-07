@@ -36,7 +36,7 @@ do x;while(y);z
                     "end": 4
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 5
             },
@@ -73,7 +73,7 @@ do x;while(y);z
                 "end": 15
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 15
         }

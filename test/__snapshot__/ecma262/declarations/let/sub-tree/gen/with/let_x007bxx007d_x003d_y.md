@@ -52,7 +52,7 @@ with (a) let {x} = y
                     "end": 12
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 12
             },
@@ -78,7 +78,7 @@ with (a) let {x} = y
                             "end": 15
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 15
                     }
@@ -105,7 +105,7 @@ with (a) let {x} = y
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 20
         }

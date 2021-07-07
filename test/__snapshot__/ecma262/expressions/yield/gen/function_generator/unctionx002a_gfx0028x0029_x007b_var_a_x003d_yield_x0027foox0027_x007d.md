@@ -148,12 +148,12 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                     "end": 53
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 39,
                                                 "end": 53
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 39,
                                             "end": 53
                                         },
@@ -197,7 +197,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                                         "end": 69
                                                                     },
                                                                     "flags": 16,
-                                                                    "transformFlags": 128,
+                                                                    "transformFlags": 4224,
                                                                     "start": 59,
                                                                     "end": 69
                                                                 }
@@ -224,7 +224,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                             "end": 75
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 69,
                                                         "end": 76
                                                     }

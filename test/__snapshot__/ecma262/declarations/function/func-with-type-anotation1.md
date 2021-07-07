@@ -87,7 +87,7 @@ function g(a:number=1, e:number=1) {}
                             "end": 21
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 21
                     },
@@ -130,7 +130,7 @@ function g(a:number=1, e:number=1) {}
                             "end": 33
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 22,
                         "end": 33
                     }

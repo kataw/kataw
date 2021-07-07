@@ -540,7 +540,7 @@ const lazyCatererNumbers =  [1, 2, 4, 7, 11, 16, 22, 29, 37, 46,
                             "end": 311
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 311
                     }

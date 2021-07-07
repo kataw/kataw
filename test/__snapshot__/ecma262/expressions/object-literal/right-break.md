@@ -86,7 +86,7 @@ const o = {
                                     "end": 105
                                 },
                                 "flags": 97,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 15,
                                 "end": 105
                             },
@@ -107,12 +107,12 @@ const o = {
                                 "end": 154
                             },
                             "flags": 97,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 15,
                             "end": 154
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 154
                     }
@@ -198,7 +198,7 @@ const o = {
                                                     "end": 269
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 168,
                                                 "end": 269
                                             },
@@ -219,7 +219,7 @@ const o = {
                                                 "end": 320
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 168,
                                             "end": 320
                                         },
@@ -241,7 +241,7 @@ const o = {
                             "end": 322
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 162,
                         "end": 322
                     }
@@ -350,7 +350,7 @@ const o = {
                         "end": 414
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 360,
                     "end": 414
                 },
@@ -360,7 +360,7 @@ const o = {
                 "end": 414
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 323,
             "end": 415
         },
@@ -479,7 +479,7 @@ const o = {
                                                 "end": 521
                                             },
                                             "flags": 97,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 428,
                                             "end": 521
                                         },
@@ -501,7 +501,7 @@ const o = {
                             "end": 524
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 422,
                         "end": 524
                     }

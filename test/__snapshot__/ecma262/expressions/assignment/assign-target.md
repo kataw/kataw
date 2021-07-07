@@ -65,7 +65,7 @@ x[y] = 0;
                 "end": 5
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -120,7 +120,7 @@ x[y] = 0;
                 "end": 14
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 15
         },
@@ -175,7 +175,7 @@ x[y] = 0;
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 25
         },
@@ -229,7 +229,7 @@ x[y] = 0;
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 34
         },
@@ -285,7 +285,7 @@ x[y] = 0;
                 "end": 42
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 34,
             "end": 43
         },
@@ -364,7 +364,7 @@ x[y] = 0;
                 "end": 55
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 43,
             "end": 56
         },
@@ -434,7 +434,7 @@ x[y] = 0;
                 "end": 67
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 56,
             "end": 68
         },
@@ -511,7 +511,7 @@ x[y] = 0;
                 "end": 81
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 68,
             "end": 82
         },
@@ -590,7 +590,7 @@ x[y] = 0;
                 "end": 96
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 82,
             "end": 97
         },
@@ -693,7 +693,7 @@ x[y] = 0;
                 "end": 114
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 97,
             "end": 115
         }

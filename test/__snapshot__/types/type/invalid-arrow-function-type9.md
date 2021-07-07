@@ -187,7 +187,7 @@ type a = ({} | { [x]?:string}) => T;
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 28
         },
@@ -203,7 +203,7 @@ type a = ({} | { [x]?:string}) => T;
                 "end": 35
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 33,
             "end": 36
         }

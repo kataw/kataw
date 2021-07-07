@@ -112,7 +112,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 13,
                                                                 "end": 15
                                                             }
@@ -154,7 +154,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 20,
                                                                 "end": 22
                                                             }
@@ -208,7 +208,7 @@ o = {f(){ function x(){} var x = y; }};
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         },
@@ -298,7 +298,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 42,
                                                                 "end": 44
                                                             }
@@ -339,7 +339,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 49,
                                                                 "end": 51
                                                             }
@@ -393,7 +393,7 @@ o = {f(){ function x(){} var x = y; }};
                 "end": 55
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 56
         },
@@ -483,7 +483,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 71,
                                                                 "end": 73
                                                             }
@@ -532,7 +532,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "end": 86
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 80,
                                                                 "end": 86
                                                             }
@@ -586,7 +586,7 @@ o = {f(){ function x(){} var x = y; }};
                 "end": 90
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 56,
             "end": 91
         },
@@ -675,7 +675,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 106,
                                                                 "end": 108
                                                             }
@@ -782,7 +782,7 @@ o = {f(){ function x(){} var x = y; }};
                 "end": 127
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 91,
             "end": 128
         },
@@ -879,7 +879,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "end": 151
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 145,
                                                                 "end": 151
                                                             }
@@ -986,7 +986,7 @@ o = {f(){ function x(){} var x = y; }};
                 "end": 170
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 128,
             "end": 171
         },
@@ -1136,7 +1136,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "end": 209
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 203,
                                                                 "end": 209
                                                             }
@@ -1190,7 +1190,7 @@ o = {f(){ function x(){} var x = y; }};
                 "end": 213
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 171,
             "end": 214
         },
@@ -1341,7 +1341,7 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "end": 250
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 244,
                                                                 "end": 250
                                                             }
@@ -1395,7 +1395,7 @@ o = {f(){ function x(){} var x = y; }};
                 "end": 254
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 214,
             "end": 255
         }

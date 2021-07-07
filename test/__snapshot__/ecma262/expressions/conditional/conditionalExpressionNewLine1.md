@@ -92,12 +92,12 @@ var v = a ? b : c;
                                 "end": 17
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 17
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 17
                     }

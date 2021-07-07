@@ -141,7 +141,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                             "end": 45
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 45
                     }

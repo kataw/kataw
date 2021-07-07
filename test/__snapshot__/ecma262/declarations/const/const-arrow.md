@@ -101,7 +101,7 @@ const foo = (foo?: bar) => {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 11,
                                         "end": 22
                                     }
@@ -142,7 +142,7 @@ const foo = (foo?: bar) => {};
                             "end": 29
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 29
                     }

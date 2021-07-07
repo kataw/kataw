@@ -137,12 +137,12 @@ function *g() { yield {...(x,y),}}
                                     "end": 33
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 33
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 33
                         }

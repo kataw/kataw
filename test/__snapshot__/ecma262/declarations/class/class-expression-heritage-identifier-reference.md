@@ -140,7 +140,7 @@ var B = class extends A {}
                             "end": 37
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 37
                     }

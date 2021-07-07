@@ -112,7 +112,7 @@ var x = ({ a } : any = 'foo') => {}
                                             "end": 28
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 28
                                     }
@@ -153,7 +153,7 @@ var x = ({ a } : any = 'foo') => {}
                             "end": 35
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 35
                     }

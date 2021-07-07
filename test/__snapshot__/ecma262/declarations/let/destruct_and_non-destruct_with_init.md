@@ -85,7 +85,7 @@ let {x} = a, y = obj;
                             "end": 11
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     },
@@ -111,7 +111,7 @@ let {x} = a, y = obj;
                             "end": 20
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 12,
                         "end": 20
                     }

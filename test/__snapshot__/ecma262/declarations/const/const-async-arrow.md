@@ -99,7 +99,7 @@ const a = async (foo: string = "") => {}
                                             "end": 33
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 17,
                                         "end": 33
                                     }
@@ -140,7 +140,7 @@ const a = async (foo: string = "") => {}
                             "end": 40
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 40
                     }

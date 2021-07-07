@@ -84,7 +84,7 @@ for (const [...x] in y){}
                                             "type": null,
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 12,
                                             "end": 16
                                         }
@@ -103,7 +103,7 @@ for (const [...x] in y){}
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 17
                         }

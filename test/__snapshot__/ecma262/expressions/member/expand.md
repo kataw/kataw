@@ -166,7 +166,7 @@ window.FooClient.something.setVars({
                                     "end": 89
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 60,
                                 "end": 89
                             },
@@ -176,7 +176,7 @@ window.FooClient.something.setVars({
                             "end": 90
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 90
                     }
@@ -302,7 +302,7 @@ window.FooClient.something.setVars({
                                     "end": 154
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 125,
                                 "end": 154
                             },
@@ -312,7 +312,7 @@ window.FooClient.something.setVars({
                             "end": 155
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 97,
                         "end": 155
                     }
@@ -557,7 +557,7 @@ window.FooClient.something.setVars({
                                                                         "end": 250
                                                                     },
                                                                     "flags": 16,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 229,
                                                                     "end": 250
                                                                 },
@@ -705,7 +705,7 @@ window.FooClient.something.setVars({
                             "end": 308
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 163,
                         "end": 308
                     }
@@ -1014,7 +1014,7 @@ window.FooClient.something.setVars({
                                                                         "end": 450
                                                                     },
                                                                     "flags": 16,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 429,
                                                                     "end": 450
                                                                 },
@@ -1162,7 +1162,7 @@ window.FooClient.something.setVars({
                             "end": 508
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 316,
                         "end": 508
                     }
@@ -1408,7 +1408,7 @@ window.FooClient.something.setVars({
                 "end": 635
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 509,
             "end": 636
         },
@@ -1659,7 +1659,7 @@ window.FooClient.something.setVars({
                 "end": 772
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 636,
             "end": 773
         },
@@ -1910,7 +1910,7 @@ window.FooClient.something.setVars({
                 "end": 909
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 773,
             "end": 910
         }

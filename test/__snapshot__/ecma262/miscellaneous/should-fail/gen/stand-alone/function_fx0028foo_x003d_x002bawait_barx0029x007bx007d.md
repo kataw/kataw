@@ -85,7 +85,7 @@ function f(foo = +await bar){}
                             "end": 23
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 23
                     },

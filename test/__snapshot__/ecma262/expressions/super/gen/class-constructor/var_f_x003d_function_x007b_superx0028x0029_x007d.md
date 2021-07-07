@@ -216,7 +216,7 @@ class C { constructor() { var f = function { super(); } } }
                                                                 "end": 52
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 29,
                                                             "end": 52
                                                         }

@@ -141,7 +141,7 @@ x = {async __proto__(){}, *__proto__(){}};
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         },
@@ -296,7 +296,7 @@ x = {async __proto__(){}, *__proto__(){}};
                 "end": 69
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 34,
             "end": 70
         },
@@ -463,7 +463,7 @@ x = {async __proto__(){}, *__proto__(){}};
                 "end": 112
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 70,
             "end": 113
         },
@@ -582,7 +582,7 @@ x = {async __proto__(){}, *__proto__(){}};
                 "end": 152
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 113,
             "end": 153
         }

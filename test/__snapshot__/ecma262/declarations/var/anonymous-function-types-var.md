@@ -137,7 +137,7 @@ var f = (): (number) => 123;
                             "end": 25
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 25
                     }
@@ -235,7 +235,7 @@ var f = (): (number) => 123;
                             "end": 55
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 31,
                         "end": 55
                     }

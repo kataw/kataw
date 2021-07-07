@@ -108,7 +108,7 @@ let [a=[...b], ...c] = obj;
                                             "end": 13
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 13
                                     },
@@ -134,7 +134,7 @@ let [a=[...b], ...c] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 14,
                                         "end": 19
                                     }
@@ -161,7 +161,7 @@ let [a=[...b], ...c] = obj;
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 26
                     }

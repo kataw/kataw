@@ -191,7 +191,7 @@ declare function foo(): void
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 55,
                         "end": 64
                     },
@@ -226,7 +226,7 @@ declare function foo(): void
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 65,
                         "end": 75
                     }

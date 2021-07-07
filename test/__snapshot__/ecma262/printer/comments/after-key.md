@@ -115,7 +115,7 @@ let b = {
                             "end": 39
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 39
                     }
@@ -224,7 +224,7 @@ let b = {
                             "end": 83
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 45,
                         "end": 83
                     }

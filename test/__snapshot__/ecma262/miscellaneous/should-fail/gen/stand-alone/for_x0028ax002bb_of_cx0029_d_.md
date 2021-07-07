@@ -59,7 +59,7 @@ for (a+b of c) d;
                     "end": 8
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 8
             },
@@ -93,7 +93,7 @@ for (a+b of c) d;
                     "end": 16
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 17
             },

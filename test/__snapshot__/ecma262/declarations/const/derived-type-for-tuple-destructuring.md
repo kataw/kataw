@@ -129,7 +129,7 @@ const [selected] = ([true]: [boolean]);
                                 },
                                 "right": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 18,
                                 "end": 37
                             },
@@ -139,7 +139,7 @@ const [selected] = ([true]: [boolean]);
                             "end": 38
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 38
                     }

@@ -128,7 +128,7 @@ do wow: while (x) continue wow; while (x)
 ### Printed
 
 ```javascript
-do  wow:  while (x) continue  wow;
+do  wow:  while (x) continue wow;
 while (x);
 ```
 

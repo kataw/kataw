@@ -96,7 +96,7 @@ try {} c\u0061tch  (x) {}sss
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 28
         }

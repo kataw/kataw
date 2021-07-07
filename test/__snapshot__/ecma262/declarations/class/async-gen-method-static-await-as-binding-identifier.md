@@ -142,7 +142,7 @@ var C = class { static async *gen() {
                                                                             "type": null,
                                                                             "initializer": null,
                                                                             "flags": 16,
-                                                                            "transformFlags": 128,
+                                                                            "transformFlags": 4224,
                                                                             "start": 45,
                                                                             "end": 51
                                                                         }
@@ -195,7 +195,7 @@ var C = class { static async *gen() {
                             "end": 55
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 55
                     }

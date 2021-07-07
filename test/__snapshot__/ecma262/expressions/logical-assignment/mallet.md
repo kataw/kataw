@@ -57,7 +57,7 @@ obj.a ||= b;
                 "end": 7
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         },
@@ -112,7 +112,7 @@ obj.a ||= b;
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 8,
             "end": 21
         }

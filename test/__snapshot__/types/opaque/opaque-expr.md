@@ -58,7 +58,7 @@ opaque += 4;
                             "end": 14
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 14
                     }
@@ -108,7 +108,7 @@ opaque += 4;
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 28
         }

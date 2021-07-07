@@ -193,7 +193,7 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                                                     "end": 64
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 47,
                                                 "end": 64
                                             }

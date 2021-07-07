@@ -85,7 +85,7 @@ let [foo] = arr, bar = arr2;
                             "end": 15
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 15
                     },
@@ -111,7 +111,7 @@ let [foo] = arr, bar = arr2;
                             "end": 27
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 16,
                         "end": 27
                     }

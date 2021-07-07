@@ -159,7 +159,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                 "end": 14
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         },
@@ -359,7 +359,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                 "end": 34
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 35
         },
@@ -591,7 +591,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                 "end": 58
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 35,
             "end": 59
         },
@@ -856,7 +856,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                 "end": 85
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 59,
             "end": 86
         },
@@ -997,7 +997,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                 "end": 104
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 86,
             "end": 105
         },
@@ -1204,7 +1204,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                 "end": 126
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 105,
             "end": 127
         },
@@ -1443,7 +1443,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                 "end": 152
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 127,
             "end": 153
         },
@@ -1715,7 +1715,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                 "end": 181
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 153,
             "end": 182
         }

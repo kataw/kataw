@@ -49,7 +49,7 @@ var await; var f = (async function() { let { ...await f } = {}; });
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -166,7 +166,7 @@ var await; var f = (async function() { let { ...await f } = {}; });
                                                                             "type": null,
                                                                             "right": null,
                                                                             "flags": 0,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 44,
                                                                             "end": 53
                                                                         },
@@ -209,7 +209,7 @@ var await; var f = (async function() { let { ...await f } = {}; });
                                                                 "end": 62
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 42,
                                                             "end": 62
                                                         }
@@ -247,7 +247,7 @@ var await; var f = (async function() { let { ...await f } = {}; });
                             "end": 66
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 66
                     }

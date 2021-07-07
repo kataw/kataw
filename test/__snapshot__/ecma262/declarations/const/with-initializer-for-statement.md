@@ -45,7 +45,7 @@ for (;false;) const x = 1;
                     "end": 13
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 13,
                 "end": 13
             },
@@ -88,7 +88,7 @@ for (;false;) const x = 1;
                             "end": 25
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 19,
                         "end": 25
                     }

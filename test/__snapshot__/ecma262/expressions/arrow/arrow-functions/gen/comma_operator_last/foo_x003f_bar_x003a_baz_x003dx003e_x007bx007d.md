@@ -104,7 +104,7 @@ foo ? bar : baz => {}, bar
                             "end": 21
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 0,
                         "end": 21
                     },
@@ -124,7 +124,7 @@ foo ? bar : baz => {}, bar
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }

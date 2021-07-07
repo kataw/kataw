@@ -63,12 +63,12 @@ new Ctor(class {});
                 },
                 "argumentList": null,
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         },
@@ -136,12 +136,12 @@ new Ctor(class {});
                     "end": 31
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 13,
                 "end": 32
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 33
         }

@@ -164,7 +164,7 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                                                         "asteriskToken": null,
                                                                         "expression": null,
                                                                         "flags": 32,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 60,
                                                                         "end": 65
                                                                     },
@@ -193,7 +193,7 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 68,
                                                                     "end": 74
                                                                 },
@@ -217,17 +217,17 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 76,
                                                                     "end": 82
                                                                 },
                                                                 "flags": 58,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 58,
                                                                 "end": 82
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 58,
                                                             "end": 82
                                                         }

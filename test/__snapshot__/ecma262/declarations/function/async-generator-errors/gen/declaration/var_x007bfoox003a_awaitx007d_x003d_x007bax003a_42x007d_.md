@@ -175,7 +175,7 @@ async function * gen() {var {foo: await} = {a: 42};}
                                             "end": 50
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 27,
                                         "end": 50
                                     }

@@ -72,7 +72,7 @@ var foo = ((foo)): string => {};
                             "end": 17
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 17
                     }
@@ -132,7 +132,7 @@ var foo = ((foo)): string => {};
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 32
         }

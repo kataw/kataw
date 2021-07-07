@@ -117,7 +117,7 @@ while (true) x: while (true) continue x;
 ### Printed
 
 ```javascript
-while (true) x:  while (true) continue  x;
+while (true) x:  while (true) continue x;
 ```
 
 ### Diagnostics

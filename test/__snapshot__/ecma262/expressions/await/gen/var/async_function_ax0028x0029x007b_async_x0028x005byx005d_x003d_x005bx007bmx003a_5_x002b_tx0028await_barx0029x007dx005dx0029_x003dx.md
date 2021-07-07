@@ -49,7 +49,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -287,7 +287,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                                                                                     "end": 96
                                                                                                                                 },
                                                                                                                                 "flags": 32,
-                                                                                                                                "transformFlags": 0,
+                                                                                                                                "transformFlags": 4096,
                                                                                                                                 "start": 87,
                                                                                                                                 "end": 96
                                                                                                                             }
@@ -304,7 +304,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                                                                     "end": 97
                                                                                                                 },
                                                                                                                 "flags": 96,
-                                                                                                                "transformFlags": 1024,
+                                                                                                                "transformFlags": 5120,
                                                                                                                 "start": 78,
                                                                                                                 "end": 97
                                                                                                             },
@@ -338,7 +338,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                                     "end": 99
                                                                                 },
                                                                                 "flags": 32,
-                                                                                "transformFlags": 0,
+                                                                                "transformFlags": 4096,
                                                                                 "start": 70,
                                                                                 "end": 99
                                                                             }
@@ -379,7 +379,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                     "end": 106
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 58,
                                                                 "end": 106
                                                             }
@@ -423,7 +423,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                             "end": 115
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 115
                     }

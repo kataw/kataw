@@ -215,7 +215,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                             "asteriskToken": null,
                                                                                                             "expression": null,
                                                                                                             "flags": 32,
-                                                                                                            "transformFlags": 0,
+                                                                                                            "transformFlags": 4096,
                                                                                                             "start": 75,
                                                                                                             "end": 81
                                                                                                         },
@@ -293,7 +293,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                             "end": 95
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 43,
                                                         "end": 95
                                                     }
@@ -361,7 +361,7 @@ function *gen() {
     var o = { *gf() {
           switch (1) {
             case yield :
-              break ;
+              break;
           }
         } };
   }

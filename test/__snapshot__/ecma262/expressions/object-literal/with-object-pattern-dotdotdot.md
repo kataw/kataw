@@ -56,7 +56,7 @@ let { ...x, y, z } = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -101,7 +101,7 @@ let { ...x, y, z } = obj;
                             "end": 24
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }

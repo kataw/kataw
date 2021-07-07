@@ -139,7 +139,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                     "type": null,
                                                                     "right": null,
                                                                     "flags": 34,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 50,
                                                                     "end": 58
                                                                 }
@@ -199,7 +199,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                 "end": 65
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 65
                         }

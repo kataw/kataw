@@ -186,7 +186,7 @@ type a = ({} | {proto [x]:string}) => T;
                 "end": 32
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 26,
             "end": 32
         },
@@ -202,7 +202,7 @@ type a = ({} | {proto [x]:string}) => T;
                 "end": 39
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 37,
             "end": 40
         }

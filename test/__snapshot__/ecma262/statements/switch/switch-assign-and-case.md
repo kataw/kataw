@@ -114,7 +114,7 @@ switch([x = y]) { case y: foo }
                                     "end": 29
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 25,
                                 "end": 29
                             }

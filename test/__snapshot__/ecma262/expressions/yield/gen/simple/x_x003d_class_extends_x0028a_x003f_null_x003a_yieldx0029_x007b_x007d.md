@@ -109,7 +109,7 @@ x = class extends (a ? null : yield) { }
                                         "end": 35
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 17,
                                     "end": 35
                                 },
@@ -148,7 +148,7 @@ x = class extends (a ? null : yield) { }
                 "end": 40
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 40
         }

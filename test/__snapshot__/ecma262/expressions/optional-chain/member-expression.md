@@ -69,7 +69,7 @@ f2`hello world`?.a;
                 "end": 10
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         },
@@ -139,7 +139,7 @@ f2`hello world`?.a;
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 22
         },
@@ -209,7 +209,7 @@ f2`hello world`?.a;
                 "end": 42
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 43
         }

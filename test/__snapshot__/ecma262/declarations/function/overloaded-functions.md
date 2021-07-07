@@ -89,7 +89,7 @@ declare function three(value :mixed) :boolean;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 21,
                         "end": 32
                     }
@@ -191,7 +191,7 @@ declare function three(value :mixed) :boolean;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 64,
                         "end": 75
                     }
@@ -303,7 +303,7 @@ declare function three(value :mixed) :boolean;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 109,
                         "end": 121
                     }

@@ -84,7 +84,7 @@ function name() {
                                 "end": 18
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 18
                         }
@@ -154,7 +154,7 @@ function name() {
                                 "end": 63
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 59,
                             "end": 63
                         }
@@ -240,7 +240,7 @@ function name() {
                                 "end": 132
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 108,
                             "end": 132
                         },
@@ -272,7 +272,7 @@ function name() {
                                 "end": 157
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 132,
                             "end": 157
                         }

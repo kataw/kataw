@@ -68,7 +68,7 @@ const foo = bar, zoo = boo
                             "end": 15
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 15
                     },
@@ -94,7 +94,7 @@ const foo = bar, zoo = boo
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 16,
                         "end": 26
                     }

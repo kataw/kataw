@@ -91,7 +91,7 @@ var ident = <T>(x: T): T => x;
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 9,
                                         "end": 20
                                     },
@@ -126,7 +126,7 @@ var ident = <T>(x: T): T => x;
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 9,
                                         "end": 31
                                     }
@@ -188,7 +188,7 @@ var ident = <T>(x: T): T => x;
                                     "end": 49
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 43,
                                 "end": 49
                             },
@@ -198,7 +198,7 @@ var ident = <T>(x: T): T => x;
                             "end": 49
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 49
                     }
@@ -276,7 +276,7 @@ var ident = <T>(x: T): T => x;
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 61,
                                         "end": 72
                                     }
@@ -325,7 +325,7 @@ var ident = <T>(x: T): T => x;
                             "end": 86
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 55,
                         "end": 86
                     }
@@ -448,7 +448,7 @@ var ident = <T>(x: T): T => x;
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 100,
                                         "end": 109
                                     }
@@ -507,7 +507,7 @@ var ident = <T>(x: T): T => x;
                             "end": 118
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 92,
                         "end": 118
                     }

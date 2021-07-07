@@ -244,7 +244,7 @@ class D<T> {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 38,
                                             "end": 42
                                         }
@@ -311,7 +311,7 @@ class D<T> {
                                                     "end": 60
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 45,
                                                 "end": 61
                                             }
@@ -809,7 +809,7 @@ class D<T> {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 173,
                                             "end": 177
                                         },
@@ -854,7 +854,7 @@ class D<T> {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 178,
                                             "end": 183
                                         }
@@ -946,7 +946,7 @@ class D<T> {
                                                     "end": 204
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 189,
                                                 "end": 205
                                             },

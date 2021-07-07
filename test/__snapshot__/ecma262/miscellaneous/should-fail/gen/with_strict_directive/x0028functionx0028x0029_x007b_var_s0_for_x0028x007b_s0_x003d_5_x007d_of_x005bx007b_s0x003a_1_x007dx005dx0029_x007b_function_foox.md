@@ -91,7 +91,7 @@
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
-                                                "transformFlags": 128,
+                                                "transformFlags": 4224,
                                                 "start": 31,
                                                 "end": 34
                                             }
@@ -284,7 +284,7 @@
                                                                                 "end": 89
                                                                             },
                                                                             "flags": 0,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 84,
                                                                             "end": 89
                                                                         },
@@ -346,7 +346,7 @@
                                                                                 "end": 103
                                                                             },
                                                                             "flags": 0,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 90,
                                                                             "end": 103
                                                                         }
@@ -430,7 +430,7 @@
                 "end": 108
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 108
         }

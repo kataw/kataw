@@ -89,7 +89,7 @@ let { f: ...await f } = {};
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 8,
                                         "end": 17
                                     },
@@ -132,7 +132,7 @@ let { f: ...await f } = {};
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 26
                     }

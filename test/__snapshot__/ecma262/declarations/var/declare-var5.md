@@ -169,7 +169,7 @@ declare var x3: ?(() => (() => number));
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 11,
                         "end": 39
                     }

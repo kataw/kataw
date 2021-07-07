@@ -175,7 +175,7 @@ class B extends A {
                                                     "end": 60
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 48,
                                                 "end": 61
                                             }

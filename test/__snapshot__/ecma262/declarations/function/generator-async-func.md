@@ -123,7 +123,7 @@ function* wrap() {
                                                     "end": 40
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 32,
                                                 "end": 40
                                             },
@@ -145,7 +145,7 @@ function* wrap() {
                                 "end": 41
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 18,
                             "end": 41
                         }

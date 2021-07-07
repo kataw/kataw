@@ -182,7 +182,7 @@ var b: { (x: number): number } = (x) => "hi"
                             "end": 44
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 44
                     }

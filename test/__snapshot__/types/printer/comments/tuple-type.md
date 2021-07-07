@@ -78,7 +78,7 @@ let y: [...[/*1*/(/*2*/a/*3*/&/*4*/b/*5*/)/*6*/]/*7*/]
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 4,
                         "end": 15
                     }
@@ -136,7 +136,7 @@ let y: [...[/*1*/(/*2*/a/*3*/&/*4*/b/*5*/)/*6*/]/*7*/]
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 21,
                         "end": 40
                     }
@@ -235,7 +235,7 @@ let y: [...[/*1*/(/*2*/a/*3*/&/*4*/b/*5*/)/*6*/]/*7*/]
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 46,
                         "end": 66
                     }
@@ -386,7 +386,7 @@ let y: [...[/*1*/(/*2*/a/*3*/&/*4*/b/*5*/)/*6*/]/*7*/]
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 72,
                         "end": 123
                     }

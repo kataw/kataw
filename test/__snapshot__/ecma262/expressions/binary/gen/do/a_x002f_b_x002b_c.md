@@ -63,7 +63,7 @@ do a / b + c while (x);
                             "end": 8
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 2,
                         "end": 8
                     },
@@ -84,12 +84,12 @@ do a / b + c while (x);
                         "end": 12
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 2,
                     "end": 12
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 12
             },

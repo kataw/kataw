@@ -128,7 +128,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                     "end": 45
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 35,
                                                 "end": 46
                                             },
@@ -158,7 +158,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                     "end": 56
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 46,
                                                 "end": 57
                                             }

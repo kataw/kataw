@@ -127,7 +127,7 @@ const test = () => {
                             "end": 83
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 83
                     }

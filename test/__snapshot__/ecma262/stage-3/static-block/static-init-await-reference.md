@@ -139,7 +139,7 @@ class C {
                                                                         "end": 57
                                                                     },
                                                                     "flags": 34,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 36,
                                                                     "end": 57
                                                                 }
@@ -191,7 +191,7 @@ class C {
                                                                             "end": 83
                                                                         },
                                                                         "flags": 16,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 60,
                                                                         "end": 84
                                                                     }
@@ -232,7 +232,7 @@ class C {
                                                 "end": 93
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 94
                                         }

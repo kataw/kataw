@@ -107,17 +107,17 @@ async function * gen() {yield yield 1;}
                                         "end": 37
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 29,
                                     "end": 37
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 24,
                                 "end": 37
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 38
                         }

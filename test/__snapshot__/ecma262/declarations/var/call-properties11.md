@@ -112,7 +112,7 @@ var y : {} = function (x: number): string { return "hi"; };
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 23,
                                         "end": 32
                                     }
@@ -185,7 +185,7 @@ var y : {} = function (x: number): string { return "hi"; };
                             "end": 58
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 58
                     }

@@ -103,7 +103,7 @@ function not_gen() { await.b[c] => async }}
                                 "end": 31
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 31
                         }
@@ -136,7 +136,7 @@ function not_gen() { await.b[c] => async }}
                 "end": 40
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 34,
             "end": 40
         }

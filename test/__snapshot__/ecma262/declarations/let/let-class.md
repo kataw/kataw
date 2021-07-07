@@ -89,7 +89,7 @@ let[{}=class{}]=null
                                             "end": 14
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 4,
                                         "end": 14
                                     }
@@ -114,7 +114,7 @@ let[{}=class{}]=null
                             "end": 20
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }

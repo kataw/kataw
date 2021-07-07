@@ -154,7 +154,7 @@ const testConsole = new TestConsole(
                                             "end": 89
                                         },
                                         "flags": 97,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 36,
                                         "end": 89
                                     }
@@ -166,12 +166,12 @@ const testConsole = new TestConsole(
                                 "end": 89
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 2048,
                             "start": 19,
                             "end": 91
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 91
                     }

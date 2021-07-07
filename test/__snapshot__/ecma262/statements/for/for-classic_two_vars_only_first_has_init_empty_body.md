@@ -77,7 +77,7 @@ for (var a=1, b;;);
                                 "end": 12
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 12
                         },
@@ -95,7 +95,7 @@ for (var a=1, b;;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 13,
                             "end": 15
                         }

@@ -187,7 +187,7 @@ do do do function while while while while
                     "end": 41
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 41,
                 "end": 41
             },

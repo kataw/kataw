@@ -91,7 +91,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                             "end": 16
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 16
                     },
@@ -117,7 +117,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                             "end": 24
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 24
                     }
@@ -215,7 +215,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                         "end": 47
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 29,
                     "end": 47
                 },
@@ -225,7 +225,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                 "end": 48
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 48
         }

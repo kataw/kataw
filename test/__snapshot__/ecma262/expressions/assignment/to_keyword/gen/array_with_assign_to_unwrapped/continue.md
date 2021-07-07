@@ -66,7 +66,7 @@ async x => continue = 1
                 "end": 10
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         },
@@ -105,7 +105,7 @@ async x => continue = 1
                 "end": 23
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 23
         }

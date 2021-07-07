@@ -48,12 +48,12 @@ await / 0 /u
                     "end": 7
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -92,12 +92,12 @@ await / 0 /u
                     "end": 18
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 7,
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 7,
             "end": 18
         },
@@ -136,12 +136,12 @@ await / 0 /u
                     "end": 28
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 18,
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 28
         },
@@ -173,12 +173,12 @@ await / 0 /u
                     "end": 40
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 28,
                 "end": 40
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 28,
             "end": 40
         },
@@ -220,12 +220,12 @@ await / 0 /u
                     "end": 52
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 40,
                 "end": 52
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 40,
             "end": 52
         },
@@ -249,12 +249,12 @@ await / 0 /u
                     "end": 65
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 52,
                 "end": 65
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 52,
             "end": 65
         }

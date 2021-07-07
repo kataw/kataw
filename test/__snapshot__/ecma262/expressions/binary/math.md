@@ -84,17 +84,17 @@ x << y | z;
                         "end": 9
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 5,
                     "end": 9
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         },
@@ -130,7 +130,7 @@ x << y | z;
                         "end": 16
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 10,
                     "end": 16
                 },
@@ -151,12 +151,12 @@ x << y | z;
                     "end": 20
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 10,
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 10,
             "end": 21
         },
@@ -208,17 +208,17 @@ x << y | z;
                         "end": 32
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 28,
                     "end": 32
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 21,
                 "end": 32
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 33
         },
@@ -254,7 +254,7 @@ x << y | z;
                         "end": 39
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 33,
                     "end": 39
                 },
@@ -275,12 +275,12 @@ x << y | z;
                     "end": 43
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 33,
                 "end": 43
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 33,
             "end": 44
         },
@@ -316,7 +316,7 @@ x << y | z;
                         "end": 50
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 44,
                     "end": 50
                 },
@@ -337,12 +337,12 @@ x << y | z;
                     "end": 54
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 44,
                 "end": 54
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 44,
             "end": 55
         },
@@ -378,7 +378,7 @@ x << y | z;
                         "end": 61
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 55,
                     "end": 61
                 },
@@ -399,12 +399,12 @@ x << y | z;
                     "end": 65
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 55,
                 "end": 65
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 55,
             "end": 66
         },
@@ -440,7 +440,7 @@ x << y | z;
                         "end": 73
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 66,
                     "end": 73
                 },
@@ -461,12 +461,12 @@ x << y | z;
                     "end": 77
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 66,
                 "end": 77
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 66,
             "end": 78
         },
@@ -502,7 +502,7 @@ x << y | z;
                         "end": 86
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 78,
                     "end": 86
                 },
@@ -523,12 +523,12 @@ x << y | z;
                     "end": 91
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 78,
                 "end": 91
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 78,
             "end": 92
         },
@@ -564,7 +564,7 @@ x << y | z;
                         "end": 100
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 92,
                     "end": 100
                 },
@@ -585,12 +585,12 @@ x << y | z;
                     "end": 105
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 92,
                 "end": 105
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 92,
             "end": 106
         },
@@ -626,7 +626,7 @@ x << y | z;
                         "end": 114
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 106,
                     "end": 114
                 },
@@ -647,12 +647,12 @@ x << y | z;
                     "end": 120
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 106,
                 "end": 120
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 106,
             "end": 121
         },
@@ -704,17 +704,17 @@ x << y | z;
                         "end": 132
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 127,
                     "end": 132
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 121,
                 "end": 132
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 121,
             "end": 133
         },
@@ -766,17 +766,17 @@ x << y | z;
                         "end": 144
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 140,
                     "end": 144
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 133,
                 "end": 144
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 133,
             "end": 145
         },
@@ -812,7 +812,7 @@ x << y | z;
                         "end": 151
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 145,
                     "end": 151
                 },
@@ -833,12 +833,12 @@ x << y | z;
                     "end": 155
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 145,
                 "end": 155
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 145,
             "end": 156
         },
@@ -874,7 +874,7 @@ x << y | z;
                         "end": 162
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 156,
                     "end": 162
                 },
@@ -895,12 +895,12 @@ x << y | z;
                     "end": 166
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 156,
                 "end": 166
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 156,
             "end": 167
         },
@@ -936,7 +936,7 @@ x << y | z;
                         "end": 173
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 167,
                     "end": 173
                 },
@@ -957,12 +957,12 @@ x << y | z;
                     "end": 177
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 167,
                 "end": 177
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 167,
             "end": 178
         },
@@ -998,7 +998,7 @@ x << y | z;
                         "end": 184
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 178,
                     "end": 184
                 },
@@ -1019,12 +1019,12 @@ x << y | z;
                     "end": 188
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 178,
                 "end": 188
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 178,
             "end": 189
         },
@@ -1076,17 +1076,17 @@ x << y | z;
                         "end": 200
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 195,
                     "end": 200
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 189,
                 "end": 200
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 189,
             "end": 201
         },
@@ -1122,7 +1122,7 @@ x << y | z;
                         "end": 208
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 201,
                     "end": 208
                 },
@@ -1143,12 +1143,12 @@ x << y | z;
                     "end": 212
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 201,
                 "end": 212
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 201,
             "end": 213
         }

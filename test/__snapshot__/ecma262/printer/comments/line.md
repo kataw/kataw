@@ -160,7 +160,7 @@ function g() {
                                 "end": 114
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 62,
                             "end": 115
                         },
@@ -176,7 +176,7 @@ function g() {
                                 "end": 167
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 115,
                             "end": 168
                         },
@@ -192,7 +192,7 @@ function g() {
                                 "end": 183
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 168,
                             "end": 184
                         },
@@ -208,7 +208,7 @@ function g() {
                                 "end": 236
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 184,
                             "end": 237
                         },
@@ -224,7 +224,7 @@ function g() {
                                 "end": 252
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 237,
                             "end": 253
                         },
@@ -487,7 +487,7 @@ function g() {
                                             "end": 690
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 514,
                                         "end": 690
                                     }
@@ -544,7 +544,7 @@ function g() {
                                             "end": 769
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 757,
                                         "end": 769
                                     }
@@ -571,7 +571,7 @@ function g() {
                                 "end": 785
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 770,
                             "end": 786
                         },
@@ -587,7 +587,7 @@ function g() {
                                 "end": 860
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 786,
                             "end": 861
                         }
@@ -631,11 +631,11 @@ function g() {
   instruction5;
   switch (value) {
     case 1:
-      break ;
+      break;
     case 2:
-      break ;
+      break;
     default
-      break ;
+      break;
   }
   var point = { x: 0, y: 1 };
   var object = {};

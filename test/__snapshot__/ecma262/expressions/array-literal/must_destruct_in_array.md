@@ -132,7 +132,7 @@ x = {x: [{a = b}] + x}.x
                                             "end": 21
                                         },
                                         "flags": 32,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 5,
                                         "end": 21
                                     },
@@ -173,7 +173,7 @@ x = {x: [{a = b}] + x}.x
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }

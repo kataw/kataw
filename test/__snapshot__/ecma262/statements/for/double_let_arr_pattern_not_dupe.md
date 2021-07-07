@@ -95,7 +95,7 @@ for (let [a]=x;;);
                                 "end": 14
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 14
                         }
@@ -184,7 +184,7 @@ for (let [a]=x;;);
                                 "end": 33
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 27,
                             "end": 33
                         }

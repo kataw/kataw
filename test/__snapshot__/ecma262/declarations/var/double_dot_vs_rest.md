@@ -68,7 +68,7 @@ var [..x] = obj;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
@@ -95,7 +95,7 @@ var [..x] = obj;
                 "end": 8
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 7,
             "end": 8
         },
@@ -111,7 +111,7 @@ var [..x] = obj;
                 "end": 15
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 16
         }

@@ -57,7 +57,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                             "end": 10
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
@@ -116,12 +116,12 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "end": 22
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 11,
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 22
         },
@@ -155,12 +155,12 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "end": 34
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 22,
                 "end": 34
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 34
         },
@@ -176,7 +176,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                 "end": 39
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 35,
             "end": 39
         },
@@ -215,7 +215,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                 "end": 46
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 39,
             "end": 47
         }

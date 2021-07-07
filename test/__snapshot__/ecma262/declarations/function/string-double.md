@@ -56,7 +56,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                         "type": null,
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 23,
                         "end": 30
                     }
@@ -118,7 +118,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "end": 54
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 39,
             "end": 54
         },

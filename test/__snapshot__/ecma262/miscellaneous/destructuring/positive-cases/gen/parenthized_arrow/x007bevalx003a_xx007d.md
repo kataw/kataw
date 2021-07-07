@@ -134,7 +134,7 @@ var f = ({eval: x}) => {};
                             "end": 25
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 25
                     }

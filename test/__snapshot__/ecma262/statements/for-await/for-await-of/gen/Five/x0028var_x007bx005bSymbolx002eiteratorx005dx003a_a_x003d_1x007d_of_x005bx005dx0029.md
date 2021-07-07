@@ -182,7 +182,7 @@ async function f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} of 
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 49,
                                             "end": 76
                                         }

@@ -66,7 +66,7 @@ function foo() {
                                 "end": 24
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 24
                         },
@@ -87,7 +87,7 @@ function foo() {
                                             "end": 30
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 26,
                                         "end": 30
                                     }

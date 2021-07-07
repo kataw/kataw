@@ -85,7 +85,7 @@ a?.()``;
                 "end": 6
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -155,7 +155,7 @@ a?.()``;
                 "end": 19
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 7,
             "end": 20
         },
@@ -226,7 +226,7 @@ a?.()``;
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 20,
             "end": 30
         }

@@ -64,7 +64,7 @@ let {x=y} = {}
                                             "end": 8
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 8
                                     }
@@ -98,7 +98,7 @@ let {x=y} = {}
                             "end": 14
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 14
                     }

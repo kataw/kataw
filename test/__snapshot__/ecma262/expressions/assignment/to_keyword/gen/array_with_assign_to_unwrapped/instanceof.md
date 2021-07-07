@@ -79,7 +79,7 @@ async x => instanceof = 1
                         "end": 21
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 10,
                     "end": 21
                 },
@@ -89,7 +89,7 @@ async x => instanceof = 1
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         },
@@ -105,7 +105,7 @@ async x => instanceof = 1
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 23,
             "end": 25
         }

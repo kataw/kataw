@@ -65,7 +65,7 @@ export var let = x;
                                 "end": 18
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 18
                         }

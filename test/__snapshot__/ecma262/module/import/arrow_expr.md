@@ -95,7 +95,7 @@ let x = () => import {x} from "y"
                             "end": 23
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 23
                     }
@@ -122,7 +122,7 @@ let x = () => import {x} from "y"
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 24,
             "end": 29
         },
@@ -138,7 +138,7 @@ let x = () => import {x} from "y"
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 29,
             "end": 33
         }

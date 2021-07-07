@@ -133,7 +133,7 @@
                 "end": 40
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 41
         },
@@ -242,7 +242,7 @@
                 "end": 79
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 41,
             "end": 80
         },
@@ -367,7 +367,7 @@
                 "end": 122
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 80,
             "end": 123
         },
@@ -552,7 +552,7 @@
                 "end": 186
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 123,
             "end": 187
         },
@@ -661,7 +661,7 @@
                 "end": 227
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 187,
             "end": 228
         },
@@ -786,7 +786,7 @@
                 "end": 272
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 228,
             "end": 273
         },
@@ -850,7 +850,7 @@
                 "end": 308
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 273,
             "end": 309
         },
@@ -899,7 +899,7 @@
                 "end": 336
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 309,
             "end": 337
         }

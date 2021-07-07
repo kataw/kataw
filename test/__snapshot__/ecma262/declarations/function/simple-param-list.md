@@ -90,7 +90,7 @@ function x({x}) { "use strict"; }
                             "end": 16
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 16
                     }
@@ -180,7 +180,7 @@ function x({x}) { "use strict"; }
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 48,
                         "end": 52
                     }

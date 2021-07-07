@@ -76,7 +76,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "end": 33
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 17,
                                         "end": 33
                                     },
@@ -104,7 +104,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "end": 42
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 34,
                                         "end": 42
                                     }
@@ -131,7 +131,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                             "end": 47
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 47
                     }

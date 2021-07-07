@@ -80,7 +80,7 @@ try: x
                 "end": 6
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4,
             "end": 6
         }

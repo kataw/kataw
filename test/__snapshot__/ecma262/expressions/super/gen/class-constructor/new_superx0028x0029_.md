@@ -114,12 +114,12 @@ class C { constructor() { new super(); } }
                                                         "end": 36
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 2048,
                                                     "start": 25,
                                                     "end": 37
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 25,
                                                 "end": 38
                                             }

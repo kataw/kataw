@@ -86,7 +86,7 @@ async (x = delete ((new) = f)) => {}
                                                 },
                                                 "argumentList": null,
                                                 "flags": 96,
-                                                "transformFlags": 0,
+                                                "transformFlags": 2048,
                                                 "start": 20,
                                                 "end": 23
                                             },
@@ -127,7 +127,7 @@ async (x = delete ((new) = f)) => {}
                                 "end": 29
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 29
                         }
@@ -168,7 +168,7 @@ async (x = delete ((new) = f)) => {}
                 "end": 36
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }

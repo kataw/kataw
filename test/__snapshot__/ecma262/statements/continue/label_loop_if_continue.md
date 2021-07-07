@@ -123,7 +123,7 @@ foo: while(z) if (x) continue foo
 ### Printed
 
 ```javascript
-foo:  while (z) if (x) continue  foo;
+foo:  while (z) if (x) continue foo;
 ```
 
 ### Diagnostics

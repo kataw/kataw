@@ -95,7 +95,7 @@ export var [foo] = arr, [bar] = arr2;
                                 "end": 22
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 22
                         },
@@ -138,7 +138,7 @@ export var [foo] = arr, [bar] = arr2;
                                 "end": 36
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 23,
                             "end": 36
                         }

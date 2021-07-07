@@ -239,7 +239,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 64
                     }

@@ -206,7 +206,7 @@ type a = (1,2&3, ['string']) => T;
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 31,
             "end": 34
         }

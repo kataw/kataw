@@ -120,7 +120,7 @@ var obj = { async() {} };
                             "end": 24
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }

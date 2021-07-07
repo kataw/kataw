@@ -95,12 +95,12 @@ async function af(a, b = await a) { }
                                 "end": 32
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 32
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 20,
                         "end": 32
                     }

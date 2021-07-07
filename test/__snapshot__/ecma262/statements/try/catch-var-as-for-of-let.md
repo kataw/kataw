@@ -104,7 +104,7 @@ try {} catch (e) { for (let e of y) {} }
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
-                                                "transformFlags": 128,
+                                                "transformFlags": 4224,
                                                 "start": 27,
                                                 "end": 29
                                             }

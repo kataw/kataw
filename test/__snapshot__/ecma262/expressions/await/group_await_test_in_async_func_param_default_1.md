@@ -83,7 +83,7 @@ async function f(x=(await z)=y){}
                                         "end": 27
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 20,
                                     "end": 27
                                 },
@@ -114,7 +114,7 @@ async function f(x=(await z)=y){}
                             "end": 30
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 17,
                         "end": 30
                     }

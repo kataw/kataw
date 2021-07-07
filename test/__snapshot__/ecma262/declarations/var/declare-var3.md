@@ -155,7 +155,7 @@ declare var tup: [{foo: string}, {bar: number}];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 11,
                         "end": 45
                     }
@@ -300,7 +300,7 @@ declare var tup: [{foo: string}, {bar: number}];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 58,
                         "end": 101
                     }
@@ -478,7 +478,7 @@ declare var tup: [{foo: string}, {bar: number}];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 114,
                         "end": 150
                     }

@@ -89,7 +89,7 @@ declare function baz (this : number, ...a : any): void
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 23,
                         "end": 36
                     },
@@ -124,7 +124,7 @@ declare function baz (this : number, ...a : any): void
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 37,
                         "end": 48
                     },
@@ -228,7 +228,7 @@ declare function baz (this : number, ...a : any): void
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 83,
                         "end": 96
                     }
@@ -323,7 +323,7 @@ declare function baz (this : number, ...a : any): void
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 127,
                         "end": 140
                     },
@@ -364,7 +364,7 @@ declare function baz (this : number, ...a : any): void
                         },
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 141,
                         "end": 152
                     }

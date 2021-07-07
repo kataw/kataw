@@ -90,7 +90,7 @@ async (x = (else) = f) => {}
                 "end": 12
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         },
@@ -106,7 +106,7 @@ async (x = (else) = f) => {}
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 19,
             "end": 21
         },

@@ -259,7 +259,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                 "end": 36
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 33,
                             "end": 36
                         }
@@ -276,7 +276,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                 "end": 37
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 31,
             "end": 37
         },
@@ -310,7 +310,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                 "end": 50
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 41,
             "end": 50
         },
@@ -326,7 +326,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 51,
             "end": 57
         },

@@ -55,7 +55,7 @@ else let
                     "end": 8
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 9
             },
@@ -117,7 +117,7 @@ else let
                     "end": 25
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 26
             },

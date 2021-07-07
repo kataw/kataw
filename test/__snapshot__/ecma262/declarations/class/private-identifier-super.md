@@ -158,7 +158,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                                     "end": 48
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 37,
                                                 "end": 48
                                             }

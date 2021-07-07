@@ -52,7 +52,7 @@ import *= from 'f';
                 "end": 14
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 9,
             "end": 14
         },
@@ -68,7 +68,7 @@ import *= from 'f';
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 19
         }

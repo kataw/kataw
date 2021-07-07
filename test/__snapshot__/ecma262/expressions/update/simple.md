@@ -43,7 +43,7 @@ a++;
                 "end": 3
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -73,7 +73,7 @@ a++;
                 "end": 9
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4,
             "end": 10
         }

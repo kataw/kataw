@@ -97,7 +97,7 @@ hello();
                                             "end": 39
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 11,
                                         "end": 39
                                     }
@@ -197,7 +197,7 @@ hello();
                                                                 "end": 87
                                                             },
                                                             "flags": 4194400,
-                                                            "transformFlags": 1024,
+                                                            "transformFlags": 5120,
                                                             "start": 69,
                                                             "end": 87
                                                         }
@@ -214,7 +214,7 @@ hello();
                                                 "end": 88
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 54,
                                             "end": 89
                                         }
@@ -235,7 +235,7 @@ hello();
                             "end": 91
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 91
                     }
@@ -278,7 +278,7 @@ hello();
                 "end": 101
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 92,
             "end": 102
         }

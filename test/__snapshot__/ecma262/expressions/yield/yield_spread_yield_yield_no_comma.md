@@ -109,12 +109,12 @@ function *g() {yield {     ...yield yield    };}
                                                         "asteriskToken": null,
                                                         "expression": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 35,
                                                         "end": 41
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 30,
                                                     "end": 41
                                                 },
@@ -136,12 +136,12 @@ function *g() {yield {     ...yield yield    };}
                                     "end": 46
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 46
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 47
                         }

@@ -74,7 +74,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                 "end": 31
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 27,
                             "end": 32
                         },
@@ -145,7 +145,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                                     "end": 58
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 56,
                                                 "end": 59
                                             },

@@ -95,7 +95,7 @@ export class C {
                                         "end": 30
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 22,
                                     "end": 30
                                 },

@@ -110,7 +110,7 @@ const { async = true } = x;
                                                         "end": 33
                                                     },
                                                     "flags": 0,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 20,
                                                     "end": 33
                                                 }
@@ -156,7 +156,7 @@ const { async = true } = x;
                             "end": 39
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 39
                     }
@@ -284,7 +284,7 @@ const { async = true } = x;
                             "end": 79
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 47,
                         "end": 79
                     }
@@ -421,12 +421,12 @@ const { async = true } = x;
                                                     "end": 131
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 119,
                                                 "end": 131
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 119,
                                             "end": 132
                                         }
@@ -447,7 +447,7 @@ const { async = true } = x;
                             "end": 134
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 87,
                         "end": 134
                     }
@@ -528,7 +528,7 @@ const { async = true } = x;
                                                         "end": 167
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 155,
                                                     "end": 167
                                                 }
@@ -586,12 +586,12 @@ const { async = true } = x;
                                                     "end": 187
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 175,
                                                 "end": 187
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 175,
                                             "end": 188
                                         }
@@ -612,7 +612,7 @@ const { async = true } = x;
                             "end": 190
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 142,
                         "end": 190
                     }
@@ -750,12 +750,12 @@ const { async = true } = x;
                                                     "end": 247
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 235,
                                                 "end": 247
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 235,
                                             "end": 248
                                         }
@@ -777,7 +777,7 @@ const { async = true } = x;
                             "end": 250
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 198,
                         "end": 250
                     }
@@ -867,7 +867,7 @@ const { async = true } = x;
                                                         "end": 291
                                                     },
                                                     "flags": 0,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 279,
                                                     "end": 291
                                                 }
@@ -917,12 +917,12 @@ const { async = true } = x;
                                                     "end": 308
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 296,
                                                 "end": 308
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 296,
                                             "end": 309
                                         }
@@ -944,7 +944,7 @@ const { async = true } = x;
                             "end": 311
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 258,
                         "end": 311
                     }
@@ -1000,7 +1000,7 @@ const { async = true } = x;
                                             "end": 334
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 321,
                                         "end": 334
                                     }
@@ -1027,7 +1027,7 @@ const { async = true } = x;
                             "end": 340
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 319,
                         "end": 340
                     }

@@ -69,7 +69,7 @@ var foo = arr, [bar] = arr2;
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     },
@@ -112,7 +112,7 @@ var foo = arr, [bar] = arr2;
                             "end": 27
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 27
                     }

@@ -77,7 +77,7 @@ x = { method(test: string): number { } };
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 13,
                                                 "end": 17
                                             }
@@ -133,7 +133,7 @@ x = { method(test: string): number { } };
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         },
@@ -149,7 +149,7 @@ x = { method(test: string): number { } };
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 25
         },
@@ -165,7 +165,7 @@ x = { method(test: string): number { } };
                 "end": 34
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 34
         },

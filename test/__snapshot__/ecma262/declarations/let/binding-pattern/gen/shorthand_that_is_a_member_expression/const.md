@@ -65,7 +65,7 @@ const {a.b} = v
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 8
                     }
@@ -92,7 +92,7 @@ const {a.b} = v
                 "end": 10
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 9,
             "end": 10
         },
@@ -108,7 +108,7 @@ const {a.b} = v
                 "end": 15
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 15
         }

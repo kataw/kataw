@@ -99,7 +99,7 @@ x={ foo(a = super[foo]){ }}
                                                     "end": 22
                                                 },
                                                 "flags": 34,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 8,
                                                 "end": 22
                                             }
@@ -155,7 +155,7 @@ x={ foo(a = super[foo]){ }}
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }

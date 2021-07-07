@@ -85,7 +85,7 @@ declare function foo(x: number, y: string): void;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 21,
                         "end": 30
                     },
@@ -120,7 +120,7 @@ declare function foo(x: number, y: string): void;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 31,
                         "end": 41
                     }

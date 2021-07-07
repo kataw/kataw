@@ -49,7 +49,7 @@ var my_var; my_var;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
@@ -76,7 +76,7 @@ var my_var; my_var;
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 19
         }

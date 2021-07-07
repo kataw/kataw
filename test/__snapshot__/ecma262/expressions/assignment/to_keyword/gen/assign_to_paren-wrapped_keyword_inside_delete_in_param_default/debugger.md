@@ -111,7 +111,7 @@ async (x = delete ((debugger) = f)) => {}
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         },
@@ -141,7 +141,7 @@ async (x = delete ((debugger) = f)) => {}
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 31,
             "end": 33
         },

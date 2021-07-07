@@ -42,7 +42,7 @@ var x; "use strict"; with (x) y;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
@@ -69,7 +69,7 @@ var x; "use strict"; with (x) y;
                 "end": 19
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 20
         },
@@ -103,7 +103,7 @@ var x; "use strict"; with (x) y;
                     "end": 31
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 29,
                 "end": 32
             },

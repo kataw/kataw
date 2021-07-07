@@ -98,7 +98,7 @@ function x(y: | z):
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 17
                     }

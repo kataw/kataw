@@ -92,7 +92,7 @@ function f(b, a, b, a = x) {}
                             "end": 25
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 19,
                         "end": 25
                     }

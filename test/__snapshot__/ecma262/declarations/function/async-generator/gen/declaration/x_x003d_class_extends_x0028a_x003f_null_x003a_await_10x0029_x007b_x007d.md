@@ -169,12 +169,12 @@ async function * gen() {x = class extends (a ? null : await 10) { }}
                                                             "end": 62
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 53,
                                                         "end": 62
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 41,
                                                     "end": 62
                                                 },
@@ -213,7 +213,7 @@ async function * gen() {x = class extends (a ? null : await 10) { }}
                                 "end": 67
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 67
                         }

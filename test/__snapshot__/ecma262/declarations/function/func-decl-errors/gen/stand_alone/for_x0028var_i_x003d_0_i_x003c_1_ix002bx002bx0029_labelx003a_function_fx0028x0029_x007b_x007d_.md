@@ -65,7 +65,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                                 "end": 14
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 14
                         }
@@ -131,7 +131,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                     "end": 21
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 15,
                 "end": 21
             },

@@ -272,7 +272,7 @@ class B<X> {
                                                                     "end": 63
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 46,
                                                                 "end": 64
                                                             }
@@ -343,7 +343,7 @@ class B<X> {
                                                     "end": 85
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 70,
                                                 "end": 86
                                             }

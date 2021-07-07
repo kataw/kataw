@@ -75,7 +75,7 @@ for await (a of b) let {x} = y
                     "end": 22
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 18,
                 "end": 22
             },
@@ -101,7 +101,7 @@ for await (a of b) let {x} = y
                             "end": 25
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 24,
                         "end": 25
                     }
@@ -128,7 +128,7 @@ for await (a of b) let {x} = y
                 "end": 30
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 28,
             "end": 30
         }

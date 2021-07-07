@@ -82,18 +82,18 @@ function *g() { new yield }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 19,
                                     "end": 25
                                 },
                                 "argumentList": null,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 2048,
                                 "start": 15,
                                 "end": 25
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 25
                         }

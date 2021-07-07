@@ -69,7 +69,7 @@ for (const x in obj) { var x = 13 }
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 12
                         }
@@ -140,7 +140,7 @@ for (const x in obj) { var x = 13 }
                                             "end": 33
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 26,
                                         "end": 33
                                     }

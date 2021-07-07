@@ -84,7 +84,7 @@ function * gen() { (yield) ? yield : yield }
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 20,
                                         "end": 25
                                     },
@@ -113,7 +113,7 @@ function * gen() { (yield) ? yield : yield }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 28,
                                     "end": 34
                                 },
@@ -137,17 +137,17 @@ function * gen() { (yield) ? yield : yield }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 36,
                                     "end": 42
                                 },
                                 "flags": 50,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 18,
                                 "end": 42
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 18,
                             "end": 42
                         }

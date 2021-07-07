@@ -98,7 +98,7 @@ let one = {
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 17,
                                                         "end": 21
                                                     }
@@ -149,7 +149,7 @@ let one = {
                             "end": 21
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 21
                     }
@@ -176,7 +176,7 @@ let one = {
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 29
         },
@@ -231,7 +231,7 @@ let one = {
                 "end": 45
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 34,
             "end": 45
         },
@@ -265,7 +265,7 @@ let one = {
                 "end": 56
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 46,
             "end": 56
         },
@@ -320,7 +320,7 @@ let one = {
                 "end": 72
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 61,
             "end": 72
         },
@@ -354,7 +354,7 @@ let one = {
                 "end": 81
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 73,
             "end": 81
         },
@@ -370,7 +370,7 @@ let one = {
                 "end": 86
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 85,
             "end": 86
         },
@@ -425,7 +425,7 @@ let one = {
                 "end": 102
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 91,
             "end": 102
         },
@@ -477,7 +477,7 @@ let one = {
                 "end": 117
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 103,
             "end": 117
         },
@@ -493,7 +493,7 @@ let one = {
                 "end": 122
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 121,
             "end": 122
         },
@@ -544,7 +544,7 @@ let one = {
                         "end": 135
                     },
                     "flags": 97,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 127,
                     "end": 135
                 },
@@ -571,12 +571,12 @@ let one = {
                     "end": 141
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 127,
                 "end": 141
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 127,
             "end": 141
         },
@@ -592,7 +592,7 @@ let one = {
                 "end": 144
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 142,
             "end": 144
         },

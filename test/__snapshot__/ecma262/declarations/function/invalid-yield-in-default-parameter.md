@@ -136,7 +136,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                     "asteriskToken": null,
                                                     "expression": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 39,
                                                     "end": 44
                                                 },
@@ -146,12 +146,12 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                 "end": 45
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 33,
                                             "end": 45
                                         },
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 30,
                                         "end": 45
                                     }

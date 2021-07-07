@@ -122,7 +122,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 60,
                                         "end": 65
                                     }

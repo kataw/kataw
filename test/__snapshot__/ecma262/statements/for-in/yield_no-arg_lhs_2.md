@@ -99,7 +99,7 @@ function *f(){   for (yield in y);   }
                                 "asteriskToken": null,
                                 "expression": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 22,
                                 "end": 27
                             },

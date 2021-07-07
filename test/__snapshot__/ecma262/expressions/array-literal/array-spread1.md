@@ -100,7 +100,7 @@ var y: Array<string> = ['3', ...x];
                             "end": 15
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 15
                     }
@@ -181,7 +181,7 @@ var y: Array<string> = ['3', ...x];
                             "end": 31
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 20,
                         "end": 31
                     }
@@ -266,7 +266,7 @@ var y: Array<string> = ['3', ...x];
                             "end": 48
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 36,
                         "end": 48
                     }
@@ -381,7 +381,7 @@ var y: Array<string> = ['3', ...x];
                                     "end": 72
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 66,
                                 "end": 72
                             },
@@ -403,7 +403,7 @@ var y: Array<string> = ['3', ...x];
                 "end": 73
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 49,
             "end": 74
         },
@@ -507,7 +507,7 @@ var y: Array<string> = ['3', ...x];
                                     "end": 97
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 91,
                                 "end": 97
                             },
@@ -529,7 +529,7 @@ var y: Array<string> = ['3', ...x];
                 "end": 98
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 74,
             "end": 99
         },
@@ -651,7 +651,7 @@ var y: Array<string> = ['3', ...x];
                             "end": 134
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 104,
                         "end": 134
                     }
@@ -798,7 +798,7 @@ var y: Array<string> = ['3', ...x];
                             "end": 170
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 139,
                         "end": 170
                     }

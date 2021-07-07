@@ -107,7 +107,7 @@ function x8(a: false & false): false {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 21
                     }
@@ -249,7 +249,7 @@ function x8(a: false & false): false {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 97,
                         "end": 106
                     }
@@ -391,7 +391,7 @@ function x8(a: false & false): false {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 185,
                         "end": 194
                     }
@@ -518,7 +518,7 @@ function x8(a: false & false): false {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 266,
                         "end": 275
                     }
@@ -702,7 +702,7 @@ function x8(a: false & false): false {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 343,
                         "end": 354
                     }
@@ -893,7 +893,7 @@ function x8(a: false & false): false {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 399,
                         "end": 410
                     }
@@ -1058,7 +1058,7 @@ function x8(a: false & false): false {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 474,
                         "end": 490
                     }
@@ -1223,7 +1223,7 @@ function x8(a: false & false): false {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 535,
                         "end": 551
                     }

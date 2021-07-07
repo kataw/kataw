@@ -110,7 +110,7 @@ switch (x) { case y: break; }
 ```javascript
 switch (x) {
   case y:
-    break ;
+    break;
 }
 ```
 

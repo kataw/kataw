@@ -108,7 +108,7 @@ var a: { <T>(x: T): number; };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 23
                     }
@@ -283,7 +283,7 @@ var a: { <T>(x: T): number; };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 27,
                         "end": 54
                     }
@@ -378,7 +378,7 @@ var a: { <T>(x: T): number; };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 58,
                         "end": 76
                     }
@@ -473,7 +473,7 @@ var a: { <T>(x: T): number; };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 81,
                         "end": 100
                     }
@@ -675,7 +675,7 @@ var a: { <T>(x: T): number; };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 105,
                         "end": 155
                     }
@@ -850,7 +850,7 @@ var a: { <T>(x: T): number; };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 160,
                         "end": 186
                     }

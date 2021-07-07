@@ -91,7 +91,7 @@ const d: string | null = c?.c;
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 26
                     }
@@ -209,7 +209,7 @@ const d: string | null = c?.c;
                             "end": 57
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 33,
                         "end": 57
                     }
@@ -287,7 +287,7 @@ const d: string | null = c?.c;
                             "end": 79
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 64,
                         "end": 79
                     }
@@ -405,7 +405,7 @@ const d: string | null = c?.c;
                             "end": 110
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 86,
                         "end": 110
                     }

@@ -148,7 +148,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 34,
                                         "end": 43
                                     }
@@ -221,7 +221,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                             "end": 69
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 69
                     }

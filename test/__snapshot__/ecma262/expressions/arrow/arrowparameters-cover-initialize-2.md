@@ -76,7 +76,7 @@ var af = ({x = 1}) => x;
                                                         "end": 16
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 11,
                                                     "end": 16
                                                 }
@@ -122,7 +122,7 @@ var af = ({x = 1}) => x;
                             "end": 23
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 23
                     }

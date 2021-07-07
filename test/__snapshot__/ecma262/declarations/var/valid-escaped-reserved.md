@@ -56,7 +56,7 @@ var int\u0065rface = 1;
                             "end": 23
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 23
                     }
@@ -130,7 +130,7 @@ var int\u0065rface = 1;
                             "end": 55
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 55
                     }
@@ -204,7 +204,7 @@ var int\u0065rface = 1;
                             "end": 86
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 61,
                         "end": 86
                     }
@@ -254,7 +254,7 @@ var int\u0065rface = 1;
                             "end": 111
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 92,
                         "end": 111
                     }

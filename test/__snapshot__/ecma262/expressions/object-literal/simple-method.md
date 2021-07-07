@@ -125,7 +125,7 @@ x = { method(test: string) { } };
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         },
@@ -191,7 +191,7 @@ x = { method(test: string) { } };
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 40,
                                                 "end": 44
                                             }
@@ -247,7 +247,7 @@ x = { method(test: string) { } };
                 "end": 44
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 44
         },
@@ -263,7 +263,7 @@ x = { method(test: string) { } };
                 "end": 52
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 45,
             "end": 52
         },

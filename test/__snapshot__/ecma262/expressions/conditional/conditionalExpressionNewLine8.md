@@ -112,7 +112,7 @@ var v = a
                                     "end": 23
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 13,
                                 "end": 23
                             },
@@ -167,17 +167,17 @@ var v = a
                                     "end": 37
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 27,
                                 "end": 37
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 37
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 37
                     }

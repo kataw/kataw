@@ -123,7 +123,7 @@ class C extends Base { async\n a }
                 "end": 30
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 29,
             "end": 30
         },
@@ -139,7 +139,7 @@ class C extends Base { async\n a }
                 "end": 32
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 30,
             "end": 32
         }

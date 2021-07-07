@@ -91,7 +91,7 @@ async ([{x}: string], y, z: string) =>  {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 8,
                                         "end": 19
                                     }
@@ -147,7 +147,7 @@ async ([{x}: string], y, z: string) =>  {};
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 34
                         }
@@ -188,7 +188,7 @@ async ([{x}: string], y, z: string) =>  {};
                 "end": 42
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 43
         }

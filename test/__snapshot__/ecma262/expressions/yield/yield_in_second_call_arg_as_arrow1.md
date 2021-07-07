@@ -143,7 +143,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                                     "end": 39
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 31,
                                                                 "end": 39
                                                             }
@@ -160,12 +160,12 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                     "end": 40
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 20,
                                                 "end": 40
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 15,
                                             "end": 40
                                         }
@@ -199,7 +199,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                 "end": 46
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 47
                         }

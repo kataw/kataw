@@ -111,12 +111,12 @@ function *f(){ ({x} = yield) => {} }
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 21,
                                                 "end": 27
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 16,
                                             "end": 27
                                         }
@@ -157,7 +157,7 @@ function *f(){ ({x} = yield) => {} }
                                 "end": 34
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 34
                         }

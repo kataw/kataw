@@ -111,7 +111,7 @@ async (x = delete ((do) = f)) => {}
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         },
@@ -136,7 +136,7 @@ async (x = delete ((do) = f)) => {}
                     "end": 22
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 22,
                 "end": 22
             },
@@ -167,7 +167,7 @@ async (x = delete ((do) = f)) => {}
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 27
         },

@@ -57,7 +57,7 @@ var { ...{ x = 5 } } = {x : 1};
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 9
                                     },
@@ -101,7 +101,7 @@ var { ...{ x = 5 } } = {x : 1};
                                                             "end": 16
                                                         },
                                                         "flags": 0,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 10,
                                                         "end": 16
                                                     }
@@ -180,7 +180,7 @@ var { ...{ x = 5 } } = {x : 1};
                             "end": 30
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 30
                     }

@@ -133,7 +133,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                                     "end": 39
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 33,
                                                                 "end": 39
                                                             },
@@ -149,7 +149,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                                     "end": 41
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 39,
                                                                 "end": 41
                                                             }
@@ -191,7 +191,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                             "end": 44
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 44
                     }

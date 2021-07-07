@@ -58,7 +58,7 @@ for (let x = 0; x < 10;) {
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
@@ -116,7 +116,7 @@ for (let x = 0; x < 10;) {
                                 "end": 29
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 23,
                             "end": 29
                         }
@@ -160,7 +160,7 @@ for (let x = 0; x < 10;) {
                     "end": 37
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 30,
                 "end": 37
             },
@@ -195,7 +195,7 @@ for (let x = 0; x < 10;) {
                                 "end": 47
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 41,
                             "end": 48
                         },
@@ -225,7 +225,7 @@ for (let x = 0; x < 10;) {
                                 "end": 58
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 48,
                             "end": 59
                         },
@@ -268,7 +268,7 @@ for (let x = 0; x < 10;) {
                                                         "end": 83
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 128,
+                                                    "transformFlags": 4224,
                                                     "start": 71,
                                                     "end": 83
                                                 }
@@ -345,7 +345,7 @@ for (let x = 0; ; x  < 10) {
     count++;
     {
       let x = "\"hello\"";
-      continue ;
+      continue;
     }
   }
 

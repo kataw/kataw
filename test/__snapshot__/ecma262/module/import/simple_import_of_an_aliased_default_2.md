@@ -63,7 +63,7 @@ import x, * as a from "y"
                         "end": 14
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 9,
                     "end": 14
                 },
@@ -108,7 +108,7 @@ import x, * as a from "y"
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 16
         },
@@ -124,7 +124,7 @@ import x, * as a from "y"
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 16,
             "end": 21
         },
@@ -140,7 +140,7 @@ import x, * as a from "y"
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 25
         }

@@ -96,7 +96,7 @@ foo: while(true)continue foo;
 ### Printed
 
 ```javascript
-foo:  while (true) continue  foo;
+foo:  while (true) continue foo;
 ```
 
 ### Diagnostics

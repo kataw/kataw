@@ -99,17 +99,17 @@ function* f(){ yield x + y; }
                                         "end": 26
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 20,
                                     "end": 26
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 14,
                                 "end": 26
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 27
                         }

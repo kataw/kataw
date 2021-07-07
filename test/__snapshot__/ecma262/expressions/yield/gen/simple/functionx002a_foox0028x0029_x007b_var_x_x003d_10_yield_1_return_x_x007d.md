@@ -100,7 +100,7 @@ function* foo() { var x = 10; yield 1; return x; }
                                             "end": 28
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 21,
                                         "end": 28
                                     }
@@ -138,12 +138,12 @@ function* foo() { var x = 10; yield 1; return x; }
                                     "end": 37
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 29,
                                 "end": 37
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 29,
                             "end": 38
                         },

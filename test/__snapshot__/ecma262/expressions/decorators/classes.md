@@ -187,7 +187,7 @@ const bar =
                             "end": 52
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 25,
                         "end": 52
                     }
@@ -291,7 +291,7 @@ const bar =
                             "end": 95
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 60,
                         "end": 95
                     }

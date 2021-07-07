@@ -97,7 +97,7 @@ function *f(){ delete ("x"[(yield)]) }
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 28,
                                                 "end": 33
                                             },
@@ -122,7 +122,7 @@ function *f(){ delete ("x"[(yield)]) }
                                 "end": 36
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 36
                         }

@@ -53,7 +53,7 @@ const test = '💖'
                             "end": 30
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 18,
                         "end": 30
                     }

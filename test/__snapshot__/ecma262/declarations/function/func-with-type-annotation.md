@@ -116,7 +116,7 @@ function a<string>(x: string): string {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 19,
                         "end": 28
                     }

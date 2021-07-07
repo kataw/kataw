@@ -49,7 +49,7 @@ let foo = 1; { var foo = 1; }
                             "end": 11
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
@@ -104,7 +104,7 @@ let foo = 1; { var foo = 1; }
                                         "end": 26
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 18,
                                     "end": 26
                                 }

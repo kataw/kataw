@@ -120,7 +120,7 @@ switch (a) { case b: let {x} = y }
                                                 "end": 32
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 24,
                                             "end": 32
                                         }

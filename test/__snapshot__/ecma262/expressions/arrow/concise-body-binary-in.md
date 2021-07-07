@@ -140,7 +140,7 @@ const t = () => ({
                                                             "end": 37
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 30,
                                                         "end": 37
                                                     },
@@ -177,7 +177,7 @@ const t = () => ({
                             "end": 40
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 40
                     }

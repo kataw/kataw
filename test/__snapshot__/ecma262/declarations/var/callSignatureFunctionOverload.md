@@ -366,7 +366,7 @@ var foo2: {
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 128
                     }
@@ -712,7 +712,7 @@ var foo2: {
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 133,
                         "end": 257
                     }

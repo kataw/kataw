@@ -112,7 +112,7 @@ var foo = (async (): number => bar);
                             "end": 35
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 35
                     }

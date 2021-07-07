@@ -104,7 +104,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 22,
                                                                     "end": 27
                                                                 },
@@ -140,7 +140,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                 "end": 32
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 14,
                                             "end": 32
                                         }
@@ -174,7 +174,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                 "end": 38
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 38
                         }

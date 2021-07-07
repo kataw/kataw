@@ -103,7 +103,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 25
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 3,
                     "end": 25
                 },
@@ -113,7 +113,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         },
@@ -165,7 +165,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 53
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 31,
                     "end": 53
                 },
@@ -175,7 +175,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 53
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 26,
             "end": 54
         },
@@ -227,7 +227,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 151
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 59,
                     "end": 151
                 },
@@ -237,7 +237,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 151
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 54,
             "end": 152
         },
@@ -289,7 +289,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 249
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 157,
                     "end": 249
                 },
@@ -299,7 +299,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 249
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 152,
             "end": 250
         },
@@ -351,7 +351,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 347
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 255,
                     "end": 347
                 },
@@ -361,7 +361,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 347
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 250,
             "end": 348
         },
@@ -413,7 +413,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 375
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 353,
                     "end": 375
                 },
@@ -423,7 +423,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 375
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 348,
             "end": 376
         },
@@ -475,7 +475,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 403
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 381,
                     "end": 403
                 },
@@ -485,7 +485,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 403
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 376,
             "end": 404
         },
@@ -537,7 +537,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 501
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 409,
                     "end": 501
                 },
@@ -547,7 +547,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 501
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 404,
             "end": 502
         },
@@ -599,7 +599,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 599
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 507,
                     "end": 599
                 },
@@ -609,7 +609,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 599
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 502,
             "end": 600
         },
@@ -661,7 +661,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 697
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 605,
                     "end": 697
                 },
@@ -671,7 +671,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 697
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 600,
             "end": 698
         },
@@ -723,7 +723,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 724
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 703,
                     "end": 724
                 },
@@ -733,7 +733,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 724
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 698,
             "end": 725
         },
@@ -785,7 +785,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 751
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 730,
                     "end": 751
                 },
@@ -795,7 +795,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 751
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 725,
             "end": 752
         },
@@ -847,7 +847,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 848
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 757,
                     "end": 848
                 },
@@ -857,7 +857,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 848
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 752,
             "end": 849
         },
@@ -909,7 +909,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 945
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 854,
                     "end": 945
                 },
@@ -919,7 +919,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 945
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 849,
             "end": 946
         },
@@ -971,7 +971,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "end": 1042
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 951,
                     "end": 1042
                 },
@@ -981,7 +981,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                 "end": 1042
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 946,
             "end": 1043
         }

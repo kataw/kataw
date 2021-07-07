@@ -131,7 +131,7 @@ async function * gen() {x = class extends (yield) {}}
                                                     "asteriskToken": null,
                                                     "expression": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 43,
                                                     "end": 48
                                                 },
@@ -170,7 +170,7 @@ async function * gen() {x = class extends (yield) {}}
                                 "end": 52
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 52
                         }

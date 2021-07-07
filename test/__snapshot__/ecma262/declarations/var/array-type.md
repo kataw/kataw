@@ -83,7 +83,7 @@ var a: (?number)[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 15
                     }
@@ -189,7 +189,7 @@ var a: (?number)[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 21,
                         "end": 41
                     }
@@ -286,7 +286,7 @@ var a: (?number)[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 47,
                         "end": 65
                     }
@@ -357,7 +357,7 @@ var a: (?number)[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 71,
                         "end": 85
                     }
@@ -414,7 +414,7 @@ var a: (?number)[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 91,
                         "end": 101
                     }
@@ -448,7 +448,7 @@ var a: (?number)[];
                 "end": 104
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 101,
             "end": 105
         },
@@ -531,7 +531,7 @@ var a: (?number)[];
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 110,
                         "end": 125
                     }

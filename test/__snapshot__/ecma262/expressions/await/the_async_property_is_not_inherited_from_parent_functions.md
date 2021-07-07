@@ -118,7 +118,7 @@ async function f(){ let y = x => await x; }
                                             "end": 38
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 23,
                                         "end": 38
                                     },
@@ -136,7 +136,7 @@ async function f(){ let y = x => await x; }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 38,
                                         "end": 40
                                     }

@@ -230,12 +230,12 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                                 "asteriskToken": null,
                                                                                                 "expression": null,
                                                                                                 "flags": 32,
-                                                                                                "transformFlags": 0,
+                                                                                                "transformFlags": 4096,
                                                                                                 "start": 86,
                                                                                                 "end": 92
                                                                                             },
                                                                                             "flags": 96,
-                                                                                            "transformFlags": 0,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 74,
                                                                                             "end": 92
                                                                                         },
@@ -274,7 +274,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                         "end": 97
                                                                     },
                                                                     "flags": 16,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 56,
                                                                     "end": 97
                                                                 }
@@ -301,7 +301,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                 "end": 100
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 39,
                                             "end": 101
                                         }

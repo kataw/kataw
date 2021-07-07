@@ -126,7 +126,7 @@ function* g( x = function() { async(yield) }) {};
                                                 "end": 42
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 29,
                                             "end": 42
                                         }
@@ -148,7 +148,7 @@ function* g( x = function() { async(yield) }) {};
                             "end": 44
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 44
                     }

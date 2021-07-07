@@ -84,7 +84,7 @@ function *f(x = (do) = f) {}
                             "end": 17
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 17
                     }
@@ -138,7 +138,7 @@ function *f(x = (do) = f) {}
                     "end": 19
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 19,
                 "end": 19
             },
@@ -169,7 +169,7 @@ function *f(x = (do) = f) {}
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 24
         },

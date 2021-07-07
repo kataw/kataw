@@ -99,7 +99,7 @@ function *f() { 1 ? yield 2 : 3; }
                                         "end": 27
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 19,
                                     "end": 27
                                 },
@@ -120,12 +120,12 @@ function *f() { 1 ? yield 2 : 3; }
                                     "end": 31
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 31
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 32
                         }

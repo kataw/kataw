@@ -122,7 +122,7 @@ FooBar.bar = 1;
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 27
                     },
@@ -193,7 +193,7 @@ FooBar.bar = 1;
                                         "end": 50
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 34,
                                     "end": 50
                                 }
@@ -259,7 +259,7 @@ FooBar.bar = 1;
                             "end": 64
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 51,
                         "end": 65
                     },
@@ -367,7 +367,7 @@ FooBar.bar = 1;
                             "end": 102
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 87,
                         "end": 103
                     }

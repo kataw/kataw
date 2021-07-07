@@ -62,12 +62,12 @@ a /*1*/ ? /*2*/ b /*3*/: /*4*/c
                     "end": 31
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         }

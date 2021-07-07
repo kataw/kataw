@@ -58,7 +58,7 @@ for (let foo = bar, zoo = boo in x);
                                 "end": 18
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 18
                         },
@@ -84,7 +84,7 @@ for (let foo = bar, zoo = boo in x);
                                 "end": 29
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 19,
                             "end": 29
                         }

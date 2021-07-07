@@ -60,7 +60,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                             "end": 14
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 14
                     }
@@ -124,7 +124,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                 "end": 34
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 35
         },
@@ -177,7 +177,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 35,
             "end": 58
         },
@@ -294,7 +294,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                 "end": 115
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 58,
             "end": 116
         }

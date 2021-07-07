@@ -93,12 +93,12 @@ class new {}
                 },
                 "argumentList": null,
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 5,
                 "end": 12
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 5,
             "end": 12
         }

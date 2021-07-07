@@ -103,7 +103,7 @@ for ({}[b] in c) d;
                     "end": 18
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 16,
                 "end": 19
             },

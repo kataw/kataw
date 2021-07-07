@@ -125,7 +125,7 @@ do while try this and !foo
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 21
         },
@@ -155,7 +155,7 @@ do while try this and !foo
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 26
         }

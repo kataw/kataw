@@ -152,7 +152,7 @@ for (var {name: n, family: {father: f}} of people) {}
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 39
                         }

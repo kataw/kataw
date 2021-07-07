@@ -172,7 +172,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                             "asteriskToken": null,
                                                                                             "expression": null,
                                                                                             "flags": 32,
-                                                                                            "transformFlags": 0,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 56,
                                                                                             "end": 62
                                                                                         },
@@ -250,7 +250,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                             "end": 76
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 24,
                                         "end": 76
                                     }

@@ -87,7 +87,7 @@ function five<T>(this: T) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 25
                     }
@@ -176,7 +176,7 @@ function five<T>(this: T) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 44,
                         "end": 56
                     },
@@ -274,7 +274,7 @@ function five<T>(this: T) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 80,
                         "end": 92
                     },
@@ -300,7 +300,7 @@ function five<T>(this: T) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 93,
                         "end": 98
                     }
@@ -389,7 +389,7 @@ function five<T>(this: T) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 118,
                         "end": 130
                     },
@@ -433,7 +433,7 @@ function five<T>(this: T) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 137,
                         "end": 142
                     }
@@ -567,7 +567,7 @@ function five<T>(this: T) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 165,
                         "end": 172
                     }

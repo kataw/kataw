@@ -95,7 +95,7 @@ result = [ x = 'x' in {} ] = vals;
                                             "end": 24
                                         },
                                         "flags": 4194400,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 14,
                                         "end": 24
                                     },
@@ -143,7 +143,7 @@ result = [ x = 'x' in {} ] = vals;
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }

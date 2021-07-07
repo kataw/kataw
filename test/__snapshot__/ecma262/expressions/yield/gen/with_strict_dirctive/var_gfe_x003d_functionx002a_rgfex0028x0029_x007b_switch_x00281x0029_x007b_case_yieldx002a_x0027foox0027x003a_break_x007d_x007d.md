@@ -156,7 +156,7 @@
                                                                 "end": 73
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 60,
                                                             "end": 73
                                                         },
@@ -218,7 +218,7 @@
                             "end": 85
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 85
                     }
@@ -252,7 +252,7 @@
 var gfe = function *rgfe() {
     switch (1) {
       case yield* "'foo'":
-        break ;
+        break;
     }
   };
 ```

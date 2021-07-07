@@ -117,7 +117,7 @@ function* g() { var f = async(yield) => 1; }
                                                         "asteriskToken": null,
                                                         "expression": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 30,
                                                         "end": 35
                                                     }
@@ -134,7 +134,7 @@ function* g() { var f = async(yield) => 1; }
                                             "end": 36
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 19,
                                         "end": 36
                                     }
@@ -178,7 +178,7 @@ function* g() { var f = async(yield) => 1; }
                 "end": 41
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 39,
             "end": 42
         }

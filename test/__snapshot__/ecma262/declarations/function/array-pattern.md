@@ -182,7 +182,7 @@ async function a(options = {}) {
                             "end": 83
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 71,
                         "end": 83
                     }

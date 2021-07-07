@@ -68,12 +68,12 @@ unction* g() { var f = async({x = yield}) => 1; }
                     "end": 12
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         },
@@ -149,7 +149,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                                                                     "end": 39
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 30,
                                                                 "end": 39
                                                             }
@@ -195,7 +195,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                                         "end": 46
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 18,
                                     "end": 46
                                 }

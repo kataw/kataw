@@ -119,7 +119,7 @@ async function p(){
                                         },
                                         "argumentList": null,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 2048,
                                         "start": 37,
                                         "end": 43
                                     },

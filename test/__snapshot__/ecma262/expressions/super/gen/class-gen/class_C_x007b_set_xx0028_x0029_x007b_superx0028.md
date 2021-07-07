@@ -198,7 +198,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                                                         "end": 49
                                                                                     },
                                                                                     "flags": 16,
-                                                                                    "transformFlags": 0,
+                                                                                    "transformFlags": 4096,
                                                                                     "start": 42,
                                                                                     "end": 49
                                                                                 }

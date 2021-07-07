@@ -70,7 +70,7 @@ function f(x=(yield z)=y){}
                             "end": 19
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 19
                     },
@@ -124,7 +124,7 @@ function f(x=(yield z)=y){}
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 23,
             "end": 24
         },

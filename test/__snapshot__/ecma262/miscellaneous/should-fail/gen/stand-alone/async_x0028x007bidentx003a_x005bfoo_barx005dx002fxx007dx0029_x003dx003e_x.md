@@ -107,7 +107,7 @@ async ({ident: [foo, bar]/x}) => x
                                                 "end": 27
                                             },
                                             "flags": 32,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 8,
                                             "end": 27
                                         },
@@ -159,7 +159,7 @@ async ({ident: [foo, bar]/x}) => x
                 "end": 34
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }

@@ -132,7 +132,7 @@ class C { m() { k = new super(); } }
                                                             "end": 30
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 2048,
                                                         "start": 19,
                                                         "end": 31
                                                     },
@@ -142,7 +142,7 @@ class C { m() { k = new super(); } }
                                                     "end": 31
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 15,
                                                 "end": 32
                                             }

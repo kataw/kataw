@@ -95,7 +95,7 @@ for (var i = 0; i < 10; ++i) 0;
                                 "end": 26
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 20,
                             "end": 26
                         }
@@ -161,7 +161,7 @@ for (var i = 0; i < 10; ++i) 0;
                     "end": 34
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 27,
                 "end": 34
             },
@@ -209,7 +209,7 @@ for (var i = 0; i < 10; ++i) 0;
                     "end": 55
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 53,
                 "end": 56
             },
@@ -261,7 +261,7 @@ for (var i = 0; i < 10; ++i) 0;
                                 "end": 71
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 65,
                             "end": 71
                         }
@@ -327,7 +327,7 @@ for (var i = 0; i < 10; ++i) 0;
                     "end": 79
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 72,
                 "end": 79
             },
@@ -343,7 +343,7 @@ for (var i = 0; i < 10; ++i) 0;
                     "end": 87
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 85,
                 "end": 88
             },

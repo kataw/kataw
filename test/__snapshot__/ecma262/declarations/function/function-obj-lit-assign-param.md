@@ -128,12 +128,12 @@ function* foo(a = {*bar() { yield b }}) {}
                                                                     "end": 35
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 27,
                                                                 "end": 35
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 27,
                                                             "end": 35
                                                         }
@@ -171,7 +171,7 @@ function* foo(a = {*bar() { yield b }}) {}
                             "end": 38
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 38
                     }

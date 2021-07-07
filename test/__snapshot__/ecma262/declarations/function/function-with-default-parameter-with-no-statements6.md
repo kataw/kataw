@@ -90,7 +90,7 @@ function bar(a = [1 + 1]) {
                                             "end": 23
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 18,
                                         "end": 23
                                     }
@@ -107,7 +107,7 @@ function bar(a = [1 + 1]) {
                             "end": 24
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 24
                     }
@@ -212,7 +212,7 @@ function bar(a = [1 + 1]) {
                                             "end": 54
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 49,
                                         "end": 54
                                     }
@@ -229,7 +229,7 @@ function bar(a = [1 + 1]) {
                             "end": 55
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 44,
                         "end": 55
                     }

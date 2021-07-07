@@ -85,7 +85,7 @@ var foo = ( { title, ...other } ) => {
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 20,
                                                     "end": 29
                                                 }
@@ -138,7 +138,7 @@ var foo = ( { title, ...other } ) => {
                             "end": 41
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 41
                     }

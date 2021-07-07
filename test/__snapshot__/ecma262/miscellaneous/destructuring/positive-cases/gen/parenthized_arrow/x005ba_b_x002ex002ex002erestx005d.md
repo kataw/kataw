@@ -99,7 +99,7 @@ var f = ([a,b,...rest]) => {};
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 14,
                                                     "end": 21
                                                 }
@@ -152,7 +152,7 @@ var f = ([a,b,...rest]) => {};
                             "end": 29
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 29
                     }

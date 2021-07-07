@@ -99,7 +99,7 @@
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 32,
                                         "end": 37
                                     }
@@ -133,7 +133,7 @@
                             "end": 43
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 43
                     }

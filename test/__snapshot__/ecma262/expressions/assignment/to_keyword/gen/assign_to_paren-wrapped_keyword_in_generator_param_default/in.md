@@ -99,7 +99,7 @@ function *f(x = (in) = f) {}
                                         "end": 19
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -130,7 +130,7 @@ function *f(x = (in) = f) {}
                             "end": 24
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 24
                     }

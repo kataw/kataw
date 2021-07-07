@@ -139,12 +139,12 @@ let x = a ? (b, c) : (d, e)
                                 "end": 27
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 27
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 27
                     }

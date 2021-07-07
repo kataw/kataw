@@ -108,7 +108,7 @@ async( x = class { x = await });
                                             "end": 33
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 27,
                                         "end": 33
                                     },
@@ -139,7 +139,7 @@ async( x = class { x = await });
                 "end": 35
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         },
@@ -260,7 +260,7 @@ async( x = class { x = await });
                 "end": 69
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 36,
             "end": 70
         }

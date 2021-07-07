@@ -45,7 +45,7 @@ x: y;
                     "end": 4
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 5
             },

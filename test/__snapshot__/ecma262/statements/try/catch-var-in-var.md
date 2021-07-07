@@ -97,7 +97,7 @@ try {} catch (e) { var e = x; }
                                                 "end": 28
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 22,
                                             "end": 28
                                         }

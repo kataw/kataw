@@ -51,7 +51,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         },
@@ -69,7 +69,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 11,
                             "end": 13
                         },
@@ -87,7 +87,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 14,
                             "end": 16
                         },
@@ -105,7 +105,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 17,
                             "end": 19
                         }
@@ -154,7 +154,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 28,
                                         "end": 32
                                     }
@@ -196,7 +196,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 37,
                                         "end": 41
                                     }
@@ -243,7 +243,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
-                                                    "transformFlags": 128,
+                                                    "transformFlags": 4224,
                                                     "start": 48,
                                                     "end": 52
                                                 },
@@ -261,7 +261,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
-                                                    "transformFlags": 128,
+                                                    "transformFlags": 4224,
                                                     "start": 53,
                                                     "end": 55
                                                 },
@@ -279,7 +279,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
-                                                    "transformFlags": 128,
+                                                    "transformFlags": 4224,
                                                     "start": 56,
                                                     "end": 59
                                                 }

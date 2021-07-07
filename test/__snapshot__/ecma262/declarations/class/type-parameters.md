@@ -672,7 +672,7 @@ class A9<S = number, T: ?string = string> {}
                 "end": 164
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 137,
             "end": 165
         }

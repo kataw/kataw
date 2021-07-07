@@ -177,7 +177,7 @@ declare var a: A;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 57,
                         "end": 62
                     }

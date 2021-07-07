@@ -74,7 +74,7 @@ switch (A) {case B: C; default: D;}
                                     "end": 21
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 19,
                                 "end": 22
                             }
@@ -113,7 +113,7 @@ switch (A) {case B: C; default: D;}
                                     "end": 33
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 31,
                                 "end": 34
                             }

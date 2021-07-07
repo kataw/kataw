@@ -49,7 +49,7 @@ var await; var f = (async function() { async function f(){ await await foo; } })
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -198,17 +198,17 @@ var await; var f = (async function() { async function f(){ await await foo; } })
                                                                             "end": 74
                                                                         },
                                                                         "flags": 32,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 64,
                                                                         "end": 74
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 58,
                                                                     "end": 74
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 58,
                                                                 "end": 75
                                                             }
@@ -252,7 +252,7 @@ var await; var f = (async function() { async function f(){ await await foo; } })
                             "end": 80
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 80
                     }

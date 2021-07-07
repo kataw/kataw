@@ -96,12 +96,12 @@ function* fn() {
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 23,
                                                 "end": 29
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 16,
                                             "end": 29
                                         }
@@ -142,7 +142,7 @@ function* fn() {
                                 "end": 36
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 37
                         }

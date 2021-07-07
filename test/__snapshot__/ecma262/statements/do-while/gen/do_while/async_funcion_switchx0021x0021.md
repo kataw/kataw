@@ -69,7 +69,7 @@ do async funcion switch!! while
                     "end": 16
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 16
             },
@@ -177,7 +177,7 @@ do async funcion switch!! while
                     "end": 31
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 31,
                 "end": 31
             },

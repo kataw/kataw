@@ -216,7 +216,7 @@
 ```javascript
 foo:  switch (false) {
   case false:
-    break  foo;
+    break foo;
   default
 
   case false:

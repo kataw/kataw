@@ -59,7 +59,7 @@ var {x = 10, y: { z = 10}} = a;
                                             "end": 11
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -103,7 +103,7 @@ var {x = 10, y: { z = 10}} = a;
                                                             "end": 24
                                                         },
                                                         "flags": 0,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 17,
                                                         "end": 24
                                                     }
@@ -148,7 +148,7 @@ var {x = 10, y: { z = 10}} = a;
                             "end": 30
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 30
                     }

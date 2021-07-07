@@ -79,7 +79,7 @@ const array = [,, /* comment */];
                             "end": 32
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 32
                     }

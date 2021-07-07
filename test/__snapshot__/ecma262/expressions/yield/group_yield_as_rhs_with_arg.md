@@ -131,12 +131,12 @@ function *g() { async (x = x + yield y); }
                                                         "end": 38
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 30,
                                                     "end": 38
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 26,
                                                 "end": 38
                                             },
@@ -158,7 +158,7 @@ function *g() { async (x = x + yield y); }
                                 "end": 39
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 40
                         }

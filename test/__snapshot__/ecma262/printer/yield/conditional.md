@@ -114,7 +114,7 @@ async function f3() {
                                             "asteriskToken": null,
                                             "expression": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 24,
                                             "end": 29
                                         },
@@ -156,7 +156,7 @@ async function f3() {
                                         "end": 38
                                     },
                                     "flags": 54,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 22,
                                     "end": 38
                                 },
@@ -166,7 +166,7 @@ async function f3() {
                                 "end": 38
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 39
                         },
@@ -245,12 +245,12 @@ async function f3() {
                                             "end": 61
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 51,
                                         "end": 61
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 45,
                                     "end": 61
                                 },
@@ -260,7 +260,7 @@ async function f3() {
                                 "end": 61
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 39,
                             "end": 62
                         },
@@ -309,7 +309,7 @@ async function f3() {
                                                 "end": 77
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 70,
                                             "end": 77
                                         },
@@ -351,7 +351,7 @@ async function f3() {
                                         "end": 86
                                     },
                                     "flags": 100,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 68,
                                     "end": 86
                                 },
@@ -361,7 +361,7 @@ async function f3() {
                                 "end": 86
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 62,
                             "end": 87
                         },
@@ -416,7 +416,7 @@ async function f3() {
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 97,
                                         "end": 103
                                     },
@@ -440,12 +440,12 @@ async function f3() {
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 105,
                                         "end": 111
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 93,
                                     "end": 111
                                 },
@@ -455,7 +455,7 @@ async function f3() {
                                 "end": 111
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 87,
                             "end": 112
                         },
@@ -518,7 +518,7 @@ async function f3() {
                                             "end": 130
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 122,
                                         "end": 130
                                     },
@@ -550,12 +550,12 @@ async function f3() {
                                             "end": 140
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 132,
                                         "end": 140
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 118,
                                     "end": 140
                                 },
@@ -565,7 +565,7 @@ async function f3() {
                                 "end": 140
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 112,
                             "end": 141
                         }
@@ -710,12 +710,12 @@ async function f3() {
                                             "end": 184
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 174,
                                         "end": 184
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 167,
                                     "end": 184
                                 },
@@ -725,7 +725,7 @@ async function f3() {
                                 "end": 184
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 161,
                             "end": 185
                         },
@@ -780,7 +780,7 @@ async function f3() {
                                                 "end": 201
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 193,
                                             "end": 201
                                         },
@@ -822,7 +822,7 @@ async function f3() {
                                         "end": 210
                                     },
                                     "flags": 191,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 191,
                                     "end": 210
                                 },
@@ -832,7 +832,7 @@ async function f3() {
                                 "end": 210
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 185,
                             "end": 211
                         },
@@ -901,7 +901,7 @@ async function f3() {
                                             "end": 230
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 221,
                                         "end": 230
                                     },
@@ -939,12 +939,12 @@ async function f3() {
                                             "end": 241
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 232,
                                         "end": 241
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 217,
                                     "end": 241
                                 },
@@ -954,7 +954,7 @@ async function f3() {
                                 "end": 241
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 211,
                             "end": 242
                         }
@@ -1059,7 +1059,7 @@ async function f3() {
                                             "end": 281
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 273,
                                         "end": 281
                                     },
@@ -1096,7 +1096,7 @@ async function f3() {
                                         "end": 289
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 273,
                                     "end": 289
                                 },
@@ -1106,7 +1106,7 @@ async function f3() {
                                 "end": 289
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 267,
                             "end": 290
                         },
@@ -1153,7 +1153,7 @@ async function f3() {
                                                 "end": 305
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 298,
                                             "end": 305
                                         },
@@ -1195,7 +1195,7 @@ async function f3() {
                                         "end": 314
                                     },
                                     "flags": 296,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 296,
                                     "end": 314
                                 },
@@ -1205,7 +1205,7 @@ async function f3() {
                                 "end": 314
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 290,
                             "end": 315
                         },
@@ -1266,7 +1266,7 @@ async function f3() {
                                             "end": 333
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 325,
                                         "end": 333
                                     },
@@ -1296,12 +1296,12 @@ async function f3() {
                                             "end": 343
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 335,
                                         "end": 343
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 321,
                                     "end": 343
                                 },
@@ -1311,7 +1311,7 @@ async function f3() {
                                 "end": 343
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 315,
                             "end": 344
                         }

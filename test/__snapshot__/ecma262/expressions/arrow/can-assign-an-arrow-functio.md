@@ -91,7 +91,7 @@ y = async (x) => {}
                 "end": 11
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         },
@@ -163,7 +163,7 @@ y = async (x) => {}
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 25
         },
@@ -245,7 +245,7 @@ y = async (x) => {}
                 "end": 40
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 40
         },
@@ -323,7 +323,7 @@ y = async (x) => {}
                 "end": 60
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 40,
             "end": 60
         },
@@ -411,7 +411,7 @@ y = async (x) => {}
                 "end": 81
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 60,
             "end": 81
         }

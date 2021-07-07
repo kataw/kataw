@@ -150,7 +150,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "end": 29
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 25,
                                     "end": 29
                                 },
@@ -189,12 +189,12 @@ x ? ( (a, {}) => {} ) : baz;
                                         "end": 35
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 33,
                                     "end": 35
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 25,
                                 "end": 35
                             },
@@ -230,12 +230,12 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 43
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 43
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 44
         },
@@ -400,12 +400,12 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 83
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 44,
                 "end": 83
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 44,
             "end": 84
         },
@@ -557,12 +557,12 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 120
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 84,
                 "end": 120
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 84,
             "end": 121
         },
@@ -678,12 +678,12 @@ x ? ( (a, {}) => {} ) : baz;
                     "end": 149
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 121,
                 "end": 149
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 121,
             "end": 150
         }

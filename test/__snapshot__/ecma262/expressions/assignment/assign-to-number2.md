@@ -56,7 +56,7 @@ x = 0x1_2b5
                 "end": 11
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }

@@ -50,7 +50,7 @@ let x = ;
                             "end": 7
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 7
                     }
@@ -91,7 +91,7 @@ let x = ;
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 21
         }

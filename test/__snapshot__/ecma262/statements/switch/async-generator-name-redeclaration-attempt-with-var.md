@@ -177,7 +177,7 @@ switch (0) { case 1: async function* f() {} default: var f }
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 56,
                                             "end": 58
                                         }

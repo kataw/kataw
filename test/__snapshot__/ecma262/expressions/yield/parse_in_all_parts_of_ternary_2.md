@@ -75,7 +75,7 @@ function *f() { yield ? yield : yield ; }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 15,
                                     "end": 21
                                 },
@@ -99,7 +99,7 @@ function *f() { yield ? yield : yield ; }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 23,
                                     "end": 29
                                 },
@@ -123,17 +123,17 @@ function *f() { yield ? yield : yield ; }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 31,
                                     "end": 37
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 37
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 39
                         }

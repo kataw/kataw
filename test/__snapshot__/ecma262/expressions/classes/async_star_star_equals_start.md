@@ -115,7 +115,7 @@ class A {async **=f(){}}
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 21
         },

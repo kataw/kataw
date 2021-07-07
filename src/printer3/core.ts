@@ -34,6 +34,9 @@ export function createPrinter(source: string, flags: PrinterFlags, space: string
 export function printAssignmentRight(left: any, right: any, printedRight: any): any {
   return ((left.kind === SyntaxKind.Identifier ||
     left.kind === SyntaxKind.StringLiteral ||
+    left.kind === SyntaxKind.ComputedPropertyName ||
+    left.kind === SyntaxKind.NumericLiteral ||
+    left.kind === SyntaxKind.BigIntLiteral ||
     left.kind === SyntaxKind.IndexedAccessType ||
     left.kind === SyntaxKind.MemberAccessExpression) &&
     (right.kind === SyntaxKind.StringLiteral ||
@@ -58,7 +61,6 @@ export function printKeywordNoSpace(printer: any, keyword: any): any {
   if (keyword) {
     return tokenToString(keyword);
   }
-  return '';
 }
 
 export function printKeyword(printer: any, keyword: any, parent: any, addSpace: boolean): any {

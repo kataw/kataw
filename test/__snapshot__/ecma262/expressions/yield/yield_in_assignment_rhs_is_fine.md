@@ -103,12 +103,12 @@ function* g() { let x = yield 3; }
                                                 "end": 31
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 23,
                                             "end": 31
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 19,
                                         "end": 31
                                     }

@@ -91,7 +91,7 @@ function *f(x = (new) = f) {}
                                     },
                                     "argumentList": null,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 2048,
                                     "start": 17,
                                     "end": 20
                                 },
@@ -122,7 +122,7 @@ function *f(x = (new) = f) {}
                             "end": 25
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 25
                     }

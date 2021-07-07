@@ -46,7 +46,7 @@ type x = y;
                 "end": 4
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -85,7 +85,7 @@ type x = y;
                 "end": 10
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4,
             "end": 11
         }

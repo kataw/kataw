@@ -124,7 +124,7 @@ var { __proto__: x, __proto__: y} = {};
                             "end": 38
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 38
                     }

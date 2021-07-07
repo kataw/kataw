@@ -46,7 +46,7 @@ var await;
                     "end": 6
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 6
             },
@@ -90,7 +90,7 @@ var await;
                     "end": 22
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 9,
                 "end": 22
             },
@@ -140,7 +140,7 @@ var await;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 30,
                         "end": 36
                     }

@@ -113,7 +113,7 @@ var x = async (a, b) => await a + b;
                                         "end": 31
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 23,
                                     "end": 31
                                 },
@@ -134,7 +134,7 @@ var x = async (a, b) => await a + b;
                                     "end": 35
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 23,
                                 "end": 35
                             },
@@ -144,7 +144,7 @@ var x = async (a, b) => await a + b;
                             "end": 35
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 35
                     }

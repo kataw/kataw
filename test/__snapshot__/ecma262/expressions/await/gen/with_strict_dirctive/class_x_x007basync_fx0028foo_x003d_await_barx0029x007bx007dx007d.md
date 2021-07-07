@@ -122,12 +122,12 @@
                                                     "end": 46
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 36,
                                                 "end": 46
                                             },
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 31,
                                             "end": 46
                                         }

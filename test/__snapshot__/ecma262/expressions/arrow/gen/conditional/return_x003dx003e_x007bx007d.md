@@ -72,7 +72,7 @@ return => {} , bar;
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 19
         }

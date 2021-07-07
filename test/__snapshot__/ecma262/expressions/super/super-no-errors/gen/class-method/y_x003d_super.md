@@ -161,7 +161,7 @@ class C { m() { foo(y = super); } }
                                                     "end": 30
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 15,
                                                 "end": 31
                                             }

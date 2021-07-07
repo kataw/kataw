@@ -243,7 +243,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "end": 70
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 43,
                                                             "end": 70
                                                         }
@@ -376,7 +376,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "end": 110
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 83,
                                                             "end": 110
                                                         }
@@ -683,7 +683,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                             },
                                                                             "argumentList": null,
                                                                             "flags": 96,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 2048,
                                                                             "start": 212,
                                                                             "end": 220
                                                                         }
@@ -700,7 +700,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "end": 221
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 192,
                                                             "end": 221
                                                         }
@@ -817,7 +817,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "end": 255
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 234,
                                                             "end": 255
                                                         }
@@ -1055,7 +1055,7 @@ var stringArr:Array<string> = ['a','b'];
                                                     "end": 340
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 318,
                                                 "end": 341
                                             }
@@ -1259,7 +1259,7 @@ var stringArr:Array<string> = ['a','b'];
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 400,
                                             "end": 410
                                         }
@@ -1367,7 +1367,7 @@ var stringArr:Array<string> = ['a','b'];
                                                     "end": 454
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 423,
                                                 "end": 455
                                             },
@@ -1579,7 +1579,7 @@ var stringArr:Array<string> = ['a','b'];
                             "end": 545
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 497,
                         "end": 545
                     }
@@ -1712,7 +1712,7 @@ var stringArr:Array<string> = ['a','b'];
                             "end": 586
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 550,
                         "end": 586
                     }

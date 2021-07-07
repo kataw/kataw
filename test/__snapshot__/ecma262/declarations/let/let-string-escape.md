@@ -55,7 +55,7 @@ let z = '\\009';
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
@@ -104,7 +104,7 @@ let z = '\\009';
                             "end": 30
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 19,
                         "end": 30
                     }
@@ -153,7 +153,7 @@ let z = '\\009';
                             "end": 48
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 36,
                         "end": 48
                     }
@@ -180,7 +180,7 @@ let z = '\\009';
                 "end": 63
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 49,
             "end": 64
         },
@@ -218,7 +218,7 @@ let z = '\\009';
                             "end": 78
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 68,
                         "end": 78
                     }

@@ -49,7 +49,7 @@ do( /**/ /x do while while
                     "end": 26
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 26
             },

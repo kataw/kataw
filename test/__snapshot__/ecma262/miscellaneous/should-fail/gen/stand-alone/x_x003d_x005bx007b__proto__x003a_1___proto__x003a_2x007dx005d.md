@@ -134,7 +134,7 @@ x = [{__proto__: 1, __proto__: 2}]
                 "end": 34
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }

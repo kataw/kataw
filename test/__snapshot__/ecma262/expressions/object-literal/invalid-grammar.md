@@ -204,7 +204,7 @@ q = {"foo": super = x} = x;
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 32
         },
@@ -349,7 +349,7 @@ q = {"foo": super = x} = x;
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 32,
             "end": 58
         },
@@ -598,7 +598,7 @@ q = {"foo": super = x} = x;
                 "end": 101
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 58,
             "end": 102
         },
@@ -736,7 +736,7 @@ q = {"foo": super = x} = x;
                 "end": 134
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 102,
             "end": 135
         },
@@ -872,7 +872,7 @@ q = {"foo": super = x} = x;
                 "end": 162
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 135,
             "end": 163
         },
@@ -1010,7 +1010,7 @@ q = {"foo": super = x} = x;
                 "end": 188
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 163,
             "end": 189
         },
@@ -1146,7 +1146,7 @@ q = {"foo": super = x} = x;
                 "end": 217
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 189,
             "end": 218
         },
@@ -1284,7 +1284,7 @@ q = {"foo": super = x} = x;
                 "end": 242
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 218,
             "end": 243
         },
@@ -1454,7 +1454,7 @@ q = {"foo": super = x} = x;
                 "end": 277
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 243,
             "end": 278
         },
@@ -1564,7 +1564,7 @@ q = {"foo": super = x} = x;
                 "end": 299
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 278,
             "end": 300
         },
@@ -1667,7 +1667,7 @@ q = {"foo": super = x} = x;
                 "end": 319
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 300,
             "end": 320
         },
@@ -1770,7 +1770,7 @@ q = {"foo": super = x} = x;
                 "end": 338
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 320,
             "end": 339
         },
@@ -1889,7 +1889,7 @@ q = {"foo": super = x} = x;
                 "end": 366
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 339,
             "end": 367
         },
@@ -2006,7 +2006,7 @@ q = {"foo": super = x} = x;
                 "end": 393
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 367,
             "end": 394
         },
@@ -2139,7 +2139,7 @@ q = {"foo": super = x} = x;
                 "end": 421
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 394,
             "end": 422
         }

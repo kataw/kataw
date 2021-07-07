@@ -50,7 +50,7 @@ do[ catch { try
                     "end": 3
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 3
             },

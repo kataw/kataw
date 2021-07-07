@@ -275,7 +275,7 @@ class C {
                         "type": null,
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 57,
                         "end": 58
                     }
@@ -365,7 +365,7 @@ class C {
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 71,
                                     "end": 73
                                 }
@@ -439,7 +439,7 @@ class C {
                         "end": 85
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 2048,
                     "start": 78,
                     "end": 86
                 },
@@ -449,7 +449,7 @@ class C {
                 "end": 86
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 74,
             "end": 87
         },
@@ -497,7 +497,7 @@ class C {
                 "end": 100
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 87,
             "end": 101
         },
@@ -602,7 +602,7 @@ class C {
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 143,
                                                             "end": 145
                                                         }
@@ -666,7 +666,7 @@ class C {
                 "end": 153
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 146,
             "end": 154
         },
@@ -697,7 +697,7 @@ class C {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 161,
                         "end": 163
                     }
@@ -747,7 +747,7 @@ class C {
                 "end": 175
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 164,
             "end": 176
         }

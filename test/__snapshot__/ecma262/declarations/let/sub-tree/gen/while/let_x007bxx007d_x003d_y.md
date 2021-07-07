@@ -52,7 +52,7 @@ while (a) let {x} = y;
                     "end": 13
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 9,
                 "end": 13
             },
@@ -78,7 +78,7 @@ while (a) let {x} = y;
                             "end": 16
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 15,
                         "end": 16
                     }
@@ -105,7 +105,7 @@ while (a) let {x} = y;
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 19,
             "end": 22
         }

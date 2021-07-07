@@ -67,7 +67,7 @@ there; }
                                 "end": 49
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 50
                         }
@@ -135,7 +135,7 @@ there; }
                                 "end": 91
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 74,
                             "end": 92
                         }
@@ -170,11 +170,11 @@ there; }
 
 ```javascript
 while (true) {
-    break ;
+    break;
     there;
   }
 while (true) {
-    break ;
+    break;
     there;
   }
 

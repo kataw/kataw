@@ -51,7 +51,7 @@ const a = 1; let a = 2;
                             "end": 9
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -100,7 +100,7 @@ const a = 1; let a = 2;
                             "end": 22
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 16,
                         "end": 22
                     }
@@ -149,7 +149,7 @@ const a = 1; let a = 2;
                             "end": 36
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 30,
                         "end": 36
                     }
@@ -198,7 +198,7 @@ const a = 1; let a = 2;
                             "end": 47
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 41,
                         "end": 47
                     }

@@ -129,7 +129,7 @@ function not_gen() { function* gf() { var yield; } }}
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 41,
                                                         "end": 47
                                                     }

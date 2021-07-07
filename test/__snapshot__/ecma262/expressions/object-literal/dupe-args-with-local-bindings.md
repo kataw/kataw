@@ -131,7 +131,7 @@ class o {f([b, a], ...b) {}}
                                                                 "end": 27
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 21,
                                                             "end": 27
                                                         }
@@ -272,7 +272,7 @@ class o {f([b, a], ...b) {}}
                             "end": 44
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 40,
                         "end": 44
                     },
@@ -457,7 +457,7 @@ class o {f([b, a], ...b) {}}
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 86,
                                                             "end": 88
                                                         }
@@ -779,7 +779,7 @@ class o {f([b, a], ...b) {}}
                                             "type": null,
                                             "right": null,
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 141,
                                             "end": 146
                                         }

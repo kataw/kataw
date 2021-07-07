@@ -78,7 +78,7 @@ async (a = (...await) => {});
                                             "type": null,
                                             "right": null,
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 12,
                                             "end": 20
                                         }
@@ -136,7 +136,7 @@ async (a = (...await) => {});
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }

@@ -168,7 +168,7 @@ class Foo {
                                                     "end": 38
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 26,
                                                 "end": 38
                                             },
@@ -212,7 +212,7 @@ class Foo {
                                                     "end": 50
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 38,
                                                 "end": 50
                                             },
@@ -256,7 +256,7 @@ class Foo {
                                                     "end": 62
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 50,
                                                 "end": 62
                                             },
@@ -300,7 +300,7 @@ class Foo {
                                                     "end": 74
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 62,
                                                 "end": 74
                                             }
@@ -411,7 +411,7 @@ class Foo {
                                                     "end": 103
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 89,
                                                 "end": 103
                                             },
@@ -464,7 +464,7 @@ class Foo {
                                                     "end": 118
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 103,
                                                 "end": 118
                                             },
@@ -517,7 +517,7 @@ class Foo {
                                                     "end": 133
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 118,
                                                 "end": 133
                                             },
@@ -570,7 +570,7 @@ class Foo {
                                                     "end": 148
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 133,
                                                 "end": 148
                                             },
@@ -623,7 +623,7 @@ class Foo {
                                                     "end": 163
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 148,
                                                 "end": 163
                                             },
@@ -676,7 +676,7 @@ class Foo {
                                                     "end": 178
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 163,
                                                 "end": 178
                                             },
@@ -729,7 +729,7 @@ class Foo {
                                                     "end": 194
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 178,
                                                 "end": 194
                                             },
@@ -782,7 +782,7 @@ class Foo {
                                                     "end": 210
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 194,
                                                 "end": 210
                                             },
@@ -835,7 +835,7 @@ class Foo {
                                                     "end": 226
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 210,
                                                 "end": 226
                                             },
@@ -888,7 +888,7 @@ class Foo {
                                                     "end": 243
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 226,
                                                 "end": 243
                                             },
@@ -941,7 +941,7 @@ class Foo {
                                                     "end": 258
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 243,
                                                 "end": 258
                                             },
@@ -994,7 +994,7 @@ class Foo {
                                                     "end": 273
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 258,
                                                 "end": 273
                                             },
@@ -1047,7 +1047,7 @@ class Foo {
                                                     "end": 288
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 273,
                                                 "end": 288
                                             },
@@ -1100,7 +1100,7 @@ class Foo {
                                                     "end": 304
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 288,
                                                 "end": 304
                                             },
@@ -1153,7 +1153,7 @@ class Foo {
                                                     "end": 320
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 304,
                                                 "end": 320
                                             },
@@ -1206,7 +1206,7 @@ class Foo {
                                                     "end": 336
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 320,
                                                 "end": 336
                                             }

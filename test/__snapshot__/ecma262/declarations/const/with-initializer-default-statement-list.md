@@ -85,7 +85,7 @@ switch (true) { default: const x = 1; }
                                                 "end": 36
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 30,
                                             "end": 36
                                         }

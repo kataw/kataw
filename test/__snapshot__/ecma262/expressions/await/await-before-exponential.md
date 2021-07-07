@@ -65,7 +65,7 @@ async () => await 5 ** 6;
                             "end": 19
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 19
                     },
@@ -86,7 +86,7 @@ async () => await 5 ** 6;
                         "end": 24
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 11,
                     "end": 24
                 },
@@ -96,7 +96,7 @@ async () => await 5 ** 6;
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }

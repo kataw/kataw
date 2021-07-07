@@ -68,7 +68,7 @@ const x = ...y;
                             "end": 9
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 9
                     }
@@ -95,7 +95,7 @@ const x = ...y;
                 "end": 14
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 15
         }

@@ -159,7 +159,7 @@ function relativeComplement() {
                                         "end": 71
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 47,
                                     "end": 71
                                 },
@@ -263,7 +263,7 @@ function relativeComplement() {
                                                             "end": 127
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 103,
                                                         "end": 127
                                                     },
@@ -641,7 +641,7 @@ function relativeComplement() {
                                                     "end": 336
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 305,
                                                 "end": 337
                                             }
@@ -725,11 +725,11 @@ function relativeComplement() {
       inner:  for (; offsetA++; offsetA  < arrayA.length) {
           switch (comparer(arrayB[offsetB], arrayA[offsetA])) {
             case -1:
-              break  inner;
+              break inner;
             case 0:
-              continue  outer;
+              continue outer;
             case 1:
-              continue  inner;
+              continue inner;
           }
         }
       result.push(arrayB[offsetB]);

@@ -131,18 +131,18 @@ class C { m() { new new super; }
                                                         },
                                                         "argumentList": null,
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 2048,
                                                         "start": 19,
                                                         "end": 29
                                                     },
                                                     "argumentList": null,
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 2048,
                                                     "start": 15,
                                                     "end": 29
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 15,
                                                 "end": 30
                                             }

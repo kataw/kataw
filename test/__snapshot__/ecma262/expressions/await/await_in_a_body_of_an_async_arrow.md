@@ -93,12 +93,12 @@ let y = async x => { await x; }
                                                     "end": 28
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 20,
                                                 "end": 28
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 29
                                         }
@@ -119,7 +119,7 @@ let y = async x => { await x; }
                             "end": 31
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 31
                     }

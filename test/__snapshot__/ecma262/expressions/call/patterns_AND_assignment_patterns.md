@@ -216,7 +216,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         }

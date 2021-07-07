@@ -206,7 +206,7 @@ var a: (number: number) => number = (number) => { return 123; }
                             "end": 63
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 63
                     }

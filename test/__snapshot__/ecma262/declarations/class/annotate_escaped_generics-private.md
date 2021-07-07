@@ -220,7 +220,7 @@ class I<X> {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 30,
                                             "end": 34
                                         }
@@ -347,7 +347,7 @@ class I<X> {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 60,
                                             "end": 64
                                         }
@@ -414,7 +414,7 @@ class I<X> {
                                                     "end": 83
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 67,
                                                 "end": 84
                                             },
@@ -467,7 +467,7 @@ class I<X> {
                                                     "end": 100
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 84,
                                                 "end": 101
                                             }

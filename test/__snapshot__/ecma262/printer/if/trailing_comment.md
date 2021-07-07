@@ -64,7 +64,7 @@ if (
                     "end": 15
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 4,
                 "end": 15
             },
@@ -127,7 +127,7 @@ if (
                     "end": 45
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 34,
                 "end": 45
             },
@@ -190,7 +190,7 @@ if (
                     "end": 86
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 75,
                 "end": 86
             },
@@ -253,7 +253,7 @@ if (
                     "end": 116
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 105,
                 "end": 116
             },
@@ -314,7 +314,7 @@ if (
                                 "end": 162
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 158,
                             "end": 163
                         }

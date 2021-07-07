@@ -142,7 +142,7 @@ function *f(x = (function) = f) {}
                             "end": 31
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 31
                     },

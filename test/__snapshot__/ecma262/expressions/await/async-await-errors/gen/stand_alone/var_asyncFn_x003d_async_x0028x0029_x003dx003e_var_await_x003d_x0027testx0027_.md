@@ -89,7 +89,7 @@ var asyncFn = async () => var await = 'test';
                             "end": 25
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 25
                     }
@@ -139,7 +139,7 @@ var asyncFn = async () => var await = 'test';
                             "end": 44
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 44
                     }

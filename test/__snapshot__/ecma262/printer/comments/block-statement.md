@@ -151,7 +151,7 @@ x /*2*/
                             "end": 35
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 26,
                         "end": 35
                     }
@@ -183,7 +183,7 @@ x /*2*/
                             "end": 49
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 40,
                         "end": 49
                     }
@@ -305,7 +305,7 @@ x /*2*/
                             "end": 135
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 124,
                         "end": 135
                     }
@@ -337,7 +337,7 @@ x /*2*/
                             "end": 156
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 145,
                         "end": 156
                     }
@@ -384,7 +384,7 @@ x /*2*/
                             "end": 264
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 211,
                         "end": 264
                     }
@@ -430,7 +430,7 @@ x /*2*/
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 307,
                                     "end": 315
                                 }
@@ -488,7 +488,7 @@ x /*2*/
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 353,
                                     "end": 361
                                 }

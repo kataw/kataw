@@ -182,7 +182,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                                     "type": null,
                                                                                     "right": null,
                                                                                     "flags": 34,
-                                                                                    "transformFlags": 0,
+                                                                                    "transformFlags": 4096,
                                                                                     "start": 69,
                                                                                     "end": 77
                                                                                 }
@@ -242,7 +242,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                 "end": 84
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 39,
                                             "end": 84
                                         }

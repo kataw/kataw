@@ -57,7 +57,7 @@ for (let [.x] of obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         }
@@ -118,7 +118,7 @@ for (let [.x] of obj);
                     "end": 12
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 12
             },
@@ -139,7 +139,7 @@ for (let [.x] of obj);
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 16
         },
@@ -155,7 +155,7 @@ for (let [.x] of obj);
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 16,
             "end": 20
         },

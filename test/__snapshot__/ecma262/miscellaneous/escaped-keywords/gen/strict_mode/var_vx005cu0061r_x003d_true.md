@@ -78,7 +78,7 @@ var v\u0061r = true
                 "end": 19
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 19
         }

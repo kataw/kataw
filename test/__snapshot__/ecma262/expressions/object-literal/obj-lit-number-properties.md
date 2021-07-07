@@ -193,7 +193,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                 "end": 41
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 42
         },
@@ -513,7 +513,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                 "end": 95
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 42,
             "end": 96
         }

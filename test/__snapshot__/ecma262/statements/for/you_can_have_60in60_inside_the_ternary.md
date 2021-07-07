@@ -87,7 +87,7 @@ for (true ? a in b : {}; false; ) ;
                         "end": 18
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 11,
                     "end": 18
                 },
@@ -115,7 +115,7 @@ for (true ? a in b : {}; false; ) ;
                     "end": 23
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 23
             },

@@ -50,7 +50,7 @@ const a = 1; const a = 2;
                             "end": 11
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 11
                     },
@@ -76,7 +76,7 @@ const a = 1; const a = 2;
                             "end": 18
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 12,
                         "end": 18
                     }
@@ -125,7 +125,7 @@ const a = 1; const a = 2;
                             "end": 32
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 26,
                         "end": 32
                     }
@@ -174,7 +174,7 @@ const a = 1; const a = 2;
                             "end": 45
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 39,
                         "end": 45
                     }

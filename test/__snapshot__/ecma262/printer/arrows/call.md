@@ -842,7 +842,7 @@ foo(
                 "end": 241
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 241
         },
@@ -1176,7 +1176,7 @@ foo(
                                     "end": 409
                                 },
                                 "flags": 97,
-                                "transformFlags": 0,
+                                "transformFlags": 2048,
                                 "start": 276,
                                 "end": 413
                             },
@@ -1186,7 +1186,7 @@ foo(
                             "end": 413
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 248,
                         "end": 413
                     }
@@ -1370,7 +1370,7 @@ foo(
                 "end": 611
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 414,
             "end": 612
         },
@@ -1490,7 +1490,7 @@ foo(
                 "end": 708
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 612,
             "end": 709
         },
@@ -1601,7 +1601,7 @@ foo(
                 "end": 747
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 709,
             "end": 748
         },
@@ -1712,7 +1712,7 @@ foo(
                 "end": 786
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 748,
             "end": 787
         },
@@ -1823,7 +1823,7 @@ foo(
                 "end": 824
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 787,
             "end": 825
         },
@@ -1943,7 +1943,7 @@ foo(
                 "end": 868
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 825,
             "end": 868
         },
@@ -2047,7 +2047,7 @@ foo(
                 "end": 905
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 868,
             "end": 906
         },
@@ -2151,7 +2151,7 @@ foo(
                 "end": 942
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 906,
             "end": 943
         },
@@ -2255,7 +2255,7 @@ foo(
                 "end": 980
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 943,
             "end": 981
         },
@@ -2400,7 +2400,7 @@ foo(
                 "end": 1038
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 981,
             "end": 1039
         },
@@ -2579,7 +2579,7 @@ foo(
                 "end": 1119
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1039,
             "end": 1120
         },
@@ -2792,7 +2792,7 @@ foo(
                 "end": 1227
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1120,
             "end": 1228
         },
@@ -2930,7 +2930,7 @@ foo(
                 "end": 1284
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1228,
             "end": 1285
         },
@@ -3102,7 +3102,7 @@ foo(
                 "end": 1364
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1285,
             "end": 1365
         },
@@ -3308,7 +3308,7 @@ foo(
                 "end": 1471
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1365,
             "end": 1472
         },
@@ -3538,7 +3538,7 @@ foo(
                 "end": 1607
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1472,
             "end": 1608
         },
@@ -3720,7 +3720,7 @@ foo(
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 1619,
                                                     "end": 1733
                                                 }
@@ -3785,7 +3785,7 @@ foo(
                 "end": 1746
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1608,
             "end": 1747
         },
@@ -3964,7 +3964,7 @@ foo(
                                             "end": 1872
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1753,
                                         "end": 1872
                                     }
@@ -4017,7 +4017,7 @@ foo(
                 "end": 1884
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1747,
             "end": 1885
         },
@@ -4179,7 +4179,7 @@ foo(
                 "end": 1962
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1885,
             "end": 1963
         },
@@ -4273,7 +4273,7 @@ foo(
                                             "end": 2027
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1969,
                                         "end": 2027
                                     }
@@ -4319,7 +4319,7 @@ foo(
                 "end": 2038
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1963,
             "end": 2039
         },
@@ -4464,7 +4464,7 @@ foo(
                 "end": 2113
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2039,
             "end": 2114
         },
@@ -4729,7 +4729,7 @@ foo(
                 "end": 2346
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2114,
             "end": 2347
         },
@@ -4804,7 +4804,7 @@ foo(
                                         "type": null,
                                         "right": null,
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 2357,
                                         "end": 2390
                                     }
@@ -4857,7 +4857,7 @@ foo(
                 "end": 2402
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2347,
             "end": 2403
         },
@@ -4949,7 +4949,7 @@ foo(
                                         "type": null,
                                         "right": null,
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 2413,
                                         "end": 2466
                                     }
@@ -5002,7 +5002,7 @@ foo(
                 "end": 2478
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2403,
             "end": 2479
         },
@@ -5099,7 +5099,7 @@ foo(
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 2490,
                                                     "end": 2543
                                                 }
@@ -5164,7 +5164,7 @@ foo(
                 "end": 2556
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2479,
             "end": 2557
         },
@@ -5258,7 +5258,7 @@ foo(
                                             "end": 2603
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 2563,
                                         "end": 2603
                                     }
@@ -5311,7 +5311,7 @@ foo(
                 "end": 2615
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2557,
             "end": 2616
         },
@@ -5454,7 +5454,7 @@ foo(
                                             "end": 2672
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 2622,
                                         "end": 2672
                                     }
@@ -5507,7 +5507,7 @@ foo(
                 "end": 2684
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2616,
             "end": 2685
         },
@@ -5610,7 +5610,7 @@ foo(
                                             "end": 2732
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 2691,
                                         "end": 2732
                                     }
@@ -5663,7 +5663,7 @@ foo(
                 "end": 2744
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2685,
             "end": 2745
         },
@@ -5783,7 +5783,7 @@ foo(
                                             "end": 2797
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 2751,
                                         "end": 2797
                                     }
@@ -5836,7 +5836,7 @@ foo(
                 "end": 2809
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2745,
             "end": 2810
         },
@@ -5957,12 +5957,12 @@ foo(
                                                 "end": 2873
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 2828,
                                             "end": 2873
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 2816,
                                         "end": 2873
                                     }
@@ -6015,7 +6015,7 @@ foo(
                 "end": 2885
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2810,
             "end": 2886
         }
@@ -6042,11 +6042,11 @@ Seq(typeDef.interface.groups).forEach(group =>
         signatures: member.signatures
       }
     )));
-const promiseFromCallback = fn =>
-    new Promise((resolve, reject) => fn((err, result) => {
-        if (err) return reject(err);
-        return resolve(result);
-      }));
+const promiseFromCallback = fn => new Promise((resolve, reject) =>
+    fn((err, result) => {
+      if (err) return reject(err);
+      return resolve(result);
+    }));
 
 runtimeAgent.getProperties(
   objectId,

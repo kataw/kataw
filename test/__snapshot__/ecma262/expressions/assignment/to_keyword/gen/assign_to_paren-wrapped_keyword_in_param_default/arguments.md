@@ -91,7 +91,7 @@ async (x = (arguments) = f) => {}
                                 "end": 26
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 26
                         }
@@ -132,7 +132,7 @@ async (x = (arguments) = f) => {}
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 33
         }

@@ -49,7 +49,7 @@ var await; var f = (async function() { async function g(){let x = async function
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -300,7 +300,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                                             "end": 108
                                                                                                                                         },
                                                                                                                                         "flags": 32,
-                                                                                                                                        "transformFlags": 0,
+                                                                                                                                        "transformFlags": 4096,
                                                                                                                                         "start": 99,
                                                                                                                                         "end": 108
                                                                                                                                     }
@@ -346,7 +346,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                 "end": 111
                                                                                             },
                                                                                             "flags": 34,
-                                                                                            "transformFlags": 0,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 83,
                                                                                             "end": 111
                                                                                         }
@@ -380,7 +380,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                 "end": 114
                                                                             },
                                                                             "flags": 16,
-                                                                            "transformFlags": 128,
+                                                                            "transformFlags": 4224,
                                                                             "start": 61,
                                                                             "end": 114
                                                                         }
@@ -435,7 +435,7 @@ var await; var f = (async function() { async function g(){let x = async function
                             "end": 122
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 122
                     }

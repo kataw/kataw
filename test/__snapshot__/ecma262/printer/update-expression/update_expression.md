@@ -98,7 +98,7 @@ const uuid = String(this._uuidCounter++);
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         },
@@ -145,12 +145,12 @@ const uuid = String(this._uuidCounter++);
                 },
                 "argumentList": null,
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 21,
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 32
         },
@@ -203,7 +203,7 @@ const uuid = String(this._uuidCounter++);
                 "end": 40
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 32,
             "end": 41
         },
@@ -295,7 +295,7 @@ const uuid = String(this._uuidCounter++);
                             "end": 82
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 47,
                         "end": 82
                     }

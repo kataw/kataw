@@ -57,7 +57,7 @@ const x = y, {z};
                             "end": 11
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 11
                     },
@@ -92,7 +92,7 @@ const x = y, {z};
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 12,
                         "end": 16
                     }

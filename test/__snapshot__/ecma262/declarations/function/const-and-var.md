@@ -86,7 +86,7 @@ function f(){ const x = y; var x; }
                                             "end": 25
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 19,
                                         "end": 25
                                     }
@@ -128,7 +128,7 @@ function f(){ const x = y; var x; }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 30,
                                         "end": 32
                                     }

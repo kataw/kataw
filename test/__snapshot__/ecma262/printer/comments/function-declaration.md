@@ -340,7 +340,7 @@ function foo4() {
                 "end": 152
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 112,
             "end": 153
         },
@@ -1003,7 +1003,7 @@ function foo4() {
                             "end": 532
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 412,
                         "end": 532
                     }
@@ -1096,7 +1096,7 @@ function foo4() {
                 "end": 562
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 533,
             "end": 563
         },
@@ -1178,7 +1178,7 @@ function foo4() {
                 "end": 594
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 563,
             "end": 595
         },
@@ -1260,7 +1260,7 @@ function foo4() {
                 "end": 630
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 595,
             "end": 631
         },
@@ -1342,7 +1342,7 @@ function foo4() {
                 "end": 683
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 631,
             "end": 684
         },

@@ -106,7 +106,7 @@ function *f(){  (await) => x  }
                                 "end": 28
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 28
                         }

@@ -91,7 +91,7 @@ x = {get this(this):number{}};
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 14,
                                                 "end": 18
                                             }
@@ -162,7 +162,7 @@ x = {get this(this):number{}};
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 30
         }

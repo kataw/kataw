@@ -71,7 +71,7 @@ export let {...x} = y
                                             "type": null,
                                             "right": null,
                                             "flags": 0,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 12,
                                             "end": 16
                                         }
@@ -98,7 +98,7 @@ export let {...x} = y
                                 "end": 21
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 21
                         }

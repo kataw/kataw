@@ -201,7 +201,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                             "end": 53
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 27,
                                         "end": 53
                                     }

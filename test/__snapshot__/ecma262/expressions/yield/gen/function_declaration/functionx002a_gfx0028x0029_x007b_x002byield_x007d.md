@@ -126,7 +126,7 @@ function not_gen() { function* gf() { +yield; } }}
                                                     "asteriskToken": null,
                                                     "expression": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 39,
                                                     "end": 44
                                                 },
@@ -136,7 +136,7 @@ function not_gen() { function* gf() { +yield; } }}
                                                 "end": 44
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 37,
                                             "end": 45
                                         }

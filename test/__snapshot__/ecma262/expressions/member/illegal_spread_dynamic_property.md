@@ -49,7 +49,7 @@ foo[...x];
                 "end": 4
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -65,7 +65,7 @@ foo[...x];
                 "end": 8
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 7,
             "end": 8
         },

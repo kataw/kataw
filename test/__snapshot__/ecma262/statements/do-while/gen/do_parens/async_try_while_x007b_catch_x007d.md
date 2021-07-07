@@ -49,7 +49,7 @@ do( async try while { catch } while
                     "end": 9
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 9
             },
@@ -179,7 +179,7 @@ do( async try while { catch } while
                         "end": 35
                     },
                     "flags": 16,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 35,
                     "end": 35
                 },

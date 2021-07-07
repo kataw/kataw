@@ -76,7 +76,7 @@ const f = (x?, y?:Object = {}) => {}
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 9,
                                         "end": 13
                                     },
@@ -142,7 +142,7 @@ const f = (x?, y?:Object = {}) => {}
                                             "end": 29
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 9,
                                         "end": 29
                                     }
@@ -183,7 +183,7 @@ const f = (x?, y?:Object = {}) => {}
                             "end": 36
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 36
                     }

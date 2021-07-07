@@ -223,7 +223,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 88
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 89
         },
@@ -253,7 +253,7 @@ try {} catch(e) { for(var e of 0); };
                     "type": null,
                     "right": null,
                     "flags": 34,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 314,
                     "end": 318
                 },
@@ -263,7 +263,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 319
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 89,
             "end": 320
         },
@@ -305,7 +305,7 @@ try {} catch(e) { for(var e of 0); };
                             "type": null,
                             "right": null,
                             "flags": 34,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 324,
                             "end": 329
                         }
@@ -321,7 +321,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 330
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 320,
             "end": 331
         },
@@ -355,7 +355,7 @@ try {} catch(e) { for(var e of 0); };
                             "type": null,
                             "right": null,
                             "flags": 34,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 520,
                             "end": 524
                         },
@@ -375,7 +375,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 527
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 331,
             "end": 528
         },
@@ -421,7 +421,7 @@ try {} catch(e) { for(var e of 0); };
                                     "type": null,
                                     "right": null,
                                     "flags": 34,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 534,
                                     "end": 539
                                 }
@@ -447,7 +447,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 542
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 528,
             "end": 543
         },
@@ -477,7 +477,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 661
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 543,
             "end": 662
         },
@@ -507,7 +507,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 666
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 662,
             "end": 667
         },
@@ -537,7 +537,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 778
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 667,
             "end": 779
         },
@@ -567,7 +567,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 783
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 779,
             "end": 784
         },
@@ -647,7 +647,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1062
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 784,
             "end": 1063
         },
@@ -761,7 +761,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1081
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1063,
             "end": 1082
         },
@@ -885,7 +885,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1101
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1082,
             "end": 1102
         },
@@ -1003,7 +1003,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1117
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1102,
             "end": 1118
         },
@@ -1059,7 +1059,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1126
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1118,
             "end": 1127
         },
@@ -1105,7 +1105,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1317
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1128,
             "end": 1318
         },
@@ -1175,7 +1175,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1433
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1319,
             "end": 1434
         },
@@ -1245,7 +1245,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1445
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1435,
             "end": 1446
         },
@@ -1315,7 +1315,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1458
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1447,
             "end": 1459
         },
@@ -1378,7 +1378,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1469
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1460,
             "end": 1470
         },
@@ -1424,7 +1424,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1478
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1471,
             "end": 1479
         },
@@ -1535,7 +1535,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1766
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1480,
             "end": 1767
         },
@@ -1629,7 +1629,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1781
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1768,
             "end": 1782
         },
@@ -1706,7 +1706,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1964
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1783,
             "end": 1965
         },
@@ -1755,7 +1755,7 @@ try {} catch(e) { for(var e of 0); };
                                     },
                                     "argumentList": null,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 2048,
                                     "start": 1971,
                                     "end": 1976
                                 },
@@ -1798,7 +1798,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 1981
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1966,
             "end": 1982
         },
@@ -2625,7 +2625,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 2940
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2939,
             "end": 2940
         },
@@ -2646,7 +2646,7 @@ try {} catch(e) { for(var e of 0); };
                             "end": 2947
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 2941,
                         "end": 2947
                     }
@@ -2680,7 +2680,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 2953
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2952,
             "end": 2953
         },
@@ -2701,7 +2701,7 @@ try {} catch(e) { for(var e of 0); };
                             "end": 2961
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 2954,
                         "end": 2961
                     }
@@ -2734,7 +2734,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 3058
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2963,
             "end": 3058
         },
@@ -2750,7 +2750,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 3065
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3059,
             "end": 3066
         },
@@ -2765,7 +2765,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 3070
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3066,
             "end": 3070
         },
@@ -2781,7 +2781,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 3077
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3071,
             "end": 3078
         },
@@ -2854,7 +2854,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "end": 3178
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 3170,
                                                     "end": 3179
                                                 }
@@ -2897,7 +2897,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 3184
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3078,
             "end": 3185
         },
@@ -3012,7 +3012,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                     "end": 3216
                                                                                 },
                                                                                 "flags": 16,
-                                                                                "transformFlags": 0,
+                                                                                "transformFlags": 4096,
                                                                                 "start": 3202,
                                                                                 "end": 3217
                                                                             },
@@ -3084,7 +3084,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 3225
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3185,
             "end": 3226
         },
@@ -3251,7 +3251,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "end": 3288
                                                                                         },
                                                                                         "flags": 16,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 3280,
                                                                                         "end": 3289
                                                                                     }
@@ -3294,7 +3294,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "end": 3292
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 3262,
                                                 "end": 3293
                                             }
@@ -3504,7 +3504,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "end": 3360
                                                                                         },
                                                                                         "flags": 16,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 3352,
                                                                                         "end": 3361
                                                                                     }
@@ -3547,7 +3547,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "end": 3364
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 3333,
                                                 "end": 3365
                                             }
@@ -3757,7 +3757,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "end": 3435
                                                                                         },
                                                                                         "flags": 16,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 3427,
                                                                                         "end": 3436
                                                                                     }
@@ -3800,7 +3800,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "end": 3439
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 3405,
                                                 "end": 3440
                                             }
@@ -4020,7 +4020,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "end": 3511
                                                                                         },
                                                                                         "flags": 16,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 3503,
                                                                                         "end": 3512
                                                                                     }
@@ -4063,7 +4063,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "end": 3515
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 3480,
                                                 "end": 3516
                                             }
@@ -4130,7 +4130,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 3991
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3744,
             "end": 3991
         },
@@ -4153,7 +4153,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4001
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3999,
             "end": 4001
         },
@@ -4183,7 +4183,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4095
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4008,
             "end": 4096
         },
@@ -4206,7 +4206,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4113
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4096,
             "end": 4114
         },
@@ -4222,7 +4222,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4231
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4114,
             "end": 4232
         },
@@ -4285,7 +4285,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4245
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4232,
             "end": 4246
         },
@@ -4301,7 +4301,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4259
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4246,
             "end": 4260
         },
@@ -4380,7 +4380,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4277
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4260,
             "end": 4278
         },
@@ -4396,7 +4396,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4291
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4278,
             "end": 4292
         },
@@ -4459,7 +4459,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4310
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4292,
             "end": 4311
         },
@@ -4475,7 +4475,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4324
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4311,
             "end": 4325
         },
@@ -4554,7 +4554,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 4347
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4325,
             "end": 4348
         },
@@ -5088,12 +5088,12 @@ try {} catch(e) { for(var e of 0); };
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 4715,
                                                 "end": 4721
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 4710,
                                             "end": 4721
                                         }
@@ -5127,7 +5127,7 @@ try {} catch(e) { for(var e of 0); };
                                 "end": 4727
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 4710,
                             "end": 4728
                         }
@@ -5242,12 +5242,12 @@ try {} catch(e) { for(var e of 0); };
                                                     "end": 4759
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 4751,
                                                 "end": 4759
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 4746,
                                             "end": 4759
                                         }
@@ -5281,7 +5281,7 @@ try {} catch(e) { for(var e of 0); };
                                 "end": 4765
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 4746,
                             "end": 4766
                         }
@@ -5402,12 +5402,12 @@ try {} catch(e) { for(var e of 0); };
                                                     "end": 4798
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 4789,
                                                 "end": 4798
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 4784,
                                             "end": 4798
                                         }
@@ -5441,7 +5441,7 @@ try {} catch(e) { for(var e of 0); };
                                 "end": 4804
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 4784,
                             "end": 4805
                         }
@@ -5580,7 +5580,7 @@ try {} catch(e) { for(var e of 0); };
                                                                 "asteriskToken": null,
                                                                 "expression": null,
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 4835,
                                                                 "end": 4840
                                                             }
@@ -5597,12 +5597,12 @@ try {} catch(e) { for(var e of 0); };
                                                     "end": 4841
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 4828,
                                                 "end": 4841
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 4823,
                                             "end": 4841
                                         }
@@ -5636,7 +5636,7 @@ try {} catch(e) { for(var e of 0); };
                                 "end": 4847
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 4823,
                             "end": 4848
                         }
@@ -5738,7 +5738,7 @@ try {} catch(e) { for(var e of 0); };
                                                                 "asteriskToken": null,
                                                                 "expression": null,
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 4870,
                                                                 "end": 4875
                                                             },
@@ -5804,7 +5804,7 @@ try {} catch(e) { for(var e of 0); };
                                 "end": 4886
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 4866,
                             "end": 4887
                         }
@@ -5916,12 +5916,12 @@ try {} catch(e) { for(var e of 0); };
                                                             "asteriskToken": null,
                                                             "expression": null,
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 4911,
                                                             "end": 4917
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 4908,
                                                         "end": 4917
                                                     }
@@ -5967,7 +5967,7 @@ try {} catch(e) { for(var e of 0); };
                                 "end": 4924
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 4905,
                             "end": 4925
                         }
@@ -6079,12 +6079,12 @@ try {} catch(e) { for(var e of 0); };
                                                             "asteriskToken": null,
                                                             "expression": null,
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 4949,
                                                             "end": 4955
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 4946,
                                                         "end": 4955
                                                     }
@@ -6130,7 +6130,7 @@ try {} catch(e) { for(var e of 0); };
                                 "end": 4962
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 4943,
                             "end": 4963
                         }
@@ -6169,7 +6169,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 5061
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4966,
             "end": 5061
         },
@@ -6185,7 +6185,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 5068
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 5062,
             "end": 5069
         },
@@ -6200,7 +6200,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 5073
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 5069,
             "end": 5073
         },
@@ -6216,7 +6216,7 @@ try {} catch(e) { for(var e of 0); };
                 "end": 5080
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 5074,
             "end": 5081
         },
@@ -6293,7 +6293,7 @@ try {} catch(e) { for(var e of 0); };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 5259,
                                             "end": 5261
                                         }
@@ -6551,7 +6551,7 @@ try {} catch(e) { for(var e of 0); };
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
-                                                "transformFlags": 128,
+                                                "transformFlags": 4224,
                                                 "start": 5607,
                                                 "end": 5609
                                             }

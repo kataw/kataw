@@ -85,7 +85,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                             "end": 24
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 17,
                                         "end": 24
                                     },
@@ -122,7 +122,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                         "end": 35
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -154,17 +154,17 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                         "end": 45
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 37,
                                     "end": 45
                                 },
                                 "flags": 47,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 45
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 46
                         }

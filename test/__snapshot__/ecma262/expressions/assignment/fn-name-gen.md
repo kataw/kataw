@@ -51,7 +51,7 @@ gen = function*() {};
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 8
                     },
@@ -69,7 +69,7 @@ gen = function*() {};
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 13
                     }
@@ -168,7 +168,7 @@ gen = function*() {};
                 "end": 39
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 40
         },
@@ -248,7 +248,7 @@ gen = function*() {};
                 "end": 61
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 40,
             "end": 62
         }

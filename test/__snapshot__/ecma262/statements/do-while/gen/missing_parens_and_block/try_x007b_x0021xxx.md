@@ -71,7 +71,7 @@ do try { !xxx while
                                     "end": 13
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 8,
                                 "end": 13
                             },
@@ -105,7 +105,7 @@ do try { !xxx while
                                         "end": 19
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 19,
                                     "end": 19
                                 },

@@ -140,7 +140,7 @@ foo({ __proto__: null, other: null, "__proto__": null });
                 "end": 56
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 57
         }

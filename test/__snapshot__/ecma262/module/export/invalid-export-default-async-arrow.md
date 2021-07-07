@@ -49,7 +49,7 @@ export default async\n() => {}
                     "end": 20
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 20
             },
@@ -86,7 +86,7 @@ export default async\n() => {}
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 24
         },

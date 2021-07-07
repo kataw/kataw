@@ -150,7 +150,7 @@ var f = async function f(x = function *await() {}) {}
                                             "end": 49
                                         },
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 25,
                                         "end": 49
                                     }
@@ -184,7 +184,7 @@ var f = async function f(x = function *await() {}) {}
                             "end": 53
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 53
                     }

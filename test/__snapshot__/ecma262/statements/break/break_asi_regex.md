@@ -82,7 +82,7 @@ for (x of 3) break
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 22
         }
@@ -100,7 +100,7 @@ for (x of 3) break
 ### Printed
 
 ```javascript
-for (x of 3) break ;
+for (x of 3) break;
 /x/;
 
 ```

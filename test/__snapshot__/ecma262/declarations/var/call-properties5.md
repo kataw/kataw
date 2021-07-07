@@ -183,7 +183,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 43,
                                         "end": 52
                                     }
@@ -256,7 +256,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                             "end": 78
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 78
                     }

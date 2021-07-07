@@ -152,7 +152,7 @@ function f(){ do        if (x) continue   ; while(true);}
 
 ```javascript
 function f() {
-  do  if (x) continue ;
+  do  if (x) continue;
   while (true);
 }
 ```

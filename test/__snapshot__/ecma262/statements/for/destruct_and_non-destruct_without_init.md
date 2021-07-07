@@ -75,7 +75,7 @@ for (let [foo] = arr, bar;;);
                                 "end": 20
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 20
                         },
@@ -93,7 +93,7 @@ for (let [foo] = arr, bar;;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 21,
                             "end": 25
                         }

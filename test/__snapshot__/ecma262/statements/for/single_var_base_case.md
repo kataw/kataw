@@ -75,7 +75,7 @@ for (let {x} = obj);
                                 "end": 18
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 18
                         }

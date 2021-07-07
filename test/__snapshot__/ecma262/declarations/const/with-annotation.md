@@ -95,7 +95,7 @@ const {q}: string = y;
                             "end": 22
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 22
                     }
@@ -160,7 +160,7 @@ const {q}: string = y;
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 32,
                                         "end": 40
                                     }
@@ -202,7 +202,7 @@ const {q}: string = y;
                             "end": 53
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 30,
                         "end": 53
                     }
@@ -283,7 +283,7 @@ const {q}: string = y;
                             "end": 77
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 61,
                         "end": 77
                     }

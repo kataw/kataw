@@ -113,7 +113,7 @@ function * x() { "use strict";  yield: 34; }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 38,
                                         "end": 42
                                     },
@@ -131,7 +131,7 @@ function * x() { "use strict";  yield: 34; }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 43,
                                         "end": 49
                                     }
@@ -175,7 +175,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 66
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 52,
             "end": 67
         },
@@ -314,7 +314,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 130
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 116,
             "end": 131
         },
@@ -437,7 +437,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 188
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 175,
             "end": 189
         },
@@ -540,7 +540,7 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 233
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 210,
                             "end": 233
                         }
@@ -573,7 +573,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 248
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 235,
             "end": 249
         },
@@ -706,7 +706,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 309
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 296,
             "end": 310
         },
@@ -848,7 +848,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 375
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 362,
             "end": 376
         },
@@ -977,7 +977,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 435
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 422,
             "end": 436
         },
@@ -1086,7 +1086,7 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 482
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 457,
                             "end": 482
                         }
@@ -1119,7 +1119,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 497
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 484,
             "end": 498
         },
@@ -1195,7 +1195,7 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 529
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 519,
                             "end": 530
                         }
@@ -1228,7 +1228,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 545
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 532,
             "end": 546
         },
@@ -1327,7 +1327,7 @@ function * x() { "use strict";  yield: 34; }
                                             "end": 587
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 571,
                                         "end": 587
                                     }
@@ -1371,7 +1371,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 603
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 590,
             "end": 604
         },
@@ -1438,7 +1438,7 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 633
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 625,
                             "end": 634
                         }
@@ -1532,7 +1532,7 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 680
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 672,
                             "end": 681
                         }
@@ -1630,7 +1630,7 @@ function * x() { "use strict";  yield: 34; }
                                     "end": 729
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 726,
                                 "end": 730
                             },
@@ -1746,12 +1746,12 @@ function * x() { "use strict";  yield: 34; }
                                     "end": 772
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 764,
                                 "end": 772
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 764,
                             "end": 773
                         }
@@ -1840,7 +1840,7 @@ function * x() { "use strict";  yield: 34; }
                                 "asteriskToken": null,
                                 "expression": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 806,
                                 "end": 813
                             },
@@ -1863,7 +1863,7 @@ function * x() { "use strict";  yield: 34; }
                                     "end": 817
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 814,
                                 "end": 818
                             },

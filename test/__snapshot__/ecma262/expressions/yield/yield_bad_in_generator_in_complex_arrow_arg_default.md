@@ -120,17 +120,17 @@ function *g() { (x = u + yield z) => {}; }
                                                         "end": 32
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 24,
                                                     "end": 32
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 20,
                                                 "end": 32
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 15,
                                             "end": 32
                                         }
@@ -171,7 +171,7 @@ function *g() { (x = u + yield z) => {}; }
                                 "end": 39
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 40
                         }

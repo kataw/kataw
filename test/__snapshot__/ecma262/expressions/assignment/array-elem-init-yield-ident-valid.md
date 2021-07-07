@@ -62,7 +62,7 @@ result = [ x = yield ] = vals;
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
@@ -104,7 +104,7 @@ result = [ x = yield ] = vals;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 18,
                         "end": 20
                     }
@@ -146,7 +146,7 @@ result = [ x = yield ] = vals;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 26,
                         "end": 33
                     }
@@ -203,7 +203,7 @@ result = [ x = yield ] = vals;
                             "end": 48
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 38,
                         "end": 48
                     }
@@ -316,7 +316,7 @@ result = [ x = yield ] = vals;
                 "end": 80
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 49,
             "end": 81
         }

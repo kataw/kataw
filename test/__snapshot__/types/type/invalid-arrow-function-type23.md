@@ -120,7 +120,7 @@ type x = (([1]: y) => T);
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 17
         },
@@ -136,7 +136,7 @@ type x = (([1]: y) => T);
                 "end": 23
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 23
         },

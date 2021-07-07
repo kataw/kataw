@@ -160,7 +160,7 @@ new C;
                                                     "end": 39
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 30,
                                                 "end": 39
                                             }
@@ -350,7 +350,7 @@ new C;
                                                     "end": 91
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 72,
                                                 "end": 92
                                             }
@@ -413,12 +413,12 @@ new C;
                 },
                 "argumentList": null,
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 98,
                 "end": 105
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 98,
             "end": 106
         }

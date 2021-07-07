@@ -179,7 +179,7 @@ var f = (x): (x: number) => 123 => 123;
                             "end": 38
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 38
                     }

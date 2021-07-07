@@ -136,7 +136,7 @@ class C { m() { foo(new super); } }
                                                                 },
                                                                 "argumentList": null,
                                                                 "flags": 96,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 2048,
                                                                 "start": 20,
                                                                 "end": 29
                                                             }
@@ -153,7 +153,7 @@ class C { m() { foo(new super); } }
                                                     "end": 30
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 15,
                                                 "end": 31
                                             }

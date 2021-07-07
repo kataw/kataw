@@ -52,7 +52,7 @@ test !== false ? success() : error()
                         "end": 14
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 14
                 },
@@ -121,12 +121,12 @@ test !== false ? success() : error()
                     "end": 36
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 36
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }

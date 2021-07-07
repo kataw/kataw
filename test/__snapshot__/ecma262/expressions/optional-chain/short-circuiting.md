@@ -210,7 +210,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                 "end": 43
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 44
         },
@@ -404,7 +404,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                 "end": 131
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 44,
             "end": 132
         }

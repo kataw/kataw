@@ -49,7 +49,7 @@ var x, y, z; ({ z : { __proto__: x, __proto__: y } = z } = {});
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -67,7 +67,7 @@ var x, y, z; ({ z : { __proto__: x, __proto__: y } = z } = {});
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -85,7 +85,7 @@ var x, y, z; ({ z : { __proto__: x, __proto__: y } = z } = {});
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
@@ -266,7 +266,7 @@ var x, y, z; ({ z : { __proto__: x, __proto__: y } = z } = {});
                 "end": 62
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 12,
             "end": 63
         }

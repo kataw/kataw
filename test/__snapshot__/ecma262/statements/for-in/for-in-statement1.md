@@ -66,7 +66,7 @@ for (a in expr) {
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
@@ -123,7 +123,7 @@ for (a in expr) {
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 15,
                         "end": 25
                     }

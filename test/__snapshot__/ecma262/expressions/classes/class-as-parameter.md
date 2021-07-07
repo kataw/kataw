@@ -56,7 +56,7 @@ class A {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
@@ -250,7 +250,7 @@ class A {
                                                                                 "end": 99
                                                                             },
                                                                             "flags": 16,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 83,
                                                                             "end": 100
                                                                         }

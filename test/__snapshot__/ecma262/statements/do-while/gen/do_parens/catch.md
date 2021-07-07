@@ -50,7 +50,7 @@ do( catch while
                     "end": 3
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 3
             },
@@ -154,7 +154,7 @@ do( catch while
                     "end": 15
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 15,
                 "end": 15
             },

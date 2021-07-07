@@ -122,7 +122,7 @@ do do do =! class function try while with foo! while while while
                             "end": 17
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 8,
                         "end": 17
                     },
@@ -314,7 +314,7 @@ do do do =! class function try while with foo! while while while
                         "end": 46
                     },
                     "flags": 16,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 45,
                     "end": 46
                 },
@@ -394,7 +394,7 @@ do do do =! class function try while with foo! while while while
                             "end": 64
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 64,
                         "end": 64
                     },

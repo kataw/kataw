@@ -50,7 +50,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
@@ -99,7 +99,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "end": 35
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 10,
                         "end": 35
                     }
@@ -148,7 +148,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "end": 86
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 40,
                         "end": 86
                     }
@@ -213,7 +213,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "end": 121
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 91,
                         "end": 121
                     }
@@ -323,7 +323,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "end": 178
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 126,
                         "end": 178
                     }
@@ -451,7 +451,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "end": 235
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 183,
                         "end": 235
                     }
@@ -532,7 +532,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "end": 304
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 240,
                         "end": 304
                     }
@@ -629,7 +629,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "end": 371
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 309,
                         "end": 371
                     }

@@ -82,7 +82,7 @@ function baz (this : number, ...a) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 27
                     },
@@ -117,7 +117,7 @@ function baz (this : number, ...a) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 28,
                         "end": 39
                     },
@@ -215,7 +215,7 @@ function baz (this : number, ...a) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 62,
                         "end": 75
                     }
@@ -304,7 +304,7 @@ function baz (this : number, ...a) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 95,
                         "end": 108
                     },
@@ -330,7 +330,7 @@ function baz (this : number, ...a) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 109,
                         "end": 114
                     }

@@ -172,7 +172,7 @@ switch (0) { case 1: function f() {} default: const f = 0 }
                                                 "end": 57
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 51,
                                             "end": 57
                                         }

@@ -105,7 +105,7 @@ class C {
                                             "type": null,
                                             "right": null,
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 24
                                         }
@@ -201,7 +201,7 @@ class C {
                                             "type": null,
                                             "right": null,
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 47,
                                             "end": 52
                                         }

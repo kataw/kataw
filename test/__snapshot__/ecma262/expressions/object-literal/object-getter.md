@@ -192,7 +192,7 @@ x({get 0o4567(){}});
                 "end": 23
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         },
@@ -370,7 +370,7 @@ x({get 0o4567(){}});
                 "end": 54
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 24,
             "end": 55
         },
@@ -487,7 +487,7 @@ x({get 0o4567(){}});
                 "end": 74
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 55,
             "end": 75
         },
@@ -671,7 +671,7 @@ x({get 0o4567(){}});
                 "end": 109
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 75,
             "end": 110
         },
@@ -781,7 +781,7 @@ x({get 0o4567(){}});
                 "end": 127
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 110,
             "end": 128
         },
@@ -951,7 +951,7 @@ x({get 0o4567(){}});
                 "end": 158
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 128,
             "end": 159
         },
@@ -1061,7 +1061,7 @@ x({get 0o4567(){}});
                 "end": 178
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 159,
             "end": 179
         },
@@ -1171,7 +1171,7 @@ x({get 0o4567(){}});
                 "end": 194
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 179,
             "end": 195
         },
@@ -1281,7 +1281,7 @@ x({get 0o4567(){}});
                 "end": 217
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 195,
             "end": 218
         },
@@ -1391,7 +1391,7 @@ x({get 0o4567(){}});
                 "end": 237
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 218,
             "end": 238
         },
@@ -1501,7 +1501,7 @@ x({get 0o4567(){}});
                 "end": 258
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 238,
             "end": 259
         }

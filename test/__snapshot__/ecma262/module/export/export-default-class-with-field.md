@@ -118,7 +118,7 @@ export default class {
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 30
         },
@@ -150,7 +150,7 @@ export default class {
                 "end": 47
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 30,
             "end": 47
         },
@@ -208,7 +208,7 @@ export default class {
                             "end": 64
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 49,
                         "end": 65
                     }

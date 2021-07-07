@@ -84,7 +84,7 @@ function *f(x = (yield) = f) {}
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 17,
                                     "end": 22
                                 },
@@ -115,7 +115,7 @@ function *f(x = (yield) = f) {}
                             "end": 27
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 27
                     }

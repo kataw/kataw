@@ -256,12 +256,12 @@ function test1() {
                                                                 "end": 112
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 100,
                                                             "end": 112
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 96,
                                                         "end": 112
                                                     }
@@ -326,7 +326,7 @@ function test1() {
                                                             "end": 135
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 121,
                                                         "end": 135
                                                     }
@@ -391,7 +391,7 @@ function test1() {
                                                             "end": 167
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 153,
                                                         "end": 167
                                                     }

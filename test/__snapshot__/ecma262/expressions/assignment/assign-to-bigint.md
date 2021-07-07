@@ -62,7 +62,7 @@ a= 0b0101n;
                 "end": 5
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -101,7 +101,7 @@ a= 0b0101n;
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 17
         },
@@ -140,7 +140,7 @@ a= 0b0101n;
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 29
         },
@@ -179,7 +179,7 @@ a= 0b0101n;
                 "end": 41
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 29,
             "end": 42
         }

@@ -82,7 +82,7 @@ const {a: b.c} = v
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 11
                     }
@@ -109,7 +109,7 @@ const {a: b.c} = v
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 12,
             "end": 13
         },
@@ -125,7 +125,7 @@ const {a: b.c} = v
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 16,
             "end": 18
         }

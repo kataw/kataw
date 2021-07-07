@@ -81,7 +81,7 @@ computedDescriptionLines = (focused &&
                                             "end": 77
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 32,
                                         "end": 77
                                     },
@@ -143,7 +143,7 @@ computedDescriptionLines = (focused &&
                                                 "end": 104
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 81,
                                             "end": 104
                                         },
@@ -164,7 +164,7 @@ computedDescriptionLines = (focused &&
                                             "end": 131
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 81,
                                         "end": 131
                                     },
@@ -174,7 +174,7 @@ computedDescriptionLines = (focused &&
                                     "end": 132
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 32,
                                 "end": 132
                             },
@@ -195,12 +195,12 @@ computedDescriptionLines = (focused &&
                                 "end": 154
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 32,
                             "end": 154
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 154
                     }
@@ -283,7 +283,7 @@ computedDescriptionLines = (focused &&
                                     "end": 206
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 183,
                                 "end": 206
                             },
@@ -304,7 +304,7 @@ computedDescriptionLines = (focused &&
                                 "end": 235
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 183,
                             "end": 235
                         },
@@ -330,7 +330,7 @@ computedDescriptionLines = (focused &&
                         "end": 258
                     },
                     "flags": 183,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 183,
                     "end": 258
                 },
@@ -340,7 +340,7 @@ computedDescriptionLines = (focused &&
                 "end": 258
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 155,
             "end": 259
         }

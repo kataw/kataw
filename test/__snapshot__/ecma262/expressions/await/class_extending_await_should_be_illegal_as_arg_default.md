@@ -131,7 +131,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                                 "end": 56
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 46,
                                                             "end": 56
                                                         },
@@ -160,7 +160,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                 "end": 59
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 19,
                                             "end": 59
                                         }
@@ -194,7 +194,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                 "end": 68
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 19,
                             "end": 68
                         }

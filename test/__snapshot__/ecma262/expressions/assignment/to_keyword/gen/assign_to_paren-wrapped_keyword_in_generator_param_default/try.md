@@ -84,7 +84,7 @@ function *f(x = (try) = f) {}
                             "end": 17
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 17
                     }
@@ -175,7 +175,7 @@ function *f(x = (try) = f) {}
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 23,
             "end": 25
         },

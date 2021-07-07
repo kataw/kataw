@@ -62,12 +62,12 @@ bar ? (=> 0) : baz;
                     "end": 7
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -83,7 +83,7 @@ bar ? (=> 0) : baz;
                 "end": 11
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 9,
             "end": 11
         },
@@ -99,7 +99,7 @@ bar ? (=> 0) : baz;
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 19
         }

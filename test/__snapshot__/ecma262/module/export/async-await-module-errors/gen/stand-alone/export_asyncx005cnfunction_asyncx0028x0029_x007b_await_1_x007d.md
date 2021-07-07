@@ -43,7 +43,7 @@ export async\nfunction async() { await 1; }
                     "end": 12
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 12
             },
@@ -68,7 +68,7 @@ export async\nfunction async() { await 1; }
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 22
         },
@@ -100,7 +100,7 @@ export async\nfunction async() { await 1; }
                 "end": 30
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 30
         },
@@ -121,7 +121,7 @@ export async\nfunction async() { await 1; }
                             "end": 38
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 32,
                         "end": 38
                     },
@@ -137,7 +137,7 @@ export async\nfunction async() { await 1; }
                             "end": 40
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 38,
                         "end": 41
                     }

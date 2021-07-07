@@ -94,7 +94,7 @@
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 34,
                                         "end": 39
                                     },
@@ -123,7 +123,7 @@
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 42,
                                     "end": 48
                                 },
@@ -147,17 +147,17 @@
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 50,
                                     "end": 56
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 32,
                                 "end": 56
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 32,
                             "end": 56
                         }

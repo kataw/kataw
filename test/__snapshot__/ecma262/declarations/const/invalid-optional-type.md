@@ -71,7 +71,7 @@ const f = (x?)
                                 "type": null,
                                 "right": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 9,
                                 "end": 13
                             },
@@ -81,7 +81,7 @@ const f = (x?)
                             "end": 14
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 14
                     }

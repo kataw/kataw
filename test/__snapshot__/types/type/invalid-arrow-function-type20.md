@@ -116,7 +116,7 @@ var f = (x): (number) => 123 => 123;
                             "end": 28
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 28
                     }
@@ -143,7 +143,7 @@ var f = (x): (number) => 123 => 123;
                 "end": 35
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 31,
             "end": 36
         }

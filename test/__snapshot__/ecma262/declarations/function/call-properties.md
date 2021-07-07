@@ -195,7 +195,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 65,
                         "end": 103
                     }
@@ -464,7 +464,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 179,
                         "end": 217
                     }

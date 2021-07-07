@@ -41,7 +41,7 @@ let a, b = 42, c;b;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -67,7 +67,7 @@ let a, b = 42, c;b;
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 13
                     },
@@ -85,7 +85,7 @@ let a, b = 42, c;b;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 16
                     }
@@ -112,7 +112,7 @@ let a, b = 42, c;b;
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 19
         }

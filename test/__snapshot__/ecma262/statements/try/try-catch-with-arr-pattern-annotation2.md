@@ -90,7 +90,7 @@ try {} catch([a:string]: number) {}
                                 },
                                 "right": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 14,
                                 "end": 22
                             }
@@ -145,7 +145,7 @@ try {} catch([a:string]: number) {}
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 24,
             "end": 31
         },

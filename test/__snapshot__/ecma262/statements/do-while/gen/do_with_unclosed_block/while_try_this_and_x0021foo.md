@@ -151,7 +151,7 @@ do {} while (x) { while try this and !foo
                             "end": 32
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 27,
                         "end": 32
                     },
@@ -167,7 +167,7 @@ do {} while (x) { while try this and !foo
                             "end": 36
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 32,
                         "end": 36
                     },
@@ -197,7 +197,7 @@ do {} while (x) { while try this and !foo
                             "end": 41
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 36,
                         "end": 41
                     }

@@ -65,7 +65,7 @@ for (let x = 42 in list) process(x);
                                 "end": 15
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 15
                         }
@@ -134,7 +134,7 @@ for (let x = 42 in list) process(x);
                     "end": 35
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 24,
                 "end": 36
             },

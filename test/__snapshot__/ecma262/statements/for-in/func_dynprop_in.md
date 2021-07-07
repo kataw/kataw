@@ -117,7 +117,7 @@ for (function(){ }[x in y] in x);
                         "end": 25
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 19,
                     "end": 25
                 },

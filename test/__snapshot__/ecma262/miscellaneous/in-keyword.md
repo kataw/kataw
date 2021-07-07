@@ -167,7 +167,7 @@ let tests = [
                                                                     "end": 65
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 54,
                                                                 "end": 65
                                                             },
@@ -177,7 +177,7 @@ let tests = [
                                                             "end": 66
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 48,
                                                         "end": 67
                                                     },
@@ -245,7 +245,7 @@ let tests = [
                                                                     "end": 95
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 73,
                                                                 "end": 95
                                                             },
@@ -255,7 +255,7 @@ let tests = [
                                                             "end": 96
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 67,
                                                         "end": 97
                                                     },
@@ -298,7 +298,7 @@ let tests = [
                                                                     "end": 110
                                                                 },
                                                                 "flags": 96,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 103,
                                                                 "end": 110
                                                             },
@@ -308,7 +308,7 @@ let tests = [
                                                             "end": 111
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 97,
                                                         "end": 112
                                                     },
@@ -376,7 +376,7 @@ let tests = [
                                                                     "end": 136
                                                                 },
                                                                 "flags": 96,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 118,
                                                                 "end": 136
                                                             },
@@ -386,7 +386,7 @@ let tests = [
                                                             "end": 137
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 112,
                                                         "end": 138
                                                     }
@@ -474,7 +474,7 @@ let tests = [
                                                                     "end": 195
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 184,
                                                                 "end": 195
                                                             },
@@ -484,7 +484,7 @@ let tests = [
                                                             "end": 196
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 178,
                                                         "end": 197
                                                     },
@@ -527,7 +527,7 @@ let tests = [
                                                                     "end": 210
                                                                 },
                                                                 "flags": 96,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 203,
                                                                 "end": 210
                                                             },
@@ -537,7 +537,7 @@ let tests = [
                                                             "end": 211
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 197,
                                                         "end": 212
                                                     },
@@ -580,7 +580,7 @@ let tests = [
                                                                     "end": 232
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 218,
                                                                 "end": 232
                                                             },
@@ -590,7 +590,7 @@ let tests = [
                                                             "end": 233
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 212,
                                                         "end": 234
                                                     }
@@ -699,12 +699,12 @@ let tests = [
                                                                         "end": 316
                                                                     },
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 2048,
                                                                     "start": 299,
                                                                     "end": 317
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 291,
                                                                 "end": 317
                                                             },
@@ -714,7 +714,7 @@ let tests = [
                                                             "end": 318
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 285,
                                                         "end": 319
                                                     },
@@ -778,12 +778,12 @@ let tests = [
                                                                         "end": 348
                                                                     },
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 2048,
                                                                     "start": 333,
                                                                     "end": 349
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 325,
                                                                 "end": 349
                                                             },
@@ -793,7 +793,7 @@ let tests = [
                                                             "end": 350
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 319,
                                                         "end": 351
                                                     }
@@ -874,7 +874,7 @@ let tests = [
                                                                     "end": 413
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 401,
                                                                 "end": 413
                                                             },
@@ -884,7 +884,7 @@ let tests = [
                                                             "end": 414
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 395,
                                                         "end": 415
                                                     },
@@ -920,7 +920,7 @@ let tests = [
                                                                     "end": 444
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 430,
                                                                 "end": 444
                                                             },
@@ -930,7 +930,7 @@ let tests = [
                                                             "end": 445
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 415,
                                                         "end": 446
                                                     },
@@ -980,7 +980,7 @@ let tests = [
                                                                     "end": 476
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 461,
                                                                 "end": 476
                                                             },
@@ -990,7 +990,7 @@ let tests = [
                                                             "end": 477
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 446,
                                                         "end": 478
                                                     },
@@ -1024,7 +1024,7 @@ let tests = [
                                                                     "end": 506
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 493,
                                                                 "end": 506
                                                             },
@@ -1034,7 +1034,7 @@ let tests = [
                                                             "end": 507
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 478,
                                                         "end": 508
                                                     }
@@ -1120,7 +1120,7 @@ let tests = [
                                                                     "end": 578
                                                                 },
                                                                 "flags": 96,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 568,
                                                                 "end": 578
                                                             },
@@ -1130,7 +1130,7 @@ let tests = [
                                                             "end": 579
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 562,
                                                         "end": 580
                                                     },
@@ -1187,7 +1187,7 @@ let tests = [
                                                                     "end": 607
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 595,
                                                                 "end": 607
                                                             },
@@ -1197,7 +1197,7 @@ let tests = [
                                                             "end": 608
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 580,
                                                         "end": 609
                                                     },
@@ -1247,7 +1247,7 @@ let tests = [
                                                                     "end": 632
                                                                 },
                                                                 "flags": 48,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 609,
                                                                 "end": 632
                                                             },
@@ -1257,7 +1257,7 @@ let tests = [
                                                             "end": 633
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 609,
                                                         "end": 634
                                                     },
@@ -1307,7 +1307,7 @@ let tests = [
                                                                     "end": 657
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 634,
                                                                 "end": 657
                                                             },
@@ -1317,7 +1317,7 @@ let tests = [
                                                             "end": 658
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 634,
                                                         "end": 659
                                                     },
@@ -1358,7 +1358,7 @@ let tests = [
                                                                     "end": 685
                                                                 },
                                                                 "flags": 96,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 674,
                                                                 "end": 685
                                                             },
@@ -1368,7 +1368,7 @@ let tests = [
                                                             "end": 686
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 659,
                                                         "end": 687
                                                     }
@@ -1454,7 +1454,7 @@ let tests = [
                                                                 "end": 757
                                                             },
                                                             "flags": 4194400,
-                                                            "transformFlags": 1024,
+                                                            "transformFlags": 5120,
                                                             "start": 745,
                                                             "end": 757
                                                         },
@@ -1538,7 +1538,7 @@ let tests = [
                                                                 "end": 791
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 1024,
+                                                            "transformFlags": 5120,
                                                             "start": 779,
                                                             "end": 791
                                                         },
@@ -1619,7 +1619,7 @@ let tests = [
                                                                         "end": 847
                                                                     },
                                                                     "flags": 4194400,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 5120,
                                                                     "start": 836,
                                                                     "end": 847
                                                                 },
@@ -1729,7 +1729,7 @@ let tests = [
                                                     },
                                                     "right": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 894,
                                                     "end": 903
                                                 },
@@ -1774,7 +1774,7 @@ let tests = [
                                                     },
                                                     "right": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 904,
                                                     "end": 913
                                                 }
@@ -1823,7 +1823,7 @@ let tests = [
                                                                     "end": 932
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 922,
                                                                 "end": 932
                                                             },
@@ -1833,7 +1833,7 @@ let tests = [
                                                             "end": 933
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 916,
                                                         "end": 934
                                                     },
@@ -1869,7 +1869,7 @@ let tests = [
                                                                     "end": 956
                                                                 },
                                                                 "flags": 4194400,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 5120,
                                                                 "start": 946,
                                                                 "end": 956
                                                             },
@@ -1879,7 +1879,7 @@ let tests = [
                                                             "end": 957
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 934,
                                                         "end": 958
                                                     }
@@ -1913,7 +1913,7 @@ let tests = [
                             "end": 974
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 974
                     }

@@ -84,7 +84,7 @@ var a = async (options = {}) => options;
                                             "end": 27
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 15,
                                         "end": 27
                                     }
@@ -118,7 +118,7 @@ var a = async (options = {}) => options;
                             "end": 39
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 39
                     }

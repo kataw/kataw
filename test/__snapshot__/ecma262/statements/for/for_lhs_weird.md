@@ -107,7 +107,7 @@ for ({}[y] ^= x;;) x;
                     "end": 19
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 17,
                 "end": 20
             },
@@ -194,7 +194,7 @@ for ({}[y] ^= x;;) x;
                     "end": 43
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 41,
                 "end": 44
             },
@@ -281,7 +281,7 @@ for ({}[y] ^= x;;) x;
                     "end": 65
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 63,
                 "end": 66
             },
@@ -368,7 +368,7 @@ for ({}[y] ^= x;;) x;
                     "end": 88
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 86,
                 "end": 89
             },

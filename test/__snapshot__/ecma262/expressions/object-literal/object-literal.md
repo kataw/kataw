@@ -85,7 +85,7 @@ a?.['b']?.[0]?.(1);
                             "end": 10
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
@@ -220,7 +220,7 @@ a?.['b']?.[0]?.(1);
                             "end": 66
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 15,
                         "end": 66
                     }
@@ -343,7 +343,7 @@ a?.['b']?.[0]?.(1);
                             "end": 112
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 71,
                         "end": 112
                     }
@@ -478,7 +478,7 @@ a?.['b']?.[0]?.(1);
                             "end": 148
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 117,
                         "end": 148
                     }
@@ -543,7 +543,7 @@ a?.['b']?.[0]?.(1);
                             "end": 161
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 153,
                         "end": 161
                     }
@@ -608,7 +608,7 @@ a?.['b']?.[0]?.(1);
                             "end": 177
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 166,
                         "end": 177
                     }
@@ -878,7 +878,7 @@ a?.['b']?.[0]?.(1);
                             "end": 242
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 182,
                         "end": 242
                     }
@@ -973,7 +973,7 @@ a?.['b']?.[0]?.(1);
                             "end": 267
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 247,
                         "end": 267
                     }
@@ -1062,7 +1062,7 @@ a?.['b']?.[0]?.(1);
                             "end": 292
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 272,
                         "end": 292
                     }
@@ -1214,7 +1214,7 @@ a?.['b']?.[0]?.(1);
                 "end": 312
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 293,
             "end": 313
         }

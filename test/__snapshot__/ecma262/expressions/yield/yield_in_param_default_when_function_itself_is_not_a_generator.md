@@ -107,7 +107,7 @@ function *g() { function f(x = yield) {}; }
                                             "end": 36
                                         },
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 27,
                                         "end": 36
                                     }

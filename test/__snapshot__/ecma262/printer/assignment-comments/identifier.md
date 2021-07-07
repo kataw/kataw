@@ -56,7 +56,7 @@ const bifornCringerMoshedPerplexSawder = // !!!
                             "end": 82
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 82
                     }
@@ -141,17 +141,17 @@ const bifornCringerMoshedPerplexSawder = // !!!
                                     "end": 237
                                 },
                                 "flags": 97,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 199,
                                 "end": 237
                             },
                             "flags": 97,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 125,
                             "end": 237
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 90,
                         "end": 237
                     }

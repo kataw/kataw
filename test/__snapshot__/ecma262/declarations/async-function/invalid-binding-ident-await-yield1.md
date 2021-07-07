@@ -107,7 +107,7 @@ function * bar1() {
                                             "end": 39
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 29,
                                         "end": 39
                                     }
@@ -216,7 +216,7 @@ function * bar1() {
                                             "end": 83
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 73,
                                         "end": 83
                                     }
@@ -326,7 +326,7 @@ function * bar1() {
                                             "end": 123
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 113,
                                         "end": 123
                                     }
@@ -435,7 +435,7 @@ function * bar1() {
                                             "end": 163
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 153,
                                         "end": 163
                                     }

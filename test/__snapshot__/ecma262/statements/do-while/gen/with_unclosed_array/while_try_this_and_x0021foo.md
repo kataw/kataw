@@ -50,7 +50,7 @@ do[ while try this and !foo
                     "end": 3
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 3
             },
@@ -131,7 +131,7 @@ do[ while try this and !foo
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 18
         },
@@ -147,7 +147,7 @@ do[ while try this and !foo
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 22
         },
@@ -177,7 +177,7 @@ do[ while try this and !foo
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 27
         }

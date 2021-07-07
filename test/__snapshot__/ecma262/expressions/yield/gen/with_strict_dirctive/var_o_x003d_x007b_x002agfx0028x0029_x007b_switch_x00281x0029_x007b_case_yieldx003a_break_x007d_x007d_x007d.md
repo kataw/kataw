@@ -145,7 +145,7 @@
                                                                             "asteriskToken": null,
                                                                             "expression": null,
                                                                             "flags": 32,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 49,
                                                                             "end": 55
                                                                         },
@@ -223,7 +223,7 @@
                             "end": 69
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 69
                     }
@@ -257,7 +257,7 @@
 var o = { *gf() {
       switch (1) {
         case yield :
-          break ;
+          break;
       }
     } };
 ```

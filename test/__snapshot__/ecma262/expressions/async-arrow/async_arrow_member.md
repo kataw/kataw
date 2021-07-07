@@ -69,7 +69,7 @@ async("foo".bar) => x
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         },
@@ -85,7 +85,7 @@ async("foo".bar) => x
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 19,
             "end": 21
         }

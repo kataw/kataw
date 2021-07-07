@@ -120,7 +120,7 @@ async () => {  \u0066inally = x  }
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         },
@@ -136,7 +136,7 @@ async () => {  \u0066inally = x  }
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 29,
             "end": 31
         }

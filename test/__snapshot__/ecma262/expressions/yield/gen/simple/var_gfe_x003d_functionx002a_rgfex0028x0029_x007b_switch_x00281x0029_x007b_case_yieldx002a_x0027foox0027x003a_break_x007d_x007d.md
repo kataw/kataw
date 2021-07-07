@@ -146,7 +146,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                                 "end": 59
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 46,
                                                             "end": 59
                                                         },
@@ -208,7 +208,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             "end": 71
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 71
                     }
@@ -240,7 +240,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
 var gfe = function *rgfe() {
     switch (1) {
       case yield* "'foo'":
-        break ;
+        break;
     }
   };
 ```

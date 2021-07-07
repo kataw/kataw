@@ -197,7 +197,7 @@ function StatelessFunctionalComponent3(
                                 "end": 162
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 158,
                             "end": 162
                         }
@@ -273,7 +273,7 @@ function StatelessFunctionalComponent3(
                                             "end": 225
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 207,
                                         "end": 225
                                     },
@@ -325,7 +325,7 @@ function StatelessFunctionalComponent3(
                                             "end": 258
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 226,
                                         "end": 258
                                     },
@@ -377,7 +377,7 @@ function StatelessFunctionalComponent3(
                                             "end": 283
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 259,
                                         "end": 283
                                     },
@@ -429,7 +429,7 @@ function StatelessFunctionalComponent3(
                                             "end": 319
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 284,
                                         "end": 319
                                     },
@@ -481,7 +481,7 @@ function StatelessFunctionalComponent3(
                                             "end": 344
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 320,
                                         "end": 344
                                     },
@@ -507,7 +507,7 @@ function StatelessFunctionalComponent3(
                                             "end": 368
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 345,
                                         "end": 368
                                     },
@@ -535,7 +535,7 @@ function StatelessFunctionalComponent3(
                                             "end": 382
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 369,
                                         "end": 382
                                     },
@@ -570,7 +570,7 @@ function StatelessFunctionalComponent3(
                                             "end": 396
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 383,
                                         "end": 396
                                     }
@@ -605,7 +605,7 @@ function StatelessFunctionalComponent3(
                             "end": 404
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 206,
                         "end": 404
                     }
@@ -752,7 +752,7 @@ function StatelessFunctionalComponent3(
                                             "end": 514
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 480,
                                         "end": 514
                                     },
@@ -804,7 +804,7 @@ function StatelessFunctionalComponent3(
                                             "end": 541
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 515,
                                         "end": 541
                                     },
@@ -856,7 +856,7 @@ function StatelessFunctionalComponent3(
                                             "end": 579
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 542,
                                         "end": 579
                                     },
@@ -908,7 +908,7 @@ function StatelessFunctionalComponent3(
                                             "end": 606
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 580,
                                         "end": 606
                                     },
@@ -934,7 +934,7 @@ function StatelessFunctionalComponent3(
                                             "end": 632
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 607,
                                         "end": 632
                                     },
@@ -962,7 +962,7 @@ function StatelessFunctionalComponent3(
                                             "end": 648
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 633,
                                         "end": 648
                                     },
@@ -997,7 +997,7 @@ function StatelessFunctionalComponent3(
                                             "end": 664
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 649,
                                         "end": 664
                                     }
@@ -1057,7 +1057,7 @@ function StatelessFunctionalComponent3(
                             "end": 696
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 462,
                         "end": 696
                     }

@@ -68,12 +68,12 @@ unction* gf() { var a = yield 'foo'; }
                     "end": 13
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         },
@@ -117,7 +117,7 @@ unction* gf() { var a = yield 'foo'; }
                                         "end": 29
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 19,
                                     "end": 29
                                 }
@@ -144,7 +144,7 @@ unction* gf() { var a = yield 'foo'; }
                             "end": 35
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 29,
                         "end": 36
                     }

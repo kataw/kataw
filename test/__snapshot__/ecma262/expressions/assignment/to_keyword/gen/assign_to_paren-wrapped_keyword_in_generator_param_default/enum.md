@@ -107,7 +107,7 @@ function *f(x = (enum) = f) {}
                             "end": 26
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 26
                     }

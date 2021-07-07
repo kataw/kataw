@@ -113,7 +113,7 @@ async r => result = [...{ x = await x }] = y;
                                                                 "end": 37
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 29,
                                                             "end": 37
                                                         },
@@ -183,7 +183,7 @@ async r => result = [...{ x = await x }] = y;
                 "end": 44
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 45
         }

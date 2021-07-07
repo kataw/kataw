@@ -121,7 +121,7 @@ foo: while (
 
 ```javascript
 foo:  while (x) {
-    break  foo;
+    break foo;
   }
 ```
 

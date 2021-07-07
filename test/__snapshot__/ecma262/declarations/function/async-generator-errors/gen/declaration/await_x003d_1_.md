@@ -95,7 +95,7 @@ async function * gen() {await = 1;}
                                         "end": 29
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 24,
                                     "end": 29
                                 },
@@ -121,7 +121,7 @@ async function * gen() {await = 1;}
                                 "end": 33
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 34
                         }

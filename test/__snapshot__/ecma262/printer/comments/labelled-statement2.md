@@ -54,7 +54,7 @@ x /* comment 3 */ : /* comment 4 */  y; /* comment 5 */
                     "end": 72
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 53,
                 "end": 73
             },

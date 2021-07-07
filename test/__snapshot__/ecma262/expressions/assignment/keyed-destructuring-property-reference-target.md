@@ -96,7 +96,7 @@ function targetKey() {
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 4,
                         "end": 13
                     }
@@ -202,7 +202,7 @@ function targetKey() {
                                 "end": 58
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 35,
                             "end": 59
                         },
@@ -314,7 +314,7 @@ function targetKey() {
                                                                     "end": 118
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 90,
                                                                 "end": 119
                                                             }
@@ -464,7 +464,7 @@ function targetKey() {
                                 "end": 181
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 158,
                             "end": 182
                         },
@@ -586,7 +586,7 @@ function targetKey() {
                                                                     "end": 242
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 214,
                                                                 "end": 243
                                                             }
@@ -736,7 +736,7 @@ function targetKey() {
                                 "end": 312
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 285,
                             "end": 313
                         },
@@ -848,7 +848,7 @@ function targetKey() {
                                                                     "end": 401
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 357,
                                                                 "end": 402
                                                             },
@@ -1022,7 +1022,7 @@ function targetKey() {
                                 "end": 495
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 468,
                             "end": 496
                         },
@@ -1134,7 +1134,7 @@ function targetKey() {
                                                                     "end": 584
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 540,
                                                                 "end": 585
                                                             },
@@ -1380,7 +1380,7 @@ function targetKey() {
                 "end": 682
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 628,
             "end": 683
         }

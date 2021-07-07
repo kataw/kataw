@@ -65,7 +65,7 @@ await x;
                                 "end": 18
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 12,
                             "end": 18
                         }
@@ -110,12 +110,12 @@ await x;
                     "end": 27
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 19,
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 19,
             "end": 28
         }

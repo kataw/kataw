@@ -116,7 +116,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 33,
                                                     "end": 38
                                                 }
@@ -169,7 +169,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                             "end": 46
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 46
                     }

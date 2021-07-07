@@ -105,7 +105,7 @@ function *f(x = delete ((do) = f)) {}
                             "end": 25
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 25
                     }
@@ -159,7 +159,7 @@ function *f(x = delete ((do) = f)) {}
                     "end": 27
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 27,
                 "end": 27
             },
@@ -190,7 +190,7 @@ function *f(x = delete ((do) = f)) {}
                 "end": 32
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 30,
             "end": 32
         },

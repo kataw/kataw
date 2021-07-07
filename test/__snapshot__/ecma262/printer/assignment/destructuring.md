@@ -190,7 +190,7 @@ const { accessibilityModule: FooAccessibilityModule, accessibilityModule: FooAcc
                                     "end": 120
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 93,
                                 "end": 120
                             },
@@ -243,12 +243,12 @@ const { accessibilityModule: FooAccessibilityModule, accessibilityModule: FooAcc
                                 "end": 164
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 93,
                             "end": 164
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 164
                     }
@@ -434,12 +434,12 @@ const { accessibilityModule: FooAccessibilityModule, accessibilityModule: FooAcc
                                 "end": 377
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 367,
                             "end": 377
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 172,
                         "end": 377
                     }
@@ -587,7 +587,7 @@ const { accessibilityModule: FooAccessibilityModule, accessibilityModule: FooAcc
                 "end": 434
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 378,
             "end": 435
         }

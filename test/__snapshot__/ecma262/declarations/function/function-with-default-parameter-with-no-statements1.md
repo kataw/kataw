@@ -74,7 +74,7 @@ function bar(a = (v)) {
                             "end": 20
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 20
                     }
@@ -163,7 +163,7 @@ function bar(a = (v)) {
                             "end": 47
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 40,
                         "end": 47
                     }

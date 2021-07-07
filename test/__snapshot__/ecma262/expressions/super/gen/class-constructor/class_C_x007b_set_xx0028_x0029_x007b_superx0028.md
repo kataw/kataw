@@ -192,7 +192,7 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                                         "end": 53
                                                                                     },
                                                                                     "flags": 16,
-                                                                                    "transformFlags": 0,
+                                                                                    "transformFlags": 4096,
                                                                                     "start": 46,
                                                                                     "end": 53
                                                                                 }

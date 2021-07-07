@@ -80,7 +80,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                             "end": 11
                                                         },
                                                         "flags": 0,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 8,
                                                         "end": 11
                                                     },
@@ -106,7 +106,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 0,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 12,
                                                         "end": 16
                                                     }
@@ -261,7 +261,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                             "end": 37
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 37
                     }

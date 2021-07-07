@@ -95,7 +95,7 @@ switch (a) { case b: let x }
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 24,
                                             "end": 26
                                         }

@@ -252,15 +252,15 @@ loop: for (;;) {
 ```javascript
 for (;;)
   {
-    break ;
-    continue ;
+    break;
+    continue;
   }
 loop:  for (;;)
   {
-    break  loop;
-    break  loop;
-    continue  loop;
-    continue  loop;
+    break loop;
+    break loop;
+    continue loop;
+    continue loop;
   }
 
 ```

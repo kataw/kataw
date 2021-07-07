@@ -86,12 +86,12 @@ async function f(){ await \n x; }
                                     "end": 25
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 19,
                                 "end": 25
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 19,
                             "end": 25
                         }
@@ -124,7 +124,7 @@ async function f(){ await \n x; }
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 28
         },
@@ -140,7 +140,7 @@ async function f(){ await \n x; }
                 "end": 30
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 28,
             "end": 31
         }

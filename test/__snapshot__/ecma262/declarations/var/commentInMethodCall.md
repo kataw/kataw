@@ -75,7 +75,7 @@ s.map(// do something
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 19,
                         "end": 31
                     }
@@ -179,7 +179,7 @@ s.map(// do something
                 "end": 75
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 32,
             "end": 76
         }

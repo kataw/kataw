@@ -112,12 +112,12 @@ class x {async f(foo = await bar){}}
                                                     "end": 32
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 22,
                                                 "end": 32
                                             },
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 17,
                                             "end": 32
                                         }

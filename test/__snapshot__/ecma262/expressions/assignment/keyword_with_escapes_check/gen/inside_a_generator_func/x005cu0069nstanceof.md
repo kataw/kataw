@@ -97,12 +97,12 @@ function *f(){
                                     "end": 32
                                 },
                                 "flags": 16481,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 14,
                                 "end": 32
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 32
                         }
@@ -135,7 +135,7 @@ function *f(){
                 "end": 36
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 34,
             "end": 36
         }

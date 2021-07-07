@@ -69,7 +69,7 @@ import typeof a * from "b";
                         "end": 22
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 15,
                     "end": 22
                 },
@@ -114,7 +114,7 @@ import typeof a * from "b";
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 27
         }

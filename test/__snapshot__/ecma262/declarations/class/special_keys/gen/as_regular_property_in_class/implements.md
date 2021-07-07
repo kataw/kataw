@@ -100,7 +100,7 @@ class x {implements: x}
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 20,
             "end": 22
         }

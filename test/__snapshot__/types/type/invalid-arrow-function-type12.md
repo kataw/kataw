@@ -137,7 +137,7 @@ type a = (?!x) => T;
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 13
         },
@@ -153,7 +153,7 @@ type a = (?!x) => T;
                 "end": 19
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 20
         }

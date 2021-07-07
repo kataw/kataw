@@ -102,12 +102,12 @@ async function * gen() {yield * 1; return 37; yield * 'dead';}
                                     "end": 33
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 24,
                                 "end": 33
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 34
                         },
@@ -163,12 +163,12 @@ async function * gen() {yield * 1; return 37; yield * 'dead';}
                                     "end": 60
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 45,
                                 "end": 60
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 45,
                             "end": 61
                         }

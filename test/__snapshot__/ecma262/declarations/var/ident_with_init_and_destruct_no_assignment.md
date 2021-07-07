@@ -58,7 +58,7 @@ var x = y, {z};
                             "end": 9
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     },
@@ -93,7 +93,7 @@ var x = y, {z};
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 10,
                         "end": 14
                     }

@@ -111,7 +111,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                                 "end": 40
                                             },
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 32,
                                             "end": 40
                                         }
@@ -155,7 +155,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                                     "end": 54
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 43,
                                                 "end": 55
                                             }

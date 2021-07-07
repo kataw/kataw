@@ -49,7 +49,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -242,7 +242,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                                 "end": 80
                                                                                                             },
                                                                                                             "flags": 34,
-                                                                                                            "transformFlags": 0,
+                                                                                                            "transformFlags": 4096,
                                                                                                             "start": 69,
                                                                                                             "end": 80
                                                                                                         },
@@ -302,7 +302,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                 "end": 88
                                                                             },
                                                                             "flags": 16,
-                                                                            "transformFlags": 128,
+                                                                            "transformFlags": 4224,
                                                                             "start": 61,
                                                                             "end": 88
                                                                         }
@@ -357,7 +357,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                             "end": 96
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 96
                     }

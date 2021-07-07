@@ -92,7 +92,7 @@ async () => {  implem\u0065nts = x  }
                                     "end": 34
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 13,
                                 "end": 34
                             }
@@ -113,7 +113,7 @@ async () => {  implem\u0065nts = x  }
                 "end": 37
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 37
         }

@@ -92,12 +92,12 @@ async () => { await import(x) }
                                         "end": 29
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 13,
                                     "end": 29
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 13,
                                 "end": 29
                             }
@@ -118,7 +118,7 @@ async () => { await import(x) }
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         }

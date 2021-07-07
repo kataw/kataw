@@ -97,12 +97,12 @@ a ? b ? c : d ** x : e
                             "end": 18
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 11,
                         "end": 18
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 3,
                     "end": 18
                 },
@@ -123,12 +123,12 @@ a ? b ? c : d ** x : e
                     "end": 22
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }

@@ -123,7 +123,7 @@ import * as x, {y} from 'm.js';
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 17
         },
@@ -139,7 +139,7 @@ import * as x, {y} from 'm.js';
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 22
         },
@@ -155,7 +155,7 @@ import * as x, {y} from 'm.js';
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 30
         },
@@ -223,7 +223,7 @@ import * as x, {y} from 'm.js';
                 "end": 53
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 48,
             "end": 53
         },
@@ -239,7 +239,7 @@ import * as x, {y} from 'm.js';
                 "end": 60
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 53,
             "end": 61
         },
@@ -285,7 +285,7 @@ import * as x, {y} from 'm.js';
                         "end": 74
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 69,
                     "end": 74
                 },
@@ -340,7 +340,7 @@ import * as x, {y} from 'm.js';
                 "end": 81
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 74,
             "end": 81
         },
@@ -356,7 +356,7 @@ import * as x, {y} from 'm.js';
                 "end": 86
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 81,
             "end": 86
         },
@@ -372,7 +372,7 @@ import * as x, {y} from 'm.js';
                 "end": 93
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 86,
             "end": 94
         },
@@ -418,7 +418,7 @@ import * as x, {y} from 'm.js';
                         "end": 107
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 102,
                     "end": 107
                 },
@@ -485,7 +485,7 @@ import * as x, {y} from 'm.js';
                             "end": 115
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 110,
                         "end": 115
                     }
@@ -496,7 +496,7 @@ import * as x, {y} from 'm.js';
                 "end": 115
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 107,
             "end": 115
         },
@@ -512,7 +512,7 @@ import * as x, {y} from 'm.js';
                 "end": 117
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 115,
             "end": 117
         },
@@ -528,7 +528,7 @@ import * as x, {y} from 'm.js';
                 "end": 122
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 117,
             "end": 122
         },
@@ -544,7 +544,7 @@ import * as x, {y} from 'm.js';
                 "end": 129
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 122,
             "end": 130
         },
@@ -644,7 +644,7 @@ import * as x, {y} from 'm.js';
                             "end": 146
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 145,
                         "end": 146
                     }
@@ -671,7 +671,7 @@ import * as x, {y} from 'm.js';
                 "end": 152
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 147,
             "end": 152
         },
@@ -687,7 +687,7 @@ import * as x, {y} from 'm.js';
                 "end": 159
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 152,
             "end": 160
         },
@@ -733,7 +733,7 @@ import * as x, {y} from 'm.js';
                         "end": 173
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 168,
                     "end": 173
                 },
@@ -805,7 +805,7 @@ import * as x, {y} from 'm.js';
                 "end": 180
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 173,
             "end": 180
         },
@@ -821,7 +821,7 @@ import * as x, {y} from 'm.js';
                 "end": 185
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 180,
             "end": 185
         },
@@ -837,7 +837,7 @@ import * as x, {y} from 'm.js';
                 "end": 192
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 185,
             "end": 193
         }

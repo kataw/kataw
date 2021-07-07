@@ -83,7 +83,7 @@ function arrayRestWithNestedRest(...[...r]) {}
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 37,
                                         "end": 41
                                     }
@@ -103,7 +103,7 @@ function arrayRestWithNestedRest(...[...r]) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 33,
                         "end": 42
                     }

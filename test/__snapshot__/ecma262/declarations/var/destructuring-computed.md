@@ -77,7 +77,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "end": 23
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 23
                     }
@@ -202,7 +202,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "end": 62
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 62
                     }
@@ -292,7 +292,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 85,
                                         "end": 95
                                     }
@@ -353,7 +353,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "end": 114
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 68,
                         "end": 114
                     }

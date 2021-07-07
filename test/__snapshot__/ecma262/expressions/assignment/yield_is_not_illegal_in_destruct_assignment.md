@@ -105,7 +105,7 @@ function* g() {   [...{ x = yield }] = y   }
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 27,
                                                                     "end": 33
                                                                 },
@@ -165,7 +165,7 @@ function* g() {   [...{ x = yield }] = y   }
                                 "end": 40
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 40
                         }

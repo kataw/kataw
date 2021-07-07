@@ -60,7 +60,7 @@ import 'x' assert {,}
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 10,
             "end": 17
         },

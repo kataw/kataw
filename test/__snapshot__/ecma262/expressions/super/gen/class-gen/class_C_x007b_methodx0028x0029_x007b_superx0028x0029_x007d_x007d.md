@@ -182,7 +182,7 @@ class C { *method() { class C { method() { super(); } } } }
                                                                                         "end": 50
                                                                                     },
                                                                                     "flags": 16,
-                                                                                    "transformFlags": 0,
+                                                                                    "transformFlags": 4096,
                                                                                     "start": 42,
                                                                                     "end": 51
                                                                                 }

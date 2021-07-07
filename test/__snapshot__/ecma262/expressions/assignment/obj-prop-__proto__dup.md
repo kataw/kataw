@@ -135,7 +135,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                 "end": 47
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 48
         },
@@ -264,7 +264,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                 "end": 99
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 48,
             "end": 100
         }

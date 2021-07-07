@@ -126,7 +126,7 @@ async (x = delete ((void) = f)) => {}
                                 "end": 30
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 30
                         }
@@ -167,7 +167,7 @@ async (x = delete ((void) = f)) => {}
                 "end": 37
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 37
         }

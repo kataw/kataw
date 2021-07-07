@@ -120,7 +120,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 27,
                                         "end": 36
                                     }
@@ -193,7 +193,7 @@ var z : Object = function (x: number): string { return "hi"; };
                             "end": 62
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 62
                     }

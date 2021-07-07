@@ -210,7 +210,7 @@ for ({}.bar = x in obj);
                         "end": 19
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 8,
                     "end": 19
                 },
@@ -296,12 +296,12 @@ for ({}.bar = x in obj);
                         "end": 37
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 32,
                     "end": 37
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 22,
                 "end": 37
             },
@@ -630,7 +630,7 @@ for ({}.bar = x in obj);
                                 "end": 149
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 144,
                             "end": 149
                         }
@@ -762,7 +762,7 @@ for ({}.bar = x in obj);
                         "end": 182
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 173,
                     "end": 182
                 },
@@ -1448,7 +1448,7 @@ for ({}.bar = x in obj);
                             "end": 331
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 324,
                         "end": 331
                     }
@@ -1542,7 +1542,7 @@ for ({}.bar = x in obj);
                         "end": 351
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 344,
                     "end": 351
                 },
@@ -1616,7 +1616,7 @@ for ({}.bar = x in obj);
                                 "end": 366
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 362,
                             "end": 366
                         }
@@ -1694,7 +1694,7 @@ for ({}.bar = x in obj);
                     "end": 380
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 378,
                 "end": 380
             },
@@ -1715,7 +1715,7 @@ for ({}.bar = x in obj);
                 "end": 394
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 380,
             "end": 395
         },
@@ -1903,7 +1903,7 @@ for ({}.bar = x in obj);
                     "end": 450
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 446,
                 "end": 450
             },
@@ -1938,7 +1938,7 @@ for ({}.bar = x in obj);
                 "end": 455
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 453,
             "end": 455
         },
@@ -1977,7 +1977,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 466,
                             "end": 468
                         }
@@ -2124,7 +2124,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 505,
                             "end": 509
                         }
@@ -2203,7 +2203,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 525,
                             "end": 529
                         }
@@ -2281,7 +2281,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 545,
                             "end": 547
                         }
@@ -2344,7 +2344,7 @@ for ({}.bar = x in obj);
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 559,
                                         "end": 561
                                     }
@@ -2410,7 +2410,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 575,
                             "end": 577
                         }
@@ -2473,7 +2473,7 @@ for ({}.bar = x in obj);
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 589,
                                         "end": 591
                                     }
@@ -2565,7 +2565,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 605,
                             "end": 612
                         }
@@ -2684,12 +2684,12 @@ for ({}.bar = x in obj);
                         "end": 644
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 636,
                     "end": 644
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 619,
                 "end": 644
             },
@@ -2749,7 +2749,7 @@ for ({}.bar = x in obj);
                         "end": 661
                     },
                     "flags": 16,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 661,
                     "end": 661
                 },
@@ -2793,12 +2793,12 @@ for ({}.bar = x in obj);
                     "end": 670
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 664,
                 "end": 670
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 664,
             "end": 670
         },
@@ -2878,7 +2878,7 @@ for ({}.bar = x in obj);
                     "end": 685
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 685,
                 "end": 685
             },
@@ -2917,12 +2917,12 @@ for ({}.bar = x in obj);
                     "end": 695
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 689,
                 "end": 695
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 689,
             "end": 695
         },
@@ -3029,7 +3029,7 @@ for ({}.bar = x in obj);
                         "end": 717
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 711,
                     "end": 717
                 },
@@ -3278,7 +3278,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 773,
                             "end": 775
                         }
@@ -3525,7 +3525,7 @@ for ({}.bar = x in obj);
                         "end": 835
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 829,
                     "end": 835
                 },
@@ -3687,7 +3687,7 @@ for ({}.bar = x in obj);
                         "end": 877
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 870,
                     "end": 877
                 },
@@ -3806,7 +3806,7 @@ for ({}.bar = x in obj);
                         "end": 901
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 894,
                     "end": 901
                 },
@@ -3925,7 +3925,7 @@ for ({}.bar = x in obj);
                         "end": 923
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 917,
                     "end": 923
                 },
@@ -4028,7 +4028,7 @@ for ({}.bar = x in obj);
                         "end": 945
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 938,
                     "end": 945
                 },
@@ -4121,7 +4121,7 @@ for ({}.bar = x in obj);
                         "end": 965
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 958,
                     "end": 965
                 },
@@ -4409,7 +4409,7 @@ for ({}.bar = x in obj);
                         "end": 1029
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 1021,
                     "end": 1029
                 },
@@ -4556,7 +4556,7 @@ for ({}.bar = x in obj);
                     "end": 1051
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 1051,
                 "end": 1051
             },
@@ -4595,12 +4595,12 @@ for ({}.bar = x in obj);
                     "end": 1059
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 1052,
                 "end": 1059
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1052,
             "end": 1059
         },
@@ -4684,7 +4684,7 @@ for ({}.bar = x in obj);
                                     "end": 1092
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1085,
                                 "end": 1092
                             },
@@ -4723,7 +4723,7 @@ for ({}.bar = x in obj);
                                     "end": 1102
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 1095,
                                 "end": 1102
                             },
@@ -5321,7 +5321,7 @@ for ({}.bar = x in obj);
                             "end": 1230
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 1223,
                         "end": 1230
                     },
@@ -5363,7 +5363,7 @@ for ({}.bar = x in obj);
                     "end": 1238
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 1237,
                 "end": 1238
             },
@@ -5533,7 +5533,7 @@ for ({}.bar = x in obj);
                 "end": 1292
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1278,
             "end": 1293
         },
@@ -5581,7 +5581,7 @@ for ({}.bar = x in obj);
                                 "end": 1309
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1303,
                             "end": 1309
                         },
@@ -5599,7 +5599,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1310,
                             "end": 1312
                         }
@@ -5720,7 +5720,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1338,
                             "end": 1340
                         },
@@ -5746,7 +5746,7 @@ for ({}.bar = x in obj);
                                 "end": 1346
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1341,
                             "end": 1346
                         }
@@ -5826,7 +5826,7 @@ for ({}.bar = x in obj);
                                 "end": 1371
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1365,
                             "end": 1371
                         }
@@ -5955,7 +5955,7 @@ for ({}.bar = x in obj);
                                 "end": 1403
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1397,
                             "end": 1403
                         },
@@ -5973,7 +5973,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1404,
                             "end": 1406
                         }
@@ -6103,7 +6103,7 @@ for ({}.bar = x in obj);
                                 "end": 1438
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1432,
                             "end": 1438
                         }
@@ -6233,7 +6233,7 @@ for ({}.bar = x in obj);
                                 "end": 1470
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1464,
                             "end": 1470
                         },
@@ -6251,7 +6251,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1471,
                             "end": 1473
                         }
@@ -6380,7 +6380,7 @@ for ({}.bar = x in obj);
                                 "end": 1505
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1499,
                             "end": 1505
                         },
@@ -6406,7 +6406,7 @@ for ({}.bar = x in obj);
                                 "end": 1512
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1506,
                             "end": 1512
                         }
@@ -6499,7 +6499,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1533,
                             "end": 1535
                         },
@@ -6517,7 +6517,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1536,
                             "end": 1537
                         }
@@ -6619,7 +6619,7 @@ for ({}.bar = x in obj);
                                 "end": 1564
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1558,
                             "end": 1564
                         },
@@ -6645,7 +6645,7 @@ for ({}.bar = x in obj);
                                 "end": 1571
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1565,
                             "end": 1571
                         }
@@ -6739,7 +6739,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1592,
                             "end": 1594
                         },
@@ -6757,7 +6757,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1595,
                             "end": 1596
                         }
@@ -6870,7 +6870,7 @@ for ({}.bar = x in obj);
                         "end": 1619
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 1613,
                     "end": 1619
                 },
@@ -6907,7 +6907,7 @@ for ({}.bar = x in obj);
                     "end": 1627
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 1626,
                 "end": 1628
             },
@@ -7005,12 +7005,12 @@ for ({}.bar = x in obj);
                                 "end": 1653
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 1647,
                             "end": 1653
                         },
                         "flags": 1641,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 1641,
                         "end": 1653
                     },
@@ -7052,7 +7052,7 @@ for ({}.bar = x in obj);
                     "end": 1661
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 1660,
                 "end": 1661
             },
@@ -7123,7 +7123,7 @@ for ({}.bar = x in obj);
                         "end": 1679
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 1672,
                     "end": 1679
                 },
@@ -7209,7 +7209,7 @@ for ({}.bar = x in obj);
                         "end": 1698
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 1691,
                     "end": 1698
                 },
@@ -7404,7 +7404,7 @@ for ({}.bar = x in obj);
                         "end": 1743
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 1734,
                     "end": 1743
                 },
@@ -7540,7 +7540,7 @@ for ({}.bar = x in obj);
                         "end": 1771
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 1762,
                     "end": 1771
                 },
@@ -7627,7 +7627,7 @@ for ({}.bar = x in obj);
                                         "end": 1789
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 1781,
                                     "end": 1789
                                 },
@@ -7683,7 +7683,7 @@ for ({}.bar = x in obj);
                         "end": 1801
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 1792,
                     "end": 1801
                 },
@@ -7766,7 +7766,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1813,
                             "end": 1819
                         }
@@ -7861,7 +7861,7 @@ for ({}.bar = x in obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 1840,
                             "end": 1846
                         }
@@ -7958,7 +7958,7 @@ for ({}.bar = x in obj);
                                     "end": 1871
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 1863,
                                 "end": 1871
                             },
@@ -8085,7 +8085,7 @@ for ({}.bar = x in obj);
                         "end": 1905
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 1896,
                     "end": 1905
                 },
@@ -8194,7 +8194,7 @@ for ({}.bar = x in obj);
                         "end": 1931
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 1922,
                     "end": 1931
                 },

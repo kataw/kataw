@@ -65,7 +65,7 @@ function bar(a = false) {
                             "end": 22
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 22
                     }
@@ -145,7 +145,7 @@ function bar(a = false) {
                             "end": 51
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 42,
                         "end": 51
                     }

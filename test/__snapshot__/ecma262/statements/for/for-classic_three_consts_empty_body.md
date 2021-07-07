@@ -58,7 +58,7 @@ for (const a,b,c;;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 12
                         },
@@ -76,7 +76,7 @@ for (const a,b,c;;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 13,
                             "end": 14
                         },
@@ -94,7 +94,7 @@ for (const a,b,c;;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 15,
                             "end": 16
                         }

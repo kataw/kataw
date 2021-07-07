@@ -88,7 +88,7 @@ for ({a: x + y} in obj);
                                     "end": 14
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 6,
                                 "end": 14
                             },

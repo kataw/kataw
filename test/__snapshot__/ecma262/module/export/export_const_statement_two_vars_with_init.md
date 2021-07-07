@@ -64,7 +64,7 @@ export const x = 10, y = 20
                                 "end": 19
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 12,
                             "end": 19
                         },
@@ -90,7 +90,7 @@ export const x = 10, y = 20
                                 "end": 27
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 20,
                             "end": 27
                         }

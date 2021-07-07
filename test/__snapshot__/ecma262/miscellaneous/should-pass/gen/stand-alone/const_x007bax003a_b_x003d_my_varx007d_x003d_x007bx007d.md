@@ -105,7 +105,7 @@ const {a: b = my_var} = {}
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 26
                     }

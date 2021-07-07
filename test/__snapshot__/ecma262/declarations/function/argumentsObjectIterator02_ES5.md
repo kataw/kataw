@@ -64,7 +64,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         "type": null,
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 32,
                         "end": 33
                     }
@@ -160,7 +160,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                     "end": 55
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 45,
                 "end": 55
             },
@@ -181,7 +181,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "end": 63
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 56,
             "end": 63
         },
@@ -232,7 +232,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "end": 90
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 65,
             "end": 90
         },
@@ -307,7 +307,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                         "end": 134
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 100,
                                     "end": 134
                                 }
@@ -363,7 +363,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                         "end": 156
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 144,
                                     "end": 156
                                 }
@@ -414,7 +414,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 170,
                                         "end": 174
                                     }
@@ -526,7 +526,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                                             "end": 217
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 208,
                                                         "end": 217
                                                     }
@@ -543,7 +543,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                             "end": 218
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 187,
                                         "end": 219
                                     }
@@ -637,7 +637,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                     "end": 253
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 236,
                                 "end": 253
                             },
@@ -658,7 +658,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                 "end": 260
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 236,
                             "end": 260
                         },

@@ -85,7 +85,7 @@ const {x,} = obj;
                             "end": 16
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 16
                     }

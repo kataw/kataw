@@ -123,7 +123,7 @@ let arr: number[] = [0, 1, 2, 3];
                             "end": 32
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 32
                     }

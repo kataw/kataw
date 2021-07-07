@@ -73,7 +73,7 @@ eval => { 'use strict'; 0 } ;
                                     "end": 25
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 23,
                                 "end": 25
                             }
@@ -94,7 +94,7 @@ eval => { 'use strict'; 0 } ;
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }

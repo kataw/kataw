@@ -68,7 +68,7 @@ for (let {x}, {y} of z);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 12
                         },
@@ -103,7 +103,7 @@ for (let {x}, {y} of z);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 13,
                             "end": 17
                         }

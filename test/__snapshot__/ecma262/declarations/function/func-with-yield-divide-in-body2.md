@@ -108,7 +108,7 @@ function f2() { yield /=2 /d }
                                         "end": 28
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 24,
                                     "end": 28
                                 },
@@ -118,7 +118,7 @@ function f2() { yield /=2 /d }
                                 "end": 28
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 28
                         }

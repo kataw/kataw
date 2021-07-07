@@ -199,7 +199,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "end": 38
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 31,
                                             "end": 38
                                         }
@@ -255,7 +255,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 45
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 41,
                             "end": 45
                         }
@@ -325,7 +325,7 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 64
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 59,
                         "end": 64
                     }
@@ -380,7 +380,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 73
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 67,
                             "end": 73
                         }
@@ -495,7 +495,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 110
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 104,
                             "end": 111
                         },
@@ -550,7 +550,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 129
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 111,
                             "end": 130
                         },
@@ -592,7 +592,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 137
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 130,
                             "end": 137
                         }
@@ -660,7 +660,7 @@ function f({x:arg = (arg = 2)}) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 151,
                         "end": 157
                     }
@@ -715,7 +715,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 166
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 160,
                             "end": 167
                         },
@@ -770,7 +770,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 185
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 167,
                             "end": 186
                         },
@@ -812,7 +812,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 193
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 186,
                             "end": 193
                         }
@@ -918,7 +918,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 219
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 213,
                             "end": 220
                         },
@@ -957,7 +957,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 229
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 220,
                             "end": 230
                         },
@@ -999,7 +999,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 237
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 230,
                             "end": 237
                         }
@@ -1105,7 +1105,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 263
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 257,
                             "end": 264
                         },
@@ -1147,7 +1147,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 281
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 264,
                             "end": 282
                         },
@@ -1189,7 +1189,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 289
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 282,
                             "end": 289
                         }
@@ -1295,7 +1295,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 315
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 309,
                             "end": 316
                         },
@@ -1334,7 +1334,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "end": 329
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 320,
                                         "end": 329
                                     }
@@ -1387,7 +1387,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 337
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 330,
                             "end": 337
                         }
@@ -1466,7 +1466,7 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 359
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 355,
                         "end": 359
                     }
@@ -1521,7 +1521,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 368
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 362,
                             "end": 369
                         },
@@ -1560,7 +1560,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 378
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 369,
                             "end": 379
                         },
@@ -1602,7 +1602,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 386
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 379,
                             "end": 386
                         }
@@ -1679,7 +1679,7 @@ function f({x:arg = (arg = 2)}) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 404,
                         "end": 409
                     }
@@ -1734,7 +1734,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 418
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 412,
                             "end": 419
                         },
@@ -1773,7 +1773,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 428
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 419,
                             "end": 429
                         },
@@ -1815,7 +1815,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 436
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 429,
                             "end": 436
                         }
@@ -1885,7 +1885,7 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 455
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 450,
                         "end": 455
                     }
@@ -1940,7 +1940,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 464
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 458,
                             "end": 465
                         },
@@ -1979,7 +1979,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 474
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 465,
                             "end": 475
                         },
@@ -2021,7 +2021,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 482
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 475,
                             "end": 482
                         }
@@ -2137,7 +2137,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 522
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 515,
                             "end": 523
                         },
@@ -2176,7 +2176,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 532
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 523,
                             "end": 533
                         },
@@ -2218,7 +2218,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 540
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 533,
                             "end": 540
                         }
@@ -2376,7 +2376,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "end": 578
                                     },
                                     "flags": 0,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 560,
                                     "end": 578
                                 }
@@ -2443,7 +2443,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 588
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 582,
                             "end": 588
                         }
@@ -2549,7 +2549,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 614
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 608,
                             "end": 615
                         },
@@ -2632,7 +2632,7 @@ function f({x:arg = (arg = 2)}) {}
                                                                 "end": 638
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 630,
                                                             "end": 638
                                                         }
@@ -2666,7 +2666,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 640
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 615,
                             "end": 641
                         },
@@ -2708,7 +2708,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 648
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 641,
                             "end": 648
                         }
@@ -2814,7 +2814,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 674
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 668,
                             "end": 675
                         },
@@ -2905,7 +2905,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 693
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 675,
                             "end": 694
                         },
@@ -2947,7 +2947,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 701
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 694,
                             "end": 701
                         }
@@ -3053,7 +3053,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 727
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 721,
                             "end": 728
                         },
@@ -3147,7 +3147,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 754
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 728,
                             "end": 755
                         },
@@ -3189,7 +3189,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 762
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 755,
                             "end": 762
                         }
@@ -3257,7 +3257,7 @@ function f({x:arg = (arg = 2)}) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 776,
                         "end": 782
                     }
@@ -3312,7 +3312,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 791
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 785,
                             "end": 792
                         },
@@ -3354,7 +3354,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 809
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 792,
                             "end": 810
                         },
@@ -3396,7 +3396,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 817
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 810,
                             "end": 817
                         }
@@ -3502,7 +3502,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 843
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 837,
                             "end": 844
                         },
@@ -3557,7 +3557,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 862
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 844,
                             "end": 863
                         },
@@ -3599,7 +3599,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 870
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 863,
                             "end": 870
                         }
@@ -3705,7 +3705,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 896
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 890,
                             "end": 897
                         },
@@ -3747,7 +3747,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 910
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 897,
                             "end": 911
                         },
@@ -3789,7 +3789,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 918
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 911,
                             "end": 918
                         }
@@ -3895,7 +3895,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 944
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 938,
                             "end": 945
                         },
@@ -3937,7 +3937,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 971
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 945,
                             "end": 972
                         },
@@ -3979,7 +3979,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 979
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 972,
                             "end": 979
                         }
@@ -4085,7 +4085,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 1005
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 999,
                             "end": 1006
                         },
@@ -4192,7 +4192,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 1033
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1006,
                             "end": 1034
                         },
@@ -4234,7 +4234,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 1041
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1034,
                             "end": 1041
                         }

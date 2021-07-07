@@ -98,12 +98,12 @@ x = {[ a + b instanceof c ]: y}
                                                 "end": 25
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 12,
                                             "end": 25
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 6,
                                         "end": 25
                                     },
@@ -144,7 +144,7 @@ x = {[ a + b instanceof c ]: y}
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         }

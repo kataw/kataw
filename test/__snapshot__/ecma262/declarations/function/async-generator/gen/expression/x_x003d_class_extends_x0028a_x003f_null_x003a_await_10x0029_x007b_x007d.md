@@ -174,12 +174,12 @@
                                                                                     "end": 57
                                                                                 },
                                                                                 "flags": 32,
-                                                                                "transformFlags": 0,
+                                                                                "transformFlags": 4096,
                                                                                 "start": 48,
                                                                                 "end": 57
                                                                             },
                                                                             "flags": 96,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 36,
                                                                             "end": 57
                                                                         },
@@ -218,7 +218,7 @@
                                                         "end": 62
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 19,
                                                     "end": 62
                                                 }
@@ -261,7 +261,7 @@
                 "end": 66
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 66
         }

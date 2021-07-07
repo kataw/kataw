@@ -54,7 +54,7 @@ async  <T, U>(x) >> y - z;
                             "end": 9
                         },
                         "flags": 32,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 0,
                         "end": 9
                     },
@@ -129,17 +129,17 @@ async  <T, U>(x) >> y - z;
                                     "end": 25
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 21,
                                 "end": 25
                             },
                             "flags": 45,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 16,
                             "end": 25
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 10,
                         "end": 25
                     }
@@ -150,7 +150,7 @@ async  <T, U>(x) >> y - z;
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }

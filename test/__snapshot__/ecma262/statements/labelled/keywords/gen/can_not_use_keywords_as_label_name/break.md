@@ -57,7 +57,7 @@ break: x
                 "end": 8
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 8
         }

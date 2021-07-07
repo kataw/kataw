@@ -93,7 +93,7 @@ bar ? (eval => { 'use strict'; 0 }) : baz;
                                             "end": 32
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 30,
                                         "end": 32
                                     }
@@ -135,12 +135,12 @@ bar ? (eval => { 'use strict'; 0 }) : baz;
                     "end": 41
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 41
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 42
         }

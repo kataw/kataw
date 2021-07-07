@@ -76,7 +76,7 @@ var f: >x:int) => string;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 6
                     }
@@ -121,12 +121,12 @@ var f: >x:int) => string;
                     "end": 9
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 6,
                 "end": 9
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 9
         },
@@ -142,7 +142,7 @@ var f: >x:int) => string;
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 10,
             "end": 13
         },
@@ -158,7 +158,7 @@ var f: >x:int) => string;
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 25
         }

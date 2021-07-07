@@ -180,7 +180,7 @@ async function * gen() {class C extends await { }}
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
-                                                    "transformFlags": 128,
+                                                    "transformFlags": 4224,
                                                     "start": 43,
                                                     "end": 49
                                                 }
@@ -219,7 +219,7 @@ async function * gen() {class C extends await { }}
                 "end": 51
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 51
         },
@@ -299,7 +299,7 @@ async function * gen() {class C extends await { }}
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 79,
                                         "end": 83
                                     },
@@ -317,7 +317,7 @@ async function * gen() {class C extends await { }}
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 84,
                                         "end": 90
                                     }
@@ -425,7 +425,7 @@ async function * gen() {class C extends await { }}
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 120,
                                         "end": 124
                                     },
@@ -443,7 +443,7 @@ async function * gen() {class C extends await { }}
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 125,
                                         "end": 131
                                     }
@@ -1106,7 +1106,7 @@ async function * gen() {class C extends await { }}
                                 "end": 499
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 469,
                             "end": 499
                         }
@@ -1250,7 +1250,7 @@ async function * gen() {class C extends await { }}
                                 "end": 555
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 525,
                             "end": 555
                         }
@@ -1545,7 +1545,7 @@ async function * gen() {class C extends await { }}
                                 "end": 745
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 712,
                             "end": 745
                         }
@@ -1840,7 +1840,7 @@ async function * gen() {class C extends await { }}
                                 "end": 861
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 828,
                             "end": 861
                         }
@@ -1927,7 +1927,7 @@ async function * gen() {class C extends await { }}
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 887,
                                     "end": 892
                                 },
@@ -1953,7 +1953,7 @@ async function * gen() {class C extends await { }}
                                 "end": 896
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 887,
                             "end": 897
                         }
@@ -2046,7 +2046,7 @@ async function * gen() {class C extends await { }}
                                         "end": 928
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 923,
                                     "end": 928
                                 },
@@ -2072,7 +2072,7 @@ async function * gen() {class C extends await { }}
                                 "end": 932
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 923,
                             "end": 933
                         }
@@ -2182,7 +2182,7 @@ async function * gen() {class C extends await { }}
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 968,
                                                 "end": 974
                                             },
@@ -2208,7 +2208,7 @@ async function * gen() {class C extends await { }}
                                             "end": 978
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 962,
                                         "end": 978
                                     }
@@ -2335,7 +2335,7 @@ async function * gen() {class C extends await { }}
                                                     "end": 1020
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 1014,
                                                 "end": 1020
                                             },
@@ -2361,7 +2361,7 @@ async function * gen() {class C extends await { }}
                                             "end": 1024
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 1008,
                                         "end": 1024
                                     }
@@ -2466,7 +2466,7 @@ async function * gen() {class C extends await { }}
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1053,
                                     "end": 1058
                                 },
@@ -2476,7 +2476,7 @@ async function * gen() {class C extends await { }}
                                 "end": 1058
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1051,
                             "end": 1059
                         }
@@ -2576,7 +2576,7 @@ async function * gen() {class C extends await { }}
                                         "end": 1092
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1087,
                                     "end": 1092
                                 },
@@ -2586,7 +2586,7 @@ async function * gen() {class C extends await { }}
                                 "end": 1092
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1085,
                             "end": 1093
                         }
@@ -2693,12 +2693,12 @@ async function * gen() {class C extends await { }}
                                     "end": 1126
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1119,
                                 "end": 1126
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1119,
                             "end": 1127
                         }
@@ -2803,12 +2803,12 @@ async function * gen() {class C extends await { }}
                                     "end": 1160
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1153,
                                 "end": 1160
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1153,
                             "end": 1161
                         }
@@ -2907,12 +2907,12 @@ async function * gen() {class C extends await { }}
                                     "end": 1194
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1187,
                                 "end": 1194
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1187,
                             "end": 1194
                         }
@@ -3013,7 +3013,7 @@ async function * gen() {class C extends await { }}
                                         "end": 1228
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1221,
                                     "end": 1228
                                 },
@@ -3023,7 +3023,7 @@ async function * gen() {class C extends await { }}
                                 "end": 1229
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1220,
                             "end": 1229
                         }
@@ -3145,22 +3145,22 @@ async function * gen() {class C extends await { }}
                                             "end": 1370
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1362,
                                         "end": 1370
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 1358,
                                     "end": 1370
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1353,
                                 "end": 1370
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1353,
                             "end": 1371
                         }
@@ -3245,7 +3245,7 @@ async function * gen() {class C extends await { }}
                                 "asteriskToken": null,
                                 "expression": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1397,
                                 "end": 1402
                             },
@@ -3268,7 +3268,7 @@ async function * gen() {class C extends await { }}
                                     "end": 1406
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1403,
                                 "end": 1406
                             },
@@ -3360,7 +3360,7 @@ async function * gen() {class C extends await { }}
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1432,
                                     "end": 1437
                                 },
@@ -3397,12 +3397,12 @@ async function * gen() {class C extends await { }}
                                     "end": 1445
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1432,
                                 "end": 1445
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1432,
                             "end": 1445
                         }
@@ -3494,12 +3494,12 @@ async function * gen() {class C extends await { }}
                                     "end": 1528
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1514,
                                 "end": 1528
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1514,
                             "end": 1528
                         },
@@ -3576,7 +3576,7 @@ async function * gen() {class C extends await { }}
                                                     "asteriskToken": null,
                                                     "expression": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 1554,
                                                     "end": 1560
                                                 },
@@ -3586,7 +3586,7 @@ async function * gen() {class C extends await { }}
                                                 "end": 1560
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 1553,
                                             "end": 1560
                                         }
@@ -3688,7 +3688,7 @@ async function * gen() {class C extends await { }}
                                                         "end": 1595
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 1587,
                                                     "end": 1595
                                                 },
@@ -3698,7 +3698,7 @@ async function * gen() {class C extends await { }}
                                                 "end": 1595
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 1586,
                                             "end": 1595
                                         }
@@ -3783,12 +3783,12 @@ async function * gen() {class C extends await { }}
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 1678,
                                                 "end": 1683
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 1678,
                                             "end": 1683
                                         }
@@ -3856,12 +3856,12 @@ async function * gen() {class C extends await { }}
                     "end": 1687
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 1684,
                 "end": 1687
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1684,
             "end": 1687
         },
@@ -3929,12 +3929,12 @@ async function * gen() {class C extends await { }}
                                 "asteriskToken": null,
                                 "expression": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1849,
                                 "end": 1854
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1849,
                             "end": 1854
                         }
@@ -3967,7 +3967,7 @@ async function * gen() {class C extends await { }}
                 "end": 1856
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1855,
             "end": 1856
         },
@@ -4006,7 +4006,7 @@ async function * gen() {class C extends await { }}
                                 "end": 1866
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1863,
                             "end": 1866
                         },
@@ -4090,12 +4090,12 @@ async function * gen() {class C extends await { }}
                                 "asteriskToken": null,
                                 "expression": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1893,
                                 "end": 1898
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1893,
                             "end": 1898
                         }
@@ -4128,7 +4128,7 @@ async function * gen() {class C extends await { }}
                 "end": 1914
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1913,
             "end": 1914
         },
@@ -4167,7 +4167,7 @@ async function * gen() {class C extends await { }}
                                 "end": 1925
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1922,
                             "end": 1925
                         },
@@ -4366,7 +4366,7 @@ async function * gen() {class C extends await { }}
                                                                     "end": 2089
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 2074,
                                                                 "end": 2089
                                                             }
@@ -4399,12 +4399,12 @@ async function * gen() {class C extends await { }}
                                     "end": 2091
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1952,
                                 "end": 2091
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1952,
                             "end": 2091
                         },
@@ -4526,7 +4526,7 @@ async function * gen() {class C extends await { }}
                                                             "end": 2134
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 2119,
                                                         "end": 2134
                                                     }
@@ -4710,7 +4710,7 @@ async function * gen() {class C extends await { }}
                                                             "end": 2187
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 2164,
                                                         "end": 2187
                                                     }
@@ -4894,7 +4894,7 @@ async function * gen() {class C extends await { }}
                                                             "end": 2240
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 2217,
                                                         "end": 2240
                                                     }
@@ -4997,7 +4997,7 @@ async function * gen() {class C extends await { }}
                                                                 "asteriskToken": null,
                                                                 "expression": null,
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 2268,
                                                                 "end": 2273
                                                             }
@@ -5052,7 +5052,7 @@ async function * gen() {class C extends await { }}
                                                 "end": 2281
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 2267,
                                             "end": 2282
                                         }
@@ -5150,7 +5150,7 @@ async function * gen() {class C extends await { }}
                                                                     "end": 2314
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 2309,
                                                                 "end": 2314
                                                             }
@@ -5205,7 +5205,7 @@ async function * gen() {class C extends await { }}
                                                 "end": 2322
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 2308,
                                             "end": 2323
                                         }
@@ -5311,7 +5311,7 @@ async function * gen() {class C extends await { }}
                                                                         "asteriskToken": null,
                                                                         "expression": null,
                                                                         "flags": 32,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 2353,
                                                                         "end": 2359
                                                                     },
@@ -5393,7 +5393,7 @@ async function * gen() {class C extends await { }}
                                                 "end": 2371
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 2349,
                                             "end": 2372
                                         }
@@ -5505,7 +5505,7 @@ async function * gen() {class C extends await { }}
                                                                             "end": 2408
                                                                         },
                                                                         "flags": 32,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 2402,
                                                                         "end": 2408
                                                                     },
@@ -5587,7 +5587,7 @@ async function * gen() {class C extends await { }}
                                                 "end": 2420
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 2398,
                                             "end": 2421
                                         }
@@ -5701,7 +5701,7 @@ async function * gen() {class C extends await { }}
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 2507,
                                                         "end": 2514
                                                     }
@@ -5728,7 +5728,7 @@ async function * gen() {class C extends await { }}
                                                 "end": 2517
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 2514,
                                             "end": 2517
                                         }
@@ -5795,7 +5795,7 @@ async function * gen() {class C extends await { }}
                 "end": 2525
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2520,
             "end": 2526
         },
@@ -5892,7 +5892,7 @@ async function * gen() {class C extends await { }}
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 2555,
                                         "end": 2562
                                     }
@@ -5919,7 +5919,7 @@ async function * gen() {class C extends await { }}
                                 "end": 2565
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 2562,
                             "end": 2565
                         }
@@ -5969,7 +5969,7 @@ async function * gen() {class C extends await { }}
                 "end": 2573
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2568,
             "end": 2574
         },
@@ -6151,7 +6151,7 @@ async function * gen() {class C extends await { }}
                                             "end": 2629
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 2603,
                                         "end": 2629
                                     }
@@ -6361,7 +6361,7 @@ async function * gen() {class C extends await { }}
                                             "end": 2685
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 2659,
                                         "end": 2685
                                     }
@@ -6472,7 +6472,7 @@ async function * gen() {class C extends await { }}
                                                     "end": 2721
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 2713,
                                                 "end": 2721
                                             }
@@ -6527,7 +6527,7 @@ async function * gen() {class C extends await { }}
                                 "end": 2729
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 2712,
                             "end": 2730
                         }
@@ -6625,7 +6625,7 @@ async function * gen() {class C extends await { }}
                                                     "end": 2765
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 2757,
                                                 "end": 2765
                                             }
@@ -6680,7 +6680,7 @@ async function * gen() {class C extends await { }}
                                 "end": 2773
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 2756,
                             "end": 2774
                         }
@@ -6794,7 +6794,7 @@ async function * gen() {class C extends await { }}
                                                             "end": 2813
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 2804,
                                                         "end": 2813
                                                     },
@@ -6876,7 +6876,7 @@ async function * gen() {class C extends await { }}
                                 "end": 2825
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 2800,
                             "end": 2826
                         }
@@ -6988,7 +6988,7 @@ async function * gen() {class C extends await { }}
                                                             "end": 2865
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 2856,
                                                         "end": 2865
                                                     },
@@ -7070,7 +7070,7 @@ async function * gen() {class C extends await { }}
                                 "end": 2877
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 2852,
                             "end": 2878
                         }
@@ -7170,7 +7170,7 @@ async function * gen() {class C extends await { }}
                                     "end": 2918
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 2909,
                                 "end": 2918
                             },
@@ -7303,7 +7303,7 @@ async function * gen() {class C extends await { }}
                                     "end": 2966
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 2957,
                                 "end": 2966
                             },
@@ -7439,7 +7439,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3014
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 3005,
                                 "end": 3014
                             },
@@ -7573,7 +7573,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3062
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 3053,
                                 "end": 3062
                             },
@@ -7708,7 +7708,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3110
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 3101,
                                 "end": 3110
                             },
@@ -7761,7 +7761,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3122
                                 },
                                 "flags": 48,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 3113,
                                 "end": 3122
                             },
@@ -7871,7 +7871,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3164
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 3155,
                                 "end": 3164
                             },
@@ -7924,7 +7924,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3176
                                 },
                                 "flags": 48,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 3167,
                                 "end": 3176
                             },
@@ -8036,7 +8036,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3218
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 3209,
                                 "end": 3218
                             },
@@ -8075,7 +8075,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3227
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 3224,
                                 "end": 3227
                             },
@@ -8200,7 +8200,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3272
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 3263,
                                 "end": 3272
                             },
@@ -8239,7 +8239,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3281
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 3278,
                                 "end": 3281
                             },
@@ -8396,7 +8396,7 @@ async function * gen() {class C extends await { }}
                                             "end": 3337
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 3327,
                                         "end": 3337
                                     },
@@ -8548,7 +8548,7 @@ async function * gen() {class C extends await { }}
                                             "end": 3388
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 3378,
                                         "end": 3388
                                     },

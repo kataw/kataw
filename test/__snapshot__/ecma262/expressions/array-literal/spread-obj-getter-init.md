@@ -116,7 +116,7 @@ var callCount = 0;
                             "end": 20
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }
@@ -163,7 +163,7 @@ var callCount = 0;
                             "end": 48
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 25,
                         "end": 48
                     }
@@ -213,7 +213,7 @@ var callCount = 0;
                             "end": 69
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 55,
                         "end": 69
                     }
@@ -449,7 +449,7 @@ var callCount = 0;
                 "end": 125
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 70,
             "end": 126
         }

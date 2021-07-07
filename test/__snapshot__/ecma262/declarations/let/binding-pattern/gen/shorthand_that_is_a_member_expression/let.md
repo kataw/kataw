@@ -65,7 +65,7 @@ let {a.b} = v
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 6
                     }
@@ -92,7 +92,7 @@ let {a.b} = v
                 "end": 8
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 7,
             "end": 8
         },
@@ -108,7 +108,7 @@ let {a.b} = v
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 11,
             "end": 13
         }

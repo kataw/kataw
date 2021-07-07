@@ -72,12 +72,12 @@ a
                     "end": 45
                 },
                 "flags": 67108961,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 45
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 45
         }

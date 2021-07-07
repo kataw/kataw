@@ -68,7 +68,7 @@ const array = [
                             "end": 63
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 63
                     }

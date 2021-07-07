@@ -148,7 +148,7 @@ async <T>(fn: () => T) => fn;
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 10,
                             "end": 21
                         }
@@ -182,7 +182,7 @@ async <T>(fn: () => T) => fn;
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }

@@ -168,12 +168,12 @@ function * gen() { function not_gen() { function* gf() { yield 'foo' } }}
                                                                     "end": 68
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 56,
                                                                 "end": 68
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 56,
                                                             "end": 68
                                                         }

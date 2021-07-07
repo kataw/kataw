@@ -479,7 +479,7 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 112,
                                             "end": 125
                                         }
@@ -621,7 +621,7 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 159,
                                             "end": 172
                                         }
@@ -1316,7 +1316,7 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 387,
                                             "end": 408
                                         }

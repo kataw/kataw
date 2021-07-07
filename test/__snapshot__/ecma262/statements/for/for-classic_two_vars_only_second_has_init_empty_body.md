@@ -50,7 +50,7 @@ for (var a, b=1;;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         },
@@ -76,7 +76,7 @@ for (var a, b=1;;);
                                 "end": 15
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 11,
                             "end": 15
                         }

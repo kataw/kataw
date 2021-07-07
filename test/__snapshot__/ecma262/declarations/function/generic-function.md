@@ -124,7 +124,7 @@ function from<T>(arg: any): Query<T> {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 25,
                         "end": 37
                     }
@@ -307,7 +307,7 @@ function from<T>(arg: any): Query<T> {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 67,
                         "end": 75
                     }

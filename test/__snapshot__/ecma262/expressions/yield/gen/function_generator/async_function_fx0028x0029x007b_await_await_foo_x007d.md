@@ -175,17 +175,17 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                                                         "end": 75
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 65,
                                                                     "end": 75
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 59,
                                                                 "end": 75
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 59,
                                                             "end": 76
                                                         }

@@ -49,7 +49,7 @@ new it(/* comment */)
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         },
@@ -83,12 +83,12 @@ new it(/* comment */)
                     "end": 35
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 22,
                 "end": 49
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 49
         },
@@ -120,7 +120,7 @@ new it(/* comment */)
                 "end": 71
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 49,
             "end": 71
         },
@@ -154,12 +154,12 @@ new it(/* comment */)
                     "end": 83
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 71,
                 "end": 97
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 71,
             "end": 97
         },
@@ -191,7 +191,7 @@ new it(/* comment */)
                 "end": 115
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 97,
             "end": 115
         },
@@ -225,12 +225,12 @@ new it(/* comment */)
                     "end": 123
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 115,
                 "end": 137
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 115,
             "end": 137
         }

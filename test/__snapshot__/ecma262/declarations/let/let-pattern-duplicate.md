@@ -138,7 +138,7 @@ let x = a; let x = b;
                             "end": 24
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
@@ -261,7 +261,7 @@ let x = a; let x = b;
                             "end": 53
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 30,
                         "end": 53
                     }
@@ -370,7 +370,7 @@ let x = a; let x = b;
                             "end": 78
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 59,
                         "end": 78
                     }
@@ -479,7 +479,7 @@ let x = a; let x = b;
                             "end": 103
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 84,
                         "end": 103
                     }
@@ -554,7 +554,7 @@ let x = a; let x = b;
                             "end": 122
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 109,
                         "end": 122
                     }
@@ -697,7 +697,7 @@ let x = a; let x = b;
                             "end": 152
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 128,
                         "end": 152
                     }
@@ -738,7 +738,7 @@ let x = a; let x = b;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 158,
                         "end": 160
                     },
@@ -832,7 +832,7 @@ let x = a; let x = b;
                             "end": 179
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 161,
                         "end": 179
                     }
@@ -873,7 +873,7 @@ let x = a; let x = b;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 185,
                         "end": 187
                     },
@@ -950,7 +950,7 @@ let x = a; let x = b;
                             "end": 203
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 188,
                         "end": 203
                     }
@@ -1032,7 +1032,7 @@ let x = a; let x = b;
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 216,
                                         "end": 220
                                     },
@@ -1102,7 +1102,7 @@ let x = a; let x = b;
                             "end": 230
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 209,
                         "end": 230
                     }
@@ -1184,7 +1184,7 @@ let x = a; let x = b;
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 243,
                                         "end": 248
                                     }
@@ -1211,7 +1211,7 @@ let x = a; let x = b;
                             "end": 255
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 236,
                         "end": 255
                     }
@@ -1252,7 +1252,7 @@ let x = a; let x = b;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 261,
                         "end": 263
                     },
@@ -1295,7 +1295,7 @@ let x = a; let x = b;
                             "end": 274
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 264,
                         "end": 274
                     }
@@ -1344,7 +1344,7 @@ let x = a; let x = b;
                             "end": 286
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 280,
                         "end": 286
                     }
@@ -1393,7 +1393,7 @@ let x = a; let x = b;
                             "end": 297
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 291,
                         "end": 297
                     }

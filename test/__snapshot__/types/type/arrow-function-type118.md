@@ -217,7 +217,7 @@ type a = (&1,|2&3, ['string']) => T;
                 "end": 35
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 33,
             "end": 36
         }

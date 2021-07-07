@@ -228,7 +228,7 @@ let a: ([-1] | x | q & (x)) => T;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 32
                     }

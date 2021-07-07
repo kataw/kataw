@@ -100,7 +100,7 @@ function *f(){ return [...yield]; }
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 26,
                                                 "end": 31
                                             },

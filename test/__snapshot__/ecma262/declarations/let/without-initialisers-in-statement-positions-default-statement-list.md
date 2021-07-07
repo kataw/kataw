@@ -77,7 +77,7 @@ switch (true) { default: let x; }
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 28,
                                             "end": 30
                                         }

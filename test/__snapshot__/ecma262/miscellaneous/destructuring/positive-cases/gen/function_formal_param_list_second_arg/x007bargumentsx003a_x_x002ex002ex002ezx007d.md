@@ -109,7 +109,7 @@ function f(argument1, {arguments: x, ...z}) {}
                                     "type": null,
                                     "right": null,
                                     "flags": 0,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 36,
                                     "end": 41
                                 }

@@ -77,12 +77,12 @@ for (a + b in x) ;
                         "end": 15
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 10,
                     "end": 15
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 15
             },

@@ -104,7 +104,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -122,7 +122,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -140,7 +140,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     },
@@ -158,7 +158,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 12,
                         "end": 14
                     },
@@ -176,7 +176,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 15,
                         "end": 17
                     },
@@ -194,7 +194,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 18,
                         "end": 20
                     },
@@ -212,7 +212,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 21,
                         "end": 23
                     },
@@ -230,7 +230,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 24,
                         "end": 26
                     },
@@ -248,7 +248,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 27,
                         "end": 29
                     },
@@ -266,7 +266,7 @@ g = b + -+-a++;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 30,
                         "end": 32
                     }
@@ -365,17 +365,17 @@ g = b + -+-a++;
                                 "end": 57
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 53,
                             "end": 57
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 43,
                         "end": 57
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 37,
                     "end": 57
                 },
@@ -385,7 +385,7 @@ g = b + -+-a++;
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 33,
             "end": 58
         },
@@ -441,7 +441,7 @@ g = b + -+-a++;
                                 "end": 69
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 64,
                             "end": 69
                         },
@@ -485,12 +485,12 @@ g = b + -+-a++;
                             "end": 83
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 79,
                         "end": 83
                     },
                     "flags": 62,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 62,
                     "end": 83
                 },
@@ -500,7 +500,7 @@ g = b + -+-a++;
                 "end": 83
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 58,
             "end": 84
         },
@@ -556,7 +556,7 @@ g = b + -+-a++;
                                 "end": 95
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 90,
                             "end": 95
                         },
@@ -602,7 +602,7 @@ g = b + -+-a++;
                                 "end": 105
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 100,
                             "end": 105
                         },
@@ -612,7 +612,7 @@ g = b + -+-a++;
                         "end": 106
                     },
                     "flags": 120,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 88,
                     "end": 106
                 },
@@ -622,7 +622,7 @@ g = b + -+-a++;
                 "end": 106
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 84,
             "end": 107
         },
@@ -692,12 +692,12 @@ g = b + -+-a++;
                             "end": 131
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 117,
                         "end": 131
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 111,
                     "end": 131
                 },
@@ -707,7 +707,7 @@ g = b + -+-a++;
                 "end": 131
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 107,
             "end": 132
         },
@@ -763,7 +763,7 @@ g = b + -+-a++;
                                 "end": 143
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 136,
                             "end": 143
                         },
@@ -789,7 +789,7 @@ g = b + -+-a++;
                         "end": 148
                     },
                     "flags": 168,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 136,
                     "end": 148
                 },
@@ -799,7 +799,7 @@ g = b + -+-a++;
                 "end": 148
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 132,
             "end": 149
         },
@@ -873,7 +873,7 @@ g = b + -+-a++;
                                     "end": 166
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 161,
                                 "end": 166
                             },
@@ -883,7 +883,7 @@ g = b + -+-a++;
                             "end": 167
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 153,
                         "end": 167
                     },
@@ -904,7 +904,7 @@ g = b + -+-a++;
                         "end": 178
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 153,
                     "end": 178
                 },
@@ -914,7 +914,7 @@ g = b + -+-a++;
                 "end": 178
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 149,
             "end": 179
         },
@@ -988,7 +988,7 @@ g = b + -+-a++;
                                     "end": 196
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 191,
                                 "end": 196
                             },
@@ -998,7 +998,7 @@ g = b + -+-a++;
                             "end": 197
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 183,
                         "end": 197
                     },
@@ -1019,7 +1019,7 @@ g = b + -+-a++;
                         "end": 203
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 183,
                     "end": 203
                 },
@@ -1029,7 +1029,7 @@ g = b + -+-a++;
                 "end": 203
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 179,
             "end": 204
         },
@@ -1093,12 +1093,12 @@ g = b + -+-a++;
                             "end": 240
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 232,
                         "end": 240
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 208,
                     "end": 240
                 },
@@ -1108,7 +1108,7 @@ g = b + -+-a++;
                 "end": 240
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 204,
             "end": 241
         },
@@ -1162,7 +1162,7 @@ g = b + -+-a++;
                             "end": 252
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 245,
                         "end": 252
                     },
@@ -1201,12 +1201,12 @@ g = b + -+-a++;
                             "end": 262
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 257,
                         "end": 262
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 245,
                     "end": 262
                 },
@@ -1216,7 +1216,7 @@ g = b + -+-a++;
                 "end": 262
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 241,
             "end": 263
         },
@@ -1270,7 +1270,7 @@ g = b + -+-a++;
                             "end": 282
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 267,
                         "end": 282
                     },
@@ -1309,12 +1309,12 @@ g = b + -+-a++;
                             "end": 300
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 287,
                         "end": 300
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 267,
                     "end": 300
                 },
@@ -1324,7 +1324,7 @@ g = b + -+-a++;
                 "end": 300
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 263,
             "end": 301
         },
@@ -1378,7 +1378,7 @@ g = b + -+-a++;
                             "end": 312
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 305,
                         "end": 312
                     },
@@ -1417,12 +1417,12 @@ g = b + -+-a++;
                             "end": 322
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 317,
                         "end": 322
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 305,
                     "end": 322
                 },
@@ -1432,7 +1432,7 @@ g = b + -+-a++;
                 "end": 322
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 301,
             "end": 323
         },
@@ -1483,7 +1483,7 @@ g = b + -+-a++;
                 "end": 334
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 323,
             "end": 335
         },
@@ -1549,7 +1549,7 @@ g = b + -+-a++;
                         "end": 365
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 344,
                     "end": 365
                 },
@@ -1559,7 +1559,7 @@ g = b + -+-a++;
                 "end": 365
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 335,
             "end": 366
         },
@@ -1622,7 +1622,7 @@ g = b + -+-a++;
                                 "end": 398
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 372,
                             "end": 398
                         },
@@ -1642,7 +1642,7 @@ g = b + -+-a++;
                 "end": 399
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 366,
             "end": 400
         },
@@ -1708,7 +1708,7 @@ g = b + -+-a++;
                         "end": 427
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 404,
                     "end": 427
                 },
@@ -1718,7 +1718,7 @@ g = b + -+-a++;
                 "end": 427
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 400,
             "end": 428
         },
@@ -1798,7 +1798,7 @@ g = b + -+-a++;
                         "end": 456
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 432,
                     "end": 456
                 },
@@ -1808,7 +1808,7 @@ g = b + -+-a++;
                 "end": 456
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 428,
             "end": 457
         },
@@ -1885,7 +1885,7 @@ g = b + -+-a++;
                                 "end": 486
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 464,
                             "end": 486
                         },
@@ -1905,7 +1905,7 @@ g = b + -+-a++;
                 "end": 487
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 457,
             "end": 488
         },
@@ -1998,7 +1998,7 @@ g = b + -+-a++;
                 "end": 522
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 488,
             "end": 523
         },
@@ -2076,7 +2076,7 @@ g = b + -+-a++;
                 "end": 544
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 523,
             "end": 545
         },
@@ -2132,7 +2132,7 @@ g = b + -+-a++;
                                 "end": 562
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 2048,
                             "start": 549,
                             "end": 569
                         },
@@ -2170,7 +2170,7 @@ g = b + -+-a++;
                 "end": 580
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 545,
             "end": 581
         },
@@ -2222,7 +2222,7 @@ g = b + -+-a++;
                                     },
                                     "argumentList": null,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 2048,
                                     "start": 585,
                                     "end": 591
                                 },
@@ -2288,7 +2288,7 @@ g = b + -+-a++;
                 "end": 606
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 581,
             "end": 607
         },
@@ -2340,7 +2340,7 @@ g = b + -+-a++;
                                     },
                                     "argumentList": null,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 2048,
                                     "start": 611,
                                     "end": 617
                                 },
@@ -2406,7 +2406,7 @@ g = b + -+-a++;
                 "end": 631
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 607,
             "end": 632
         },
@@ -2493,7 +2493,7 @@ g = b + -+-a++;
                             "end": 662
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 636,
                         "end": 662
                     }
@@ -2558,7 +2558,7 @@ g = b + -+-a++;
                             "end": 674
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 667,
                         "end": 674
                     },
@@ -2579,7 +2579,7 @@ g = b + -+-a++;
                         "end": 684
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 667,
                     "end": 684
                 },
@@ -2589,7 +2589,7 @@ g = b + -+-a++;
                 "end": 684
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 663,
             "end": 685
         },
@@ -2645,7 +2645,7 @@ g = b + -+-a++;
                                 "end": 697
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 689,
                             "end": 697
                         },
@@ -2671,7 +2671,7 @@ g = b + -+-a++;
                         "end": 703
                     },
                     "flags": 689,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 689,
                     "end": 703
                 },
@@ -2681,7 +2681,7 @@ g = b + -+-a++;
                 "end": 703
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 685,
             "end": 704
         },
@@ -2751,12 +2751,12 @@ g = b + -+-a++;
                             "end": 720
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 715,
                         "end": 720
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 708,
                     "end": 720
                 },
@@ -2766,7 +2766,7 @@ g = b + -+-a++;
                 "end": 720
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 704,
             "end": 721
         },
@@ -2839,7 +2839,7 @@ g = b + -+-a++;
                         "end": 735
                     },
                     "flags": 757,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 725,
                     "end": 735
                 },
@@ -2849,7 +2849,7 @@ g = b + -+-a++;
                 "end": 735
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 721,
             "end": 736
         },
@@ -2915,7 +2915,7 @@ g = b + -+-a++;
                         "end": 748
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 740,
                     "end": 748
                 },
@@ -2925,7 +2925,7 @@ g = b + -+-a++;
                 "end": 748
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 736,
             "end": 749
         },
@@ -3007,7 +3007,7 @@ g = b + -+-a++;
                         "end": 765
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 753,
                     "end": 765
                 },
@@ -3017,7 +3017,7 @@ g = b + -+-a++;
                 "end": 765
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 749,
             "end": 766
         },
@@ -3109,7 +3109,7 @@ g = b + -+-a++;
                         "end": 786
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 770,
                     "end": 786
                 },
@@ -3119,7 +3119,7 @@ g = b + -+-a++;
                 "end": 786
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 766,
             "end": 787
         },
@@ -3211,7 +3211,7 @@ g = b + -+-a++;
                         "end": 807
                     },
                     "flags": 823,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 791,
                     "end": 807
                 },
@@ -3221,7 +3221,7 @@ g = b + -+-a++;
                 "end": 807
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 787,
             "end": 808
         },
@@ -3313,7 +3313,7 @@ g = b + -+-a++;
                 "end": 834
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 808,
             "end": 835
         },
@@ -3399,7 +3399,7 @@ g = b + -+-a++;
                                                 "end": 853
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 848,
                                             "end": 853
                                         },
@@ -3435,7 +3435,7 @@ g = b + -+-a++;
                 "end": 855
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 835,
             "end": 856
         },
@@ -3502,7 +3502,7 @@ g = b + -+-a++;
                 "end": 872
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 856,
             "end": 873
         },
@@ -3583,7 +3583,7 @@ g = b + -+-a++;
                 "end": 885
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 873,
             "end": 886
         },
@@ -3664,7 +3664,7 @@ g = b + -+-a++;
                 "end": 898
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 886,
             "end": 899
         },
@@ -3731,7 +3731,7 @@ g = b + -+-a++;
                 "end": 913
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 899,
             "end": 914
         },
@@ -3840,7 +3840,7 @@ g = b + -+-a++;
                 "end": 925
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 914,
             "end": 926
         },
@@ -3935,7 +3935,7 @@ g = b + -+-a++;
                 "end": 937
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 926,
             "end": 938
         },
@@ -4043,7 +4043,7 @@ g = b + -+-a++;
                         "end": 953
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 942,
                     "end": 953
                 },
@@ -4053,7 +4053,7 @@ g = b + -+-a++;
                 "end": 953
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 938,
             "end": 954
         },
@@ -4124,7 +4124,7 @@ g = b + -+-a++;
                                                 "end": 992
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 976,
                                             "end": 992
                                         },
@@ -4145,12 +4145,12 @@ g = b + -+-a++;
                                             "end": 996
                                         },
                                         "flags": 32,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 976,
                                         "end": 996
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 976,
                                     "end": 997
                                 },
@@ -4177,7 +4177,7 @@ g = b + -+-a++;
                                                 "end": 1007
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 997,
                                             "end": 1007
                                         },
@@ -4207,17 +4207,17 @@ g = b + -+-a++;
                                                 "end": 1017
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 1009,
                                             "end": 1017
                                         },
                                         "flags": 32,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 997,
                                         "end": 1017
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 997,
                                     "end": 1018
                                 },
@@ -4272,12 +4272,12 @@ g = b + -+-a++;
                                             "end": 1040
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1018,
                                         "end": 1040
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1018,
                                     "end": 1041
                                 },
@@ -4322,7 +4322,7 @@ g = b + -+-a++;
                                                     "end": 1060
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 1045,
                                                 "end": 1060
                                             },
@@ -4346,7 +4346,7 @@ g = b + -+-a++;
                                         "end": 1063
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1041,
                                     "end": 1064
                                 },
@@ -4403,12 +4403,12 @@ g = b + -+-a++;
                                             "end": 1084
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1064,
                                         "end": 1084
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1064,
                                     "end": 1085
                                 },
@@ -4435,12 +4435,12 @@ g = b + -+-a++;
                                             "end": 1095
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1085,
                                         "end": 1095
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1085,
                                     "end": 1096
                                 },
@@ -4485,17 +4485,17 @@ g = b + -+-a++;
                                                 "end": 1116
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 1110,
                                             "end": 1116
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1096,
                                         "end": 1116
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1096,
                                     "end": 1117
                                 },
@@ -4526,7 +4526,7 @@ g = b + -+-a++;
                                                     "end": 1128
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 1121,
                                                 "end": 1128
                                             },
@@ -4565,7 +4565,7 @@ g = b + -+-a++;
                                                     "end": 1146
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 1139,
                                                 "end": 1146
                                             },
@@ -4575,12 +4575,12 @@ g = b + -+-a++;
                                             "end": 1147
                                         },
                                         "flags": 1149,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 1117,
                                         "end": 1147
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1117,
                                     "end": 1148
                                 },
@@ -4630,12 +4630,12 @@ g = b + -+-a++;
                                             "end": 1162
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1148,
                                         "end": 1162
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1148,
                                     "end": 1163
                                 },
@@ -4684,12 +4684,12 @@ g = b + -+-a++;
                                                         "end": 1183
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 1175,
                                                     "end": 1183
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 128,
+                                                "transformFlags": 4224,
                                                 "start": 1171,
                                                 "end": 1183
                                             }
@@ -4727,7 +4727,7 @@ g = b + -+-a++;
                 "end": 1187
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 954,
             "end": 1188
         },
@@ -4803,7 +4803,7 @@ g = b + -+-a++;
                                                     "end": 1216
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 1209,
                                                 "end": 1216
                                             },
@@ -4818,7 +4818,7 @@ g = b + -+-a++;
                                         "end": 1217
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1204,
                                     "end": 1218
                                 }
@@ -4845,7 +4845,7 @@ g = b + -+-a++;
                 "end": 1221
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1188,
             "end": 1222
         },
@@ -4915,7 +4915,7 @@ g = b + -+-a++;
                 "end": 1240
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1222,
             "end": 1241
         },
@@ -5005,12 +5005,12 @@ g = b + -+-a++;
                     "end": 1260
                 },
                 "flags": 1273,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 1241,
                 "end": 1260
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1241,
             "end": 1261
         },
@@ -5074,12 +5074,12 @@ g = b + -+-a++;
                     "end": 1292
                 },
                 "flags": 1261,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 1261,
                 "end": 1292
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1261,
             "end": 1293
         },
@@ -5147,7 +5147,7 @@ g = b + -+-a++;
                             "end": 1307
                         },
                         "flags": 1327,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 1295,
                         "end": 1307
                     },
@@ -5189,12 +5189,12 @@ g = b + -+-a++;
                     "end": 1316
                 },
                 "flags": 1325,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 1293,
                 "end": 1316
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1293,
             "end": 1317
         },
@@ -5286,12 +5286,12 @@ g = b + -+-a++;
                     "end": 1354
                 },
                 "flags": 1317,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 1317,
                 "end": 1354
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1317,
             "end": 1355
         },
@@ -5372,12 +5372,12 @@ g = b + -+-a++;
                     "end": 1380
                 },
                 "flags": 1387,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 1355,
                 "end": 1380
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1355,
             "end": 1381
         }

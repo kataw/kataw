@@ -51,7 +51,7 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                                 "end": 7
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 0,
                             "end": 7
                         },
@@ -72,7 +72,7 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                             "end": 13
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 0,
                         "end": 13
                     },
@@ -115,7 +115,7 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                                     "end": 24
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 18,
                                 "end": 24
                             },
@@ -136,7 +136,7 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                                 "end": 29
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 18,
                             "end": 29
                         },
@@ -157,12 +157,12 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                             "end": 34
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 18,
                         "end": 34
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 34
                 },
@@ -221,7 +221,7 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                                 "end": 51
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 46,
                             "end": 51
                         },
@@ -260,27 +260,27 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                                 "end": 62
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 57,
                             "end": 62
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 46,
                         "end": 62
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 40,
                     "end": 62
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 62
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 62
         }

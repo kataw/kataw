@@ -249,7 +249,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                             "end": 56
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 56
                     }
@@ -489,7 +489,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                             "end": 117
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 63,
                         "end": 117
                     }

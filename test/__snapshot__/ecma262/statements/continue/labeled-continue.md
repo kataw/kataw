@@ -57,7 +57,7 @@ label: for (let x = 0; x < 10;) {
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
@@ -133,7 +133,7 @@ label: for (let x = 0; x < 10;) {
                                     "end": 36
                                 },
                                 "flags": 16,
-                                "transformFlags": 128,
+                                "transformFlags": 4224,
                                 "start": 30,
                                 "end": 36
                             }
@@ -177,7 +177,7 @@ label: for (let x = 0; x < 10;) {
                         "end": 44
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 37,
                     "end": 44
                 },
@@ -233,7 +233,7 @@ label: for (let x = 0; x < 10;) {
                                                     "end": 73
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 65,
                                                 "end": 74
                                             },
@@ -263,7 +263,7 @@ label: for (let x = 0; x < 10;) {
                                                     "end": 86
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 74,
                                                 "end": 87
                                             },
@@ -346,7 +346,7 @@ label:  for (let x = 0; ; x  < 10) {
     while (true) {
         x++;
         count++;
-        continue  label;
+        continue label;
       }
   }
 

@@ -52,7 +52,7 @@ var _𐒦 = 10;
                             "end": 12
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 12
                     }
@@ -102,7 +102,7 @@ var _𐒦 = 10;
                             "end": 27
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 18,
                         "end": 27
                     }

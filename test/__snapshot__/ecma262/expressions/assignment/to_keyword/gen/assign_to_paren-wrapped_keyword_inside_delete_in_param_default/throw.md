@@ -111,7 +111,7 @@ async (x = delete ((throw) = f)) => {}
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         },
@@ -150,7 +150,7 @@ async (x = delete ((throw) = f)) => {}
                 "end": 30
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 28,
             "end": 30
         },

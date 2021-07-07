@@ -95,7 +95,7 @@ for (/foo/.x in c) d;
                     "end": 20
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 18,
                 "end": 21
             },

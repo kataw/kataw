@@ -96,7 +96,7 @@ var a = b ? (c + e) : d => c+e;
                                         "end": 18
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 11,
                                     "end": 18
                                 },
@@ -161,7 +161,7 @@ var a = b ? (c + e) : d => c+e;
                                         "end": 30
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 26,
                                     "end": 30
                                 },
@@ -171,12 +171,12 @@ var a = b ? (c + e) : d => c+e;
                                 "end": 30
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 30
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 30
                     }

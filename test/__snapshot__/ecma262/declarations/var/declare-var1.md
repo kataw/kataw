@@ -56,7 +56,7 @@ declare var foo;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 11,
                         "end": 15
                     }

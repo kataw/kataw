@@ -50,7 +50,7 @@ var foo = 1; let foo = 1;
                             "end": 11
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
@@ -99,7 +99,7 @@ var foo = 1; let foo = 1;
                             "end": 24
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 16,
                         "end": 24
                     }

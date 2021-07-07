@@ -662,7 +662,7 @@ class C { f(){ this.#a } #a; }
                                                     "end": 142
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 134,
                                                 "end": 142
                                             }
@@ -793,7 +793,7 @@ class C { f(){ this.#a } #a; }
                                                     "end": 170
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 162,
                                                 "end": 170
                                             }

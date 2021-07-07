@@ -191,7 +191,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                 "end": 44
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 45
         }

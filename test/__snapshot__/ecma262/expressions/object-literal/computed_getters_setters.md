@@ -214,7 +214,7 @@ var f = {
                                                         },
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 55,
                                                         "end": 64
                                                     }
@@ -310,7 +310,7 @@ var f = {
                                                         },
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 92,
                                                         "end": 101
                                                     }
@@ -460,7 +460,7 @@ var f = {
                             "end": 156
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 156
                     }

@@ -165,7 +165,7 @@ type T = { [string]: Class<null> }
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 29,
                                             "end": 37
                                         }
@@ -342,7 +342,7 @@ type T = { [string]: Class<null> }
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 64,
                         "end": 75
                     }
@@ -396,7 +396,7 @@ type T = { [string]: Class<null> }
                                     "end": 97
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 2048,
                                 "start": 90,
                                 "end": 98
                             },
@@ -529,7 +529,7 @@ type T = { [string]: Class<null> }
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 133,
                                             "end": 139
                                         }
@@ -688,7 +688,7 @@ type T = { [string]: Class<null> }
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 174,
                                             "end": 182
                                         }

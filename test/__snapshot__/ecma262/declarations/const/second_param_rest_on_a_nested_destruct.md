@@ -110,7 +110,7 @@ const [x, ...[foo, bar]] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 9,
                                         "end": 23
                                     }
@@ -137,7 +137,7 @@ const [x, ...[foo, bar]] = obj;
                             "end": 30
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 30
                     }

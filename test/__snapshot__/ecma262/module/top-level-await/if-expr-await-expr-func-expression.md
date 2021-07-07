@@ -84,7 +84,7 @@ if (await function() {}) {}
                     "end": 23
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 4,
                 "end": 23
             },

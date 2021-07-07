@@ -165,7 +165,7 @@ module.exports = {
                             "end": 58
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 58
                     }
@@ -300,7 +300,7 @@ module.exports = {
                             "end": 138
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 66,
                         "end": 138
                     }
@@ -552,7 +552,7 @@ module.exports = {
                             "end": 276
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 146,
                         "end": 276
                     }
@@ -705,7 +705,7 @@ module.exports = {
                 "end": 342
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 276,
             "end": 343
         }

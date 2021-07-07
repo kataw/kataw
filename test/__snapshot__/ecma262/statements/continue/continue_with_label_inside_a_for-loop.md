@@ -93,7 +93,7 @@ foo: for (;;) continue foo
 
 ```javascript
 foo:  for (;;)
-  continue  foo;
+  continue foo;
 ```
 
 ### Diagnostics

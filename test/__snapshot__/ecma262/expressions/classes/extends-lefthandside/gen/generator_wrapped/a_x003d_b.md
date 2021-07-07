@@ -161,7 +161,7 @@ function *P(){
                 "end": 38
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 36,
             "end": 38
         },

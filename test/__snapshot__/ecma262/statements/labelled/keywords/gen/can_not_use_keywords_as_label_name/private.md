@@ -52,7 +52,7 @@ private: x
                     "end": 10
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 10
             },

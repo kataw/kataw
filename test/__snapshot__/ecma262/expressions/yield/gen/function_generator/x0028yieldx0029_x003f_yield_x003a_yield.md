@@ -155,12 +155,12 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
                                                     "end": 63
                                                 },
                                                 "flags": 39,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 39,
                                                 "end": 63
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 39,
                                             "end": 63
                                         }

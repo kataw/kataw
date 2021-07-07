@@ -156,7 +156,7 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                             "end": 58
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 58
                     }

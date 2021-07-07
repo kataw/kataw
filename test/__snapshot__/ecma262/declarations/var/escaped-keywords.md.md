@@ -77,7 +77,7 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
                 "end": 41
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 37,
             "end": 42
         }

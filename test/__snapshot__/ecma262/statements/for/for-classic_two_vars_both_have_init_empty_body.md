@@ -66,7 +66,7 @@ for (var a=1, b=2;;);
                                 "end": 12
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 12
                         },
@@ -92,7 +92,7 @@ for (var a=1, b=2;;);
                                 "end": 17
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 13,
                             "end": 17
                         }

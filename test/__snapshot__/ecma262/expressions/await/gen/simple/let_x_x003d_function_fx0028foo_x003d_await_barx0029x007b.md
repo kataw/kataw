@@ -94,7 +94,7 @@ let x = function f(foo = await bar){
                                             "end": 30
                                         },
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 19,
                                         "end": 30
                                     },
@@ -137,7 +137,7 @@ let x = function f(foo = await bar){
                             "end": 36
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 36
                     }

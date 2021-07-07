@@ -263,7 +263,7 @@ class C extends B {
                                                 "end": 85
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 60,
                                             "end": 86
                                         }

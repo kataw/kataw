@@ -76,7 +76,7 @@ for (const ...x in y){}
                     "end": 10
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 10,
                 "end": 10
             },
@@ -115,12 +115,12 @@ for (const ...x in y){}
                     "end": 20
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 14,
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 20
         },

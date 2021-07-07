@@ -67,7 +67,7 @@ function test({...{}}) {}
                                     "type": null,
                                     "right": null,
                                     "flags": 0,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 15,
                                     "end": 18
                                 },

@@ -67,7 +67,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "end": 10
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 10
                                     },
@@ -204,7 +204,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                             "end": 31
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 31
                     }

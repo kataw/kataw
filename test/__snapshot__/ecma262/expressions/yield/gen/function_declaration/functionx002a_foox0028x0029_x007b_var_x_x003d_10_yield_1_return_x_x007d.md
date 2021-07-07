@@ -137,7 +137,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                             "end": 49
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 42,
                                                         "end": 49
                                                     }
@@ -175,12 +175,12 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                     "end": 58
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 50,
                                                 "end": 58
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 50,
                                             "end": 59
                                         },

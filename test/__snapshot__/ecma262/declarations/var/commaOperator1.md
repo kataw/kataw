@@ -164,7 +164,7 @@ function f1() {
                             "end": 34
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 34
                     }
@@ -251,7 +251,7 @@ function f1() {
                                             "end": 65
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 59,
                                         "end": 65
                                     }

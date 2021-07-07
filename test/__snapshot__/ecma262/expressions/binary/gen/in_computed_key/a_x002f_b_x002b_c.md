@@ -82,7 +82,7 @@ x = {[ a / b + c ]: y}
                                                 "end": 12
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 6,
                                             "end": 12
                                         },
@@ -103,7 +103,7 @@ x = {[ a / b + c ]: y}
                                             "end": 16
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 6,
                                         "end": 16
                                     },
@@ -144,7 +144,7 @@ x = {[ a / b + c ]: y}
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }

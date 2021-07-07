@@ -64,7 +64,7 @@ var {...[]} = {}
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 10
                                     }
@@ -98,7 +98,7 @@ var {...[]} = {}
                             "end": 16
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 16
                     }

@@ -60,7 +60,7 @@ import 'x' assert {x: 'y', x: 'y'}
                 "end": 17
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 10,
             "end": 17
         },
@@ -117,7 +117,7 @@ import 'x' assert {x: 'y', x: 'y'}
                                 "end": 28
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 21,
                             "end": 28
                         },
@@ -149,7 +149,7 @@ import 'x' assert {x: 'y', x: 'y'}
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 29,
             "end": 33
         }

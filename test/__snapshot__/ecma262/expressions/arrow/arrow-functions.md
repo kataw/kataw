@@ -93,7 +93,7 @@ const bar9 = <T>(x) => {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 12,
                                         "end": 23
                                     }
@@ -149,7 +149,7 @@ const bar9 = <T>(x) => {};
                             "end": 38
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 38
                     }
@@ -217,7 +217,7 @@ const bar9 = <T>(x) => {};
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 52,
                                         "end": 56
                                     }
@@ -258,7 +258,7 @@ const bar9 = <T>(x) => {};
                             "end": 63
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 45,
                         "end": 63
                     }
@@ -341,7 +341,7 @@ const bar9 = <T>(x) => {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 77,
                                         "end": 89
                                     }
@@ -382,7 +382,7 @@ const bar9 = <T>(x) => {};
                             "end": 96
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 70,
                         "end": 96
                     }
@@ -474,7 +474,7 @@ const bar9 = <T>(x) => {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 110,
                                         "end": 125
                                     }
@@ -515,7 +515,7 @@ const bar9 = <T>(x) => {};
                             "end": 132
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 103,
                         "end": 132
                     }
@@ -613,7 +613,7 @@ const bar9 = <T>(x) => {};
                                         },
                                         "right": null,
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 150,
                                         "end": 164
                                     }
@@ -654,7 +654,7 @@ const bar9 = <T>(x) => {};
                             "end": 171
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 139,
                         "end": 171
                     }
@@ -736,7 +736,7 @@ const bar9 = <T>(x) => {};
                             "end": 193
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 178,
                         "end": 193
                     }
@@ -843,7 +843,7 @@ const bar9 = <T>(x) => {};
                             "end": 225
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 200,
                         "end": 225
                     }
@@ -920,7 +920,7 @@ const bar9 = <T>(x) => {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 239,
                                         "end": 250
                                     }
@@ -961,7 +961,7 @@ const bar9 = <T>(x) => {};
                             "end": 257
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 232,
                         "end": 257
                     }
@@ -1088,7 +1088,7 @@ const bar9 = <T>(x) => {};
                             "end": 284
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 264,
                         "end": 284
                     }

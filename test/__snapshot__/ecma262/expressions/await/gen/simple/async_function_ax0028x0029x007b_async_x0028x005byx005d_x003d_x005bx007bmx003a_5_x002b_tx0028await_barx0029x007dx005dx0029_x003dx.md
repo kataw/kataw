@@ -184,7 +184,7 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                                                 "end": 57
                                                                                             },
                                                                                             "flags": 32,
-                                                                                            "transformFlags": 0,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 48,
                                                                                             "end": 57
                                                                                         }
@@ -201,7 +201,7 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                                 "end": 58
                                                                             },
                                                                             "flags": 96,
-                                                                            "transformFlags": 1024,
+                                                                            "transformFlags": 5120,
                                                                             "start": 39,
                                                                             "end": 58
                                                                         },
@@ -235,7 +235,7 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                 "end": 60
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 31,
                                             "end": 60
                                         }
@@ -276,7 +276,7 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                 "end": 67
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 19,
                             "end": 67
                         }

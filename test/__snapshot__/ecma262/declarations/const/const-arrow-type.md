@@ -97,7 +97,7 @@ const fn = async (a?: any): Promise<void> => {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 18,
                                         "end": 25
                                     }
@@ -195,7 +195,7 @@ const fn = async (a?: any): Promise<void> => {};
                             "end": 47
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 47
                     }

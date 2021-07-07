@@ -69,7 +69,7 @@ for (a of b) let {x} = y
                     "end": 16
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 16
             },
@@ -95,7 +95,7 @@ for (a of b) let {x} = y
                             "end": 19
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 18,
                         "end": 19
                     }
@@ -122,7 +122,7 @@ for (a of b) let {x} = y
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 22,
             "end": 24
         }

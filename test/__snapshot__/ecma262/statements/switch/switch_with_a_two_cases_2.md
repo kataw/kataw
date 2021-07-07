@@ -74,7 +74,7 @@ switch (A) {case B: C; break; case D: E; break;}
                                     "end": 21
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 19,
                                 "end": 22
                             },
@@ -137,7 +137,7 @@ switch (A) {case B: C; break; case D: E; break;}
                                     "end": 39
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 37,
                                 "end": 40
                             },
@@ -190,10 +190,10 @@ switch (A) {case B: C; break; case D: E; break;}
 switch (A) {
   case B:
     C;
-    break ;
+    break;
   case D:
     E;
-    break ;
+    break;
 }
 ```
 

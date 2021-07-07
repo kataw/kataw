@@ -108,7 +108,7 @@ function *f(){   s = {"foo": yield}   }
                                                     "asteriskToken": null,
                                                     "expression": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 28,
                                                     "end": 34
                                                 },
@@ -135,7 +135,7 @@ function *f(){   s = {"foo": yield}   }
                                 "end": 35
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 35
                         }

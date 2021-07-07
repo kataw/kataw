@@ -127,7 +127,7 @@ let f6 = /* comment */
                                     "end": 29
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 5,
                                 "end": 29
                             }
@@ -173,7 +173,7 @@ let f6 = /* comment */
                 "end": 37
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 38
         },
@@ -228,7 +228,7 @@ let f6 = /* comment */
                                     "end": 66
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 44,
                                 "end": 66
                             }
@@ -274,7 +274,7 @@ let f6 = /* comment */
                 "end": 74
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 38,
             "end": 75
         },
@@ -329,7 +329,7 @@ let f6 = /* comment */
                                     "end": 93
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 81,
                                 "end": 93
                             }
@@ -375,7 +375,7 @@ let f6 = /* comment */
                 "end": 111
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 75,
             "end": 112
         },
@@ -447,7 +447,7 @@ let f6 = /* comment */
                 "end": 140
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 112,
             "end": 141
         },
@@ -519,7 +519,7 @@ let f6 = /* comment */
                 "end": 172
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 141,
             "end": 172
         },
@@ -591,7 +591,7 @@ let f6 = /* comment */
                 "end": 218
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 172,
             "end": 218
         },
@@ -650,7 +650,7 @@ let f6 = /* comment */
                                             "end": 252
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 228,
                                         "end": 252
                                     }
@@ -691,7 +691,7 @@ let f6 = /* comment */
                             "end": 260
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 223,
                         "end": 260
                     }
@@ -761,7 +761,7 @@ let f6 = /* comment */
                                             "end": 293
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 271,
                                         "end": 293
                                     }
@@ -802,7 +802,7 @@ let f6 = /* comment */
                             "end": 301
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 266,
                         "end": 301
                     }
@@ -872,7 +872,7 @@ let f6 = /* comment */
                                             "end": 324
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 312,
                                         "end": 324
                                     }
@@ -913,7 +913,7 @@ let f6 = /* comment */
                             "end": 342
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 307,
                         "end": 342
                     }
@@ -995,7 +995,7 @@ let f6 = /* comment */
                             "end": 375
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 348,
                         "end": 375
                     }
@@ -1077,7 +1077,7 @@ let f6 = /* comment */
                             "end": 412
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 381,
                         "end": 412
                     }
@@ -1159,7 +1159,7 @@ let f6 = /* comment */
                             "end": 462
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 417,
                         "end": 462
                     }

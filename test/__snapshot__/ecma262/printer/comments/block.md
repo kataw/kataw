@@ -242,7 +242,7 @@ Trailing block comment of this script file.
                                 "end": 309
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 246,
                             "end": 310
                         },
@@ -258,7 +258,7 @@ Trailing block comment of this script file.
                                 "end": 402
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 310,
                             "end": 403
                         },
@@ -274,7 +274,7 @@ Trailing block comment of this script file.
                                 "end": 495
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 403,
                             "end": 496
                         }

@@ -134,12 +134,12 @@ async function f() {
                                                                     "end": 59
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 45,
                                                                 "end": 59
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 45,
                                                             "end": 60
                                                         }

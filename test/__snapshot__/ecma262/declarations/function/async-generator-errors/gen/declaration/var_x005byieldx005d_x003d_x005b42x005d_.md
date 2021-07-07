@@ -141,7 +141,7 @@ async function * gen() {var [yield] = [42];}
                                             "end": 42
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 27,
                                         "end": 42
                                     }

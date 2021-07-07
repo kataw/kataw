@@ -49,7 +49,7 @@ var await; var f = (async function() { export var await; });
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -161,7 +161,7 @@ var await; var f = (async function() { export var await; });
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 49,
                                                                 "end": 55
                                                             }
@@ -208,7 +208,7 @@ var await; var f = (async function() { export var await; });
                             "end": 59
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 59
                     }

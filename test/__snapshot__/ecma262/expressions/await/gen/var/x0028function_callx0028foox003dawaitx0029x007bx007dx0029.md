@@ -49,7 +49,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -177,7 +177,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                                         "end": 63
                                                                     },
                                                                     "flags": 34,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 54,
                                                                     "end": 63
                                                                 }
@@ -216,7 +216,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                     "end": 67
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 38,
                                                 "end": 67
                                             }
@@ -243,7 +243,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                             "end": 70
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 70
                     }

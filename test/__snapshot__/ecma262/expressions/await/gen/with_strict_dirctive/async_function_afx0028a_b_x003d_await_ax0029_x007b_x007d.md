@@ -105,12 +105,12 @@
                                 "end": 46
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 38,
                             "end": 46
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 34,
                         "end": 46
                     }

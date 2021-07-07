@@ -99,7 +99,7 @@ function baz(x: boolean) {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 23
                     }
@@ -211,7 +211,7 @@ function baz(x: boolean) {
                                             "end": 52
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 32,
                                         "end": 52
                                     }
@@ -261,7 +261,7 @@ function baz(x: boolean) {
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 64,
                                             "end": 69
                                         }
@@ -457,7 +457,7 @@ function baz(x: boolean) {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 147,
                         "end": 157
                     }
@@ -509,7 +509,7 @@ function baz(x: boolean) {
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 171,
                                             "end": 176
                                         }
@@ -656,7 +656,7 @@ function baz(x: boolean) {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 218,
                         "end": 228
                     }
@@ -708,7 +708,7 @@ function baz(x: boolean) {
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 242,
                                             "end": 247
                                         }
@@ -817,7 +817,7 @@ function foo(x: boolean) {
   var obj = { a: 1, b: 2 };
   for (var prop in obj) {
       if (x) {
-          continue ;
+          continue;
         }
       return;
     }
@@ -830,7 +830,7 @@ function bar(x: boolean) {
 
 function baz(x: boolean) {
   for (var prop in {}) {
-      continue ;
+      continue;
     }
 }
 

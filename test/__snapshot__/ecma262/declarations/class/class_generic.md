@@ -294,7 +294,7 @@ class C<T> {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 46,
                                             "end": 54
                                         }
@@ -429,7 +429,7 @@ class C<T> {
                                                                 "end": 93
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 65,
                                                             "end": 93
                                                         }
@@ -512,7 +512,7 @@ class C<T> {
                                                     "end": 119
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 94,
                                                 "end": 120
                                             }

@@ -144,12 +144,12 @@ const resolver = options.resolver
                                 "end": 102
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 102
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 102
                     }

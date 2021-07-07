@@ -197,7 +197,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                                                                                         "end": 69
                                                                                                     },
                                                                                                     "flags": 32,
-                                                                                                    "transformFlags": 0,
+                                                                                                    "transformFlags": 4096,
                                                                                                     "start": 60,
                                                                                                     "end": 69
                                                                                                 }
@@ -243,7 +243,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                                             "end": 72
                                                         },
                                                         "flags": 34,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 44,
                                                         "end": 72
                                                     }
@@ -277,7 +277,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                             "end": 75
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 22,
                                         "end": 75
                                     }

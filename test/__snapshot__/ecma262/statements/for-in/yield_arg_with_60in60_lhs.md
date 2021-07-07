@@ -107,7 +107,7 @@ function *f(){   for (yield x in y in z);   }
                                     "end": 29
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 22,
                                 "end": 29
                             },
@@ -146,7 +146,7 @@ function *f(){   for (yield x in y in z);   }
                                     "end": 39
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 32,
                                 "end": 39
                             },

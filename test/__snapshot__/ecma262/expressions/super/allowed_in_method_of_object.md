@@ -100,7 +100,7 @@ x={ foo(){ super.foo; }}
                                                         "end": 20
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 10,
                                                     "end": 21
                                                 }
@@ -143,7 +143,7 @@ x={ foo(){ super.foo; }}
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }

@@ -66,12 +66,12 @@
                                                         "end": 15
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 5,
                                                     "end": 15
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 5,
                                                 "end": 15
                                             }

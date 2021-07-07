@@ -134,7 +134,7 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                                 "type": null,
                                 "right": null,
                                 "flags": 0,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 42,
                                 "end": 47
                             }

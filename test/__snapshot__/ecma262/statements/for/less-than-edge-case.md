@@ -68,7 +68,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                                 "end": 14
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 14
                         }
@@ -176,7 +176,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                     "end": 38
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 15,
                 "end": 38
             },
@@ -223,7 +223,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                                 "end": 55
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 46,
                             "end": 56
                         }

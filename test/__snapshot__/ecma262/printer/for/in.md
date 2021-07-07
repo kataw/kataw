@@ -66,7 +66,7 @@ for (a in b) 0;
                         "end": 12
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 5,
                     "end": 12
                 },
@@ -154,7 +154,7 @@ for (a in b) 0;
                             "end": 34
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 27,
                         "end": 34
                     },
@@ -253,7 +253,7 @@ for (a in b) 0;
                                         "end": 62
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 54,
                                     "end": 62
                                 },
@@ -263,7 +263,7 @@ for (a in b) 0;
                                 "end": 63
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 50,
                             "end": 63
                         }
@@ -349,7 +349,7 @@ for (a in b) 0;
                             "end": 87
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 79,
                         "end": 87
                     },
@@ -359,7 +359,7 @@ for (a in b) 0;
                     "end": 88
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 69,
                 "end": 88
             },
@@ -437,7 +437,7 @@ for (a in b) 0;
                             "end": 112
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 104,
                         "end": 112
                     },
@@ -558,7 +558,7 @@ for (a in b) 0;
                                             "end": 156
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 148,
                                         "end": 156
                                     },
@@ -568,7 +568,7 @@ for (a in b) 0;
                                     "end": 157
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 143,
                                 "end": 157
                             },
@@ -694,7 +694,7 @@ for (a in b) 0;
                                             "end": 207
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 199,
                                         "end": 207
                                     },
@@ -704,7 +704,7 @@ for (a in b) 0;
                                     "end": 208
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 194,
                                 "end": 208
                             },
@@ -785,7 +785,7 @@ for (a in b) 0;
                     "end": 231
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 229,
                 "end": 232
             },

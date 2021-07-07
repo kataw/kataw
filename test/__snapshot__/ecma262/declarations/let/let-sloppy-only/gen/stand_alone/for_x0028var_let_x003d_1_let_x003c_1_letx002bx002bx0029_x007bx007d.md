@@ -65,7 +65,7 @@ for (var let = 1; let < 1; let++) {}
                                 "end": 16
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 16
                         }
@@ -131,7 +131,7 @@ for (var let = 1; let < 1; let++) {}
                     "end": 25
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 17,
                 "end": 25
             },

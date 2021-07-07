@@ -88,7 +88,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                     "end": 144
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 116,
                                 "end": 144
                             },
@@ -109,12 +109,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                 "end": 159
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 116,
                             "end": 159
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 112,
                         "end": 159
                     }
@@ -187,7 +187,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                             "end": 199
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 171,
                                         "end": 199
                                     },
@@ -208,7 +208,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 214
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 171,
                                     "end": 214
                                 },
@@ -247,12 +247,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 244
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 229,
                                     "end": 244
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 171,
                                 "end": 244
                             },
@@ -273,12 +273,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                 "end": 259
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 171,
                             "end": 259
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 166,
                         "end": 259
                     }
@@ -367,12 +367,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                             "end": 314
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 299,
                                         "end": 314
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 271,
                                     "end": 314
                                 },
@@ -411,12 +411,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 344
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 329,
                                     "end": 344
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 271,
                                 "end": 344
                             },
@@ -437,12 +437,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                 "end": 359
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 271,
                             "end": 359
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 266,
                         "end": 359
                     }
@@ -531,7 +531,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                             "end": 414
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 399,
                                         "end": 414
                                     },
@@ -570,17 +570,17 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                             "end": 444
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 429,
                                         "end": 444
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 399,
                                     "end": 444
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 371,
                                 "end": 444
                             },
@@ -601,12 +601,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                 "end": 459
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 371,
                             "end": 459
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 366,
                         "end": 459
                     }
@@ -681,7 +681,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                                 "end": 501
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 472,
                                             "end": 501
                                         },
@@ -702,7 +702,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                             "end": 517
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 472,
                                         "end": 517
                                     },
@@ -723,7 +723,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 533
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 472,
                                     "end": 533
                                 },
@@ -744,7 +744,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                     "end": 549
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 472,
                                 "end": 549
                             },
@@ -765,12 +765,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                 "end": 565
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 472,
                             "end": 565
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 467,
                         "end": 565
                     }
@@ -841,7 +841,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 606
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 577,
                                     "end": 606
                                 },
@@ -880,12 +880,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 638
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 622,
                                     "end": 638
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 577,
                                 "end": 638
                             },
@@ -924,17 +924,17 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                     "end": 670
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 654,
                                 "end": 670
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 577,
                             "end": 670
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 572,
                         "end": 670
                     }
@@ -1003,7 +1003,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                     "end": 767
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 682,
                                 "end": 767
                             },
@@ -1031,12 +1031,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                 "end": 773
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 682,
                             "end": 773
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 677,
                         "end": 773
                     }
@@ -1105,7 +1105,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                     "end": 870
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 785,
                                 "end": 870
                             },
@@ -1133,12 +1133,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                 "end": 876
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 785,
                             "end": 876
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 780,
                         "end": 876
                     }
@@ -1247,12 +1247,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                 "end": 983
                             },
                             "flags": 268435488,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 888,
                             "end": 983
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 883,
                         "end": 983
                     }
@@ -1323,7 +1323,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 1019
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 996,
                                     "end": 1019
                                 },
@@ -1362,12 +1362,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 1040
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 1035,
                                     "end": 1040
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 996,
                                 "end": 1040
                             },
@@ -1406,17 +1406,17 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                     "end": 1071
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 1056,
                                 "end": 1071
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 996,
                             "end": 1071
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 991,
                         "end": 1071
                     }
@@ -1485,7 +1485,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                     "end": 1108
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 1085,
                                 "end": 1108
                             },
@@ -1526,7 +1526,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 1130
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 1124,
                                     "end": 1130
                                 },
@@ -1565,22 +1565,22 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 1160
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 1145,
                                     "end": 1160
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 1124,
                                 "end": 1160
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 1085,
                             "end": 1160
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 1079,
                         "end": 1160
                     }
@@ -1679,12 +1679,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                                 "end": 1192
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 2048,
                                             "start": 1181,
                                             "end": 1193
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 1167,
                                         "end": 1193
                                     },
@@ -1723,12 +1723,12 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                             "end": 1217
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 1200,
                                         "end": 1217
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 1167,
                                     "end": 1217
                                 },
@@ -1749,7 +1749,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                     "end": 1233
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 1167,
                                 "end": 1233
                             },
@@ -1788,7 +1788,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                     "end": 1246
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 1235,
                                 "end": 1246
                             },
@@ -1807,7 +1807,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                 "end": 1254
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1167,
                             "end": 1254
                         }
@@ -1824,7 +1824,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                 "end": 1255
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1161,
             "end": 1256
         }

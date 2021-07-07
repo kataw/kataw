@@ -79,7 +79,7 @@ function f(){ var f }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 17,
                                         "end": 19
                                     }

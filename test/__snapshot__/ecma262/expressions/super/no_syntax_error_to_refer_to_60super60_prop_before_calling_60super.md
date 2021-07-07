@@ -154,7 +154,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                     "end": 50
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 35,
                                                 "end": 51
                                             },
@@ -184,7 +184,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                     "end": 61
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 51,
                                                 "end": 62
                                             }

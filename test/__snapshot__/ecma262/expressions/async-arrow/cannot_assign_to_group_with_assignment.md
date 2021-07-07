@@ -75,7 +75,7 @@ async (a=/i/) = /i/
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         },
@@ -90,7 +90,7 @@ async (a=/i/) = /i/
                 "end": 19
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 19
         }

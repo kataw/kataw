@@ -122,7 +122,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "end": 47
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 34,
                                             "end": 47
                                         },
@@ -200,7 +200,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 function *gf() {
   switch (1) {
     case yield* "'foo'":
-      break ;
+      break;
   }
 }
 ```

@@ -278,7 +278,7 @@ const foo = () => {
                                                 "end": 141
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 19,
                                             "end": 142
                                         }
@@ -299,7 +299,7 @@ const foo = () => {
                             "end": 144
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 144
                     }

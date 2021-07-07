@@ -79,7 +79,7 @@ default /* comment 5 */ : /* comment 6 */ foo;
                                     "end": 92
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 71,
                                 "end": 93
                             }
@@ -118,7 +118,7 @@ default /* comment 5 */ : /* comment 6 */ foo;
                                     "end": 139
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 119,
                                 "end": 140
                             }

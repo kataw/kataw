@@ -105,7 +105,7 @@ foo: do break foo; while(foo);
 ### Printed
 
 ```javascript
-foo:  do  break  foo;
+foo:  do  break foo;
 while (foo);
 ```
 

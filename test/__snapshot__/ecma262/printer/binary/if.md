@@ -146,7 +146,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                     "end": 61
                 },
                 "flags": 268435488,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 4,
                 "end": 61
             },
@@ -329,12 +329,12 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                         "end": 145
                     },
                     "flags": 268435488,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 128,
                     "end": 145
                 },
                 "flags": 268435488,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 71,
                 "end": 145
             },
@@ -533,12 +533,12 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                         "end": 235
                     },
                     "flags": 268435488,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 212,
                     "end": 235
                 },
                 "flags": 268435488,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 155,
                 "end": 235
             },
@@ -601,7 +601,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                     "end": 322
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 245,
                 "end": 322
             },

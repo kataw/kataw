@@ -65,7 +65,7 @@ for (var a: number in expr) {
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
@@ -130,7 +130,7 @@ for (var a: number in expr) {
                             },
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 23,
                             "end": 33
                         }

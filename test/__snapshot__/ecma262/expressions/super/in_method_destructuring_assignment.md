@@ -163,7 +163,7 @@ x = { foo(){ [a = super.foo] = c; }}
                                                         "end": 32
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 12,
                                                     "end": 33
                                                 }
@@ -206,7 +206,7 @@ x = { foo(){ [a = super.foo] = c; }}
                 "end": 36
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }

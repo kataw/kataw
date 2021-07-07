@@ -50,7 +50,7 @@ var af = switch => 1;
                             "end": 8
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 8
                     }
@@ -108,7 +108,7 @@ var af = switch => 1;
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 21
         }

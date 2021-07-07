@@ -105,7 +105,7 @@ function *f(x = delete ((return) = f)) {}
                             "end": 25
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 25
                     }
@@ -173,7 +173,7 @@ function *f(x = delete ((return) = f)) {}
                 "end": 36
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 34,
             "end": 36
         },

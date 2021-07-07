@@ -48,12 +48,12 @@ await(x);
                     "end": 26
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         },
@@ -80,7 +80,7 @@ await(x);
                         "end": 34
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 27,
                     "end": 34
                 },
@@ -106,7 +106,7 @@ await(x);
                 "end": 42
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 43
         },
@@ -138,12 +138,12 @@ await(x);
                     "end": 53
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 43,
                 "end": 53
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 43,
             "end": 54
         }

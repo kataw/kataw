@@ -84,7 +84,7 @@ for (let {x, y} = obj);
                                 "end": 21
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 21
                         }

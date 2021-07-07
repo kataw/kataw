@@ -84,7 +84,7 @@ async function f(){ await foo
                                             "end": 29
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 19,
                                         "end": 29
                                     },
@@ -105,7 +105,7 @@ async function f(){ await foo
                                         "end": 34
                                     },
                                     "flags": 33,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 19,
                                     "end": 34
                                 },
@@ -126,12 +126,12 @@ async function f(){ await foo
                                     "end": 35
                                 },
                                 "flags": 33,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 19,
                                 "end": 35
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 19,
                             "end": 35
                         }

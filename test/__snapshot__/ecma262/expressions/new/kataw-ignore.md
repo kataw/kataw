@@ -84,12 +84,12 @@
                                                 "end": 52
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 44,
                                             "end": 52
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 44,
                                         "end": 52
                                     }
@@ -112,7 +112,7 @@
                     },
                     "argumentList": null,
                     "flags": 67108961,
-                    "transformFlags": 0,
+                    "transformFlags": 2048,
                     "start": 0,
                     "end": 54
                 },
@@ -131,7 +131,7 @@
                 "end": 56
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 56
         }

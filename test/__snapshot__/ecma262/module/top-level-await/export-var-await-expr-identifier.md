@@ -59,7 +59,7 @@ export var { x = await foo } = {};
                             "end": 11
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
@@ -127,12 +127,12 @@ export var { x = await foo } = {};
                                     "end": 42
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 32,
                                 "end": 42
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 24,
                             "end": 42
                         }
@@ -218,12 +218,12 @@ export var { x = await foo } = {};
                                                     "end": 70
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 60,
                                                 "end": 70
                                             },
                                             "flags": 0,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 56,
                                             "end": 70
                                         }
@@ -257,7 +257,7 @@ export var { x = await foo } = {};
                                 "end": 77
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 54,
                             "end": 77
                         }

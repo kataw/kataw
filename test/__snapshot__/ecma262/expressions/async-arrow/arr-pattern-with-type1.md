@@ -80,7 +80,7 @@ async ([{x}: string]) =>  {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 8,
                                         "end": 17
                                     }
@@ -133,7 +133,7 @@ async ([{x}: string]) =>  {};
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         },
@@ -205,7 +205,7 @@ async ([{x}: string]) =>  {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 37,
                                         "end": 48
                                     }
@@ -258,7 +258,7 @@ async ([{x}: string]) =>  {};
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 58
         },
@@ -321,7 +321,7 @@ async ([{x}: string]) =>  {};
                                                         },
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 69,
                                                         "end": 78
                                                     }
@@ -356,7 +356,7 @@ async ([{x}: string]) =>  {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 68,
                                         "end": 87
                                     }
@@ -409,7 +409,7 @@ async ([{x}: string]) =>  {};
                 "end": 96
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 58,
             "end": 97
         },
@@ -481,7 +481,7 @@ async ([{x}: string]) =>  {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 107,
                                         "end": 118
                                     }
@@ -534,7 +534,7 @@ async ([{x}: string]) =>  {};
                 "end": 127
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 97,
             "end": 128
         }

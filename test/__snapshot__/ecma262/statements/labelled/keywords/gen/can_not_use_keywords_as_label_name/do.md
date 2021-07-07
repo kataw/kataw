@@ -43,7 +43,7 @@ do: x
                     "end": 2
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 2
             },
@@ -74,7 +74,7 @@ do: x
                 "end": 5
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 3,
             "end": 5
         }

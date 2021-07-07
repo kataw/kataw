@@ -81,7 +81,7 @@ new (a``());
                             "end": 30
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 3,
                         "end": 30
                     },
@@ -92,12 +92,12 @@ new (a``());
                 },
                 "argumentList": null,
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         },
@@ -156,7 +156,7 @@ new (a``());
                                 "end": 62
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 37,
                             "end": 62
                         },
@@ -207,7 +207,7 @@ new (a``());
                             "end": 78
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 37,
                         "end": 78
                     },
@@ -218,12 +218,12 @@ new (a``());
                 },
                 "argumentList": null,
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 31,
                 "end": 79
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 31,
             "end": 79
         },
@@ -276,7 +276,7 @@ new (a``());
                         },
                         "argumentList": null,
                         "flags": 97,
-                        "transformFlags": 0,
+                        "transformFlags": 2048,
                         "start": 79,
                         "end": 97
                     },
@@ -335,7 +335,7 @@ new (a``());
                 "end": 107
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 79,
             "end": 108
         },
@@ -424,12 +424,12 @@ new (a``());
                     "end": 123
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 108,
                 "end": 124
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 108,
             "end": 125
         },
@@ -507,7 +507,7 @@ new (a``());
                         },
                         "argumentList": null,
                         "flags": 97,
-                        "transformFlags": 0,
+                        "transformFlags": 2048,
                         "start": 125,
                         "end": 138
                     },
@@ -540,7 +540,7 @@ new (a``());
                 "end": 142
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 125,
             "end": 143
         },
@@ -602,7 +602,7 @@ new (a``());
                         },
                         "argumentList": null,
                         "flags": 97,
-                        "transformFlags": 0,
+                        "transformFlags": 2048,
                         "start": 143,
                         "end": 154
                     },
@@ -635,7 +635,7 @@ new (a``());
                 "end": 158
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 143,
             "end": 159
         },
@@ -708,12 +708,12 @@ new (a``());
                     "end": 172
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 159,
                 "end": 173
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 159,
             "end": 174
         },
@@ -818,12 +818,12 @@ new (a``());
                     "end": 191
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 174,
                 "end": 192
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 174,
             "end": 193
         },
@@ -888,12 +888,12 @@ new (a``());
                 },
                 "argumentList": null,
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 193,
                 "end": 205
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 193,
             "end": 206
         }

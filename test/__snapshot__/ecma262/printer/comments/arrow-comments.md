@@ -274,7 +274,7 @@ const bem = block =>
                                                                 "end": 605
                                                             },
                                                             "flags": 97,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 562,
                                                             "end": 605
                                                         },
@@ -375,7 +375,7 @@ const bem = block =>
                                                                 "end": 651
                                                             },
                                                             "flags": 97,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 606,
                                                             "end": 651
                                                         }
@@ -445,7 +445,7 @@ const bem = block =>
                             "end": 668
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 156,
                         "end": 668
                     }

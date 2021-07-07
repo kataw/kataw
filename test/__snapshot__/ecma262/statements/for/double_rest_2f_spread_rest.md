@@ -65,7 +65,7 @@ for (let [... ...foo] = obj);
                                             "type": null,
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 10,
                                             "end": 13
                                         },
@@ -91,7 +91,7 @@ for (let [... ...foo] = obj);
                                             "type": null,
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 13,
                                             "end": 20
                                         }
@@ -118,7 +118,7 @@ for (let [... ...foo] = obj);
                                 "end": 27
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 27
                         }

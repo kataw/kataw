@@ -123,7 +123,7 @@
                                                             "type": null,
                                                             "right": null,
                                                             "flags": 0,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 28,
                                                             "end": 32
                                                         },
@@ -174,7 +174,7 @@
                                                                             "type": null,
                                                                             "right": null,
                                                                             "flags": 0,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 35,
                                                                             "end": 43
                                                                         }
@@ -358,7 +358,7 @@
                                                 "end": 78
                                             },
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 22,
                                             "end": 78
                                         }
@@ -397,7 +397,7 @@
                             "end": 82
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 82
                     }

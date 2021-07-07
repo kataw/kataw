@@ -89,7 +89,7 @@ function f(b, a, b, ...a) {"use strict"}
                         "type": null,
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 19,
                         "end": 24
                     }

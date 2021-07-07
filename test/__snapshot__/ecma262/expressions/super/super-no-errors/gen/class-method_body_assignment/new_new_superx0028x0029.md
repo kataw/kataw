@@ -141,13 +141,13 @@ class C { m() { k = new new super(); } }
                                                                 "end": 34
                                                             },
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 2048,
                                                             "start": 23,
                                                             "end": 35
                                                         },
                                                         "argumentList": null,
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 2048,
                                                         "start": 19,
                                                         "end": 35
                                                     },
@@ -157,7 +157,7 @@ class C { m() { k = new new super(); } }
                                                     "end": 35
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 15,
                                                 "end": 36
                                             }

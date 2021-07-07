@@ -88,7 +88,7 @@ FOR2 : for(var i=1;i<2;i++){
                                     "end": 18
                                 },
                                 "flags": 16,
-                                "transformFlags": 128,
+                                "transformFlags": 4224,
                                 "start": 14,
                                 "end": 18
                             }
@@ -154,7 +154,7 @@ FOR2 : for(var i=1;i<2;i++){
                         "end": 22
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 19,
                     "end": 22
                 },
@@ -222,7 +222,7 @@ FOR2 : for(var i=1;i<2;i++){
                                                         "end": 59
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 54,
                                                     "end": 60
                                                 }
@@ -345,7 +345,7 @@ FOR2 : for(var i=1;i<2;i++){
                                     "end": 96
                                 },
                                 "flags": 16,
-                                "transformFlags": 128,
+                                "transformFlags": 4224,
                                 "start": 92,
                                 "end": 96
                             }
@@ -411,7 +411,7 @@ FOR2 : for(var i=1;i<2;i++){
                         "end": 100
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 97,
                     "end": 100
                 },
@@ -464,7 +464,7 @@ FOR2 : for(var i=1;i<2;i++){
                                                         "end": 136
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 122,
                                                     "end": 137
                                                 }
@@ -542,7 +542,7 @@ FOR2 : for(var i=1;i<2;i++){
 ```javascript
 FOR1:  for (var i = 1; i++; i  < 2) {
     LABEL1:  do  {
-        break ;
+        break;
         FOR1;
       }
     while (0);

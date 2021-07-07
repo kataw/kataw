@@ -185,7 +185,7 @@ for (i = 0, len = arr.length; i < len; i++) {
                     "end": 41
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 33,
                 "end": 41
             },
@@ -264,7 +264,7 @@ for (i = 0, len = arr.length; i < len; i++) {
                                 "end": 71
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 49,
                             "end": 71
                         }
@@ -433,7 +433,7 @@ for (i = 0, len = arr.length; i < len; i++) {
                     "end": 112
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 104,
                 "end": 112
             },
@@ -512,7 +512,7 @@ for (i = 0, len = arr.length; i < len; i++) {
                                 "end": 142
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 120,
                             "end": 142
                         }

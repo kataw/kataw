@@ -88,7 +88,7 @@ declare function four<T>(this: T): void;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 21,
                         "end": 33
                     }
@@ -190,7 +190,7 @@ declare function four<T>(this: T): void;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 63,
                         "end": 75
                     },
@@ -225,7 +225,7 @@ declare function four<T>(this: T): void;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 76,
                         "end": 86
                     }
@@ -327,7 +327,7 @@ declare function four<T>(this: T): void;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 118,
                         "end": 130
                     },
@@ -368,7 +368,7 @@ declare function four<T>(this: T): void;
                         },
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 131,
                         "end": 141
                     }
@@ -515,7 +515,7 @@ declare function four<T>(this: T): void;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 175,
                         "end": 182
                     }

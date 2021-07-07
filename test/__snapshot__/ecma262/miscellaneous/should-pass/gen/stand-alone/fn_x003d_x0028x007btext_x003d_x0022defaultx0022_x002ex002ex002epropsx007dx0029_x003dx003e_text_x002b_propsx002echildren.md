@@ -78,7 +78,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                                 "end": 23
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 7,
                                             "end": 23
                                         },
@@ -104,7 +104,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                             "type": null,
                                             "right": null,
                                             "flags": 1073741856,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 24,
                                             "end": 33
                                         }
@@ -179,7 +179,7 @@ fn = ({text = "default", ...props}) => text + props.children
                             "end": 60
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 38,
                         "end": 60
                     },
@@ -194,7 +194,7 @@ fn = ({text = "default", ...props}) => text + props.children
                 "end": 60
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 60
         }

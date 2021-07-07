@@ -112,7 +112,7 @@ import {a: b} from "bar";
                 "end": 12
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 10,
             "end": 12
         },
@@ -128,7 +128,7 @@ import {a: b} from "bar";
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 18
         },
@@ -144,7 +144,7 @@ import {a: b} from "bar";
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 25
         }

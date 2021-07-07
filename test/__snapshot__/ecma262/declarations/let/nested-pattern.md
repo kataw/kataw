@@ -92,7 +92,7 @@ let [[]]=0
                             "end": 10
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }

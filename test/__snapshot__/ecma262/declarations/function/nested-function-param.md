@@ -234,7 +234,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 29,
                         "end": 33
                     },
@@ -279,7 +279,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 34,
                         "end": 39
                     },
@@ -324,7 +324,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 40,
                         "end": 45
                     }
@@ -378,7 +378,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "end": 65
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 58,
                                 "end": 65
                             },
@@ -449,7 +449,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "end": 90
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 83,
                                 "end": 90
                             },

@@ -125,12 +125,12 @@ function *g() { function f(x = x + yield) {}; }
                                                 "end": 40
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 30,
                                             "end": 40
                                         },
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 27,
                                         "end": 40
                                     }

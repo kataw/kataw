@@ -112,7 +112,7 @@ function *f(){  async (await) => x  }
                                 "end": 34
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 34
                         }

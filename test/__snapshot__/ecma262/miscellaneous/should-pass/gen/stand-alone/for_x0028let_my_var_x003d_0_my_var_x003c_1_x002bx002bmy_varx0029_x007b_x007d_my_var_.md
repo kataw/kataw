@@ -65,7 +65,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                                 "end": 19
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 19
                         }
@@ -131,7 +131,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                     "end": 31
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 20,
                 "end": 31
             },
@@ -167,7 +167,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                 "end": 53
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 46,
             "end": 54
         }

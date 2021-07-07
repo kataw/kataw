@@ -123,7 +123,7 @@ type X = (?await:string) => T;
                 "end": 23
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 23
         },
@@ -139,7 +139,7 @@ type X = (?await:string) => T;
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 30
         }

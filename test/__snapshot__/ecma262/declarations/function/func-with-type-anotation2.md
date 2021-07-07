@@ -79,7 +79,7 @@ function foo(numVal: any, otherVal: mixed){}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 24
                     },
@@ -124,7 +124,7 @@ function foo(numVal: any, otherVal: mixed){}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 25,
                         "end": 41
                     }

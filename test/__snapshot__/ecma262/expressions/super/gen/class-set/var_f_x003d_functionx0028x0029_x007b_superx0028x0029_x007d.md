@@ -181,7 +181,7 @@ class C { set x(_) { var f = function() { super(); } } }
                                                                                     "end": 49
                                                                                 },
                                                                                 "flags": 16,
-                                                                                "transformFlags": 0,
+                                                                                "transformFlags": 4096,
                                                                                 "start": 41,
                                                                                 "end": 50
                                                                             }
@@ -203,7 +203,7 @@ class C { set x(_) { var f = function() { super(); } } }
                                                                 "end": 52
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 24,
                                                             "end": 52
                                                         }

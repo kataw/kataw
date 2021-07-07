@@ -78,7 +78,7 @@ var [x = 10, y = 5, z = 1] = a;
                                             "end": 11
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -106,7 +106,7 @@ var [x = 10, y = 5, z = 1] = a;
                                             "end": 18
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 12,
                                         "end": 18
                                     },
@@ -134,7 +134,7 @@ var [x = 10, y = 5, z = 1] = a;
                                             "end": 25
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 19,
                                         "end": 25
                                     }
@@ -161,7 +161,7 @@ var [x = 10, y = 5, z = 1] = a;
                             "end": 30
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 30
                     }

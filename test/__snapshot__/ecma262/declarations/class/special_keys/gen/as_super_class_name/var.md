@@ -121,7 +121,7 @@ class x extends var {}
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 19,
                         "end": 22
                     }

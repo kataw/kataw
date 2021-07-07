@@ -68,7 +68,7 @@ if (x) var foo = 1; let foo = 1;
                                 "end": 18
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 18
                         }
@@ -124,7 +124,7 @@ if (x) var foo = 1; let foo = 1;
                             "end": 31
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 23,
                         "end": 31
                     }

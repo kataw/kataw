@@ -84,7 +84,7 @@ function *f(){
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 14,
                                     "end": 22
                                 },
@@ -110,7 +110,7 @@ function *f(){
                                 "end": 26
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 27
                         }

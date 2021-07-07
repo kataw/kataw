@@ -180,7 +180,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                                             "end": 68
                                                                         },
                                                                         "flags": 16,
-                                                                        "transformFlags": 128,
+                                                                        "transformFlags": 4224,
                                                                         "start": 61,
                                                                         "end": 68
                                                                     }
@@ -218,12 +218,12 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                                     "end": 77
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 69,
                                                                 "end": 77
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 69,
                                                             "end": 78
                                                         },

@@ -65,7 +65,7 @@ if (true) {} else const x = 1;
                     "end": 17
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 17,
                 "end": 17
             },
@@ -108,7 +108,7 @@ if (true) {} else const x = 1;
                             "end": 29
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 23,
                         "end": 29
                     }

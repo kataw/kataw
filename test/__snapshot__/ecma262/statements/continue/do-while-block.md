@@ -144,7 +144,7 @@ function f(){ do        { continue }     while(true);}
 ```javascript
 function f() {
   do  {
-      continue ;
+      continue;
     }
   while (true);
 }

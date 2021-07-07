@@ -114,7 +114,7 @@ function * gen() { function not_gen() { yield /* comment */ }}
                                                 "end": 45
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 39,
                                             "end": 45
                                         }

@@ -57,7 +57,7 @@ class C {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -216,7 +216,7 @@ class C {
                                                                     "end": 85
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 79,
                                                                 "end": 85
                                                             },
@@ -259,7 +259,7 @@ class C {
                                                                         "end": 158
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 153,
                                                                     "end": 158
                                                                 },

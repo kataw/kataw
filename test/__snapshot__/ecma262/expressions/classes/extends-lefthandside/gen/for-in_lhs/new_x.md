@@ -51,7 +51,7 @@ for (new x in x) ;
                 },
                 "argumentList": null,
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 5,
                 "end": 10
             },

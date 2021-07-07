@@ -171,7 +171,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                                     "end": 55
                                                                                 },
                                                                                 "flags": 16,
-                                                                                "transformFlags": 0,
+                                                                                "transformFlags": 4096,
                                                                                 "start": 47,
                                                                                 "end": 56
                                                                             }
@@ -193,7 +193,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                 "end": 58
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 29,
                                                             "end": 58
                                                         }

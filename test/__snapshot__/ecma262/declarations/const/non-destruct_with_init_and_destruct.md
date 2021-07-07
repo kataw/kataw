@@ -68,7 +68,7 @@ const foo = arr, [bar] = arr2;
                             "end": 15
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 15
                     },
@@ -111,7 +111,7 @@ const foo = arr, [bar] = arr2;
                             "end": 29
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 16,
                         "end": 29
                     }

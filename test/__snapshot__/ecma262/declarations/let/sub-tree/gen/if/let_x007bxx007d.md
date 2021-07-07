@@ -52,7 +52,7 @@ if (a) let {x}
                     "end": 10
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 10
             },
@@ -80,7 +80,7 @@ if (a) let {x}
                             "end": 13
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 13
                     }

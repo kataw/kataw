@@ -144,7 +144,7 @@ var O = { async method(a, a) {} }
                             "end": 33
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 33
                     }

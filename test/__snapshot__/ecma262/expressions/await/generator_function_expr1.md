@@ -93,7 +93,7 @@ let x = function *f(foo = await){}
                                             "end": 31
                                         },
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 20,
                                         "end": 31
                                     }
@@ -127,7 +127,7 @@ let x = function *f(foo = await){}
                             "end": 34
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 34
                     }

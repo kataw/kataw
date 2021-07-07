@@ -79,7 +79,7 @@ function* g() {
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 19,
                                         "end": 24
                                     },
@@ -110,7 +110,7 @@ function* g() {
                                 "end": 29
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 30
                         }

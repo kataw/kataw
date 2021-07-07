@@ -108,7 +108,7 @@ export default async (x) => (y, z);
                     "end": 32
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 33
             },
@@ -212,7 +212,7 @@ export default async (x) => (y, z);
                     "end": 68
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 48,
                 "end": 69
             },

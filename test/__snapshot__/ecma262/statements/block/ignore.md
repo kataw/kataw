@@ -93,7 +93,7 @@ function x() { { var f; var f } }
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 38,
                                                                 "end": 40
                                                             }
@@ -135,7 +135,7 @@ function x() { { var f; var f } }
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 45,
                                                                 "end": 47
                                                             }

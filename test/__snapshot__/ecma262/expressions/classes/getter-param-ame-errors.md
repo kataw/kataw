@@ -397,7 +397,7 @@ class C { get name(private) {} }
                 "end": 116
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 102,
             "end": 117
         },
@@ -529,7 +529,7 @@ class C { get name(private) {} }
                 "end": 167
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 153,
             "end": 168
         },
@@ -661,7 +661,7 @@ class C { get name(private) {} }
                 "end": 213
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 199,
             "end": 214
         },
@@ -821,7 +821,7 @@ class C { get name(private) {} }
                 "end": 257
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 243,
             "end": 258
         },
@@ -942,7 +942,7 @@ class C { get name(private) {} }
                 "end": 291
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 258,
             "end": 291
         },
@@ -958,7 +958,7 @@ class C { get name(private) {} }
                 "end": 305
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 291,
             "end": 306
         },
@@ -1079,7 +1079,7 @@ class C { get name(private) {} }
                 "end": 338
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 306,
             "end": 338
         }

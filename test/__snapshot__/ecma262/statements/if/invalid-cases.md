@@ -102,7 +102,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "end": 16
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 16
             },
@@ -146,7 +146,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 16,
             "end": 23
         },
@@ -758,7 +758,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "end": 206
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 204,
             "end": 206
         },
@@ -884,7 +884,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "end": 249
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 249,
                 "end": 249
             },
@@ -927,7 +927,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                             "end": 264
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 255,
                         "end": 264
                     }
@@ -1144,7 +1144,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "end": 353
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 349,
                 "end": 353
             },
@@ -1165,7 +1165,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "end": 355
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 353,
             "end": 356
         },
@@ -1243,7 +1243,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "end": 385
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 369,
                 "end": 386
             },
@@ -1362,7 +1362,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 "end": 416
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 410,
                             "end": 417
                         }
@@ -1522,7 +1522,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 "end": 454
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 448,
                             "end": 455
                         }
@@ -1676,7 +1676,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 "end": 491
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 485,
                             "end": 492
                         }
@@ -1792,7 +1792,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "end": 513
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 513,
                 "end": 513
             },
@@ -1838,7 +1838,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 "end": 524
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 522,
                             "end": 524
                         },
@@ -1891,7 +1891,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                             "end": 535
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 529,
                         "end": 536
                     }
@@ -2021,7 +2021,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 "end": 569
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 563,
                             "end": 570
                         }
@@ -2181,7 +2181,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 "end": 607
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 601,
                             "end": 608
                         }
@@ -2335,7 +2335,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 "end": 644
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 638,
                             "end": 645
                         }

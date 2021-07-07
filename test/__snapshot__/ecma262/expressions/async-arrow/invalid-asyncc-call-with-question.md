@@ -63,7 +63,7 @@ async(x?);
                             "type": null,
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 6,
                             "end": 8
                         }
@@ -80,7 +80,7 @@ async(x?);
                 "end": 9
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         },
@@ -124,7 +124,7 @@ async(x?);
                                 "type": null,
                                 "right": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 19,
                                 "end": 21
                             }
@@ -146,7 +146,7 @@ async(x?);
                 "end": 23
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 10,
             "end": 24
         }

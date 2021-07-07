@@ -98,7 +98,7 @@ x=function f(){ var f }
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
-                                                "transformFlags": 128,
+                                                "transformFlags": 4224,
                                                 "start": 19,
                                                 "end": 21
                                             }
@@ -136,7 +136,7 @@ x=function f(){ var f }
                 "end": 23
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         }

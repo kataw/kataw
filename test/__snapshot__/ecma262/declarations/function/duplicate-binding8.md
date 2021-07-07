@@ -137,7 +137,7 @@ function f() { function x() {} { var x } }
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
-                                                    "transformFlags": 128,
+                                                    "transformFlags": 4224,
                                                     "start": 36,
                                                     "end": 38
                                                 }

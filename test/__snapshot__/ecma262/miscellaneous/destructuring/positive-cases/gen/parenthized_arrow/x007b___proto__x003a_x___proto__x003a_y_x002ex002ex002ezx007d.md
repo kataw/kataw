@@ -133,7 +133,7 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 38,
                                                     "end": 43
                                                 }
@@ -186,7 +186,7 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                             "end": 51
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 51
                     }

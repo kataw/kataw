@@ -271,7 +271,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                             "end": 77
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 77
                     }

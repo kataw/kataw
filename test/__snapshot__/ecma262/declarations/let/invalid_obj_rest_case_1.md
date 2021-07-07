@@ -56,7 +56,7 @@ let {...obj1,a} = foo
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 12
                                     },
@@ -92,7 +92,7 @@ let {...obj1,a} = foo
                             "end": 21
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 21
                     }

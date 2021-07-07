@@ -34,7 +34,7 @@ yield /* comment */\n {yield: 42}
                 "end": 5
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -50,7 +50,7 @@ yield /* comment */\n {yield: 42}
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 20,
             "end": 21
         },
@@ -89,7 +89,7 @@ yield /* comment */\n {yield: 42}
                                 "end": 32
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 29,
                             "end": 32
                         },

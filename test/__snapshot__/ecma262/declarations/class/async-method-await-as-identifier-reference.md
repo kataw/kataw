@@ -133,7 +133,7 @@ var C = class { async method() {
                                                                             "end": 47
                                                                         },
                                                                         "flags": 32,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 41,
                                                                         "end": 47
                                                                     },
@@ -143,7 +143,7 @@ var C = class { async method() {
                                                                     "end": 47
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 32,
                                                                 "end": 48
                                                             }
@@ -185,7 +185,7 @@ var C = class { async method() {
                             "end": 51
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 51
                     }

@@ -108,7 +108,7 @@ var p10 = ([{ value, done }]) => { };
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 18
                                     }
@@ -158,7 +158,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 31
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 31
                     }
@@ -236,7 +236,7 @@ var p10 = ([{ value, done }]) => { };
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 40,
                                         "end": 51
                                     }
@@ -317,7 +317,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 76
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 36,
                         "end": 76
                     }
@@ -424,7 +424,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 105
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 82,
                         "end": 105
                     }
@@ -541,7 +541,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 135
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 110,
                         "end": 135
                     }
@@ -598,7 +598,7 @@ var p10 = ([{ value, done }]) => { };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 141,
                         "end": 151
                     }
@@ -697,7 +697,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 171
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 156,
                         "end": 171
                     }
@@ -806,7 +806,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 193
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 176,
                         "end": 193
                     }
@@ -931,7 +931,7 @@ var p10 = ([{ value, done }]) => { };
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 198,
                         "end": 217
                     }
@@ -1041,7 +1041,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 242
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 224,
                         "end": 242
                     }
@@ -1115,7 +1115,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 255,
                                                     "end": 259
                                                 }
@@ -1168,7 +1168,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 268
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 247,
                         "end": 268
                     }
@@ -1285,7 +1285,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 293
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 273,
                         "end": 293
                     }
@@ -1366,7 +1366,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 307,
                                                     "end": 312
                                                 }
@@ -1419,7 +1419,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 321
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 298,
                         "end": 321
                     }
@@ -1495,7 +1495,7 @@ var p10 = ([{ value, done }]) => { };
                                                         "end": 339
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 334,
                                                     "end": 339
                                                 }
@@ -1548,7 +1548,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 348
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 326,
                         "end": 348
                     }
@@ -1658,7 +1658,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 373
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 353,
                         "end": 373
                     }
@@ -1802,7 +1802,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 405
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 378,
                         "end": 405
                     }
@@ -1878,7 +1878,7 @@ var p10 = ([{ value, done }]) => { };
                                                         "end": 424
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 418,
                                                     "end": 424
                                                 }
@@ -1931,7 +1931,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 434
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 410,
                         "end": 434
                     }
@@ -2067,7 +2067,7 @@ var p10 = ([{ value, done }]) => { };
                             "end": 521
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 488,
                         "end": 521
                     }

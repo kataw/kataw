@@ -70,7 +70,7 @@ for: x
                     "end": 3
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 3,
                 "end": 3
             },
@@ -91,7 +91,7 @@ for: x
                 "end": 6
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 4,
             "end": 6
         }

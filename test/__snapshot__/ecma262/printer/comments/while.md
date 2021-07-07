@@ -214,7 +214,7 @@ while(1) // Comment
                     "end": 150
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 122,
                 "end": 150
             },
@@ -316,7 +316,7 @@ while(1) // Comment
                     "end": 225
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 207,
                 "end": 226
             },
@@ -371,7 +371,7 @@ while(1) // Comment
                     "end": 255
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 236,
                 "end": 256
             },

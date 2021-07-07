@@ -66,7 +66,7 @@ const array = [/* element 1 */ 1, /* end of element 1 */];
                             "end": 57
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 57
                     }

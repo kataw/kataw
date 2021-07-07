@@ -92,7 +92,7 @@ for (a in b) var c = {}; [];
                                 "end": 23
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 16,
                             "end": 23
                         }
@@ -131,7 +131,7 @@ for (a in b) var c = {}; [];
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 24,
             "end": 28
         }

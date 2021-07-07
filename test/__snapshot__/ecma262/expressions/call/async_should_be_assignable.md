@@ -63,7 +63,7 @@ async = 5 + 5;
                         "end": 13
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 7,
                     "end": 13
                 },
@@ -73,7 +73,7 @@ async = 5 + 5;
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }

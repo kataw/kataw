@@ -89,7 +89,7 @@ function* gf() { +yield; }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 18,
                                     "end": 23
                                 },
@@ -99,7 +99,7 @@ function* gf() { +yield; }
                                 "end": 23
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 24
                         }

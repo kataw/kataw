@@ -80,7 +80,7 @@ L: let
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 7
                     }
@@ -122,7 +122,7 @@ L: let
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 13,
                         "end": 17
                     },
@@ -140,7 +140,7 @@ L: let
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 18,
                         "end": 22
                     }
@@ -339,7 +339,7 @@ L: let
                 "end": 90
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 68,
             "end": 90
         },
@@ -513,7 +513,7 @@ L: let
                 "end": 150
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 141,
             "end": 151
         },
@@ -575,7 +575,7 @@ L: let
                             "end": 170
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 156,
                         "end": 170
                     }
@@ -620,12 +620,12 @@ L: let
                     "end": 180
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 171,
                 "end": 180
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 171,
             "end": 181
         },
@@ -655,7 +655,7 @@ L: let
                 "end": 188
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 181,
             "end": 189
         },
@@ -685,7 +685,7 @@ L: let
                 "end": 196
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 189,
             "end": 197
         },
@@ -759,7 +759,7 @@ L: let
                                             "end": 222
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 219,
                                         "end": 222
                                     },
@@ -791,7 +791,7 @@ L: let
                 "end": 225
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 197,
             "end": 226
         },
@@ -930,7 +930,7 @@ L: let
                                                     "end": 269
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 257,
                                                 "end": 269
                                             }
@@ -947,7 +947,7 @@ L: let
                                     "end": 270
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 252,
                                 "end": 271
                             },
@@ -1087,7 +1087,7 @@ L: let
                                                                 "end": 305
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 303,
                                                             "end": 305
                                                         }
@@ -1137,7 +1137,7 @@ L: let
                 "end": 310
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 273,
             "end": 310
         },
@@ -1179,7 +1179,7 @@ L: let
                 "end": 320
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 310,
             "end": 320
         },
@@ -1213,7 +1213,7 @@ L: let
                     "end": 328
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 324,
                 "end": 328
             },
@@ -1234,7 +1234,7 @@ L: let
                 "end": 330
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 328,
             "end": 330
         },
@@ -1268,7 +1268,7 @@ L: let
                     "end": 338
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 334,
                 "end": 338
             },
@@ -1294,7 +1294,7 @@ L: let
                             "end": 341
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 340,
                         "end": 341
                     }

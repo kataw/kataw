@@ -60,7 +60,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                         "type": null,
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 25,
                         "end": 26
                     }
@@ -156,7 +156,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                     "end": 48
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 38,
                 "end": 48
             },
@@ -177,7 +177,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 49,
             "end": 57
         },
@@ -228,7 +228,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "end": 85
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 59,
             "end": 85
         },
@@ -306,7 +306,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                         "end": 117
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 95,
                                     "end": 117
                                 }

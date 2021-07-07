@@ -170,7 +170,7 @@ x = { foo(){ ([a = super[foo]] = c); }}
                                                         "end": 35
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 12,
                                                     "end": 36
                                                 }
@@ -213,7 +213,7 @@ x = { foo(){ ([a = super[foo]] = c); }}
                 "end": 39
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 39
         }

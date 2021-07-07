@@ -182,12 +182,12 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                     "end": 68
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 55,
                                                                 "end": 68
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 55,
                                                             "end": 68
                                                         }

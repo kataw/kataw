@@ -142,7 +142,7 @@ class x { constructor(){ function f(){ super[bar]; } }}
                                                                     "end": 49
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 38,
                                                                 "end": 50
                                                             }

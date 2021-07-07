@@ -65,7 +65,7 @@ for await (const item of arr) {
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 16,
                             "end": 21
                         }
@@ -113,7 +113,7 @@ for await (const item of arr) {
                                 "end": 38
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 31,
                             "end": 39
                         }

@@ -67,7 +67,7 @@ for (let {x,,} = obj;;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 12
                         }
@@ -112,7 +112,7 @@ for (let {x,,} = obj;;);
                     "end": 13
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 13,
                 "end": 13
             },
@@ -133,7 +133,7 @@ for (let {x,,} = obj;;);
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 16,
             "end": 21
         },

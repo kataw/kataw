@@ -202,7 +202,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                             "end": 131
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 131
                     }
@@ -331,7 +331,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                 "end": 240
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 132,
             "end": 241
         },
@@ -383,7 +383,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                 "end": 324
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 241,
             "end": 325
         },
@@ -510,7 +510,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                 "end": 424
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 325,
             "end": 425
         },
@@ -826,7 +826,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                                     "end": 585
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 552,
                                 "end": 585
                             },
@@ -963,7 +963,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                                     "end": 627
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 594,
                                 "end": 627
                             },
@@ -1100,7 +1100,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                                     "end": 669
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 636,
                                 "end": 669
                             },
@@ -1237,7 +1237,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                                     "end": 711
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 678,
                                 "end": 711
                             },
@@ -1374,7 +1374,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                                     "end": 753
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 720,
                                 "end": 753
                             },
@@ -1395,7 +1395,7 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                 "end": 754
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 547,
             "end": 755
         }

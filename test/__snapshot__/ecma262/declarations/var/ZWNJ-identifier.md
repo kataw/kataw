@@ -53,7 +53,7 @@ var $\u200C = 3;
                             "end": 9
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -103,7 +103,7 @@ var $\u200C = 3;
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 26
                     }
@@ -153,7 +153,7 @@ var $\u200C = 3;
                             "end": 43
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 31,
                         "end": 43
                     }

@@ -114,7 +114,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                                                 "end": 45
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 39,
                                             "end": 45
                                         }
@@ -164,7 +164,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                 "end": 61
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 60,
             "end": 61
         },
@@ -203,7 +203,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                                 "end": 72
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 69,
                             "end": 72
                         },

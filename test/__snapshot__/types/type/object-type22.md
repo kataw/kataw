@@ -270,7 +270,7 @@ type a = {function((((-1) => [c|d]))):string};
                 "end": 44
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 38,
             "end": 44
         },

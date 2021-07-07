@@ -139,7 +139,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                 "end": 62
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 63
         },
@@ -190,7 +190,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                 "end": 115
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 63,
             "end": 116
         }

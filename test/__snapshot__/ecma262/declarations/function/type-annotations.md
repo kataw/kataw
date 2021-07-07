@@ -100,7 +100,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 25
                     }
@@ -189,7 +189,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 44,
                         "end": 58
                     }
@@ -278,7 +278,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 77,
                         "end": 91
                     },
@@ -313,7 +313,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 92,
                         "end": 107
                     }
@@ -402,7 +402,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 126,
                         "end": 140
                     },
@@ -509,7 +509,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 182,
                         "end": 197
                     }
@@ -612,7 +612,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 216,
                         "end": 236
                     }
@@ -734,7 +734,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 255,
                         "end": 275
                     }
@@ -856,7 +856,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 294,
                         "end": 316
                     }
@@ -1023,7 +1023,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 335,
                         "end": 364
                     }
@@ -1224,7 +1224,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 384,
                         "end": 426
                     }
@@ -1473,7 +1473,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 446,
                         "end": 499
                     }
@@ -2244,7 +2244,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 701,
                         "end": 720
                     }
@@ -2392,7 +2392,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 740,
                         "end": 758
                     }
@@ -2529,7 +2529,7 @@ function foo28(numVal?: number = 2) {}
                         },
                         "right": null,
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 778,
                         "end": 800
                     }
@@ -2626,7 +2626,7 @@ function foo28(numVal?: number = 2) {}
                             "end": 838
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 820,
                         "end": 838
                     }
@@ -2729,7 +2729,7 @@ function foo28(numVal?: number = 2) {}
                             "end": 877
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 858,
                         "end": 877
                     }

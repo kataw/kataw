@@ -56,7 +56,7 @@ export default await 0;
                     "end": 22
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 22
             },

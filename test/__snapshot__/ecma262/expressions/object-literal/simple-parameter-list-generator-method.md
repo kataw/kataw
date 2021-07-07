@@ -107,7 +107,7 @@ var obj = {
                                                             "end": 30
                                                         },
                                                         "flags": 34,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 18,
                                                         "end": 30
                                                     }
@@ -168,7 +168,7 @@ var obj = {
                             "end": 57
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 57
                     }

@@ -127,7 +127,7 @@ function fn() { (() => this)().#x }
                                 "end": 33
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 33
                         }

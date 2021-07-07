@@ -91,7 +91,7 @@ async function * gen() {yield, yield}
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 24,
                                         "end": 29
                                     },
@@ -108,7 +108,7 @@ async function * gen() {yield, yield}
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 30,
                                         "end": 36
                                     }
@@ -119,7 +119,7 @@ async function * gen() {yield, yield}
                                 "end": 36
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 36
                         }

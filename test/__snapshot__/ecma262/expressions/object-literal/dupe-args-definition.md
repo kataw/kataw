@@ -151,7 +151,7 @@ o = {f([b, a], b=x) {}};
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         },
@@ -280,7 +280,7 @@ o = {f([b, a], b=x) {}};
                 "end": 38
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 39
         },
@@ -409,7 +409,7 @@ o = {f([b, a], b=x) {}};
                 "end": 60
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 39,
             "end": 61
         },
@@ -538,7 +538,7 @@ o = {f([b, a], b=x) {}};
                 "end": 82
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 61,
             "end": 83
         },
@@ -702,7 +702,7 @@ o = {f([b, a], b=x) {}};
                 "end": 115
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 83,
             "end": 116
         },
@@ -803,7 +803,7 @@ o = {f([b, a], b=x) {}};
                                                     "end": 139
                                                 },
                                                 "flags": 34,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 133,
                                                 "end": 139
                                             }
@@ -859,7 +859,7 @@ o = {f([b, a], b=x) {}};
                 "end": 144
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 116,
             "end": 145
         },
@@ -958,7 +958,7 @@ o = {f([b, a], b=x) {}};
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 34,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 162,
                                                 "end": 167
                                             }
@@ -1014,7 +1014,7 @@ o = {f([b, a], b=x) {}};
                 "end": 172
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 145,
             "end": 173
         },
@@ -1160,7 +1160,7 @@ o = {f([b, a], b=x) {}};
                 "end": 196
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 173,
             "end": 197
         },
@@ -1269,7 +1269,7 @@ o = {f([b, a], b=x) {}};
                                                     "end": 217
                                                 },
                                                 "flags": 34,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 213,
                                                 "end": 217
                                             }
@@ -1325,7 +1325,7 @@ o = {f([b, a], b=x) {}};
                 "end": 222
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 197,
             "end": 223
         },
@@ -1432,7 +1432,7 @@ o = {f([b, a], b=x) {}};
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 34,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 239,
                                                 "end": 244
                                             }
@@ -1488,7 +1488,7 @@ o = {f([b, a], b=x) {}};
                 "end": 249
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 223,
             "end": 250
         },
@@ -1597,7 +1597,7 @@ o = {f([b, a], b=x) {}};
                                                     "end": 270
                                                 },
                                                 "flags": 34,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 266,
                                                 "end": 270
                                             }
@@ -1653,7 +1653,7 @@ o = {f([b, a], b=x) {}};
                 "end": 275
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 250,
             "end": 276
         }

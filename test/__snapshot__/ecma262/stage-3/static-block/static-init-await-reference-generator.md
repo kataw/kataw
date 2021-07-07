@@ -163,7 +163,7 @@ class C {
                                                                                                     "end": 63
                                                                                                 },
                                                                                                 "flags": 34,
-                                                                                                "transformFlags": 0,
+                                                                                                "transformFlags": 4096,
                                                                                                 "start": 42,
                                                                                                 "end": 63
                                                                                             }
@@ -216,7 +216,7 @@ class C {
                                                                                                         "end": 91
                                                                                                     },
                                                                                                     "flags": 16,
-                                                                                                    "transformFlags": 0,
+                                                                                                    "transformFlags": 4096,
                                                                                                     "start": 66,
                                                                                                     "end": 92
                                                                                                 }
@@ -315,7 +315,7 @@ class C {
                                                 "end": 123
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 124
                                         }

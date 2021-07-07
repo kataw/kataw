@@ -46,7 +46,7 @@ let {q=3} = {};
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
@@ -95,7 +95,7 @@ let {q=3} = {};
                             "end": 16
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 10,
                         "end": 16
                     }
@@ -178,7 +178,7 @@ let {q=3} = {};
                             "end": 31
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 21,
                         "end": 31
                     }
@@ -278,7 +278,7 @@ let {q=3} = {};
                             "end": 53
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 36,
                         "end": 53
                     }
@@ -336,7 +336,7 @@ let {q=3} = {};
                                             "end": 63
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 60,
                                         "end": 63
                                     }
@@ -370,7 +370,7 @@ let {q=3} = {};
                             "end": 69
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 58,
                         "end": 69
                     }

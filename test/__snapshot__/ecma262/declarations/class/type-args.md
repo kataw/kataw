@@ -158,7 +158,7 @@ class C<T> {
                                                             "end": 41
                                                         },
                                                         "flags": 97,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 22,
                                                         "end": 41
                                                     },
@@ -186,12 +186,12 @@ class C<T> {
                                                         "end": 45
                                                     },
                                                     "flags": 97,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 22,
                                                     "end": 45
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 22,
                                                 "end": 46
                                             },
@@ -227,7 +227,7 @@ class C<T> {
                                                             "end": 65
                                                         },
                                                         "flags": 97,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 46,
                                                         "end": 65
                                                     },
@@ -273,17 +273,17 @@ class C<T> {
                                                             "end": 78
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 74,
                                                         "end": 78
                                                     },
                                                     "flags": 97,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 46,
                                                     "end": 78
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 46,
                                                 "end": 79
                                             },
@@ -379,7 +379,7 @@ class C<T> {
                                                             "end": 114
                                                         },
                                                         "flags": 97,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 79,
                                                         "end": 114
                                                     },
@@ -407,12 +407,12 @@ class C<T> {
                                                         "end": 118
                                                     },
                                                     "flags": 97,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 79,
                                                     "end": 118
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 79,
                                                 "end": 119
                                             }

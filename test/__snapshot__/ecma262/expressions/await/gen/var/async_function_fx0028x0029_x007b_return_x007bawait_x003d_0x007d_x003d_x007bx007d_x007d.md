@@ -49,7 +49,7 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -294,7 +294,7 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                             "end": 89
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 89
                     }

@@ -119,7 +119,7 @@ x(function (other) { return other });
                                                     "end": 68
                                                 },
                                                 "flags": 4194400,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 54,
                                                 "end": 68
                                             },
@@ -146,7 +146,7 @@ x(function (other) { return other });
                             "end": 71
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 71
                     }
@@ -268,7 +268,7 @@ x(function (other) { return other });
                 "end": 119
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 72,
             "end": 120
         }

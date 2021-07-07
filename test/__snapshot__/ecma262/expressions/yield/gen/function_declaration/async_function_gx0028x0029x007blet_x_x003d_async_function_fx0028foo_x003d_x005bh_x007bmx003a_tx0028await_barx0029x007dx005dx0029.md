@@ -234,7 +234,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                                         "end": 90
                                                                                                                     },
                                                                                                                     "flags": 32,
-                                                                                                                    "transformFlags": 0,
+                                                                                                                    "transformFlags": 4096,
                                                                                                                     "start": 81,
                                                                                                                     "end": 90
                                                                                                                 }
@@ -280,7 +280,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                             "end": 93
                                                                         },
                                                                         "flags": 34,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 65,
                                                                         "end": 93
                                                                     }
@@ -314,7 +314,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                             "end": 96
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 43,
                                                         "end": 96
                                                     }

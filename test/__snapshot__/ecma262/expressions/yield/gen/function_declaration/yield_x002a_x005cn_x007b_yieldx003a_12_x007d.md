@@ -89,12 +89,12 @@ function not_gen() { yield * \n { yield: 12 } }}
                                     "end": 28
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 20,
                                 "end": 28
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 28
                         }
@@ -127,7 +127,7 @@ function not_gen() { yield * \n { yield: 12 } }}
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 30,
             "end": 31
         },
@@ -166,7 +166,7 @@ function not_gen() { yield * \n { yield: 12 } }}
                                 "end": 43
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 40,
                             "end": 43
                         },

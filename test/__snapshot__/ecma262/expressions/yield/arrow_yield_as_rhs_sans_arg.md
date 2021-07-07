@@ -118,17 +118,17 @@ function *g() { async (x = x + yield) => x; }
                                                     "asteriskToken": null,
                                                     "expression": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 30,
                                                     "end": 36
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 26,
                                                 "end": 36
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 23,
                                             "end": 36
                                         }
@@ -162,7 +162,7 @@ function *g() { async (x = x + yield) => x; }
                                 "end": 42
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 43
                         }

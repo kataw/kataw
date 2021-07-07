@@ -92,7 +92,7 @@ result = { x: x[yield] } = vals;
                             "end": 20
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }
@@ -215,7 +215,7 @@ result = { x: x[yield] } = vals;
                 "end": 54
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 21,
             "end": 55
         }

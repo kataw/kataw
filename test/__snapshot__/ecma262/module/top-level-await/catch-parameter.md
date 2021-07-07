@@ -94,12 +94,12 @@ try {} catch ([ x = await 42 ]) {}
                                         "end": 28
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 19,
                                     "end": 28
                                 },
                                 "flags": 0,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 28
                             }
@@ -219,7 +219,7 @@ try {} catch ([ x = await 42 ]) {}
                                         "end": 81
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 72,
                                     "end": 81
                                 },
@@ -338,12 +338,12 @@ try {} catch ([ x = await 42 ]) {}
                                         "end": 146
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 137,
                                     "end": 146
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 133,
                                 "end": 146
                             }

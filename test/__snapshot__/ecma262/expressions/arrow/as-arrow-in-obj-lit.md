@@ -122,7 +122,7 @@ x = {arrow: (x, y) => ok};
                 "end": 22
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         },
@@ -240,7 +240,7 @@ x = {arrow: (x, y) => ok};
                 "end": 50
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 23,
             "end": 51
         }

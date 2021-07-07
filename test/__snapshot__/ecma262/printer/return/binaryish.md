@@ -198,7 +198,7 @@ function f() {
                                                 "end": 91
                                             },
                                             "flags": 268435488,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 23,
                                             "end": 91
                                         },
@@ -359,7 +359,7 @@ function f() {
                                                             "end": 205
                                                         },
                                                         "flags": 268435488,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 5120,
                                                         "start": 136,
                                                         "end": 205
                                                     },
@@ -369,7 +369,7 @@ function f() {
                                                     "end": 206
                                                 },
                                                 "flags": 268435488,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 94,
                                                 "end": 206
                                             },
@@ -379,7 +379,7 @@ function f() {
                                             "end": 207
                                         },
                                         "flags": 268435488,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 23,
                                         "end": 207
                                     },
@@ -516,7 +516,7 @@ function f() {
                                         "end": 267
                                     },
                                     "flags": 268435488,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 23,
                                     "end": 267
                                 },
@@ -691,7 +691,7 @@ function f() {
                                                         "end": 540
                                                     },
                                                     "flags": 97,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 393,
                                                     "end": 540
                                                 }
@@ -708,7 +708,7 @@ function f() {
                                         "end": 547
                                     },
                                     "flags": 268435488,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 282,
                                     "end": 547
                                 },
@@ -898,7 +898,7 @@ function f() {
                                     "end": 652
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 562,
                                 "end": 652
                             },

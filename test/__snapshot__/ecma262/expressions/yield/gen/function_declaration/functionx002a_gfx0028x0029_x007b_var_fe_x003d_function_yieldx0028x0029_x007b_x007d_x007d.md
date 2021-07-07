@@ -180,7 +180,7 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                                                             "end": 67
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 41,
                                                         "end": 67
                                                     }

@@ -66,7 +66,7 @@ for await (let binding of [await null]) {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
@@ -135,7 +135,7 @@ for await (let binding of [await null]) {
                                 "end": 209
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 199,
                             "end": 209
                         }
@@ -175,12 +175,12 @@ for await (let binding of [await null]) {
                                     "end": 226
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 213,
                                 "end": 226
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 213,
                             "end": 227
                         },
@@ -257,7 +257,7 @@ for await (let binding of [await null]) {
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 390,
                             "end": 398
                         }
@@ -301,7 +301,7 @@ for await (let binding of [await null]) {
                                 "end": 413
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 403,
                             "end": 413
                         }
@@ -341,12 +341,12 @@ for await (let binding of [await null]) {
                                     "end": 430
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 417,
                                 "end": 430
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 417,
                             "end": 431
                         },
@@ -423,7 +423,7 @@ for await (let binding of [await null]) {
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 594,
                             "end": 602
                         }
@@ -467,7 +467,7 @@ for await (let binding of [await null]) {
                                 "end": 617
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 607,
                             "end": 617
                         }
@@ -507,12 +507,12 @@ for await (let binding of [await null]) {
                                     "end": 634
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 621,
                                 "end": 634
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 621,
                             "end": 635
                         },
@@ -564,17 +564,17 @@ for await (let binding of [await null]) {
 var binding;
 for await (binding of [await null]) {
     await null;
-    break ;
+    break;
   }
 
 for await (var binding of [await null]) {
     await null;
-    break ;
+    break;
   }
 
 for await (let binding of [await null]) {
     await null;
-    break ;
+    break;
   }
 
 ```

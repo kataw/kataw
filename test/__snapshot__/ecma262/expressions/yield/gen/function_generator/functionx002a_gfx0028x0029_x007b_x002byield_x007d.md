@@ -169,7 +169,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 58,
                                                                     "end": 63
                                                                 },
@@ -179,7 +179,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                                                 "end": 63
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 56,
                                                             "end": 64
                                                         }

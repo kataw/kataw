@@ -87,7 +87,7 @@ const map = {
                                                     "end": 26
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 17,
                                                 "end": 26
                                             },
@@ -123,7 +123,7 @@ const map = {
                             "end": 43
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 43
                     }

@@ -54,7 +54,7 @@ var 𫠞_ = 12;
                             "end": 12
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 12
                     }
@@ -104,7 +104,7 @@ var 𫠞_ = 12;
                             "end": 27
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 18,
                         "end": 27
                     }
@@ -154,7 +154,7 @@ var 𫠞_ = 12;
                             "end": 42
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 33,
                         "end": 42
                     }

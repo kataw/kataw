@@ -142,7 +142,7 @@ function* foo() {
                                                     "end": 93
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 82,
                                                 "end": 93
                                             },

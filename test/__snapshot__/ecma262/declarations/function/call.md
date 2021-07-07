@@ -87,7 +87,7 @@ function g(x: () => any) {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 17
                     }
@@ -132,7 +132,7 @@ function g(x: () => any) {
                                 "end": 26
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 27
                         },
@@ -186,7 +186,7 @@ function g(x: () => any) {
                                             "end": 43
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 35,
                                         "end": 43
                                     }
@@ -307,7 +307,7 @@ function g(x: () => any) {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 59,
                         "end": 71
                     }
@@ -352,7 +352,7 @@ function g(x: () => any) {
                                 "end": 80
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 74,
                             "end": 81
                         },
@@ -406,7 +406,7 @@ function g(x: () => any) {
                                             "end": 97
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 89,
                                         "end": 97
                                     }

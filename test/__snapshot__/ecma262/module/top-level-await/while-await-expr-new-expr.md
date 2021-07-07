@@ -145,7 +145,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                                     "end": 52
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 45,
                                                 "end": 53
                                             }
@@ -174,12 +174,12 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                         "end": 55
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 2048,
                     "start": 12,
                     "end": 56
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 7,
                 "end": 56
             },
@@ -236,7 +236,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
 while (await new Promise(function (res, rej) {
     res(1);
   })) {
-    break ;
+    break;
   }
 ```
 

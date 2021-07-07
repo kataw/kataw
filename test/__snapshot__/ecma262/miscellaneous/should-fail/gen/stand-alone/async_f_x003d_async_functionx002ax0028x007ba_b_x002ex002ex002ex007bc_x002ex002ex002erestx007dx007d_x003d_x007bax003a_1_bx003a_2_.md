@@ -139,7 +139,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 0,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 32,
                                                     "end": 36
                                                 },
@@ -190,7 +190,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                                     "type": null,
                                                                     "right": null,
                                                                     "flags": 0,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 39,
                                                                     "end": 47
                                                                 }
@@ -374,7 +374,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                         "end": 82
                                     },
                                     "flags": 34,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 26,
                                     "end": 82
                                 }
@@ -418,7 +418,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                 "end": 86
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 86
         }

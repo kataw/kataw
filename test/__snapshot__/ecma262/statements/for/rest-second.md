@@ -50,7 +50,7 @@ for (let a, ...b = 1;;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         }
@@ -95,7 +95,7 @@ for (let a, ...b = 1;;);
                     "end": 11
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 11,
                 "end": 11
             },
@@ -139,7 +139,7 @@ for (let a, ...b = 1;;);
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 15,
             "end": 21
         },

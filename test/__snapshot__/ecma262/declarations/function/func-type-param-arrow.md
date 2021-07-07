@@ -207,7 +207,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "type": null,
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 50,
                         "end": 58
                     }
@@ -423,7 +423,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "type": null,
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 108,
                         "end": 116
                     }

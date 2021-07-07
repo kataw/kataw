@@ -132,17 +132,17 @@ function not_gen() { async function f(){ await await foo; } }}
                                                         "end": 56
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 46,
                                                     "end": 56
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 40,
                                                 "end": 56
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 40,
                                             "end": 57
                                         }

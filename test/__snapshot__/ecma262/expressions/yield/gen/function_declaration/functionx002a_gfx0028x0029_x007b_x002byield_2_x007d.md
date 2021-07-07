@@ -134,7 +134,7 @@ function not_gen() { function* gf() { +yield 2; } }}
                                                         "end": 46
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 39,
                                                     "end": 46
                                                 },
@@ -144,7 +144,7 @@ function not_gen() { function* gf() { +yield 2; } }}
                                                 "end": 46
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 37,
                                             "end": 47
                                         }

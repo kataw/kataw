@@ -124,7 +124,7 @@ wrap({0o4432(){}});
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         },
@@ -228,7 +228,7 @@ wrap({0o4432(){}});
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 30
         },
@@ -332,7 +332,7 @@ wrap({0o4432(){}});
                 "end": 52
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 30,
             "end": 53
         },
@@ -436,7 +436,7 @@ wrap({0o4432(){}});
                 "end": 74
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 53,
             "end": 75
         },
@@ -540,7 +540,7 @@ wrap({0o4432(){}});
                 "end": 95
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 75,
             "end": 96
         }

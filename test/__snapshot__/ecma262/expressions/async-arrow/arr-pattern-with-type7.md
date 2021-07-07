@@ -82,7 +82,7 @@ async ([x: string = y, z: number]) =>  {};
                                             "end": 21
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 8,
                                         "end": 21
                                     },
@@ -117,7 +117,7 @@ async ([x: string = y, z: number]) =>  {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 22,
                                         "end": 32
                                     }
@@ -170,7 +170,7 @@ async ([x: string = y, z: number]) =>  {};
                 "end": 41
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 42
         }

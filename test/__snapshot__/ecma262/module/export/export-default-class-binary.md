@@ -110,7 +110,7 @@ export default class Foo {}++x
                 "end": 30
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 30
         }

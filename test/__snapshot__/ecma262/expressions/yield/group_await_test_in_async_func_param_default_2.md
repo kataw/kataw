@@ -126,7 +126,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                                         "end": 50
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 43,
                                                     "end": 50
                                                 },
@@ -157,7 +157,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                             "end": 53
                                         },
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 40,
                                         "end": 53
                                     }

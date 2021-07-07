@@ -54,7 +54,7 @@ async (a = 1, b = 2) => x;
                                 "end": 12
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 12
                         },
@@ -82,7 +82,7 @@ async (a = 1, b = 2) => x;
                                 "end": 19
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 13,
                             "end": 19
                         }
@@ -116,7 +116,7 @@ async (a = 1, b = 2) => x;
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }

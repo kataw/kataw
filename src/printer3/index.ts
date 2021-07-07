@@ -318,7 +318,7 @@ export function printConditionalExpression(
     return concat([
       printStatement(printer, node.shortCircuit, lineMap, node),
       printer.space,
-      '?',
+      printKeywordNoSpace(printer, node.questionToken),
       printer.source.slice(node.questionToken.end, node.end),
     ]);
   }
@@ -328,13 +328,13 @@ export function printConditionalExpression(
     indent(
       concat([
         line,
-        '?',
+        printKeywordNoSpace(printer, node.questionToken),
         printer.space,
         node.consequent.kind === SyntaxKind.ConditionalExpression
           ? printStatement(printer, node.consequent, lineMap, node)
           : indent(printStatement(printer, node.consequent, lineMap, node)),
         line,
-        ':',
+        printKeywordNoSpace(printer, node.colonToken),
         printer.space,
         node.alternate.kind === SyntaxKind.ConditionalExpression
           ? printStatement(printer, node.alternate, lineMap, node)
@@ -428,10 +428,17 @@ function printBinaryExpressionRest(
 
     return parts;
   }
+
+  const canNotRemoveSpace = node.operatorToken.kind === SyntaxKind.InKeyword &&
+  (node.left.kind === SyntaxKind.RegularExpression ||
+    node.left.kind === SyntaxKind.Identifier ||
+    node.left.kind === SyntaxKind.NumericLiteral)
+
   return concat([
     printStatement(printer, node.left, lineMap, node),
-    ' ',
-    printKeyword(printer, node.operatorToken, node, /* addSpace */ true),
+    canNotRemoveSpace ? ' ' : printer.space,
+    printKeyword(printer, node.operatorToken, node, /* addSpace */ false),
+    node.operatorToken.kind === SyntaxKind.InKeyword && node.right.kind === SyntaxKind.Identifier ? ' ' : printer.space,
     printStatement(printer, node.right, lineMap, node),
   ]);
 }
@@ -2888,7 +2895,8 @@ function printDoWhileStatement(
     : concat([
         group(
           concat([
-            printKeyword(printer, node.doKeyword, node, /* addSpace */ true),
+            printKeywordNoSpace(printer, node.doKeyword),
+            printer.space,
             adjustClause(
               node.statement,
               printer,
@@ -2898,7 +2906,8 @@ function printDoWhileStatement(
           {},
         ),
         node.statement.kind === SyntaxKind.Block ? printer.space : hardline,
-        printKeyword(printer, node.whileKeyword, node, /* addSpace */ true),
+        printKeywordNoSpace(printer, node.whileKeyword),
+        printer.space,
         '(',
         group(
           concat([
@@ -2988,14 +2997,13 @@ function printContinueStatement(
   printer: Printer,
   node: any,
   lineMap: number[],
-  parentNode: SyntaxNode,
 ): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : concat([
-        printKeyword(printer, node.continueKeyword, node, /* addSpace */ true),
+        printKeyword(printer, node.continueKeyword, node, /* addSpace */ false),
         node.label
-          ? concat([' ', printStatement(printer, node.label, lineMap, node)])
+          ? concat([printer.space, printStatement(printer, node.label, lineMap, node)])
           : '',
         toggleSemicolon(printer),
       ]);
@@ -3005,14 +3013,13 @@ function printBreakStatement(
   printer: Printer,
   node: any,
   lineMap: number[],
-  parentNode: SyntaxNode,
 ): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : concat([
-        printKeyword(printer, node.breakKeyword, node, /* addSpace */ true),
+        printKeyword(printer, node.breakKeyword, node, /* addSpace */ false),
         node.label
-          ? concat([' ', printStatement(printer, node.label, lineMap, node)])
+          ? concat([printer.space, printStatement(printer, node.label, lineMap, node)])
           : '',
         toggleSemicolon(printer),
       ]);
@@ -3022,13 +3029,13 @@ function printWithStatement(
   printer: Printer,
   node: any,
   lineMap: number[],
-  parentNode: SyntaxNode,
 ): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : group(
         concat([
-          printKeyword(printer, node.withKeyword, node, /* addSpace */ true),
+          printKeywordNoSpace(printer, node.withKeyword),
+          printer.space,
           '(',
           group(
             concat([
@@ -3057,13 +3064,11 @@ function printNewTarget(printer: Printer, node: any): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : concat([
-        printKeyword(printer, node.newKeyword, node, /* addSpace */ false),
+        printKeywordNoSpace(printer, node.newKeyword),
         '.',
-        printKeyword(
+        printKeywordNoSpace(
           printer,
-          node.targetIdentifier,
-          node,
-          /* addSpace */ false,
+          node.targetIdentifier
         ),
       ]);
 }
@@ -3079,7 +3084,8 @@ function printCatchClause(
     PrinterFlags.DisallowSemicolon;
   return node.catchParameter
     ? concat([
-        printKeyword(printer, node.catchKeyword, node, /* addSpace */ true),
+        printKeywordNoSpace(printer, node.catchKeyword),
+        printer.space,
         '(',
         printStatement(printer, node.catchParameter, lineMap, node),
         ')',
@@ -3309,7 +3315,8 @@ function printForInStatement(
 ): any {
   return group(
     concat([
-      printKeyword(printer, node.forKeyword, node, /* addSpace */ true),
+      printKeywordNoSpace(printer, node.forKeyword),
+      printer.space,
       '(',
       printForBinding(printer, node.initializer, lineMap, node),
       ' ',
@@ -3330,11 +3337,11 @@ function printForOfStatement(
   printer: Printer,
   node: any,
   lineMap: number[],
-  parentNode: SyntaxNode,
 ): any {
   return group(
     concat([
-      printKeyword(printer, node.forKeyword, node, /* addSpace */ true),
+      printKeywordNoSpace(printer, node.forKeyword),
+      node.awaitKeyword ? ' ' : printer.space,
       printKeyword(printer, node.awaitKeyword, node, /* addSpace */ true),
       '(',
       printForBinding(printer, node.initializer, lineMap, node),
@@ -3356,11 +3363,12 @@ function printForStatement(
   printer: Printer,
   node: any,
   lineMap: number[],
-  parentNode: SyntaxNode,
 ): any {
   return !node.initializer && !node.condition && !node.incrementor
     ? concat([
-        'for (;;)',
+        'for',
+        printer.space,
+        '(;;)',
         adjustClause(
           node.statement,
           printer,
@@ -3369,7 +3377,8 @@ function printForStatement(
       ])
     : group(
         concat([
-          printKeyword(printer, node.forKeyword, node, /* addSpace */ true),
+          printKeywordNoSpace(printer, node.forKeyword),
+          printer.space,
           '(',
           group(
             concat([
@@ -3465,7 +3474,8 @@ function printIfStatement(
   const parts: any[] = [
     group(
       concat([
-        printKeyword(printer, node.ifKeyword, node, /* addSpace */ true),
+        printKeywordNoSpace(printer, node.ifKeyword),
+        printer.space,
         '(',
         group(
           concat([

@@ -144,7 +144,7 @@ x({*foo(){}});
                 "end": 15
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         },
@@ -254,7 +254,7 @@ x({*foo(){}});
                 "end": 31
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 16,
             "end": 32
         },
@@ -364,7 +364,7 @@ x({*foo(){}});
                 "end": 47
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 32,
             "end": 48
         },
@@ -528,7 +528,7 @@ x({*foo(){}});
                 "end": 77
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 48,
             "end": 78
         },
@@ -692,7 +692,7 @@ x({*foo(){}});
                 "end": 107
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 78,
             "end": 108
         },
@@ -802,7 +802,7 @@ x({*foo(){}});
                 "end": 130
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 108,
             "end": 131
         },
@@ -919,7 +919,7 @@ x({*foo(){}});
                 "end": 153
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 131,
             "end": 154
         },
@@ -1083,7 +1083,7 @@ x({*foo(){}});
                 "end": 178
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 154,
             "end": 179
         },
@@ -1193,7 +1193,7 @@ x({*foo(){}});
                 "end": 194
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 179,
             "end": 195
         }

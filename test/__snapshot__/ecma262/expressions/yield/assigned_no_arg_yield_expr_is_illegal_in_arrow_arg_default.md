@@ -118,7 +118,7 @@ function *f(){ async (x = z = yield) => {} }
                                                     "asteriskToken": null,
                                                     "expression": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 29,
                                                     "end": 35
                                                 },
@@ -128,7 +128,7 @@ function *f(){ async (x = z = yield) => {} }
                                                 "end": 35
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 22,
                                             "end": 35
                                         }
@@ -169,7 +169,7 @@ function *f(){ async (x = z = yield) => {} }
                                 "end": 42
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 42
                         }

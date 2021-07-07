@@ -139,7 +139,7 @@ function functionName() {
                                                             },
                                                             "argumentList": null,
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 2048,
                                                             "start": 124,
                                                             "end": 133
                                                         },
@@ -239,7 +239,7 @@ function functionName() {
                                                 "end": 209
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 74,
                                             "end": 210
                                         }

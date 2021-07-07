@@ -171,7 +171,7 @@ class C { *method() { var f = function() { super(); } } }
                                                                                     "end": 50
                                                                                 },
                                                                                 "flags": 16,
-                                                                                "transformFlags": 0,
+                                                                                "transformFlags": 4096,
                                                                                 "start": 42,
                                                                                 "end": 51
                                                                             }
@@ -193,7 +193,7 @@ class C { *method() { var f = function() { super(); } } }
                                                                 "end": 53
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 25,
                                                             "end": 53
                                                         }

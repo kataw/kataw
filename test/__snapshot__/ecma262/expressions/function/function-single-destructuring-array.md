@@ -136,7 +136,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "type": null,
                                     "right": null,
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 70,
                                     "end": 78
                                 }
@@ -305,7 +305,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 172,
                                         "end": 180
                                     }
@@ -333,7 +333,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "end": 204
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 135,
                         "end": 204
                     }
@@ -490,7 +490,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 327,
                                         "end": 335
                                     }
@@ -571,7 +571,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "end": 354
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 260,
                         "end": 354
                     }
@@ -731,7 +731,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 447,
                                                     "end": 455
                                                 }
@@ -808,7 +808,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "end": 479
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 381,
                         "end": 479
                     }
@@ -946,7 +946,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 554,
                                                         "end": 571
                                                     }
@@ -1147,7 +1147,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 690,
                                                     "end": 698
                                                 }
@@ -1236,7 +1236,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 "end": 723
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 607,
             "end": 724
         }

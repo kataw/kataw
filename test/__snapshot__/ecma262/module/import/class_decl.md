@@ -104,7 +104,7 @@ class x { import {x} from "y"; }
                             "end": 19
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 18,
                         "end": 19
                     }
@@ -131,7 +131,7 @@ class x { import {x} from "y"; }
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 20,
             "end": 25
         },
@@ -147,7 +147,7 @@ class x { import {x} from "y"; }
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 25,
             "end": 30
         }

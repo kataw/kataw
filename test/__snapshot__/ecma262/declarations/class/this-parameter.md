@@ -649,7 +649,7 @@ class two {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 164,
                                             "end": 176
                                         }
@@ -742,7 +742,7 @@ class two {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 187,
                                             "end": 199
                                         },
@@ -844,7 +844,7 @@ class two {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 213,
                                             "end": 225
                                         },
@@ -870,7 +870,7 @@ class two {
                                             "type": null,
                                             "right": null,
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 226,
                                             "end": 231
                                         }
@@ -963,7 +963,7 @@ class two {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 242,
                                             "end": 254
                                         },
@@ -1007,7 +1007,7 @@ class two {
                                             "type": null,
                                             "right": null,
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 261,
                                             "end": 266
                                         }
@@ -1145,7 +1145,7 @@ class two {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 280,
                                             "end": 287
                                         }

@@ -255,7 +255,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "end": 38
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 36,
             "end": 38
         },
@@ -271,7 +271,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "end": 44
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 42,
             "end": 44
         },
@@ -287,7 +287,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "end": 50
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 48,
             "end": 50
         },
@@ -303,7 +303,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "end": 56
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 54,
             "end": 56
         },
@@ -319,7 +319,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "end": 62
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 60,
             "end": 63
         }

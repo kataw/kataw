@@ -192,7 +192,7 @@ Object.entries({
                             "end": 22
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 22
                     }
@@ -275,7 +275,7 @@ Object.entries({
                             "end": 49
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 30,
                         "end": 49
                     }
@@ -384,7 +384,7 @@ Object.entries({
                             "end": 156
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 57,
                         "end": 156
                     }
@@ -493,7 +493,7 @@ Object.entries({
                             "end": 197
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 164,
                         "end": 197
                     }
@@ -602,7 +602,7 @@ Object.entries({
                             "end": 239
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 205,
                         "end": 239
                     }
@@ -995,7 +995,7 @@ Object.entries({
                             "end": 633
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 322,
                         "end": 633
                     }
@@ -1412,7 +1412,7 @@ Object.entries({
                             "end": 1250
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 640,
                         "end": 1250
                     }
@@ -1905,7 +1905,7 @@ Object.entries({
                 "end": 2388
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1250,
             "end": 2388
         },
@@ -1991,7 +1991,7 @@ Object.entries({
                 "end": 2464
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2388,
             "end": 2464
         }

@@ -73,7 +73,7 @@ async ([...x.y]) => z
                                         "type": null,
                                         "right": null,
                                         "flags": 1073741856,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 8,
                                         "end": 14
                                     }
@@ -119,7 +119,7 @@ async ([...x.y]) => z
                 "end": 21
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }

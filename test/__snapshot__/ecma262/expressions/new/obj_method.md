@@ -94,7 +94,7 @@ foo({bar(){ new.target }})
                                                                 "end": 22
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 11,
                                                             "end": 22
                                                         }
@@ -144,7 +144,7 @@ foo({bar(){ new.target }})
                 "end": 26
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }

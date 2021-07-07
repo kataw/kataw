@@ -111,7 +111,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 35,
                         "end": 53
                     }
@@ -284,7 +284,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 137,
                         "end": 145
                     }
@@ -645,7 +645,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 272,
                         "end": 286
                     }
@@ -882,7 +882,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 334,
                         "end": 401
                     }
@@ -1016,7 +1016,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 441,
                         "end": 454
                     }

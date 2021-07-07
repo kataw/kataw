@@ -611,7 +611,7 @@ type E = (string => void)['bar'];
                 "end": 132
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 125,
             "end": 133
         }

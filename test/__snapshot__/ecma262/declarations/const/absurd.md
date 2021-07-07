@@ -128,7 +128,7 @@ const absurd = <T>(x: empty): T => {};
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 14,
                                         "end": 27
                                     }
@@ -194,7 +194,7 @@ const absurd = <T>(x: empty): T => {};
                             "end": 37
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 37
                     }

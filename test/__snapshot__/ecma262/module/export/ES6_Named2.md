@@ -71,7 +71,7 @@ export const [destructuredArrNumber2] = [1]
                             "end": 26
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 26
                     }
@@ -120,7 +120,7 @@ export const [destructuredArrNumber2] = [1]
                             "end": 54
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 33,
                         "end": 54
                     }
@@ -169,7 +169,7 @@ export const [destructuredArrNumber2] = [1]
                             "end": 89
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 61,
                         "end": 89
                     }
@@ -218,7 +218,7 @@ export const [destructuredArrNumber2] = [1]
                             "end": 124
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 96,
                         "end": 124
                     }
@@ -749,7 +749,7 @@ export const [destructuredArrNumber2] = [1]
                                 "end": 428
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 409,
                             "end": 428
                         },
@@ -775,7 +775,7 @@ export const [destructuredArrNumber2] = [1]
                                 "end": 448
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 429,
                             "end": 448
                         }
@@ -893,7 +893,7 @@ export const [destructuredArrNumber2] = [1]
                                 "end": 517
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 462,
                             "end": 517
                         }
@@ -994,7 +994,7 @@ export const [destructuredArrNumber2] = [1]
                                 "end": 562
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 531,
                             "end": 562
                         }

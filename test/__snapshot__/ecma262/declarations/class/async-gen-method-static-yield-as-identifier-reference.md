@@ -139,7 +139,7 @@ var C = class { static async *gen() {
                                                                         "asteriskToken": null,
                                                                         "expression": null,
                                                                         "flags": 32,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 46,
                                                                         "end": 52
                                                                     },
@@ -149,7 +149,7 @@ var C = class { static async *gen() {
                                                                     "end": 52
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 37,
                                                                 "end": 53
                                                             }
@@ -191,7 +191,7 @@ var C = class { static async *gen() {
                             "end": 56
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 56
                     }

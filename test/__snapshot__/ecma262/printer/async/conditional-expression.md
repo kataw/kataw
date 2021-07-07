@@ -140,7 +140,7 @@ async function f2() {
                                                     "end": 62
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 37,
                                                 "end": 62
                                             },
@@ -186,7 +186,7 @@ async function f2() {
                                                     "end": 75
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 64,
                                                 "end": 75
                                             },
@@ -205,12 +205,12 @@ async function f2() {
                                                 "end": 82
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 37,
                                             "end": 82
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 28,
                                         "end": 82
                                     }
@@ -451,7 +451,7 @@ async function f2() {
                                                                     "end": 183
                                                                 },
                                                                 "flags": 96,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 133,
                                                                 "end": 183
                                                             },
@@ -461,7 +461,7 @@ async function f2() {
                                                             "end": 184
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 121,
                                                         "end": 184
                                                     }
@@ -478,7 +478,7 @@ async function f2() {
                                             "end": 188
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 106,
                                         "end": 189
                                     }
@@ -519,7 +519,7 @@ async function f2() {
                 "end": 194
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 85,
             "end": 194
         },
@@ -647,7 +647,7 @@ async function f2() {
                                             "end": 270
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 225,
                                         "end": 270
                                     },
@@ -657,12 +657,12 @@ async function f2() {
                                     "end": 271
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 217,
                                 "end": 271
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 217,
                             "end": 272
                         },
@@ -689,7 +689,7 @@ async function f2() {
                                         "end": 291
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 272,
                                     "end": 291
                                 },
@@ -750,12 +750,12 @@ async function f2() {
                                     "end": 324
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 272,
                                 "end": 324
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 272,
                             "end": 324
                         }

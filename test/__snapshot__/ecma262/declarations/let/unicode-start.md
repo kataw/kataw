@@ -45,7 +45,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
@@ -86,7 +86,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 15,
                         "end": 24
                     }
@@ -127,7 +127,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 48
                     }
@@ -168,7 +168,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 53,
                         "end": 58
                     }
@@ -209,7 +209,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 63,
                         "end": 100
                     }

@@ -61,7 +61,7 @@
                 },
                 "argumentList": null,
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 19,
                 "end": 24
             },
@@ -102,7 +102,7 @@
                         "end": 34
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 27,
                     "end": 34
                 },
@@ -123,7 +123,7 @@
                     "end": 39
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 27,
                 "end": 39
             },

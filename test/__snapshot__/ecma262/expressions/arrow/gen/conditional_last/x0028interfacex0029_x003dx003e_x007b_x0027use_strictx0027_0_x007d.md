@@ -95,7 +95,7 @@ bar, (interface) => { 'use strict'; 0 };
                                             "end": 37
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 35,
                                         "end": 37
                                     }
@@ -122,7 +122,7 @@ bar, (interface) => { 'use strict'; 0 };
                 "end": 39
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 40
         }

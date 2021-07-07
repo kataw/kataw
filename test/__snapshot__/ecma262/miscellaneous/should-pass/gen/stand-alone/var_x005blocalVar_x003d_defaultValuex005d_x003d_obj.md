@@ -66,7 +66,7 @@ var [localVar = defaultValue] = obj
                                             "end": 28
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 28
                                     }
@@ -93,7 +93,7 @@ var [localVar = defaultValue] = obj
                             "end": 35
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 35
                     }

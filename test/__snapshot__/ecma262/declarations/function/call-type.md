@@ -90,7 +90,7 @@ function bar(x: X): B { return x; }
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 17
                     }
@@ -238,7 +238,7 @@ function bar(x: X): B { return x; }
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 49,
                         "end": 53
                     }

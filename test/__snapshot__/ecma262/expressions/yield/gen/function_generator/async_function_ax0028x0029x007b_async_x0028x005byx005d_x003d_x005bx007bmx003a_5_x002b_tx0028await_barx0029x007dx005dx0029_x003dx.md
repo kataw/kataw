@@ -264,7 +264,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                                                 "end": 97
                                                                                                                             },
                                                                                                                             "flags": 32,
-                                                                                                                            "transformFlags": 0,
+                                                                                                                            "transformFlags": 4096,
                                                                                                                             "start": 88,
                                                                                                                             "end": 97
                                                                                                                         }
@@ -281,7 +281,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                                 "end": 98
                                                                                                             },
                                                                                                             "flags": 96,
-                                                                                                            "transformFlags": 1024,
+                                                                                                            "transformFlags": 5120,
                                                                                                             "start": 79,
                                                                                                             "end": 98
                                                                                                         },
@@ -315,7 +315,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                 "end": 100
                                                                             },
                                                                             "flags": 32,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 71,
                                                                             "end": 100
                                                                         }
@@ -356,7 +356,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                 "end": 107
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 59,
                                                             "end": 107
                                                         }

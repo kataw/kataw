@@ -85,7 +85,7 @@ let x = (y: any): () => {} => { };
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 15
                                     }
@@ -176,7 +176,7 @@ let x = (y: any): () => {} => { };
                             "end": 33
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 33
                     }

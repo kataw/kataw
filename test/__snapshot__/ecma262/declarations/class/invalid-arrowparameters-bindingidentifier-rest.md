@@ -50,7 +50,7 @@ var af = ...x => x;
                             "end": 8
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 8
                     }
@@ -103,7 +103,7 @@ var af = ...x => x;
                 "end": 18
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 12,
             "end": 19
         }

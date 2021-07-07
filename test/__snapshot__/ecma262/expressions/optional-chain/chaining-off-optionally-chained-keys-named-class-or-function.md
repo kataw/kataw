@@ -84,7 +84,7 @@ foo?.function?.bar
                 "end": 14
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         },
@@ -154,7 +154,7 @@ foo?.function?.bar
                 "end": 32
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 14,
             "end": 32
         },
@@ -262,7 +262,7 @@ foo?.function?.bar
                 "end": 52
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 32,
             "end": 52
         },
@@ -354,7 +354,7 @@ foo?.function?.bar
                 "end": 71
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 52,
             "end": 71
         }

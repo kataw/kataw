@@ -139,7 +139,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 35,
                                             "end": 37
                                         }

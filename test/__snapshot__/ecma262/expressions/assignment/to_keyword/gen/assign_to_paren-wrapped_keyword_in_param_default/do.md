@@ -90,7 +90,7 @@ async (x = (do) = f) => {}
                 "end": 12
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         },
@@ -115,7 +115,7 @@ async (x = (do) = f) => {}
                     "end": 14
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 14
             },
@@ -146,7 +146,7 @@ async (x = (do) = f) => {}
                 "end": 19
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 19
         },

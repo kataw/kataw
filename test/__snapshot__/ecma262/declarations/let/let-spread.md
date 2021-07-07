@@ -56,7 +56,7 @@ let {...(a,b)} = foo
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 8
                                     }
@@ -75,7 +75,7 @@ let {...(a,b)} = foo
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 8
                     }
@@ -127,7 +127,7 @@ let {...(a,b)} = foo
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 8,
             "end": 13
         },
@@ -143,7 +143,7 @@ let {...(a,b)} = foo
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 16,
             "end": 20
         }

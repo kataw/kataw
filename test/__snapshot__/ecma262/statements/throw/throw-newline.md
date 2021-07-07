@@ -75,7 +75,7 @@ throw /**/\n x;
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 26,
             "end": 27
         },
@@ -91,7 +91,7 @@ throw /**/\n x;
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 30
         }

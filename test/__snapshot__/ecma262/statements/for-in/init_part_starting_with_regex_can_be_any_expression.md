@@ -88,12 +88,12 @@ for (/x/g + b in obj);
                         "end": 20
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 13,
                     "end": 20
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 20
             },

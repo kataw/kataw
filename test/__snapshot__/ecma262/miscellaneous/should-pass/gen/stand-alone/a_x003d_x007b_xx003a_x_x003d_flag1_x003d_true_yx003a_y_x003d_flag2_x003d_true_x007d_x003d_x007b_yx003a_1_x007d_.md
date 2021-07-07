@@ -262,7 +262,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                 "end": 59
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 60
         }

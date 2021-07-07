@@ -117,7 +117,7 @@ c.m = n => n * 3;
                                         "end": 93
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 87,
                                     "end": 93
                                 },
@@ -206,12 +206,12 @@ c.m = n => n * 3;
                                 "end": 114
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 2048,
                             "start": 107,
                             "end": 115
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 103,
                         "end": 115
                     }
@@ -311,7 +311,7 @@ c.m = n => n * 3;
                             "end": 133
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 127,
                         "end": 133
                     },
@@ -326,7 +326,7 @@ c.m = n => n * 3;
                 "end": 133
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 116,
             "end": 134
         }

@@ -93,7 +93,7 @@ for (let {x:y=z}, {a:b=c} of obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 16
                         },
@@ -153,7 +153,7 @@ for (let {x:y=z}, {a:b=c} of obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 17,
                             "end": 25
                         }

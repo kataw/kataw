@@ -59,7 +59,7 @@ let protecte\u0064;
                             "end": 22
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 22
                     }
@@ -100,7 +100,7 @@ let protecte\u0064;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 28,
                         "end": 38
                     }
@@ -141,7 +141,7 @@ let protecte\u0064;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 44,
                         "end": 59
                     }

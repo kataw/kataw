@@ -181,7 +181,7 @@ do while [catch] =! class function try while with foo!
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 18,
             "end": 25
         },
@@ -338,7 +338,7 @@ do while [catch] =! class function try while with foo!
                         "end": 54
                     },
                     "flags": 16,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 53,
                     "end": 54
                 },

@@ -202,7 +202,7 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                                                                 "end": 87
                                                                             },
                                                                             "flags": 32,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 74,
                                                                             "end": 87
                                                                         },
@@ -316,7 +316,7 @@ function *gen() {
     function *gf() {
       switch (1) {
         case yield* "'foo'":
-          break ;
+          break;
       }
     }
   }

@@ -1283,7 +1283,7 @@ this.#f,
                                                     "end": 300
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 59,
                                                 "end": 300
                                             },

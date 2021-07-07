@@ -107,7 +107,7 @@ var x = a <= 1 ? 2 : 3;
                                     "end": 44
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 34,
                                 "end": 44
                             },
@@ -117,7 +117,7 @@ var x = a <= 1 ? 2 : 3;
                             "end": 44
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 25,
                         "end": 44
                     }
@@ -187,7 +187,7 @@ var x = a <= 1 ? 2 : 3;
                                     "end": 60
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 53,
                                 "end": 60
                             },
@@ -224,12 +224,12 @@ var x = a <= 1 ? 2 : 3;
                                 "end": 68
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 53,
                             "end": 68
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 49,
                         "end": 68
                     }

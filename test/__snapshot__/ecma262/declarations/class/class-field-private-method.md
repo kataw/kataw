@@ -135,7 +135,7 @@ class C { #aaa; f() { this.#aaa } }
                                                     "end": 31
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 21,
                                                 "end": 31
                                             }

@@ -404,7 +404,7 @@ fn(function f() {
                 "end": 206
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 131,
             "end": 207
         }

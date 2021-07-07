@@ -161,7 +161,7 @@ switch (0) { case 1: class f {} default: const f = 0 }
                                                 "end": 52
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 46,
                                             "end": 52
                                         }

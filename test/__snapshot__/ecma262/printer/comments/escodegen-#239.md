@@ -93,7 +93,7 @@ function test() {
                                             "end": 33
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 25,
                                         "end": 33
                                     }
@@ -161,12 +161,12 @@ function test() {
                                                 "end": 82
                                             },
                                             "flags": 4194400,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 72,
                                             "end": 82
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 68,
                                         "end": 82
                                     }

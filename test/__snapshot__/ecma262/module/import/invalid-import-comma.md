@@ -52,7 +52,7 @@ import , from 'm.js';
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 8,
             "end": 13
         },
@@ -68,7 +68,7 @@ import , from 'm.js';
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 21
         }

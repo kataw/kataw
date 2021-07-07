@@ -76,7 +76,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
@@ -132,7 +132,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 15,
                         "end": 27
                     }
@@ -188,7 +188,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 32,
                         "end": 43
                     }
@@ -244,7 +244,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 48,
                         "end": 58
                     }
@@ -300,7 +300,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 63,
                         "end": 73
                     }
@@ -356,7 +356,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 78,
                         "end": 90
                     }
@@ -412,7 +412,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 95,
                         "end": 105
                     }
@@ -468,7 +468,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 110,
                         "end": 121
                     }
@@ -524,7 +524,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 126,
                         "end": 137
                     }
@@ -580,7 +580,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 142,
                         "end": 155
                     }
@@ -636,7 +636,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 160,
                         "end": 168
                     }
@@ -702,7 +702,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 173,
                         "end": 183
                     }
@@ -768,7 +768,7 @@ let nx: mixed;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 188,
                         "end": 198
                     }

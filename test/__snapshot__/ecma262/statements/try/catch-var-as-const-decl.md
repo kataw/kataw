@@ -102,7 +102,7 @@ try {} catch (e) { const e = x; }
                                                 "end": 30
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 24,
                                             "end": 30
                                         }

@@ -184,7 +184,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "end": 43
                                             },
                                             "flags": 0,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 39,
                                             "end": 43
                                         }

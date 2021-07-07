@@ -169,7 +169,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 21,
                         "end": 47
                     }

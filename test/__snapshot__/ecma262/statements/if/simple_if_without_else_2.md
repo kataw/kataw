@@ -45,7 +45,7 @@ if (foo) bar; else doo;
                     "end": 12
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 13
             },
@@ -68,7 +68,7 @@ if (foo) bar; else doo;
                     "end": 22
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 18,
                 "end": 23
             },

@@ -106,7 +106,7 @@ const { f: await f } = {};
                             "end": 25
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 25
                     }

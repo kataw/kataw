@@ -112,7 +112,7 @@ async (x = delete ((implements) = f)) => {}
                                 "end": 36
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 36
                         }
@@ -153,7 +153,7 @@ async (x = delete ((implements) = f)) => {}
                 "end": 43
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 43
         }

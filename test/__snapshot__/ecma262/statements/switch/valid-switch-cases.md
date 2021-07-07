@@ -166,7 +166,7 @@ switch (answer) { case 0: let a; };
                                                         "end": 46
                                                     },
                                                     "flags": 16,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 44,
                                                     "end": 47
                                                 }
@@ -222,7 +222,7 @@ switch (answer) { case 0: let a; };
                                     "end": 60
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 58,
                                 "end": 61
                             }
@@ -339,7 +339,7 @@ switch (answer) { case 0: let a; };
                                     "end": 90
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 87,
                                 "end": 90
                             }
@@ -454,7 +454,7 @@ switch (answer) { case 0: let a; };
                                                 "end": 120
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 115,
                                             "end": 120
                                         }
@@ -575,7 +575,7 @@ switch (answer) { case 0: let a; };
                                                     "end": 151
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 146,
                                                 "end": 151
                                             }
@@ -592,7 +592,7 @@ switch (answer) { case 0: let a; };
                                     "end": 152
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 144,
                                 "end": 152
                             }
@@ -695,7 +695,7 @@ switch (answer) { case 0: let a; };
                                     "end": 181
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 177,
                                 "end": 182
                             },
@@ -857,7 +857,7 @@ switch (answer) { case 0: let a; };
                                                 "end": 245
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 238,
                                             "end": 245
                                         }
@@ -993,7 +993,7 @@ switch (answer) { case 0: let a; };
                                                     "end": 283
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 278,
                                                 "end": 283
                                             },
@@ -1035,7 +1035,7 @@ switch (answer) { case 0: let a; };
                                     "end": 292
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 276,
                                 "end": 292
                             }
@@ -1122,7 +1122,7 @@ switch (answer) { case 0: let a; };
                                     "end": 317
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 315,
                                 "end": 317
                             }
@@ -1235,7 +1235,7 @@ switch (answer) { case 0: let a; };
                                     "end": 347
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 340,
                                 "end": 347
                             }
@@ -1345,7 +1345,7 @@ switch (answer) { case 0: let a; };
                                     "end": 376
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 370,
                                 "end": 377
                             }
@@ -1426,7 +1426,7 @@ switch (answer) { case 0: let a; };
                     "end": 395
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 389,
                 "end": 395
             },
@@ -1471,7 +1471,7 @@ switch (answer) { case 0: let a; };
                                     "end": 410
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 406,
                                 "end": 410
                             }
@@ -1559,7 +1559,7 @@ switch (answer) { case 0: let a; };
                     "end": 429
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 421,
                 "end": 429
             },
@@ -1604,7 +1604,7 @@ switch (answer) { case 0: let a; };
                                     "end": 444
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 440,
                                 "end": 444
                             }
@@ -1828,7 +1828,7 @@ switch (answer) { case 0: let a; };
                                     "end": 516
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 510,
                                 "end": 516
                             }
@@ -1940,7 +1940,7 @@ switch (answer) { case 0: let a; };
                                     "end": 550
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 539,
                                 "end": 550
                             }
@@ -2077,7 +2077,7 @@ switch (answer) { case 0: let a; };
                                             "end": 605
                                         },
                                         "flags": 613,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 581,
                                         "end": 605
                                     },
@@ -2087,7 +2087,7 @@ switch (answer) { case 0: let a; };
                                     "end": 605
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 573,
                                 "end": 605
                             }
@@ -2174,7 +2174,7 @@ switch (answer) { case 0: let a; };
                                     "end": 632
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 628,
                                 "end": 632
                             }
@@ -2232,7 +2232,7 @@ switch (answer) { case 0: let a; };
                     "end": 707
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 704,
                 "end": 707
             },
@@ -2277,7 +2277,7 @@ switch (answer) { case 0: let a; };
                                     "end": 722
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 718,
                                 "end": 722
                             }
@@ -2342,7 +2342,7 @@ switch (answer) { case 0: let a; };
                     "end": 736
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 733,
                 "end": 736
             },
@@ -2387,7 +2387,7 @@ switch (answer) { case 0: let a; };
                                     "end": 751
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 747,
                                 "end": 751
                             }
@@ -2473,7 +2473,7 @@ switch (answer) { case 0: let a; };
                                     "end": 779
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 775,
                                 "end": 779
                             }
@@ -2565,7 +2565,7 @@ switch (answer) { case 0: let a; };
                                                 "end": 805
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 804,
                                             "end": 805
                                         }
@@ -2717,7 +2717,7 @@ switch (answer) { case 0: let a; };
                                     "end": 840
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 829,
                                 "end": 840
                             }
@@ -2824,7 +2824,7 @@ switch (answer) { case 0: let a; };
                                             "end": 873
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 863,
                                         "end": 873
                                     },
@@ -2868,12 +2868,12 @@ switch (answer) { case 0: let a; };
                                         "end": 883
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 863,
                                     "end": 883
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 863,
                                 "end": 883
                             }
@@ -2980,7 +2980,7 @@ switch (answer) { case 0: let a; };
                                             "end": 916
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 906,
                                         "end": 916
                                     },
@@ -3060,12 +3060,12 @@ switch (answer) { case 0: let a; };
                                         "end": 932
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 906,
                                     "end": 932
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 906,
                                 "end": 932
                             }
@@ -3441,12 +3441,12 @@ switch (answer) { case 0: let a; };
                                         "end": 1051
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 1031,
                                     "end": 1051
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1031,
                                 "end": 1051
                             }
@@ -3598,7 +3598,7 @@ switch (answer) { case 0: let a; };
                                     "end": 1084
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1077,
                                 "end": 1084
                             }
@@ -3773,7 +3773,7 @@ switch (answer) { case 0: let a; };
                                     "end": 1122
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1111,
                                 "end": 1122
                             }
@@ -3864,7 +3864,7 @@ switch (answer) { case 0: let a; };
                     "end": 1139
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 1133,
                 "end": 1139
             },
@@ -3909,7 +3909,7 @@ switch (answer) { case 0: let a; };
                                     "end": 1154
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 1150,
                                 "end": 1154
                             }
@@ -4389,7 +4389,7 @@ switch (answer) { case 0: let a; };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 1305,
                                             "end": 1307
                                         }
@@ -4454,7 +4454,7 @@ switch (answer) { case 0: let a; };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 1321,
                                             "end": 1323
                                         }
@@ -4560,7 +4560,7 @@ switch (answer) { case 0: let a; };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 1351,
                                             "end": 1353
                                         }
@@ -4625,7 +4625,7 @@ switch (answer) { case 0: let a; };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 1367,
                                             "end": 1369
                                         }
@@ -4936,7 +4936,7 @@ switch (answer) { case 0: let a; };
                 "end": 1471
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1457,
             "end": 1472
         },
@@ -5117,7 +5117,7 @@ switch (answer) { case 0: let a; };
                 "end": 1533
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1528,
             "end": 1534
         },
@@ -5133,7 +5133,7 @@ switch (answer) { case 0: let a; };
                 "end": 1548
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1534,
             "end": 1549
         },
@@ -5344,7 +5344,7 @@ switch (answer) { case 0: let a; };
                 "end": 1621
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1608,
             "end": 1622
         },
@@ -5555,7 +5555,7 @@ switch (answer) { case 0: let a; };
                 "end": 1693
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1680,
             "end": 1694
         },
@@ -5729,7 +5729,7 @@ switch (answer) { case 0: let a; };
                 "end": 1758
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1745,
             "end": 1759
         },
@@ -5933,7 +5933,7 @@ switch (answer) { case 0: let a; };
                 "end": 1830
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1817,
             "end": 1831
         },
@@ -6240,7 +6240,7 @@ switch (answer) { case 0: let a; };
                                                 "end": 1927
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 1919,
                                             "end": 1927
                                         }
@@ -6352,7 +6352,7 @@ switch (answer) { case 0: let a; };
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 1960,
                                             "end": 1962
                                         }
@@ -6434,15 +6434,15 @@ switch (x) {
 switch (x) {
   case 42:
     y();
-    break ;
+    break;
   default
-    break ;
+    break;
 }
 
 switch (answer) {
   case 42:
     let t = 42;
-    break ;
+    break;
 }
 
 switch (x) {

@@ -49,7 +49,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -238,7 +238,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                                                         "end": 85
                                                                                     },
                                                                                     "flags": 32,
-                                                                                    "transformFlags": 0,
+                                                                                    "transformFlags": 4096,
                                                                                     "start": 75,
                                                                                     "end": 85
                                                                                 },
@@ -260,7 +260,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                                     "end": 86
                                                                 },
                                                                 "flags": 16,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 58,
                                                                 "end": 87
                                                             }
@@ -304,7 +304,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                             "end": 96
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 96
                     }

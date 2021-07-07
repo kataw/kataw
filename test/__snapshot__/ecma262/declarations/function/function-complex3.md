@@ -210,7 +210,7 @@ function b1<A: 'a', B: A>(b: B): void {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 17,
                         "end": 28
                     }
@@ -518,7 +518,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                         },
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 162,
                                         "end": 166
                                     }
@@ -572,7 +572,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                     "end": 191
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 182,
                                                 "end": 191
                                             },
@@ -809,7 +809,7 @@ function b1<A: 'a', B: A>(b: B): void {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 228,
                         "end": 232
                     }
@@ -863,7 +863,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "end": 257
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 248,
                                 "end": 257
                             },
@@ -938,11 +938,11 @@ function b1<A: 'a', B: A>(b: B): void {
 function c<X: T>(x: $Keys<X>) {
   switch (x) {
     case "'p'":
-      break ;
+      break;
     case "'q'":
-      break ;
+      break;
     case "'r'":
-      break ;
+      break;
   }
   function a<A: "'a'">(a: A): void {
     if (a === "'a'") {}

@@ -88,13 +88,13 @@ async () => new await x()
                             "end": 25
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 15,
                         "end": 25
                     },
                     "argumentList": null,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 2048,
                     "start": 11,
                     "end": 25
                 },
@@ -104,7 +104,7 @@ async () => new await x()
                 "end": 25
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }

@@ -105,7 +105,7 @@ function *g(){ async (x = [yield]) => z }
                                                             "asteriskToken": null,
                                                             "expression": null,
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 27,
                                                             "end": 32
                                                         }
@@ -122,7 +122,7 @@ function *g(){ async (x = [yield]) => z }
                                                 "end": 33
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 22,
                                             "end": 33
                                         }
@@ -156,7 +156,7 @@ function *g(){ async (x = [yield]) => z }
                                 "end": 39
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 39
                         }

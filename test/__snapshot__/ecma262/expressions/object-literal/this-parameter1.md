@@ -115,7 +115,7 @@ let one = {
                                                         },
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 17,
                                                         "end": 29
                                                     }
@@ -205,7 +205,7 @@ let one = {
                                                         },
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 41,
                                                         "end": 53
                                                     },
@@ -304,7 +304,7 @@ let one = {
                                                         },
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 68,
                                                         "end": 80
                                                     },
@@ -330,7 +330,7 @@ let one = {
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 34,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 81,
                                                         "end": 86
                                                     }
@@ -420,7 +420,7 @@ let one = {
                                                         },
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 98,
                                                         "end": 110
                                                     },
@@ -464,7 +464,7 @@ let one = {
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 34,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 117,
                                                         "end": 122
                                                     }
@@ -599,7 +599,7 @@ let one = {
                                                         },
                                                         "right": null,
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 4096,
                                                         "start": 137,
                                                         "end": 144
                                                     }
@@ -650,7 +650,7 @@ let one = {
                             "end": 151
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 151
                     }

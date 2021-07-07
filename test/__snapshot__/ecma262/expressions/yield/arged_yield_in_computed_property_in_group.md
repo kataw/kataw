@@ -123,7 +123,7 @@ function *g(){ async (x = {[yield y]: 1}) }
                                                                         "end": 35
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 28,
                                                                     "end": 35
                                                                 },
@@ -176,7 +176,7 @@ function *g(){ async (x = {[yield y]: 1}) }
                                 "end": 41
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 41
                         }

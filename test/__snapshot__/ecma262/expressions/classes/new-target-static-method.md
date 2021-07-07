@@ -108,7 +108,7 @@ class A {static a(x=new.target){}}
                                                 "end": 30
                                             },
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 18,
                                             "end": 30
                                         }

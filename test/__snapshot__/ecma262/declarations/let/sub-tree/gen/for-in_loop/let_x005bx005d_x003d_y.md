@@ -109,7 +109,7 @@ for (a in b) let
                     "end": 23
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 23
             },

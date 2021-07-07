@@ -67,7 +67,7 @@ Thing(/* dangling */);
                             "end": 24
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
@@ -124,7 +124,7 @@ Thing(/* dangling */);
                             "end": 51
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 51
                     }
@@ -181,7 +181,7 @@ Thing(/* dangling */);
                             "end": 77
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 56,
                         "end": 77
                     }
@@ -279,12 +279,12 @@ Thing(/* dangling */);
                     "end": 123
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 2048,
                 "start": 112,
                 "end": 138
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 112,
             "end": 139
         },
@@ -316,7 +316,7 @@ Thing(/* dangling */);
                 "end": 161
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 139,
             "end": 162
         }

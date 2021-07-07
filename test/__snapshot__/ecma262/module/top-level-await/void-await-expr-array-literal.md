@@ -58,7 +58,7 @@ void await [];
                         "end": 13
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 4,
                     "end": 13
                 },
@@ -68,7 +68,7 @@ void await [];
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }

@@ -82,7 +82,7 @@ var asyncArrow = async(...await) => {};
                                         "type": null,
                                         "right": null,
                                         "flags": 1073741856,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 23,
                                         "end": 31
                                     }
@@ -123,7 +123,7 @@ var asyncArrow = async(...await) => {};
                             "end": 38
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 38
                     }

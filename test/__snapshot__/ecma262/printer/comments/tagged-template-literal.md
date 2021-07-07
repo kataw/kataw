@@ -57,7 +57,7 @@ foo /* comment */
                 "end": 5
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -89,7 +89,7 @@ foo /* comment */
                 "end": 36
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 6,
             "end": 37
         },
@@ -121,7 +121,7 @@ foo /* comment */
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 37,
             "end": 58
         },
@@ -153,7 +153,7 @@ foo /* comment */
                 "end": 80
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 58,
             "end": 81
         },
@@ -185,7 +185,7 @@ foo /* comment */
                 "end": 104
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 81,
             "end": 105
         }

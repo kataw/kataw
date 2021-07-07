@@ -97,7 +97,7 @@ declare var x2: X;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 11,
                         "end": 18
                     }
@@ -145,7 +145,7 @@ declare var x2: X;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 31,
                         "end": 34
                     }
@@ -172,7 +172,7 @@ declare var x2: X;
                 "end": 38
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 36,
             "end": 39
         },
@@ -234,7 +234,7 @@ declare var x2: X;
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 51,
                         "end": 57
                     }

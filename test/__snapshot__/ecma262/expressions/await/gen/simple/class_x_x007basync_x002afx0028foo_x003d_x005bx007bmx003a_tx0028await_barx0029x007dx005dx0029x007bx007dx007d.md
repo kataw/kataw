@@ -154,7 +154,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                                             "end": 40
                                                                                         },
                                                                                         "flags": 32,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 31,
                                                                                         "end": 40
                                                                                     }
@@ -200,7 +200,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                 "end": 43
                                             },
                                             "flags": 34,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 18,
                                             "end": 43
                                         }

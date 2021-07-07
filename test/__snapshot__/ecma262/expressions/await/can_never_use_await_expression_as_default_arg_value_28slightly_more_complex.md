@@ -88,12 +88,12 @@ function call(foo= 5 + (await bar())){}
                                 "end": 29
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 18,
                             "end": 29
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 29
                     },
@@ -147,7 +147,7 @@ function call(foo= 5 + (await bar())){}
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 33,
             "end": 35
         },

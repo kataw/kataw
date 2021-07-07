@@ -185,7 +185,7 @@ var a: {param1?: number; param2: string; param3: string;}
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 57
                     }

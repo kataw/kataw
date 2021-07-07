@@ -92,7 +92,7 @@ var [a, ...[b, c]] = d;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 17
                                     }
@@ -119,7 +119,7 @@ var [a, ...[b, c]] = d;
                             "end": 22
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 22
                     }

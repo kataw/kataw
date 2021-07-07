@@ -93,7 +93,7 @@ var fnNumber = /* comments0 */
                 "end": 27
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 28
         },
@@ -132,7 +132,7 @@ var fnNumber = /* comments0 */
                 "end": 59
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 28,
             "end": 60
         },
@@ -171,7 +171,7 @@ var fnNumber = /* comments0 */
                 "end": 104
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 60,
             "end": 105
         },
@@ -210,7 +210,7 @@ var fnNumber = /* comments0 */
                 "end": 135
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 105,
             "end": 136
         },
@@ -249,7 +249,7 @@ var fnNumber = /* comments0 */
                 "end": 186
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 136,
             "end": 187
         },
@@ -288,7 +288,7 @@ var fnNumber = /* comments0 */
                 "end": 216
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 187,
             "end": 217
         },
@@ -327,7 +327,7 @@ var fnNumber = /* comments0 */
                             "end": 252
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 222,
                         "end": 252
                     }
@@ -377,7 +377,7 @@ var fnNumber = /* comments0 */
                             "end": 301
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 258,
                         "end": 301
                     }
@@ -427,7 +427,7 @@ var fnNumber = /* comments0 */
                             "end": 336
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 307,
                         "end": 336
                     }
@@ -477,7 +477,7 @@ var fnNumber = /* comments0 */
                             "end": 391
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 342,
                         "end": 391
                     }

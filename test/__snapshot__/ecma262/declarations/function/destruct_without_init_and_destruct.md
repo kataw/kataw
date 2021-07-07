@@ -49,7 +49,7 @@ let foo, [bar] = arr2;
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 7
                     },
@@ -92,7 +92,7 @@ let foo, [bar] = arr2;
                             "end": 21
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 8,
                         "end": 21
                     }

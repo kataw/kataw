@@ -127,12 +127,12 @@ class A {
                                                         "end": 32
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 18,
                                                     "end": 32
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 18,
                                                 "end": 33
                                             }

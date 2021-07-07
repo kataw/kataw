@@ -90,7 +90,7 @@ const b = {
                             "end": 72
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 72
                     }
@@ -173,7 +173,7 @@ const b = {
                             "end": 146
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 80,
                         "end": 146
                     }

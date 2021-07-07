@@ -46,7 +46,7 @@ export type * from "foo";
                     "end": 11
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 11
             },
@@ -76,7 +76,7 @@ export type * from "foo";
                             "end": 18
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 18
                     }
@@ -119,7 +119,7 @@ export type * from "foo";
                     "end": 33
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 28,
                 "end": 33
             },
@@ -149,7 +149,7 @@ export type * from "foo";
                             "end": 39
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 35,
                         "end": 39
                     }
@@ -176,7 +176,7 @@ export type * from "foo";
                 "end": 46
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 41,
             "end": 46
         },
@@ -192,7 +192,7 @@ export type * from "foo";
                 "end": 52
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 46,
             "end": 53
         },
@@ -235,12 +235,12 @@ export type * from "foo";
                         "end": 72
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 60,
                     "end": 72
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 60,
                 "end": 72
             },
@@ -265,7 +265,7 @@ export type * from "foo";
                 "end": 78
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 72,
             "end": 79
         }

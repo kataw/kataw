@@ -111,7 +111,7 @@ switch (a) { default: let [x] = y }
                                                 "end": 33
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 25,
                                             "end": 33
                                         }

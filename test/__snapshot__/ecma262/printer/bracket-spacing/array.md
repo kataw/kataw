@@ -95,7 +95,7 @@ const arr2 = [1, 2, 3, 4];
                             "end": 22
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 22
                     }
@@ -188,7 +188,7 @@ const arr2 = [1, 2, 3, 4];
                             "end": 49
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 49
                     }

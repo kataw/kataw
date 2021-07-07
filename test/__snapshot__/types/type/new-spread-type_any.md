@@ -185,7 +185,7 @@ var o3: O3 = (0: mixed); // ok
                             "end": 35
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 23,
                         "end": 35
                     }
@@ -212,7 +212,7 @@ var o3: O3 = (0: mixed); // ok
                 "end": 42
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 36,
             "end": 42
         },
@@ -268,7 +268,7 @@ var o3: O3 = (0: mixed); // ok
                     },
                     "right": null,
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 44,
                     "end": 61
                 },
@@ -278,7 +278,7 @@ var o3: O3 = (0: mixed); // ok
                 "end": 62
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 44,
             "end": 63
         },
@@ -442,7 +442,7 @@ var o3: O3 = (0: mixed); // ok
                             "end": 109
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 97,
                         "end": 109
                     }
@@ -469,7 +469,7 @@ var o3: O3 = (0: mixed); // ok
                 "end": 116
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 110,
             "end": 116
         },
@@ -525,7 +525,7 @@ var o3: O3 = (0: mixed); // ok
                     },
                     "right": null,
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 118,
                     "end": 135
                 },
@@ -535,7 +535,7 @@ var o3: O3 = (0: mixed); // ok
                 "end": 136
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 118,
             "end": 137
         },
@@ -587,7 +587,7 @@ var o3: O3 = (0: mixed); // ok
                         },
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 156,
                         "end": 166
                     }
@@ -834,7 +834,7 @@ var o3: O3 = (0: mixed); // ok
                             "end": 245
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 233,
                         "end": 245
                     }
@@ -861,7 +861,7 @@ var o3: O3 = (0: mixed); // ok
                 "end": 252
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 246,
             "end": 252
         },
@@ -917,7 +917,7 @@ var o3: O3 = (0: mixed); // ok
                     },
                     "right": null,
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 4096,
                     "start": 254,
                     "end": 271
                 },
@@ -927,7 +927,7 @@ var o3: O3 = (0: mixed); // ok
                 "end": 272
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 254,
             "end": 272
         }

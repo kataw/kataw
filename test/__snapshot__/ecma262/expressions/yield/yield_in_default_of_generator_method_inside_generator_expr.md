@@ -124,12 +124,12 @@
                                                                             "asteriskToken": null,
                                                                             "expression": null,
                                                                             "flags": 32,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 24,
                                                                             "end": 29
                                                                         },
                                                                         "flags": 34,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 22,
                                                                         "end": 29
                                                                     }
@@ -185,7 +185,7 @@
                                         "end": 34
                                     },
                                     "flags": 16,
-                                    "transformFlags": 0,
+                                    "transformFlags": 4096,
                                     "start": 15,
                                     "end": 34
                                 }
@@ -212,7 +212,7 @@
                 "end": 38
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 38
         }

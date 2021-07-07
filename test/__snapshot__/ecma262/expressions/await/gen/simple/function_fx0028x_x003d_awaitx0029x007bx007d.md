@@ -71,7 +71,7 @@ function f(x = await){}
                             "end": 20
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 20
                     }

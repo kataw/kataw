@@ -96,12 +96,12 @@ async function * gen() {yield 3; yield 4;}
                                     "end": 31
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 24,
                                 "end": 31
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 32
                         },
@@ -128,12 +128,12 @@ async function * gen() {yield 3; yield 4;}
                                     "end": 40
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 32,
                                 "end": 40
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 32,
                             "end": 41
                         }

@@ -181,7 +181,7 @@ const protected = x, function arguments(){}
                             "end": 90
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 76,
                         "end": 90
                     }

@@ -69,7 +69,7 @@ for(var i;;);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 7,
                             "end": 9
                         }

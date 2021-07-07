@@ -76,7 +76,7 @@ for (let {x, y = z} = obj;;);
                                                 "end": 18
                                             },
                                             "flags": 0,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 12,
                                             "end": 18
                                         }
@@ -103,7 +103,7 @@ for (let {x, y = z} = obj;;);
                                 "end": 25
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 25
                         }

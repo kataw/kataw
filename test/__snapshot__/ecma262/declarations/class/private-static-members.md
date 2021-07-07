@@ -380,7 +380,7 @@ class Foo {
                                                     "end": 104
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 88,
                                                 "end": 104
                                             },
@@ -435,7 +435,7 @@ class Foo {
                                                     "end": 119
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 104,
                                                 "end": 119
                                             },
@@ -483,7 +483,7 @@ class Foo {
                                                     "end": 131
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 119,
                                                 "end": 131
                                             }

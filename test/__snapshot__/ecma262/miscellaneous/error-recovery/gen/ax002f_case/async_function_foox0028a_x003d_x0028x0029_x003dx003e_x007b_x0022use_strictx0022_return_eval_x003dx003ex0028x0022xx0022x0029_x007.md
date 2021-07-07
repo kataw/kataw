@@ -177,7 +177,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                             "end": 67
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 19,
                         "end": 67
                     }

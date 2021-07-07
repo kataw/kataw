@@ -281,7 +281,7 @@ class Annotations {
                                                     "end": 69
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 53,
                                                 "end": 70
                                             },
@@ -311,7 +311,7 @@ class Annotations {
                                                     "end": 94
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 70,
                                                 "end": 95
                                             }
@@ -401,7 +401,7 @@ class Annotations {
                                             },
                                             "right": null,
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 119,
                                             "end": 127
                                         }
@@ -447,7 +447,7 @@ class Annotations {
                                                     "end": 143
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 130,
                                                 "end": 144
                                             }
@@ -788,7 +788,7 @@ class Annotations {
                                                                                                                 "end": 344
                                                                                                             },
                                                                                                             "flags": 96,
-                                                                                                            "transformFlags": 0,
+                                                                                                            "transformFlags": 2048,
                                                                                                             "start": 333,
                                                                                                             "end": 345
                                                                                                         },
@@ -798,7 +798,7 @@ class Annotations {
                                                                                                         "end": 345
                                                                                                     },
                                                                                                     "flags": 16,
-                                                                                                    "transformFlags": 0,
+                                                                                                    "transformFlags": 4096,
                                                                                                     "start": 311,
                                                                                                     "end": 346
                                                                                                 },
@@ -855,12 +855,12 @@ class Annotations {
                                                                                                                         "end": 373
                                                                                                                     },
                                                                                                                     "flags": 96,
-                                                                                                                    "transformFlags": 0,
+                                                                                                                    "transformFlags": 2048,
                                                                                                                     "start": 362,
                                                                                                                     "end": 374
                                                                                                                 },
                                                                                                                 "flags": 16,
-                                                                                                                "transformFlags": 128,
+                                                                                                                "transformFlags": 4224,
                                                                                                                 "start": 358,
                                                                                                                 "end": 374
                                                                                                             }
@@ -926,7 +926,7 @@ class Annotations {
                                                                                                         "end": 396
                                                                                                     },
                                                                                                     "flags": 16,
-                                                                                                    "transformFlags": 0,
+                                                                                                    "transformFlags": 4096,
                                                                                                     "start": 375,
                                                                                                     "end": 397
                                                                                                 },
@@ -994,7 +994,7 @@ class Annotations {
                                                                                                                 "end": 475
                                                                                                             },
                                                                                                             "flags": 96,
-                                                                                                            "transformFlags": 0,
+                                                                                                            "transformFlags": 2048,
                                                                                                             "start": 464,
                                                                                                             "end": 476
                                                                                                         },
@@ -1004,7 +1004,7 @@ class Annotations {
                                                                                                         "end": 476
                                                                                                     },
                                                                                                     "flags": 16,
-                                                                                                    "transformFlags": 0,
+                                                                                                    "transformFlags": 4096,
                                                                                                     "start": 397,
                                                                                                     "end": 477
                                                                                                 }
@@ -1046,7 +1046,7 @@ class Annotations {
                                                                 "end": 539
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 251,
                                                             "end": 539
                                                         }
@@ -2343,7 +2343,7 @@ class Annotations {
                                                     "end": 1275
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 1259,
                                                 "end": 1276
                                             }
@@ -2680,7 +2680,7 @@ class Annotations {
                                                     "end": 1457
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 1433,
                                                 "end": 1458
                                             }

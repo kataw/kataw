@@ -100,7 +100,7 @@ for (let {x:y=z} = obj, {a:b=c});
                                 "end": 22
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 22
                         },
@@ -160,7 +160,7 @@ for (let {x:y=z} = obj, {a:b=c});
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 23,
                             "end": 31
                         }

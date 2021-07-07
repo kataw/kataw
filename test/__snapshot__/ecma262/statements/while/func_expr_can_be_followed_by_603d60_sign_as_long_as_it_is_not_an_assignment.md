@@ -93,7 +93,7 @@ while (function* () {} === x);
                     "end": 28
                 },
                 "flags": 288,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 7,
                 "end": 28
             },

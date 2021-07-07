@@ -93,7 +93,7 @@ x = {set this(this: string):number{}};
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 14,
                                                 "end": 18
                                             }
@@ -164,7 +164,7 @@ x = {set this(this: string):number{}};
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 30
         },
@@ -251,7 +251,7 @@ x = {set this(this: string):number{}};
                                                 },
                                                 "right": null,
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 46,
                                                 "end": 58
                                             }
@@ -322,7 +322,7 @@ x = {set this(this: string):number{}};
                 "end": 69
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 30,
             "end": 70
         }

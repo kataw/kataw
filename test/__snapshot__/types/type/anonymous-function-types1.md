@@ -85,7 +85,7 @@ declare function foo(x: number, string): void;
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 21,
                         "end": 30
                     },

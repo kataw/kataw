@@ -701,7 +701,7 @@ fn(function f() {
                 "end": 370
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 294,
             "end": 371
         }

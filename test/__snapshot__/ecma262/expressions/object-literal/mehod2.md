@@ -124,7 +124,7 @@ x = { method(test) { } }
                 "end": 20
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         },
@@ -225,7 +225,7 @@ x = { method(test) { } }
                 "end": 39
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 20,
             "end": 39
         },
@@ -326,7 +326,7 @@ x = { method(test) { } }
                 "end": 58
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 39,
             "end": 58
         },
@@ -525,7 +525,7 @@ x = { method(test) { } }
                 "end": 103
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 58,
             "end": 104
         },
@@ -633,7 +633,7 @@ x = { method(test) { } }
                 "end": 126
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 104,
             "end": 127
         },
@@ -744,7 +744,7 @@ x = { method(test) { } }
                 "end": 153
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 127,
             "end": 153
         }

@@ -56,7 +56,7 @@ z; }
                                         "end": 12
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 5,
                                     "end": 12
                                 },
@@ -82,7 +82,7 @@ z; }
                                         "end": 19
                                     },
                                     "flags": 16,
-                                    "transformFlags": 128,
+                                    "transformFlags": 4224,
                                     "start": 13,
                                     "end": 19
                                 }
@@ -109,7 +109,7 @@ z; }
                             "end": 21
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 19,
                         "end": 22
                     }

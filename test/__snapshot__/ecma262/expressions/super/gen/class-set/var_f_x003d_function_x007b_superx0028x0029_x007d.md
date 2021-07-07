@@ -232,7 +232,7 @@ class C { set x(_) { var f = function { super(); } } }
                                                                 "end": 47
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 24,
                                                             "end": 47
                                                         }

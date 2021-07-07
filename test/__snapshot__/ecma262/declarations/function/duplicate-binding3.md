@@ -148,7 +148,7 @@ function f() { { async function x() {} { var x } }
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 44,
                                                                 "end": 46
                                                             }

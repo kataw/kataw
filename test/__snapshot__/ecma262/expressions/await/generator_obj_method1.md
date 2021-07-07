@@ -233,7 +233,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                             "end": 59
                                                                         },
                                                                         "flags": 34,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 31,
                                                                         "end": 59
                                                                     }
@@ -284,7 +284,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                             "end": 63
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 22,
                                         "end": 63
                                     }

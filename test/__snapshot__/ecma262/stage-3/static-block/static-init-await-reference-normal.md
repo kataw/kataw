@@ -153,7 +153,7 @@ class C {
                                                                                             "end": 62
                                                                                         },
                                                                                         "flags": 34,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 41,
                                                                                         "end": 62
                                                                                     }
@@ -206,7 +206,7 @@ class C {
                                                                                                 "end": 90
                                                                                             },
                                                                                             "flags": 16,
-                                                                                            "transformFlags": 0,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 65,
                                                                                             "end": 91
                                                                                         }
@@ -277,7 +277,7 @@ class C {
                                                 "end": 115
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 116
                                         }

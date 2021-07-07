@@ -161,7 +161,7 @@ const f = async function * (source, block, opts) {
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 73,
                                                             "end": 79
                                                         }
@@ -379,12 +379,12 @@ const f = async function * (source, block, opts) {
                                                                                                         "end": 202
                                                                                                     },
                                                                                                     "flags": 32,
-                                                                                                    "transformFlags": 0,
+                                                                                                    "transformFlags": 4096,
                                                                                                     "start": 148,
                                                                                                     "end": 202
                                                                                                 },
                                                                                                 "flags": 16,
-                                                                                                "transformFlags": 128,
+                                                                                                "transformFlags": 4224,
                                                                                                 "start": 142,
                                                                                                 "end": 202
                                                                                             }
@@ -641,12 +641,12 @@ const f = async function * (source, block, opts) {
                                                                     "end": 380
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 92,
                                                                 "end": 380
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 92,
                                                             "end": 380
                                                         }
@@ -684,7 +684,7 @@ const f = async function * (source, block, opts) {
                             "end": 394
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 394
                     }

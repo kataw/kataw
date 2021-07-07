@@ -33,7 +33,7 @@ x@{x9}@+@{x9}@y
                 "end": 1
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 1
         },
@@ -286,7 +286,7 @@ x@{x9}@+@{x9}@y
                 "end": 13
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 7,
             "end": 13
         },

@@ -117,7 +117,7 @@ function *foo() { let x = {yield} }
                                 "end": 30
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 30
                         }
@@ -226,7 +226,7 @@ function *foo() { let x = {yield} }
                                             "end": 66
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 54,
                                         "end": 66
                                     }
@@ -360,7 +360,7 @@ function *foo() { let x = {yield} }
                                 "end": 101
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 87,
                             "end": 101
                         }
@@ -475,7 +475,7 @@ function *foo() { let x = {yield} }
                                             "end": 138
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 126,
                                         "end": 138
                                     }

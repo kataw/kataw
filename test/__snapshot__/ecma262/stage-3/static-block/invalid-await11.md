@@ -198,12 +198,12 @@ async function foo() {
                                                                     "end": 82
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 67,
                                                                 "end": 82
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 67,
                                                             "end": 83
                                                         }

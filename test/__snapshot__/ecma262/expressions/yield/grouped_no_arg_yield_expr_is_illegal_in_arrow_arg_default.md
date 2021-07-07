@@ -102,7 +102,7 @@ function *f(){ async (x = (yield)) => {} }
                                                     "asteriskToken": null,
                                                     "expression": null,
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 27,
                                                     "end": 32
                                                 },
@@ -112,7 +112,7 @@ function *f(){ async (x = (yield)) => {} }
                                                 "end": 33
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 22,
                                             "end": 33
                                         }
@@ -153,7 +153,7 @@ function *f(){ async (x = (yield)) => {} }
                                 "end": 40
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 40
                         }

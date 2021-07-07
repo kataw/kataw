@@ -153,7 +153,7 @@ class C { foo() { this.#a = 1; }}
                                                                 "end": 36
                                                             },
                                                             "flags": 16,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 22,
                                                             "end": 37
                                                         }
@@ -350,7 +350,7 @@ class C { foo() { this.#a = 1; }}
                 "end": 82
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 82
         },
@@ -628,7 +628,7 @@ class C { foo() { this.#a = 1; }}
                                                     "end": 163
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 151,
                                                 "end": 164
                                             }

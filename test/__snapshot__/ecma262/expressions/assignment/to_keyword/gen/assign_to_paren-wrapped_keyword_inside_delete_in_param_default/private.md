@@ -112,7 +112,7 @@ async (x = delete ((private) = f)) => {}
                                 "end": 33
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 33
                         }
@@ -153,7 +153,7 @@ async (x = delete ((private) = f)) => {}
                 "end": 40
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 40
         }

@@ -88,7 +88,7 @@ function 00004() { "use strict"; 00004; }
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 8,
             "end": 16
         },
@@ -109,7 +109,7 @@ function 00004() { "use strict"; 00004; }
                             "end": 31
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 18,
                         "end": 32
                     },
@@ -125,7 +125,7 @@ function 00004() { "use strict"; 00004; }
                             "end": 38
                         },
                         "flags": 16,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 32,
                         "end": 39
                     }

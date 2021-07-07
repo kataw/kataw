@@ -181,7 +181,7 @@ var e: { (x: any): void } = function() { } // arity
                             "end": 42
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 42
                     }

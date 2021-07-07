@@ -138,7 +138,7 @@ await new Promise(function(res, rej) { res(1); });
                                                     "end": 45
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 38,
                                                 "end": 46
                                             }
@@ -167,17 +167,17 @@ await new Promise(function(res, rej) { res(1); });
                         "end": 48
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 2048,
                     "start": 5,
                     "end": 49
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 49
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 50
         }

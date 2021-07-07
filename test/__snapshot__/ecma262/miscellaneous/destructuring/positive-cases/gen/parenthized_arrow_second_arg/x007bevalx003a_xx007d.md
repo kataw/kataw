@@ -143,7 +143,7 @@ var f = (argument1,{eval: x}) => {};
                             "end": 35
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 35
                     }

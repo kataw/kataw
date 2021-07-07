@@ -52,7 +52,7 @@ while (a) let x;
                     "end": 13
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 9,
                 "end": 13
             },
@@ -73,7 +73,7 @@ while (a) let x;
                 "end": 15
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 16
         }

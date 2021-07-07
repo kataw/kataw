@@ -77,7 +77,7 @@ for (let {x} = a, y of obj);
                                 "end": 16
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 16
                         },
@@ -95,7 +95,7 @@ for (let {x} = a, y of obj);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 17,
                             "end": 19
                         }

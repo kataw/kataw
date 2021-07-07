@@ -103,7 +103,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "end": 20
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 6,
                                             "end": 20
                                         },
@@ -163,7 +163,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "end": 39
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 21,
                                             "end": 39
                                         },
@@ -279,7 +279,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "end": 75
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 40,
                                             "end": 75
                                         }
@@ -337,7 +337,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                 "end": 83
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 83
         }

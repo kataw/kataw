@@ -91,7 +91,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                                                 "end": 27
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 19,
                                             "end": 27
                                         }
@@ -165,7 +165,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                             "end": 42
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 34,
                         "end": 42
                     }

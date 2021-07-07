@@ -90,7 +90,7 @@ try {} catch([a:string]) {}
                                 },
                                 "right": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 14,
                                 "end": 22
                             }

@@ -142,7 +142,7 @@ do while [catch] /**/ /x do while
                 "end": 33
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 16,
             "end": 33
         }

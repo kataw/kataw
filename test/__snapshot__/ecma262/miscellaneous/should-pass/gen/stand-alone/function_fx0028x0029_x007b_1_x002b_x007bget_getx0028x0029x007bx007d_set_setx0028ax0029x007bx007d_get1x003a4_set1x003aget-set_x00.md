@@ -280,7 +280,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "end": 67
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 5120,
                                                     "start": 54,
                                                     "end": 67
                                                 },
@@ -302,12 +302,12 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                     "end": 70
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 14,
                                 "end": 70
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 70
                         }

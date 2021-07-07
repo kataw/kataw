@@ -158,7 +158,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                             "end": 60
                                                                                         },
                                                                                         "flags": 32,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 51,
                                                                                         "end": 60
                                                                                     },
@@ -271,7 +271,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                 "end": 75
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 42,
                                                             "end": 75
                                                         }
@@ -305,7 +305,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                 "end": 82
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 42,
                                             "end": 82
                                         }

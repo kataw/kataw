@@ -122,7 +122,7 @@ function inner2({a} = {a: my_var}) { }
                             "end": 33
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 16,
                         "end": 33
                     }

@@ -112,7 +112,7 @@ do {} while (x) { try { !xxx
                                             "end": 28
                                         },
                                         "flags": 16,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 23,
                                         "end": 28
                                     }

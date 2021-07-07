@@ -98,7 +98,7 @@ var templateTagsMapping = {
                             "end": 30
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 30
                     },
@@ -150,7 +150,7 @@ var templateTagsMapping = {
                             "end": 63
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 31,
                         "end": 63
                     }
@@ -225,7 +225,7 @@ var templateTagsMapping = {
                             "end": 103
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 71,
                         "end": 103
                     }
@@ -368,7 +368,7 @@ var templateTagsMapping = {
                 "end": 175
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 107,
             "end": 176
         },
@@ -399,7 +399,7 @@ var templateTagsMapping = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 181,
                         "end": 183
                     },
@@ -417,7 +417,7 @@ var templateTagsMapping = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 184,
                         "end": 186
                     },
@@ -435,7 +435,7 @@ var templateTagsMapping = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 187,
                         "end": 189
                     }
@@ -476,7 +476,7 @@ var templateTagsMapping = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 195,
                         "end": 216
                     },
@@ -494,7 +494,7 @@ var templateTagsMapping = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 217,
                         "end": 238
                     },
@@ -512,7 +512,7 @@ var templateTagsMapping = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 239,
                         "end": 260
                     },
@@ -530,7 +530,7 @@ var templateTagsMapping = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 261,
                         "end": 282
                     }
@@ -588,7 +588,7 @@ var templateTagsMapping = {
                                 "end": 299
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 293,
                             "end": 299
                         },
@@ -630,7 +630,7 @@ var templateTagsMapping = {
                                 "end": 317
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 300,
                             "end": 317
                         }
@@ -696,7 +696,7 @@ var templateTagsMapping = {
                     "end": 326
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 318,
                 "end": 326
             },
@@ -815,7 +815,7 @@ var templateTagsMapping = {
                             "end": 440
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 340,
                         "end": 440
                     },
@@ -841,7 +841,7 @@ var templateTagsMapping = {
                             "end": 511
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 441,
                         "end": 511
                     },
@@ -996,7 +996,7 @@ var templateTagsMapping = {
                             "end": 604
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 512,
                         "end": 604
                     },
@@ -1014,7 +1014,7 @@ var templateTagsMapping = {
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 605,
                         "end": 612
                     }

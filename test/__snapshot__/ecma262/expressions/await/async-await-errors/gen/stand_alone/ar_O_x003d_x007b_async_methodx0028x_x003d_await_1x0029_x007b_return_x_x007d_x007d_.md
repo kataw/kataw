@@ -34,7 +34,7 @@ ar O = { async method(x = await 1) { return x; } };
                 "end": 2
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -123,12 +123,12 @@ ar O = { async method(x = await 1) { return x; } };
                                                         "end": 33
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 25,
                                                     "end": 33
                                                 },
                                                 "flags": 34,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 22,
                                                 "end": 33
                                             }
@@ -208,7 +208,7 @@ ar O = { async method(x = await 1) { return x; } };
                 "end": 50
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 2,
             "end": 51
         }

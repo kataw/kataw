@@ -105,12 +105,12 @@ function *infer_stmt() {
                                     "end": 65
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 55,
                                 "end": 65
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 55,
                             "end": 66
                         },
@@ -137,12 +137,12 @@ function *infer_stmt() {
                                     "end": 77
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 66,
                                 "end": 77
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 66,
                             "end": 78
                         }
@@ -700,12 +700,12 @@ function *infer_stmt() {
                                                 "end": 285
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 277,
                                             "end": 285
                                         },
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 264,
                                         "end": 285
                                     }

@@ -104,7 +104,7 @@ let MyClass = @foo export class {}
                             "end": 18
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 18
                     }

@@ -85,7 +85,7 @@ try { } catch ([a = 0]) { }
                                     "end": 21
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 16,
                                 "end": 21
                             }

@@ -49,7 +49,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -257,7 +257,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                                                 "end": 79
                                                                                                                             },
                                                                                                                             "flags": 32,
-                                                                                                                            "transformFlags": 0,
+                                                                                                                            "transformFlags": 4096,
                                                                                                                             "start": 70,
                                                                                                                             "end": 79
                                                                                                                         }
@@ -303,7 +303,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                     "end": 82
                                                                                 },
                                                                                 "flags": 34,
-                                                                                "transformFlags": 0,
+                                                                                "transformFlags": 4096,
                                                                                 "start": 57,
                                                                                 "end": 82
                                                                             }
@@ -380,7 +380,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                             "end": 89
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 89
                     }

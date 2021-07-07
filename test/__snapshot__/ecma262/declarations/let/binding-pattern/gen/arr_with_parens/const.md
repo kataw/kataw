@@ -55,7 +55,7 @@ const [(x)] = v
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 7
                     }
@@ -89,7 +89,7 @@ const [(x)] = v
                 "end": 10
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 7,
             "end": 10
         },
@@ -105,7 +105,7 @@ const [(x)] = v
                 "end": 15
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 15
         }

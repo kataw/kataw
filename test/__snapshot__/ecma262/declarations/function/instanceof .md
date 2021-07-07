@@ -91,7 +91,7 @@ function foo(value: AOrString) {
                         },
                         "right": null,
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 29
                     }
@@ -152,7 +152,7 @@ function foo(value: AOrString) {
                                                 "end": 63
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 45,
                                             "end": 63
                                         }
@@ -169,7 +169,7 @@ function foo(value: AOrString) {
                                 "end": 64
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 32,
                             "end": 65
                         }

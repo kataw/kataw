@@ -99,7 +99,7 @@ function f([b, a], b=x) {}
                             "end": 22
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 18,
                         "end": 22
                     }

@@ -61,7 +61,7 @@ declare => x, declare(y);
                 "end": 12
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         },
@@ -147,7 +147,7 @@ declare => x, declare(y);
                 "end": 41
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 13,
             "end": 42
         },
@@ -189,7 +189,7 @@ declare => x, declare(y);
                 "end": 55
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 42,
             "end": 56
         },
@@ -275,7 +275,7 @@ declare => x, declare(y);
                 "end": 82
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 56,
             "end": 83
         },
@@ -361,7 +361,7 @@ declare => x, declare(y);
                 "end": 109
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 83,
             "end": 110
         }

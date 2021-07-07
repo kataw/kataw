@@ -157,7 +157,7 @@ function yield(yield) { yield: yield (yield + yield (0)); }
                                                     "end": 55
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 38,
                                                 "end": 55
                                             }
@@ -174,7 +174,7 @@ function yield(yield) { yield: yield (yield + yield (0)); }
                                     "end": 56
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 30,
                                 "end": 57
                             },

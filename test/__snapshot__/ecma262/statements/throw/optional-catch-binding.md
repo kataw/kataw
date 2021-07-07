@@ -213,7 +213,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 59,
                                         "end": 61
                                     }
@@ -280,7 +280,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 76,
                                             "end": 78
                                         }
@@ -358,7 +358,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 92,
                                         "end": 94
                                     }
@@ -425,7 +425,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 109,
                                             "end": 111
                                         }
@@ -494,7 +494,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 128,
                                         "end": 130
                                     }
@@ -537,7 +537,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "end": 147
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 133,
             "end": 148
         },
@@ -793,7 +793,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
-                                        "transformFlags": 128,
+                                        "transformFlags": 4224,
                                         "start": 230,
                                         "end": 232
                                     }
@@ -860,7 +860,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 247,
                                             "end": 249
                                         }
@@ -1002,7 +1002,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 284,
                                                             "end": 286
                                                         }
@@ -1069,7 +1069,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
-                                                                "transformFlags": 128,
+                                                                "transformFlags": 4224,
                                                                 "start": 301,
                                                                 "end": 303
                                                             }
@@ -1138,7 +1138,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 320,
                                                             "end": 322
                                                         }
@@ -1269,7 +1269,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 353,
                                                         "end": 355
                                                     }
@@ -1336,7 +1336,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
-                                                            "transformFlags": 128,
+                                                            "transformFlags": 4224,
                                                             "start": 370,
                                                             "end": 372
                                                         }
@@ -1405,7 +1405,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 389,
                                                         "end": 391
                                                     }

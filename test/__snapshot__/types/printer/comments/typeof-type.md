@@ -98,7 +98,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                             "end": 28
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 28
                     }
@@ -186,7 +186,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                             "end": 85
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 48,
                         "end": 85
                     }

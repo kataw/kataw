@@ -66,7 +66,7 @@ for(const a = 1, let = 2;;);
                                 "end": 15
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 9,
                             "end": 15
                         },
@@ -92,7 +92,7 @@ for(const a = 1, let = 2;;);
                                 "end": 24
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 16,
                             "end": 24
                         }

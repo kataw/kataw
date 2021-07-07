@@ -121,12 +121,12 @@ function *f(){  ({*g(x=yield){}})  }
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 4096,
                                                                     "start": 23,
                                                                     "end": 28
                                                                 },
                                                                 "flags": 34,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 4096,
                                                                 "start": 21,
                                                                 "end": 28
                                                             }
@@ -182,7 +182,7 @@ function *f(){  ({*g(x=yield){}})  }
                                 "end": 33
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 33
                         }

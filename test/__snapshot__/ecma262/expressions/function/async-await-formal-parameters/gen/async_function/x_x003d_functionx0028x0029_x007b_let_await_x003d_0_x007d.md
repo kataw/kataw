@@ -153,7 +153,7 @@ var f = async function f(x = function() { let await = 0; }) {}
                                                                             "end": 55
                                                                         },
                                                                         "flags": 16,
-                                                                        "transformFlags": 128,
+                                                                        "transformFlags": 4224,
                                                                         "start": 45,
                                                                         "end": 55
                                                                     }
@@ -186,7 +186,7 @@ var f = async function f(x = function() { let await = 0; }) {}
                                             "end": 58
                                         },
                                         "flags": 34,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 25,
                                         "end": 58
                                     }
@@ -220,7 +220,7 @@ var f = async function f(x = function() { let await = 0; }) {}
                             "end": 62
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 62
                     }

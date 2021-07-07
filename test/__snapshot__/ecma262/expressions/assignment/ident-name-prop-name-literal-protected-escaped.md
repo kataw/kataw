@@ -148,7 +148,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                             "end": 49
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 49
                     }

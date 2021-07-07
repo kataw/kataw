@@ -213,12 +213,12 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                                     "end": 43
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 5120,
                                                 "start": 37,
                                                 "end": 43
                                             },
                                             "flags": 16,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 37,
                                             "end": 43
                                         }
@@ -239,7 +239,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                             "end": 45
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 45
                     }

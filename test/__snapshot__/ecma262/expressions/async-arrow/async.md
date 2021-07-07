@@ -75,7 +75,7 @@ async (x?: number): any => x;
                             },
                             "right": null,
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 17
                         }
@@ -124,7 +124,7 @@ async (x?: number): any => x;
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }

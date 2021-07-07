@@ -172,7 +172,7 @@ x => y {}
                                 "end": 50
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 43,
                             "end": 50
                         },

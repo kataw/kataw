@@ -132,7 +132,7 @@ let /* 1*/ {
                             "end": 31
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 31
                     }
@@ -190,7 +190,7 @@ let /* 1*/ {
                                             "end": 61
                                         },
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 39,
                                         "end": 61
                                     }
@@ -217,7 +217,7 @@ let /* 1*/ {
                             "end": 68
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 37,
                         "end": 68
                     }
@@ -273,7 +273,7 @@ let /* 1*/ {
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 77,
                                         "end": 95
                                     }
@@ -300,7 +300,7 @@ let /* 1*/ {
                             "end": 101
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 75,
                         "end": 101
                     }
@@ -363,7 +363,7 @@ let /* 1*/ {
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 111,
                                         "end": 129
                                     }
@@ -390,7 +390,7 @@ let /* 1*/ {
                             "end": 154
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 109,
                         "end": 154
                     }
@@ -446,7 +446,7 @@ let /* 1*/ {
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 170,
                                         "end": 197
                                     }
@@ -473,7 +473,7 @@ let /* 1*/ {
                             "end": 222
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 161,
                         "end": 222
                     }
@@ -529,7 +529,7 @@ let /* 1*/ {
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 254,
                                         "end": 280
                                     }
@@ -556,7 +556,7 @@ let /* 1*/ {
                             "end": 306
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 245,
                         "end": 306
                     }

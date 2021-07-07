@@ -95,7 +95,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "end": 16
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         },
@@ -166,7 +166,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                                 "end": 49
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 40,
                                             "end": 49
                                         },
@@ -206,7 +206,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                     "end": 54
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 36,
                                 "end": 55
                             }
@@ -227,7 +227,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "end": 57
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 17,
             "end": 57
         },
@@ -303,7 +303,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "end": 84
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 57,
             "end": 85
         },
@@ -354,7 +354,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "end": 93
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 85,
             "end": 94
         },
@@ -506,7 +506,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                 "end": 174
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 156,
                             "end": 174
                         },
@@ -616,7 +616,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                                 "end": 228
                                             },
                                             "flags": 96,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 5120,
                                             "start": 216,
                                             "end": 228
                                         },
@@ -650,7 +650,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "end": 232
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 190,
                         "end": 232
                     }

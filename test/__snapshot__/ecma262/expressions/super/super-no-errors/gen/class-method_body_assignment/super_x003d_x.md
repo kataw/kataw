@@ -158,7 +158,7 @@ class C { m() { k = super = x; } }
                                                     "end": 29
                                                 },
                                                 "flags": 16,
-                                                "transformFlags": 0,
+                                                "transformFlags": 4096,
                                                 "start": 15,
                                                 "end": 30
                                             }

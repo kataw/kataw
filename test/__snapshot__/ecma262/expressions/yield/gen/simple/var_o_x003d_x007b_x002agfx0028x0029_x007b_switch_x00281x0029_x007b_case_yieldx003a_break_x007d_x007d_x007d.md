@@ -135,7 +135,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                             "asteriskToken": null,
                                                                             "expression": null,
                                                                             "flags": 32,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 4096,
                                                                             "start": 35,
                                                                             "end": 41
                                                                         },
@@ -213,7 +213,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                             "end": 55
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 55
                     }
@@ -245,7 +245,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 var o = { *gf() {
       switch (1) {
         case yield :
-          break ;
+          break;
       }
     } };
 ```

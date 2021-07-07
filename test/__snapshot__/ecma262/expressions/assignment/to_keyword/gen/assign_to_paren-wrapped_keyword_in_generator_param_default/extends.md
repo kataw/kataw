@@ -84,7 +84,7 @@ function *f(x = (extends) = f) {}
                             "end": 17
                         },
                         "flags": 34,
-                        "transformFlags": 0,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 17
                     }
@@ -129,7 +129,7 @@ function *f(x = (extends) = f) {}
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 27,
             "end": 29
         },

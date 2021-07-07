@@ -49,7 +49,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                         "type": null,
                         "initializer": null,
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
@@ -274,7 +274,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                             "end": 95
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 95
                     }

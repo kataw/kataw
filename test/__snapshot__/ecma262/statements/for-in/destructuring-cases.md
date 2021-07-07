@@ -159,7 +159,7 @@ for (let {...a.b} in c);
                                             "type": null,
                                             "right": null,
                                             "flags": 0,
-                                            "transformFlags": 0,
+                                            "transformFlags": 4096,
                                             "start": 32,
                                             "end": 36
                                         }
@@ -178,7 +178,7 @@ for (let {...a.b} in c);
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 30,
                             "end": 36
                         }
@@ -239,7 +239,7 @@ for (let {...a.b} in c);
                     "end": 38
                 },
                 "flags": 16,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 38,
                 "end": 38
             },
@@ -278,12 +278,12 @@ for (let {...a.b} in c);
                     "end": 44
                 },
                 "flags": 96,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 39,
                 "end": 44
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 39,
             "end": 44
         },

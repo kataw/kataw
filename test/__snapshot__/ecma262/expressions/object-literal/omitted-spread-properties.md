@@ -113,7 +113,7 @@ const example = (obj) => {
                                                             "end": 46
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 34,
                                                         "end": 46
                                                     }
@@ -229,7 +229,7 @@ const example = (obj) => {
                                                                         "type": null,
                                                                         "right": null,
                                                                         "flags": 0,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 4096,
                                                                         "start": 79,
                                                                         "end": 87
                                                                     }
@@ -256,7 +256,7 @@ const example = (obj) => {
                                                             "end": 95
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 55,
                                                         "end": 95
                                                     }
@@ -288,7 +288,7 @@ const example = (obj) => {
                             "end": 98
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 98
                     }

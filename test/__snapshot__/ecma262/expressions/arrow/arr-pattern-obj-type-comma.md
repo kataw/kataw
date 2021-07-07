@@ -95,7 +95,7 @@ x = (x, {}:string) => {} ;
                                 },
                                 "right": null,
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 3,
                                 "end": 17
                             }
@@ -141,7 +141,7 @@ x = (x, {}:string) => {} ;
                 "end": 24
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }

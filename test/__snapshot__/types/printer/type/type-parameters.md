@@ -125,7 +125,7 @@ const foo4: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
                             "end": 94
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 94
                     }
@@ -233,7 +233,7 @@ const foo4: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
                             "end": 186
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 101,
                         "end": 186
                     }
@@ -341,7 +341,7 @@ const foo4: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
                             "end": 280
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 193,
                         "end": 280
                     }
@@ -449,7 +449,7 @@ const foo4: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
                             "end": 382
                         },
                         "flags": 16,
-                        "transformFlags": 128,
+                        "transformFlags": 4224,
                         "start": 287,
                         "end": 382
                     }

@@ -92,7 +92,7 @@ switch (true) { case true: const x = 1; }
                                                 "end": 38
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 32,
                                             "end": 38
                                         }

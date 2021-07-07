@@ -115,7 +115,7 @@ function *f(){   s = {"foo": yield / x}   }
                                                         "end": 43
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 4096,
                                                     "start": 28,
                                                     "end": 43
                                                 },
@@ -142,7 +142,7 @@ function *f(){   s = {"foo": yield / x}   }
                                 "end": 43
                             },
                             "flags": 16,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 43
                         }

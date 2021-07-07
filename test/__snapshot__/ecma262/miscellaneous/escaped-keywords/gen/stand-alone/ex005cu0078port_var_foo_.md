@@ -58,7 +58,7 @@ e\u0078port var foo;
                             "type": null,
                             "initializer": null,
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 15,
                             "end": 19
                         }

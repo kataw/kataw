@@ -82,7 +82,7 @@ switch(x) /* comment */ { case y: foo }
                                     "end": 37
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 33,
                                 "end": 37
                             }

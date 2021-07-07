@@ -75,7 +75,7 @@ for (let [foo] = arr, [bar] = arr2);
                                 "end": 20
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 20
                         },
@@ -118,7 +118,7 @@ for (let [foo] = arr, [bar] = arr2);
                                 "end": 34
                             },
                             "flags": 16,
-                            "transformFlags": 128,
+                            "transformFlags": 4224,
                             "start": 21,
                             "end": 34
                         }

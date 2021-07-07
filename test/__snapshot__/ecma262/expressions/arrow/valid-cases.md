@@ -125,7 +125,7 @@ foo ? bar : baz => {};
                 "end": 8
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         },
@@ -198,7 +198,7 @@ foo ? bar : baz => {};
                 "end": 29
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 9,
             "end": 30
         },
@@ -272,12 +272,12 @@ foo ? bar : baz => {};
                     "end": 45
                 },
                 "flags": 97,
-                "transformFlags": 1024,
+                "transformFlags": 5120,
                 "start": 30,
                 "end": 45
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 30,
             "end": 46
         },
@@ -350,7 +350,7 @@ foo ? bar : baz => {};
                 "end": 65
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 46,
             "end": 66
         },
@@ -433,7 +433,7 @@ foo ? bar : baz => {};
                 "end": 87
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 66,
             "end": 88
         },
@@ -522,7 +522,7 @@ foo ? bar : baz => {};
                                         "end": 113
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 107,
                                     "end": 113
                                 },
@@ -548,7 +548,7 @@ foo ? bar : baz => {};
                 "end": 116
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 88,
             "end": 117
         },
@@ -648,7 +648,7 @@ foo ? bar : baz => {};
                                             "end": 145
                                         },
                                         "flags": 96,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 5120,
                                         "start": 139,
                                         "end": 145
                                     },
@@ -669,7 +669,7 @@ foo ? bar : baz => {};
                                         "end": 149
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 139,
                                     "end": 149
                                 },
@@ -695,7 +695,7 @@ foo ? bar : baz => {};
                 "end": 152
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 117,
             "end": 153
         },
@@ -798,7 +798,7 @@ foo ? bar : baz => {};
                                     "end": 173
                                 },
                                 "flags": 16,
-                                "transformFlags": 0,
+                                "transformFlags": 4096,
                                 "start": 165,
                                 "end": 174
                             }
@@ -819,7 +819,7 @@ foo ? bar : baz => {};
                 "end": 176
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 153,
             "end": 177
         },
@@ -861,7 +861,7 @@ foo ? bar : baz => {};
                 "end": 186
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 177,
             "end": 187
         },
@@ -903,7 +903,7 @@ foo ? bar : baz => {};
                 "end": 194
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 187,
             "end": 195
         },
@@ -958,7 +958,7 @@ foo ? bar : baz => {};
                         "end": 206
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 200,
                     "end": 206
                 },
@@ -968,7 +968,7 @@ foo ? bar : baz => {};
                 "end": 206
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 195,
             "end": 207
         },
@@ -1020,7 +1020,7 @@ foo ? bar : baz => {};
                 "end": 216
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 207,
             "end": 217
         },
@@ -1085,7 +1085,7 @@ foo ? bar : baz => {};
                         "end": 230
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 224,
                     "end": 230
                 },
@@ -1095,7 +1095,7 @@ foo ? bar : baz => {};
                 "end": 230
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 217,
             "end": 231
         },
@@ -1169,7 +1169,7 @@ foo ? bar : baz => {};
                         "end": 247
                     },
                     "flags": 96,
-                    "transformFlags": 1024,
+                    "transformFlags": 5120,
                     "start": 241,
                     "end": 247
                 },
@@ -1179,7 +1179,7 @@ foo ? bar : baz => {};
                 "end": 247
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 231,
             "end": 248
         },
@@ -1276,7 +1276,7 @@ foo ? bar : baz => {};
                 "end": 269
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 248,
             "end": 270
         },
@@ -1376,7 +1376,7 @@ foo ? bar : baz => {};
                 "end": 288
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 270,
             "end": 289
         },
@@ -1459,7 +1459,7 @@ foo ? bar : baz => {};
                 "end": 311
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 289,
             "end": 312
         },
@@ -1535,7 +1535,7 @@ foo ? bar : baz => {};
                             "end": 328
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 322,
                         "end": 328
                     },
@@ -1550,7 +1550,7 @@ foo ? bar : baz => {};
                 "end": 328
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 312,
             "end": 329
         },
@@ -1666,7 +1666,7 @@ foo ? bar : baz => {};
                                 "end": 353
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 349,
                             "end": 353
                         },
@@ -1705,12 +1705,12 @@ foo ? bar : baz => {};
                                 "end": 359
                             },
                             "flags": 96,
-                            "transformFlags": 1024,
+                            "transformFlags": 5120,
                             "start": 357,
                             "end": 359
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 349,
                         "end": 359
                     },
@@ -1725,7 +1725,7 @@ foo ? bar : baz => {};
                 "end": 359
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 329,
             "end": 360
         },
@@ -1840,7 +1840,7 @@ foo ? bar : baz => {};
                                     "end": 386
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 379,
                                 "end": 386
                             },
@@ -1850,7 +1850,7 @@ foo ? bar : baz => {};
                             "end": 387
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 375,
                         "end": 387
                     },
@@ -1865,7 +1865,7 @@ foo ? bar : baz => {};
                 "end": 387
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 360,
             "end": 388
         },
@@ -1980,7 +1980,7 @@ foo ? bar : baz => {};
                                     "end": 414
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 407,
                                 "end": 414
                             },
@@ -1990,7 +1990,7 @@ foo ? bar : baz => {};
                             "end": 415
                         },
                         "flags": 96,
-                        "transformFlags": 1024,
+                        "transformFlags": 5120,
                         "start": 403,
                         "end": 415
                     },
@@ -2005,7 +2005,7 @@ foo ? bar : baz => {};
                 "end": 415
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 388,
             "end": 416
         },
@@ -2079,7 +2079,7 @@ foo ? bar : baz => {};
                 "end": 431
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 416,
             "end": 432
         },
@@ -2176,7 +2176,7 @@ foo ? bar : baz => {};
                 "end": 451
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 432,
             "end": 451
         },
@@ -2236,7 +2236,7 @@ foo ? bar : baz => {};
                 "end": 607
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 452,
             "end": 608
         },
@@ -2324,7 +2324,7 @@ foo ? bar : baz => {};
                 "end": 626
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 608,
             "end": 627
         },
@@ -2419,7 +2419,7 @@ foo ? bar : baz => {};
                 "end": 647
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 627,
             "end": 648
         },
@@ -2543,7 +2543,7 @@ foo ? bar : baz => {};
                 "end": 673
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 648,
             "end": 674
         },
@@ -2654,7 +2654,7 @@ foo ? bar : baz => {};
                                     "end": 698
                                 },
                                 "flags": 96,
-                                "transformFlags": 1024,
+                                "transformFlags": 5120,
                                 "start": 692,
                                 "end": 698
                             },
@@ -2675,7 +2675,7 @@ foo ? bar : baz => {};
                 "end": 699
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 674,
             "end": 700
         },
@@ -2798,7 +2798,7 @@ foo ? bar : baz => {};
                                         "end": 727
                                     },
                                     "flags": 96,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 5120,
                                     "start": 721,
                                     "end": 727
                                 },
@@ -2824,7 +2824,7 @@ foo ? bar : baz => {};
                 "end": 729
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 700,
             "end": 730
         },
@@ -2935,7 +2935,7 @@ foo ? bar : baz => {};
                 "end": 752
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 730,
             "end": 753
         },
@@ -3018,12 +3018,12 @@ foo ? bar : baz => {};
                     "end": 850
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 4096,
                 "start": 753,
                 "end": 850
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 753,
             "end": 851
         },
@@ -3089,7 +3089,7 @@ foo ? bar : baz => {};
                 "end": 901
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 851,
             "end": 902
         },
@@ -3164,7 +3164,7 @@ foo ? bar : baz => {};
                 "end": 916
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 902,
             "end": 917
         },
@@ -3239,7 +3239,7 @@ foo ? bar : baz => {};
                 "end": 931
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 917,
             "end": 932
         },
@@ -3305,7 +3305,7 @@ foo ? bar : baz => {};
                 "end": 943
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 932,
             "end": 944
         },
@@ -3380,7 +3380,7 @@ foo ? bar : baz => {};
                 "end": 958
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 944,
             "end": 959
         },
@@ -3455,7 +3455,7 @@ foo ? bar : baz => {};
                 "end": 973
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 959,
             "end": 974
         },
@@ -3492,7 +3492,7 @@ foo ? bar : baz => {};
                                 "end": 981
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 974,
                             "end": 981
                         }
@@ -3533,7 +3533,7 @@ foo ? bar : baz => {};
                 "end": 988
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 974,
             "end": 989
         },
@@ -3570,7 +3570,7 @@ foo ? bar : baz => {};
                                 "end": 996
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 989,
                             "end": 996
                         },
@@ -3620,7 +3620,7 @@ foo ? bar : baz => {};
                 "end": 1006
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 989,
             "end": 1007
         },
@@ -3666,7 +3666,7 @@ foo ? bar : baz => {};
                                 "end": 1017
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1007,
                             "end": 1017
                         }
@@ -3707,7 +3707,7 @@ foo ? bar : baz => {};
                 "end": 1024
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1007,
             "end": 1025
         },
@@ -3783,7 +3783,7 @@ foo ? bar : baz => {};
                 "end": 1037
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1025,
             "end": 1038
         },
@@ -3820,7 +3820,7 @@ foo ? bar : baz => {};
                                 "end": 1045
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1038,
                             "end": 1045
                         }
@@ -3861,7 +3861,7 @@ foo ? bar : baz => {};
                 "end": 1052
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1038,
             "end": 1053
         },
@@ -3907,7 +3907,7 @@ foo ? bar : baz => {};
                                 "end": 1063
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1053,
                             "end": 1063
                         }
@@ -3948,7 +3948,7 @@ foo ? bar : baz => {};
                 "end": 1070
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1053,
             "end": 1071
         },
@@ -3985,7 +3985,7 @@ foo ? bar : baz => {};
                                 "end": 1078
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1071,
                             "end": 1078
                         },
@@ -4035,7 +4035,7 @@ foo ? bar : baz => {};
                 "end": 1088
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1071,
             "end": 1089
         },
@@ -4081,7 +4081,7 @@ foo ? bar : baz => {};
                                 "end": 1099
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1089,
                             "end": 1099
                         },
@@ -4131,7 +4131,7 @@ foo ? bar : baz => {};
                 "end": 1109
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1089,
             "end": 1110
         },
@@ -4177,7 +4177,7 @@ foo ? bar : baz => {};
                                 "end": 1120
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1110,
                             "end": 1120
                         },
@@ -4205,7 +4205,7 @@ foo ? bar : baz => {};
                                 "end": 1127
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1110,
                             "end": 1127
                         }
@@ -4246,7 +4246,7 @@ foo ? bar : baz => {};
                 "end": 1134
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1110,
             "end": 1135
         },
@@ -4281,7 +4281,7 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1137,
                             "end": 1141
                         }
@@ -4322,7 +4322,7 @@ foo ? bar : baz => {};
                 "end": 1148
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1135,
             "end": 1149
         },
@@ -4366,7 +4366,7 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1153,
                             "end": 1158
                         }
@@ -4407,7 +4407,7 @@ foo ? bar : baz => {};
                 "end": 1165
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1149,
             "end": 1166
         },
@@ -4444,7 +4444,7 @@ foo ? bar : baz => {};
                                 "end": 1173
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1166,
                             "end": 1173
                         },
@@ -4470,7 +4470,7 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1174,
                             "end": 1179
                         }
@@ -4511,7 +4511,7 @@ foo ? bar : baz => {};
                 "end": 1186
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1166,
             "end": 1187
         },
@@ -4557,7 +4557,7 @@ foo ? bar : baz => {};
                                 "end": 1197
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1187,
                             "end": 1197
                         },
@@ -4583,7 +4583,7 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1198,
                             "end": 1203
                         }
@@ -4624,7 +4624,7 @@ foo ? bar : baz => {};
                 "end": 1210
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1187,
             "end": 1211
         },
@@ -4670,7 +4670,7 @@ foo ? bar : baz => {};
                                 "end": 1221
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1211,
                             "end": 1221
                         },
@@ -4724,7 +4724,7 @@ foo ? bar : baz => {};
                                 "end": 1233
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1211,
                             "end": 1233
                         },
@@ -4750,7 +4750,7 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1234,
                             "end": 1239
                         }
@@ -4791,7 +4791,7 @@ foo ? bar : baz => {};
                 "end": 1246
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1211,
             "end": 1247
         },
@@ -4852,7 +4852,7 @@ foo ? bar : baz => {};
                                 "end": 1257
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1249,
                             "end": 1257
                         }
@@ -4893,7 +4893,7 @@ foo ? bar : baz => {};
                 "end": 1264
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1247,
             "end": 1265
         },
@@ -4954,7 +4954,7 @@ foo ? bar : baz => {};
                                 "end": 1275
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 4096,
                             "start": 1267,
                             "end": 1275
                         }
@@ -4995,7 +4995,7 @@ foo ? bar : baz => {};
                 "end": 1282
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1265,
             "end": 1283
         },
@@ -5037,7 +5037,7 @@ foo ? bar : baz => {};
                                             "end": 1292
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1286,
                                         "end": 1292
                                     }
@@ -5090,7 +5090,7 @@ foo ? bar : baz => {};
                 "end": 1300
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1283,
             "end": 1301
         },
@@ -5132,7 +5132,7 @@ foo ? bar : baz => {};
                                             "end": 1309
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 4096,
                                         "start": 1304,
                                         "end": 1309
                                     }
@@ -5185,7 +5185,7 @@ foo ? bar : baz => {};
                 "end": 1317
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 1301,
             "end": 1318
         }

@@ -195,7 +195,7 @@ async <A = B, C = D>(x) => y;
                 "end": 28
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         },
@@ -376,7 +376,7 @@ async <A = B, C = D>(x) => y;
                 "end": 61
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 29,
             "end": 62
         }

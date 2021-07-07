@@ -107,7 +107,7 @@ it => { var [,,...rest] = it; return rest; }
                                                             "type": null,
                                                             "right": null,
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 4096,
                                                             "start": 15,
                                                             "end": 22
                                                         }
@@ -134,7 +134,7 @@ it => { var [,,...rest] = it; return rest; }
                                                 "end": 28
                                             },
                                             "flags": 16,
-                                            "transformFlags": 128,
+                                            "transformFlags": 4224,
                                             "start": 11,
                                             "end": 28
                                         }
@@ -189,7 +189,7 @@ it => { var [,,...rest] = it; return rest; }
                 "end": 44
             },
             "flags": 16,
-            "transformFlags": 0,
+            "transformFlags": 4096,
             "start": 0,
             "end": 44
         }

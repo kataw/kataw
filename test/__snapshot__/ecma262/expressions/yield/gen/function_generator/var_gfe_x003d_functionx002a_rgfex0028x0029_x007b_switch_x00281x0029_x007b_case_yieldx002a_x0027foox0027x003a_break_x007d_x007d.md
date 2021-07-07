@@ -226,7 +226,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                                 "end": 99
                                                                                             },
                                                                                             "flags": 32,
-                                                                                            "transformFlags": 0,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 86,
                                                                                             "end": 99
                                                                                         },
@@ -288,7 +288,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                             "end": 111
                                                         },
                                                         "flags": 16,
-                                                        "transformFlags": 128,
+                                                        "transformFlags": 4224,
                                                         "start": 43,
                                                         "end": 111
                                                     }
@@ -356,7 +356,7 @@ function *gen() {
     var gfe = function *rgfe() {
         switch (1) {
           case yield* "'foo'":
-            break ;
+            break;
         }
       };
   }
