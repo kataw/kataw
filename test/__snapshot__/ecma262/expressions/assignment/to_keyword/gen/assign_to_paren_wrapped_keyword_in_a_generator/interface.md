@@ -144,7 +144,7 @@ function *f(){
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   (interface) = 1;
 }
 ```

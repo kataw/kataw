@@ -149,7 +149,7 @@ class x {async * export(){}}
 
 ```javascript
 class x {
-  async * export() {}
+  async *export() {}
 }
 ```
 

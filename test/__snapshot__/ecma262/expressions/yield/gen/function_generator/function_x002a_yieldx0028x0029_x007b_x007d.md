@@ -209,9 +209,9 @@ function * gen() { function not_gen() { function * yield() { } }}
 ### Printed
 
 ```javascript
-function * gen() {
+function *gen() {
   function not_gen() {
-    function * yield() {}
+    function *yield() {}
   }
 }
 ```

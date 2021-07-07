@@ -3354,7 +3354,7 @@ class One {
   foo() {}
 }
 class Two {
-  * foo() {}
+  *foo() {}
 }
 
 class Three {
@@ -3370,7 +3370,7 @@ class Five {
 }
 
 class Six {
-  static * foo() {}
+  static *foo() {}
 }
 
 class Seven {
@@ -3390,7 +3390,7 @@ class Ten {
 }
 
 class Eleven {
-  static async * foo() {}
+  static async *foo() {}
 }
 
 class Twelwe {
@@ -3398,7 +3398,7 @@ class Twelwe {
 }
 
 class Thirteen {
-  * if() {}
+  *if() {}
 }
 
 class Fourtin {
@@ -3414,11 +3414,11 @@ class Sixteen {
 }
 
 class Seventeen {
-  static * if() {}
+  static *if() {}
 }
 
 class Eigtheen {
-  static async * if() {}
+  static async *if() {}
 }
 
 class Nineteen {
@@ -3443,7 +3443,7 @@ class Twentytwo {
 
 class TwentyThree {
   a() {}
-  static async * b() {}
+  static async *b() {}
 }
 
 class TwentyFour {
@@ -3459,7 +3459,7 @@ class TwentySeven {
 }
 
 class TwentyEigth {
-  * ["'constructor'"]() {}
+  *["'constructor'"]() {}
 }
 
 class TwentyNine {

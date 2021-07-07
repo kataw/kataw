@@ -7284,25 +7284,25 @@
   });
 
 (class {
-    * g() {}
+    *g() {}
   });
 
 (class {
-    * g() {};
+    *g() {};
   });
 
 (class {
     ;
-    * g() {}
+    *g() {}
   });
 
 (class {
-    * g() {};
-    * h(x) {}
+    *g() {};
+    *h(x) {}
   });
 
 (class {
-    async * x() {}
+    async *x() {}
   });
 
 (class {
@@ -7350,23 +7350,23 @@
   });
 
 (class {
-    * static() {}
+    *static() {}
   });
 
 (class {
-    static * static() {}
+    static *static() {}
   });
 
 (class {
-    * get() {}
+    *get() {}
   });
 
 (class {
-    * set() {}
+    *set() {}
   });
 
 (class {
-    static * g() {}
+    static *g() {}
   });
 
 (class {
@@ -7374,7 +7374,7 @@
   });
 
 (class {
-    * async() {}
+    *async() {}
   });
 
 (class {
@@ -7382,11 +7382,11 @@
   });
 
 (class {
-    static * async() {}
+    static *async() {}
   });
 
 (class {
-    static async * x() {}
+    static async *x() {}
   });
 
 (class {
@@ -7398,7 +7398,7 @@
   });
 
 (class {
-    static * async() {}
+    static *async() {}
   });
 
 (class {
@@ -7430,7 +7430,7 @@
   });
 
 (class {
-    * async() {}
+    *async() {}
   });
 
 (class {
@@ -7454,11 +7454,11 @@
   });
 
 (class {
-    * const() {}
+    *const() {}
   });
 
 (class {
-    static * "\"str\""() {}
+    static *"\"str\""() {}
   });
 
 (class C {
@@ -7486,11 +7486,11 @@
   });
 
 (class C {
-    * set() {}
+    *set() {}
   });
 
 (class C {
-    static * static() {}
+    static *static() {}
   });
 
 ```

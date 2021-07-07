@@ -2018,10 +2018,10 @@ type T27 = ArgumentType<never>;  // any
 ### Printed
 
 ```javascript
-type T10 = ReturnType<() =>  string>
-type T11 = ReturnType<(s: string) =>  void>
+type T10 = ReturnType<() => string>
+type T11 = ReturnType<(s: string) => void>
 
-type T12 = ReturnType<(<T>() =>  T)>
+type T12 = ReturnType<(<T>() => T)>
 
 type T14 = ReturnType<typeof f1>
 
@@ -2035,13 +2035,13 @@ type T18 = ReturnType<string>
 
 type T19 = ReturnType<Function>
 
-type T20 = ArgumentType<() =>  void>
+type T20 = ArgumentType<() => void>
 
-type T21 = ArgumentType<(x: string) =>  number>
+type T21 = ArgumentType<(x: string) => number>
 
-type T22 = ArgumentType<(x?: string) =>  number>
+type T22 = ArgumentType<(x?: string) => number>
 
-type T23 = ArgumentType<(...args: string[]) =>  number>
+type T23 = ArgumentType<(...args: string[]) => number>
 
 type T25 = ArgumentType<Function>
 

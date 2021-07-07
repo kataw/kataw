@@ -127,7 +127,7 @@ let x = function *await(){}
 ### Printed
 
 ```javascript
-let x = function * await() {};
+let x = function *await() {};
 ```
 
 ### Diagnostics

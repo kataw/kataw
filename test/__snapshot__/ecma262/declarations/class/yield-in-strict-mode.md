@@ -180,7 +180,7 @@ function* f() { class C { aaa = yield } }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   class C {
     aaa = yield ;
   }

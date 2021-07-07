@@ -316,11 +316,11 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
 ### Printed
 
 ```javascript
-function * gen() {
+function *gen() {
   function not_gen() {
-    function * gf() {
+    function *gf() {
       class C {
-        * yield() {}
+        *yield() {}
       }
     }
   }

@@ -132,7 +132,7 @@ x
 ### Printed
 
 ```javascript
-({ async * x() {} });
+({ async *x() {} });
 ```
 
 ### Diagnostics

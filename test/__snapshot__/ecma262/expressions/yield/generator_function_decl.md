@@ -88,7 +88,7 @@ function *await(){}
 ### Printed
 
 ```javascript
-function * await() {}
+function *await() {}
 ```
 
 ### Diagnostics

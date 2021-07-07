@@ -164,8 +164,8 @@ async function * gen() {yield * yield * 1;}
 ### Printed
 
 ```javascript
-async function * gen() {
-  yield * yield * 1;
+async function *gen() {
+  yield* yield* 1;
 }
 ```
 

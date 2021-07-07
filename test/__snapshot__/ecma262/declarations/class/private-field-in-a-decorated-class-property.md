@@ -251,7 +251,7 @@ class Example {
 ```javascript
 class Example {
   #priv;;
-  @ anydecorator method = () => {
+  @anydecorator method = () => {
     return this.#priv;
   };;
 }

@@ -210,7 +210,7 @@ async function * f() { for await({a} = 1 of []){ } }
 ### Printed
 
 ```javascript
-async function * f() {
+async function *f() {
   for await ({ a } = 1 of []) {}
 }
 ```

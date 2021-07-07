@@ -212,7 +212,7 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
 ### Printed
 
 ```javascript
-function * gen() {
+function *gen() {
   function not_gen() {
     (yield) ? yield : yield;
   }

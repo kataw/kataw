@@ -713,7 +713,7 @@ const f = async function * (source, block, opts) {
 ### Printed
 
 ```javascript
-const f = async function * (source, block, opts) {
+const f = async function *(source, block, opts) {
     for await (const entry of source) {
         yield async function () {
           const cid = await persist(entry.content.serialize(), block, opts);

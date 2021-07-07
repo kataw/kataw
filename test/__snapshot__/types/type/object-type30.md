@@ -260,7 +260,7 @@ type a = {[(((-1) => [c|d]))]:string};
 ### Printed
 
 ```javascript
-type a = { [((-1) =>  [c | d])]: string }
+type a = { [((-1) => [c | d])]: string }
 ```
 
 ### Diagnostics

@@ -267,9 +267,9 @@ gen = function*() {};
 
 ```javascript
 var xGen, gen;
-xGen = function * x() {};
+xGen = function *x() {};
 
-gen = function * () {};
+gen = function *() {};
 
 ```
 

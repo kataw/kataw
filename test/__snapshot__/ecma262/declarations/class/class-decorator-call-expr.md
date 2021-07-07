@@ -129,7 +129,7 @@ class Foo {}
 ### Printed
 
 ```javascript
-@ foo("'bar'") class Foo {}
+@foo("'bar'") class Foo {}
 ```
 
 ### Diagnostics

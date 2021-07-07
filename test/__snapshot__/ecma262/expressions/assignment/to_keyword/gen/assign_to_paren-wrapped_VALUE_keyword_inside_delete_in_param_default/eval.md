@@ -175,7 +175,7 @@ function *f(x = delete ((eval) = f)) {}
 ### Printed
 
 ```javascript
-function * f(x = delete ((eval) = f)) {}
+function *f(x = delete ((eval) = f)) {}
 ```
 
 ### Diagnostics

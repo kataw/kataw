@@ -11801,7 +11801,7 @@ class x {
   });
 
 (class {
-    * #a() {}
+    *#a() {}
   });
 
 (class {
@@ -11809,7 +11809,7 @@ class x {
   });
 
 (class {
-    async * #a() {}
+    async *#a() {}
   });
 
 (class {
@@ -11885,7 +11885,7 @@ class x {
 
 (class {
     #a() {}
-    async * #b() {}
+    async *#b() {}
   });
 
 (class {
@@ -11993,59 +11993,59 @@ class x {
   });
 
 (class {
-    * #async() {}
+    *#async() {}
   });
 
 (class {
-    * #await() {}
+    *#await() {}
   });
 
 (class {
-    * #yield() {}
+    *#yield() {}
   });
 
 (class {
-    * #get() {}
+    *#get() {}
   });
 
 (class {
-    * #set() {}
+    *#set() {}
   });
 
 (class {
-    * #static() {}
+    *#static() {}
   });
 
 (class {
-    * #arguments() {}
+    *#arguments() {}
   });
 
 (class {
-    async * #yield() {}
+    async *#yield() {}
   });
 
 (class {
-    async * #async() {}
+    async *#async() {}
   });
 
 (class {
-    async * #await() {}
+    async *#await() {}
   });
 
 (class {
-    async * #get() {}
+    async *#get() {}
   });
 
 (class {
-    async * #set() {}
+    async *#set() {}
   });
 
 (class {
-    async * #static() {}
+    async *#static() {}
   });
 
 (class {
-    async * #arguments() {}
+    async *#arguments() {}
   });
 
 (class {
@@ -12061,7 +12061,7 @@ class x {
   });
 
 (class {
-    #b;;* #a() {}
+    #b;;*#a() {}
   });
 
 (class {
@@ -12069,7 +12069,7 @@ class x {
   });
 
 (class {
-    #b;;async * #a() {}
+    #b;;async *#a() {}
   });
 
 (class {
@@ -12085,7 +12085,7 @@ class x {
   });
 
 (class {
-    #b = 1;;* #a() {}
+    #b = 1;;*#a() {}
   });
 
 (class {
@@ -12093,7 +12093,7 @@ class x {
   });
 
 (class {
-    #b = 1;;async * #a() {}
+    #b = 1;;async *#a() {}
   });
 
 (class {
@@ -12109,7 +12109,7 @@ class x {
   });
 
 (class {
-    a;;* #a() {}
+    a;;*#a() {}
   });
 
 (class {
@@ -12117,7 +12117,7 @@ class x {
   });
 
 (class {
-    a;;async * #a() {}
+    a;;async *#a() {}
   });
 
 (class {
@@ -12133,7 +12133,7 @@ class x {
   });
 
 (class {
-    a = 1;;* #a() {}
+    a = 1;;*#a() {}
   });
 
 (class {
@@ -12141,7 +12141,7 @@ class x {
   });
 
 (class {
-    a = 1;;async * #a() {}
+    a = 1;;async *#a() {}
   });
 
 ```

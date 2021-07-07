@@ -142,7 +142,7 @@ class x { async *prototype(){} }
 
 ```javascript
 class x {
-  async * prototype() {}
+  async *prototype() {}
 }
 ```
 

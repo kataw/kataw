@@ -143,7 +143,7 @@ class A {*async() { }};
 
 ```javascript
 class A {
-  * async() {}
+  *async() {}
 }
 ```
 

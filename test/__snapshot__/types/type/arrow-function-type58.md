@@ -257,7 +257,7 @@ let a: ([-1] | x | q & (x)) => T;
 ### Printed
 
 ```javascript
-let a: ([-1] | x | q & (x)) =>  T;
+let a: ([-1] | x | q & (x)) => T;
 ```
 
 ### Diagnostics

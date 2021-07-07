@@ -411,7 +411,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
 type X<S, A, C, I, R> = (S,
 A,
 C,
-I) =>  Promise<R>
+I) => Promise<R>
 ```
 
 ### Diagnostics

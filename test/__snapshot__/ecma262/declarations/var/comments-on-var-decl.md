@@ -1045,11 +1045,11 @@ var yy = 20;
 
 var z = (x: number, y: number) => x + y;
 
-var z2: (x: number) =>  string;
+var z2: (x: number) => string;
 
 var x2 = z2;
 
-var n4: (x: number) =>  string;
+var n4: (x: number) => string;
 
 n4 = z2;
 

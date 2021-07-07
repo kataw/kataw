@@ -134,7 +134,7 @@ function *f() {  return delete yield;  }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   return delete yield ;
 }
 ```

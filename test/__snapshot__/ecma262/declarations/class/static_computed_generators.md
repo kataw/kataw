@@ -168,7 +168,7 @@ class x { static *[expr](){} }
 
 ```javascript
 class x {
-  static * [expr]() {}
+  static *[expr]() {}
 }
 ```
 

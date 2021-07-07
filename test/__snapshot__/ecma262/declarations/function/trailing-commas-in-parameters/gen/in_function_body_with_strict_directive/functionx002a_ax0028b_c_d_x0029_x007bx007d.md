@@ -190,7 +190,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
 function foo() {
 
   "'use strict'";
-  function * a(b, c, d) {}
+  function *a(b, c, d) {}
 }
 ```
 

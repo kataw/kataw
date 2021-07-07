@@ -199,7 +199,7 @@ function* foo(a = function* foo() { yield b }) {}
 ### Printed
 
 ```javascript
-function * foo(a = function * foo() {
+function *foo(a = function *foo() {
   yield b;
 }) {}
 ```

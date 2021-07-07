@@ -149,7 +149,7 @@ async function * gen() {await 10; return}
 ### Printed
 
 ```javascript
-async function * gen() {
+async function *gen() {
   await 10;
   return;
 }

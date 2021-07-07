@@ -567,11 +567,11 @@
 
 ({ set prototype(x) {} });
 
-({ * prototype() {} });
+({ *prototype() {} });
 
 ({ async prototype() {} });
 
-({ async * prototype() {} });
+({ async *prototype() {} });
 
 ```
 

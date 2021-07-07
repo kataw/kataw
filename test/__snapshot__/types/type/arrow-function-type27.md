@@ -346,7 +346,7 @@ type a = ((x?:string, (x?:string)=> T)=> T) => T;
 
 ```javascript
 type a = (((x?: string,
-(x?: string) =>  T) =>  T) =>  T)
+(x?: string) => T) => T) => T)
 ```
 
 ### Diagnostics

@@ -161,7 +161,7 @@ switch (x) {
 ```javascript
 switch (x) {
   default
-    async function * f() {}
+    async function *f() {}
 }
 ```
 

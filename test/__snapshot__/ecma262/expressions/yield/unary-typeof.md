@@ -142,7 +142,7 @@ function *f() {  return typeof yield foo;  }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   return typeof yield foo;
 }
 ```

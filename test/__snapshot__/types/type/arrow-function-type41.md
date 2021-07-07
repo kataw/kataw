@@ -347,7 +347,7 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
 ### Printed
 
 ```javascript
-type a = (...x: string & foo | (...x: string & foo | bar) =>  T) =>  T
+type a = (...x: string & foo | (...x: string & foo | bar) => T) => T
 ```
 
 ### Diagnostics

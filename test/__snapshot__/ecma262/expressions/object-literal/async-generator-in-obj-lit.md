@@ -159,7 +159,7 @@ const obj = {
 ### Printed
 
 ```javascript
-const obj = { async, * generator() {} };
+const obj = { async, *generator() {} };
 ```
 
 ### Diagnostics

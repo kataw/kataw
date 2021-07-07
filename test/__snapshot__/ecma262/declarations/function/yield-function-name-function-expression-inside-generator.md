@@ -157,7 +157,7 @@ function* fn() {
 ### Printed
 
 ```javascript
-function * fn() {
+function *fn() {
   (function yield() {});
 }
 ```

@@ -175,7 +175,7 @@ try {
 
 ```javascript
 try {} catch (e) {
-  async function * f() {}
+  async function *f() {}
 }
 ```
 

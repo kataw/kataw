@@ -143,7 +143,7 @@ class x {* new(){}}
 
 ```javascript
 class x {
-  * new() {}
+  *new() {}
 }
 ```
 

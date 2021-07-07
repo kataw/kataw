@@ -187,7 +187,7 @@ type a = (?"string" | y) => T;
 ### Printed
 
 ```javascript
-type a = (? "\"string\"" | y) =>  T
+type a = (? "\"string\"" | y) => T
 ```
 
 ### Diagnostics

@@ -160,7 +160,7 @@ function *f() { 1 ? yield 2 : 3; }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   1 ? yield 2 : 3;
 }
 ```

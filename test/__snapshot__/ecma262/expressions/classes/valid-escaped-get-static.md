@@ -746,7 +746,7 @@
   });
 
 (class {
-    * st\u0061tic() {}
+    *st\u0061tic() {}
   });
 
 (class {

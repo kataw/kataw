@@ -279,7 +279,7 @@
 ### Printed
 
 ```javascript
-({ async * gen() {
+({ async *gen() {
       x = class extends (a ? null : await 10) {};
     } });
 ```

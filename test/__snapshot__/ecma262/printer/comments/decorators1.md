@@ -165,7 +165,7 @@ class x {
 
 ```javascript
 class x {
-  @ foo bar() {}
+  @foo bar() {}
 }
 ```
 

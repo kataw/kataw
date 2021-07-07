@@ -154,7 +154,7 @@ function *f(x = (package) = f) {}
 ### Printed
 
 ```javascript
-function * f(x = (package) = f) {}
+function *f(x = (package) = f) {}
 ```
 
 ### Diagnostics

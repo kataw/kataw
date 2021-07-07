@@ -154,7 +154,7 @@
 
 ```javascript
 (class {
-    static * async() {}
+    static *async() {}
   });
 ```
 

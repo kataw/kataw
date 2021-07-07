@@ -178,7 +178,7 @@ type A = (b: (B)) => C
 ### Printed
 
 ```javascript
-type A = (b: (B)) =>  C
+type A = (b: (B)) => C
 ```
 
 ### Diagnostics

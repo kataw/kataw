@@ -142,7 +142,7 @@ function* gf() { +yield 2; }
 ### Printed
 
 ```javascript
-function * gf() {
+function *gf() {
   +yield 2;
 }
 ```

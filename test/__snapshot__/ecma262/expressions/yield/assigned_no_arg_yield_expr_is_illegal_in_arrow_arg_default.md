@@ -197,7 +197,7 @@ function *f(){ async (x = z = yield) => {} }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   async (x = z = yield ) => {}
 }
 ```

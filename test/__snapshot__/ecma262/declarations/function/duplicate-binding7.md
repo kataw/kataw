@@ -204,7 +204,7 @@ function f() {
   {
     var x;
   }
-  function * x() {}
+  function *x() {}
 }
 ```
 

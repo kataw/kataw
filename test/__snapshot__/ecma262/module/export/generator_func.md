@@ -131,7 +131,7 @@ export default function *f(){} foo
 ### Printed
 
 ```javascript
-export default function * f() {};
+export default function *f() {};
 foo;
 
 ```

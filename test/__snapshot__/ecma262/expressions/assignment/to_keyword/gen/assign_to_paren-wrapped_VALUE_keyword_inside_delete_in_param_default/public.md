@@ -175,7 +175,7 @@ function *f(x = delete ((public) = f)) {}
 ### Printed
 
 ```javascript
-function * f(x = delete ((public) = f)) {}
+function *f(x = delete ((public) = f)) {}
 ```
 
 ### Diagnostics

@@ -154,7 +154,7 @@ function *f(x = (private) = f) {}
 ### Printed
 
 ```javascript
-function * f(x = (private) = f) {}
+function *f(x = (private) = f) {}
 ```
 
 ### Diagnostics

@@ -143,7 +143,7 @@ function *foo() { (x = \u0079ield) }
 ### Printed
 
 ```javascript
-function * foo() {
+function *foo() {
   (x = yield );
 }
 ```

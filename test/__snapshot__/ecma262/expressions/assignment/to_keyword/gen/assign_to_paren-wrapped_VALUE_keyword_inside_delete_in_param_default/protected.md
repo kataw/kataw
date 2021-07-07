@@ -175,7 +175,7 @@ function *f(x = delete ((protected) = f)) {}
 ### Printed
 
 ```javascript
-function * f(x = delete ((protected) = f)) {}
+function *f(x = delete ((protected) = f)) {}
 ```
 
 ### Diagnostics

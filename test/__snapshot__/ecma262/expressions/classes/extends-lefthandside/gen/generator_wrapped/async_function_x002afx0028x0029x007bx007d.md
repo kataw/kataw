@@ -218,8 +218,8 @@ function *P(){
 ### Printed
 
 ```javascript
-function * P() {
-  class D extends async function * f() {} {}
+function *P() {
+  class D extends async function *f() {} {}
 }
 ```
 

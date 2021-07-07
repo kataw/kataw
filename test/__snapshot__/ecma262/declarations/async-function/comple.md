@@ -298,7 +298,7 @@ await 0 }
 ### Printed
 
 ```javascript
-function * foo() {
+function *foo() {
   if (0) let;
   yield 0;
 }

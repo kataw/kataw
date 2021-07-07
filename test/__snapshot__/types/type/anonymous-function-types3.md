@@ -156,7 +156,7 @@ type A = (string,) => void
 ### Printed
 
 ```javascript
-type A = (string) =>  void
+type A = (string) => void
 ```
 
 ### Diagnostics

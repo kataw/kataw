@@ -175,7 +175,7 @@ function *f(x = delete ((interface) = f)) {}
 ### Printed
 
 ```javascript
-function * f(x = delete ((interface) = f)) {}
+function *f(x = delete ((interface) = f)) {}
 ```
 
 ### Diagnostics

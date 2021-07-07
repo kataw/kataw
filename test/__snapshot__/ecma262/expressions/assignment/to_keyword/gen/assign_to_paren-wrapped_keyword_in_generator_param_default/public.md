@@ -154,7 +154,7 @@ function *f(x = (public) = f) {}
 ### Printed
 
 ```javascript
-function * f(x = (public) = f) {}
+function *f(x = (public) = f) {}
 ```
 
 ### Diagnostics

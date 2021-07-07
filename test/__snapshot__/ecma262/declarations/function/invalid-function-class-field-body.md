@@ -205,7 +205,7 @@ function* foo() {
 ### Printed
 
 ```javascript
-function * foo() {
+function *foo() {
   class C {
     p = yield +42;;
   }

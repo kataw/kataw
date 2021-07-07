@@ -353,9 +353,9 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 ### Printed
 
 ```javascript
-function * gen() {
+function *gen() {
   function not_gen() {
-    (function * () {
+    (function *() {
         x = class extends (a ? null : yield ) {};
       });
   }

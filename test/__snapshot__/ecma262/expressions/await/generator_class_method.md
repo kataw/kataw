@@ -146,7 +146,7 @@ class x {*f(await){}}
 
 ```javascript
 class x {
-  * f(await) {}
+  *f(await) {}
 }
 ```
 

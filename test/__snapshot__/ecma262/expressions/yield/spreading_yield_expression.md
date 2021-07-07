@@ -158,7 +158,7 @@ function *f(){ return { ...(yield) } }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   return { ...(yield ) };
 }
 ```

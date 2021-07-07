@@ -280,7 +280,7 @@
 ```javascript
 
 "'use strict'";
-let foo = function * () {
+let foo = function *() {
     try {
       yield 42;
     } finally {

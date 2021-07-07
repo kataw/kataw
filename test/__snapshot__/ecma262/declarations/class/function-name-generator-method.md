@@ -138,7 +138,7 @@ class A {
 
 ```javascript
 class A {
-  * yield() {}
+  *yield() {}
 }
 ```
 

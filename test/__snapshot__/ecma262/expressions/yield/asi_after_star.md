@@ -139,8 +139,8 @@ function *f() {
 ### Printed
 
 ```javascript
-function * f() {
-  (yield * x);
+function *f() {
+  (yield* x);
 }
 ```
 

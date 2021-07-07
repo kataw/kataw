@@ -240,7 +240,7 @@ type a = (((x | ((y & [x]))))) => T;
 ### Printed
 
 ```javascript
-type a = ((x | (y & [x]))) =>  T
+type a = ((x | (y & [x]))) => T
 ```
 
 ### Diagnostics

@@ -6477,7 +6477,7 @@ switch (x / b[(c)]) {
 
 switch (x) {
   case foo:
-    function * f() {}
+    function *f() {}
 }
 
 switch (x) {
@@ -6572,8 +6572,8 @@ switch (x) {
 
 switch (x) {
   case c:
-    async function * f() {}
-    async function * f() {}
+    async function *f() {}
+    async function *f() {}
 }
 
 switch (0) {
@@ -6592,12 +6592,12 @@ switch (0) {
 
 switch (x) {
   case x:
-    function * f() {}
+    function *f() {}
 }
 
 switch (x) {
   case x:
-    function * f() {}
+    function *f() {}
 }
 
 "\"use strict\"";

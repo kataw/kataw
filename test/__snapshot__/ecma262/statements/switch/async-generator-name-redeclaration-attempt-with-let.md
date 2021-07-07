@@ -224,7 +224,7 @@ switch (0) { case 1: async function* f() {} default: let f }
 ```javascript
 switch (0) {
   case 1:
-    async function * f() {}
+    async function *f() {}
   default
     let f;
 }

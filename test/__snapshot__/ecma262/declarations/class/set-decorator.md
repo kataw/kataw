@@ -187,7 +187,7 @@ class A {
 
 ```javascript
 class A {
-  @ foo set setter(_val) {}
+  @foo set setter(_val) {}
 }
 ```
 

@@ -223,7 +223,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
 ### Printed
 
 ```javascript
-function * gen() {
+function *gen() {
   function not_gen() {
     var foo = yield = 1;
   }

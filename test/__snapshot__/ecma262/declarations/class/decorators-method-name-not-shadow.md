@@ -189,7 +189,7 @@ class Foo {
 ### Printed
 
 ```javascript
-@ decorator class Foo {
+@decorator class Foo {
   method() {
     return method;
   }

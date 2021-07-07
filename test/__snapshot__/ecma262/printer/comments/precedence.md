@@ -5476,7 +5476,7 @@ f = -+-a++;
 
 g = b + -+-a++;
 
-(async function * () {
+(async function *() {
     await a + b;
     await a + await b;
     await (a = b);
@@ -5489,7 +5489,7 @@ g = b + -+-a++;
     const c = yield 3;
   });
 
-(function * () {
+(function *() {
     !(yield 1);
   });
 

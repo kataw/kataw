@@ -123,7 +123,7 @@ while (function* () {} === x);
 ### Printed
 
 ```javascript
-while (function * () {} === x);
+while (function *() {} === x);
 ```
 
 ### Diagnostics

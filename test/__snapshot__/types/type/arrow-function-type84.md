@@ -181,7 +181,7 @@ type a = (() => T) => T
 ### Printed
 
 ```javascript
-type a = (() =>  T) =>  T
+type a = (() => T) => T
 ```
 
 ### Diagnostics

@@ -2115,7 +2115,7 @@ var d = n => c = n;
 
 var d = (n) => c = n;
 
-var d: (n: any) =>  any;
+var d: (n: any) => any;
 
 var p1 = ([a]) => {};
 

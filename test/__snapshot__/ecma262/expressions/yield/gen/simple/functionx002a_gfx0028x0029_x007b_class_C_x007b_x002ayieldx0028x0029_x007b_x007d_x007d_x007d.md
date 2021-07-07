@@ -202,9 +202,9 @@ function* gf() { class C { *yield() { } } }
 ### Printed
 
 ```javascript
-function * gf() {
+function *gf() {
   class C {
-    * yield() {}
+    *yield() {}
   }
 }
 ```

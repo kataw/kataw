@@ -154,7 +154,7 @@ function *f(x = (foo) = f) {}
 ### Printed
 
 ```javascript
-function * f(x = (foo) = f) {}
+function *f(x = (foo) = f) {}
 ```
 
 ### Diagnostics

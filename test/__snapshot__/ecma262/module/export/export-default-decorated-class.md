@@ -130,7 +130,7 @@ export default
 ### Printed
 
 ```javascript
-export default @ bar class Foo {};
+export default @bar class Foo {};
 ```
 
 ### Diagnostics

@@ -1486,7 +1486,7 @@ function block_scope() {
   }
 }
 function default_param_1() {
-  function f(x: () =>  string = f): number {
+  function f(x: () => string = f): number {
     return 0;
   }
 }

@@ -231,7 +231,7 @@ type a = [(&x,|a) => T];
 ### Printed
 
 ```javascript
-type a = [(& x, | a) =>  T]
+type a = [(& x, | a) => T]
 ```
 
 ### Diagnostics

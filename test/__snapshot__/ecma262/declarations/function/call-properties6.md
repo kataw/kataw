@@ -273,7 +273,7 @@ function d(x: { (z: number): string }): () => string {
 ### Printed
 
 ```javascript
-function d(x: { (z: number): string }): () =>  string {
+function d(x: { (z: number): string }): () => string {
   return x;
 }
 ```

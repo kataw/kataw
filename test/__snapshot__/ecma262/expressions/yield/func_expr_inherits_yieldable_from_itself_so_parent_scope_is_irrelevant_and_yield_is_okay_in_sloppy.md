@@ -155,7 +155,7 @@ function* g() { (function yield() {}) }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   (function yield() {});
 }
 ```

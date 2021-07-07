@@ -142,7 +142,7 @@ class x { async *prot\u006ftype(){} }
 
 ```javascript
 class x {
-  async * prot\u006ftype() {}
+  async *prot\u006ftype() {}
 }
 ```
 

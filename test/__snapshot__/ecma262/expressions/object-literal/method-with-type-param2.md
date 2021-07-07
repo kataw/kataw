@@ -250,7 +250,7 @@ a={*id<T>(x: T): T {}}
 ### Printed
 
 ```javascript
-a = { * id<T>(x: T): T {} };
+a = { *id<T>(x: T): T {} };
 ```
 
 ### Diagnostics

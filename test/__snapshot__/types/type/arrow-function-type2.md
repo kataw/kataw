@@ -173,7 +173,7 @@ type X = (x: y) => T;
 ### Printed
 
 ```javascript
-type X = (x: y) =>  T
+type X = (x: y) => T
 ```
 
 ### Diagnostics

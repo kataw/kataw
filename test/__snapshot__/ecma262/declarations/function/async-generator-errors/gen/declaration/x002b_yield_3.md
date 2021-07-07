@@ -149,7 +149,7 @@ async function * gen() {+ yield 3}
 ### Printed
 
 ```javascript
-async function * gen() {
+async function *gen() {
   +yield 3;
 }
 ```

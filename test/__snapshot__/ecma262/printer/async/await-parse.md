@@ -822,7 +822,7 @@ async function g() {
   invariant((await driver.navigator.getUrl()).substr(-7));
 }
 
-function * f2() {
+function *f2() {
   !(yield a);
 }
 

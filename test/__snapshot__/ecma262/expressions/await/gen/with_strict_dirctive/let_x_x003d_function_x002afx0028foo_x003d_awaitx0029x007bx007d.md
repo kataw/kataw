@@ -175,7 +175,7 @@
 ```javascript
 
 "'use strict'";
-let x = function * f(foo = await) {};
+let x = function *f(foo = await) {};
 ```
 
 ### Diagnostics

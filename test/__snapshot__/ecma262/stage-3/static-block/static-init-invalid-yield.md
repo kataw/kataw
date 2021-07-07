@@ -192,7 +192,7 @@ function * g() {
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   class C {
     
   }

@@ -118,7 +118,7 @@ foo(function*(){})
 ### Printed
 
 ```javascript
-foo(function * () {});
+foo(function *() {});
 ```
 
 ### Diagnostics

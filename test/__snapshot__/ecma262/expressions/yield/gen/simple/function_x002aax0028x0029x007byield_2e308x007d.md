@@ -128,7 +128,7 @@ function *a(){yield 2e308}
 ### Printed
 
 ```javascript
-function * a() {
+function *a() {
   yield 2e308;
 }
 ```

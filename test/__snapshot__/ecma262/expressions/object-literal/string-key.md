@@ -138,7 +138,7 @@ x = {
 ### Printed
 
 ```javascript
-x = { * "\"\""() {} };
+x = { *"\"\""() {} };
 ```
 
 ### Diagnostics

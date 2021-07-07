@@ -147,7 +147,7 @@ function* f(){ call(yield x); }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   call(yield x);
 }
 ```

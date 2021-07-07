@@ -183,7 +183,7 @@ var a: (() => number) | () => string
 ### Printed
 
 ```javascript
-var a: (() =>  number) | () =>  string;
+var a: (() => number) | () => string;
 ```
 
 ### Diagnostics

@@ -137,7 +137,7 @@ function *f(){
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   \u0069nterface = x;
 }
 ```

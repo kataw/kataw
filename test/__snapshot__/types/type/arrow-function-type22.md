@@ -235,7 +235,7 @@ type a = ({key():string}[x]) => T;
 ### Printed
 
 ```javascript
-type a = ({ key(): string }[x]) =>  T
+type a = ({ key(): string }[x]) => T
 ```
 
 ### Diagnostics

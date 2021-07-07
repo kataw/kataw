@@ -315,9 +315,9 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
 ### Printed
 
 ```javascript
-function * gen() {
+function *gen() {
   function not_gen() {
-    function * foo() {
+    function *foo() {
       var x = 10;
       yield 1;
       return x;

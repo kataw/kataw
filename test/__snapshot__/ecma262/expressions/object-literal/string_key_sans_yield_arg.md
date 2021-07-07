@@ -170,7 +170,7 @@ function *f(){   s = {"foo": yield}   }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   s = { "\"foo\"": yield  };
 }
 ```

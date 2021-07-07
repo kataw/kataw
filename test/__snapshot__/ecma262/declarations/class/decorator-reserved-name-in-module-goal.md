@@ -169,7 +169,7 @@ class C2 {
 ### Printed
 
 ```javascript
-@ package class C2 {
+@package class C2 {
   method() {}
 }
 ```

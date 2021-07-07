@@ -184,7 +184,7 @@ function *g(){ async (x = [yield]) => z }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   async (x = [yield ]) => z
 }
 ```

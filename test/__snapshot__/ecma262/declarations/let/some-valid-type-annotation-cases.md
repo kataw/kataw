@@ -2410,9 +2410,9 @@ let three: { ["'x'"]: number };
 
 let five: { [string]: number };
 
-let six: () =>  void = Foo;
+let six: () => void = Foo;
 
-let seven: <T>() =>  Foo<T>;
+let seven: <T>() => Foo<T>;
 
 let eigth: A.B<X.Y>;
 

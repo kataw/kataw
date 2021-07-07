@@ -234,7 +234,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   (x = x + foo(a, yield y)) => x;
 }
 ```

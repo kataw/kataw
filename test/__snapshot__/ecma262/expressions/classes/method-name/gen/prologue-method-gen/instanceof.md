@@ -158,7 +158,7 @@
 ```javascript
 
 "'use strict'";
-({ * instanceof(x, y) {} });
+({ *instanceof(x, y) {} });
 ```
 
 ### Diagnostics

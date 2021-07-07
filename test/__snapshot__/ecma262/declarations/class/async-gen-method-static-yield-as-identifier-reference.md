@@ -221,7 +221,7 @@ var C = class { static async *gen() {
 
 ```javascript
 var C = class {
-    static async * gen() {
+    static async *gen() {
       void yield ;
     }
   };

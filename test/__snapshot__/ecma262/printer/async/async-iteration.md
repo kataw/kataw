@@ -326,12 +326,12 @@ class X {
 ### Printed
 
 ```javascript
-async function * a() {
-  yield * b();
+async function *a() {
+  yield* b();
 }
 class X {
-  async * b() {
-    yield * a();
+  async *b() {
+    yield* a();
   }
 }
 

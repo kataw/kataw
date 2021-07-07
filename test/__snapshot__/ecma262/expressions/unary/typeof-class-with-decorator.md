@@ -114,7 +114,7 @@ typeof @foo class {};
 ### Printed
 
 ```javascript
-typeof @ foo class {};
+typeof @foo class {};
 ```
 
 ### Diagnostics

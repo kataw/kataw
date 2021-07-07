@@ -201,7 +201,7 @@
 ```javascript
 
 "'use strict'";
-function * gf() {
+function *gf() {
   var fe = function yield() {};
 }
 ```

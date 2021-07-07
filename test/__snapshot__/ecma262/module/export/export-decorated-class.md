@@ -126,7 +126,7 @@ export @bar class Foo { }
 ### Printed
 
 ```javascript
-export @ bar class Foo {}
+export @bar class Foo {}
 ```
 
 ### Diagnostics

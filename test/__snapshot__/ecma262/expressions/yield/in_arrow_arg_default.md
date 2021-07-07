@@ -181,7 +181,7 @@ function *g() { async (x = yield) => {}; }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   async (x = yield ) => {};
 }
 ```

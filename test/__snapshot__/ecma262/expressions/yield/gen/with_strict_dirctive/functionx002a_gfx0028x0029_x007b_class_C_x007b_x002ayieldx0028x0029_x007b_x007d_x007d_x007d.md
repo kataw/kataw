@@ -214,9 +214,9 @@
 ```javascript
 
 "'use strict'";
-function * gf() {
+function *gf() {
   class C {
-    * yield() {}
+    *yield() {}
   }
 }
 ```

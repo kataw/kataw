@@ -158,7 +158,7 @@ try {
 
 ```javascript
 try {} finally {
-  async function * f() {}
+  async function *f() {}
 }
 ```
 

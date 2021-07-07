@@ -1607,7 +1607,7 @@ type DuplexStreamOptions = ReadableStreamOptions &
 type Props = { propA: X } & { propB: X } & { propC: X } & { propD: X }
 type Props = {
     focusedChildren? : React.Children,
-    onClick: () =>  void,
+    onClick: () => void,
     overlayChildren? : React.Children,
     style? : Object,
     thumbnail: ImageSource

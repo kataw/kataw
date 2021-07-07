@@ -228,9 +228,9 @@ function *f(){  class x{*[yield](a){}}  }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   class x {
-    * [yield ](a) {}
+    *[yield ](a) {}
   }
 }
 ```

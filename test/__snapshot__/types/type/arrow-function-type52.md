@@ -166,7 +166,7 @@ type a = (["string"]) => T;
 ### Printed
 
 ```javascript
-type a = (["\"string\""]) =>  T
+type a = (["\"string\""]) => T
 ```
 
 ### Diagnostics

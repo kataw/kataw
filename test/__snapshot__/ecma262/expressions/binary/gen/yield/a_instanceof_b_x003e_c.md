@@ -176,7 +176,7 @@ function *f() {
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   yield a instanceof b > c;
 }
 ```

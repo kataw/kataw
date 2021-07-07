@@ -209,7 +209,7 @@ function *g(){ (x = {[yield]: 1}) => z }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   (x = { [yield ]: 1 }) => z;
 }
 ```

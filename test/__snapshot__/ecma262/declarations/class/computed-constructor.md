@@ -1385,7 +1385,7 @@ class two {
 }
 
 class three {
-  * ["'constructor'"]() {}
+  *["'constructor'"]() {}
 }
 
 class four {
@@ -1409,7 +1409,7 @@ class eigth {
 }
 
 class nine {
-  static * ["'constructor'"]() {}
+  static *["'constructor'"]() {}
 }
 
 class ten {

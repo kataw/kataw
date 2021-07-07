@@ -185,7 +185,7 @@ class C2 {
 ### Printed
 
 ```javascript
-@ a[b] class C2 {
+@a[b] class C2 {
   method() {}
 }
 ```

@@ -136,7 +136,7 @@ x= { *prototype(){} }
 ### Printed
 
 ```javascript
-x = { * prototype() {} };
+x = { *prototype() {} };
 ```
 
 ### Diagnostics

@@ -143,7 +143,7 @@ class A {
 
 ```javascript
 class A {
-  @ dec declare foo;
+  @dec declare foo;
 }
 ```
 

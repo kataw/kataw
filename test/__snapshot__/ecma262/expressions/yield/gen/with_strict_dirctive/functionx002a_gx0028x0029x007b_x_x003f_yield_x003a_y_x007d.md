@@ -171,7 +171,7 @@
 ```javascript
 
 "'use strict'";
-function * g() {
+function *g() {
   x ? yield  : y;
 }
 ```

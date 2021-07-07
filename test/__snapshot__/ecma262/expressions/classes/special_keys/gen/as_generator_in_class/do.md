@@ -143,7 +143,7 @@ class x {* do(){}}
 
 ```javascript
 class x {
-  * do() {}
+  *do() {}
 }
 ```
 

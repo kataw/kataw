@@ -311,11 +311,11 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
 ### Printed
 
 ```javascript
-function * gen() {
+function *gen() {
   function not_gen() {
-    function * gf() {
+    function *gf() {
       switch (1) {
-        case yield * "'foo'":
+        case yield* "'foo'":
           break ;
       }
     }

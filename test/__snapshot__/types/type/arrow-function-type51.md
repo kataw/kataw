@@ -173,7 +173,7 @@ type a = ([-1]) => T;
 ### Printed
 
 ```javascript
-type a = ([-1]) =>  T
+type a = ([-1]) => T
 ```
 
 ### Diagnostics

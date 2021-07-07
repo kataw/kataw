@@ -189,7 +189,7 @@ function* gf() { var fe = function yield() { } }
 ### Printed
 
 ```javascript
-function * gf() {
+function *gf() {
   var fe = function yield() {};
 }
 ```

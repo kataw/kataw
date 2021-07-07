@@ -154,7 +154,7 @@ function *f(x = (static) = f) {}
 ### Printed
 
 ```javascript
-function * f(x = (static) = f) {}
+function *f(x = (static) = f) {}
 ```
 
 ### Diagnostics

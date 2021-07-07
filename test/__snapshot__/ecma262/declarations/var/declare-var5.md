@@ -198,7 +198,7 @@ declare var x3: ?(() => (() => number));
 ### Printed
 
 ```javascript
-declare var x3: ? (() =>  (() =>  number));
+declare var x3: ? (() => (() => number));
 ```
 
 ### Diagnostics

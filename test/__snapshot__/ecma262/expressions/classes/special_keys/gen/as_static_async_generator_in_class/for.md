@@ -155,7 +155,7 @@ class x {static async * for(){}}
 
 ```javascript
 class x {
-  static async * for() {}
+  static async *for() {}
 }
 ```
 

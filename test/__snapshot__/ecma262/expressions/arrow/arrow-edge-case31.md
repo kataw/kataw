@@ -202,7 +202,7 @@ let x: (this: any) => void = () => {}
 ### Printed
 
 ```javascript
-let x: (this: any) =>  void = () => {};
+let x: (this: any) => void = () => {};
 ```
 
 ### Diagnostics

@@ -238,7 +238,7 @@ type a = (((| x, )=> T) => T);
 ### Printed
 
 ```javascript
-type a = (((| x) =>  T) =>  T)
+type a = (((| x) => T) => T)
 ```
 
 ### Diagnostics

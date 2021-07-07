@@ -245,7 +245,7 @@ type a = ((q, x)=> T) => T;
 
 ```javascript
 type a = ((q,
-x) =>  T) =>  T
+x) => T) => T
 ```
 
 ### Diagnostics

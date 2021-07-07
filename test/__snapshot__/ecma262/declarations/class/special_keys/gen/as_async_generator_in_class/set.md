@@ -149,7 +149,7 @@ class x {async * set(){}}
 
 ```javascript
 class x {
-  async * set() {}
+  async *set() {}
 }
 ```
 

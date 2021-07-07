@@ -342,7 +342,7 @@ function* f() {
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   (yield );
   [yield ];
   {

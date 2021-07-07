@@ -200,7 +200,7 @@ async <T>(fn: () => T) => fn;
 ### Printed
 
 ```javascript
-async <T>(fn: () =>  T) => fn;
+async <T>(fn: () => T) => fn;
 ```
 
 ### Diagnostics

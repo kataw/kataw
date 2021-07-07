@@ -162,7 +162,7 @@ class C { static
 ```javascript
 class C {
   static;
-  * #aaa() {}
+  *#aaa() {}
 }
 ```
 

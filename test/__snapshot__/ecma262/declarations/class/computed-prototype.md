@@ -1385,7 +1385,7 @@ class Two {
 }
 
 class Three {
-  * ["'prototype'"]() {}
+  *["'prototype'"]() {}
 }
 
 class Four {
@@ -1409,7 +1409,7 @@ class Eigth {
 }
 
 class Nine {
-  static * ["'prototype'"]() {}
+  static *["'prototype'"]() {}
 }
 
 class Ten {

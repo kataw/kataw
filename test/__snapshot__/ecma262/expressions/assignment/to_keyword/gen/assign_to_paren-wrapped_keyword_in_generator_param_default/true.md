@@ -152,7 +152,7 @@ function *f(x = (true) = f) {}
 ### Printed
 
 ```javascript
-function * f(x = (true) = f) {}
+function *f(x = (true) = f) {}
 ```
 
 ### Diagnostics

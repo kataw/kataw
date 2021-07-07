@@ -175,7 +175,7 @@ function *f(x = delete ((implements) = f)) {}
 ### Printed
 
 ```javascript
-function * f(x = delete ((implements) = f)) {}
+function *f(x = delete ((implements) = f)) {}
 ```
 
 ### Diagnostics

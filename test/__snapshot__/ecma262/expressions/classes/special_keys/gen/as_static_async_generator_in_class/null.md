@@ -155,7 +155,7 @@ class x {static async * null(){}}
 
 ```javascript
 class x {
-  static async * null() {}
+  static async *null() {}
 }
 ```
 

@@ -195,7 +195,7 @@ let x: (y) => void = () => {}
 ### Printed
 
 ```javascript
-let x: (y) =>  void = () => {};
+let x: (y) => void = () => {};
 ```
 
 ### Diagnostics

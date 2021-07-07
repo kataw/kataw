@@ -251,7 +251,7 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   function f(yield) {
     yield(yield + yield(0));
   }

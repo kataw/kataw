@@ -155,7 +155,7 @@ class x {static async * yield(){}}
 
 ```javascript
 class x {
-  static async * yield() {}
+  static async *yield() {}
 }
 ```
 

@@ -1617,14 +1617,14 @@ type x = {get x (/*1*/): string }
 ### Printed
 
 ```javascript
-type a = (Array<string>) =>  void
+type a = (Array<string>) => void
 type A = (Array<string>,
-...Array<string>) =>  void
+...Array<string>) => void
 
 type A = (Array<string>,
-...Array<string>) =>  void
+...Array<string>) => void
 
-type Fn1 = <T>(T) =>  T
+type Fn1 = <T>(T) => T
 
 type E = Obj["'bar'"][]
 

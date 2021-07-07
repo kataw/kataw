@@ -1240,9 +1240,9 @@ type IdentityWrapper = { func<T> (T): T }
 
 function method<T>(param: T): T {}
 
-function method(func: <T>(param: T) =>  T) {}
+function method(func: <T>(param: T) => T) {}
 
-function constant<T>(value: T): () =>  T {
+function constant<T>(value: T): () => T {
   return function (): T {
     return value;
   };

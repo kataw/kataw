@@ -306,7 +306,7 @@ function b(x: { (z: number): string }): (z: number) => number {
 ### Printed
 
 ```javascript
-function b(x: { (z: number): string }): (z: number) =>  number {
+function b(x: { (z: number): string }): (z: number) => number {
   return x;
 }
 ```

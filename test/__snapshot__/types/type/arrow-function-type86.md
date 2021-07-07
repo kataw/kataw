@@ -393,7 +393,7 @@ type a = (((x | ((y & [((x) => T)]) => T) => T))) => T;
 ### Printed
 
 ```javascript
-type a = ((x | ((y & [((x) =>  T)]) =>  T) =>  T)) =>  T
+type a = ((x | ((y & [((x) => T)]) => T) => T)) => T
 ```
 
 ### Diagnostics

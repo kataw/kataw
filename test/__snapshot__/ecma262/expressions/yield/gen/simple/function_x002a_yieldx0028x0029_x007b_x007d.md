@@ -95,7 +95,7 @@ function * yield() { }
 ### Printed
 
 ```javascript
-function * yield() {}
+function *yield() {}
 ```
 
 ### Diagnostics

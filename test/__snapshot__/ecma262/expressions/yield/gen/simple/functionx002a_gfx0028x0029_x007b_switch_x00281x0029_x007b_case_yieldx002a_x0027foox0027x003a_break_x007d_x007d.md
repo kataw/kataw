@@ -197,9 +197,9 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 ### Printed
 
 ```javascript
-function * gf() {
+function *gf() {
   switch (1) {
-    case yield * "'foo'":
+    case yield* "'foo'":
       break ;
   }
 }

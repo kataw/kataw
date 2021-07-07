@@ -154,7 +154,7 @@ function *f(x = (eval) = f) {}
 ### Printed
 
 ```javascript
-function * f(x = (eval) = f) {}
+function *f(x = (eval) = f) {}
 ```
 
 ### Diagnostics

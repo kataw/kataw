@@ -154,7 +154,7 @@ function *f(x = (arguments) = f) {}
 ### Printed
 
 ```javascript
-function * f(x = (arguments) = f) {}
+function *f(x = (arguments) = f) {}
 ```
 
 ### Diagnostics

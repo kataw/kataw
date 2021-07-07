@@ -203,10 +203,10 @@ async function * gen() {yield * 1; return 37; yield * 'dead';}
 ### Printed
 
 ```javascript
-async function * gen() {
-  yield * 1;
+async function *gen() {
+  yield* 1;
   return 37;
-  yield * "'dead'";
+  yield* "'dead'";
 }
 ```
 

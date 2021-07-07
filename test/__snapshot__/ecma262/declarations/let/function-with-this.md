@@ -161,7 +161,7 @@ let f: (this: number) => void;
 ### Printed
 
 ```javascript
-let f: (this: number) =>  void;
+let f: (this: number) => void;
 ```
 
 ### Diagnostics

@@ -137,7 +137,7 @@ function *f(){
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   enum = 1;
 }
 ```

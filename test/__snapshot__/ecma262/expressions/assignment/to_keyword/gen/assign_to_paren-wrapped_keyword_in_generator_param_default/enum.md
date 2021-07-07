@@ -154,7 +154,7 @@ function *f(x = (enum) = f) {}
 ### Printed
 
 ```javascript
-function * f(x = (enum) = f) {}
+function *f(x = (enum) = f) {}
 ```
 
 ### Diagnostics

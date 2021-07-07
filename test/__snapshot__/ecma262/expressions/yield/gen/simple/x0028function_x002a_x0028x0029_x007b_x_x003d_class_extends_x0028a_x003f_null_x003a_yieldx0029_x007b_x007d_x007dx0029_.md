@@ -239,7 +239,7 @@
 ### Printed
 
 ```javascript
-(function * () {
+(function *() {
     x = class extends (a ? null : yield ) {};
   });
 ```

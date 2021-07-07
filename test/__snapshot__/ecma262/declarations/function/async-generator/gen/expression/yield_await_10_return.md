@@ -196,7 +196,7 @@
 ### Printed
 
 ```javascript
-({ async * gen() {
+({ async *gen() {
       yield await 10;
       return;
     } });

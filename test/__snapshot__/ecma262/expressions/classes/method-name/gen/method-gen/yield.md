@@ -146,7 +146,7 @@
 ### Printed
 
 ```javascript
-({ * yield(x, y) {} });
+({ *yield(x, y) {} });
 ```
 
 ### Diagnostics

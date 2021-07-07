@@ -404,7 +404,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
 ### Printed
 
 ```javascript
-type a = (a[a & b[a | b | c | d | e]][c][-1][][]) =>  T
+type a = (a[a & b[a | b | c | d | e]][c][-1][][]) => T
 ```
 
 ### Diagnostics

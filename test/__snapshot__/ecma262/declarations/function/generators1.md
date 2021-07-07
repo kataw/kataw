@@ -774,19 +774,19 @@ function *infer_stmt() {
 ### Printed
 
 ```javascript
-function * stmt_yield(): Generator<number, void, void> {
+function *stmt_yield(): Generator<number, void, void> {
   yield 0;
   yield "\"\"";
 }
-function * stmt_return_ok(): Generator<void, number, void> {
+function *stmt_return_ok(): Generator<void, number, void> {
   return 0;
 }
 
-function * stmt_return_err(): Generator<void, number, void> {
+function *stmt_return_err(): Generator<void, number, void> {
   return "\"\"";
 }
 
-function * infer_stmt() {
+function *infer_stmt() {
   var x: boolean = yield 0;
   return "\"\"";
 }

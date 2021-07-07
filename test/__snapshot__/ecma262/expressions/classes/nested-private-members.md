@@ -1522,7 +1522,7 @@
 
 (class {
     a = class {
-      * #a() {}
+      *#a() {}
     };
   });
 
@@ -1534,7 +1534,7 @@
 
 (class {
     a = class {
-      async * #a() {}
+      async *#a() {}
     };
   });
 

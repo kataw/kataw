@@ -94,7 +94,7 @@ async function * f(){}
 ### Printed
 
 ```javascript
-async function * f() {}
+async function *f() {}
 ```
 
 ### Diagnostics

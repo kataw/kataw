@@ -186,7 +186,7 @@
 ### Printed
 
 ```javascript
-({ * g1() {
+({ *g1() {
       return { x: yield  };
     } });
 ```

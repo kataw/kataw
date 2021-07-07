@@ -105,7 +105,7 @@ class Foo {
 ### Printed
 
 ```javascript
-@ abc class Foo {}
+@abc class Foo {}
 ```
 
 ### Diagnostics

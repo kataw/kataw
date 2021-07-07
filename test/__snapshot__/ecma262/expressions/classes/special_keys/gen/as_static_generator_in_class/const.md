@@ -149,7 +149,7 @@ class x {static * const(){}}
 
 ```javascript
 class x {
-  static * const() {}
+  static *const() {}
 }
 ```
 

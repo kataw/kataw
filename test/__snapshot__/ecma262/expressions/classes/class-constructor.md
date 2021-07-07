@@ -678,7 +678,7 @@
   });
 
 (class C {
-    static * constructor() {}
+    static *constructor() {}
   });
 
 ```

@@ -135,7 +135,7 @@ class x { @declare a }
 
 ```javascript
 class x {
-  @ declare a;
+  @declare a;
 }
 ```
 

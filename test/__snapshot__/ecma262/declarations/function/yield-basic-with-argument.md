@@ -126,7 +126,7 @@
 ### Printed
 
 ```javascript
-(function * () {
+(function *() {
     yield v;
   });
 ```

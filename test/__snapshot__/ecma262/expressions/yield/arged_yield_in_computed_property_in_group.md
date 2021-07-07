@@ -204,7 +204,7 @@ function *g(){ async (x = {[yield y]: 1}) }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   async(x = { [yield y]: 1 })
 }
 ```

@@ -197,9 +197,9 @@ function* wrap() {
 ### Printed
 
 ```javascript
-function * wrap() {
+function *wrap() {
   class A {
-    * yield() {}
+    *yield() {}
   }
 }
 ```

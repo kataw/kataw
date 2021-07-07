@@ -146,7 +146,7 @@
 ### Printed
 
 ```javascript
-({ * await(x, y) {} });
+({ *await(x, y) {} });
 ```
 
 ### Diagnostics

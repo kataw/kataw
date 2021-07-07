@@ -139,7 +139,7 @@ wrap({*123(){}});
 ### Printed
 
 ```javascript
-wrap({ * 123() {} });
+wrap({ *123() {} });
 ```
 
 ### Diagnostics

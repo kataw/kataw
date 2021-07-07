@@ -154,7 +154,7 @@ function* g() { let x = yield 3; }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   let x = yield 3;
 }
 ```

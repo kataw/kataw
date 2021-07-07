@@ -488,7 +488,7 @@ function* g() {
 
 ```javascript
 var yieldSet, C, iter;
-function * g() {
+function *g() {
   class C_ {
     get [yield ]() {
       return "'get yield'";

@@ -258,7 +258,7 @@ type a = ((q, x?:string )=> T) => T;
 
 ```javascript
 type a = ((q,
-x? : string) =>  T) =>  T
+x? : string) => T) => T
 ```
 
 ### Diagnostics

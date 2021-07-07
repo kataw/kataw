@@ -154,7 +154,7 @@
 ```javascript
 
 "'use strict'";
-function * g() {
+function *g() {
   yield void x;
 }
 ```

@@ -140,7 +140,7 @@
 ```javascript
 
 "'use strict'";
-function * a() {
+function *a() {
   yield 2e308;
 }
 ```

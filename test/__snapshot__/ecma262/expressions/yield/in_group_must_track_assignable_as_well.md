@@ -212,7 +212,7 @@ function *g() { async (x = y = yield z) => {}; }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   async (x = y = yield z) => {};
 }
 ```

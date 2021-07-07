@@ -289,7 +289,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
 ### Printed
 
 ```javascript
-type X = { [| (x) =>  x & symbol[][x | y]]: string }
+type X = { [| (x) => x & symbol[][x | y]]: string }
 ```
 
 ### Diagnostics

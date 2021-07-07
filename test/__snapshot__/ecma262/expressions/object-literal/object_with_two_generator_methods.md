@@ -199,7 +199,7 @@ wrap({* foo(){},*bar(){}});
 ### Printed
 
 ```javascript
-wrap({ * foo() {}, * bar() {} });
+wrap({ *foo() {}, *bar() {} });
 ```
 
 ### Diagnostics

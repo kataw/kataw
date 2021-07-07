@@ -120,7 +120,7 @@
 ### Printed
 
 ```javascript
-({ * yield() {} });
+({ *yield() {} });
 ```
 
 ### Diagnostics

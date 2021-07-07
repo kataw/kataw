@@ -156,7 +156,7 @@ type X = (x) => T;
 ### Printed
 
 ```javascript
-type X = (x) =>  T
+type X = (x) => T
 ```
 
 ### Diagnostics

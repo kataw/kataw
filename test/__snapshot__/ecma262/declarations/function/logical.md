@@ -14195,7 +14195,7 @@ function logical2i(x: Object): string {
   return x && "'foo'";
 }
 
-function logical2j(x: (a: number) =>  number): string {
+function logical2j(x: (a: number) => number): string {
   return x && "'foo'";
 }
 

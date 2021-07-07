@@ -159,7 +159,7 @@ function* g(){ x ? yield : y }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   x ? yield  : y;
 }
 ```

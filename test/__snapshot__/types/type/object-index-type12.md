@@ -223,7 +223,7 @@ type X = {[|(x) =>x&symbol]: string,};
 ### Printed
 
 ```javascript
-type X = { [| (x) =>  x & symbol]: string }
+type X = { [| (x) => x & symbol]: string }
 ```
 
 ### Diagnostics

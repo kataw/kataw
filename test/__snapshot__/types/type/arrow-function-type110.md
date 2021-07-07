@@ -160,7 +160,7 @@ type X = (|a) => T;
 ### Printed
 
 ```javascript
-type X = (| a) =>  T
+type X = (| a) => T
 ```
 
 ### Diagnostics

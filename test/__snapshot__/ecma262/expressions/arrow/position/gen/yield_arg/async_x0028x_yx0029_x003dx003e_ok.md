@@ -181,7 +181,7 @@ function *f() {
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   yield async (x, y) => ok;
 }
 ```

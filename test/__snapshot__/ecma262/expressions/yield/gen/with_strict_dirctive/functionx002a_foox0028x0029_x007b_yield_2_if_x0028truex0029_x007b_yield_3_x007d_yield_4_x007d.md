@@ -250,7 +250,7 @@
 ```javascript
 
 "'use strict'";
-function * foo() {
+function *foo() {
   yield 2;
   if (true) {
       yield 3;

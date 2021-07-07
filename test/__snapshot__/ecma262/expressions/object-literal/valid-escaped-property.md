@@ -146,7 +146,7 @@ function *a(){({yi\u0065ld: 0})}
 ### Printed
 
 ```javascript
-function * a() {
+function *a() {
   ({ yi\u0065ld: 0 });
 }
 ```

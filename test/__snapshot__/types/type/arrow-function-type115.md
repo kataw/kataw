@@ -215,7 +215,7 @@ type a = (1,2, 3) => T;
 ```javascript
 type a = (1,
 2,
-3) =>  T
+3) => T
 ```
 
 ### Diagnostics

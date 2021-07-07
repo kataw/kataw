@@ -158,7 +158,7 @@
 ```javascript
 
 "'use strict'";
-({ * continue(x, y) {} });
+({ *continue(x, y) {} });
 ```
 
 ### Diagnostics

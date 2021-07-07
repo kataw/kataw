@@ -149,7 +149,7 @@ class x {static * await(){}}
 
 ```javascript
 class x {
-  static * await() {}
+  static *await() {}
 }
 ```
 

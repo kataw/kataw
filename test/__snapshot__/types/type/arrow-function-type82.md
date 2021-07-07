@@ -283,7 +283,7 @@ type a = (([-1]| q & (x)) => T) => T
 ### Printed
 
 ```javascript
-type a = (([-1] | q & (x)) =>  T) =>  T
+type a = (([-1] | q & (x)) => T) => T
 ```
 
 ### Diagnostics

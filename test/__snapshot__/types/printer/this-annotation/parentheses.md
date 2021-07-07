@@ -153,7 +153,7 @@ type q = (this: string) => void;
 ### Printed
 
 ```javascript
-type q = (this: string) =>  void
+type q = (this: string) => void
 ```
 
 ### Diagnostics

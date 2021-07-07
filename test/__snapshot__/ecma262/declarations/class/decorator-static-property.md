@@ -143,7 +143,7 @@ class A {
 
 ```javascript
 class A {
-  @ dec static name = 0;
+  @dec static name = 0;
 }
 ```
 

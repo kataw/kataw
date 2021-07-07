@@ -128,7 +128,7 @@ function* gf() { yield 'foo' }
 ### Printed
 
 ```javascript
-function * gf() {
+function *gf() {
   yield "'foo'";
 }
 ```

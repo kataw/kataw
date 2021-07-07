@@ -251,7 +251,7 @@
 ```javascript
 
 "'use strict'";
-(function * () {
+(function *() {
     x = class extends (a ? null : yield ) {};
   });
 ```

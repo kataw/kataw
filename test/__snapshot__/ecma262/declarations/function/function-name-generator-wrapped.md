@@ -182,8 +182,8 @@ function* wrap() {
 ### Printed
 
 ```javascript
-function * wrap() {
-  ({ * yield() {} });
+function *wrap() {
+  ({ *yield() {} });
 }
 ```
 

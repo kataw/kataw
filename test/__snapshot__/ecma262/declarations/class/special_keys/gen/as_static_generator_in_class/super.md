@@ -149,7 +149,7 @@ class x {static * super(){}}
 
 ```javascript
 class x {
-  static * super() {}
+  static *super() {}
 }
 ```
 

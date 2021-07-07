@@ -122,7 +122,7 @@ new async function *f(){}
 ### Printed
 
 ```javascript
-new async function * f() {};
+new async function *f() {};
 ```
 
 ### Diagnostics

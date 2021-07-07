@@ -199,7 +199,7 @@ function x(y: | z):
 ### Printed
 
 ```javascript
-function x(y: | z): | () =>  number {}
+function x(y: | z): | () => number {}
 ```
 
 ### Diagnostics

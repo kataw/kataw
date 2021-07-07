@@ -142,7 +142,7 @@ function *f(){
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   (null) = 1;
 }
 ```

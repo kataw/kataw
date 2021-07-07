@@ -2826,7 +2826,7 @@ var a: Map<string, Array<string>>;
 
 var x: typeof Y = Y;
 
-var x: () =>  number | () =>  string = fn;
+var x: () => number | () => string = fn;
 
 var foo = bar ? (foo) => {} : baz;
 

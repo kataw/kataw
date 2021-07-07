@@ -294,7 +294,7 @@ type a = (b[([x])=> c] | d) => c;
 ### Printed
 
 ```javascript
-type a = (b[([x]) =>  c] | d) =>  c
+type a = (b[([x]) => c] | d) => c
 ```
 
 ### Diagnostics

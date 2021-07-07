@@ -170,7 +170,7 @@ switch (x) {
 ```javascript
 switch (x) {
   case foo:
-    async function * f() {}
+    async function *f() {}
 }
 ```
 

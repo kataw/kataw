@@ -11,6 +11,9 @@ export const enum PrinterFlags {
   TrailinComma = 1 << 5,
   DisallowStringEscape = 1 << 6,
   DisallowSemicolon = 1 << 7,
+  // Insert space after @ in decorator
+  SpaceAfterAt = 1 << 8,
+
 }
 
 export interface Printer {

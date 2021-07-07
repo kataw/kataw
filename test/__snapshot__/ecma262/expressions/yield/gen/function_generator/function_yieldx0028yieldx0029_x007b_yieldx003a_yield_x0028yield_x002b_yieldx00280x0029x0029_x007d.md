@@ -328,7 +328,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
 ### Printed
 
 ```javascript
-function * gen() {
+function *gen() {
   function not_gen() {
     function yield(yield) {
       yield:  yield(yield + yield(0));

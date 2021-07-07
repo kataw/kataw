@@ -149,7 +149,7 @@ class x {async * yield(){}}
 
 ```javascript
 class x {
-  async * yield() {}
+  async *yield() {}
 }
 ```
 

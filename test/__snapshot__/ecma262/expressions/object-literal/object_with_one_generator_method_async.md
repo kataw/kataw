@@ -139,7 +139,7 @@ wrap({*async(){}});
 ### Printed
 
 ```javascript
-wrap({ * async() {} });
+wrap({ *async() {} });
 ```
 
 ### Diagnostics

@@ -439,7 +439,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
 ### Printed
 
 ```javascript
-type X = $Call<(<T>(T) =>  T) & (<T>(T) =>  T), A | B>
+type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>
 ```
 
 ### Diagnostics

@@ -114,7 +114,7 @@ new async function *(){}
 ### Printed
 
 ```javascript
-new async function * () {};
+new async function *() {};
 ```
 
 ### Diagnostics

@@ -172,7 +172,7 @@ class C extends Base { async *#arguments() {} }
 
 ```javascript
 class C extends Base {
-  async * #arguments() {}
+  async *#arguments() {}
 }
 ```
 

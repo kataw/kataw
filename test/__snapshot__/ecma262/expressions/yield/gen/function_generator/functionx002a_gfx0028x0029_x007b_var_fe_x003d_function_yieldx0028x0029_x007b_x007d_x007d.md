@@ -303,9 +303,9 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
 ### Printed
 
 ```javascript
-function * gen() {
+function *gen() {
   function not_gen() {
-    function * gf() {
+    function *gf() {
       var fe = function yield() {};
     }
   }

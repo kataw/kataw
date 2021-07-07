@@ -175,7 +175,7 @@ function *f(x = delete ((private) = f)) {}
 ### Printed
 
 ```javascript
-function * f(x = delete ((private) = f)) {}
+function *f(x = delete ((private) = f)) {}
 ```
 
 ### Diagnostics

@@ -200,7 +200,7 @@ function *f(){ ({x} = yield x) => {} }
 ### Printed
 
 ```javascript
-function * f() {
+function *f() {
   ({ x } = yield x) => {};
 }
 ```

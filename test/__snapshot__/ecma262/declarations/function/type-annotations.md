@@ -2787,23 +2787,23 @@ function foo5(untypedVal, numVal: number) {}
 
 function foo6(nullableNum: ? number) {}
 
-function foo7(callback: () =>  void) {}
+function foo7(callback: () => void) {}
 
-function foo8(callback: () =>  number) {}
+function foo8(callback: () => number) {}
 
-function foo9(callback: (_: bool) =>  number) {}
+function foo9(callback: (_: bool) => number) {}
 
-function foo10(callback: (_1: bool, _2: string) =>  number) {}
+function foo10(callback: (_1: bool, _2: string) => number) {}
 
-function foo11(callback: (_1: bool, ...foo: Array<number>) =>  number) {}
+function foo11(callback: (_1: bool, ...foo: Array<number>) => number) {}
 
 function foo12(): number {}
 
-function foo13(): () =>  void {}
+function foo13(): () => void {}
 
-function foo14(): (_: bool) =>  number {}
+function foo14(): (_: bool) => number {}
 
-function foo15(): (_?: bool) =>  number {}
+function foo15(): (_?: bool) => number {}
 
 function foo16(): {} {}
 

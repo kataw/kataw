@@ -218,8 +218,8 @@ let gen = function*() {};
 ### Printed
 
 ```javascript
-let xGen = function * x() {};
-let gen = function * () {};
+let xGen = function *x() {};
+let gen = function *() {};
 
 ```
 

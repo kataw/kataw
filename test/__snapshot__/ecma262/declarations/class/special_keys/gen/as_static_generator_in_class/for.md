@@ -149,7 +149,7 @@ class x {static * for(){}}
 
 ```javascript
 class x {
-  static * for() {}
+  static *for() {}
 }
 ```
 

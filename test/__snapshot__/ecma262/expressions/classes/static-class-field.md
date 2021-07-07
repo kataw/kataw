@@ -5236,7 +5236,7 @@ class x {
 
 (class C {
     static a = 0;;
-    * b() {}
+    *b() {}
   });
 
 (class C {
@@ -5260,7 +5260,7 @@ class x {
 
 (class C {
     static a;;
-    * b() {}
+    *b() {}
   });
 
 (class C {
@@ -5284,7 +5284,7 @@ class x {
 
 (class C {
     static ["'a'"] = 0;;
-    * b() {}
+    *b() {}
   });
 
 (class C {
@@ -5308,7 +5308,7 @@ class x {
 
 (class C {
     static ["'a'"];;
-    * b() {}
+    *b() {}
   });
 
 (class C {

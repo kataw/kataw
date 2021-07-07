@@ -400,12 +400,12 @@
 ### Printed
 
 ```javascript
-({ * type() {} });
-({ * interface() {} });
+({ *type() {} });
+({ *interface() {} });
 
-({ * in() {} });
+({ *in() {} });
 
-({ * of() {} });
+({ *of() {} });
 
 ```
 

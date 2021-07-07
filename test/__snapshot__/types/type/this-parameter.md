@@ -1155,14 +1155,14 @@ type ten = {
 ### Printed
 
 ```javascript
-type six = (this: number) =>  void
+type six = (this: number) => void
 type seven = (this: number,
-a: number) =>  void
+a: number) => void
 
 type eight = (this: number,
-...a: any) =>  void
+...a: any) => void
 
-type nine = <T>(this: T) =>  void
+type nine = <T>(this: T) => void
 
 type ten = {
   m1(this: string): void,

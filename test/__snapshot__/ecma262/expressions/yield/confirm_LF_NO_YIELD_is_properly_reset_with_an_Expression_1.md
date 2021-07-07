@@ -177,7 +177,7 @@ function *g(){ return x + f(yield f); }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   return x + f(yield f);
 }
 ```

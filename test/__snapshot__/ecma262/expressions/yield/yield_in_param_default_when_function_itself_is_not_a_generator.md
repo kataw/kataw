@@ -178,7 +178,7 @@ function *g() { function f(x = yield) {}; }
 ### Printed
 
 ```javascript
-function * g() {
+function *g() {
   function f(x = yield) {};
 }
 ```

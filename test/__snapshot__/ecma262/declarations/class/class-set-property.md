@@ -182,7 +182,7 @@ class C {
 ```javascript
 class C {
   set;
-  * aaa() {}
+  *aaa() {}
 }
 ```
 

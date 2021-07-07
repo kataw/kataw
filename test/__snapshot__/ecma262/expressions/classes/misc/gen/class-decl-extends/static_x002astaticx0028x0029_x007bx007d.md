@@ -172,7 +172,7 @@ class C extends Base { static *static() {} }
 
 ```javascript
 class C extends Base {
-  static * static() {}
+  static *static() {}
 }
 ```
 
