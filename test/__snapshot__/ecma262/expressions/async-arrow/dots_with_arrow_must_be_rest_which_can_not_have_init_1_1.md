@@ -16,83 +16,90 @@ async (a, ...b+b=c) => a;
     "directives": [],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 5
-            },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 8
-                    },
-                    {
-                        "kind": 223,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
                             "transformFlags": 0,
-                            "start": 9,
-                            "end": 13
+                            "start": 7,
+                            "end": 8
                         },
-                        "argument": {
-                            "kind": 198,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
+                        {
+                            "kind": 223,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
                                 "transformFlags": 0,
-                                "start": 13,
-                                "end": 14
+                                "start": 9,
+                                "end": 13
                             },
-                            "operatorToken": {
-                                "kind": 99634,
+                            "argument": {
+                                "kind": 198,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "transformFlags": 0,
+                                    "start": 13,
+                                    "end": 14
+                                },
+                                "operatorToken": {
+                                    "kind": 99634,
+                                    "flags": 96,
+                                    "transformFlags": 0,
+                                    "start": 14,
+                                    "end": 15
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "transformFlags": 0,
+                                    "start": 15,
+                                    "end": 16
+                                },
                                 "flags": 96,
-                                "transformFlags": 0,
-                                "start": 14,
-                                "end": 15
-                            },
-                            "right": {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 15,
+                                "transformFlags": 1024,
+                                "start": 9,
                                 "end": 16
                             },
-                            "flags": 96,
-                            "transformFlags": 1024,
+                            "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 16
-                        },
-                        "flags": 1073741856,
-                        "transformFlags": 0,
-                        "start": 9,
-                        "end": 16
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 34,
-                "transformFlags": 0,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 34,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 0
+                },
+                "flags": 268435490,
+                "transformFlags": 1,
                 "start": 0,
-                "end": 0
+                "end": 16
             },
-            "flags": 268435490,
-            "transformFlags": 1,
+            "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         },
@@ -148,7 +155,7 @@ async (a, ...b+b=c) => a;
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 16, end: 17
+✖ Expected a `;` - start: 16, end: 17
 ✖ Expected a `;` - start: 18, end: 19
 ✖ Declaration or statement expected - start: 19, end: 22
 

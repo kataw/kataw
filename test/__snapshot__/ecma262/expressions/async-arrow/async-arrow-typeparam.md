@@ -136,64 +136,71 @@ async (): string => {}
             "end": 33
         },
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 33,
-                "end": 40
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
-                "start": 42,
-                "end": 42
-            },
-            "returnType": {
-                "kind": 139,
-                "bitwiseOrToken": null,
-                "bitwiseAndToken": null,
-                "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 33,
+                    "end": 40
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 42,
+                    "end": 42
+                },
+                "returnType": {
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "transformFlags": 0,
+                        "start": 44,
+                        "end": 51
+                    },
+                    "flags": 2097152,
                     "transformFlags": 0,
                     "start": 44,
                     "end": 51
                 },
-                "flags": 2097152,
-                "transformFlags": 0,
-                "start": 44,
-                "end": 51
-            },
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 51,
-                "end": 54
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 51,
+                    "end": 54
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "transformFlags": 0,
+                        "start": 56,
+                        "end": 56
+                    },
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 56,
-                    "end": 56
+                    "start": 54,
+                    "end": 57
                 },
-                "flags": 32,
+                "flags": 288,
                 "transformFlags": 0,
-                "start": 54,
+                "start": 33,
                 "end": 57
             },
-            "flags": 288,
+            "flags": 16,
             "transformFlags": 0,
             "start": 33,
             "end": 57
@@ -213,7 +220,7 @@ async (): string => {}
 
 ```javascript
 a ? async () => {} : b;
-async () => {}
+async () => {};
 
 ```
 

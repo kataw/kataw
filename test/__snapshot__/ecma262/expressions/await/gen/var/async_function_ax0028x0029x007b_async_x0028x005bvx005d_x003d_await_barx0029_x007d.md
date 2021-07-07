@@ -169,99 +169,99 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                         "directives": [],
                                                         "statements": [
                                                             {
-                                                                "kind": 131,
+                                                                "kind": 120,
                                                                 "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "async",
-                                                                    "rawText": "async",
-                                                                    "flags": 96,
-                                                                    "transformFlags": 0,
-                                                                    "start": 58,
-                                                                    "end": 68
-                                                                },
-                                                                "argumentList": {
-                                                                    "kind": 256,
-                                                                    "elements": [
-                                                                        {
-                                                                            "kind": 125,
-                                                                            "left": {
-                                                                                "kind": 119,
-                                                                                "elementList": {
-                                                                                    "kind": 270,
-                                                                                    "elements": [
-                                                                                        {
-                                                                                            "kind": 134299649,
-                                                                                            "text": "v",
-                                                                                            "rawText": "v",
-                                                                                            "flags": 96,
-                                                                                            "transformFlags": 0,
-                                                                                            "start": 71,
-                                                                                            "end": 72
-                                                                                        }
-                                                                                    ],
-                                                                                    "trailingComma": false,
+                                                                    "kind": 131,
+                                                                    "expression": {
+                                                                        "kind": 134299649,
+                                                                        "text": "async",
+                                                                        "rawText": "async",
+                                                                        "flags": 96,
+                                                                        "transformFlags": 0,
+                                                                        "start": 58,
+                                                                        "end": 68
+                                                                    },
+                                                                    "argumentList": {
+                                                                        "kind": 256,
+                                                                        "elements": [
+                                                                            {
+                                                                                "kind": 125,
+                                                                                "left": {
+                                                                                    "kind": 119,
+                                                                                    "elementList": {
+                                                                                        "kind": 270,
+                                                                                        "elements": [
+                                                                                            {
+                                                                                                "kind": 134299649,
+                                                                                                "text": "v",
+                                                                                                "rawText": "v",
+                                                                                                "flags": 96,
+                                                                                                "transformFlags": 0,
+                                                                                                "start": 71,
+                                                                                                "end": 72
+                                                                                            }
+                                                                                        ],
+                                                                                        "trailingComma": false,
+                                                                                        "flags": 32,
+                                                                                        "transformFlags": 0,
+                                                                                        "start": 71,
+                                                                                        "end": 72
+                                                                                    },
                                                                                     "flags": 32,
-                                                                                    "transformFlags": 0,
-                                                                                    "start": 71,
-                                                                                    "end": 72
+                                                                                    "transformFlags": 8,
+                                                                                    "start": 70,
+                                                                                    "end": 73
                                                                                 },
-                                                                                "flags": 32,
-                                                                                "transformFlags": 8,
-                                                                                "start": 70,
-                                                                                "end": 73
-                                                                            },
-                                                                            "operatorToken": {
-                                                                                "kind": 4125,
-                                                                                "flags": 96,
-                                                                                "transformFlags": 0,
-                                                                                "start": 73,
-                                                                                "end": 75
-                                                                            },
-                                                                            "right": {
-                                                                                "kind": 208,
-                                                                                "awaitKeyword": {
-                                                                                    "kind": 82196,
-                                                                                    "flags": 64,
-                                                                                    "transformFlags": 0,
-                                                                                    "start": 75,
-                                                                                    "end": 81
-                                                                                },
-                                                                                "expression": {
-                                                                                    "kind": 134299649,
-                                                                                    "text": "bar",
-                                                                                    "rawText": "bar",
+                                                                                "operatorToken": {
+                                                                                    "kind": 4125,
                                                                                     "flags": 96,
                                                                                     "transformFlags": 0,
-                                                                                    "start": 81,
+                                                                                    "start": 73,
+                                                                                    "end": 75
+                                                                                },
+                                                                                "right": {
+                                                                                    "kind": 208,
+                                                                                    "awaitKeyword": {
+                                                                                        "kind": 82196,
+                                                                                        "flags": 64,
+                                                                                        "transformFlags": 0,
+                                                                                        "start": 75,
+                                                                                        "end": 81
+                                                                                    },
+                                                                                    "expression": {
+                                                                                        "kind": 134299649,
+                                                                                        "text": "bar",
+                                                                                        "rawText": "bar",
+                                                                                        "flags": 96,
+                                                                                        "transformFlags": 0,
+                                                                                        "start": 81,
+                                                                                        "end": 85
+                                                                                    },
+                                                                                    "flags": 32,
+                                                                                    "transformFlags": 0,
+                                                                                    "start": 75,
                                                                                     "end": 85
                                                                                 },
                                                                                 "flags": 32,
-                                                                                "transformFlags": 0,
-                                                                                "start": 75,
+                                                                                "transformFlags": 128,
+                                                                                "start": 70,
                                                                                 "end": 85
-                                                                            },
-                                                                            "flags": 32,
-                                                                            "transformFlags": 128,
-                                                                            "start": 70,
-                                                                            "end": 85
-                                                                        }
-                                                                    ],
-                                                                    "trailingComma": false,
-                                                                    "flags": 34,
-                                                                    "transformFlags": 0,
+                                                                            }
+                                                                        ],
+                                                                        "trailingComma": false,
+                                                                        "flags": 34,
+                                                                        "transformFlags": 0,
+                                                                        "start": 58,
+                                                                        "end": 58
+                                                                    },
+                                                                    "flags": 268435490,
+                                                                    "transformFlags": 1,
                                                                     "start": 58,
-                                                                    "end": 58
+                                                                    "end": 86
                                                                 },
-                                                                "flags": 268435490,
-                                                                "transformFlags": 1,
-                                                                "start": 58,
-                                                                "end": 86
-                                                            },
-                                                            {
-                                                                "kind": 168,
                                                                 "flags": 16,
                                                                 "transformFlags": 0,
-                                                                "start": 86,
+                                                                "start": 58,
                                                                 "end": 87
                                                             }
                                                         ],

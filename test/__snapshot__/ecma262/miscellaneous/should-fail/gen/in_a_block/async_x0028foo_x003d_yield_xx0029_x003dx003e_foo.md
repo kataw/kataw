@@ -28,80 +28,87 @@
                 "kind": 249,
                 "statements": [
                     {
-                        "kind": 271,
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "transformFlags": 0,
-                            "start": 1,
-                            "end": 7
-                        },
-                        "typeParameters": null,
-                        "arrowPatameterList": {
-                            "kind": 342,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 96,
+                        "kind": 120,
+                        "expression": {
+                            "kind": 271,
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 64,
+                                "transformFlags": 0,
+                                "start": 1,
+                                "end": 7
+                            },
+                            "typeParameters": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "transformFlags": 0,
+                                            "start": 9,
+                                            "end": 12
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "yield",
+                                            "rawText": "yield",
+                                            "flags": 96,
+                                            "transformFlags": 0,
+                                            "start": 14,
+                                            "end": 20
+                                        },
+                                        "flags": 32,
                                         "transformFlags": 0,
                                         "start": 9,
-                                        "end": 12
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "yield",
-                                        "rawText": "yield",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 14,
                                         "end": 20
                                     },
-                                    "flags": 32,
-                                    "transformFlags": 0,
-                                    "start": 9,
-                                    "end": 20
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 20,
-                                    "end": 22
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 34,
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "transformFlags": 0,
+                                        "start": 20,
+                                        "end": 22
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 34,
+                                "transformFlags": 0,
+                                "start": 9,
+                                "end": 23
+                            },
+                            "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "transformFlags": 0,
+                                "start": 23,
+                                "end": 26
+                            },
+                            "contents": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "transformFlags": 0,
+                                "start": 26,
+                                "end": 30
+                            },
+                            "flags": 290,
                             "transformFlags": 0,
-                            "start": 9,
-                            "end": 23
-                        },
-                        "returnType": null,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "transformFlags": 0,
-                            "start": 23,
-                            "end": 26
-                        },
-                        "contents": {
-                            "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 96,
-                            "transformFlags": 0,
-                            "start": 26,
+                            "start": 1,
                             "end": 30
                         },
-                        "flags": 290,
+                        "flags": 16,
                         "transformFlags": 0,
                         "start": 1,
                         "end": 30
@@ -132,7 +139,7 @@
 
 ```javascript
 {
-  async (foo = yield, x) => foo
+  async (foo = yield, x) => foo;
 }
 ```
 

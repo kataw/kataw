@@ -59,59 +59,59 @@ async function f(){ async(await x); }
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 131,
+                            "kind": 120,
                             "expression": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 19,
-                                "end": 25
-                            },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [
-                                    {
-                                        "kind": 208,
-                                        "awaitKeyword": {
-                                            "kind": 82196,
-                                            "flags": 64,
+                                "kind": 131,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "transformFlags": 0,
+                                    "start": 19,
+                                    "end": 25
+                                },
+                                "argumentList": {
+                                    "kind": 256,
+                                    "elements": [
+                                        {
+                                            "kind": 208,
+                                            "awaitKeyword": {
+                                                "kind": 82196,
+                                                "flags": 64,
+                                                "transformFlags": 0,
+                                                "start": 26,
+                                                "end": 31
+                                            },
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "transformFlags": 0,
+                                                "start": 31,
+                                                "end": 33
+                                            },
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 26,
-                                            "end": 31
-                                        },
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 31,
                                             "end": 33
-                                        },
-                                        "flags": 32,
-                                        "transformFlags": 0,
-                                        "start": 26,
-                                        "end": 33
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "transformFlags": 0,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "transformFlags": 0,
+                                    "start": 19,
+                                    "end": 19
+                                },
+                                "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 19,
-                                "end": 19
+                                "end": 34
                             },
-                            "flags": 268435488,
-                            "transformFlags": 1,
-                            "start": 19,
-                            "end": 34
-                        },
-                        {
-                            "kind": 168,
                             "flags": 16,
                             "transformFlags": 0,
-                            "start": 34,
+                            "start": 19,
                             "end": 35
                         }
                     ],

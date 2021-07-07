@@ -16,60 +16,67 @@ async (x--, y) => x;
     "directives": [],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 5
-            },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 127,
-                        "operandToken": {
-                            "kind": 196636,
-                            "flags": 96,
-                            "transformFlags": 0,
-                            "start": 8,
-                            "end": 10
-                        },
-                        "operand": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 127,
+                            "operandToken": {
+                                "kind": 196636,
+                                "flags": 96,
+                                "transformFlags": 0,
+                                "start": 8,
+                                "end": 10
+                            },
+                            "operand": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "transformFlags": 0,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "flags": 32,
                             "transformFlags": 0,
                             "start": 7,
-                            "end": 8
+                            "end": 10
                         },
-                        "flags": 32,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 10
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "transformFlags": 0,
-                        "start": 11,
-                        "end": 13
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
+                        {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 11,
+                            "end": 13
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 0
+                },
+                "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
-                "end": 0
+                "end": 14
             },
-            "flags": 268435488,
-            "transformFlags": 1,
+            "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -109,7 +116,7 @@ async (x--, y) => x;
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 14, end: 17
+✖ Expected a `;` - start: 14, end: 17
 
 ```
 

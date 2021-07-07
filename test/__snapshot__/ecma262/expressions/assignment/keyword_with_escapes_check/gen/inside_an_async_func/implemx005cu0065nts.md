@@ -23,89 +23,96 @@ async () => {  implem\u0065nts = x  }
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
-                "start": 7,
-                "end": 7
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 8,
-                "end": 11
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 125,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "implements",
-                                    "rawText": "implem\\u0065nts",
-                                    "flags": 16480,
-                                    "transformFlags": 0,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 7,
+                    "end": 7
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 8,
+                    "end": 11
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 125,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "implements",
+                                        "rawText": "implem\\u0065nts",
+                                        "flags": 16480,
+                                        "transformFlags": 0,
+                                        "start": 13,
+                                        "end": 30
+                                    },
+                                    "operatorToken": {
+                                        "kind": 4125,
+                                        "flags": 96,
+                                        "transformFlags": 0,
+                                        "start": 30,
+                                        "end": 32
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "transformFlags": 0,
+                                        "start": 32,
+                                        "end": 34
+                                    },
+                                    "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 13,
-                                    "end": 30
-                                },
-                                "operatorToken": {
-                                    "kind": 4125,
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 30,
-                                    "end": 32
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 32,
                                     "end": 34
                                 },
-                                "flags": 0,
-                                "transformFlags": 128,
+                                "flags": 16,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 34
-                            },
-                            "flags": 16,
-                            "transformFlags": 0,
-                            "start": 13,
-                            "end": 34
-                        }
-                    ],
-                    "flags": 16416,
+                            }
+                        ],
+                        "flags": 16416,
+                        "transformFlags": 0,
+                        "start": 13,
+                        "end": 34
+                    },
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 34
+                    "start": 11,
+                    "end": 37
                 },
-                "flags": 32,
+                "flags": 288,
                 "transformFlags": 0,
-                "start": 11,
+                "start": 0,
                 "end": 37
             },
-            "flags": 288,
+            "flags": 16,
             "transformFlags": 0,
             "start": 0,
             "end": 37
@@ -126,7 +133,7 @@ async () => {  implem\u0065nts = x  }
 ```javascript
 async () => {
   implem\u0065nts = x;
-}
+};
 ```
 
 ### Diagnostics

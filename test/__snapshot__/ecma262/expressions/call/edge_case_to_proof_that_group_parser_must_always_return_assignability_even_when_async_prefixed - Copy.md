@@ -17,37 +17,44 @@ async
     "directives": [],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "transformFlags": 0,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 8,
+                            "end": 9
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 33,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 0
+                },
+                "flags": 268435489,
+                "transformFlags": 1,
                 "start": 0,
-                "end": 5
+                "end": 10
             },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "transformFlags": 0,
-                        "start": 8,
-                        "end": 9
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 33,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 0
-            },
-            "flags": 268435489,
-            "transformFlags": 1,
+            "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -87,7 +94,7 @@ async
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 10, end: 12
+✖ Expected a `;` - start: 10, end: 12
 
 ```
 

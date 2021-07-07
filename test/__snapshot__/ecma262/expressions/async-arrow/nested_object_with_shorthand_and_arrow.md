@@ -16,103 +16,110 @@ async ({ident: {x}}) => x
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 212,
-                        "propertyList": {
-                            "kind": 213,
-                            "properties": [
-                                {
-                                    "kind": 329,
-                                    "key": {
-                                        "kind": 134299649,
-                                        "text": "ident",
-                                        "rawText": "ident",
-                                        "flags": 96,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 134299649,
+                                            "text": "ident",
+                                            "rawText": "ident",
+                                            "flags": 96,
+                                            "transformFlags": 0,
+                                            "start": 8,
+                                            "end": 13
+                                        },
+                                        "value": {
+                                            "kind": 220,
+                                            "propertyList": {
+                                                "kind": 218,
+                                                "properties": [
+                                                    {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 16,
+                                                        "end": 17
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 16,
+                                                "transformFlags": 0,
+                                                "start": 16,
+                                                "end": 17
+                                            },
+                                            "flags": 48,
+                                            "transformFlags": 8,
+                                            "start": 14,
+                                            "end": 18
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
                                         "transformFlags": 0,
                                         "start": 8,
-                                        "end": 13
-                                    },
-                                    "value": {
-                                        "kind": 220,
-                                        "propertyList": {
-                                            "kind": 218,
-                                            "properties": [
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 16,
-                                                    "end": 17
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 16,
-                                            "transformFlags": 0,
-                                            "start": 16,
-                                            "end": 17
-                                        },
-                                        "flags": 48,
-                                        "transformFlags": 8,
-                                        "start": 14,
                                         "end": 18
-                                    },
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 18
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "transformFlags": 0,
+                                "start": 8,
+                                "end": 18
+                            },
+                            "flags": 48,
                             "transformFlags": 0,
-                            "start": 8,
-                            "end": 18
-                        },
-                        "flags": 48,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 19
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 34,
+                            "start": 7,
+                            "end": 19
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 34,
+                    "transformFlags": 0,
+                    "start": 7,
+                    "end": 20
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 20,
+                    "end": 23
+                },
+                "contents": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 23,
+                    "end": 25
+                },
+                "flags": 290,
                 "transformFlags": 0,
-                "start": 7,
-                "end": 20
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 20,
-                "end": 23
-            },
-            "contents": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "transformFlags": 0,
-                "start": 23,
+                "start": 0,
                 "end": 25
             },
-            "flags": 290,
+            "flags": 16,
             "transformFlags": 0,
             "start": 0,
             "end": 25
@@ -131,7 +138,7 @@ async ({ident: {x}}) => x
 ### Printed
 
 ```javascript
-async ({ ident: { x } }) => x
+async ({ ident: { x } }) => x;
 ```
 
 ### Diagnostics

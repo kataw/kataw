@@ -33,37 +33,44 @@
     ],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "transformFlags": 0,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 13,
+                    "end": 19
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 20,
+                            "end": 25
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 268435488,
+                "transformFlags": 1,
                 "start": 13,
-                "end": 19
+                "end": 26
             },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 134299649,
-                        "text": "await",
-                        "rawText": "await",
-                        "flags": 96,
-                        "transformFlags": 0,
-                        "start": 20,
-                        "end": 25
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
-                "start": 13,
-                "end": 13
-            },
-            "flags": 268435488,
-            "transformFlags": 1,
+            "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 26
         },
@@ -103,7 +110,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 26, end: 28
+✖ Expected a `;` - start: 26, end: 28
 
 ```
 

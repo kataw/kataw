@@ -89,37 +89,44 @@ function* g( x = function() { async(yield) }) {};
                                     "directives": [],
                                     "statements": [
                                         {
-                                            "kind": 131,
+                                            "kind": 120,
                                             "expression": {
-                                                "kind": 134299649,
-                                                "text": "async",
-                                                "rawText": "async",
-                                                "flags": 96,
-                                                "transformFlags": 0,
+                                                "kind": 131,
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "async",
+                                                    "rawText": "async",
+                                                    "flags": 96,
+                                                    "transformFlags": 0,
+                                                    "start": 29,
+                                                    "end": 35
+                                                },
+                                                "argumentList": {
+                                                    "kind": 256,
+                                                    "elements": [
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "yield",
+                                                            "rawText": "yield",
+                                                            "flags": 96,
+                                                            "transformFlags": 0,
+                                                            "start": 36,
+                                                            "end": 41
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "transformFlags": 0,
+                                                    "start": 29,
+                                                    "end": 29
+                                                },
+                                                "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 29,
-                                                "end": 35
+                                                "end": 42
                                             },
-                                            "argumentList": {
-                                                "kind": 256,
-                                                "elements": [
-                                                    {
-                                                        "kind": 134299649,
-                                                        "text": "yield",
-                                                        "rawText": "yield",
-                                                        "flags": 96,
-                                                        "transformFlags": 0,
-                                                        "start": 36,
-                                                        "end": 41
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 32,
-                                                "transformFlags": 0,
-                                                "start": 29,
-                                                "end": 29
-                                            },
-                                            "flags": 268435488,
-                                            "transformFlags": 1,
+                                            "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 42
                                         }
@@ -196,7 +203,7 @@ function* g( x = function() { async(yield) }) {};
 
 ```javascript
 function *g(x = function () {
-  async(yield)
+  async(yield);
 }) {}
 ```
 

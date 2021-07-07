@@ -73,27 +73,34 @@ export async\nfunction async() { await 1; }
             "end": 22
         },
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "transformFlags": 0,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 22,
+                    "end": 28
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 22,
+                    "end": 22
+                },
+                "flags": 268435488,
+                "transformFlags": 1,
                 "start": 22,
-                "end": 28
+                "end": 30
             },
-            "argumentList": {
-                "kind": 256,
-                "elements": [],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
-                "start": 22,
-                "end": 22
-            },
-            "flags": 268435488,
-            "transformFlags": 1,
+            "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 30
         },
@@ -171,6 +178,7 @@ export async\nfunction async() { await 1; }
 ✖ Declaration or statement expected - start: 6, end: 13
 ✖ Expected a `;` - start: 12, end: 13
 ✖ Expected a `;` - start: 22, end: 28
+✖ Expected a `;` - start: 30, end: 32
 ✖ Expected a `;` - start: 38, end: 40
 
 ```

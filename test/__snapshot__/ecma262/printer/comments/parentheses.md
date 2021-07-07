@@ -100,126 +100,133 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
             "end": 17
         },
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 17,
-                "end": 23
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
-                "start": 30,
-                "end": 30
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 31,
-                "end": 34
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 205,
-                                "chainToken": {
-                                    "kind": 393240,
-                                    "flags": 64,
-                                    "transformFlags": 0,
-                                    "start": 50,
-                                    "end": 52
-                                },
-                                "member": {
-                                    "kind": 121,
-                                    "expression": {
-                                        "kind": 208,
-                                        "awaitKeyword": {
-                                            "kind": 82196,
-                                            "flags": 64,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 17,
+                    "end": 23
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 30,
+                    "end": 30
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 31,
+                    "end": 34
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 205,
+                                    "chainToken": {
+                                        "kind": 393240,
+                                        "flags": 64,
+                                        "transformFlags": 0,
+                                        "start": 50,
+                                        "end": 52
+                                    },
+                                    "member": {
+                                        "kind": 121,
+                                        "expression": {
+                                            "kind": 208,
+                                            "awaitKeyword": {
+                                                "kind": 82196,
+                                                "flags": 64,
+                                                "transformFlags": 0,
+                                                "start": 40,
+                                                "end": 45
+                                            },
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "foo",
+                                                "rawText": "foo",
+                                                "flags": 96,
+                                                "transformFlags": 0,
+                                                "start": 45,
+                                                "end": 49
+                                            },
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 40,
-                                            "end": 45
-                                        },
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 45,
                                             "end": 49
+                                        },
+                                        "flags": 36,
+                                        "transformFlags": 0,
+                                        "start": 33,
+                                        "end": 50
+                                    },
+                                    "chain": {
+                                        "kind": 302,
+                                        "chain": {
+                                            "kind": 204,
+                                            "chain": null,
+                                            "typeArguments": null,
+                                            "argumentList": {
+                                                "kind": 256,
+                                                "elements": [],
+                                                "trailingComma": false,
+                                                "flags": 32,
+                                                "transformFlags": 0,
+                                                "start": 53,
+                                                "end": 53
+                                            },
+                                            "flags": 268435488,
+                                            "transformFlags": 1,
+                                            "start": 52,
+                                            "end": 54
                                         },
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 40,
-                                        "end": 49
-                                    },
-                                    "flags": 36,
-                                    "transformFlags": 0,
-                                    "start": 33,
-                                    "end": 50
-                                },
-                                "chain": {
-                                    "kind": 302,
-                                    "chain": {
-                                        "kind": 204,
-                                        "chain": null,
-                                        "typeArguments": null,
-                                        "argumentList": {
-                                            "kind": 256,
-                                            "elements": [],
-                                            "trailingComma": false,
-                                            "flags": 32,
-                                            "transformFlags": 0,
-                                            "start": 53,
-                                            "end": 53
-                                        },
-                                        "flags": 268435488,
-                                        "transformFlags": 1,
                                         "start": 52,
                                         "end": 54
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 52,
+                                    "start": 36,
                                     "end": 54
                                 },
-                                "flags": 32,
+                                "flags": 16,
                                 "transformFlags": 0,
                                 "start": 36,
-                                "end": 54
-                            },
-                            "flags": 16,
-                            "transformFlags": 0,
-                            "start": 36,
-                            "end": 55
-                        }
-                    ],
-                    "flags": 33,
+                                "end": 55
+                            }
+                        ],
+                        "flags": 33,
+                        "transformFlags": 0,
+                        "start": 36,
+                        "end": 55
+                    },
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 36,
-                    "end": 55
+                    "start": 34,
+                    "end": 57
                 },
-                "flags": 32,
+                "flags": 288,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 17,
                 "end": 57
             },
-            "flags": 288,
+            "flags": 16,
             "transformFlags": 0,
             "start": 17,
             "end": 57
@@ -675,7 +682,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
 (foo++)?.();
 async () => {
   (await foo)?.();
-}
+};
 
 (+foo)?.();
 

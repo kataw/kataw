@@ -101,12 +101,13 @@ x + async => ok
 ### Printed
 
 ```javascript
-x + async => ok;
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 9, end: 12
+
 ```
 

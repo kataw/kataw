@@ -59,95 +59,95 @@ function *g() { async (x = yield) => {}; }
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 271,
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "transformFlags": 0,
-                                "start": 15,
-                                "end": 21
-                            },
-                            "typeParameters": null,
-                            "arrowPatameterList": {
-                                "kind": 342,
-                                "parameters": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 23,
-                                            "end": 24
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 229,
-                                            "yieldKeyword": {
-                                                "kind": 8454253,
-                                                "flags": 64,
+                            "kind": 120,
+                            "expression": {
+                                "kind": 271,
+                                "asyncKeyword": {
+                                    "kind": 82031,
+                                    "flags": 64,
+                                    "transformFlags": 0,
+                                    "start": 15,
+                                    "end": 21
+                                },
+                                "typeParameters": null,
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "transformFlags": 0,
+                                                "start": 23,
+                                                "end": 24
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": {
+                                                "kind": 229,
+                                                "yieldKeyword": {
+                                                    "kind": 8454253,
+                                                    "flags": 64,
+                                                    "transformFlags": 0,
+                                                    "start": 26,
+                                                    "end": 32
+                                                },
+                                                "delegate": false,
+                                                "asteriskToken": null,
+                                                "expression": null,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 32
                                             },
-                                            "delegate": false,
-                                            "asteriskToken": null,
-                                            "expression": null,
                                             "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 26,
+                                            "start": 23,
                                             "end": 32
-                                        },
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 34,
+                                    "transformFlags": 0,
+                                    "start": 23,
+                                    "end": 33
+                                },
+                                "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "transformFlags": 0,
+                                    "start": 33,
+                                    "end": 36
+                                },
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 23,
-                                        "end": 32
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 34,
-                                "transformFlags": 0,
-                                "start": 23,
-                                "end": 33
-                            },
-                            "returnType": null,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "transformFlags": 0,
-                                "start": 33,
-                                "end": 36
-                            },
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
+                                        "start": 38,
+                                        "end": 38
+                                    },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 38,
-                                    "end": 38
+                                    "start": 36,
+                                    "end": 39
                                 },
-                                "flags": 32,
+                                "flags": 290,
                                 "transformFlags": 0,
-                                "start": 36,
+                                "start": 15,
                                 "end": 39
                             },
-                            "flags": 290,
-                            "transformFlags": 0,
-                            "start": 15,
-                            "end": 39
-                        },
-                        {
-                            "kind": 168,
                             "flags": 16,
                             "transformFlags": 0,
-                            "start": 39,
+                            "start": 15,
                             "end": 40
                         }
                     ],

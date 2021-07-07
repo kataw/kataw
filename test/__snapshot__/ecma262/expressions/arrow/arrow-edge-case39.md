@@ -24,74 +24,81 @@ async (a): void => {}
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 7,
+                            "end": 8
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 7,
+                    "end": 15
+                },
+                "returnType": {
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 138477615,
+                        "flags": 2097216,
                         "transformFlags": 0,
-                        "start": 7,
-                        "end": 8
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
-                "start": 7,
-                "end": 15
-            },
-            "returnType": {
-                "kind": 139,
-                "bitwiseOrToken": null,
-                "bitwiseAndToken": null,
-                "type": {
-                    "kind": 138477615,
-                    "flags": 2097216,
+                        "start": 10,
+                        "end": 15
+                    },
+                    "flags": 2097152,
                     "transformFlags": 0,
                     "start": 10,
                     "end": 15
                 },
-                "flags": 2097152,
-                "transformFlags": 0,
-                "start": 10,
-                "end": 15
-            },
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 15,
-                "end": 18
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 15,
+                    "end": 18
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "transformFlags": 0,
+                        "start": 20,
+                        "end": 20
+                    },
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 20,
-                    "end": 20
+                    "start": 18,
+                    "end": 21
                 },
-                "flags": 32,
+                "flags": 288,
                 "transformFlags": 0,
-                "start": 18,
+                "start": 0,
                 "end": 21
             },
-            "flags": 288,
+            "flags": 16,
             "transformFlags": 0,
             "start": 0,
             "end": 21
@@ -110,7 +117,7 @@ async (a): void => {}
 ### Printed
 
 ```javascript
-async (a) => {}
+async (a) => {};
 ```
 
 ### Diagnostics

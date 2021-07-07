@@ -77,59 +77,66 @@
             "end": 21
         },
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 21,
-                "end": 29
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "transformFlags": 0,
-                        "start": 31,
-                        "end": 32
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
-                "start": 31,
-                "end": 39
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 39,
-                "end": 42
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 21,
+                    "end": 29
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 31,
+                            "end": 32
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 44,
-                    "end": 44
+                    "start": 31,
+                    "end": 39
                 },
-                "flags": 32,
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 39,
+                    "end": 42
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "transformFlags": 0,
+                        "start": 44,
+                        "end": 44
+                    },
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 42,
+                    "end": 45
+                },
+                "flags": 288,
                 "transformFlags": 0,
-                "start": 42,
+                "start": 21,
                 "end": 45
             },
-            "flags": 288,
+            "flags": 16,
             "transformFlags": 0,
             "start": 21,
             "end": 45
@@ -149,7 +156,7 @@
 
 ```javascript
 (x) => {};
-async (x) => {}
+async (x) => {};
 
 ```
 

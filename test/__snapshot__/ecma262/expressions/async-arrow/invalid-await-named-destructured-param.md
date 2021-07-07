@@ -24,95 +24,95 @@ async ({a: await}) => 1;
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 212,
-                        "propertyList": {
-                            "kind": 213,
-                            "properties": [
-                                {
-                                    "kind": 329,
-                                    "key": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "transformFlags": 0,
+                                            "start": 8,
+                                            "end": 9
+                                        },
+                                        "value": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
+                                            "transformFlags": 0,
+                                            "start": 10,
+                                            "end": 16
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
                                         "transformFlags": 0,
                                         "start": 8,
-                                        "end": 9
-                                    },
-                                    "value": {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 10,
                                         "end": 16
-                                    },
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "transformFlags": 0,
-                                    "start": 8,
-                                    "end": 16
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "transformFlags": 0,
+                                "start": 8,
+                                "end": 16
+                            },
+                            "flags": 48,
                             "transformFlags": 0,
-                            "start": 8,
-                            "end": 16
-                        },
-                        "flags": 48,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 17
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 34,
+                            "start": 7,
+                            "end": 17
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 34,
+                    "transformFlags": 0,
+                    "start": 7,
+                    "end": 18
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 18,
+                    "end": 21
+                },
+                "contents": {
+                    "kind": 201392130,
+                    "text": 1,
+                    "rawText": "1",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 21,
+                    "end": 23
+                },
+                "flags": 290,
                 "transformFlags": 0,
-                "start": 7,
-                "end": 18
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 18,
-                "end": 21
-            },
-            "contents": {
-                "kind": 201392130,
-                "text": 1,
-                "rawText": "1",
-                "flags": 96,
-                "transformFlags": 0,
-                "start": 21,
+                "start": 0,
                 "end": 23
             },
-            "flags": 290,
-            "transformFlags": 0,
-            "start": 0,
-            "end": 23
-        },
-        {
-            "kind": 168,
             "flags": 16,
             "transformFlags": 0,
-            "start": 23,
+            "start": 0,
             "end": 24
         }
     ],
@@ -129,7 +129,7 @@ async ({a: await}) => 1;
 ### Printed
 
 ```javascript
-async ({ a: await }) => 1
+async ({ a: await }) => 1;
 ```
 
 ### Diagnostics

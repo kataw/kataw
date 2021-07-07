@@ -59,93 +59,100 @@ function *f(){ async (x = (yield)) => {} }
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 271,
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "transformFlags": 0,
-                                "start": 14,
-                                "end": 20
-                            },
-                            "typeParameters": null,
-                            "arrowPatameterList": {
-                                "kind": 342,
-                                "parameters": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 22,
-                                            "end": 23
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 121,
-                                            "expression": {
-                                                "kind": 229,
-                                                "yieldKeyword": {
-                                                    "kind": 8454253,
-                                                    "flags": 64,
+                            "kind": 120,
+                            "expression": {
+                                "kind": 271,
+                                "asyncKeyword": {
+                                    "kind": 82031,
+                                    "flags": 64,
+                                    "transformFlags": 0,
+                                    "start": 14,
+                                    "end": 20
+                                },
+                                "typeParameters": null,
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "transformFlags": 0,
+                                                "start": 22,
+                                                "end": 23
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": {
+                                                "kind": 121,
+                                                "expression": {
+                                                    "kind": 229,
+                                                    "yieldKeyword": {
+                                                        "kind": 8454253,
+                                                        "flags": 64,
+                                                        "transformFlags": 0,
+                                                        "start": 27,
+                                                        "end": 32
+                                                    },
+                                                    "delegate": false,
+                                                    "asteriskToken": null,
+                                                    "expression": null,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 32
                                                 },
-                                                "delegate": false,
-                                                "asteriskToken": null,
-                                                "expression": null,
-                                                "flags": 32,
+                                                "flags": 25,
                                                 "transformFlags": 0,
-                                                "start": 27,
-                                                "end": 32
+                                                "start": 32,
+                                                "end": 33
                                             },
-                                            "flags": 25,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 22,
                                             "end": 33
-                                        },
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 34,
+                                    "transformFlags": 0,
+                                    "start": 22,
+                                    "end": 34
+                                },
+                                "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "transformFlags": 0,
+                                    "start": 34,
+                                    "end": 37
+                                },
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 22,
-                                        "end": 33
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 34,
-                                "transformFlags": 0,
-                                "start": 22,
-                                "end": 34
-                            },
-                            "returnType": null,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "transformFlags": 0,
-                                "start": 34,
-                                "end": 37
-                            },
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [],
+                                        "start": 39,
+                                        "end": 39
+                                    },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 39,
-                                    "end": 39
+                                    "start": 37,
+                                    "end": 40
                                 },
-                                "flags": 32,
+                                "flags": 290,
                                 "transformFlags": 0,
-                                "start": 37,
+                                "start": 14,
                                 "end": 40
                             },
-                            "flags": 290,
+                            "flags": 16,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 40
@@ -182,7 +189,7 @@ function *f(){ async (x = (yield)) => {} }
 
 ```javascript
 function *f() {
-  async (x = (yield )) => {}
+  async (x = (yield )) => {};
 }
 ```
 

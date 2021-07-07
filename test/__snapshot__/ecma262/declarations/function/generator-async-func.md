@@ -69,76 +69,83 @@ function* wrap() {
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 131,
+                            "kind": 120,
                             "expression": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 18,
-                                "end": 28
-                            },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [
-                                    {
-                                        "kind": 125,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 29,
-                                            "end": 30
-                                        },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 30,
-                                            "end": 32
-                                        },
-                                        "right": {
-                                            "kind": 229,
-                                            "yieldKeyword": {
-                                                "kind": 8454253,
-                                                "flags": 64,
-                                                "transformFlags": 0,
-                                                "start": 32,
-                                                "end": 38
-                                            },
-                                            "delegate": false,
-                                            "asteriskToken": null,
-                                            "expression": {
+                                "kind": 131,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "transformFlags": 0,
+                                    "start": 18,
+                                    "end": 28
+                                },
+                                "argumentList": {
+                                    "kind": 256,
+                                    "elements": [
+                                        {
+                                            "kind": 125,
+                                            "left": {
                                                 "kind": 134299649,
-                                                "text": "b",
-                                                "rawText": "b",
+                                                "text": "a",
+                                                "rawText": "a",
                                                 "flags": 96,
                                                 "transformFlags": 0,
-                                                "start": 38,
+                                                "start": 29,
+                                                "end": 30
+                                            },
+                                            "operatorToken": {
+                                                "kind": 4125,
+                                                "flags": 96,
+                                                "transformFlags": 0,
+                                                "start": 30,
+                                                "end": 32
+                                            },
+                                            "right": {
+                                                "kind": 229,
+                                                "yieldKeyword": {
+                                                    "kind": 8454253,
+                                                    "flags": 64,
+                                                    "transformFlags": 0,
+                                                    "start": 32,
+                                                    "end": 38
+                                                },
+                                                "delegate": false,
+                                                "asteriskToken": null,
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "b",
+                                                    "rawText": "b",
+                                                    "flags": 96,
+                                                    "transformFlags": 0,
+                                                    "start": 38,
+                                                    "end": 40
+                                                },
+                                                "flags": 32,
+                                                "transformFlags": 0,
+                                                "start": 32,
                                                 "end": 40
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
-                                            "start": 32,
+                                            "transformFlags": 128,
+                                            "start": 29,
                                             "end": 40
-                                        },
-                                        "flags": 32,
-                                        "transformFlags": 128,
-                                        "start": 29,
-                                        "end": 40
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 34,
-                                "transformFlags": 0,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 34,
+                                    "transformFlags": 0,
+                                    "start": 18,
+                                    "end": 18
+                                },
+                                "flags": 268435490,
+                                "transformFlags": 1,
                                 "start": 18,
-                                "end": 18
+                                "end": 41
                             },
-                            "flags": 268435490,
-                            "transformFlags": 1,
+                            "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 41
                         }
@@ -181,7 +188,7 @@ function* wrap() {
 
 ```javascript
 function *wrap() {
-  async(a = yield b)
+  async(a = yield b);
 }
 ```
 

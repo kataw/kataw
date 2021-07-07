@@ -76,99 +76,99 @@
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 131,
+                            "kind": 120,
                             "expression": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 33,
-                                "end": 43
-                            },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [
-                                    {
-                                        "kind": 125,
-                                        "left": {
-                                            "kind": 119,
-                                            "elementList": {
-                                                "kind": 270,
-                                                "elements": [
-                                                    {
-                                                        "kind": 134299649,
-                                                        "text": "v",
-                                                        "rawText": "v",
-                                                        "flags": 96,
-                                                        "transformFlags": 0,
-                                                        "start": 46,
-                                                        "end": 47
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                "kind": 131,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "transformFlags": 0,
+                                    "start": 33,
+                                    "end": 43
+                                },
+                                "argumentList": {
+                                    "kind": 256,
+                                    "elements": [
+                                        {
+                                            "kind": 125,
+                                            "left": {
+                                                "kind": 119,
+                                                "elementList": {
+                                                    "kind": 270,
+                                                    "elements": [
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "v",
+                                                            "rawText": "v",
+                                                            "flags": 96,
+                                                            "transformFlags": 0,
+                                                            "start": 46,
+                                                            "end": 47
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "transformFlags": 0,
+                                                    "start": 46,
+                                                    "end": 47
+                                                },
                                                 "flags": 32,
-                                                "transformFlags": 0,
-                                                "start": 46,
-                                                "end": 47
+                                                "transformFlags": 8,
+                                                "start": 45,
+                                                "end": 48
                                             },
-                                            "flags": 32,
-                                            "transformFlags": 8,
-                                            "start": 45,
-                                            "end": 48
-                                        },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 48,
-                                            "end": 50
-                                        },
-                                        "right": {
-                                            "kind": 208,
-                                            "awaitKeyword": {
-                                                "kind": 82196,
-                                                "flags": 64,
-                                                "transformFlags": 0,
-                                                "start": 50,
-                                                "end": 56
-                                            },
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": "bar",
-                                                "rawText": "bar",
+                                            "operatorToken": {
+                                                "kind": 4125,
                                                 "flags": 96,
                                                 "transformFlags": 0,
-                                                "start": 56,
+                                                "start": 48,
+                                                "end": 50
+                                            },
+                                            "right": {
+                                                "kind": 208,
+                                                "awaitKeyword": {
+                                                    "kind": 82196,
+                                                    "flags": 64,
+                                                    "transformFlags": 0,
+                                                    "start": 50,
+                                                    "end": 56
+                                                },
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "bar",
+                                                    "rawText": "bar",
+                                                    "flags": 96,
+                                                    "transformFlags": 0,
+                                                    "start": 56,
+                                                    "end": 60
+                                                },
+                                                "flags": 32,
+                                                "transformFlags": 0,
+                                                "start": 50,
                                                 "end": 60
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
-                                            "start": 50,
+                                            "transformFlags": 128,
+                                            "start": 45,
                                             "end": 60
-                                        },
-                                        "flags": 32,
-                                        "transformFlags": 128,
-                                        "start": 45,
-                                        "end": 60
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 34,
-                                "transformFlags": 0,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 34,
+                                    "transformFlags": 0,
+                                    "start": 33,
+                                    "end": 33
+                                },
+                                "flags": 268435490,
+                                "transformFlags": 1,
                                 "start": 33,
-                                "end": 33
+                                "end": 61
                             },
-                            "flags": 268435490,
-                            "transformFlags": 1,
-                            "start": 33,
-                            "end": 61
-                        },
-                        {
-                            "kind": 168,
                             "flags": 16,
                             "transformFlags": 0,
-                            "start": 61,
+                            "start": 33,
                             "end": 62
                         }
                     ],

@@ -24,64 +24,71 @@ async (): void => {}
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
-                "start": 7,
-                "end": 7
-            },
-            "returnType": {
-                "kind": 139,
-                "bitwiseOrToken": null,
-                "bitwiseAndToken": null,
-                "type": {
-                    "kind": 138477615,
-                    "flags": 2097216,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 7,
+                    "end": 7
+                },
+                "returnType": {
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 138477615,
+                        "flags": 2097216,
+                        "transformFlags": 0,
+                        "start": 9,
+                        "end": 14
+                    },
+                    "flags": 2097152,
                     "transformFlags": 0,
                     "start": 9,
                     "end": 14
                 },
-                "flags": 2097152,
-                "transformFlags": 0,
-                "start": 9,
-                "end": 14
-            },
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 14,
-                "end": 17
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 14,
+                    "end": 17
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "transformFlags": 0,
+                        "start": 19,
+                        "end": 19
+                    },
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 19,
-                    "end": 19
+                    "start": 17,
+                    "end": 20
                 },
-                "flags": 32,
+                "flags": 288,
                 "transformFlags": 0,
-                "start": 17,
+                "start": 0,
                 "end": 20
             },
-            "flags": 288,
+            "flags": 16,
             "transformFlags": 0,
             "start": 0,
             "end": 20
@@ -100,7 +107,7 @@ async (): void => {}
 ### Printed
 
 ```javascript
-async () => {}
+async () => {};
 ```
 
 ### Diagnostics

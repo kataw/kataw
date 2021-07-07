@@ -106,12 +106,13 @@ new async a => {}
 ### Printed
 
 ```javascript
-new async a => {};
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 9, end: 11
+
 ```
 

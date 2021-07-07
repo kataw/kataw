@@ -16,45 +16,52 @@ async (x, /x/g) => x
     "directives": [],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "transformFlags": 0,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 7,
+                            "end": 8
+                        },
+                        {
+                            "kind": 371,
+                            "text": "/x/g",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 9,
+                            "end": 14
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 14
+                },
+                "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
-                "end": 5
+                "end": 15
             },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "transformFlags": 0,
-                        "start": 7,
-                        "end": 8
-                    },
-                    {
-                        "kind": 371,
-                        "text": "/x/g",
-                        "flags": 96,
-                        "transformFlags": 0,
-                        "start": 9,
-                        "end": 14
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 14
-            },
-            "flags": 268435488,
-            "transformFlags": 1,
+            "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -94,7 +101,7 @@ async (x, /x/g) => x
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 15, end: 18
+✖ Expected a `;` - start: 15, end: 18
 
 ```
 
