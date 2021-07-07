@@ -13,6 +13,7 @@ export const enum PrinterFlags {
   DisallowSemicolon = 1 << 7,
   // Insert space after @ in decorator
   SpaceAfterAt = 1 << 8,
+  UnParenthezisedNew = 1 << 9,
 
 }
 

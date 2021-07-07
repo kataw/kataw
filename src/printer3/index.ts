@@ -43,7 +43,7 @@ export interface PrinterOptions {
   arrayBracketSpacing?: boolean;
   trailingCommas?: boolean;
   disallowStringEscape?: boolean;
-  arrowParens?: boolean;
+  allowArrowParens?: boolean;
   spaceAfterAt?: boolean;
   endOfLine?: string;
 }
@@ -223,14 +223,14 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
     if (options.printWidth) printWidth = options.printWidth;
     if (options.tabWidth) tabWidth = options.tabWidth;
     if (options.noWhitespace) space = '';
-    if (options.noSemicolon) flags & ~PrinterFlags.UseSemicolon;
+    if (options.noSemicolon) flags &= ~PrinterFlags.UseSemicolon;
     if (options.singleQuote) flags |= PrinterFlags.SingleQuote;
     if (options.arrayBracketSpacing) flags |= PrinterFlags.ArrayBracketSpacing;
-    if (options.noObjectCurlySpacing) flags & ~PrinterFlags.ObjectCurlySpacing;
+    if (options.noObjectCurlySpacing) flags &= ~PrinterFlags.ObjectCurlySpacing;
     if (options.trailingCommas) flags |= PrinterFlags.TrailinComma;
     if (options.spaceAfterAt) flags |= PrinterFlags.SpaceAfterAt;
     if (options.disallowStringEscape) flags |= PrinterFlags.DisallowStringEscape;
-    if (options.arrowParens) flags |= PrinterFlags.ArrowParens;
+    if (options.allowArrowParens) flags |= PrinterFlags.ArrowParens;
     if (options.endOfLine) {
       const eof = options.endOfLine;
       // Common on Linux and macOS as well as inside git repos
@@ -1583,6 +1583,8 @@ function printArgumentsList(
   }
 
   if (node.elements.length === 1) {
+    printer.flags &= ~PrinterFlags.UnParenthezisedNew;
+
     const argument = node.elements[0];
     if (
       argument.transformFlags & TransformFlags.ArrayOrObjectLiteral ||
@@ -1591,7 +1593,10 @@ function printArgumentsList(
       argument.kind === SyntaxKind.ArrowFunction ||
       argument.kind === SyntaxKind.Identifier
     ) {
-      return concat([
+      return printer.flags & PrinterFlags.UnParenthezisedNew ?
+      printStatement(printer, argument, lineMap, parentNode)
+      :
+      concat([
         '(',
         printStatement(printer, argument, lineMap, parentNode),
         ')',
@@ -1634,6 +1639,7 @@ function printCallExpression(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
+  printer.flags &= ~PrinterFlags.UnParenthezisedNew;
   return group(
     concat([
       printStatement(printer, node.expression, lineMap, node),
@@ -1991,6 +1997,8 @@ function printArrowFunction(
     group(
       node.arrowPatameterList.kind === SyntaxKind.ArrowPatameterList
         ? printArrowParameterList(printer, node.arrowPatameterList, lineMap, node)
+        : printer.flags & PrinterFlags.ArrowParens
+        ? concat(['(', printStatement(printer, node.arrowPatameterList, lineMap, node), ')'])
         : printStatement(printer, node.arrowPatameterList, lineMap, node),
       {},
     ),
