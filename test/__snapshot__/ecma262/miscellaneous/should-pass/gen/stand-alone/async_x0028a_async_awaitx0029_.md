@@ -24,56 +24,56 @@ async (a, async, await);
     "directives": [],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 0,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "async",
+                            "rawText": "async",
+                            "flags": 96,
+                            "start": 9,
+                            "end": 15
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
+                            "start": 16,
+                            "end": 22
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 0
+                },
+                "flags": 268435488,
                 "start": 0,
-                "end": 5
+                "end": 23
             },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 96,
-                        "start": 9,
-                        "end": 15
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "await",
-                        "rawText": "await",
-                        "flags": 96,
-                        "start": 16,
-                        "end": 22
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 0,
-                "end": 0
-            },
-            "flags": 268435488,
-            "start": 0,
-            "end": 23
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 23,
+            "start": 0,
             "end": 24
         }
     ],
@@ -90,8 +90,7 @@ async (a, async, await);
 
 ```javascript
 
-async(a, async, await)
-;
+async(a, async, await);
 
 ```
 

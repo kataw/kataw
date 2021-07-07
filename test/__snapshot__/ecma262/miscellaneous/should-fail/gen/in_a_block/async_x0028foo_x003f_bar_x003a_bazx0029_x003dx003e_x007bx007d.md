@@ -29,67 +29,73 @@
                 "kind": 249,
                 "statements": [
                     {
-                        "kind": 131,
+                        "kind": 120,
                         "expression": {
-                            "kind": 134299649,
-                            "text": "async",
-                            "rawText": "async",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 7
-                        },
-                        "argumentList": {
-                            "kind": 256,
-                            "elements": [
-                                {
-                                    "kind": 197,
-                                    "shortCircuit": {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
+                            "kind": 131,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 1,
+                                "end": 7
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 197,
+                                        "shortCircuit": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 9,
+                                            "end": 12
+                                        },
+                                        "questionToken": {
+                                            "kind": 134217750,
+                                            "flags": 64,
+                                            "start": 12,
+                                            "end": 14
+                                        },
+                                        "consequent": {
+                                            "kind": 134299649,
+                                            "text": "bar",
+                                            "rawText": "bar",
+                                            "flags": 96,
+                                            "start": 14,
+                                            "end": 18
+                                        },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 18,
+                                            "end": 20
+                                        },
+                                        "alternate": {
+                                            "kind": 134299649,
+                                            "text": "baz",
+                                            "rawText": "baz",
+                                            "flags": 96,
+                                            "start": 20,
+                                            "end": 24
+                                        },
                                         "flags": 96,
                                         "start": 9,
-                                        "end": 12
-                                    },
-                                    "questionToken": {
-                                        "kind": 134217750,
-                                        "flags": 64,
-                                        "start": 12,
-                                        "end": 14
-                                    },
-                                    "consequent": {
-                                        "kind": 134299649,
-                                        "text": "bar",
-                                        "rawText": "bar",
-                                        "flags": 96,
-                                        "start": 14,
-                                        "end": 18
-                                    },
-                                    "colonToken": {
-                                        "kind": 21,
-                                        "flags": 64,
-                                        "start": 18,
-                                        "end": 20
-                                    },
-                                    "alternate": {
-                                        "kind": 134299649,
-                                        "text": "baz",
-                                        "rawText": "baz",
-                                        "flags": 96,
-                                        "start": 20,
                                         "end": 24
-                                    },
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 24
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 1,
+                                "end": 1
+                            },
+                            "flags": 268435488,
                             "start": 1,
-                            "end": 1
+                            "end": 25
                         },
-                        "flags": 268435488,
+                        "flags": 16,
                         "start": 1,
                         "end": 25
                     }
@@ -134,7 +140,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 28
+✖ Expected a `;` - start: 25, end: 28
 ✖ Declaration or statement expected - start: 31, end: 33
 
 ```

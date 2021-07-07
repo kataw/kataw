@@ -24,114 +24,120 @@ async (x = delete ((let) = f)) => {}
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 7,
-                            "end": 8
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": {
-                            "kind": 126,
-                            "operandToken": {
-                                "kind": 4259886,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 96,
-                                "start": 10,
-                                "end": 17
+                                "start": 7,
+                                "end": 8
                             },
-                            "operand": {
-                                "kind": 121,
-                                "expression": {
-                                    "kind": 125,
-                                    "left": {
-                                        "kind": 121,
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "let",
-                                            "rawText": "let",
+                            "optionalToken": null,
+                            "type": null,
+                            "right": {
+                                "kind": 126,
+                                "operandToken": {
+                                    "kind": 4259886,
+                                    "flags": 96,
+                                    "start": 10,
+                                    "end": 17
+                                },
+                                "operand": {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 125,
+                                        "left": {
+                                            "kind": 121,
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "let",
+                                                "rawText": "let",
+                                                "flags": 96,
+                                                "start": 20,
+                                                "end": 23
+                                            },
+                                            "flags": 32,
+                                            "start": 19,
+                                            "end": 24
+                                        },
+                                        "operatorToken": {
+                                            "kind": 4125,
                                             "flags": 96,
-                                            "start": 20,
-                                            "end": 23
+                                            "start": 24,
+                                            "end": 26
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "f",
+                                            "rawText": "f",
+                                            "flags": 96,
+                                            "start": 26,
+                                            "end": 28
                                         },
                                         "flags": 32,
                                         "start": 19,
-                                        "end": 24
-                                    },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 96,
-                                        "start": 24,
-                                        "end": 26
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "f",
-                                        "rawText": "f",
-                                        "flags": 96,
-                                        "start": 26,
                                         "end": 28
                                     },
                                     "flags": 32,
-                                    "start": 19,
-                                    "end": 28
+                                    "start": 17,
+                                    "end": 29
                                 },
                                 "flags": 32,
-                                "start": 17,
+                                "start": 10,
                                 "end": 29
                             },
                             "flags": 32,
-                            "start": 10,
+                            "start": 7,
                             "end": 29
-                        },
-                        "flags": 32,
-                        "start": 7,
-                        "end": 29
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 34,
-                "start": 7,
-                "end": 30
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 30,
-                "end": 33
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 35,
-                    "end": 35
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 34,
+                    "start": 7,
+                    "end": 30
                 },
-                "flags": 32,
-                "start": 33,
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 30,
+                    "end": 33
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 35,
+                        "end": 35
+                    },
+                    "flags": 32,
+                    "start": 33,
+                    "end": 36
+                },
+                "flags": 290,
+                "start": 0,
                 "end": 36
             },
-            "flags": 290,
+            "flags": 16,
             "start": 0,
             "end": 36
         }
@@ -149,7 +155,7 @@ async (x = delete ((let) = f)) => {}
 
 ```javascript
 
-async (x = delete ((let) = f)) => {}
+async (x = delete ((let) = f)) => {};
 
 ```
 

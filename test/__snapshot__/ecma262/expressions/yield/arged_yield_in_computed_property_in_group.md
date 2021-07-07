@@ -55,103 +55,109 @@ function *g(){ async (x = {[yield y]: 1}) }
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 131,
+                            "kind": 120,
                             "expression": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 14,
-                                "end": 20
-                            },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [
-                                    {
-                                        "kind": 125,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 22,
-                                            "end": 23
-                                        },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 96,
-                                            "start": 23,
-                                            "end": 25
-                                        },
-                                        "right": {
-                                            "kind": 220,
-                                            "propertyList": {
-                                                "kind": 218,
-                                                "properties": [
-                                                    {
-                                                        "kind": 219,
-                                                        "asteriskToken": null,
-                                                        "left": {
-                                                            "kind": 194,
-                                                            "expression": {
-                                                                "kind": 229,
-                                                                "yieldKeyword": {
-                                                                    "kind": 8454253,
-                                                                    "flags": 64,
-                                                                    "start": 28,
-                                                                    "end": 33
-                                                                },
-                                                                "delegate": false,
-                                                                "asteriskToken": null,
+                                "kind": 131,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "start": 14,
+                                    "end": 20
+                                },
+                                "argumentList": {
+                                    "kind": 256,
+                                    "elements": [
+                                        {
+                                            "kind": 125,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 22,
+                                                "end": 23
+                                            },
+                                            "operatorToken": {
+                                                "kind": 4125,
+                                                "flags": 96,
+                                                "start": 23,
+                                                "end": 25
+                                            },
+                                            "right": {
+                                                "kind": 220,
+                                                "propertyList": {
+                                                    "kind": 218,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 219,
+                                                            "asteriskToken": null,
+                                                            "left": {
+                                                                "kind": 194,
                                                                 "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "y",
-                                                                    "rawText": "y",
-                                                                    "flags": 96,
-                                                                    "start": 33,
+                                                                    "kind": 229,
+                                                                    "yieldKeyword": {
+                                                                        "kind": 8454253,
+                                                                        "flags": 64,
+                                                                        "start": 28,
+                                                                        "end": 33
+                                                                    },
+                                                                    "delegate": false,
+                                                                    "asteriskToken": null,
+                                                                    "expression": {
+                                                                        "kind": 134299649,
+                                                                        "text": "y",
+                                                                        "rawText": "y",
+                                                                        "flags": 96,
+                                                                        "start": 33,
+                                                                        "end": 35
+                                                                    },
+                                                                    "flags": 32,
+                                                                    "start": 28,
                                                                     "end": 35
                                                                 },
                                                                 "flags": 32,
-                                                                "start": 28,
-                                                                "end": 35
+                                                                "start": 27,
+                                                                "end": 36
+                                                            },
+                                                            "right": {
+                                                                "kind": 201392130,
+                                                                "text": 1,
+                                                                "rawText": "1",
+                                                                "flags": 96,
+                                                                "start": 37,
+                                                                "end": 39
                                                             },
                                                             "flags": 32,
                                                             "start": 27,
-                                                            "end": 36
-                                                        },
-                                                        "right": {
-                                                            "kind": 201392130,
-                                                            "text": 1,
-                                                            "rawText": "1",
-                                                            "flags": 96,
-                                                            "start": 37,
                                                             "end": 39
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 27,
-                                                        "end": 39
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 16,
-                                                "start": 27,
-                                                "end": 39
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 16,
+                                                    "start": 27,
+                                                    "end": 39
+                                                },
+                                                "flags": 48,
+                                                "start": 25,
+                                                "end": 40
                                             },
-                                            "flags": 48,
-                                            "start": 25,
+                                            "flags": 32,
+                                            "start": 22,
                                             "end": 40
-                                        },
-                                        "flags": 32,
-                                        "start": 22,
-                                        "end": 40
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 14,
+                                    "end": 14
+                                },
+                                "flags": 268435490,
                                 "start": 14,
-                                "end": 14
+                                "end": 41
                             },
-                            "flags": 268435490,
+                            "flags": 16,
                             "start": 14,
                             "end": 41
                         }
@@ -184,7 +190,7 @@ function *g(){ async (x = {[yield y]: 1}) }
 ```javascript
 
 function * g() {
-  async(x = { [yield  y] : 1 })
+  async(x = { [yield  y] : 1 });
 }
 
 ```

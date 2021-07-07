@@ -16,40 +16,40 @@ async(await);
     "directives": [],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 0,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
+                            "start": 6,
+                            "end": 11
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 0
+                },
+                "flags": 268435488,
                 "start": 0,
-                "end": 5
+                "end": 12
             },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 134299649,
-                        "text": "await",
-                        "rawText": "await",
-                        "flags": 96,
-                        "start": 6,
-                        "end": 11
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 0,
-                "end": 0
-            },
-            "flags": 268435488,
-            "start": 0,
-            "end": 12
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 12,
+            "start": 0,
             "end": 13
         }
     ],
@@ -66,8 +66,7 @@ async(await);
 
 ```javascript
 
-async(await)
-;
+async(await);
 
 ```
 

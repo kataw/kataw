@@ -33,106 +33,112 @@
     ],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "start": 13,
-                "end": 19
-            },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 220,
-                        "propertyList": {
-                            "kind": 218,
-                            "properties": [
-                                {
-                                    "kind": 219,
-                                    "asteriskToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "ident",
-                                        "rawText": "ident",
-                                        "flags": 96,
-                                        "start": 21,
-                                        "end": 26
-                                    },
-                                    "right": {
-                                        "kind": 125,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 13,
+                    "end": 19
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 220,
+                            "propertyList": {
+                                "kind": 218,
+                                "properties": [
+                                    {
+                                        "kind": 219,
+                                        "asteriskToken": null,
                                         "left": {
-                                            "kind": 119,
-                                            "elementList": {
-                                                "kind": 270,
-                                                "elements": [
-                                                    {
-                                                        "kind": 134299649,
-                                                        "text": "foo",
-                                                        "rawText": "foo",
-                                                        "flags": 96,
-                                                        "start": 29,
-                                                        "end": 32
-                                                    },
-                                                    {
-                                                        "kind": 134299649,
-                                                        "text": "bar",
-                                                        "rawText": "bar",
-                                                        "flags": 96,
-                                                        "start": 33,
-                                                        "end": 37
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                            "kind": 134299649,
+                                            "text": "ident",
+                                            "rawText": "ident",
+                                            "flags": 96,
+                                            "start": 21,
+                                            "end": 26
+                                        },
+                                        "right": {
+                                            "kind": 125,
+                                            "left": {
+                                                "kind": 119,
+                                                "elementList": {
+                                                    "kind": 270,
+                                                    "elements": [
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 96,
+                                                            "start": 29,
+                                                            "end": 32
+                                                        },
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "bar",
+                                                            "rawText": "bar",
+                                                            "flags": 96,
+                                                            "start": 33,
+                                                            "end": 37
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 29,
+                                                    "end": 37
+                                                },
                                                 "flags": 32,
-                                                "start": 29,
-                                                "end": 37
+                                                "start": 27,
+                                                "end": 38
+                                            },
+                                            "operatorToken": {
+                                                "kind": 4130,
+                                                "flags": 96,
+                                                "start": 38,
+                                                "end": 41
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 41,
+                                                "end": 43
                                             },
                                             "flags": 32,
                                             "start": 27,
-                                            "end": 38
-                                        },
-                                        "operatorToken": {
-                                            "kind": 4130,
-                                            "flags": 96,
-                                            "start": 38,
-                                            "end": 41
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 41,
                                             "end": 43
                                         },
                                         "flags": 32,
-                                        "start": 27,
+                                        "start": 21,
                                         "end": 43
-                                    },
-                                    "flags": 32,
-                                    "start": 21,
-                                    "end": 43
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 16,
-                            "start": 21,
-                            "end": 43
-                        },
-                        "flags": 48,
-                        "start": 20,
-                        "end": 44
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 16,
+                                "start": 21,
+                                "end": 43
+                            },
+                            "flags": 48,
+                            "start": 20,
+                            "end": 44
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 268435490,
                 "start": 13,
-                "end": 13
+                "end": 45
             },
-            "flags": 268435490,
+            "flags": 16,
             "start": 13,
             "end": 45
         }

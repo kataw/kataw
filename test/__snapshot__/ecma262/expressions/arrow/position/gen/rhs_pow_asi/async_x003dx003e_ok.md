@@ -95,13 +95,12 @@ x
 
 ```javascript
 
-x ** async => ok;
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 10, end: 13
+
 ```
 

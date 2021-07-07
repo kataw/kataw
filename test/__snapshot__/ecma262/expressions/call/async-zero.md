@@ -16,53 +16,59 @@ async(0,...a)
     "directives": [],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "start": 0,
-                "end": 5
-            },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 201392130,
-                        "text": 0,
-                        "rawText": "0",
-                        "flags": 96,
-                        "start": 6,
-                        "end": 7
-                    },
-                    {
-                        "kind": 223,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 8,
-                            "end": 11
-                        },
-                        "argument": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 0,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 201392130,
+                            "text": 0,
+                            "rawText": "0",
                             "flags": 96,
-                            "start": 11,
-                            "end": 12
+                            "start": 6,
+                            "end": 7
                         },
-                        "flags": 1073741856,
-                        "start": 8,
-                        "end": 12
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
+                        {
+                            "kind": 223,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 8,
+                                "end": 11
+                            },
+                            "argument": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 12
+                            },
+                            "flags": 1073741856,
+                            "start": 8,
+                            "end": 12
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 12
+                },
+                "flags": 268435488,
                 "start": 0,
-                "end": 12
+                "end": 13
             },
-            "flags": 268435488,
+            "flags": 16,
             "start": 0,
             "end": 13
         }
@@ -80,7 +86,7 @@ async(0,...a)
 
 ```javascript
 
-async(0, ...a)
+async(0, ...a);
 
 ```
 

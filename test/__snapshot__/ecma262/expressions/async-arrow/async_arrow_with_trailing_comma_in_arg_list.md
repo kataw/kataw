@@ -16,47 +16,53 @@ async(x,) => x
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 6,
+                            "end": 7
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 6,
+                    "end": 9
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 9,
+                    "end": 12
+                },
+                "contents": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 12,
+                    "end": 14
+                },
+                "flags": 288,
                 "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 6,
-                        "end": 7
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 6,
-                "end": 9
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 9,
-                "end": 12
-            },
-            "contents": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 12,
                 "end": 14
             },
-            "flags": 288,
+            "flags": 16,
             "start": 0,
             "end": 14
         }
@@ -74,7 +80,7 @@ async(x,) => x
 
 ```javascript
 
-async (x) => x
+async (x) => x;
 
 ```
 

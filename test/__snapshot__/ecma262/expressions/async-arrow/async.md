@@ -24,95 +24,95 @@ async (x?: number): any => x;
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 7,
-                            "end": 8
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 8,
-                            "end": 9
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 8,
+                                "end": 9
+                            },
                             "type": {
-                                "kind": 134234345,
-                                "flags": 2097216,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 10,
+                                    "end": 17
+                                },
+                                "flags": 2097152,
                                 "start": 10,
                                 "end": 17
                             },
-                            "flags": 2097152,
-                            "start": 10,
+                            "right": null,
+                            "flags": 32,
+                            "start": 7,
                             "end": 17
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 7,
-                        "end": 17
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 7,
-                "end": 23
-            },
-            "returnType": {
-                "kind": 139,
-                "bitwiseOrToken": null,
-                "bitwiseAndToken": null,
-                "type": {
-                    "kind": 134234252,
-                    "flags": 2097216,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 7,
+                    "end": 23
+                },
+                "returnType": {
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234252,
+                        "flags": 2097216,
+                        "start": 19,
+                        "end": 23
+                    },
+                    "flags": 2097152,
                     "start": 19,
                     "end": 23
                 },
-                "flags": 2097152,
-                "start": 19,
-                "end": 23
-            },
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 23,
-                "end": 26
-            },
-            "contents": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 26,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 23,
+                    "end": 26
+                },
+                "contents": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 26,
+                    "end": 28
+                },
+                "flags": 288,
+                "start": 0,
                 "end": 28
             },
-            "flags": 288,
-            "start": 0,
-            "end": 28
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 28,
+            "start": 0,
             "end": 29
         }
     ],
@@ -129,8 +129,7 @@ async (x?: number): any => x;
 
 ```javascript
 
-async (x?: number) => x
-;
+async (x?: number) => x;
 
 ```
 

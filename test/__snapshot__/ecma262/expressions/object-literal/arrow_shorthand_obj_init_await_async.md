@@ -16,79 +16,85 @@ async ({await = x}) => x
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 212,
-                        "propertyList": {
-                            "kind": 213,
-                            "properties": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
+                                            "start": 8,
+                                            "end": 13
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 15,
+                                            "end": 17
+                                        },
+                                        "flags": 32,
                                         "start": 8,
-                                        "end": 13
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 15,
                                         "end": 17
-                                    },
-                                    "flags": 32,
-                                    "start": 8,
-                                    "end": 17
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 8,
-                            "end": 17
-                        },
-                        "flags": 48,
-                        "start": 7,
-                        "end": 18
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 34,
-                "start": 7,
-                "end": 19
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 19,
-                "end": 22
-            },
-            "contents": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 22,
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 8,
+                                "end": 17
+                            },
+                            "flags": 48,
+                            "start": 7,
+                            "end": 18
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 34,
+                    "start": 7,
+                    "end": 19
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 19,
+                    "end": 22
+                },
+                "contents": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 22,
+                    "end": 24
+                },
+                "flags": 290,
+                "start": 0,
                 "end": 24
             },
-            "flags": 290,
+            "flags": 16,
             "start": 0,
             "end": 24
         }
@@ -108,7 +114,7 @@ async ({await = x}) => x
 
 async ({
     await = x
-  }) => x
+  }) => x;
 
 ```
 

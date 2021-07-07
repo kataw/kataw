@@ -24,59 +24,65 @@ async (x = (catch) = f) => {}
     "directives": [],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "start": 0,
-                "end": 5
-            },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 125,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 7,
-                            "end": 8
-                        },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 96,
-                            "start": 8,
-                            "end": 10
-                        },
-                        "right": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 16637,
-                                "text": "",
-                                "rawText": "",
-                                "flags": 64,
-                                "start": 12,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 0,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 125,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 96,
+                                "start": 8,
+                                "end": 10
+                            },
+                            "right": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "rawText": "",
+                                    "flags": 64,
+                                    "start": 12,
+                                    "end": 12
+                                },
+                                "flags": 32,
+                                "start": 10,
                                 "end": 12
                             },
                             "flags": 32,
-                            "start": 10,
+                            "start": 7,
                             "end": 12
-                        },
-                        "flags": 32,
-                        "start": 7,
-                        "end": 12
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 0
+                },
+                "flags": 268435490,
                 "start": 0,
-                "end": 0
+                "end": 12
             },
-            "flags": 268435490,
+            "flags": 16,
             "start": 0,
             "end": 12
         },

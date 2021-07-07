@@ -25,59 +25,50 @@ do async ()
                 "end": 2
             },
             "statement": {
-                "kind": 271,
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
+                "kind": 120,
+                "expression": {
+                    "kind": 271,
+                    "asyncKeyword": {
+                        "kind": 82031,
+                        "flags": 64,
+                        "start": 2,
+                        "end": 8
+                    },
+                    "typeParameters": null,
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 10,
+                        "end": 10
+                    },
+                    "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 65,
+                        "start": 11,
+                        "end": 15
+                    },
+                    "contents": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "flags": 288,
                     "start": 2,
-                    "end": 8
-                },
-                "typeParameters": null,
-                "arrowPatameterList": {
-                    "kind": 342,
-                    "parameters": [],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 10,
-                    "end": 10
-                },
-                "returnType": null,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 65,
-                    "start": 11,
-                    "end": 15
-                },
-                "contents": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 15,
                     "end": 17
                 },
-                "flags": 288,
+                "flags": 16,
                 "start": 2,
-                "end": 17
+                "end": 18
             },
-            "whileKeyword": null,
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 17,
-                "end": 17
-            },
-            "flags": 80,
-            "start": 0,
-            "end": 18
-        },
-        {
-            "kind": 154,
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 80,
+                "flags": 64,
                 "start": 18,
                 "end": 24
             },
@@ -89,22 +80,8 @@ do async ()
                 "start": 25,
                 "end": 26
             },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "rawText": "",
-                    "flags": 64,
-                    "start": 27,
-                    "end": 27
-                },
-                "flags": 16,
-                "start": 27,
-                "end": 27
-            },
             "flags": 80,
-            "start": 18,
+            "start": 0,
             "end": 27
         }
     ],
@@ -128,8 +105,6 @@ do async ()
 ```javascript
 ✖ Function declarations cannot be used in a single-statement context - start: 2, end: 8
 ✖ Line terminator not permitted before arrow - start: 11, end: 15
-✖ Missing an opening parentheses - '( - start: 17, end: 18
-✖ Identifier expected - start: 27, end: 27
 
 ```
 

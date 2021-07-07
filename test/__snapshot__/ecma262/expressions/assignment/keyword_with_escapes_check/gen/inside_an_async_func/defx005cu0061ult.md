@@ -24,44 +24,50 @@ async () => {  def\u0061ult = x  }
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 7,
-                "end": 7
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 8,
-                "end": 11
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 16416,
-                    "start": 13,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 7,
+                    "end": 7
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 11
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 16416,
+                        "start": 13,
+                        "end": 13
+                    },
+                    "flags": 32,
+                    "start": 11,
                     "end": 13
                 },
-                "flags": 32,
-                "start": 11,
+                "flags": 288,
+                "start": 0,
                 "end": 13
             },
-            "flags": 288,
+            "flags": 16,
             "start": 0,
             "end": 13
         },

@@ -33,75 +33,81 @@
     ],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "start": 13,
-                "end": 19
-            },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 21,
-                        "end": 22
-                    },
-                    {
-                        "kind": 197,
-                        "shortCircuit": {
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 13,
+                    "end": 19
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
                             "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 21,
+                            "end": 22
+                        },
+                        {
+                            "kind": 197,
+                            "shortCircuit": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 23,
+                                "end": 27
+                            },
+                            "questionToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 27,
+                                "end": 29
+                            },
+                            "consequent": {
+                                "kind": 134299649,
+                                "text": "bar",
+                                "rawText": "bar",
+                                "flags": 96,
+                                "start": 29,
+                                "end": 33
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 33,
+                                "end": 35
+                            },
+                            "alternate": {
+                                "kind": 134299649,
+                                "text": "baz",
+                                "rawText": "baz",
+                                "flags": 96,
+                                "start": 35,
+                                "end": 39
+                            },
                             "flags": 96,
                             "start": 23,
-                            "end": 27
-                        },
-                        "questionToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 27,
-                            "end": 29
-                        },
-                        "consequent": {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
-                            "start": 29,
-                            "end": 33
-                        },
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 64,
-                            "start": 33,
-                            "end": 35
-                        },
-                        "alternate": {
-                            "kind": 134299649,
-                            "text": "baz",
-                            "rawText": "baz",
-                            "flags": 96,
-                            "start": 35,
                             "end": 39
-                        },
-                        "flags": 96,
-                        "start": 23,
-                        "end": 39
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 268435488,
                 "start": 13,
-                "end": 13
+                "end": 40
             },
-            "flags": 268435488,
+            "flags": 16,
             "start": 13,
             "end": 40
         },
@@ -137,7 +143,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 40, end: 43
+✖ Expected a `;` - start: 40, end: 43
 
 ```
 

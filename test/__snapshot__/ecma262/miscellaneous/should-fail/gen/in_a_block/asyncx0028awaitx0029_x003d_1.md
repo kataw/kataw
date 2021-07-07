@@ -29,33 +29,39 @@
                 "kind": 249,
                 "statements": [
                     {
-                        "kind": 131,
+                        "kind": 120,
                         "expression": {
-                            "kind": 134299649,
-                            "text": "async",
-                            "rawText": "async",
-                            "flags": 96,
+                            "kind": 131,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 1,
+                                "end": 7
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 8,
+                                        "end": 13
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 1,
+                                "end": 1
+                            },
+                            "flags": 268435488,
                             "start": 1,
-                            "end": 7
+                            "end": 14
                         },
-                        "argumentList": {
-                            "kind": 256,
-                            "elements": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 13
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 1,
-                            "end": 1
-                        },
-                        "flags": 268435488,
+                        "flags": 16,
                         "start": 1,
                         "end": 14
                     }
@@ -101,7 +107,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 16
+✖ Expected a `;` - start: 14, end: 16
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 16, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
 

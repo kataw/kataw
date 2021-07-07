@@ -16,77 +16,77 @@ async (x, ...a)=>0;
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    },
-                    {
-                        "kind": 281,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 9,
-                            "end": 13
-                        },
-                        "left": {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
                             "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
+                            "text": "x",
+                            "rawText": "x",
                             "flags": 96,
-                            "start": 13,
-                            "end": 14
+                            "start": 7,
+                            "end": 8
                         },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 1073741856,
-                        "start": 9,
-                        "end": 14
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 34,
-                "start": 7,
-                "end": 15
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 15,
-                "end": 17
-            },
-            "contents": {
-                "kind": 201392130,
-                "text": 0,
-                "rawText": "0",
-                "flags": 96,
-                "start": 17,
+                        {
+                            "kind": 281,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 13
+                            },
+                            "left": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 14
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "right": null,
+                            "flags": 1073741856,
+                            "start": 9,
+                            "end": 14
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 34,
+                    "start": 7,
+                    "end": 15
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 15,
+                    "end": 17
+                },
+                "contents": {
+                    "kind": 201392130,
+                    "text": 0,
+                    "rawText": "0",
+                    "flags": 96,
+                    "start": 17,
+                    "end": 18
+                },
+                "flags": 290,
+                "start": 0,
                 "end": 18
             },
-            "flags": 290,
-            "start": 0,
-            "end": 18
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 18,
+            "start": 0,
             "end": 19
         }
     ],
@@ -103,8 +103,7 @@ async (x, ...a)=>0;
 
 ```javascript
 
-async (x, ...a) => 0
-;
+async (x, ...a) => 0;
 
 ```
 

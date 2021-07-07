@@ -29,50 +29,56 @@
                 "kind": 249,
                 "statements": [
                     {
-                        "kind": 271,
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 1,
-                            "end": 7
-                        },
-                        "typeParameters": null,
-                        "arrowPatameterList": {
-                            "kind": 342,
-                            "parameters": [],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 9,
-                            "end": 9
-                        },
-                        "returnType": null,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 10,
-                            "end": 13
-                        },
-                        "contents": {
-                            "kind": 208,
-                            "awaitKeyword": {
-                                "kind": 82196,
+                        "kind": 120,
+                        "expression": {
+                            "kind": 271,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
+                                "start": 1,
+                                "end": 7
+                            },
+                            "typeParameters": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 9,
+                                "end": 9
+                            },
+                            "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 10,
+                                "end": 13
+                            },
+                            "contents": {
+                                "kind": 208,
+                                "awaitKeyword": {
+                                    "kind": 82196,
+                                    "flags": 64,
+                                    "start": 13,
+                                    "end": 19
+                                },
+                                "expression": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "rawText": "",
+                                    "flags": 64,
+                                    "start": 19,
+                                    "end": 19
+                                },
+                                "flags": 32,
                                 "start": 13,
                                 "end": 19
                             },
-                            "expression": {
-                                "kind": 16637,
-                                "text": "",
-                                "rawText": "",
-                                "flags": 64,
-                                "start": 19,
-                                "end": 19
-                            },
-                            "flags": 32,
-                            "start": 13,
+                            "flags": 288,
+                            "start": 1,
                             "end": 19
                         },
-                        "flags": 288,
+                        "flags": 16,
                         "start": 1,
                         "end": 19
                     }

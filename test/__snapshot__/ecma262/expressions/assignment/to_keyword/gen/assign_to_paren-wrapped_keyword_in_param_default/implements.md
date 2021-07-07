@@ -24,96 +24,102 @@ async (x = (implements) = f) => {}
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 7,
-                            "end": 8
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": {
-                            "kind": 125,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
                             "left": {
-                                "kind": 121,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "implements",
-                                    "rawText": "implements",
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "right": {
+                                "kind": 125,
+                                "left": {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "implements",
+                                        "rawText": "implements",
+                                        "flags": 96,
+                                        "start": 12,
+                                        "end": 22
+                                    },
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 23
+                                },
+                                "operatorToken": {
+                                    "kind": 4125,
                                     "flags": 96,
-                                    "start": 12,
-                                    "end": 22
+                                    "start": 23,
+                                    "end": 25
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 25,
+                                    "end": 27
                                 },
                                 "flags": 32,
                                 "start": 10,
-                                "end": 23
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 96,
-                                "start": 23,
-                                "end": 25
-                            },
-                            "right": {
-                                "kind": 134299649,
-                                "text": "f",
-                                "rawText": "f",
-                                "flags": 96,
-                                "start": 25,
                                 "end": 27
                             },
                             "flags": 32,
-                            "start": 10,
+                            "start": 7,
                             "end": 27
-                        },
-                        "flags": 32,
-                        "start": 7,
-                        "end": 27
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 34,
-                "start": 7,
-                "end": 28
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 28,
-                "end": 31
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 33,
-                    "end": 33
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 34,
+                    "start": 7,
+                    "end": 28
                 },
-                "flags": 32,
-                "start": 31,
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 28,
+                    "end": 31
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 33,
+                        "end": 33
+                    },
+                    "flags": 32,
+                    "start": 31,
+                    "end": 34
+                },
+                "flags": 290,
+                "start": 0,
                 "end": 34
             },
-            "flags": 290,
+            "flags": 16,
             "start": 0,
             "end": 34
         }
@@ -131,7 +137,7 @@ async (x = (implements) = f) => {}
 
 ```javascript
 
-async (x = (implements) = f) => {}
+async (x = (implements) = f) => {};
 
 ```
 

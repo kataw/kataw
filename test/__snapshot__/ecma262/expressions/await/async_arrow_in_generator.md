@@ -55,47 +55,53 @@ function *f(){  async (await) => x  }
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 271,
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
+                            "kind": 120,
+                            "expression": {
+                                "kind": 271,
+                                "asyncKeyword": {
+                                    "kind": 82031,
+                                    "flags": 64,
+                                    "start": 14,
+                                    "end": 21
+                                },
+                                "typeParameters": null,
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
+                                            "start": 23,
+                                            "end": 28
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 23,
+                                    "end": 29
+                                },
+                                "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 29,
+                                    "end": 32
+                                },
+                                "contents": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 32,
+                                    "end": 34
+                                },
+                                "flags": 288,
                                 "start": 14,
-                                "end": 21
-                            },
-                            "typeParameters": null,
-                            "arrowPatameterList": {
-                                "kind": 342,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
-                                        "start": 23,
-                                        "end": 28
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 23,
-                                "end": 29
-                            },
-                            "returnType": null,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 29,
-                                "end": 32
-                            },
-                            "contents": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 32,
                                 "end": 34
                             },
-                            "flags": 288,
+                            "flags": 16,
                             "start": 14,
                             "end": 34
                         }
@@ -128,7 +134,7 @@ function *f(){  async (await) => x  }
 ```javascript
 
 function * f() {
-  async (await) => x
+  async (await) => x;
 }
 
 ```

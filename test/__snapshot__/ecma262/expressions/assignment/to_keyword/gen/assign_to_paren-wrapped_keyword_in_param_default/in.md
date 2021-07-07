@@ -24,116 +24,122 @@ async (x = (in) = f) => {}
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 7,
-                            "end": 8
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": {
-                            "kind": 125,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
                             "left": {
-                                "kind": 121,
-                                "expression": {
-                                    "kind": 198,
-                                    "left": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "rawText": "",
-                                        "flags": 64,
-                                        "start": 12,
-                                        "end": 12
-                                    },
-                                    "operatorToken": {
-                                        "kind": 21006388,
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "right": {
+                                "kind": 125,
+                                "left": {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 198,
+                                        "left": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "rawText": "",
+                                            "flags": 64,
+                                            "start": 12,
+                                            "end": 12
+                                        },
+                                        "operatorToken": {
+                                            "kind": 21006388,
+                                            "flags": 96,
+                                            "start": 12,
+                                            "end": 14
+                                        },
+                                        "right": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "rawText": "",
+                                            "flags": 64,
+                                            "start": 14,
+                                            "end": 14
+                                        },
                                         "flags": 96,
                                         "start": 12,
                                         "end": 14
                                     },
-                                    "right": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "rawText": "",
-                                        "flags": 64,
-                                        "start": 14,
-                                        "end": 14
-                                    },
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 15
+                                },
+                                "operatorToken": {
+                                    "kind": 4125,
                                     "flags": 96,
-                                    "start": 12,
-                                    "end": 14
+                                    "start": 15,
+                                    "end": 17
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 17,
+                                    "end": 19
                                 },
                                 "flags": 32,
                                 "start": 10,
-                                "end": 15
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 96,
-                                "start": 15,
-                                "end": 17
-                            },
-                            "right": {
-                                "kind": 134299649,
-                                "text": "f",
-                                "rawText": "f",
-                                "flags": 96,
-                                "start": 17,
                                 "end": 19
                             },
                             "flags": 32,
-                            "start": 10,
+                            "start": 7,
                             "end": 19
-                        },
-                        "flags": 32,
-                        "start": 7,
-                        "end": 19
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 34,
-                "start": 7,
-                "end": 20
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 20,
-                "end": 23
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 25,
-                    "end": 25
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 34,
+                    "start": 7,
+                    "end": 20
                 },
-                "flags": 32,
-                "start": 23,
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 20,
+                    "end": 23
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 25,
+                        "end": 25
+                    },
+                    "flags": 32,
+                    "start": 23,
+                    "end": 26
+                },
+                "flags": 290,
+                "start": 0,
                 "end": 26
             },
-            "flags": 290,
+            "flags": 16,
             "start": 0,
             "end": 26
         }

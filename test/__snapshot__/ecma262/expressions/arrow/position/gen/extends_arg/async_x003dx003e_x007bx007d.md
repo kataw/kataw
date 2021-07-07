@@ -123,14 +123,12 @@ class A extends async => {} {}
 
 ```javascript
 
-class A extends async => {} {
-}
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 21, end: 24
+
 ```
 

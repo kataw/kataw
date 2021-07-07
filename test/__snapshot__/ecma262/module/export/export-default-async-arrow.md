@@ -120,80 +120,80 @@ export default async (x) => (y, z);
                 "end": 48
             },
             "declaration": {
-                "kind": 271,
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 48,
-                    "end": 54
-                },
-                "typeParameters": null,
-                "arrowPatameterList": {
-                    "kind": 342,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 56,
-                            "end": 57
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 56,
-                    "end": 58
-                },
-                "returnType": null,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 58,
-                    "end": 61
-                },
-                "contents": {
-                    "kind": 121,
-                    "expression": {
-                        "kind": 132,
-                        "expressions": [
+                "kind": 120,
+                "expression": {
+                    "kind": 271,
+                    "asyncKeyword": {
+                        "kind": 82031,
+                        "flags": 64,
+                        "start": 48,
+                        "end": 54
+                    },
+                    "typeParameters": null,
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
                             {
                                 "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 96,
-                                "start": 63,
-                                "end": 64
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "z",
-                                "rawText": "z",
-                                "flags": 96,
-                                "start": 65,
-                                "end": 67
+                                "start": 56,
+                                "end": 57
                             }
                         ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 56,
+                        "end": 58
+                    },
+                    "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 58,
+                        "end": 61
+                    },
+                    "contents": {
+                        "kind": 121,
+                        "expression": {
+                            "kind": 132,
+                            "expressions": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 63,
+                                    "end": 64
+                                },
+                                {
+                                    "kind": 134299649,
+                                    "text": "z",
+                                    "rawText": "z",
+                                    "flags": 96,
+                                    "start": 65,
+                                    "end": 67
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 61,
+                            "end": 68
+                        },
                         "flags": 32,
                         "start": 61,
                         "end": 68
                     },
-                    "flags": 32,
-                    "start": 61,
+                    "flags": 288,
+                    "start": 48,
                     "end": 68
                 },
-                "flags": 288,
+                "flags": 16,
                 "start": 48,
-                "end": 68
+                "end": 69
             },
             "flags": 16,
             "start": 33,
-            "end": 68
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 68,
             "end": 69
         }
     ],
@@ -211,8 +211,7 @@ export default async (x) => (y, z);
 ```javascript
 
 export default async x => (y, z);;
-export default async (x) => (y, z);
-;
+export default async (x) => (y, z);;
 
 ```
 

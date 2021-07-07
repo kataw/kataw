@@ -61,86 +61,92 @@ async () => {
             "end": 17
         },
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 17,
-                "end": 24
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 26,
-                "end": 26
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 27,
-                "end": 30
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 167,
-                            "forKeyword": {
-                                "kind": 37757017,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 17,
+                    "end": 24
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 26,
+                    "end": 26
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 27,
+                    "end": 30
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 167,
+                                "forKeyword": {
+                                    "kind": 37757017,
+                                    "flags": 81,
+                                    "start": 32,
+                                    "end": 38
+                                },
+                                "awaitKeyword": null,
+                                "initializer": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "start": 40,
+                                    "end": 45
+                                },
+                                "ofKeyword": {
+                                    "kind": 16793717,
+                                    "flags": 64,
+                                    "start": 45,
+                                    "end": 48
+                                },
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 48,
+                                    "end": 50
+                                },
+                                "statement": {
+                                    "kind": 168,
+                                    "flags": 16,
+                                    "start": 51,
+                                    "end": 52
+                                },
                                 "flags": 81,
                                 "start": 32,
-                                "end": 38
-                            },
-                            "awaitKeyword": null,
-                            "initializer": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 40,
-                                "end": 45
-                            },
-                            "ofKeyword": {
-                                "kind": 16793717,
-                                "flags": 64,
-                                "start": 45,
-                                "end": 48
-                            },
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 48,
-                                "end": 50
-                            },
-                            "statement": {
-                                "kind": 168,
-                                "flags": 16,
-                                "start": 51,
                                 "end": 52
-                            },
-                            "flags": 81,
-                            "start": 32,
-                            "end": 52
-                        }
-                    ],
-                    "flags": 33,
-                    "start": 32,
-                    "end": 52
+                            }
+                        ],
+                        "flags": 33,
+                        "start": 32,
+                        "end": 52
+                    },
+                    "flags": 32,
+                    "start": 30,
+                    "end": 54
                 },
-                "flags": 32,
-                "start": 30,
+                "flags": 288,
+                "start": 17,
                 "end": 54
             },
-            "flags": 288,
+            "flags": 16,
             "start": 17,
             "end": 54
         }

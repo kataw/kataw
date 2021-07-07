@@ -33,40 +33,40 @@
     ],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 13,
+                    "end": 19
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
+                            "start": 20,
+                            "end": 25
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 268435488,
                 "start": 13,
-                "end": 19
+                "end": 26
             },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 134299649,
-                        "text": "await",
-                        "rawText": "await",
-                        "flags": 96,
-                        "start": 20,
-                        "end": 25
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 13,
-                "end": 13
-            },
-            "flags": 268435488,
-            "start": 13,
-            "end": 26
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 26,
+            "start": 13,
             "end": 27
         }
     ],
@@ -84,8 +84,7 @@
 ```javascript
 
 '\'use strict\'';
-async(await)
-;
+async(await);
 
 ```
 

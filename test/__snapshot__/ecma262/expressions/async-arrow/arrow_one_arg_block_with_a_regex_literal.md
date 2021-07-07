@@ -16,67 +16,73 @@ async (x)=>{/x/}
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 7,
-                "end": 9
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 9,
-                "end": 11
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
                         {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 371,
-                                "text": "/x/",
-                                "flags": 96,
-                                "start": 12,
-                                "end": 15
-                            },
-                            "flags": 16,
-                            "start": 12,
-                            "end": 15
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 32,
-                    "start": 12,
-                    "end": 15
+                    "start": 7,
+                    "end": 9
                 },
-                "flags": 32,
-                "start": 11,
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 9,
+                    "end": 11
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 371,
+                                    "text": "/x/",
+                                    "flags": 96,
+                                    "start": 12,
+                                    "end": 15
+                                },
+                                "flags": 16,
+                                "start": 12,
+                                "end": 15
+                            }
+                        ],
+                        "flags": 32,
+                        "start": 12,
+                        "end": 15
+                    },
+                    "flags": 32,
+                    "start": 11,
+                    "end": 16
+                },
+                "flags": 288,
+                "start": 0,
                 "end": 16
             },
-            "flags": 288,
+            "flags": 16,
             "start": 0,
             "end": 16
         }
@@ -96,7 +102,7 @@ async (x)=>{/x/}
 
 async (x) => {
   /x/;
-}
+};
 
 ```
 

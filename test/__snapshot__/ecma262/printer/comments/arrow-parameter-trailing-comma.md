@@ -70,53 +70,59 @@
             "end": 21
         },
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 21,
-                "end": 29
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 31,
-                        "end": 32
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 31,
-                "end": 39
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 39,
-                "end": 42
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 44,
-                    "end": 44
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 21,
+                    "end": 29
                 },
-                "flags": 32,
-                "start": 42,
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 31,
+                            "end": 32
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 31,
+                    "end": 39
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 39,
+                    "end": 42
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 44,
+                        "end": 44
+                    },
+                    "flags": 32,
+                    "start": 42,
+                    "end": 45
+                },
+                "flags": 288,
+                "start": 21,
                 "end": 45
             },
-            "flags": 288,
+            "flags": 16,
             "start": 21,
             "end": 45
         }
@@ -135,7 +141,7 @@
 ```javascript
 
 (/*1*/x) => {};
-async (x) => {}
+async (x) => {};
 
 ```
 

@@ -26,24 +26,30 @@ do async
                 "end": 2
             },
             "statement": {
-                "kind": 131,
+                "kind": 120,
                 "expression": {
-                    "kind": 134299649,
-                    "text": "async",
-                    "rawText": "async",
-                    "flags": 96,
+                    "kind": 131,
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "async",
+                        "rawText": "async",
+                        "flags": 96,
+                        "start": 2,
+                        "end": 8
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 2,
+                        "end": 2
+                    },
+                    "flags": 268435489,
                     "start": 2,
-                    "end": 8
+                    "end": 12
                 },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 2,
-                    "end": 2
-                },
-                "flags": 268435489,
+                "flags": 16,
                 "start": 2,
                 "end": 12
             },

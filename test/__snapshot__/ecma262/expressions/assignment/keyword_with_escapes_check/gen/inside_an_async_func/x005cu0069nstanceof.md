@@ -24,79 +24,85 @@ async () => {  \u0069nstanceof = x  }
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 7,
-                "end": 7
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 8,
-                "end": 11
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 198,
-                                "left": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "rawText": "",
-                                    "flags": 64,
-                                    "start": 13,
-                                    "end": 13
-                                },
-                                "operatorToken": {
-                                    "kind": 4229173,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 7,
+                    "end": 7
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 11
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 198,
+                                    "left": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "rawText": "",
+                                        "flags": 64,
+                                        "start": 13,
+                                        "end": 13
+                                    },
+                                    "operatorToken": {
+                                        "kind": 4229173,
+                                        "flags": 16480,
+                                        "start": 13,
+                                        "end": 30
+                                    },
+                                    "right": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "rawText": "",
+                                        "flags": 64,
+                                        "start": 30,
+                                        "end": 30
+                                    },
                                     "flags": 16480,
                                     "start": 13,
                                     "end": 30
                                 },
-                                "right": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "rawText": "",
-                                    "flags": 64,
-                                    "start": 30,
-                                    "end": 30
-                                },
-                                "flags": 16480,
+                                "flags": 16,
                                 "start": 13,
                                 "end": 30
-                            },
-                            "flags": 16,
-                            "start": 13,
-                            "end": 30
-                        }
-                    ],
-                    "flags": 16416,
-                    "start": 13,
+                            }
+                        ],
+                        "flags": 16416,
+                        "start": 13,
+                        "end": 30
+                    },
+                    "flags": 32,
+                    "start": 11,
                     "end": 30
                 },
-                "flags": 32,
-                "start": 11,
+                "flags": 288,
+                "start": 0,
                 "end": 30
             },
-            "flags": 288,
+            "flags": 16,
             "start": 0,
             "end": 30
         },

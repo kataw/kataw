@@ -90,111 +90,117 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
             "end": 17
         },
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 17,
-                "end": 23
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 30,
-                "end": 30
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 31,
-                "end": 34
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 205,
-                                "chainToken": {
-                                    "kind": 393240,
-                                    "flags": 64,
-                                    "start": 50,
-                                    "end": 52
-                                },
-                                "member": {
-                                    "kind": 121,
-                                    "expression": {
-                                        "kind": 208,
-                                        "awaitKeyword": {
-                                            "kind": 82196,
-                                            "flags": 64,
-                                            "start": 40,
-                                            "end": 45
-                                        },
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 17,
+                    "end": 23
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 30,
+                    "end": 30
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 31,
+                    "end": 34
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 205,
+                                    "chainToken": {
+                                        "kind": 393240,
+                                        "flags": 64,
+                                        "start": 50,
+                                        "end": 52
+                                    },
+                                    "member": {
+                                        "kind": 121,
                                         "expression": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 45,
+                                            "kind": 208,
+                                            "awaitKeyword": {
+                                                "kind": 82196,
+                                                "flags": 64,
+                                                "start": 40,
+                                                "end": 45
+                                            },
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "foo",
+                                                "rawText": "foo",
+                                                "flags": 96,
+                                                "start": 45,
+                                                "end": 49
+                                            },
+                                            "flags": 32,
+                                            "start": 40,
                                             "end": 49
                                         },
                                         "flags": 32,
-                                        "start": 40,
-                                        "end": 49
+                                        "start": 36,
+                                        "end": 50
                                     },
-                                    "flags": 32,
-                                    "start": 36,
-                                    "end": 50
-                                },
-                                "chain": {
-                                    "kind": 302,
                                     "chain": {
-                                        "kind": 204,
-                                        "chain": null,
-                                        "typeArguments": null,
-                                        "argumentList": {
-                                            "kind": 256,
-                                            "elements": [],
-                                            "trailingComma": false,
-                                            "flags": 32,
-                                            "start": 53,
-                                            "end": 53
+                                        "kind": 302,
+                                        "chain": {
+                                            "kind": 204,
+                                            "chain": null,
+                                            "typeArguments": null,
+                                            "argumentList": {
+                                                "kind": 256,
+                                                "elements": [],
+                                                "trailingComma": false,
+                                                "flags": 32,
+                                                "start": 53,
+                                                "end": 53
+                                            },
+                                            "flags": 268435488,
+                                            "start": 52,
+                                            "end": 54
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "start": 52,
                                         "end": 54
                                     },
                                     "flags": 32,
-                                    "start": 52,
+                                    "start": 36,
                                     "end": 54
                                 },
-                                "flags": 32,
+                                "flags": 16,
                                 "start": 36,
-                                "end": 54
-                            },
-                            "flags": 16,
-                            "start": 36,
-                            "end": 55
-                        }
-                    ],
-                    "flags": 33,
-                    "start": 36,
-                    "end": 55
+                                "end": 55
+                            }
+                        ],
+                        "flags": 33,
+                        "start": 36,
+                        "end": 55
+                    },
+                    "flags": 32,
+                    "start": 34,
+                    "end": 57
                 },
-                "flags": 32,
-                "start": 34,
+                "flags": 288,
+                "start": 17,
                 "end": 57
             },
-            "flags": 288,
+            "flags": 16,
             "start": 17,
             "end": 57
         },
@@ -593,7 +599,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
 (foo/*1*/++)?.();
 async/*2*/ () => {
   (await foo)?.();
-}/*3*/
+};/*3*/
 (+foo)/*4*/?./*5*/();
 +(+foo);/*6*/
 class x extends (/*7*/+Bar/*8*/) /*9*/{

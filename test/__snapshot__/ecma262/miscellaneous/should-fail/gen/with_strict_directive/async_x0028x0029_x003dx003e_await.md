@@ -33,50 +33,56 @@
     ],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 13,
-                "end": 19
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 21,
-                "end": 21
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 22,
-                "end": 25
-            },
-            "contents": {
-                "kind": 208,
-                "awaitKeyword": {
-                    "kind": 82196,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
+                    "start": 13,
+                    "end": 19
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 21,
+                    "end": 21
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 22,
+                    "end": 25
+                },
+                "contents": {
+                    "kind": 208,
+                    "awaitKeyword": {
+                        "kind": 82196,
+                        "flags": 64,
+                        "start": 25,
+                        "end": 31
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "rawText": "",
+                        "flags": 64,
+                        "start": 31,
+                        "end": 31
+                    },
+                    "flags": 32,
                     "start": 25,
                     "end": 31
                 },
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "rawText": "",
-                    "flags": 64,
-                    "start": 31,
-                    "end": 31
-                },
-                "flags": 32,
-                "start": 25,
+                "flags": 288,
+                "start": 13,
                 "end": 31
             },
-            "flags": 288,
+            "flags": 16,
             "start": 13,
             "end": 31
         }

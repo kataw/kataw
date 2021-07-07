@@ -117,52 +117,52 @@ var await; var f = (async function() { async(await); });
                                         "directives": [],
                                         "statements": [
                                             {
-                                                "kind": 131,
+                                                "kind": 120,
                                                 "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "async",
-                                                    "rawText": "async",
-                                                    "flags": 96,
-                                                    "start": 38,
-                                                    "end": 44
-                                                },
-                                                "argumentList": {
-                                                    "kind": 256,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 208,
-                                                            "awaitKeyword": {
-                                                                "kind": 82196,
-                                                                "flags": 64,
+                                                    "kind": 131,
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "async",
+                                                        "rawText": "async",
+                                                        "flags": 96,
+                                                        "start": 38,
+                                                        "end": 44
+                                                    },
+                                                    "argumentList": {
+                                                        "kind": 256,
+                                                        "elements": [
+                                                            {
+                                                                "kind": 208,
+                                                                "awaitKeyword": {
+                                                                    "kind": 82196,
+                                                                    "flags": 64,
+                                                                    "start": 45,
+                                                                    "end": 50
+                                                                },
+                                                                "expression": {
+                                                                    "kind": 16637,
+                                                                    "text": "",
+                                                                    "rawText": "",
+                                                                    "flags": 64,
+                                                                    "start": 50,
+                                                                    "end": 50
+                                                                },
+                                                                "flags": 32,
                                                                 "start": 45,
                                                                 "end": 50
-                                                            },
-                                                            "expression": {
-                                                                "kind": 16637,
-                                                                "text": "",
-                                                                "rawText": "",
-                                                                "flags": 64,
-                                                                "start": 50,
-                                                                "end": 50
-                                                            },
-                                                            "flags": 32,
-                                                            "start": 45,
-                                                            "end": 50
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 32,
+                                                        "start": 38,
+                                                        "end": 38
+                                                    },
+                                                    "flags": 268435488,
                                                     "start": 38,
-                                                    "end": 38
+                                                    "end": 51
                                                 },
-                                                "flags": 268435488,
-                                                "start": 38,
-                                                "end": 51
-                                            },
-                                            {
-                                                "kind": 168,
                                                 "flags": 16,
-                                                "start": 51,
+                                                "start": 38,
                                                 "end": 52
                                             }
                                         ],

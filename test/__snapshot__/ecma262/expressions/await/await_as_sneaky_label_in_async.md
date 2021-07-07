@@ -16,91 +16,97 @@ async () => { aw\u{61}it: x }
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 7,
-                "end": 7
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 8,
-                "end": 11
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 163,
-                            "label": {
-                                "kind": 208,
-                                "awaitKeyword": {
-                                    "kind": 82196,
-                                    "flags": 8256,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 7,
+                    "end": 7
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 11
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 163,
+                                "label": {
+                                    "kind": 208,
+                                    "awaitKeyword": {
+                                        "kind": 82196,
+                                        "flags": 8256,
+                                        "start": 13,
+                                        "end": 24
+                                    },
+                                    "expression": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "rawText": "",
+                                        "flags": 64,
+                                        "start": 24,
+                                        "end": 24
+                                    },
+                                    "flags": 32,
                                     "start": 13,
                                     "end": 24
                                 },
-                                "expression": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "rawText": "",
+                                "colonToken": {
+                                    "kind": 21,
                                     "flags": 64,
                                     "start": 24,
-                                    "end": 24
+                                    "end": 25
                                 },
-                                "flags": 32,
-                                "start": 13,
-                                "end": 24
-                            },
-                            "colonToken": {
-                                "kind": 21,
-                                "flags": 64,
-                                "start": 24,
-                                "end": 25
-                            },
-                            "statement": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
+                                "statement": {
+                                    "kind": 120,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 25,
+                                        "end": 27
+                                    },
+                                    "flags": 16,
                                     "start": 25,
                                     "end": 27
                                 },
-                                "flags": 16,
-                                "start": 25,
+                                "flags": 8208,
+                                "start": 13,
                                 "end": 27
-                            },
-                            "flags": 8208,
-                            "start": 13,
-                            "end": 27
-                        }
-                    ],
-                    "flags": 8224,
-                    "start": 13,
-                    "end": 27
+                            }
+                        ],
+                        "flags": 8224,
+                        "start": 13,
+                        "end": 27
+                    },
+                    "flags": 32,
+                    "start": 11,
+                    "end": 29
                 },
-                "flags": 32,
-                "start": 11,
+                "flags": 288,
+                "start": 0,
                 "end": 29
             },
-            "flags": 288,
+            "flags": 16,
             "start": 0,
             "end": 29
         }

@@ -98,13 +98,12 @@ new async a => {}
 
 ```javascript
 
-new async a => {};
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 9, end: 11
+
 ```
 

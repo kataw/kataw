@@ -24,85 +24,91 @@ async () => {  fin\u0061lly = x  }
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "typeParameters": null,
-            "arrowPatameterList": {
-                "kind": 342,
-                "parameters": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 7,
-                "end": 7
-            },
-            "returnType": null,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 8,
-                "end": 11
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [
-                        {
-                            "kind": 159,
-                            "tryKeyword": null,
-                            "block": {
-                                "kind": 124,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 7,
+                    "end": 7
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 11
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [
+                            {
+                                "kind": 159,
+                                "tryKeyword": null,
                                 "block": {
-                                    "kind": 249,
-                                    "statements": [],
-                                    "flags": 16,
+                                    "kind": 124,
+                                    "block": {
+                                        "kind": 249,
+                                        "statements": [],
+                                        "flags": 16,
+                                        "start": 13,
+                                        "end": 13
+                                    },
+                                    "flags": 16400,
                                     "start": 13,
                                     "end": 13
                                 },
-                                "flags": 16400,
-                                "start": 13,
-                                "end": 13
-                            },
-                            "catchClause": null,
-                            "finallyKeyword": {
-                                "kind": 37757016,
-                                "flags": 16448,
-                                "start": 13,
-                                "end": 27
-                            },
-                            "finallyBlock": {
-                                "kind": 124,
-                                "block": {
-                                    "kind": 249,
-                                    "statements": [],
+                                "catchClause": null,
+                                "finallyKeyword": {
+                                    "kind": 37757016,
+                                    "flags": 16448,
+                                    "start": 13,
+                                    "end": 27
+                                },
+                                "finallyBlock": {
+                                    "kind": 124,
+                                    "block": {
+                                        "kind": 249,
+                                        "statements": [],
+                                        "flags": 16,
+                                        "start": 27,
+                                        "end": 27
+                                    },
                                     "flags": 16,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 16,
-                                "start": 27,
+                                "start": 13,
                                 "end": 27
-                            },
-                            "flags": 16,
-                            "start": 13,
-                            "end": 27
-                        }
-                    ],
-                    "flags": 16416,
-                    "start": 13,
+                            }
+                        ],
+                        "flags": 16416,
+                        "start": 13,
+                        "end": 27
+                    },
+                    "flags": 32,
+                    "start": 11,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 11,
+                "flags": 288,
+                "start": 0,
                 "end": 27
             },
-            "flags": 288,
+            "flags": 16,
             "start": 0,
             "end": 27
         },

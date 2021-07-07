@@ -17,40 +17,40 @@ async
     "directives": [],
     "statements": [
         {
-            "kind": 131,
+            "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 0,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 201392130,
+                            "text": 2,
+                            "rawText": "2",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 8
+                },
+                "flags": 268435489,
                 "start": 0,
-                "end": 5
+                "end": 9
             },
-            "argumentList": {
-                "kind": 256,
-                "elements": [
-                    {
-                        "kind": 201392130,
-                        "text": 2,
-                        "rawText": "2",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 0,
-                "end": 8
-            },
-            "flags": 268435489,
-            "start": 0,
-            "end": 9
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 9,
+            "start": 0,
             "end": 10
         }
     ],
@@ -67,8 +67,7 @@ async
 
 ```javascript
 
-async(2)
-;
+async(2);
 
 ```
 
