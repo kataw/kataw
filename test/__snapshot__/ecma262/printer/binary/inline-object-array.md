@@ -2582,68 +2582,62 @@ const obj = {
 
 ```javascript
 prevState =
-
-    prevState ||
-    {
-      catalogs: [],
-      loadState: LOADED,
-      opened: false,
-      searchQuery: "''",
-      selectedCatalog: null,
-    }
-  ;
+  prevState ||
+  {
+    catalogs: [],
+    loadState: LOADED,
+    opened: false,
+    searchQuery: "''",
+    selectedCatalog: null,
+  }
+;
 prevState =
-
-    prevState ||
-    defaultState ||
-    {
-      catalogs: [],
-      loadState: LOADED,
-      opened: false,
-      searchQuery: "''",
-      selectedCatalog: null,
-    }
-  ;
+  prevState ||
+  defaultState ||
+  {
+    catalogs: [],
+    loadState: LOADED,
+    opened: false,
+    searchQuery: "''",
+    selectedCatalog: null,
+  }
+;
 
 prevState =
-
-    prevState ||
-    defaultState &&
-    {
-      catalogs: [],
-      loadState: LOADED,
-      opened: false,
-      searchQuery: "''",
-      selectedCatalog: null,
-    }
-  ;
+  prevState ||
+  defaultState &&
+  {
+    catalogs: [],
+    loadState: LOADED,
+    opened: false,
+    searchQuery: "''",
+    selectedCatalog: null,
+  }
+;
 
 prevState =
-
-    prevState ||
-    useDefault && defaultState ||
-    {
-      catalogs: [],
-      loadState: LOADED,
-      opened: false,
-      searchQuery: "''",
-      selectedCatalog: null,
-    }
-  ;
+  prevState ||
+  useDefault && defaultState ||
+  {
+    catalogs: [],
+    loadState: LOADED,
+    opened: false,
+    searchQuery: "''",
+    selectedCatalog: null,
+  }
+;
 
 this.steps = steps || [{ name: "'mock-module'", path: "'/nux/mock-module'" },];
 
 this.steps =
-
-    steps ||
-    checkStep && [{ name: "'mock-module'", path: "'/nux/mock-module'" },]
-  ;
+  steps ||
+  checkStep && [{ name: "'mock-module'", path: "'/nux/mock-module'" },]
+;
 
 this.steps =
-
-    steps && checkStep ||
-    [{ name: "'mock-module'", path: "'/nux/mock-module'" },]
-  ;
+  steps && checkStep ||
+  [{ name: "'mock-module'", path: "'/nux/mock-module'" },]
+;
 
 const create = () => {
     const result = doSomething();
@@ -2672,7 +2666,10 @@ const create2 = () => {
 
 const obj = {
     state:
-      shouldHaveState && stateIsOK && { loadState: LOADED, opened: false },
+      shouldHaveState &&
+      stateIsOK &&
+      { loadState: LOADED, opened: false }
+    ,
     loadNext: stateIsOK && hasNext || { skipNext: true },
     loaded: true
   };

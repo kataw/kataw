@@ -262,8 +262,7 @@ type X = (x | y & z, q: string) => T;
 ### Printed
 
 ```javascript
-type X = (x | y & z,
-q: string) => T
+type X = (x | y & z, q: string) => T
 ```
 
 ### Diagnostics

@@ -263,8 +263,7 @@ type A = (Array<string>, ...Array<string>) => void
 ### Printed
 
 ```javascript
-type A = (Array<string>,
-...Array<string>) => void
+type A = (Array<string>, ...Array<string>) => void
 ```
 
 ### Diagnostics

@@ -218,8 +218,7 @@ type a = (x,symbol['string']) => T;
 ### Printed
 
 ```javascript
-type a = (x,
-symbol["'string'"]) => T
+type a = (x, symbol["'string'"]) => T
 ```
 
 ### Diagnostics

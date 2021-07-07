@@ -1,5 +1,5 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags, tokenToString } from '../ast/syntax-node';
-import { concat } from '../formatter/index';
+import { SyntaxKind, TransformFlags, tokenToString } from '../ast/syntax-node';
+import { concat, group, indent, line } from '../formatter/index';
 
 export const enum PrinterFlags {
   None,
@@ -29,27 +29,28 @@ export function createPrinter(source: string, flags: PrinterFlags, space: string
     space
   };
 }
-export function canBreakAssignment(left: any, right: any): boolean {
 
-  switch (right.kind) {
-    case SyntaxKind.StringType:
-    case SyntaxKind.CommaOperator:
-    case SyntaxKind.BinaryExpression:
-      return true;
-    case SyntaxKind.ConditionalExpression: {
-      const { shortCircuit } = right;
-      return (
-        shortCircuit.kind === SyntaxKind.BinaryExpression &&
-        ((shortCircuit.right.transformFlags & TransformFlags.ArrayOrObjectLiteral) === 0 ||
-          (shortCircuit.right.kind === SyntaxKind.ArrayLiteral && shortCircuit.right.elementList.elements.length > 0) ||
-          (shortCircuit.right.kind === SyntaxKind.ObjectLiteral &&
-            shortCircuit.right.propertyList.properties.length > 0))
-      );
-    }
-    case SyntaxKind.ClassExpression:
-      return right.decorators && right.decorators.node.elements.length;
-  }
-  return false;
+export function printAssignmentRight(left: any, right: any, printedRight: any): any {
+  return ((left.kind === SyntaxKind.Identifier ||
+    left.kind === SyntaxKind.StringLiteral ||
+    left.kind === SyntaxKind.IndexedAccessType ||
+    left.kind === SyntaxKind.MemberAccessExpression) &&
+    (right.kind === SyntaxKind.StringLiteral ||
+      right.kind === SyntaxKind.OptionalExpression)) ||
+    (right.kind === SyntaxKind.ClassExpression &&
+      right.decorators &&
+      right.decorators.node.elements.length) ||
+    (right.kind === SyntaxKind.ConditionalExpression &&
+      right.kind === SyntaxKind.BinaryExpression &&
+      ((right.right.transformFlags & TransformFlags.ArrayOrObjectLiteral) === 0 ||
+        (right.right.kind === SyntaxKind.ArrayLiteral &&
+          right.right.elementList.elements.length > 0) ||
+        (right.right.kind === SyntaxKind.ObjectLiteral &&
+          right.right.propertyList.properties.length > 0))) ||
+    right.kind === SyntaxKind.CommaOperator ||
+    left.kind === SyntaxKind.StringLiteral
+    ? group(indent(concat([line, printedRight])), {})
+    : concat([' ', printedRight]);
 }
 
 export function printKeywordNoSpace(printer: any, keyword: any): any {

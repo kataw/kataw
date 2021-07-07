@@ -1223,12 +1223,11 @@ foo[
 
 ```javascript
 a =
-
-    (
-      (Math.random() * (yRange * (1 - minVerticalFraction))) +
-      (minVerticalFraction * yRange)
-    ) - offset
-  ;
+  (
+    (Math.random() * (yRange * (1 - minVerticalFraction))) +
+    (minVerticalFraction * yRange)
+  ) - offset
+;
 a + a + a + a + a;
 
 a &&

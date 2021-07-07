@@ -263,8 +263,7 @@ type Fn2 = <A, B>(A, B) => A | B;
 ### Printed
 
 ```javascript
-type Fn2 = <A, B>(A,
-B) => A | B
+type Fn2 = <A, B>(A, B) => A | B
 ```
 
 ### Diagnostics

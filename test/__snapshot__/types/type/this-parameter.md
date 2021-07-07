@@ -1156,11 +1156,9 @@ type ten = {
 
 ```javascript
 type six = (this: number) => void
-type seven = (this: number,
-a: number) => void
+type seven = (this: number, a: number) => void
 
-type eight = (this: number,
-...a: any) => void
+type eight = (this: number, ...a: any) => void
 
 type nine = <T>(this: T) => void
 

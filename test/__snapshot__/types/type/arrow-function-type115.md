@@ -213,9 +213,7 @@ type a = (1,2, 3) => T;
 ### Printed
 
 ```javascript
-type a = (1,
-2,
-3) => T
+type a = (1, 2, 3) => T
 ```
 
 ### Diagnostics

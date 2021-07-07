@@ -365,7 +365,8 @@ const computedDescriptionLines =
       descriptionLines
     ;
 computedDescriptionLines =
-  (focused && !loading && descriptionLinesFocused) || descriptionLines;
+  (focused && !loading && descriptionLinesFocused) || descriptionLines
+;
 
 ```
 

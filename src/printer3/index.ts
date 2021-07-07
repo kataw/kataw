@@ -12,11 +12,11 @@ import {
   createPrinter,
   printKeyword,
   printKeywordNoSpace,
-  canBreakAssignment,
   shouldFlatten,
   shouldprintWhitespaceBeforeOperand,
   PrinterFlags,
   makeString,
+  printAssignmentRight,
   toggleSemicolon,
 } from './core';
 import {
@@ -229,8 +229,7 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
     if (options.noObjectCurlySpacing) flags & ~PrinterFlags.ObjectCurlySpacing;
     if (options.trailingCommas) flags |= PrinterFlags.TrailinComma;
     if (options.spaceAfterAt) flags |= PrinterFlags.SpaceAfterAt;
-    if (options.disallowStringEscape)
-      flags |= PrinterFlags.DisallowStringEscape;
+    if (options.disallowStringEscape) flags |= PrinterFlags.DisallowStringEscape;
     if (options.arrowParens) flags |= PrinterFlags.ArrowParens;
     if (options.endOfLine) {
       const eof = options.endOfLine;
@@ -246,10 +245,7 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
   }
 
   const printer = createPrinter(root.source, flags, space);
-  return toString(
-    printWidth,
-    printStatement(printer, root, /* lineMap */ [], root),
-  );
+  return toString(printWidth, printStatement(printer, root, /* lineMap */ [], root));
 }
 
 export function printStatement(
@@ -285,14 +281,11 @@ export function printAssignmentExpression(
           printKeyword(printer, operatorToken, node, /* addSpace */ false),
           operatorToken.flags & NodeFlags.IgnoreNextNode
             ? printer.source.slice(operatorToken.end, node.end)
-            : canBreakAssignment(left, right)
-            ? group(
-                indent(
-                  concat([line, printStatement(printer, right, lineMap, node)]),
-                ),
-                {},
-              )
-            : concat([printer.space, printStatement(printer, right, lineMap, node)]),
+            : printAssignmentRight(
+                left,
+                right,
+                printStatement(printer, right, lineMap, node),
+              ),
         ]),
         {},
       );
@@ -374,12 +367,9 @@ function printBinaryExpression(
     ? group(concat([indent(concat([softline, concat(parts)])), softline]), {})
     : (node.kind === SyntaxKind.BinaryExpression &&
         node.right.transformFlags &
-          (TransformFlags.ShouldNotIndent |
-            TransformFlags.ArrayOrObjectLiteral)) ||
-      (parentKind === SyntaxKind.ForStatement &&
-        node !== parentNode.statement) ||
-      (parentKind === SyntaxKind.ArrowFunction &&
-        node === parentNode.contents) ||
+          (TransformFlags.ShouldNotIndent | TransformFlags.ArrayOrObjectLiteral)) ||
+      (parentKind === SyntaxKind.ForStatement && node !== parentNode.statement) ||
+      (parentKind === SyntaxKind.ArrowFunction && node === parentNode.contents) ||
       (node.transformFlags & TransformFlags.ArrayOrObjectLiteral &&
         node.left.kind !== SyntaxKind.BinaryExpression &&
         !shouldFlatten(node)) ||
@@ -387,10 +377,7 @@ function printBinaryExpression(
         parentNode.transformFlags & TransformFlags.ShouldIndentIfInlining)
     ? group(concat(parts), {})
     : group(
-        concat([
-          parts.length > 0 ? parts[0] : "''",
-          indent(concat(parts.slice(1))),
-        ]),
+        concat([parts.length > 0 ? parts[0] : "''", indent(concat(parts.slice(1)))]),
         {},
       );
 }
@@ -461,11 +448,7 @@ function printPostfixUpdateExpression(
   ]);
 }
 
-function printUnaryExpression(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printUnaryExpression(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.operandToken, node, /* addSpace */ false),
     shouldprintWhitespaceBeforeOperand(node) ? ' ' : '',
@@ -473,11 +456,7 @@ function printUnaryExpression(
   ]);
 }
 
-function printAwaitExpression(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printAwaitExpression(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.awaitKeyword, node, /* addSpace */ true),
     printStatement(printer, node.expression, lineMap, node),
@@ -516,10 +495,7 @@ function printMemberAccessExpression(
       printStatement(printer, node.member, lineMap, node),
       '[',
       indent(
-        concat([
-          softline,
-          printStatement(printer, node.expression, lineMap, node),
-        ]),
+        concat([softline, printStatement(printer, node.expression, lineMap, node)]),
       ),
       softline,
       ']',
@@ -538,10 +514,7 @@ export function printExpressionStatement(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return concat([
-    printStatement(printer, node.expression, lineMap, parentNode),
-    ';',
-  ]);
+  return concat([printStatement(printer, node.expression, lineMap, parentNode), ';']);
 }
 
 export function printRootNode(
@@ -689,9 +662,7 @@ export function printerBindingElementList(
     concat([
       '[',
       indent(concat([softline, concat([concat(elements)])])),
-      node.trailingComma &&
-      previousSibling &&
-      !(previousSibling as any).ellipsisToken
+      node.trailingComma && previousSibling && !(previousSibling as any).ellipsisToken
         ? ','
         : '',
       ifBreak(
@@ -708,14 +679,9 @@ export function printerBindingElementList(
   );
 }
 
-function printBlockStatement(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printBlockStatement(printer: Printer, node: any, lineMap: number[]): any {
   printer.flags =
-    (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon;
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^ PrinterFlags.DisallowSemicolon;
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : printBlock(printer, node.block, lineMap, node);
@@ -742,28 +708,16 @@ function printBlock(
     tokens.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
-        ? concat([
-            hardline,
-            printStatement(printer, child, lineMap, parentNode),
-          ])
+        ? concat([hardline, printStatement(printer, child, lineMap, parentNode)])
         : printStatement(printer, child, lineMap, node),
     );
     previousSibling = child;
   }
 
-  return concat([
-    '{',
-    indent(concat([hardline, concat(tokens)])),
-    hardline,
-    '}',
-  ]);
+  return concat(['{', indent(concat([hardline, concat(tokens)])), hardline, '}']);
 }
 
-function printTypeAnnotation(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printTypeAnnotation(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.bitwiseAndToken, node, true),
     printKeyword(printer, node.bitwiseOrToken, node, true),
@@ -788,7 +742,11 @@ function printObjectTypeProperty(
 
     node.type.kind === SyntaxKind.FunctionType
       ? printStatement(printer, node.type, lineMap, node)
-      : concat([':', printer.space, printStatement(printer, node.type, lineMap, node)]),
+      : concat([
+          ':',
+          printer.space,
+          printStatement(printer, node.type, lineMap, node),
+        ]),
   ]);
 }
 
@@ -808,15 +766,15 @@ function printObjectTypeInternalSlot(
     printKeyword(printer, node.optionalToken, node, /* addSpace */ true),
     node.type.kind === SyntaxKind.FunctionType
       ? printStatement(printer, node.type, lineMap, node)
-      : concat([':', printer.space, printStatement(printer, node.type, lineMap, node)]),
+      : concat([
+          ':',
+          printer.space,
+          printStatement(printer, node.type, lineMap, node),
+        ]),
   ]);
 }
 
-function printObjectTypeIndexer(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printObjectTypeIndexer(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.protoKeyword, node, /* addSpace */ true),
     printKeyword(printer, node.staticKeyword, node, /* addSpace */ true),
@@ -826,7 +784,11 @@ function printObjectTypeIndexer(
     ']',
     node.type.kind === SyntaxKind.FunctionType
       ? printStatement(printer, node.type, lineMap, node)
-      : concat([':', printer.space, printStatement(printer, node.type, lineMap, node)]),
+      : concat([
+          ':',
+          printer.space,
+          printStatement(printer, node.type, lineMap, node),
+        ]),
   ]);
 }
 
@@ -854,11 +816,7 @@ function printObjectTypeCallProperty(
   ]);
 }
 
-function printNullableType(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printNullableType(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.nullableToken, node, /* addSpace */ true),
     printStatement(printer, node.type, lineMap, node),
@@ -1294,11 +1252,7 @@ function printTypeParameterList(
   );
 }
 
-function printTypeParameter(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printTypeParameter(printer: Printer, node: any, lineMap: number[]): any {
   return node
     ? concat([
         printStatement(printer, node.name, lineMap, node),
@@ -1311,12 +1265,7 @@ function printTypeParameter(
           : '',
         node.assignToken
           ? concat([
-              printKeyword(
-                printer,
-                node.assignToken,
-                node,
-                /* addSpace */ true,
-              ),
+              printKeyword(printer, node.assignToken, node, /* addSpace */ true),
               printStatement(printer, node.defaultType, lineMap, node),
             ])
           : '',
@@ -1324,11 +1273,7 @@ function printTypeParameter(
     : '';
 }
 
-function printTypeReference(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printTypeReference(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printStatement(printer, node.typeName, lineMap, node),
     node.typeParameters
@@ -1433,7 +1378,12 @@ function printDecorator(
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : concat([
-        printKeyword(printer, node.decoratorToken, node, (printer.flags & PrinterFlags.SpaceAfterAt) !== 0),
+        printKeyword(
+          printer,
+          node.decoratorToken,
+          node,
+          (printer.flags & PrinterFlags.SpaceAfterAt) !== 0,
+        ),
         printStatement(printer, node.expression, lineMap, node),
       ]);
 }
@@ -1560,10 +1510,7 @@ function printFunctionStatementList(
     tokens.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
-        ? concat([
-            hardline,
-            printStatement(printer, child, lineMap, parentNode),
-          ])
+        ? concat([hardline, printStatement(printer, child, lineMap, parentNode)])
         : printStatement(printer, child, lineMap, node),
     );
     previousSibling = child;
@@ -1575,12 +1522,7 @@ function printFunctionStatementList(
       PrinterFlags.DisallowSemicolon;
   }
 
-  return concat([
-    '{',
-    indent(concat([hardline, concat(tokens)])),
-    hardline,
-    '}',
-  ]);
+  return concat(['{', indent(concat([hardline, concat(tokens)])), hardline, '}']);
 }
 
 function printBindingElement(
@@ -1594,11 +1536,13 @@ function printBindingElement(
     printStatement(printer, node.left, lineMap, node),
     printKeyword(printer, node.optionalToken, node, /* addSpace */ true),
     node.type
-      ? concat([':', printer.space, printStatement(printer, node.type, lineMap, node)])
+      ? concat([
+          ':',
+          printer.space,
+          printStatement(printer, node.type, lineMap, node),
+        ])
       : '',
-    node.right
-      ? printInitializer(printer, node.right, lineMap, parentNode)
-      : '',
+    node.right ? printInitializer(printer, node.right, lineMap, parentNode) : '',
   ]);
 }
 
@@ -1608,12 +1552,7 @@ function printInitializer(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return concat([
-    ' ',
-    '=',
-    ' ',
-    printStatement(printer, node, lineMap, parentNode),
-  ]);
+  return concat([' ', '=', ' ', printStatement(printer, node, lineMap, parentNode)]);
 }
 
 function printNewExpression(
@@ -1713,7 +1652,12 @@ function printYieldExpression(
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : concat([
-        printKeyword(printer, node.yieldKeyword, node, /* addSpace */ !node.asteriskToken),
+        printKeyword(
+          printer,
+          node.yieldKeyword,
+          node,
+          /* addSpace */ !node.asteriskToken,
+        ),
         printKeyword(printer, node.asteriskToken, node, /* addSpace */ true),
         node.expression
           ? printStatement(printer, node.expression, lineMap, node)
@@ -1871,10 +1815,7 @@ function printClassDeclarationOrExpression(
     ? printer.source.slice(node.start, node.end)
     : concat([
         node.decorators
-          ? concat([
-              printDecoratorList(printer, node.decorators, lineMap, node),
-              ' ',
-            ])
+          ? concat([printDecoratorList(printer, node.decorators, lineMap, node), ' '])
           : '',
         printKeyword(printer, node.declareKeyword, node, /* addSpace */ true),
         printKeyword(printer, node.classKeyword, node, /* addSpace */ true),
@@ -1914,8 +1855,7 @@ function printClassBody(
     return '{}';
   }
   printer.flags =
-    (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon;
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^ PrinterFlags.DisallowSemicolon;
   const elements = [];
   let previousSibling: SyntaxNode | undefined;
   let child: SyntaxNode | any;
@@ -1925,20 +1865,12 @@ function printClassBody(
     elements.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
-        ? concat([
-            hardline,
-            printStatement(printer, child, lineMap, parentNode),
-          ])
+        ? concat([hardline, printStatement(printer, child, lineMap, parentNode)])
         : printStatement(printer, child, lineMap, node),
     );
     previousSibling = child;
   }
-  return concat([
-    '{',
-    indent(concat([hardline, concat(elements)])),
-    hardline,
-    '}',
-  ]);
+  return concat(['{', indent(concat([hardline, concat(elements)])), hardline, '}']);
 }
 
 function printClassElement(
@@ -1949,10 +1881,7 @@ function printClassElement(
 ): any {
   return concat([
     node.decorators
-      ? concat([
-          printDecoratorList(printer, node.decorators, lineMap, node),
-          ' ',
-        ])
+      ? concat([printDecoratorList(printer, node.decorators, lineMap, node), ' '])
       : '',
     printKeyword(printer, node.declaredToken, node, /* addSpace */ true),
     printKeyword(printer, node.staticKeyword, node, /* addSpace */ true),
@@ -1972,10 +1901,7 @@ function printFieldDefinition(
 ): any {
   return concat([
     node.decorators
-      ? concat([
-          printDecoratorList(printer, node.decorators, lineMap, node),
-          ' ',
-        ])
+      ? concat([printDecoratorList(printer, node.decorators, lineMap, node), ' '])
       : '',
     printKeyword(printer, node.declaredToken, node, /* addSpace */ true),
     printKeyword(printer, node.staticKeyword, node, /* addSpace */ true),
@@ -1991,7 +1917,15 @@ function printFieldDefinition(
         ])
       : '',
     node.initializer
-      ? printInitializer(printer, node.initializer, lineMap, node)
+      ? concat([
+          ' ',
+          '=',
+          printAssignmentRight(
+            node.key,
+            node.initializer,
+            printStatement(printer, node.initializer, lineMap, node),
+          ),
+        ])
       : '',
     toggleSemicolon(printer),
   ]);
@@ -2056,12 +1990,7 @@ function printArrowFunction(
       : '',
     group(
       node.arrowPatameterList.kind === SyntaxKind.ArrowPatameterList
-        ? printArrowParameterList(
-            printer,
-            node.arrowPatameterList,
-            lineMap,
-            node,
-          )
+        ? printArrowParameterList(printer, node.arrowPatameterList, lineMap, node)
         : printStatement(printer, node.arrowPatameterList, lineMap, node),
       {},
     ),
@@ -2240,8 +2169,7 @@ function printBindingList(
 ): any {
   const children = node.bindingList;
   printer.flags =
-    (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon;
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^ PrinterFlags.DisallowSemicolon;
   const elements: any = [];
 
   let previousSibling!: SyntaxNode;
@@ -2268,8 +2196,7 @@ function printVariableDeclarationList(
 ): any {
   const children = node.declarations;
   printer.flags =
-    (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon;
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^ PrinterFlags.DisallowSemicolon;
   const elements: any = [];
 
   let previousSibling!: SyntaxNode;
@@ -2359,8 +2286,7 @@ function printVariableDeclarationOrLexicalBinding(
         printer.space,
         '=',
         initializer.transformFlags & TransformFlags.CanBreak ||
-        (initializer.kind === SyntaxKind.ClassExpression &&
-          initializer.decorators) ||
+        (initializer.kind === SyntaxKind.ClassExpression && initializer.decorators) ||
         (initializer.kind === SyntaxKind.ConditionalExpression &&
           initializer.shortCircuit.kind === SyntaxKind.BinaryExpression &&
           (initializer.shortCircuit.right.transformFlags &
@@ -2368,14 +2294,14 @@ function printVariableDeclarationOrLexicalBinding(
             0)
           ? group(
               indent(
-                concat([
-                  line,
-                  printStatement(printer, initializer, lineMap, node),
-                ]),
+                concat([line, printStatement(printer, initializer, lineMap, node)]),
               ),
               {},
             )
-          : concat([printer.space, printStatement(printer, initializer, lineMap, node)]),
+          : concat([
+              printer.space,
+              printStatement(printer, initializer, lineMap, node),
+            ]),
       ]),
       {},
     );
@@ -2384,7 +2310,11 @@ function printVariableDeclarationOrLexicalBinding(
   return concat([
     printStatement(printer, node.binding, lineMap, node),
     node.type
-      ? concat([':', printer.space, printStatement(printer, node.type, lineMap, node)])
+      ? concat([
+          ':',
+          printer.space,
+          printStatement(printer, node.type, lineMap, node),
+        ])
       : '',
   ]);
 }
@@ -2398,27 +2328,17 @@ function printPropertyDefinition(
     concat([
       printStatement(printer, node.left, lineMap, node),
       ':',
-      canBreakAssignment(node.left, node.right)
-        ? group(
-            indent(
-              concat([
-                line,
-                printStatement(printer, node.right, lineMap, node),
-              ]),
-            ),
-            {},
-          )
-        : concat([printer.space, printStatement(printer, node.right, lineMap, node)]),
+      printAssignmentRight(
+        node.left,
+        node.right,
+        printStatement(printer, node.right, lineMap, node),
+      ),
     ]),
     {},
   );
 }
 
-function printMethodDefinition(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printMethodDefinition(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printStatement(printer, node.name, lineMap, node),
     node.typeParameters
@@ -2603,12 +2523,7 @@ function printNamedExports(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return printExportsImportsList(
-    printer,
-    node.exportsList,
-    lineMap,
-    parentNode,
-  );
+  return printExportsImportsList(printer, node.exportsList, lineMap, parentNode);
 }
 
 function printExportFromClause(
@@ -2660,11 +2575,7 @@ function printExportDeclaration(
       ]);
 }
 
-function printNameSpaceImport(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printNameSpaceImport(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(node.asteriskToken, printer, node, /* addSpace */ true),
     printStatement(printer, node.binding, lineMap, node),
@@ -2776,9 +2687,7 @@ function printImportSpecifier(
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : concat([
-        node.name
-          ? printStatement(printer, node.name, lineMap, parentNode)
-          : '',
+        node.name ? printStatement(printer, node.name, lineMap, parentNode) : '',
         node.moduleExportName
           ? printStatement(printer, node.moduleExportName, lineMap, parentNode)
           : '',
@@ -2789,11 +2698,7 @@ function printImportSpecifier(
       ]);
 }
 
-function printDoWhileStatement(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printDoWhileStatement(printer: Printer, node: any, lineMap: number[]): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : concat([
@@ -2888,10 +2793,7 @@ function printLabelledStatement(
         printKeyword(printer, node.colonToken, node, /* addSpace */ true),
         node.statement.kind === SyntaxKind.EmptyStatement
           ? ';'
-          : concat([
-              ' ',
-              printStatement(printer, node.statement, lineMap, node),
-            ]),
+          : concat([' ', printStatement(printer, node.statement, lineMap, node)]),
       ]);
 }
 
@@ -2970,12 +2872,7 @@ function printNewTarget(printer: Printer, node: any): any {
     : concat([
         printKeyword(printer, node.newKeyword, node, /* addSpace */ false),
         '.',
-        printKeyword(
-          printer,
-          node.targetIdentifier,
-          node,
-          /* addSpace */ false,
-        ),
+        printKeyword(printer, node.targetIdentifier, node, /* addSpace */ false),
       ]);
 }
 
@@ -2986,8 +2883,7 @@ function printCatchClause(
   parentNode: SyntaxNode,
 ): any {
   printer.flags =
-    (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon;
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^ PrinterFlags.DisallowSemicolon;
   return node.catchParameter
     ? concat([
         printKeyword(printer, node.catchKeyword, node, /* addSpace */ true),
@@ -3003,11 +2899,7 @@ function printCatchClause(
       ]);
 }
 
-function printSwitchStatement(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printSwitchStatement(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     group(
       concat([
@@ -3054,21 +2946,13 @@ function printCaseBlock(
     tokens.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
-        ? concat([
-            hardline,
-            printStatement(printer, child, lineMap, parentNode),
-          ])
+        ? concat([hardline, printStatement(printer, child, lineMap, parentNode)])
         : printStatement(printer, child, lineMap, parentNode),
     );
     previousSibling = child;
   }
 
-  return concat([
-    '{',
-    indent(concat([hardline, concat(tokens)])),
-    hardline,
-    '}',
-  ]);
+  return concat(['{', indent(concat([hardline, concat(tokens)])), hardline, '}']);
 }
 
 function printDefaultClause(
@@ -3138,10 +3022,7 @@ function printCaseOrDefaultClauseStatements(
     tokens.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
-        ? concat([
-            hardline,
-            printStatement(printer, child, lineMap, parentNode),
-          ])
+        ? concat([hardline, printStatement(printer, child, lineMap, parentNode)])
         : printStatement(printer, child, lineMap, parentNode),
     );
     previousSibling = child;
@@ -3156,8 +3037,7 @@ function printTryStatement(
   parentNode: SyntaxNode,
 ): any {
   printer.flags =
-    (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon;
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^ PrinterFlags.DisallowSemicolon;
   return concat([
     printKeyword(printer, node.tryKeyword, node, /* addSpace */ true),
     printStatement(printer, node.block, lineMap, node),
@@ -3184,15 +3064,8 @@ function printReturnStatement(
   parentNode: SyntaxNode,
 ): any {
   return concat([
-    printKeyword(
-      printer,
-      node.returnKeyword,
-      node,
-      /* addSpace */ !!node.expression,
-    ),
-    node.expression
-      ? printStatement(printer, node.expression, lineMap, node)
-      : '',
+    printKeyword(printer, node.returnKeyword, node, /* addSpace */ !!node.expression),
+    node.expression ? printStatement(printer, node.expression, lineMap, node) : '',
     toggleSemicolon(printer),
   ]);
 }
@@ -3205,9 +3078,7 @@ function printThrowStatement(
 ): any {
   return concat([
     printKeyword(printer, node.throwKeyword, node, /* addSpace */ true),
-    node.expression
-      ? printStatement(printer, node.expression, lineMap, node)
-      : '',
+    node.expression ? printStatement(printer, node.expression, lineMap, node) : '',
     ';',
   ]);
 }
@@ -3317,15 +3188,9 @@ function printForStatement(
       );
 }
 
-function adjustClause(
-  node: any,
-  printer: Printer,
-  clause: any,
-  forceSpace?: any,
-) {
+function adjustClause(node: any, printer: Printer, clause: any, forceSpace?: any) {
   printer.flags =
-    (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon;
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^ PrinterFlags.DisallowSemicolon;
   return node.kind === SyntaxKind.EmptyStatement
     ? printer.flags & PrinterFlags.DisallowSemicolon
       ? ''
@@ -3345,12 +3210,7 @@ function printForBinding(
     if (node.kind === SyntaxKind.ForBinding) {
       return concat([
         printKeyword(printer, node.varKeyword, node, /* addSpace */ true),
-        printVariableDeclarationList(
-          printer,
-          node.declarationList,
-          lineMap,
-          node,
-        ),
+        printVariableDeclarationList(printer, node.declarationList, lineMap, node),
       ]);
     }
 
@@ -3446,7 +3306,7 @@ function printTypeAlias(printer: Printer, node: any, lineMap: number[]): any {
       : '',
     printer.space,
     printKeyword(printer, node.assignToken, node, /* addSpace */ true),
-    printStatement(printer, node.type, lineMap, node),
+    group(printStatement(printer, node.type, lineMap, node), {})
   ]);
 }
 
@@ -3460,10 +3320,7 @@ function printParenthesizedExpression(
     concat([
       '(',
       indent(
-        concat([
-          softline,
-          printStatement(printer, node.expression, lineMap, node),
-        ]),
+        concat([softline, printStatement(printer, node.expression, lineMap, node)]),
       ),
       softline,
       ')',
@@ -3522,9 +3379,7 @@ function printCommaOperator(
             ? printStatement(printer, expr, lineMap, node)
             : concat([
                 ',',
-                indent(
-                  concat([line, printStatement(printer, expr, lineMap, node)]),
-                ),
+                indent(concat([line, printStatement(printer, expr, lineMap, node)])),
               ]),
         ),
       ),

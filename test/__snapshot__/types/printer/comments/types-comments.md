@@ -1618,11 +1618,9 @@ type x = {get x (/*1*/): string }
 
 ```javascript
 type a = (Array<string>) => void
-type A = (Array<string>,
-...Array<string>) => void
+type A = (Array<string>, ...Array<string>) => void
 
-type A = (Array<string>,
-...Array<string>) => void
+type A = (Array<string>, ...Array<string>) => void
 
 type Fn1 = <T>(T) => T
 
