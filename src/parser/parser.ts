@@ -6068,6 +6068,17 @@ function parseFunctionExpression(
 
       // - `(async => {})`
       if (parser.token === SyntaxKind.Arrow) {
+        
+        if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.Expected_a],
+            parser.curPos,
+            parser.pos
+          );
+        }    
+
         const scope = {
           kind: ScopeKind.ArrowParams,
           scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
