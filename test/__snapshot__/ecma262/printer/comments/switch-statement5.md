@@ -172,7 +172,7 @@ default /* comment 6 */ : /* comment 7 */ foo;
 switch (x) {
   case y:
     foo;
-  default
+  default:
     foo;
 }
 ```

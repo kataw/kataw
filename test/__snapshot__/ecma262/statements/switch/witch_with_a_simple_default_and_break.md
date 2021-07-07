@@ -116,7 +116,7 @@ switch (A) {default: B; break;}
 
 ```javascript
 switch (A) {
-  default
+  default:
     B;
     break;
 }

@@ -217,7 +217,7 @@
 foo:  switch (false) {
   case false:
     break foo;
-  default
+  default:
 
   case false:
     {}

@@ -3176,7 +3176,8 @@ function printDefaultClause(
 ): any {
   const { statements } = node;
   return concat([
-    printKeyword(printer, node.defaultKeyword, node, /* addSpace */ true),
+    printKeyword(printer, node.defaultKeyword, node, /* addSpace */ false),
+    printKeyword(printer, node.colonToken, node, /* addSpace */ true),
     statements.length === 1 && statements[0].kind === SyntaxKind.Block
       ? printStatement(printer, statements[0], lineMap, node)
       : indent(
@@ -3203,7 +3204,7 @@ function printCaseClause(
   return concat([
     printKeyword(printer, node.caseKeyword, node, /* addSpace */ true),
     printStatement(printer, node.expression, lineMap, node),
-    ':',
+    printKeyword(printer, node.colonToken, node, /* addSpace */ false),
     printer.space,
     statements.length === 1 && statements[0].kind === SyntaxKind.Block
       ? printStatement(printer, statements[0], lineMap, node)

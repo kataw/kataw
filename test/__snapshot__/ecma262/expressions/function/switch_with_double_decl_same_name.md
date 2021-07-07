@@ -230,7 +230,7 @@ switch (0) {
 switch (0) {
   case 1:
     function f() {}
-  default
+  default:
     function f() {}
 }
 ```

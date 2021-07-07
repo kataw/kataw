@@ -150,7 +150,7 @@ switch (a) { default: let
 
 ```javascript
 switch (a) {
-  default
+  default:
     let [] = y;
 }
 ```

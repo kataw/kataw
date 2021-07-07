@@ -634,7 +634,7 @@ function g() {
       break;
     case 2:
       break;
-    default
+    default:
       break;
   }
   var point = { x: 0, y: 1 };

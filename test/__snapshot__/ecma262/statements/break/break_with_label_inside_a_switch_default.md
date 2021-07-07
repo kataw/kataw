@@ -131,7 +131,7 @@ foo: switch (x) { default: break foo; }
 
 ```javascript
 foo:  switch (x) {
-  default
+  default:
     break foo;
 }
 ```

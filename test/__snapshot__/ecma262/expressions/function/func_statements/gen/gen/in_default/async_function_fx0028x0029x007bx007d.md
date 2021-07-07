@@ -154,7 +154,7 @@ switch (x) {
 
 ```javascript
 switch (x) {
-  default
+  default:
     async function f() {}
 }
 ```

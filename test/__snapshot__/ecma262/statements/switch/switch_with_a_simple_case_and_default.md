@@ -151,7 +151,7 @@ switch (A) {case B: C; default: D;}
 switch (A) {
   case B:
     C;
-  default
+  default:
     D;
 }
 ```

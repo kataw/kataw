@@ -435,7 +435,7 @@ function getSecurity(level) {
       return "\"hello\"";
     case 5:
 
-    default
+    default:
       return "\"world\"";
   }
 }

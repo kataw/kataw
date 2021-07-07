@@ -156,7 +156,7 @@ default /* comment 5 */ : /* comment 6 */ foo;
 switch (x) {
   case y:
     foo;
-  default
+  default:
     foo;
 }
 ```

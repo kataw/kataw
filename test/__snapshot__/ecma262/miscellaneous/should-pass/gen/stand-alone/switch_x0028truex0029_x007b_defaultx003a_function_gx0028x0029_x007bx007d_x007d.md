@@ -143,7 +143,7 @@ switch (true) { default: function g() {} }
 
 ```javascript
 switch (true) {
-  default
+  default:
     function g() {}
 }
 ```

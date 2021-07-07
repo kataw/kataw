@@ -148,7 +148,7 @@ switch (x) {
 
 ```javascript
 switch (x) {
-  default
+  default:
     function f() {}
 }
 ```

@@ -6408,10 +6408,10 @@ switch (answer) { case 0: let a; };
 switch (x) {
   case 194:
     switch (y) {
-      default
+      default:
         1;
     }
-  default
+  default:
     2;
 }
 switch ([/a/]) {
@@ -6435,7 +6435,7 @@ switch (x) {
   case 42:
     y();
     break;
-  default
+  default:
     break;
 }
 
@@ -6540,7 +6540,7 @@ switch (x) {
 switch (0) {
   case 1:
     async function f() {}
-  default
+  default:
     async function f() {}
 }
 
@@ -6579,14 +6579,14 @@ switch (x) {
 switch (0) {
   case 1:
     var f;
-  default
+  default:
     var f;
 }
 
 switch (0) {
   case 1:
     var f;
-  default
+  default:
     var f;
 }
 
@@ -6605,7 +6605,7 @@ switch (x) {
 switch (x) {
   case 1:
 
-  default
+  default:
     class C {}
 }
 
@@ -6616,7 +6616,7 @@ switch (x) {}
 switch (x) {
   case 1:
 
-  default
+  default:
     function f() {}
     class C {}
 }
@@ -6626,7 +6626,7 @@ switch (x) {
 switch (x) {
   case 1:
 
-  default
+  default:
     class C {}
     function f() {}
 }
@@ -6636,7 +6636,7 @@ switch (x) {
 switch (x) {
   case 1:
 
-  default
+  default:
     class C extends Q {}
 }
 
@@ -6645,7 +6645,7 @@ switch (x) {
 switch (x) {
   case 1:
 
-  default
+  default:
     function f() {}
     class C {}
 }
@@ -6655,7 +6655,7 @@ switch (x) {
 switch (x) {
   case 1:
 
-  default
+  default:
     class C {}
 }
 

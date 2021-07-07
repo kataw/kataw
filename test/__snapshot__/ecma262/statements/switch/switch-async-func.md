@@ -237,7 +237,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
 switch (0) {
   case 1:
     async function *f() {}
-  default
+  default:
     function f() {}
 }
 ```
