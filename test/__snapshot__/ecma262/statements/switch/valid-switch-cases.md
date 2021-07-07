@@ -6617,7 +6617,7 @@ switch (x) {
   case 1:
 
   default
-    function f() {};
+    function f() {}
     class C {}
 }
 
@@ -6627,7 +6627,7 @@ switch (x) {
   case 1:
 
   default
-    class C {};
+    class C {}
     function f() {}
 }
 

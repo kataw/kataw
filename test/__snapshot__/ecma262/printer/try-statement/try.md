@@ -94,7 +94,7 @@ finally {}
 
 ```javascript
 try {
-  ;
+  
 } finally {}
 ```
 

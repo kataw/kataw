@@ -130,8 +130,8 @@
 
 ```javascript
 async function f(x, y) {
-  ;
-  ;
+  
+  
 }
 ```
 

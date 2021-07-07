@@ -533,7 +533,7 @@ function printMemberAccessExpression(
 }
 
 export function printEmptyStatement(): any {
-  return ';';
+  return '';
 }
 
 export function printExpressionStatement(
@@ -544,7 +544,7 @@ export function printExpressionStatement(
 ): any {
   return concat([
     printStatement(printer, node.expression, lineMap, parentNode),
-    ';',
+    toggleSemicolon(printer),
   ]);
 }
 
@@ -568,11 +568,12 @@ export function printRootNode(
         concat([
           hardline,
           printStatement(printer, directives[i], lineMap, parentNode),
-          ';',
+          ++i < directives.length ? ';' : '',
         ]),
       );
     }
-    tokens.push(hardline);
+    
+    tokens.push(printer.flags & PrinterFlags.DisallowSemicolon && statements.length === 0 ? '' : ';', hardline);
   }
   lastIdx = tokens.length - 1;
   for (let i = 0; i < statements.length; i++) {
@@ -659,10 +660,10 @@ function printArrayBindingPattern(
 ): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
-    : printerBindingElementList(printer, node.elementList, lineMap, node);
+    : printBindingElementList(printer, node.elementList, lineMap, node);
 }
 
-export function printerBindingElementList(
+export function printBindingElementList(
   printer: Printer,
   node: any,
   lineMap: number[],
@@ -1526,7 +1527,7 @@ function printFunctionDeclarationOrExpression(
         node.declareKeyword
           ? printer.flags & PrinterFlags.DisallowSemicolon
             ? ''
-            : ';'
+            : toggleSemicolon(printer)
           : '',
       ]);
 }
@@ -1566,11 +1567,12 @@ function printFunctionStatementList(
         concat([
           hardline,
           printStatement(printer, directives[i], lineMap, parentNode),
-          toggleSemicolon(printer),
+          ++i < directives.length ? ';' : '',
         ]),
       );
     }
-    tokens.push(hardline);
+    
+    tokens.push(printer.flags & PrinterFlags.DisallowSemicolon && statements.length === 0 ? '' : ';', hardline);
   }
 
   lastIdx = tokens.length - 1;
@@ -2751,7 +2753,7 @@ function printExportDeclaration(
         !node.declaration
           ? printer.flags & PrinterFlags.DisallowSemicolon
             ? ''
-            : ';'
+            : toggleSemicolon(printer)
           : '',
       ]);
 }
@@ -2985,7 +2987,7 @@ function printLabelledStatement(
         printStatement(printer, node.label, lineMap, node),
         printKeyword(printer, node.colonToken, node, /* addSpace */ true),
         node.statement.kind === SyntaxKind.EmptyStatement
-          ? ';'
+          ? toggleSemicolon(printer)
           : concat([
               ' ',
               printStatement(printer, node.statement, lineMap, node),
@@ -3303,7 +3305,7 @@ function printThrowStatement(
     node.expression
       ? printStatement(printer, node.expression, lineMap, node)
       : '',
-    ';',
+    toggleSemicolon(printer),
   ]);
 }
 

@@ -4593,7 +4593,7 @@ function f({x:arg = (arg = 2)}) {}
 function f(arg) {
   function h() {
     g(arg);
-  };
+  }
   h();
 }
 function f(arg = 1) {
