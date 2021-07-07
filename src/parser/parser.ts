@@ -5738,7 +5738,8 @@ function parseFunctionExpression(
               parser.curPos
             );
           }
-          if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
+
+          if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.NewExpression | LeftHandSide.DisallowClassExtends)) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
