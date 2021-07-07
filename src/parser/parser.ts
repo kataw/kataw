@@ -6283,7 +6283,7 @@ function parseFunctionDeclaration(
             parser.pos
           );
         }
-        return parseCoverCallExpressionAndAsyncArrowHead(
+        let expression = parseCoverCallExpressionAndAsyncArrowHead(
           parser,
           context,
           createIdentifier(
@@ -6298,6 +6298,8 @@ function parseFunctionDeclaration(
           flags,
           pos
         ) as any;
+
+        return parseExpressionStatement(parser, context, parseCommaOperator(parser, context, expression, pos), pos);
       }
 
       let expression: any = createIdentifier(
