@@ -26,7 +26,7 @@ export function createNewExpression(
     expression,
     argumentList,
     flags,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.NewExpression,
     start,
     end
   };

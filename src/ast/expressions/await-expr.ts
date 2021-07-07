@@ -21,7 +21,7 @@ export function createAwaitExpression(
     awaitKeyword,
     expression,
     flags: NodeFlags.ExpressionNode,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.ArrowFolding,
     start,
     end
   };

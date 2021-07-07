@@ -29,7 +29,7 @@ export function createVariableDeclaration(
     type,
     initializer,
     flags: NodeFlags.IsStatement,
-    transformFlags: TransformFlags.ShouldIndentIfInlining,
+    transformFlags: TransformFlags.ShouldIndentIfInlining | TransformFlags.ArrowFolding,
     start,
     end
   };

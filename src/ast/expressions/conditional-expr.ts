@@ -32,7 +32,7 @@ export function createConditionalExpression(
     colonToken,
     alternate,
     flags,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.ArrowFolding,
     start,
     end
   };

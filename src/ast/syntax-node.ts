@@ -80,7 +80,9 @@ export enum TransformFlags {
   ShouldIndentIfInlining = 1 << 7,
   ShouldNotIndent = 1 << 8,
   TypeParameter = 1 << 9,
-  CanBreak = 1 << 10
+  CanBreak = 1 << 10,
+  NewExpression = 1 << 11,
+  ArrowFolding = 1 << 12,
 }
 
 // DO NOT EDIT ANY OF THIS NUMBERS. IT WILL BREAK THE PARSER!!!!!

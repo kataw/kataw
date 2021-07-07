@@ -38,7 +38,7 @@ export function createBindingElement(
     type,
     right,
     flags,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.ArrowFolding,
     start,
     end
   };

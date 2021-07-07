@@ -27,7 +27,7 @@ export function createYieldExpression(
     asteriskToken,
     expression,
     flags: NodeFlags.ExpressionNode,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.ArrowFolding,
     start,
     end
   };

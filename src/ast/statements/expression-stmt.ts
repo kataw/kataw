@@ -10,7 +10,7 @@ export function createExpressionStatement(expression: ExpressionNode, start: num
     kind: SyntaxKind.ExpressionStatement,
     expression,
     flags: NodeFlags.IsStatement,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.ArrowFolding,
     start,
     end
   };
