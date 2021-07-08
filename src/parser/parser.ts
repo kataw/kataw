@@ -6295,7 +6295,7 @@ function parseFunctionDeclaration(
             parser.pos
           );
         }
-        let expression = parseCoverCallExpressionAndAsyncArrowHead(
+        const expression = parseCoverCallExpressionAndAsyncArrowHead(
           parser,
           context,
           createIdentifier(

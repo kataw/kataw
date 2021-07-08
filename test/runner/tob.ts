@@ -1,6 +1,6 @@
 import { printCST } from '../../src/printer';
 import { parseScript, parseModule } from '../../src/kataw';
-import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
+import { promiseToReadFile, promiseToWriteFile, Constants, deepEqual, readMdJs, readMdJavascript } from './utils';
 import { visit } from './visit';
 import { strict as assert } from 'assert';
 
@@ -20,7 +20,7 @@ export interface Tob {
   mismatchItems: string[];
 }
 
-export function updateTob(tob: any, updateItems: any): void {
+export function updateTob(tob: Tob, updateItems: string[]): void {
   const outputIndex = tob.content.indexOf(Constants.Output);
   const output = outputBlock(tob, updateItems);
   const header = outputIndex > -1 ? tob.content.slice(0, outputIndex) : tob.content;
@@ -34,12 +34,12 @@ export async function file2Tob(filename: string, check = false): Promise<Tob> {
   const tob: Tob = {
     filename,
     content,
-    input: md2input(content),
-    parserOptions: md2parserOptions(content),
-    printerOptions: md2printerOptions(content),
-    cst: md2cst(content),
-    printed: md2printed(content),
-    diagnostics: md2diagnostics(content),
+    input: <string>readMdJs(content, Constants.Input, 'string'),
+    parserOptions: readMdJs(content, Constants.Options, 'object'), // TODO: change "options" => "parser options"
+    printerOptions: readMdJs(content, Constants.PrinterOptions, 'object'),
+    cst: readMdJavascript(content, Constants.CST, 'string'),
+    printed: readMdJavascript(content, Constants.Printed, 'string'),
+    diagnostics: readMdJavascript(content, Constants.Diagnostics, 'string'),
     mismatchItems: []
   };
   const diagnostics: any[] = [];
@@ -78,59 +78,6 @@ export function isMatchedTob(tob: Tob): boolean {
   );
 }
 
-function md2parserOptions(str: string) {
-  const offset = str.indexOf(Constants.Options);
-  const start1 = str.indexOf(Constants.JsStart, offset);
-  const end1 = str.indexOf(Constants.JsEnd, offset);
-  const t = str.slice(start1 + Constants.JsStart.length, end1);
-  return offset === -1 ? {} : eval('0||' + t + '');
-}
-
-function md2input(str: string) {
-  const offset = str.indexOf(Constants.Input);
-  const start = str.indexOf(Constants.JsStart, offset);
-  const end = str.indexOf(Constants.JsEnd, offset);
-  const t = str.slice(start + Constants.JsStart.length, end);
-  return t;
-}
-
-// TODO: read printerOptions from file content
-function md2printerOptions(_str: string) {
-  return {
-    tabWidth: 2,
-    printWidth: 80,
-    useTabs: false,
-    bracketSpacing: true
-  };
-}
-
-function md2cst(str: string) {
-  const offset = str.indexOf(Constants.CST);
-  if (offset === 0) report('Missing input header');
-  const start = str.indexOf(Constants.JavascriptStart, offset);
-  if (start === 0) report('Should have the start of a test case');
-  const end = str.indexOf(Constants.JavascriptEnd, offset);
-  if (end === 0) report('Should have the end of a test case');
-  const t = str.slice(start + Constants.JavascriptStart.length, end);
-  return t;
-}
-
-function md2printed(str: string) {
-  const cstOffset = str.indexOf(Constants.Printed);
-  if (cstOffset === 0) report('should have an input header');
-  const start = str.indexOf(Constants.JavascriptStart, cstOffset);
-  if (start === 0) report('Should have the start of a test case');
-  const end = str.indexOf(Constants.JavascriptEnd, cstOffset);
-  if (end === 0) report('Should have the end of a test case');
-  return str.slice(start + Constants.JavascriptStart.length, end);
-}
-
-function md2diagnostics(str: string) {
-  const diagnosticsOffset = str.indexOf(Constants.Diagnostics);
-  const start = str.indexOf(Constants.JavascriptStart, diagnosticsOffset);
-  const end = str.indexOf(Constants.JavascriptEnd, diagnosticsOffset);
-  return str.slice(start + Constants.JavascriptStart.length, end);
-}
 
 function outputBlock(tob: Tob, updateItems: any) {
   return `${Constants.Output}
