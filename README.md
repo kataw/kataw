@@ -22,6 +22,7 @@ Kataw is a javascript toolchain with high focus on performance, and it's main go
 * [Comments](#Comments)
 	* [Ignore comment](#Ignorecomment)
 * [Transformation](#Transformation)
+* [Printing](#CSTprinting)
 * [CST parser features](#CSTparserfeatures)
 * [Current state](#Currentstate)
 * [Roadmap](#Roadmap)
@@ -269,7 +270,7 @@ export function swapIdentifierWithNumeric(transform) {
 
 ```
 
-## <a name='CSTparserfeatures'></a>CST parser features
+## <a name='CSTprinting'></a>Printing
 
 Kataw is adjustable and allows three different ways to print your source code.
 
