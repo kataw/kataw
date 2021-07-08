@@ -91,13 +91,12 @@ var []
 
 ```javascript
 
-var [];
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Missing initializer in destructuring declaration - start: 6, end: 6
+
 ```
 

@@ -112,15 +112,12 @@ var x = y, {z};
 
 ```javascript
 
-var x = y, {
-  z
-};
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Missing initializer in destructuring declaration - start: 14, end: 15
+
 ```
 

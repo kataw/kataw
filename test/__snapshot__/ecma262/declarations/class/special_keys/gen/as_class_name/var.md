@@ -123,6 +123,7 @@ class var {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 9
+✖ Missing initializer in destructuring declaration - start: 12, end: 12
 
 ```
 

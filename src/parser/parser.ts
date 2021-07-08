@@ -8835,7 +8835,16 @@ function parseVariableDeclaration(
         parser.curPos
       );
     }
+  } else if (!inForStatement && binding.kind !== SyntaxKind.Identifier) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Missing_initializer_in_destructuring_declaration],
+      parser.curPos,
+      parser.pos
+    );
   }
+ 
   return createVariableDeclaration(binding, typeAnnotation, initializer, pos, parser.curPos);
 }
 
