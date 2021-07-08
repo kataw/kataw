@@ -9,6 +9,11 @@
 </p>
 <br>
 
+**WIP**
+
+Kataw is a javascript toolchain with high focus on performance, and it's main goal is to unify functionality that has previously been separate tools.
+
+
 <!-- vscode-markdown-toc -->
 * [CST nodes](#CSTnodes)
 * [CST keywords](#CSTkeywords)
@@ -32,12 +37,8 @@
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-**WIP**
 
-Kataw is a javascript toolchain with high focus on performance, and it's main goal is to unify functionality that has previously been separate tools.
-
-
-It's core is an ECMAScript friendly CST that allows you to parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
+Kataw's core is an ECMAScript friendly CST that allows you to parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
 If you only need a parser like `Acorn`, you can use Kataw to perform syntactic analysis (parsing) of a Javascript program, and with `ES2015`
 and later a Javascript program can be either a [script or a module](https://tc39.es/ecma262/index.html#sec-ecmascript-language-scripts-and-modules).
