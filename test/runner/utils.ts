@@ -11,14 +11,16 @@ export const enum ColorCodes {
 }
 
 export const enum Constants {
+  Input = '\n## Input\n',
+  Options = '## Options',
+  ParserOptions = '### Parser Options', // TODO: it's to replace the "Options"(as of now, not used)
+  PrinterOptions = '### Printer Options',
   Output = '## Output',
   CST = '### CST',
   Printed = '### Printed',
   Diagnostics = '### Diagnostics',
   JavascriptStart = '\n```javascript\n',
   JavascriptEnd = '\n```\n',
-  Options = '## Options',
-  Input = '\n## Input\n',
   JsStart = '\n`````js\n',
   JsEnd = '\n`````\n',
   Cases = '### Cases',
@@ -99,7 +101,7 @@ export function deepEqual(obj1: any, obj2: any): boolean {
     const keys1 = Object.keys(obj1);
     const keys2 = Object.keys(obj2);
 
-    return keys1.every((k) => keys2.includes(k)) && keys1.every((k) => deepEqual(obj1[k], obj2[k]));
+    return keys1.length === keys2.length && keys1.every((k) => keys2.includes(k) && deepEqual(obj1[k], obj2[k]));
   }
 
   return obj1 === obj2;
@@ -114,4 +116,25 @@ export function report(_err: Error | string): void {
 
 export function toUnixPath(path: string): string{
   return path.replace(/\\/g, "/");
+}
+
+
+export function readMdJs(str: string, flag: string, type = 'string'): string | Record<string, any>{
+  const offset = str.indexOf(flag);
+  const start1 = str.indexOf(Constants.JsStart, offset);
+  const end1 = str.indexOf(Constants.JsEnd, offset);
+  const t = str.slice(start1 + Constants.JsStart.length, end1);
+  return type === 'object'
+    ? (offset === -1 ? {} : eval('0||' + t + ''))
+    : t;
+}
+
+export function readMdJavascript(str: string, flag: string, type = 'string'): string | Record<string, any> {
+  const offset = str.indexOf(flag);
+  const start1 = str.indexOf(Constants.JavascriptStart, offset);
+  const end1 = str.indexOf(Constants.JavascriptEnd, offset);
+  const t = str.slice(start1 + Constants.JavascriptStart.length, end1);
+  return type === 'object'
+    ? (offset === -1 ? {} : eval('0||' + t + ''))
+    : t;
 }
