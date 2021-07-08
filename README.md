@@ -301,6 +301,9 @@ Here is an example:
 
 ## CST parser features
 
+- Error recovery by default (_like Acorn loose_), but it reconstruct the CST tree correctly
+
+- Optional error reporting (_require a callback as the parsers 3rd argument_)
 
 - Dynamic error, hint and warning diagnostics (_depends on the context you are parsing in_)
 
