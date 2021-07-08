@@ -23,6 +23,7 @@ Kataw is a javascript toolchain with high focus on performance, and it's main go
 	* [Ignore comment](#Ignorecomment)
 * [Transformation](#Transformation)
 * [Printing](#CSTprinting)
+	* [Ignore comment](#Ignorecomment)
 * [CST parser features](#CSTparserfeatures)
 * [Current state](#Currentstate)
 * [Roadmap](#Roadmap)
