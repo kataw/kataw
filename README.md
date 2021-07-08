@@ -20,9 +20,9 @@ Kataw is a javascript toolchain with high focus on performance, and it's main go
 * [ESNext](#ESNext)
 * [Types](#Types)
 * [Comments](#Comments)
-	* [Ignore comment](#Ignorecomment)
 * [Transformation](#Transformation)
 * [Printing](#CSTprinting)
+	* [Ignore comment](#Ignorecomment)
 * [CST parser features](#CSTparserfeatures)
 * [Current state](#Currentstate)
 * [Roadmap](#Roadmap)
@@ -201,19 +201,6 @@ Getting the trailing comment of `Hello` can be done like this `kataw.getTrailing
 
 If you want a `1:1` copy of the actual source code, you can do a "*slice*" from the start value of `Hello` to the end value of `there!`.
 
-### <a name='Ignorecomment'></a>Ignore comment
-
-Statements, blocks and other code lines can be ignored in Kataw with a `// kataw-ignore` comment.
-
-If set on a `WhileStatement` it will ignore the entire statement and the `BlockStatement`.
-
-```ts
-// kataw-ignore
-while (true) {}
-```
-
-You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
-
 ## <a name='Transformation'></a>Transformation
 
 `Kataw` can act the same way as`Babel` and be a tool that helps you write code in the latest version of Javascript. This can be done with
@@ -300,6 +287,20 @@ Here is an example:
  // Print in script mode
  kataw.printScript('x = y');
 ```
+
+### <a name='Ignorecomment'></a>Ignore comment
+
+Statements, blocks and other code lines can be ignored in Kataw with a `// kataw-ignore` comment.
+
+If set on a `WhileStatement` it will ignore the entire statement and the `BlockStatement`.
+
+```ts
+// kataw-ignore
+while (true) {}
+```
+
+You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
+
 
 ## CST parser features
 
