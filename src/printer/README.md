@@ -1,6 +1,25 @@
-# Pretty printer (*the beast*)
+# Pretty printer
 
 ## EXPERIMENTAL
 
 
-**DO NOT USE THIS !!**
+## Options
+
+| Options        |   Description |
+| ----------- |------------------------------------------------- |
+| `printWidth`  | Specify the line length that the printer will wrap on |
+| `tabWidth`    | Specify the number of spaces per indentation-level |
+| `useTabs`    | Indent lines with tabs instead of spaces |
+| `noSemicolon`    | Doesn't print semicolons at the ends of statements |
+| `singleQuote`    | Use single quotes instead of double quotes |
+| `noWhitespace`    | Doesn't print whitespace |
+| `compact`    | Doesn't print whitespace or line breaks |
+| `noObjectCurlySpacing`    | Doesn't print spaces between braces in object literals and pattern |
+| `arrayBracketSpacing`    | Print spaces between brackets in array literal and pattern |
+| `disallowStringEscape`    | Doesn't print string escape |
+| `allowArrowParens`    | Include parentheses around a sole arrow function paramete |
+| `spaceAfterAt`    | Prints a space after `@` in decorators |
+| `quoteProps`    | Change when properties in objects are quoted |
+| `coerceQuoteProps` | Coerce string literal to identifier when printing object properties and remove quotes |
+| `insertPragma`    | Inserts a special `@kataw` marker at the top of file |
+| `endOfLine`    | Change line endings in the source. `lf`, `crlf`, and `cr`. |
