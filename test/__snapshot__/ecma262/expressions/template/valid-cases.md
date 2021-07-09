@@ -950,8 +950,7 @@ tag`${a}\\rb`;
 
 `a${foo}b` + `x${bar}y`;
 
-`a${i},
-${j}bb` + `xxx${bar}yyyy`;
+`a${i}, ${j}bb` + `xxx${bar}yyyy`;
 
 tag`template` + `template2`;
 
