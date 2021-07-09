@@ -18,7 +18,8 @@ export const enum PrinterFlags {
   QuoteProps = 1 << 11,
   CoerceQuoteProps = 1 << 12,
   ArrayBracketNewline = 1 << 13,
-  EnforceLineBreaksBetweenArray = 1 << 14
+  EnforceLineBreaksBetweenArray = 1 << 14,
+  ComputedPropertySpacing = 1 << 15,
 }
 
 export interface Printer {

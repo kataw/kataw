@@ -172,6 +172,7 @@ export interface PrinterOptions {
   spaceAfterAt?: boolean;
   quoteProps?: boolean;
   coerceQuoteProps?: boolean;
+  computedPropertySpacing?: boolean;
   insertPragma?: boolean;
   endOfLine?: string;
   arrayBracketNewline?: boolean;
@@ -366,6 +367,7 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
     if (options.coerceQuoteProps) flags |= PrinterFlags.CoerceQuoteProps;
     if (options.disallowStringEscape) flags |= PrinterFlags.DisallowStringEscape;
     if (options.arrayBracketNewline) flags |= PrinterFlags.ArrayBracketNewline;
+    if (options.computedPropertySpacing) flags |= PrinterFlags.ComputedPropertySpacing;
     if (options.allowArrowParens) flags |= PrinterFlags.ArrowParens;
     if (options.enforceLineBreaksBetweenArray) flags |= PrinterFlags.EnforceLineBreaksBetweenArray;
 
@@ -625,8 +627,9 @@ function printMemberAccessExpression(printer: Printer, node: any, lineMap: numbe
     concat([
       printStatement(printer, node.member, lineMap, node),
       '[',
+      printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '',
       indent(concat([softline, printStatement(printer, node.expression, lineMap, node)])),
-      softline,
+      printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '',
       ']'
     ]),
     { shouldBreak: false }
@@ -1505,7 +1508,7 @@ function printTemplateTail(printer: Printer, node: any, lineMap: number[], paren
 }
 
 function printComputedPropertyName(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  return concat(['[', printStatement(printer, node.expression, lineMap, parentNode), ']']);
+  return concat(['[', printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '', printStatement(printer, node.expression, lineMap, parentNode),  printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '', ']']);
 }
 
 function printClassDeclarationOrExpression(printer: Printer, node: any, lineMap: number[], parentNode: any): any {
@@ -2067,9 +2070,11 @@ function printMemberAccessChain(printer: Printer, node: any, lineMap: number[], 
   return concat([
     node.chain ? printStatement(printer, node.chain, lineMap, node) : '',
     '[',
+    printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '',
     group(concat([indent(concat([softline, printStatement(printer, node.expression, lineMap, node)])), softline]), {
       shouldBreak: false
     }),
+    printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '',
     ']'
   ]);
 }

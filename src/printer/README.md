@@ -14,10 +14,11 @@
 | `singleQuote`    | Use single quotes instead of double quotes |
 | `noWhitespace`    | Doesn't print whitespace |
 | `compact`    | Doesn't print whitespace or line breaks |
-| `noObjectCurlySpacing`    | Doesn't print spaces between braces in object literals and pattern |
-| `arrayBracketSpacing`    | Print spaces between brackets in array literal and pattern |
+| `noObjectCurlySpacing`    | Doesn't print spaces between `{` and `}` in object literals and pattern |
+| `arrayBracketSpacing`    | Disallow or enforce spaces inside of brackets |
+| `computedPropertySpacing`    | Disallow or enforce spaces inside of computed properties |
 | `disallowStringEscape`    | Doesn't print string escape |
-| `allowArrowParens`    | Include parentheses around a sole arrow function paramete |
+| `allowArrowParens`    | Include parentheses around a sole arrow function parameter |
 | `spaceAfterAt`    | Prints a space after `@` in decorators |
 | `quoteProps`    | Change when properties in objects are quoted |
 | `coerceQuoteProps` | Coerce string literal to identifier when printing object properties and remove quotes |
