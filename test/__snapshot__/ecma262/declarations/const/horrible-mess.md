@@ -1097,7 +1097,8 @@ const processArgs = <A1: {}, A2: {}>(process: (args: A1) => A2) => <
     S,
     C,
     I,
-    R>(resolver: Resolver<S, A2, C, I, R>) => (src: S,
+    R
+  >(resolver: Resolver<S, A2, C, I, R>) => (src: S,
   args: A1,
   appContext: C,
   info: I) => resolver(src, process(args), appContext, info);

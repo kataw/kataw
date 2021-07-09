@@ -1662,7 +1662,8 @@ function processArgs<A1: {}, A2: {}>(process: (args: A1) => A2): <
   S,
   C,
   I,
-  R>(resolver: Resolver<S, A2, C, I, R>) => Resolver<S, A1, C, I, R> {
+  R
+>(resolver: Resolver<S, A2, C, I, R>) => Resolver<S, A1, C, I, R> {
   return <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => (src: S,
   args: A1,
   appContext: C,

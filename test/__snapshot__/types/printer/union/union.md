@@ -411,7 +411,8 @@ function aPrettyLongFunctionE(aRatherLongParameterName: Array<{
 function aPrettyLongFunctionD(aRatherLongParameterName: MyType
 | null): string[] {}
 function aPrettyLongFunctionE(aRatherLongParameterName: Array<
-    { __id: string } | null>
+    { __id: string } | null
+  >
 | null
 | void): string[] {}
 

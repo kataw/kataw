@@ -1227,7 +1227,8 @@ type FieldLayoutWith<T: string> = { type: T, code: string, size: S }
 
 type FieldLayoutWith<
   T: stringgggggggggggggggggg,
-  S: stringgggggggggggggggggg> = { type: T, code: string, size: S }
+  S: stringgggggggggggggggggg
+> = { type: T, code: string, size: S }
 
 ```
 

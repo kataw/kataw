@@ -1,4 +1,134 @@
 import { SyntaxKind, SyntaxNode, NodeFlags, tokenToString, TransformFlags } from '../ast/syntax-node';
+import { StringLiteral } from '../ast/expressions/string-literal';
+import { ExpressionNode } from '../ast/expressions';
+import { TypeNode } from '../ast/types';
+import { PrivateIdentifier } from '../ast/expressions/private-identifier';
+import { NumericLiteral } from '../ast/expressions/numeric-literal';
+import { AssignmentExpression } from '../ast/expressions/assignment-expr';
+import { EmptyStatement } from '../ast/statements/empty-stmt';
+import { ExpressionStatement } from '../ast/statements/expression-stmt';
+import { ArrayLiteral } from '../ast/expressions/array-literal';
+import { BinaryExpression } from '../ast/expressions/binary-expr';
+import { ArrayBindingPattern } from '../ast/expressions/array-binding-pattern';
+import { ArrowFunction } from '../ast/expressions/arrow-function';
+import { AwaitExpression } from '../ast/expressions/await-expr';
+import { BindingProperty } from '../ast/expressions/binding-property';
+import { BindingElement } from '../ast/expressions/binding-element';
+import { IndexExpression } from '../ast/expressions/index-expr';
+import { IndexExpressionChain } from '../ast/expressions/index-expr-chain';
+import { MemberAccessExpression } from '../ast/expressions/member-access-expr';
+import { StaticBlock } from '../ast/expressions/static-block';
+import { YieldExpression } from '../ast/expressions/yield-expr';
+import { CallExpression } from '../ast/expressions/call-expr';
+import { CallChain } from '../ast/expressions/call-chain';
+import { ClassTail } from '../ast/expressions/class-tail';
+import { OptionalChain } from '../ast/expressions/optional-chain';
+import { OptionalExpression } from '../ast/expressions/optional-expr';
+import { CommaOperator } from '../ast/expressions/comma-operator';
+import { ClassElement } from '../ast/expressions/class-element';
+import { ClassExpression } from '../ast/expressions/class-expr';
+import { ClassHeritage } from '../ast/expressions/class-heritage';
+import { ComputedPropertyName } from '../ast/expressions/computed-property-name';
+import { ConditionalExpression } from '../ast/expressions/conditional-expr';
+import { CoverInitializedName } from '../ast/expressions/cover-initialized-name';
+import { ElementList } from '../ast/expressions/element-list';
+import { FieldDefinition } from '../ast/expressions/field-definition';
+import { TaggedTemplate } from '../ast/expressions/tagged-template';
+import { FunctionExpression } from '../ast/expressions/function-expr';
+import { UnaryExpression } from '../ast/expressions/unary-expr';
+import { ImportCall } from '../ast/expressions/import-call';
+import { MethodDefinition } from '../ast/expressions/method-definition';
+import { PropertyMethod } from '../ast/expressions/property-method';
+import { NewExpression } from '../ast/expressions/new-expr';
+import { ObjectBindingPattern } from '../ast/expressions/object-binding-pattern';
+import { ObjectLiteral } from '../ast/expressions/object-literal';
+import { ParenthesizedExpression } from '../ast/expressions/parenthesized-expr';
+import { PostfixUpdateExpression } from '../ast/expressions/postfix-update-expr';
+import { PrefixUpdateExpression } from '../ast/expressions/prefix-update-expr';
+import { NewTarget } from '../ast/expressions/new-target';
+import { BigIntLiteral } from '../ast/expressions/big-int-literal';
+import { TemplateTail } from '../ast/expressions/template-tail';
+import { PropertyDefinition } from '../ast/expressions/property-definition';
+import { SpreadProperty } from '../ast/expressions/spread-property';
+import { TemplateExpression } from '../ast/expressions/template-expression';
+import { BindingList } from '../ast/statements/binding-list';
+import { VariableStatement } from '../ast/statements/variable-stmt';
+import { Block } from '../ast/statements/block';
+import { BlockStatement } from '../ast/statements/block-stmt';
+import { BreakStatement } from '../ast/statements/break-stmt';
+import { ContinueStatement } from '../ast/statements/continue-stmt';
+import { DefaultClause } from '../ast/statements/default-clause';
+import { CaseClause } from '../ast/statements/case-clause';
+import { DoWhileStatement } from '../ast/statements/do-stmt';
+import { ForInStatement } from '../ast/statements/for-in-stmt';
+import { ForOfStatement } from '../ast/statements/for-of-stmt';
+import { ForStatement } from '../ast/statements/for-stmt';
+import { IfStatement } from '../ast/statements/if-stmt';
+import { LabelledStatement } from '../ast/statements/labelled-stmt';
+import { LexicalBinding } from '../ast/statements/lexical-binding';
+import { ReturnStatement } from '../ast/statements/return-stmt';
+import { SwitchStatement } from '../ast/statements/switch-stmt';
+import { ThrowStatement } from '../ast/statements/throw-stmt';
+import { CaseBlock } from '../ast/statements/case-block';
+import { TryStatement } from '../ast/statements/try-stmt';
+import { VariableDeclaration } from '../ast/statements/variable-declaration';
+import { VariableDeclarationList } from '../ast/statements/variable-declarationList';
+import { WhileStatement } from '../ast/statements/while-stmt';
+import { WithStatement } from '../ast/statements/with-stmt';
+import { FunctionDeclaration } from '../ast/statements/function-declaration';
+import { LexicalDeclaration } from '../ast/statements/lexical-declaration';
+import { ClassDeclaration } from '../ast/statements/class-declaration';
+import { SubtractionType } from '../ast/types/subtraction-type';
+import { OptionalIndexedAccess } from '../ast/types/optional-indexed-access';
+import { StringType } from '../ast/types/string-type';
+import { ArrayType } from '../ast/types/array-type';
+import { ObjectType } from '../ast/types/object-type';
+import { BigIntType } from '../ast/types/big-int-type';
+import { NumberType } from '../ast/types/number-type';
+import { ObjectTypeSpreadProperty } from '../ast/types/object-type-spread-property';
+import { TypeAlias } from '../ast/types/type-alias-declaration';
+import { ArrowFunctionType } from '../ast/types/arrow-function-type';
+import { ArrowTypeParameter } from '../ast/types/arrow-type-parameter';
+import { ArrowTypeParameterList } from '../ast/types/arrow-type-parameter-list';
+import { FunctionTypeParameterList } from '../ast/types/function-type-parameter-list';
+import { FunctionTypeParameter } from '../ast/types/function-type-parameter';
+import { NullableType } from '../ast/types/nullable-type';
+import { ObjectTypeCallProperty } from '../ast/types/object-type-call-property';
+import { ObjectTypeIndexer } from '../ast/types/object-type-indexer';
+import { ObjectTypeInternalSlot } from '../ast/types/object-type-internal-slot';
+import { ObjectTypeProperty } from '../ast/types/object-type-property';
+import { OpaqueType } from '../ast/types/opaque-type';
+import { QualifiedType } from '../ast/types/qualified-type';
+import { TypeInstantiations } from '../ast/types/type-instantiations';
+import { TypeAnnotation } from '../ast/types/type-annotation';
+import { TypeParameterDeclaration } from '../ast/types/type-parameter-declaration';
+import { TypeParameterInstantiation } from '../ast/types/type-parameter-instantiation';
+import { TypeParameterList } from '../ast/types/type-parameter-list';
+import { TypeofType } from '../ast/types/typeof-type';
+import { TypeReference } from '../ast/types/type-reference';
+import { FunctionType } from '../ast/types/function-type';
+import { IndexedAccessType } from '../ast/types/indexed-access-type';
+import { IntersectionType } from '../ast/types/intersection-type';
+import { OptionalType } from '../ast/types/optional-type';
+import { ParenthesizedType } from '../ast/types/parenthesized-type';
+import { RestType } from '../ast/types/rest-type';
+import { TupleType } from '../ast/types/tuple-type';
+import { TypeParameter } from '../ast/types/type-parameter';
+import { UnionType } from '../ast/types/union-type';
+import { Decorator } from '../ast/expressions/decorators';
+import { ImportClause } from '../ast/module/import-clause';
+import { NameSpaceImport } from '../ast/module/namespace-import';
+import { FromClause } from '../ast/module/from-clause';
+import { ExportDefault } from '../ast/module/export-default';
+import { ExportDeclaration } from '../ast/module/export-declaration';
+import { ExportFromClause } from '../ast/module/export-from-clause';
+import { ExportSpecifier } from '../ast/module/export-specifier';
+import { ImportDeclaration } from '../ast/module/import-declaration';
+import { ImportSpecifier } from '../ast/module/import-specifier';
+import { NamedExports } from '../ast/module/named-exports';
+import { NamedImports } from '../ast/module/named-imports';
+import { SpreadElement } from '../ast/expressions/spread-element';
+import { Identifier } from '../ast/expressions/identifier-expr';
 import { RootNode } from '../ast/root-node';
 import { skipWhitespace } from '../parser/scanner/common';
 import {
@@ -214,7 +344,7 @@ export const nodeLookupMap: any = {
 export function printSource(root: RootNode, options?: PrinterOptions) {
   let flags = PrinterFlags.ObjectCurlySpacing | PrinterFlags.UseSemicolon;
   let printWidth = 80;
-  let useTabs = false;
+  let useTabs: boolean = false;
   let tabWidth = 2;
   let space = ' ';
   let lineEnd = '\n';
@@ -389,7 +519,7 @@ function printBinaryExpressionRest(
   isInsideParenthesis: boolean
 ) {
   if (node.kind === SyntaxKind.BinaryExpression) {
-    const parts: any = shouldFlatten(node)
+    let parts: any = shouldFlatten(node)
       ? printBinaryExpressionRest(printer, node.left, lineMap, node, isInsideParenthesis)
       : [printStatement(printer, node.left, lineMap, node)];
 
@@ -977,7 +1107,7 @@ function printTypeInstantiations(printer: Printer, node: any, lineMap: number[],
   }
 
   return group(
-    concat(['<', indent(concat([softline, concat(elements)])), ifBreak(node.trailingComma ? ',' : ''), '>']),
+    concat(['<', indent(concat([softline, concat(elements)])), ifBreak(node.trailingComma ? ',' : ''), softline,'>']),
     { shouldBreak: false }
   );
 }
@@ -1002,19 +1132,18 @@ function printTypeParameterList(printer: Printer, node: any, lineMap: number[], 
   let previousSibling!: SyntaxNode;
   let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
-
   for (let i = 0; i < children.length; i++) {
     child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', printer.space, lineBreak]));
+      elements.push(concat([',', printer.space, softline]));
     }
 
     elements.push(printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
+
   return group(
-    concat(['<', indent(concat([softline, concat(elements)])), ifBreak(node.trailingComma ? ',' : ''), '>']),
+    concat(['<', indent(concat([softline, concat(elements)])), ifBreak(node.trailingComma ? ',' : ''), softline,'>']),
     { shouldBreak: false }
   );
 }
@@ -1034,7 +1163,7 @@ function printTypeParameter(printer: Printer, node: any, lineMap: number[]): any
     : '';
 }
 
-function printTypeReference(printer: Printer, node: any, lineMap: number[]): any {
+function printTypeReference(printer: Printer, node: TypeReference, lineMap: number[]): any {
   return concat([
     printStatement(printer, node.typeName, lineMap, node),
     node.typeParameters ? printStatement(printer, node.typeParameters, lineMap, node) : ''
@@ -1050,7 +1179,7 @@ function printTypeofType(printer: Printer, node: any, lineMap: number[]): any {
       ]);
 }
 
-function printUnionType(printer: Printer, node: any, lineMap: number[], parentNode: any): any {
+function printUnionType(printer: Printer, node: UnionType, lineMap: number[], parentNode: any): any {
   const printed = concat([
     //ifBreak(concat([shouldIndent ? hardline : '', '|', printer.space])),
     join(
@@ -1765,7 +1894,7 @@ function printVariableDeclarationList(printer: Printer, node: any, lineMap: numb
 }
 
 function printVariableStatement(printer: Printer, node: any, lineMap: number[]): any {
-  const printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
+  let printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
 
   const hasValue = node.declarationList.declarations.some((decl: any) => decl.init);
   let firstVariable;
@@ -2416,7 +2545,7 @@ function adjustClause(node: any, printer: Printer, clause: any, forceSpace?: any
 function printForBinding(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node) {
     if (node.kind === SyntaxKind.ForBinding) {
-      const printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
+      let printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
 
       let firstVariable;
       if (printed.length === 1) {

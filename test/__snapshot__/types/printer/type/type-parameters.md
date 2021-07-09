@@ -479,15 +479,19 @@ const foo4: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 ```javascript
 const foo1: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo<
-    bigint> = a;
+    bigint
+  > = a;
 const foo2: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo<
-    1n> = a;
+    1n
+  > = a;
 
 const foo3: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo<
-    1_1n> = a;
+    1_1n
+  > = a;
 
 const foo4: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo<
-    0xdeed_beefn> = a;
+    0xdeed_beefn
+  > = a;
 
 ```
 

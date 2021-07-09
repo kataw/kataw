@@ -270,7 +270,8 @@ function aPrettyLongFunctionE(aRatherLongParameterName: Array<{
 
 ```javascript
 function aPrettyLongFunctionE(aRatherLongParameterName: Array<
-    { __id: string } | null>
+    { __id: string } | null
+  >
 | null
 | void): string[] {}
 ```
