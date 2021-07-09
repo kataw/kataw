@@ -31,6 +31,7 @@ class Foo {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -39,21 +40,25 @@ class Foo {
                             "text": "decorator",
                             "rawText": "decorator",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 10
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 10
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
@@ -62,6 +67,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -88,6 +94,7 @@ class Foo {
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 31
                                 },
@@ -97,6 +104,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -112,6 +120,7 @@ class Foo {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 46
                                                 },
@@ -120,40 +129,49 @@ class Foo {
                                                     "text": "method",
                                                     "rawText": "method",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 53
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 35,
                                                 "end": 54
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 54
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 58
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 58
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 58
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 58
                 },
                 "flags": 20,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 60
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 60
         }
@@ -162,6 +180,7 @@ class Foo {
     "source": "@decorator\nclass Foo {\n  method() {\n    return method;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }
@@ -170,14 +189,12 @@ class Foo {
 ### Printed
 
 ```javascript
-
 @decorator
 class Foo {
   method() {
     return method;
   }
 }
-
 ```
 
 ### Diagnostics

@@ -20,6 +20,7 @@ var str = "\n";
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,6 +34,7 @@ var str = "\n";
                             "text": "str",
                             "rawText": "str",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -42,19 +44,23 @@ var str = "\n";
                             "text": "\n",
                             "rawText": "\"\\n\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -63,6 +69,7 @@ var str = "\n";
     "source": "var str = \"\\n\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -71,9 +78,7 @@ var str = "\n";
 ### Printed
 
 ```javascript
-
-var str = '"\n"';
-
+var str = "\"\n\"";
 ```
 
 ### Diagnostics

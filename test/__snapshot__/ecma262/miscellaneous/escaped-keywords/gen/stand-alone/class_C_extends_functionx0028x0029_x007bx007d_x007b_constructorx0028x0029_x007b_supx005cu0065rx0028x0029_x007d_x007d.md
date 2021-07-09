@@ -30,6 +30,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -58,6 +61,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 24
                         },
@@ -69,6 +73,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 25
                         },
@@ -79,20 +84,24 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 28
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 29
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 29
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 29
                 },
@@ -115,6 +124,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 43
                                 },
@@ -124,6 +134,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 45
                                 },
@@ -141,6 +152,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                                                     "expression": {
                                                         "kind": 4259935,
                                                         "flags": 16480,
+                                                        "transformFlags": 0,
                                                         "start": 47,
                                                         "end": 58
                                                     },
@@ -149,44 +161,54 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 59,
                                                         "end": 59
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 47,
                                                     "end": 60
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 47,
                                                 "end": 60
                                             }
                                         ],
                                         "flags": 16416,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 60
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 62
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 62
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 62
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 62
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 64
         }
@@ -195,6 +217,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
     "source": "class C extends function() {} { constructor() { sup\\u0065r() } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 64
 }

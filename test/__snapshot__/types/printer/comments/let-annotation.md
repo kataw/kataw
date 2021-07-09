@@ -28,6 +28,7 @@ let x /*1*/ :/*2*/ string /*3*/|/*4*/ number;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x /*1*/ :/*2*/ string /*3*/|/*4*/ number;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,35 +56,42 @@ let x /*1*/ :/*2*/ string /*3*/|/*4*/ number;
                                     {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 25
                                     },
                                     {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 44
                                     }
                                 ],
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 44
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 44
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 44
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 44
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -91,6 +100,7 @@ let x /*1*/ :/*2*/ string /*3*/|/*4*/ number;
     "source": "let x /*1*/ :/*2*/ string /*3*/|/*4*/ number;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -99,9 +109,7 @@ let x /*1*/ :/*2*/ string /*3*/|/*4*/ number;
 ### Printed
 
 ```javascript
-
-let x/*1*/:/*2*/ /*2*/string/*3*/ | /*4*/number;
-
+let x: string | number;
 ```
 
 ### Diagnostics

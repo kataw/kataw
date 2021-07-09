@@ -32,12 +32,14 @@ x = {get this(this):number{}};
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -53,6 +55,7 @@ x = {get this(this):number{}};
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 8
                                 },
@@ -64,6 +67,7 @@ x = {get this(this):number{}};
                                         "text": "this",
                                         "rawText": "this",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 13
                                     },
@@ -79,6 +83,7 @@ x = {get this(this):number{}};
                                                     "text": "this",
                                                     "rawText": "this",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 18
                                                 },
@@ -86,12 +91,14 @@ x = {get this(this):number{}};
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 14,
                                                 "end": 18
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 19
                                     },
@@ -102,10 +109,12 @@ x = {get this(this):number{}};
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 26
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 26
                                     },
@@ -116,36 +125,44 @@ x = {get this(this):number{}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 27
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 28
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 28
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 29
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 30
         }
@@ -154,6 +171,7 @@ x = {get this(this):number{}};
     "source": "x = {get this(this):number{}};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

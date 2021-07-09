@@ -29,6 +29,7 @@ var x, y, z; for (x in { x, y, z } = {});
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,12 +43,14 @@ var x, y, z; for (x in { x, y, z } = {});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -58,12 +61,14 @@ var x, y, z; for (x in { x, y, z } = {});
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -74,21 +79,25 @@ var x, y, z; for (x in { x, y, z } = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -97,6 +106,7 @@ var x, y, z; for (x in { x, y, z } = {});
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
@@ -105,12 +115,14 @@ var x, y, z; for (x in { x, y, z } = {});
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -126,6 +138,7 @@ var x, y, z; for (x in { x, y, z } = {});
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -134,6 +147,7 @@ var x, y, z; for (x in { x, y, z } = {});
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 29
                             },
@@ -142,22 +156,26 @@ var x, y, z; for (x in { x, y, z } = {});
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 32
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 32
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 22,
                     "end": 34
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 36
                 },
@@ -168,24 +186,29 @@ var x, y, z; for (x in { x, y, z } = {});
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 38
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 36,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 22,
                 "end": 39
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 41
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 41
         }
@@ -194,6 +217,7 @@ var x, y, z; for (x in { x, y, z } = {});
     "source": "var x, y, z; for (x in { x, y, z } = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }
@@ -202,10 +226,8 @@ var x, y, z; for (x in { x, y, z } = {});
 ### Printed
 
 ```javascript
-
 var x, y, z;
-for (x in { x, y, z } = {})
-  ;
+for (x in { x, y, z } = {});
 
 ```
 

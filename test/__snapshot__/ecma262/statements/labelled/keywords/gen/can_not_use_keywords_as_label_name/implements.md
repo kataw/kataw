@@ -30,12 +30,14 @@ implements: x
                 "text": "implements",
                 "rawText": "implements",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -46,14 +48,17 @@ implements: x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 11,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -62,6 +67,7 @@ implements: x
     "source": "implements: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -70,9 +76,7 @@ implements: x
 ### Printed
 
 ```javascript
-
-implements: x;
-
+implements:  x;
 ```
 
 ### Diagnostics

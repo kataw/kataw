@@ -30,6 +30,7 @@ class public {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class public {}
                 "text": "public",
                 "rawText": "public",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 12
             },
@@ -49,14 +51,17 @@ class public {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "flags": 12,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -65,6 +70,7 @@ class public {}
     "source": "class public {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

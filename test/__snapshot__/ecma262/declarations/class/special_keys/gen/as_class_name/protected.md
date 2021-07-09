@@ -30,6 +30,7 @@ class protected {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class protected {}
                 "text": "protected",
                 "rawText": "protected",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
@@ -49,14 +51,17 @@ class protected {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 15,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -65,6 +70,7 @@ class protected {}
     "source": "class protected {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

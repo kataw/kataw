@@ -21,12 +21,14 @@ async function f(){    async function g(x=(await z)=y){}   }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -60,12 +64,14 @@ async function f(){    async function g(x=(await z)=y){}   }
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 28
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 37
                             },
@@ -75,6 +81,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 39
                             },
@@ -90,6 +97,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 41
                                         },
@@ -104,6 +112,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                                     "awaitKeyword": {
                                                         "kind": 82196,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 48
                                                     },
@@ -112,20 +121,24 @@ async function f(){    async function g(x=(await z)=y){}   }
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 48,
                                                         "end": 50
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 4096,
                                                     "start": 43,
                                                     "end": 50
                                                 },
-                                                "flags": 32,
-                                                "start": 42,
+                                                "flags": 42,
+                                                "transformFlags": 0,
+                                                "start": 32,
                                                 "end": 51
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 52
                                             },
@@ -134,20 +147,24 @@ async function f(){    async function g(x=(await z)=y){}   }
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 53
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
+                                            "transformFlags": 128,
                                             "start": 42,
                                             "end": 53
                                         },
                                         "flags": 34,
+                                        "transformFlags": 4096,
                                         "start": 40,
                                         "end": 53
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 53
                             },
@@ -158,29 +175,35 @@ async function f(){    async function g(x=(await z)=y){}   }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 55
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 56
                             },
                             "returnType": null,
                             "flags": 144,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 56
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 56
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 60
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 60
         }
@@ -189,6 +212,7 @@ async function f(){    async function g(x=(await z)=y){}   }
     "source": "async function f(){    async function g(x=(await z)=y){}   }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }

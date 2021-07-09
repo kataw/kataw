@@ -32,12 +32,14 @@ a ? (b) : c => (d) : e => f
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -48,16 +50,19 @@ a ? (b) : c => (d) : e => f
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 7
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -70,6 +75,7 @@ a ? (b) : c => (d) : e => f
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
@@ -77,6 +83,7 @@ a ? (b) : c => (d) : e => f
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
@@ -92,12 +99,14 @@ a ? (b) : c => (d) : e => f
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 17
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 22
                         },
@@ -112,21 +121,25 @@ a ? (b) : c => (d) : e => f
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 25
                         },
@@ -135,22 +148,27 @@ a ? (b) : c => (d) : e => f
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 27
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 27
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -159,6 +177,7 @@ a ? (b) : c => (d) : e => f
     "source": "a ? (b) : c => (d) : e => f",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -167,9 +186,7 @@ a ? (b) : c => (d) : e => f
 ### Printed
 
 ```javascript
-
 a ? (b) : c => (d) => f;
-
 ```
 
 ### Diagnostics

@@ -84,6 +84,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -93,6 +94,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -105,12 +107,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
@@ -127,6 +131,7 @@ function f({x:arg = (arg = 2)}) {}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 25
                             },
@@ -136,6 +141,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "text": "h",
                                 "rawText": "h",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
@@ -145,6 +151,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 28
                             },
@@ -163,6 +170,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "text": "g",
                                                     "rawText": "g",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 33
                                                 },
@@ -174,40 +182,48 @@ function f({x:arg = (arg = 2)}) {}
                                                             "text": "arg",
                                                             "rawText": "arg",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 34,
                                                             "end": 37
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 37
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 31,
                                                 "end": 38
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 31,
                                             "end": 38
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 38
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 40
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 40
                         },
                         {
                             "kind": 168,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 41
                         },
@@ -220,6 +236,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "h",
                                     "rawText": "h",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 43
                                 },
@@ -228,28 +245,34 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 44
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 41,
                                 "end": 45
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 41,
                             "end": 45
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 45
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 46
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         },
@@ -260,6 +283,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 56
             },
@@ -269,6 +293,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 58
             },
@@ -284,6 +309,7 @@ function f({x:arg = (arg = 2)}) {}
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 59,
                             "end": 62
                         },
@@ -294,16 +320,19 @@ function f({x:arg = (arg = 2)}) {}
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 63,
                             "end": 64
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 59,
                         "end": 64
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 64
             },
@@ -322,6 +351,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 67,
                                     "end": 68
                                 },
@@ -333,34 +363,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 69,
                                             "end": 72
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 72
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 67,
                                 "end": 73
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 67,
                             "end": 73
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 67,
                     "end": 73
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 74
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 46,
             "end": 74
         },
@@ -371,6 +408,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 74,
                 "end": 84
             },
@@ -380,6 +418,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 86
             },
@@ -392,6 +431,7 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 87,
                         "end": 90
                     },
@@ -400,12 +440,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arguments",
                         "rawText": "arguments",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 91,
                         "end": 101
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 87,
                 "end": 101
             },
@@ -424,6 +466,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 104,
                                     "end": 105
                                 },
@@ -435,20 +478,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 106,
                                             "end": 109
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 106,
                                     "end": 109
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 104,
                                 "end": 110
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 104,
                             "end": 111
                         },
@@ -463,6 +510,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "arguments",
                                         "rawText": "arguments",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 111,
                                         "end": 121
                                     },
@@ -471,16 +519,19 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 122,
                                         "end": 123
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 4,
                                     "start": 111,
                                     "end": 124
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 124,
                                     "end": 126
                                 },
@@ -489,14 +540,17 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 126,
                                     "end": 129
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 111,
                                 "end": 129
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 111,
                             "end": 130
                         },
@@ -509,6 +563,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 130,
                                     "end": 132
                                 },
@@ -520,34 +575,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 133,
                                             "end": 136
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 133,
                                     "end": 136
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 130,
                                 "end": 137
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 130,
                             "end": 137
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 104,
                     "end": 137
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 138
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 74,
             "end": 138
         },
@@ -558,6 +620,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 138,
                 "end": 148
             },
@@ -567,6 +630,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 148,
                 "end": 150
             },
@@ -579,6 +643,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 151,
                             "end": 154
                         },
@@ -587,6 +652,7 @@ function f({x:arg = (arg = 2)}) {}
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 154,
                             "end": 157
                         },
@@ -594,12 +660,14 @@ function f({x:arg = (arg = 2)}) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 151,
                         "end": 157
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 151,
                 "end": 157
             },
@@ -618,6 +686,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 160,
                                     "end": 161
                                 },
@@ -629,20 +698,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 162,
                                             "end": 165
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 162,
                                     "end": 165
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 160,
                                 "end": 166
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 160,
                             "end": 167
                         },
@@ -657,6 +730,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "arguments",
                                         "rawText": "arguments",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 167,
                                         "end": 177
                                     },
@@ -665,16 +739,19 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 178,
                                         "end": 179
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 4,
                                     "start": 167,
                                     "end": 180
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 180,
                                     "end": 182
                                 },
@@ -683,14 +760,17 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 182,
                                     "end": 185
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 167,
                                 "end": 185
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 167,
                             "end": 186
                         },
@@ -703,6 +783,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 186,
                                     "end": 188
                                 },
@@ -714,34 +795,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 189,
                                             "end": 192
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 189,
                                     "end": 192
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 186,
                                 "end": 193
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 186,
                             "end": 193
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 160,
                     "end": 193
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 158,
                 "end": 194
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 138,
             "end": 194
         },
@@ -752,6 +840,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 194,
                 "end": 204
             },
@@ -761,6 +850,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 204,
                 "end": 206
             },
@@ -773,12 +863,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 207,
                         "end": 210
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 207,
                 "end": 210
             },
@@ -797,6 +889,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 213,
                                     "end": 214
                                 },
@@ -808,20 +901,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 215,
                                             "end": 218
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 215,
                                     "end": 218
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 213,
                                 "end": 219
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 213,
                             "end": 220
                         },
@@ -834,12 +931,14 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "arg",
                                     "rawText": "arg",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 220,
                                     "end": 224
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 224,
                                     "end": 226
                                 },
@@ -848,14 +947,17 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 226,
                                     "end": 229
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 220,
                                 "end": 229
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 220,
                             "end": 230
                         },
@@ -868,6 +970,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 230,
                                     "end": 232
                                 },
@@ -879,34 +982,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 233,
                                             "end": 236
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 233,
                                     "end": 236
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 230,
                                 "end": 237
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 230,
                             "end": 237
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 213,
                     "end": 237
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 211,
                 "end": 238
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 194,
             "end": 238
         },
@@ -917,6 +1027,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 238,
                 "end": 248
             },
@@ -926,6 +1037,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 248,
                 "end": 250
             },
@@ -938,12 +1050,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 251,
                         "end": 254
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 251,
                 "end": 254
             },
@@ -962,6 +1076,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 257,
                                     "end": 258
                                 },
@@ -973,20 +1088,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 259,
                                             "end": 262
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 259,
                                     "end": 262
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 257,
                                 "end": 263
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 257,
                             "end": 264
                         },
@@ -999,6 +1118,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 264,
                                     "end": 269
                                 },
@@ -1010,20 +1130,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg = 42",
                                             "rawText": "'arg = 42'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 270,
                                             "end": 280
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 270,
                                     "end": 280
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 264,
                                 "end": 281
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 264,
                             "end": 282
                         },
@@ -1036,6 +1160,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 282,
                                     "end": 284
                                 },
@@ -1047,34 +1172,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 285,
                                             "end": 288
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 285,
                                     "end": 288
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 282,
                                 "end": 289
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 282,
                             "end": 289
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 257,
                     "end": 289
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 255,
                 "end": 290
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 238,
             "end": 290
         },
@@ -1085,6 +1217,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 290,
                 "end": 300
             },
@@ -1094,6 +1227,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 300,
                 "end": 302
             },
@@ -1106,12 +1240,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 303,
                         "end": 306
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 303,
                 "end": 306
             },
@@ -1130,6 +1266,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 309,
                                     "end": 310
                                 },
@@ -1141,20 +1278,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 311,
                                             "end": 314
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 311,
                                     "end": 314
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 309,
                                 "end": 315
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 309,
                             "end": 316
                         },
@@ -1164,6 +1305,7 @@ function f({x:arg = (arg = 2)}) {}
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 316,
                                 "end": 320
                             },
@@ -1177,6 +1319,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 320,
                                             "end": 324
                                         },
@@ -1186,19 +1329,23 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 326,
                                             "end": 329
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 320,
                                         "end": 329
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 320,
                                 "end": 329
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 316,
                             "end": 330
                         },
@@ -1211,6 +1358,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 330,
                                     "end": 332
                                 },
@@ -1222,34 +1370,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 333,
                                             "end": 336
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 333,
                                     "end": 336
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 330,
                                 "end": 337
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 330,
                             "end": 337
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 309,
                     "end": 337
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 307,
                 "end": 338
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 290,
             "end": 338
         },
@@ -1260,6 +1415,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 338,
                 "end": 348
             },
@@ -1269,6 +1425,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 348,
                 "end": 350
             },
@@ -1281,6 +1438,7 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 351,
                         "end": 354
                     },
@@ -1292,6 +1450,7 @@ function f({x:arg = (arg = 2)}) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 355,
                             "end": 357
                         },
@@ -1302,16 +1461,19 @@ function f({x:arg = (arg = 2)}) {}
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 358,
                             "end": 359
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 355,
                         "end": 359
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 351,
                 "end": 359
             },
@@ -1330,6 +1492,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 362,
                                     "end": 363
                                 },
@@ -1341,20 +1504,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 364,
                                             "end": 367
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 364,
                                     "end": 367
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 362,
                                 "end": 368
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 362,
                             "end": 369
                         },
@@ -1367,12 +1534,14 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "arg",
                                     "rawText": "arg",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 369,
                                     "end": 373
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 373,
                                     "end": 375
                                 },
@@ -1381,14 +1550,17 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 375,
                                     "end": 378
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 369,
                                 "end": 378
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 369,
                             "end": 379
                         },
@@ -1401,6 +1573,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 379,
                                     "end": 381
                                 },
@@ -1412,34 +1585,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 382,
                                             "end": 385
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 382,
                                     "end": 385
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 379,
                                 "end": 386
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 379,
                             "end": 386
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 362,
                     "end": 386
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 360,
                 "end": 387
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 338,
             "end": 387
         },
@@ -1450,6 +1630,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 387,
                 "end": 397
             },
@@ -1459,6 +1640,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 397,
                 "end": 399
             },
@@ -1471,6 +1653,7 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 400,
                         "end": 403
                     },
@@ -1479,6 +1662,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 404,
                             "end": 408
                         },
@@ -1487,6 +1671,7 @@ function f({x:arg = (arg = 2)}) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 408,
                             "end": 409
                         },
@@ -1494,12 +1679,14 @@ function f({x:arg = (arg = 2)}) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 404,
                         "end": 409
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 400,
                 "end": 409
             },
@@ -1518,6 +1705,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 412,
                                     "end": 413
                                 },
@@ -1529,20 +1717,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 414,
                                             "end": 417
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 414,
                                     "end": 417
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 412,
                                 "end": 418
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 412,
                             "end": 419
                         },
@@ -1555,12 +1747,14 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "arg",
                                     "rawText": "arg",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 419,
                                     "end": 423
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 423,
                                     "end": 425
                                 },
@@ -1569,14 +1763,17 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 425,
                                     "end": 428
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 419,
                                 "end": 428
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 419,
                             "end": 429
                         },
@@ -1589,6 +1786,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 429,
                                     "end": 431
                                 },
@@ -1600,34 +1798,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 432,
                                             "end": 435
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 432,
                                     "end": 435
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 429,
                                 "end": 436
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 429,
                             "end": 436
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 412,
                     "end": 436
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 410,
                 "end": 437
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 387,
             "end": 437
         },
@@ -1638,6 +1843,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 437,
                 "end": 447
             },
@@ -1647,6 +1853,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 447,
                 "end": 449
             },
@@ -1662,6 +1869,7 @@ function f({x:arg = (arg = 2)}) {}
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 450,
                             "end": 453
                         },
@@ -1672,16 +1880,19 @@ function f({x:arg = (arg = 2)}) {}
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 454,
                             "end": 455
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 450,
                         "end": 455
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 450,
                 "end": 455
             },
@@ -1700,6 +1911,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 458,
                                     "end": 459
                                 },
@@ -1711,20 +1923,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 460,
                                             "end": 463
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 460,
                                     "end": 463
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 458,
                                 "end": 464
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 458,
                             "end": 465
                         },
@@ -1737,12 +1953,14 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "arg",
                                     "rawText": "arg",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 465,
                                     "end": 469
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 469,
                                     "end": 471
                                 },
@@ -1751,14 +1969,17 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 471,
                                     "end": 474
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 465,
                                 "end": 474
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 465,
                             "end": 475
                         },
@@ -1771,6 +1992,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 475,
                                     "end": 477
                                 },
@@ -1782,34 +2004,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 478,
                                             "end": 481
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 478,
                                     "end": 481
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 475,
                                 "end": 482
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 475,
                             "end": 482
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 458,
                     "end": 482
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 456,
                 "end": 483
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 437,
             "end": 483
         },
@@ -1820,6 +2049,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 483,
                 "end": 493
             },
@@ -1829,6 +2059,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 493,
                 "end": 495
             },
@@ -1841,12 +2072,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 496,
                         "end": 499
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 496,
                 "end": 499
             },
@@ -1860,6 +2093,7 @@ function f({x:arg = (arg = 2)}) {}
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 502,
                             "end": 514
                         }
@@ -1874,6 +2108,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 515,
                                     "end": 517
                                 },
@@ -1885,20 +2120,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 518,
                                             "end": 521
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 518,
                                     "end": 521
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 515,
                                 "end": 522
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 515,
                             "end": 523
                         },
@@ -1911,12 +2150,14 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "arg",
                                     "rawText": "arg",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 523,
                                     "end": 527
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 527,
                                     "end": 529
                                 },
@@ -1925,14 +2166,17 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 529,
                                     "end": 532
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 523,
                                 "end": 532
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 523,
                             "end": 533
                         },
@@ -1945,6 +2189,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 533,
                                     "end": 535
                                 },
@@ -1956,34 +2201,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 536,
                                             "end": 539
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 536,
                                     "end": 539
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 533,
                                 "end": 540
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 533,
                             "end": 540
                         }
                     ],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 502,
                     "end": 540
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 500,
                 "end": 541
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 483,
             "end": 541
         },
@@ -1994,6 +2246,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 541,
                 "end": 551
             },
@@ -2003,6 +2256,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 551,
                 "end": 553
             },
@@ -2015,6 +2269,7 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 554,
                         "end": 557
                     },
@@ -2031,6 +2286,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 560,
                                         "end": 561
                                     },
@@ -2048,6 +2304,7 @@ function f({x:arg = (arg = 2)}) {}
                                                         "text": "g",
                                                         "rawText": "g",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 563,
                                                         "end": 564
                                                     },
@@ -2059,16 +2316,19 @@ function f({x:arg = (arg = 2)}) {}
                                                                 "text": "arg",
                                                                 "rawText": "arg",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 565,
                                                                 "end": 568
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 565,
                                                         "end": 568
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 562,
                                                     "end": 569
                                                 },
@@ -2079,12 +2339,14 @@ function f({x:arg = (arg = 2)}) {}
                                                         "text": "arg",
                                                         "rawText": "arg",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 570,
                                                         "end": 574
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 574,
                                                         "end": 575
                                                     },
@@ -2093,39 +2355,47 @@ function f({x:arg = (arg = 2)}) {}
                                                         "text": 42,
                                                         "rawText": "42",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 575,
                                                         "end": 577
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 562,
                                                     "end": 577
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 1024,
                                             "start": 562,
                                             "end": 578
                                         },
-                                        "flags": 32,
-                                        "start": 562,
+                                        "flags": 562,
+                                        "transformFlags": 0,
+                                        "start": 34,
                                         "end": 578
                                     },
                                     "flags": 0,
+                                    "transformFlags": 4096,
                                     "start": 560,
                                     "end": 578
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 560,
                             "end": 578
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 558,
                         "end": 579
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 554,
                 "end": 579
             },
@@ -2144,6 +2414,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 582,
                                     "end": 583
                                 },
@@ -2155,34 +2426,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 584,
                                             "end": 587
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 584,
                                     "end": 587
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 582,
                                 "end": 588
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 582,
                             "end": 588
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 582,
                     "end": 588
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 580,
                 "end": 589
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 541,
             "end": 589
         },
@@ -2193,6 +2471,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 589,
                 "end": 599
             },
@@ -2202,6 +2481,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 599,
                 "end": 601
             },
@@ -2214,12 +2494,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 602,
                         "end": 605
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 602,
                 "end": 605
             },
@@ -2238,6 +2520,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 608,
                                     "end": 609
                                 },
@@ -2249,20 +2532,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 610,
                                             "end": 613
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 610,
                                     "end": 613
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 608,
                                 "end": 614
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 608,
                             "end": 615
                         },
@@ -2275,6 +2562,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 615,
                                     "end": 617
                                 },
@@ -2287,6 +2575,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 618,
                                                 "end": 626
                                             },
@@ -2298,6 +2587,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 627,
                                                 "end": 627
                                             },
@@ -2316,12 +2606,14 @@ function f({x:arg = (arg = 2)}) {}
                                                                     "text": "arg",
                                                                     "rawText": "arg",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 630,
                                                                     "end": 633
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 633,
                                                                     "end": 635
                                                                 },
@@ -2330,42 +2622,51 @@ function f({x:arg = (arg = 2)}) {}
                                                                     "text": 42,
                                                                     "rawText": "42",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 635,
                                                                     "end": 638
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 0,
+                                                                "transformFlags": 128,
                                                                 "start": 630,
                                                                 "end": 638
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4096,
                                                             "start": 630,
                                                             "end": 638
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 630,
                                                     "end": 638
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 628,
                                                 "end": 639
                                             },
                                             "returnType": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 618,
                                             "end": 639
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 618,
                                     "end": 639
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 615,
                                 "end": 640
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 615,
                             "end": 641
                         },
@@ -2378,6 +2679,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 641,
                                     "end": 643
                                 },
@@ -2389,34 +2691,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 644,
                                             "end": 647
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 644,
                                     "end": 647
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 641,
                                 "end": 648
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 641,
                             "end": 648
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 608,
                     "end": 648
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 606,
                 "end": 649
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 589,
             "end": 649
         },
@@ -2427,6 +2736,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 649,
                 "end": 659
             },
@@ -2436,6 +2746,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 659,
                 "end": 661
             },
@@ -2448,12 +2759,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 662,
                         "end": 665
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 662,
                 "end": 665
             },
@@ -2472,6 +2785,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 668,
                                     "end": 669
                                 },
@@ -2483,20 +2797,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 670,
                                             "end": 673
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 670,
                                     "end": 673
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 668,
                                 "end": 674
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 668,
                             "end": 675
                         },
@@ -2509,6 +2827,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 675,
                                     "end": 677
                                 },
@@ -2523,7 +2842,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 679,
                                                 "end": 679
                                             },
@@ -2531,6 +2851,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 680,
                                                 "end": 683
                                             },
@@ -2541,12 +2862,14 @@ function f({x:arg = (arg = 2)}) {}
                                                     "text": "arg",
                                                     "rawText": "arg",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 683,
                                                     "end": 687
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 687,
                                                     "end": 689
                                                 },
@@ -2555,28 +2878,34 @@ function f({x:arg = (arg = 2)}) {}
                                                     "text": 42,
                                                     "rawText": "42",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 689,
                                                     "end": 692
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 683,
                                                 "end": 692
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 678,
                                             "end": 692
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 678,
                                     "end": 692
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 675,
                                 "end": 693
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 675,
                             "end": 694
                         },
@@ -2589,6 +2918,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 694,
                                     "end": 696
                                 },
@@ -2600,34 +2930,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 697,
                                             "end": 700
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 697,
                                     "end": 700
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 694,
                                 "end": 701
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 694,
                             "end": 701
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 668,
                     "end": 701
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 666,
                 "end": 702
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 649,
             "end": 702
         },
@@ -2638,6 +2975,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 702,
                 "end": 712
             },
@@ -2647,6 +2985,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 712,
                 "end": 714
             },
@@ -2659,12 +2998,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 715,
                         "end": 718
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 715,
                 "end": 718
             },
@@ -2683,6 +3024,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 721,
                                     "end": 722
                                 },
@@ -2694,20 +3036,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 723,
                                             "end": 726
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 723,
                                     "end": 726
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 721,
                                 "end": 727
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 721,
                             "end": 728
                         },
@@ -2720,6 +3066,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 728,
                                     "end": 730
                                 },
@@ -2734,7 +3081,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 732,
                                                 "end": 732
                                             },
@@ -2742,6 +3090,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 733,
                                                 "end": 736
                                             },
@@ -2752,6 +3101,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "text": "eval",
                                                     "rawText": "eval",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 736,
                                                     "end": 741
                                                 },
@@ -2763,34 +3113,41 @@ function f({x:arg = (arg = 2)}) {}
                                                             "text": "arg = 42",
                                                             "rawText": "'arg = 42'",
                                                             "flags": 4194400,
+                                                            "transformFlags": 0,
                                                             "start": 742,
                                                             "end": 752
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 742,
                                                     "end": 752
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 736,
                                                 "end": 753
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 731,
                                             "end": 753
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 731,
                                     "end": 753
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 728,
                                 "end": 754
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 728,
                             "end": 755
                         },
@@ -2803,6 +3160,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 755,
                                     "end": 757
                                 },
@@ -2814,34 +3172,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 758,
                                             "end": 761
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 758,
                                     "end": 761
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 755,
                                 "end": 762
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 755,
                             "end": 762
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 721,
                     "end": 762
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 719,
                 "end": 763
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 702,
             "end": 763
         },
@@ -2852,6 +3217,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 763,
                 "end": 773
             },
@@ -2861,6 +3227,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 773,
                 "end": 775
             },
@@ -2873,6 +3240,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 776,
                             "end": 779
                         },
@@ -2881,6 +3249,7 @@ function f({x:arg = (arg = 2)}) {}
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 779,
                             "end": 782
                         },
@@ -2888,12 +3257,14 @@ function f({x:arg = (arg = 2)}) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 776,
                         "end": 782
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 776,
                 "end": 782
             },
@@ -2912,6 +3283,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 785,
                                     "end": 786
                                 },
@@ -2923,20 +3295,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 787,
                                             "end": 790
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 787,
                                     "end": 790
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 785,
                                 "end": 791
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 785,
                             "end": 792
                         },
@@ -2949,6 +3325,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 792,
                                     "end": 797
                                 },
@@ -2960,20 +3337,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg = 42",
                                             "rawText": "'arg = 42'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 798,
                                             "end": 808
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 798,
                                     "end": 808
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 792,
                                 "end": 809
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 792,
                             "end": 810
                         },
@@ -2986,6 +3367,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 810,
                                     "end": 812
                                 },
@@ -2997,34 +3379,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 813,
                                             "end": 816
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 813,
                                     "end": 816
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 810,
                                 "end": 817
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 810,
                             "end": 817
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 785,
                     "end": 817
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 783,
                 "end": 818
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 763,
             "end": 818
         },
@@ -3035,6 +3424,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 818,
                 "end": 828
             },
@@ -3044,6 +3434,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 828,
                 "end": 830
             },
@@ -3056,12 +3447,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 831,
                         "end": 834
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 831,
                 "end": 834
             },
@@ -3080,6 +3473,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 837,
                                     "end": 838
                                 },
@@ -3091,20 +3485,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 839,
                                             "end": 842
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 839,
                                     "end": 842
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 837,
                                 "end": 843
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 837,
                             "end": 844
                         },
@@ -3119,6 +3517,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "arguments",
                                         "rawText": "arguments",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 844,
                                         "end": 854
                                     },
@@ -3127,16 +3526,19 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 855,
                                         "end": 856
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 4,
                                     "start": 844,
                                     "end": 857
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 857,
                                     "end": 859
                                 },
@@ -3145,14 +3547,17 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 859,
                                     "end": 862
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 844,
                                 "end": 862
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 844,
                             "end": 863
                         },
@@ -3165,6 +3570,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 863,
                                     "end": 865
                                 },
@@ -3176,34 +3582,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 866,
                                             "end": 869
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 866,
                                     "end": 869
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 863,
                                 "end": 870
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 863,
                             "end": 870
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 837,
                     "end": 870
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 835,
                 "end": 871
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 818,
             "end": 871
         },
@@ -3214,6 +3627,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 871,
                 "end": 881
             },
@@ -3223,6 +3637,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 881,
                 "end": 883
             },
@@ -3235,12 +3650,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 884,
                         "end": 887
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 884,
                 "end": 887
             },
@@ -3259,6 +3676,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 890,
                                     "end": 891
                                 },
@@ -3270,20 +3688,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 892,
                                             "end": 895
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 892,
                                     "end": 895
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 890,
                                 "end": 896
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 890,
                             "end": 897
                         },
@@ -3296,6 +3718,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "h",
                                     "rawText": "h",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 897,
                                     "end": 899
                                 },
@@ -3307,20 +3730,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arguments",
                                             "rawText": "arguments",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 900,
                                             "end": 909
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 900,
                                     "end": 909
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 897,
                                 "end": 910
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 897,
                             "end": 911
                         },
@@ -3333,6 +3760,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 911,
                                     "end": 913
                                 },
@@ -3344,34 +3772,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 914,
                                             "end": 917
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 914,
                                     "end": 917
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 911,
                                 "end": 918
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 911,
                             "end": 918
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 890,
                     "end": 918
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 888,
                 "end": 919
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 871,
             "end": 919
         },
@@ -3382,6 +3817,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 919,
                 "end": 929
             },
@@ -3391,6 +3827,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 929,
                 "end": 931
             },
@@ -3403,12 +3840,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 932,
                         "end": 935
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 932,
                 "end": 935
             },
@@ -3427,6 +3866,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 938,
                                     "end": 939
                                 },
@@ -3438,20 +3878,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 940,
                                             "end": 943
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 940,
                                     "end": 943
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 938,
                                 "end": 944
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 938,
                             "end": 945
                         },
@@ -3464,6 +3908,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 945,
                                     "end": 950
                                 },
@@ -3475,20 +3920,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arguments[0] = 42",
                                             "rawText": "'arguments[0] = 42'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 951,
                                             "end": 970
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 951,
                                     "end": 970
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 945,
                                 "end": 971
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 945,
                             "end": 972
                         },
@@ -3501,6 +3950,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 972,
                                     "end": 974
                                 },
@@ -3512,34 +3962,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 975,
                                             "end": 978
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 975,
                                     "end": 978
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 972,
                                 "end": 979
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 972,
                             "end": 979
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 938,
                     "end": 979
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 936,
                 "end": 980
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 919,
             "end": 980
         },
@@ -3550,6 +4007,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 980,
                 "end": 990
             },
@@ -3559,6 +4017,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 990,
                 "end": 992
             },
@@ -3571,12 +4030,14 @@ function f({x:arg = (arg = 2)}) {}
                         "text": "arg",
                         "rawText": "arg",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 993,
                         "end": 996
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 993,
                 "end": 996
             },
@@ -3595,6 +4056,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 999,
                                     "end": 1000
                                 },
@@ -3606,20 +4068,24 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1001,
                                             "end": 1004
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1001,
                                     "end": 1004
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 999,
                                 "end": 1005
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 999,
                             "end": 1006
                         },
@@ -3632,6 +4098,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1006,
                                     "end": 1008
                                 },
@@ -3646,7 +4113,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 1010,
                                                 "end": 1010
                                             },
@@ -3654,6 +4122,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 1011,
                                                 "end": 1014
                                             },
@@ -3666,6 +4135,7 @@ function f({x:arg = (arg = 2)}) {}
                                                         "text": "arguments",
                                                         "rawText": "arguments",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1014,
                                                         "end": 1024
                                                     },
@@ -3674,16 +4144,19 @@ function f({x:arg = (arg = 2)}) {}
                                                         "text": 0,
                                                         "rawText": "0",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1025,
                                                         "end": 1026
                                                     },
                                                     "flags": 536870944,
+                                                    "transformFlags": 4,
                                                     "start": 1014,
                                                     "end": 1027
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 1027,
                                                     "end": 1029
                                                 },
@@ -3692,28 +4165,34 @@ function f({x:arg = (arg = 2)}) {}
                                                     "text": 42,
                                                     "rawText": "42",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 1029,
                                                     "end": 1032
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 1014,
                                                 "end": 1032
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 1009,
                                             "end": 1032
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1009,
                                     "end": 1032
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 1006,
                                 "end": 1033
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 1006,
                             "end": 1034
                         },
@@ -3726,6 +4205,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1034,
                                     "end": 1036
                                 },
@@ -3737,34 +4217,41 @@ function f({x:arg = (arg = 2)}) {}
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1037,
                                             "end": 1040
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1037,
                                     "end": 1040
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 1034,
                                 "end": 1041
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 1034,
                             "end": 1041
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 999,
                     "end": 1041
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 997,
                 "end": 1042
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 980,
             "end": 1042
         },
@@ -3775,6 +4262,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1042,
                 "end": 1052
             },
@@ -3784,6 +4272,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1052,
                 "end": 1054
             },
@@ -3803,6 +4292,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1056,
                                         "end": 1057
                                     },
@@ -3811,6 +4301,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "arg",
                                         "rawText": "arg",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1058,
                                         "end": 1061
                                     },
@@ -3819,20 +4310,24 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1063,
                                         "end": 1065
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1056,
                                     "end": 1065
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1056,
                             "end": 1065
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1055,
                         "end": 1066
                     },
@@ -3848,6 +4343,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1069,
                                         "end": 1070
                                     },
@@ -3856,6 +4352,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1071,
                                         "end": 1072
                                     },
@@ -3868,12 +4365,14 @@ function f({x:arg = (arg = 2)}) {}
                                                 "text": "arg",
                                                 "rawText": "arg",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1074,
                                                 "end": 1077
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1077,
                                                 "end": 1078
                                             },
@@ -3882,34 +4381,41 @@ function f({x:arg = (arg = 2)}) {}
                                                 "text": 2,
                                                 "rawText": "2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1078,
                                                 "end": 1079
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 1073,
                                             "end": 1079
                                         },
-                                        "flags": 32,
-                                        "start": 1073,
+                                        "flags": 1073,
+                                        "transformFlags": 0,
+                                        "start": 34,
                                         "end": 1080
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1069,
                                     "end": 1080
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1069,
                             "end": 1080
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1067,
                         "end": 1081
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1055,
                 "end": 1081
             },
@@ -3920,15 +4426,18 @@ function f({x:arg = (arg = 2)}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1084,
                     "end": 1084
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1082,
                 "end": 1085
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1042,
             "end": 1085
         },
@@ -3939,6 +4448,7 @@ function f({x:arg = (arg = 2)}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1085,
                 "end": 1095
             },
@@ -3948,6 +4458,7 @@ function f({x:arg = (arg = 2)}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1095,
                 "end": 1097
             },
@@ -3967,6 +4478,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1099,
                                         "end": 1100
                                     },
@@ -3975,6 +4487,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "text": "arg",
                                         "rawText": "arg",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1101,
                                         "end": 1104
                                     },
@@ -3987,12 +4500,14 @@ function f({x:arg = (arg = 2)}) {}
                                                 "text": "arg",
                                                 "rawText": "arg",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1108,
                                                 "end": 1111
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1111,
                                                 "end": 1113
                                             },
@@ -4001,34 +4516,41 @@ function f({x:arg = (arg = 2)}) {}
                                                 "text": 2,
                                                 "rawText": "2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1113,
                                                 "end": 1115
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 1106,
                                             "end": 1115
                                         },
-                                        "flags": 32,
-                                        "start": 1106,
+                                        "flags": 1106,
+                                        "transformFlags": 0,
+                                        "start": 34,
                                         "end": 1116
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1099,
                                     "end": 1116
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1099,
                             "end": 1116
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1098,
                         "end": 1117
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1098,
                 "end": 1117
             },
@@ -4039,15 +4561,18 @@ function f({x:arg = (arg = 2)}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1120,
                     "end": 1120
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1118,
                 "end": 1121
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1085,
             "end": 1121
         }
@@ -4056,6 +4581,7 @@ function f({x:arg = (arg = 2)}) {}
     "source": "function f(arg) {function h() { g(arg) }; h()}\n\nfunction f(arg=1) {g(arg)}\n\nfunction f(arg, arguments) {g(arg); arguments[0] = 42; g(arg)}\n\nfunction f(...arg) {g(arg); arguments[0] = 42; g(arg)}\n\nfunction f(arg) {g(arg); arg = 42; g(arg)}\n\nfunction f(arg) {g(arg); eval('arg = 42'); g(arg)}\n\nfunction f(arg) {g(arg); var arg = 42; g(arg)}\n\nfunction f(arg, x=1) {g(arg); arg = 42; g(arg)}\n\nfunction f(arg, ...x) {g(arg); arg = 42; g(arg)}\n\nfunction f(arg=1) {g(arg); arg = 42; g(arg)}\n\nfunction f(arg) {'use strict'; g(arg); arg = 42; g(arg)}\n\nfunction f(arg, {a=(g(arg), arg=42)}) {g(arg)}\n\nfunction f(arg) {g(arg); g(function() {arg = 42}); g(arg)}\n\nfunction f(arg) {g(arg); g(() => arg = 42); g(arg)}\n\nfunction f(arg) {g(arg); g(() => eval('arg = 42')); g(arg)}\n\nfunction f(...arg) {g(arg); eval('arg = 42'); g(arg)}\n\nfunction f(arg) {g(arg); arguments[0] = 42; g(arg)}\n\nfunction f(arg) {g(arg); h(arguments); g(arg)}\n\nfunction f(arg) {g(arg); eval('arguments[0] = 42'); g(arg)}\n\nfunction f(arg) {g(arg); g(() => arguments[0] = 42); g(arg)}\n\nfunction f({x:arg = 1}, {y:b=(arg=2)}) {}\n\nfunction f({x:arg = (arg = 2)}) {}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 1122
 }
@@ -4064,68 +4590,76 @@ function f({x:arg = (arg = 2)}) {}
 ### Printed
 
 ```javascript
-
 function f(arg) {
   function h() {
     g(arg);
   }
-  ;
   h();
 }
 function f(arg = 1) {
   g(arg);
 }
+
 function f(arg, arguments) {
   g(arg);
   arguments[0] = 42;
   g(arg);
 }
+
 function f(...arg) {
   g(arg);
   arguments[0] = 42;
   g(arg);
 }
+
 function f(arg) {
   g(arg);
   arg = 42;
   g(arg);
 }
+
 function f(arg) {
   g(arg);
-  eval('\'arg = 42\'');
+  eval("'arg = 42'");
   g(arg);
 }
+
 function f(arg) {
   g(arg);
   var arg = 42;
   g(arg);
 }
+
 function f(arg, x = 1) {
   g(arg);
   arg = 42;
   g(arg);
 }
+
 function f(arg, ...x) {
   g(arg);
   arg = 42;
   g(arg);
 }
+
 function f(arg = 1) {
   g(arg);
   arg = 42;
   g(arg);
 }
+
 function f(arg) {
-'\'use strict\'';
+
+  "'use strict'";
   g(arg);
   arg = 42;
   g(arg);
 }
-function f(arg, {
-    a = (g(arg), arg = 42)
-  }) {
+
+function f(arg, { a = (g(arg), arg = 42) }) {
   g(arg);
 }
+
 function f(arg) {
   g(arg);
   g(function () {
@@ -4133,49 +4667,52 @@ function f(arg) {
   });
   g(arg);
 }
+
 function f(arg) {
   g(arg);
   g(() => arg = 42);
   g(arg);
 }
+
 function f(arg) {
   g(arg);
-  g(() => eval('\'arg = 42\''));
+  g(() => eval("'arg = 42'"));
   g(arg);
 }
+
 function f(...arg) {
   g(arg);
-  eval('\'arg = 42\'');
+  eval("'arg = 42'");
   g(arg);
 }
+
 function f(arg) {
   g(arg);
   arguments[0] = 42;
   g(arg);
 }
+
 function f(arg) {
   g(arg);
   h(arguments);
   g(arg);
 }
+
 function f(arg) {
   g(arg);
-  eval('\'arguments[0] = 42\'');
+  eval("'arguments[0] = 42'");
   g(arg);
 }
+
 function f(arg) {
   g(arg);
   g(() => arguments[0] = 42);
   g(arg);
 }
-function f({
-    x: arg = 1
-  }, {
-    y: b = (arg = 2)
-  }) {}
-function f({
-    x: arg = (arg = 2)
-  }) {}
+
+function f({ x: arg = 1 }, { y: b = (arg = 2) }) {}
+
+function f({ x: arg = (arg = 2) }) {}
 
 ```
 

@@ -30,6 +30,7 @@ class Foo { static x = function() { return this } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class Foo { static x = function() { return this } }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -55,6 +57,7 @@ class Foo { static x = function() { return this } }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 18
                             },
@@ -64,6 +67,7 @@ class Foo { static x = function() { return this } }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
@@ -75,6 +79,7 @@ class Foo { static x = function() { return this } }
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 31
                                 },
@@ -86,6 +91,7 @@ class Foo { static x = function() { return this } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 32
                                 },
@@ -100,47 +106,57 @@ class Foo { static x = function() { return this } }
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 42
                                                 },
                                                 "expression": {
                                                     "kind": 4276321,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 47
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 35,
                                                 "end": 47
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 47
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 49
                                 },
                                 "returnType": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 49
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 18,
                             "end": 49
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 49
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         }
@@ -149,6 +165,7 @@ class Foo { static x = function() { return this } }
     "source": "class Foo { static x = function() { return this } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }
@@ -157,13 +174,11 @@ class Foo { static x = function() { return this } }
 ### Printed
 
 ```javascript
-
 class Foo {
   static x = function () {
     return this;
-  }
+  };
 }
-
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ var f = (x): (number) => 123 => 123;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var f = (x): (number) => 123 => 123;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -58,12 +60,14 @@ var f = (x): (number) => 123 => 123;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 21
                             },
@@ -76,20 +80,24 @@ var f = (x): (number) => 123 => 123;
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 20
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 21
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 21
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 24
                             },
@@ -98,23 +106,28 @@ var f = (x): (number) => 123 => 123;
                                 "text": 123,
                                 "rawText": "123",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 28
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
@@ -125,10 +138,12 @@ var f = (x): (number) => 123 => 123;
                 "text": 123,
                 "rawText": "123",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 31,
             "end": 36
         }
@@ -137,6 +152,7 @@ var f = (x): (number) => 123 => 123;
     "source": "var f = (x): (number) => 123 => 123;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

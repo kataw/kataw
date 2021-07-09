@@ -39,6 +39,7 @@ for ([x] in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -52,22 +53,26 @@ for ([x] in obj);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 7
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 8
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -76,16 +81,19 @@ for ([x] in obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -94,6 +102,7 @@ for ([x] in obj);
     "source": "for ([x] in obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -102,10 +111,7 @@ for ([x] in obj);
 ### Printed
 
 ```javascript
-
-for ([x,] in obj)
-  ;
-
+for ([x] in obj);
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ type UnionAlias = 1 | 2 | 3;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type UnionAlias = 1 | 2 | 3;
                 "text": "UnionAlias",
                 "rawText": "UnionAlias",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 15
             },
@@ -44,6 +46,7 @@ type UnionAlias = 1 | 2 | 3;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
@@ -59,6 +62,7 @@ type UnionAlias = 1 | 2 | 3;
                             "text": 1,
                             "rawText": "1",
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -67,6 +71,7 @@ type UnionAlias = 1 | 2 | 3;
                             "text": 2,
                             "rawText": "2",
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 23
                         },
@@ -75,19 +80,23 @@ type UnionAlias = 1 | 2 | 3;
                             "text": 3,
                             "rawText": "3",
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 27
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 27
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 27
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -96,6 +105,7 @@ type UnionAlias = 1 | 2 | 3;
     "source": "type UnionAlias = 1 | 2 | 3;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -104,9 +114,7 @@ type UnionAlias = 1 | 2 | 3;
 ### Printed
 
 ```javascript
-
 type UnionAlias = 1 | 2 | 3
-
 ```
 
 ### Diagnostics

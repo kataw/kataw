@@ -25,6 +25,7 @@ function bar(a = ``) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -34,6 +35,7 @@ function bar(a = ``) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -49,6 +51,7 @@ function bar(a = ``) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -59,16 +62,19 @@ function bar(a = ``) {
                             "text": "",
                             "rawText": "",
                             "flags": 134217824,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 19
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 19
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -79,15 +85,18 @@ function bar(a = ``) {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 24
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         },
@@ -98,6 +107,7 @@ function bar(a = ``) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 34
             },
@@ -107,6 +117,7 @@ function bar(a = ``) {
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 38
             },
@@ -122,6 +133,7 @@ function bar(a = ``) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 40
                         },
@@ -132,16 +144,19 @@ function bar(a = ``) {
                             "text": "",
                             "rawText": "",
                             "flags": 134217824,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 45
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 39,
                         "end": 45
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 45
             },
@@ -152,15 +167,18 @@ function bar(a = ``) {
                     "directives": [],
                     "statements": [],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 48,
                     "end": 48
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 50
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 50
         }
@@ -169,6 +187,7 @@ function bar(a = ``) {
     "source": "function foo(a = ``) { }\n\nfunction bar(a = ``) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }
@@ -177,10 +196,8 @@ function bar(a = ``) {
 ### Printed
 
 ```javascript
-
 function foo(a = ``) {}
-function bar(a = ``) {
-}
+function bar(a = ``) {}
 
 ```
 

@@ -28,6 +28,7 @@ for (fooo.bar in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ for (fooo.bar in x) ;
                     "text": "fooo",
                     "rawText": "fooo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
@@ -46,16 +48,19 @@ for (fooo.bar in x) ;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 13
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
@@ -64,16 +69,19 @@ for (fooo.bar in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -82,6 +90,7 @@ for (fooo.bar in x) ;
     "source": "for (fooo.bar in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -90,10 +99,7 @@ for (fooo.bar in x) ;
 ### Printed
 
 ```javascript
-
-for (fooo.bar in x)
-  ;
-
+for (fooo.bar in x);
 ```
 
 ### Diagnostics

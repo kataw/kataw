@@ -26,12 +26,14 @@ export default class {}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -42,6 +44,7 @@ export default class {}
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
@@ -54,18 +57,22 @@ export default class {}
                         "kind": 303,
                         "elements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 20,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -74,6 +81,7 @@ export default class {}
     "source": "export default class {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -82,10 +90,7 @@ export default class {}
 ### Printed
 
 ```javascript
-
-export default class  {
-};
-
+export default class {};
 ```
 
 ### Diagnostics

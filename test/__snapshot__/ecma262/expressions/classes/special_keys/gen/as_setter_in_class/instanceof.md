@@ -30,6 +30,7 @@ class x {set instanceof(x){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {set instanceof(x){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -58,6 +60,7 @@ class x {set instanceof(x){}}
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
@@ -69,6 +72,7 @@ class x {set instanceof(x){}}
                                     "text": "instanceof",
                                     "rawText": "instanceof",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 23
                                 },
@@ -81,12 +85,14 @@ class x {set instanceof(x){}}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 25
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -98,31 +104,38 @@ class x {set instanceof(x){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 28
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 28
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -131,6 +144,7 @@ class x {set instanceof(x){}}
     "source": "class x {set instanceof(x){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -139,11 +153,9 @@ class x {set instanceof(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set instanceof(x) {}
 }
-
 ```
 
 ### Diagnostics

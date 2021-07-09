@@ -28,12 +28,14 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 4
                         },
@@ -42,20 +44,24 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 0,
                         "end": 6
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 34622,
                     "flags": 96,
+                    "transformFlags": 16,
                     "start": 7,
                     "end": 10
                 },
@@ -64,14 +70,17 @@
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -80,6 +89,7 @@
     "source": "(x + y) == z",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -88,9 +98,7 @@
 ### Printed
 
 ```javascript
-
 (x + y) == z;
-
 ```
 
 ### Diagnostics

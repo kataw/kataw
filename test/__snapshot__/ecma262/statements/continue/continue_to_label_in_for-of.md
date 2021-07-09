@@ -22,12 +22,14 @@ foo: for (x of y) continue foo;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -36,6 +38,7 @@ foo: for (x of y) continue foo;
                 "forKeyword": {
                     "kind": 37757017,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 8
                 },
@@ -45,12 +48,14 @@ foo: for (x of y) continue foo;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
                 "ofKeyword": {
                     "kind": 16793717,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
@@ -59,6 +64,7 @@ foo: for (x of y) continue foo;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -67,6 +73,7 @@ foo: for (x of y) continue foo;
                     "continueKeyword": {
                         "kind": 37757009,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 26
                     },
@@ -75,18 +82,22 @@ foo: for (x of y) continue foo;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 30
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 31
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -95,6 +106,7 @@ foo: for (x of y) continue foo;
     "source": "foo: for (x of y) continue foo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -103,10 +115,7 @@ foo: for (x of y) continue foo;
 ### Printed
 
 ```javascript
-
-foo: for (x of y)
-  continue foo;
-
+foo:  for (x of y) continue foo;
 ```
 
 ### Diagnostics

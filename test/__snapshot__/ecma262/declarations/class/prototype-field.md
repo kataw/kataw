@@ -26,6 +26,7 @@ class Foo { prototype = 1 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ class Foo { prototype = 1 }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -55,6 +57,7 @@ class Foo { prototype = 1 }
                                 "text": "prototype",
                                 "rawText": "prototype",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 21
                             },
@@ -62,19 +65,23 @@ class Foo { prototype = 1 }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 21
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 21
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -85,6 +92,7 @@ class Foo { prototype = 1 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 30
             },
@@ -93,6 +101,7 @@ class Foo { prototype = 1 }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 34
             },
@@ -114,6 +123,7 @@ class Foo { prototype = 1 }
                                 "text": "prototype",
                                 "rawText": "'prototype'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 48
                             },
@@ -121,19 +131,23 @@ class Foo { prototype = 1 }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 36,
                             "end": 48
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 48
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 50
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 23,
             "end": 50
         },
@@ -144,6 +158,7 @@ class Foo { prototype = 1 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 57
             },
@@ -152,6 +167,7 @@ class Foo { prototype = 1 }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 61
             },
@@ -173,6 +189,7 @@ class Foo { prototype = 1 }
                                 "text": "prototype",
                                 "rawText": "prototype",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 73
                             },
@@ -183,23 +200,28 @@ class Foo { prototype = 1 }
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 75,
                                 "end": 77
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 63,
                             "end": 77
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 77
                 },
                 "flags": 61,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 79
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 50,
             "end": 79
         }
@@ -208,6 +230,7 @@ class Foo { prototype = 1 }
     "source": "class Foo { prototype }\n\nclass Foo { 'prototype' }\n\nclass Foo { prototype = 1 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 79
 }

@@ -100,6 +100,7 @@ class c9 {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 47
             },
@@ -108,6 +109,7 @@ class c9 {
                 "text": "c2",
                 "rawText": "c2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 50
             },
@@ -119,14 +121,17 @@ class c9 {
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 52
                 },
                 "flags": 50,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 54
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 54
         },
@@ -136,6 +141,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 79
             },
@@ -149,6 +155,7 @@ class c9 {
                             "text": "i2",
                             "rawText": "i2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 79,
                             "end": 82
                         },
@@ -158,6 +165,7 @@ class c9 {
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 84,
                                 "end": 88
                             },
@@ -166,6 +174,7 @@ class c9 {
                                 "text": "c2",
                                 "rawText": "c2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 88,
                                 "end": 91
                             },
@@ -174,23 +183,28 @@ class c9 {
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 92,
                                 "end": 92
                             },
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 84,
                             "end": 93
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 79,
                         "end": 93
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 79,
                 "end": 93
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 54,
             "end": 94
         },
@@ -200,6 +214,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 94,
                 "end": 98
             },
@@ -213,6 +228,7 @@ class c9 {
                             "text": "i2_c",
                             "rawText": "i2_c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 98,
                             "end": 103
                         },
@@ -222,19 +238,23 @@ class c9 {
                             "text": "c2",
                             "rawText": "c2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 105,
                             "end": 108
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 98,
                         "end": 108
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 98,
                 "end": 108
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 94,
             "end": 109
         },
@@ -245,6 +265,7 @@ class c9 {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 115
             },
@@ -253,6 +274,7 @@ class c9 {
                 "text": "c3",
                 "rawText": "c3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 115,
                 "end": 118
             },
@@ -279,6 +301,7 @@ class c9 {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 120,
                                     "end": 166
                                 },
@@ -288,6 +311,7 @@ class c9 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 167,
                                     "end": 168
                                 },
@@ -299,31 +323,38 @@ class c9 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 170,
                                         "end": 170
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 168,
                                     "end": 176
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 166,
                                 "end": 176
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 120,
                             "end": 176
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 120,
                     "end": 176
                 },
                 "flags": 118,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 213
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 109,
             "end": 213
         },
@@ -333,6 +364,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 213,
                 "end": 242
             },
@@ -346,6 +378,7 @@ class c9 {
                             "text": "i3",
                             "rawText": "i3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 242,
                             "end": 245
                         },
@@ -355,6 +388,7 @@ class c9 {
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 247,
                                 "end": 251
                             },
@@ -363,6 +397,7 @@ class c9 {
                                 "text": "c3",
                                 "rawText": "c3",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 251,
                                 "end": 254
                             },
@@ -371,23 +406,28 @@ class c9 {
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 255,
                                 "end": 255
                             },
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 247,
                             "end": 256
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 242,
                         "end": 256
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 242,
                 "end": 256
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 213,
             "end": 257
         },
@@ -397,6 +437,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 257,
                 "end": 261
             },
@@ -410,6 +451,7 @@ class c9 {
                             "text": "i3_c",
                             "rawText": "i3_c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 261,
                             "end": 266
                         },
@@ -419,19 +461,23 @@ class c9 {
                             "text": "c3",
                             "rawText": "c3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 268,
                             "end": 271
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 261,
                         "end": 271
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 261,
                 "end": 271
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 257,
             "end": 272
         },
@@ -442,6 +488,7 @@ class c9 {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 272,
                 "end": 298
             },
@@ -450,6 +497,7 @@ class c9 {
                 "text": "c4",
                 "rawText": "c4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 298,
                 "end": 301
             },
@@ -476,6 +524,7 @@ class c9 {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 303,
                                     "end": 349
                                 },
@@ -485,6 +534,7 @@ class c9 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 350,
                                     "end": 351
                                 },
@@ -496,31 +546,38 @@ class c9 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 353,
                                         "end": 353
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 351,
                                     "end": 359
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 349,
                                 "end": 359
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 303,
                             "end": 359
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 303,
                     "end": 359
                 },
                 "flags": 301,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 400
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 272,
             "end": 400
         },
@@ -530,6 +587,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 400,
                 "end": 404
             },
@@ -543,6 +601,7 @@ class c9 {
                             "text": "i4",
                             "rawText": "i4",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 404,
                             "end": 407
                         },
@@ -552,6 +611,7 @@ class c9 {
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 409,
                                 "end": 413
                             },
@@ -560,6 +620,7 @@ class c9 {
                                 "text": "c4",
                                 "rawText": "c4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 413,
                                 "end": 416
                             },
@@ -568,23 +629,28 @@ class c9 {
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 417,
                                 "end": 417
                             },
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 409,
                             "end": 418
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 404,
                         "end": 418
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 404,
                 "end": 418
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 400,
             "end": 419
         },
@@ -594,6 +660,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 419,
                 "end": 423
             },
@@ -607,6 +674,7 @@ class c9 {
                             "text": "i4_c",
                             "rawText": "i4_c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 423,
                             "end": 428
                         },
@@ -616,19 +684,23 @@ class c9 {
                             "text": "c4",
                             "rawText": "c4",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 430,
                             "end": 433
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 423,
                         "end": 433
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 423,
                 "end": 433
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 419,
             "end": 434
         },
@@ -639,6 +711,7 @@ class c9 {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 434,
                 "end": 465
             },
@@ -647,6 +720,7 @@ class c9 {
                 "text": "c5",
                 "rawText": "c5",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 465,
                 "end": 468
             },
@@ -664,6 +738,7 @@ class c9 {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 470,
                                 "end": 481
                             },
@@ -673,6 +748,7 @@ class c9 {
                                 "text": "s1",
                                 "rawText": "s1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 481,
                                 "end": 484
                             },
@@ -684,34 +760,41 @@ class c9 {
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 485,
                                     "end": 492
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 485,
                                 "end": 492
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 481,
                             "end": 492
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 492,
                             "end": 493
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 470,
                     "end": 493
                 },
                 "flags": 468,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 495
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 434,
             "end": 495
         },
@@ -721,6 +804,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 495,
                 "end": 499
             },
@@ -734,6 +818,7 @@ class c9 {
                             "text": "i5",
                             "rawText": "i5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 499,
                             "end": 502
                         },
@@ -743,6 +828,7 @@ class c9 {
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 504,
                                 "end": 508
                             },
@@ -751,6 +837,7 @@ class c9 {
                                 "text": "c5",
                                 "rawText": "c5",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 508,
                                 "end": 511
                             },
@@ -759,23 +846,28 @@ class c9 {
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 512,
                                 "end": 512
                             },
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 504,
                             "end": 513
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 499,
                         "end": 513
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 499,
                 "end": 513
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 495,
             "end": 514
         },
@@ -785,6 +877,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 514,
                 "end": 518
             },
@@ -798,6 +891,7 @@ class c9 {
                             "text": "i5_c",
                             "rawText": "i5_c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 518,
                             "end": 523
                         },
@@ -807,19 +901,23 @@ class c9 {
                             "text": "c5",
                             "rawText": "c5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 525,
                             "end": 528
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 518,
                         "end": 528
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 518,
                 "end": 528
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 514,
             "end": 529
         },
@@ -830,6 +928,7 @@ class c9 {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 529,
                 "end": 575
             },
@@ -838,6 +937,7 @@ class c9 {
                 "text": "c6",
                 "rawText": "c6",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 575,
                 "end": 578
             },
@@ -855,6 +955,7 @@ class c9 {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 580,
                                 "end": 650
                             },
@@ -864,6 +965,7 @@ class c9 {
                                 "text": "s1",
                                 "rawText": "s1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 650,
                                 "end": 653
                             },
@@ -875,21 +977,25 @@ class c9 {
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 654,
                                     "end": 661
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 654,
                                 "end": 661
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 650,
                             "end": 661
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 661,
                             "end": 662
                         },
@@ -909,6 +1015,7 @@ class c9 {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 662,
                                     "end": 722
                                 },
@@ -918,6 +1025,7 @@ class c9 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 723,
                                     "end": 724
                                 },
@@ -929,31 +1037,38 @@ class c9 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 726,
                                         "end": 726
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 724,
                                     "end": 757
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 722,
                                 "end": 757
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 662,
                             "end": 757
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 580,
                     "end": 757
                 },
                 "flags": 578,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 759
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 529,
             "end": 759
         },
@@ -963,6 +1078,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 759,
                 "end": 763
             },
@@ -976,6 +1092,7 @@ class c9 {
                             "text": "i6",
                             "rawText": "i6",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 763,
                             "end": 766
                         },
@@ -985,6 +1102,7 @@ class c9 {
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 768,
                                 "end": 772
                             },
@@ -993,6 +1111,7 @@ class c9 {
                                 "text": "c6",
                                 "rawText": "c6",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 772,
                                 "end": 775
                             },
@@ -1001,23 +1120,28 @@ class c9 {
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 776,
                                 "end": 776
                             },
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 768,
                             "end": 777
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 763,
                         "end": 777
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 763,
                 "end": 777
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 759,
             "end": 778
         },
@@ -1027,6 +1151,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 778,
                 "end": 782
             },
@@ -1040,6 +1165,7 @@ class c9 {
                             "text": "i6_c",
                             "rawText": "i6_c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 782,
                             "end": 787
                         },
@@ -1049,19 +1175,23 @@ class c9 {
                             "text": "c6",
                             "rawText": "c6",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 789,
                             "end": 792
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 782,
                         "end": 792
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 782,
                 "end": 792
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 778,
             "end": 793
         },
@@ -1072,6 +1202,7 @@ class c9 {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 793,
                 "end": 838
             },
@@ -1080,6 +1211,7 @@ class c9 {
                 "text": "c7",
                 "rawText": "c7",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 838,
                 "end": 841
             },
@@ -1097,6 +1229,7 @@ class c9 {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 843,
                                 "end": 872
                             },
@@ -1106,6 +1239,7 @@ class c9 {
                                 "text": "s1",
                                 "rawText": "s1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 872,
                                 "end": 875
                             },
@@ -1117,21 +1251,25 @@ class c9 {
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 876,
                                     "end": 883
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 876,
                                 "end": 883
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 872,
                             "end": 883
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 883,
                             "end": 884
                         },
@@ -1151,6 +1289,7 @@ class c9 {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 884,
                                     "end": 927
                                 },
@@ -1160,6 +1299,7 @@ class c9 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 928,
                                     "end": 929
                                 },
@@ -1171,31 +1311,38 @@ class c9 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 931,
                                         "end": 931
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 929,
                                     "end": 937
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 927,
                                 "end": 937
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 884,
                             "end": 937
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 843,
                     "end": 937
                 },
                 "flags": 841,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 939
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 793,
             "end": 939
         },
@@ -1205,6 +1352,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 939,
                 "end": 943
             },
@@ -1218,6 +1366,7 @@ class c9 {
                             "text": "i7",
                             "rawText": "i7",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 943,
                             "end": 946
                         },
@@ -1227,6 +1376,7 @@ class c9 {
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 948,
                                 "end": 952
                             },
@@ -1235,6 +1385,7 @@ class c9 {
                                 "text": "c7",
                                 "rawText": "c7",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 952,
                                 "end": 955
                             },
@@ -1243,23 +1394,28 @@ class c9 {
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 956,
                                 "end": 956
                             },
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 948,
                             "end": 957
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 943,
                         "end": 957
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 943,
                 "end": 957
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 939,
             "end": 958
         },
@@ -1269,6 +1425,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 958,
                 "end": 962
             },
@@ -1282,6 +1439,7 @@ class c9 {
                             "text": "i7_c",
                             "rawText": "i7_c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 962,
                             "end": 967
                         },
@@ -1291,19 +1449,23 @@ class c9 {
                             "text": "c7",
                             "rawText": "c7",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 969,
                             "end": 972
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 962,
                         "end": 972
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 962,
                 "end": 972
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 958,
             "end": 973
         },
@@ -1314,6 +1476,7 @@ class c9 {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 973,
                 "end": 1023
             },
@@ -1322,6 +1485,7 @@ class c9 {
                 "text": "c8",
                 "rawText": "c8",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1023,
                 "end": 1026
             },
@@ -1339,6 +1503,7 @@ class c9 {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1028,
                                 "end": 1061
                             },
@@ -1348,6 +1513,7 @@ class c9 {
                                 "text": "s1",
                                 "rawText": "s1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1061,
                                 "end": 1064
                             },
@@ -1359,21 +1525,25 @@ class c9 {
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 1065,
                                     "end": 1072
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 1065,
                                 "end": 1072
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 1061,
                             "end": 1072
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1072,
                             "end": 1073
                         },
@@ -1393,6 +1563,7 @@ class c9 {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 1073,
                                     "end": 1143
                                 },
@@ -1402,6 +1573,7 @@ class c9 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 1144,
                                     "end": 1145
                                 },
@@ -1413,31 +1585,38 @@ class c9 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 1147,
                                         "end": 1147
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1145,
                                     "end": 1197
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 1143,
                                 "end": 1197
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 1073,
                             "end": 1197
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1028,
                     "end": 1197
                 },
                 "flags": 1026,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 1199
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 973,
             "end": 1199
         },
@@ -1447,6 +1626,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1199,
                 "end": 1203
             },
@@ -1460,6 +1640,7 @@ class c9 {
                             "text": "i8",
                             "rawText": "i8",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1203,
                             "end": 1206
                         },
@@ -1469,6 +1650,7 @@ class c9 {
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1208,
                                 "end": 1212
                             },
@@ -1477,6 +1659,7 @@ class c9 {
                                 "text": "c8",
                                 "rawText": "c8",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1212,
                                 "end": 1215
                             },
@@ -1485,23 +1668,28 @@ class c9 {
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1216,
                                 "end": 1216
                             },
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 1208,
                             "end": 1217
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 1203,
                         "end": 1217
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1203,
                 "end": 1217
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1199,
             "end": 1218
         },
@@ -1511,6 +1699,7 @@ class c9 {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1218,
                 "end": 1222
             },
@@ -1524,6 +1713,7 @@ class c9 {
                             "text": "i8_c",
                             "rawText": "i8_c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1222,
                             "end": 1227
                         },
@@ -1533,19 +1723,23 @@ class c9 {
                             "text": "c8",
                             "rawText": "c8",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1229,
                             "end": 1232
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 1222,
                         "end": 1232
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1222,
                 "end": 1232
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1218,
             "end": 1233
         },
@@ -1556,6 +1750,7 @@ class c9 {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1233,
                 "end": 1240
             },
@@ -1564,6 +1759,7 @@ class c9 {
                 "text": "c9",
                 "rawText": "c9",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1240,
                 "end": 1243
             },
@@ -1590,6 +1786,7 @@ class c9 {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 1245,
                                     "end": 1261
                                 },
@@ -1599,6 +1796,7 @@ class c9 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 1262,
                                     "end": 1263
                                 },
@@ -1610,31 +1808,38 @@ class c9 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 1265,
                                         "end": 1265
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1263,
                                     "end": 1367
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 1261,
                                 "end": 1367
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 1245,
                             "end": 1367
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1245,
                     "end": 1367
                 },
                 "flags": 1243,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 1369
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 1233,
             "end": 1369
         }
@@ -1643,6 +1848,7 @@ class c9 {
     "source": "/** This is class c2 without constuctor*/\nclass c2 {\n} // trailing comment1\nvar i2 = new c2();\nvar i2_c = c2;\nclass c3 {\n    /** Constructor comment*/\n    constructor() {\n    } // trailing comment of constructor\n} /* trailing comment 2 */\nvar i3 = new c3();\nvar i3_c = c3;\n/** Class comment*/\nclass c4 {\n    /** Constructor comment*/\n    constructor() {\n    } /* trailing comment of constructor 2*/\n}\nvar i4 = new c4();\nvar i4_c = c4;\n/** Class with statics*/\nclass c5 {\n    static s1: number;\n}\nvar i5 = new c5();\nvar i5_c = c5;\n\n/// class with statics and constructor\nclass c6 { /// class with statics and constructor2\n    /// s1 comment\n    static s1: number; /// s1 comment2\n    /// constructor comment\n    constructor() { /// constructor comment2\n    }\n}\nvar i6 = new c6();\nvar i6_c = c6;\n\n// class with statics and constructor\nclass c7 {\n    // s1 comment\n    static s1: number;\n    // constructor comment\n    constructor() {\n    }\n}\nvar i7 = new c7();\nvar i7_c = c7;\n\n/** class with statics and constructor\n */\nclass c8 {\n    /** s1 comment */\n    static s1: number; /** s1 comment2 */\n    /** constructor comment\n    */\n    constructor() {\n        /** constructor comment2\n        */\n    }\n}\nvar i8 = new c8();\nvar i8_c = c8;\n\nclass c9 {\n    constructor() {\n        /// This is some detached comment\n\n        // should emit this leading comment of } too\n    }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 1369
 }
@@ -1651,81 +1857,64 @@ class c9 {
 ### Printed
 
 ```javascript
-/** This is class c2 without constuctor*/
-class c2 {
-}// trailing comment1
+class c2 {}
 var i2 = new c2();
+
 var i2_c = c2;
+
 class c3 {
-   /** Constructor comment*/
-   /** Constructor comment*/
-  constructor() {
-  }// trailing comment of constructor
-}/* trailing comment 2 */
+  constructor() {}
+}
+
 var i3 = new c3();
+
 var i3_c = c3;
- /** Class comment*/
+
 class c4 {
-   /** Constructor comment*/
-   /** Constructor comment*/
-  constructor() {
-  }/* trailing comment of constructor 2*/
+  constructor() {}
 }
+
 var i4 = new c4();
+
 var i4_c = c4;
- /** Class with statics*/
+
 class c5 {
-  static s1: number
-  ;
+  static s1: number;;
 }
+
 var i5 = new c5();
+
 var i5_c = c5;
- /// class with statics and constructor
+
 class c6 {
-   /// s1 comment
-  static s1: number
-  ;/// s1 comment2
-   /// constructor comment
-   /// constructor comment
-  constructor() {/// constructor comment2
-  }
+  static s1: number;;
+  constructor() {}
 }
+
 var i6 = new c6();
+
 var i6_c = c6;
- // class with statics and constructor
+
 class c7 {
-   // s1 comment
-  static s1: number
-  ;
-   // constructor comment
-   // constructor comment
-  constructor() {
-  }
+  static s1: number;;
+  constructor() {}
 }
+
 var i7 = new c7();
+
 var i7_c = c7;
- /** class with statics and constructor
- */
+
 class c8 {
-   /** s1 comment */
-  static s1: number
-  ;/** s1 comment2 */
-   /** constructor comment
-    */
-   /** constructor comment
-    */
-  constructor() {
-   /** constructor comment2
-        */
-  }
+  static s1: number;;
+  constructor() {}
 }
+
 var i8 = new c8();
+
 var i8_c = c8;
+
 class c9 {
-  constructor() {
-   /// This is some detached comment
-  // should emit this leading comment of } too
-  }
+  constructor() {}
 }
 
 ```

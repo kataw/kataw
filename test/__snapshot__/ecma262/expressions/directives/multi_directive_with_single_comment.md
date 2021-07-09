@@ -24,10 +24,12 @@
                 "text": "foo",
                 "rawText": "\"foo\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -38,10 +40,12 @@
                 "text": "bar",
                 "rawText": "\"bar\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 26
         }
@@ -50,6 +54,7 @@
     "source": "\"foo\"\n// stuff here\n\"bar\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -58,10 +63,8 @@
 ### Printed
 
 ```javascript
-
-'"foo"';
- // stuff here
-'"bar"';
+"\"foo\"";
+"\"bar\"";
 
 ```
 

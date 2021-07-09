@@ -40,6 +40,7 @@ var [x = 10, [ z ]] = a;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -61,6 +62,7 @@ var [x = 10, [ z ]] = a;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -71,10 +73,12 @@ var [x = 10, [ z ]] = a;
                                             "text": 10,
                                             "rawText": "10",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 11
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -88,26 +92,31 @@ var [x = 10, [ z ]] = a;
                                                     "text": "z",
                                                     "rawText": "z",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 16
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 16
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 18
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 19
                         },
@@ -117,19 +126,23 @@ var [x = 10, [ z ]] = a;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 23
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 23
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -138,6 +151,7 @@ var [x = 10, [ z ]] = a;
     "source": "var [x = 10, [ z ]] = a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -146,9 +160,7 @@ var [x = 10, [ z ]] = a;
 ### Printed
 
 ```javascript
-
 var [x = 10, [z]] = a;
-
 ```
 
 ### Diagnostics

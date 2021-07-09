@@ -28,6 +28,7 @@ do[ /)finally
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -42,20 +43,24 @@ do[ /)finally
                                 "kind": 371,
                                 "text": "/)finally",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 13
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 13
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 13
             },
@@ -65,10 +70,12 @@ do[ /)finally
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -77,6 +84,7 @@ do[ /)finally
     "source": "do[ /)finally",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

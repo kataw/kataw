@@ -32,6 +32,7 @@ export class C extends fn(await []) {};
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ export class C extends fn(await []) {};
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -50,6 +52,7 @@ export class C extends fn(await []) {};
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -64,6 +67,7 @@ export class C extends fn(await []) {};
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 24
                             },
@@ -73,6 +77,7 @@ export class C extends fn(await []) {};
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 33
                                 },
@@ -84,6 +89,7 @@ export class C extends fn(await []) {};
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 34
                                 },
@@ -94,33 +100,40 @@ export class C extends fn(await []) {};
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 37
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 38
                                 },
                                 "returnType": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 38
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 15,
                             "end": 39
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 41
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         },
@@ -129,6 +142,7 @@ export class C extends fn(await []) {};
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 89
             },
@@ -139,6 +153,7 @@ export class C extends fn(await []) {};
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 89,
                     "end": 95
                 },
@@ -147,6 +162,7 @@ export class C extends fn(await []) {};
                     "text": "C",
                     "rawText": "C",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 95,
                     "end": 97
                 },
@@ -158,6 +174,7 @@ export class C extends fn(await []) {};
                         "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 97,
                             "end": 105
                         },
@@ -168,6 +185,7 @@ export class C extends fn(await []) {};
                                 "text": "fn",
                                 "rawText": "fn",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 105,
                                 "end": 108
                             },
@@ -179,6 +197,7 @@ export class C extends fn(await []) {};
                                         "awaitKeyword": {
                                             "kind": 82196,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 109,
                                             "end": 114
                                         },
@@ -189,29 +208,35 @@ export class C extends fn(await []) {};
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 116,
                                                 "end": 116
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 114,
                                             "end": 117
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 109,
                                         "end": 117
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 109,
                                 "end": 117
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 105,
                             "end": 118
                         },
                         "typeParameter": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 105,
                         "end": 118
                     },
@@ -219,14 +244,17 @@ export class C extends fn(await []) {};
                         "kind": 303,
                         "elements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 120,
                         "end": 120
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 121
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 121
             },
@@ -235,12 +263,14 @@ export class C extends fn(await []) {};
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 41,
             "end": 121
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 121,
             "end": 122
         }
@@ -249,6 +279,7 @@ export class C extends fn(await []) {};
     "source": "function fn() {\n  return function() {};\n}\n// extends CallExpression with arguments\nexport class C extends fn(await []) {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 122
 }
@@ -257,14 +288,10 @@ export class C extends fn(await []) {};
 ### Printed
 
 ```javascript
-
 function fn() {
   return function () {};
 }
- // extends CallExpression with arguments
-export class C extends fn(await []) {
-}
-;
+export class C extends fn(await []) {}
 
 ```
 

@@ -28,6 +28,7 @@ do[ false
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -41,20 +42,24 @@ do[ false
                             {
                                 "kind": 205586437,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 9
             },
@@ -64,10 +69,12 @@ do[ false
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -76,6 +83,7 @@ do[ false
     "source": "do[ false",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

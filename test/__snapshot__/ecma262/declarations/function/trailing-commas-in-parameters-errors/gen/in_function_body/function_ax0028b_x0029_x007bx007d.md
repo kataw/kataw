@@ -30,6 +30,7 @@ function foo() {function  a(b,,) {}}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function foo() {function  a(b,,) {}}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -48,6 +50,7 @@ function foo() {function  a(b,,) {}}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -64,6 +67,7 @@ function foo() {function  a(b,,) {}}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 24
                             },
@@ -73,6 +77,7 @@ function foo() {function  a(b,,) {}}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
@@ -85,12 +90,14 @@ function foo() {function  a(b,,) {}}
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 29
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
@@ -101,29 +108,35 @@ function foo() {function  a(b,,) {}}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 30
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 30
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 30
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
@@ -133,10 +146,12 @@ function foo() {function  a(b,,) {}}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 32,
             "end": 35
         }
@@ -145,6 +160,7 @@ function foo() {function  a(b,,) {}}
     "source": "function foo() {function  a(b,,) {}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

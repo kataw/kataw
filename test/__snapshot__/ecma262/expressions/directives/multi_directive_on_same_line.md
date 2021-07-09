@@ -22,10 +22,12 @@
                 "text": "foo",
                 "rawText": "\"foo\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -36,10 +38,12 @@
                 "text": "bar",
                 "rawText": "\"bar\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 12
         }
@@ -48,6 +52,7 @@
     "source": "\"foo\";\"bar\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -56,10 +61,7 @@
 ### Printed
 
 ```javascript
-
-'"foo"';
-'"bar"';
-
+"\"foo\"";"\"bar\"";
 ```
 
 ### Diagnostics

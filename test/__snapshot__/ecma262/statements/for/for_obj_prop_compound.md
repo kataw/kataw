@@ -39,6 +39,7 @@ for ({}[y] ^= x;;) x;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,10 +54,12 @@ for ({}[y] ^= x;;) x;
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 6
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 5,
                         "end": 7
                     },
@@ -65,16 +68,19 @@ for ({}[y] ^= x;;) x;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4135,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
@@ -83,10 +89,12 @@ for ({}[y] ^= x;;) x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
@@ -99,14 +107,17 @@ for ({}[y] ^= x;;) x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 18,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -115,6 +126,7 @@ for ({}[y] ^= x;;) x;
     "source": "for ({}[y] ^= x;;) x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -123,10 +135,7 @@ for ({}[y] ^= x;;) x;
 ### Printed
 
 ```javascript
-
-for ({}[y] ^= x;;)
-  x;
-
+for ({}[y] ^= x; ; ) x;
 ```
 
 ### Diagnostics

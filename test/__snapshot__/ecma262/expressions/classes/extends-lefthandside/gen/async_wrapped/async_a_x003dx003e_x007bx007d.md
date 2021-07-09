@@ -31,12 +31,14 @@ async function p(){
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -46,6 +48,7 @@ async function p(){
                 "text": "p",
                 "rawText": "p",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -55,6 +58,7 @@ async function p(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -71,6 +75,7 @@ async function p(){
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 27
                             },
@@ -79,6 +84,7 @@ async function p(){
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 29
                             },
@@ -90,6 +96,7 @@ async function p(){
                                     "extendsKeyword": {
                                         "kind": 4194391,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 37
                                     },
@@ -98,6 +105,7 @@ async function p(){
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 43
                                         },
@@ -107,6 +115,7 @@ async function p(){
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 43,
                                             "end": 45
                                         },
@@ -114,6 +123,7 @@ async function p(){
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 45,
                                             "end": 48
                                         },
@@ -124,19 +134,23 @@ async function p(){
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 50
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 48,
                                             "end": 51
                                         },
                                         "flags": 288,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 51
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 51
                                 },
@@ -144,28 +158,34 @@ async function p(){
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 53
                                 },
                                 "flags": 29,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 54
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 54
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 56
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 56
         }
@@ -174,6 +194,7 @@ async function p(){
     "source": "async function p(){\n  class C extends async a => {} {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }

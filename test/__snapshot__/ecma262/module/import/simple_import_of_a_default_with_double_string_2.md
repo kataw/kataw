@@ -26,6 +26,7 @@ import {} from "y"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import {} from "y"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 14
                 },
@@ -44,10 +46,12 @@ import {} from "y"
                     "text": "y",
                     "rawText": "\"y\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 18
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 18
             },
@@ -62,18 +66,22 @@ import {} from "y"
                         "kind": 265,
                         "specifiers": [],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 8
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -82,6 +90,7 @@ import {} from "y"
     "source": "import {} from \"y\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -90,9 +99,7 @@ import {} from "y"
 ### Printed
 
 ```javascript
-
-import { } from '"y"';
-
+import {} from "\"y\"";
 ```
 
 ### Diagnostics

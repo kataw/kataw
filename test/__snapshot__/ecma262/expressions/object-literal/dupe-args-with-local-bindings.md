@@ -30,6 +30,7 @@ class o {f([b, a], ...b) {}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class o {f([b, a], ...b) {}}
                 "text": "o",
                 "rawText": "o",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -64,6 +66,7 @@ class o {f([b, a], ...b) {}}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 10
                                 },
@@ -76,12 +79,14 @@ class o {f([b, a], ...b) {}}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 13
                                 },
@@ -97,6 +102,7 @@ class o {f([b, a], ...b) {}}
                                                 "lexicalKeyword": {
                                                     "kind": 37757004,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 21
                                                 },
@@ -110,6 +116,7 @@ class o {f([b, a], ...b) {}}
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 21,
                                                                 "end": 23
                                                             },
@@ -119,36 +126,44 @@ class o {f([b, a], ...b) {}}
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 25,
                                                                 "end": 27
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4224,
                                                             "start": 21,
                                                             "end": 27
                                                         }
                                                     ],
                                                     "flags": 16777232,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 27
                                                 },
                                                 "flags": 33554448,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 27
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 27
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 29
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 29
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 29
                         },
@@ -163,6 +178,7 @@ class o {f([b, a], ...b) {}}
                                 "text": "class",
                                 "rawText": "class",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 36
                             },
@@ -170,6 +186,7 @@ class o {f([b, a], ...b) {}}
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 29,
                             "end": 36
                         },
@@ -184,6 +201,7 @@ class o {f([b, a], ...b) {}}
                                 "text": "o",
                                 "rawText": "o",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 38
                             },
@@ -191,19 +209,23 @@ class o {f([b, a], ...b) {}}
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 36,
                             "end": 38
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 38
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         },
@@ -221,6 +243,7 @@ class o {f([b, a], ...b) {}}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 41
                             },
@@ -232,20 +255,24 @@ class o {f([b, a], ...b) {}}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 43
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 43
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 40,
                             "end": 44
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 40,
                         "end": 44
                     },
@@ -261,6 +288,7 @@ class o {f([b, a], ...b) {}}
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 55
                                     },
@@ -270,6 +298,7 @@ class o {f([b, a], ...b) {}}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 55,
                                         "end": 57
                                     },
@@ -279,6 +308,7 @@ class o {f([b, a], ...b) {}}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 58,
                                         "end": 58
                                     },
@@ -289,33 +319,40 @@ class o {f([b, a], ...b) {}}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 61,
                                             "end": 61
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 59,
                                         "end": 62
                                     },
                                     "returnType": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 62
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 62
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 64
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 38,
             "end": 65
         },
@@ -326,6 +363,7 @@ class o {f([b, a], ...b) {}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 72
             },
@@ -334,6 +372,7 @@ class o {f([b, a], ...b) {}}
                 "text": "o",
                 "rawText": "o",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 74
             },
@@ -360,6 +399,7 @@ class o {f([b, a], ...b) {}}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 76,
                                     "end": 77
                                 },
@@ -372,12 +412,14 @@ class o {f([b, a], ...b) {}}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 78,
                                             "end": 79
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 78,
                                     "end": 80
                                 },
@@ -394,6 +436,7 @@ class o {f([b, a], ...b) {}}
                                                 "varKeyword": {
                                                     "kind": 37757002,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 82,
                                                     "end": 86
                                                 },
@@ -407,51 +450,62 @@ class o {f([b, a], ...b) {}}
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 86,
                                                                 "end": 88
                                                             },
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
+                                                            "transformFlags": 4224,
                                                             "start": 86,
                                                             "end": 88
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 86,
                                                     "end": 88
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 82,
                                                 "end": 89
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 82,
                                         "end": 89
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 80,
                                     "end": 91
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 91
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 76,
                             "end": 91
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 76,
                     "end": 91
                 },
                 "flags": 74,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 92
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 65,
             "end": 92
         },
@@ -462,6 +516,7 @@ class o {f([b, a], ...b) {}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 92,
                 "end": 99
             },
@@ -470,6 +525,7 @@ class o {f([b, a], ...b) {}}
                 "text": "o",
                 "rawText": "o",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 99,
                 "end": 101
             },
@@ -496,6 +552,7 @@ class o {f([b, a], ...b) {}}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 103,
                                     "end": 104
                                 },
@@ -513,6 +570,7 @@ class o {f([b, a], ...b) {}}
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 106,
                                                         "end": 107
                                                     },
@@ -521,16 +579,19 @@ class o {f([b, a], ...b) {}}
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 108,
                                                         "end": 110
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 106,
                                                 "end": 110
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 105,
                                             "end": 111
                                         },
@@ -544,22 +605,26 @@ class o {f([b, a], ...b) {}}
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 114,
                                                         "end": 115
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 114,
                                                 "end": 115
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 112,
                                             "end": 116
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 105,
                                     "end": 117
                                 },
@@ -571,31 +636,38 @@ class o {f([b, a], ...b) {}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 119,
                                         "end": 119
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 117,
                                     "end": 120
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 104,
                                 "end": 120
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 103,
                             "end": 120
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 103,
                     "end": 120
                 },
                 "flags": 101,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 121
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 92,
             "end": 121
         },
@@ -606,6 +678,7 @@ class o {f([b, a], ...b) {}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 121,
                 "end": 128
             },
@@ -614,6 +687,7 @@ class o {f([b, a], ...b) {}}
                 "text": "o",
                 "rawText": "o",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 128,
                 "end": 130
             },
@@ -640,6 +714,7 @@ class o {f([b, a], ...b) {}}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 132,
                                     "end": 133
                                 },
@@ -657,6 +732,7 @@ class o {f([b, a], ...b) {}}
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 135,
                                                         "end": 136
                                                     },
@@ -665,16 +741,19 @@ class o {f([b, a], ...b) {}}
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 137,
                                                         "end": 139
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 135,
                                                 "end": 139
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 134,
                                             "end": 140
                                         },
@@ -683,6 +762,7 @@ class o {f([b, a], ...b) {}}
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 141,
                                                 "end": 145
                                             },
@@ -691,6 +771,7 @@ class o {f([b, a], ...b) {}}
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 145,
                                                 "end": 146
                                             },
@@ -698,12 +779,14 @@ class o {f([b, a], ...b) {}}
                                             "type": null,
                                             "right": null,
                                             "flags": 34,
+                                            "transformFlags": 4096,
                                             "start": 141,
                                             "end": 146
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 134,
                                     "end": 147
                                 },
@@ -715,31 +798,38 @@ class o {f([b, a], ...b) {}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 149,
                                         "end": 149
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 147,
                                     "end": 150
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 133,
                                 "end": 150
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 132,
                             "end": 150
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 132,
                     "end": 150
                 },
                 "flags": 130,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 151
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 121,
             "end": 151
         }
@@ -748,6 +838,7 @@ class o {f([b, a], ...b) {}}
     "source": "class o {f(x) { const x = y }\n\nclass o {f(x) { function x() {} }}\n\nclass o {f(x) { var x; }}\n\nclass o {f([b, a], {b}) {}}\n\nclass o {f([b, a], ...b) {}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 151
 }

@@ -33,6 +33,7 @@
                         "forKeyword": {
                             "kind": 37757017,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 5
                         },
@@ -41,6 +42,7 @@
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 10
                             },
@@ -49,17 +51,20 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "argumentList": null,
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 7,
                             "end": 12
                         },
                         "inKeyword": {
                             "kind": 21006388,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 15
                         },
@@ -72,12 +77,14 @@
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 20
                                 },
@@ -86,16 +93,19 @@
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 15,
                                 "end": 22
                             },
                             "operatorToken": {
                                 "kind": 21006388,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 25
                             },
@@ -104,10 +114,12 @@
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 15,
                             "end": 27
                         },
@@ -116,24 +128,29 @@
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 34
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 34
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 34
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -142,6 +159,7 @@
     "source": "{ for (new a in b in c in d) break }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,12 +40,14 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 22,
                 "end": 23
             },
@@ -53,6 +56,7 @@
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 27
             },
@@ -62,6 +66,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 28
             },
@@ -78,6 +83,7 @@
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 37
                                 },
@@ -88,14 +94,17 @@
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 39
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 31,
                                 "end": 39
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 31,
                             "end": 40
                         },
@@ -104,12 +113,14 @@
                             "ifKeyword": {
                                 "kind": 37757019,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 43
                             },
                             "expression": {
                                 "kind": 24752947,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 49
                             },
@@ -125,6 +136,7 @@
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 52,
                                                     "end": 58
                                                 },
@@ -135,35 +147,42 @@
                                                     "text": 3,
                                                     "rawText": "3",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 58,
                                                     "end": 60
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 52,
                                                 "end": 60
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 52,
                                             "end": 60
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 60
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 62
                             },
                             "elseKeyword": null,
                             "alternate": null,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 62
                         },
                         {
                             "kind": 168,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 62,
                             "end": 63
                         },
@@ -174,6 +193,7 @@
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 63,
                                     "end": 69
                                 },
@@ -184,28 +204,34 @@
                                     "text": 4,
                                     "rawText": "4",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 71
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 63,
                                 "end": 71
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 63,
                             "end": 71
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 71
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 73
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 13,
             "end": 73
         }
@@ -214,6 +240,7 @@
     "source": "'use strict'; function* foo() { yield 2; if (true) { yield 3 }; yield 4 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 73
 }
@@ -223,16 +250,14 @@
 
 ```javascript
 
-'\'use strict\'';
-function * foo() {
-  yield  2;
+"'use strict'";
+function *foo() {
+  yield 2;
   if (true) {
-    yield  3;
-  }
-  ;
-  yield  4;
+      yield 3;
+    }
+  yield 4;
 }
-
 ```
 
 ### Diagnostics

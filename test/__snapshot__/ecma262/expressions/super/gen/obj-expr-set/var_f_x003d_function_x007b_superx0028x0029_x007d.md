@@ -31,14 +31,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 45
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 45
         }
@@ -47,6 +50,7 @@
     "source": "({ set x(_) { var f = function { super(); } } })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

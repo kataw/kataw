@@ -32,12 +32,14 @@ a ?? b && c;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
                     "operatorToken": {
                         "kind": 33339,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
@@ -46,16 +48,19 @@ a ?? b && c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
@@ -64,14 +69,17 @@ a ?? b && c;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         },
@@ -84,12 +92,14 @@ a ?? b && c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
@@ -100,12 +110,14 @@ a ?? b && c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
                     "operatorToken": {
                         "kind": 33339,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 23
                     },
@@ -114,18 +126,22 @@ a ?? b && c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 25
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 20,
                     "end": 25
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 12,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 26
         },
@@ -140,12 +156,14 @@ a ?? b && c;
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 29
                     },
                     "operatorToken": {
                         "kind": 33594,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 32
                     },
@@ -154,16 +172,19 @@ a ?? b && c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
                     "flags": 97,
+                    "transformFlags": 5120,
                     "start": 26,
                     "end": 34
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 37
                 },
@@ -172,14 +193,17 @@ a ?? b && c;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 39
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 26,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 26,
             "end": 40
         },
@@ -192,12 +216,14 @@ a ?? b && c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 43
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 46
                 },
@@ -208,12 +234,14 @@ a ?? b && c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 46,
                         "end": 48
                     },
                     "operatorToken": {
                         "kind": 33594,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 51
                     },
@@ -222,18 +250,22 @@ a ?? b && c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 51,
                         "end": 53
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 48,
                     "end": 53
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 40,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 40,
             "end": 54
         }
@@ -242,6 +274,7 @@ a ?? b && c;
     "source": "a || b ?? c;\n\na ?? b || c;\n\na && b ?? c;\n\na ?? b && c;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }

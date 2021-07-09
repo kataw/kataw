@@ -33,6 +33,7 @@ var x:
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,6 +47,7 @@ var x:
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,6 +56,7 @@ var x:
                             "bitwiseOrToken": {
                                 "kind": 134251592,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 9
                             },
@@ -66,6 +69,7 @@ var x:
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 11
                                     },
@@ -74,15 +78,18 @@ var x:
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 16
                                     }
                                 ],
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 16
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 16
                         },
@@ -91,19 +98,23 @@ var x:
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -112,6 +123,7 @@ var x:
     "source": "var x:\n | 1\n | 2\n= 2;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -120,9 +132,7 @@ var x:
 ### Printed
 
 ```javascript
-
 var x: | 1 | 2 = 2;
-
 ```
 
 ### Diagnostics

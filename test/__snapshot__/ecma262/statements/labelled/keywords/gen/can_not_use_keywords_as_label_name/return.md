@@ -28,6 +28,7 @@ return: x
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,10 +37,12 @@ return: x
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
             "flags": 80,
+            "transformFlags": 256,
             "start": 0,
             "end": 6
         },
@@ -50,10 +53,12 @@ return: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 9
         }
@@ -62,6 +67,7 @@ return: x
     "source": "return: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

@@ -24,12 +24,14 @@ x = { method(test) { } }
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -51,6 +53,7 @@ x = { method(test) { } }
                                         "text": "method",
                                         "rawText": "method",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 12
                                     },
@@ -63,12 +66,14 @@ x = { method(test) { } }
                                                 "text": "test",
                                                 "rawText": "test",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 17
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 18
                                     },
@@ -80,36 +85,44 @@ x = { method(test) { } }
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 22
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 22
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 22
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }
@@ -118,6 +131,7 @@ x = { method(test) { } }
     "source": "x = { method(test) { } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -126,9 +140,7 @@ x = { method(test) { } }
 ### Printed
 
 ```javascript
-
 x = { method(test) {} };
-
 ```
 
 ### Diagnostics

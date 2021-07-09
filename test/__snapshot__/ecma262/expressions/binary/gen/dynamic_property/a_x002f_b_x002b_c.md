@@ -32,6 +32,7 @@ foo[ a / b + c ]
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -44,12 +45,14 @@ foo[ a / b + c ]
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
+                            "transformFlags": 32,
                             "start": 6,
                             "end": 8
                         },
@@ -58,16 +61,19 @@ foo[ a / b + c ]
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 4,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
@@ -76,18 +82,22 @@ foo[ a / b + c ]
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 4,
                     "end": 14
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -96,6 +106,7 @@ foo[ a / b + c ]
     "source": "foo[ a / b + c ]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -104,9 +115,7 @@ foo[ a / b + c ]
 ### Printed
 
 ```javascript
-
 foo[a / b + c];
-
 ```
 
 ### Diagnostics

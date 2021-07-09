@@ -30,6 +30,7 @@ class x {while(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {while(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -64,6 +66,7 @@ class x {while(){}}
                                     "text": "while",
                                     "rawText": "while",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 14
                                 },
@@ -73,6 +76,7 @@ class x {while(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 16
                                 },
@@ -84,31 +88,38 @@ class x {while(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 17
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 18
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 18
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -117,6 +128,7 @@ class x {while(){}}
     "source": "class x {while(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -125,11 +137,9 @@ class x {while(){}}
 ### Printed
 
 ```javascript
-
 class x {
   while() {}
 }
-
 ```
 
 ### Diagnostics

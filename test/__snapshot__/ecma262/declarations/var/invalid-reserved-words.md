@@ -45,6 +45,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 97,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -56,6 +57,7 @@
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -69,21 +71,25 @@
                             "text": "implements",
                             "rawText": "implements",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 29
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 18,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 30
         },
@@ -94,10 +100,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 30,
             "end": 45
         },
@@ -107,6 +115,7 @@
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 49
             },
@@ -114,10 +123,12 @@
                 "kind": 156,
                 "declarations": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 45,
             "end": 49
         },
@@ -128,6 +139,7 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 58
             },
@@ -139,6 +151,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 58
             },
@@ -149,21 +162,25 @@
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 58,
                     "end": 58
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 58
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 49,
             "end": 58
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 58,
             "end": 59
         },
@@ -174,10 +191,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 73
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 59,
             "end": 74
         },
@@ -187,6 +206,7 @@
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 74,
                 "end": 78
             },
@@ -200,21 +220,25 @@
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 78,
                             "end": 82
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 78,
                         "end": 82
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 78,
                 "end": 83
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 74,
             "end": 83
         },
@@ -225,6 +249,7 @@
                 "member": {
                     "kind": 4259935,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 83,
                     "end": 89
                 },
@@ -233,14 +258,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 89,
                     "end": 89
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 83,
                 "end": 89
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 83,
             "end": 90
         },
@@ -251,10 +279,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 104
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 90,
             "end": 105
         },
@@ -264,6 +294,7 @@
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 105,
                 "end": 109
             },
@@ -277,6 +308,7 @@
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 109,
                             "end": 113
                         },
@@ -288,6 +320,7 @@
                                 "member": {
                                     "kind": 4259935,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 115,
                                     "end": 121
                                 },
@@ -296,16 +329,19 @@
                                     "text": "",
                                     "rawText": "",
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 121,
                                     "end": 121
                                 },
                                 "flags": 32,
+                                "transformFlags": 2,
                                 "start": 115,
                                 "end": 121
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 121,
                                 "end": 123
                             },
@@ -314,23 +350,28 @@
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 123,
                                 "end": 125
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 115,
                             "end": 125
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 109,
                         "end": 125
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 125
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 105,
             "end": 126
         }
@@ -339,6 +380,7 @@
     "source": "\n\"use strict\"; var implements;\n\n\"use strict\"; var function;\n\n\"use strict\"; var foo, super;\n\n\"use strict\"; var foo = super = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 126
 }

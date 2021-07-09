@@ -28,6 +28,7 @@ for (super.foo in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for (super.foo in x) ;
                 "member": {
                     "kind": 4259935,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -44,16 +46,19 @@ for (super.foo in x) ;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 14
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
@@ -62,16 +67,19 @@ for (super.foo in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -80,6 +88,7 @@ for (super.foo in x) ;
     "source": "for (super.foo in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

@@ -22,6 +22,7 @@ class l\u0065t {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class l\u0065t {}
                 "text": "let",
                 "rawText": "l\\u0065t",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -41,14 +43,17 @@ class l\u0065t {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 14,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -57,6 +62,7 @@ class l\u0065t {}
     "source": "class l\\u0065t {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

@@ -28,18 +28,21 @@ declare opaque type Foo
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "opaqueToken": {
                 "kind": 24822,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 14
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 19
             },
@@ -48,6 +51,7 @@ declare opaque type Foo
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
@@ -55,6 +59,7 @@ declare opaque type Foo
             "superType": null,
             "impltype": null,
             "flags": 2097152,
+            "transformFlags": 0,
             "start": 7,
             "end": 23
         }
@@ -63,6 +68,7 @@ declare opaque type Foo
     "source": "declare opaque type Foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -71,9 +77,7 @@ declare opaque type Foo
 ### Printed
 
 ```javascript
-
-declare opaque
-
+declare opaque 
 ```
 
 ### Diagnostics

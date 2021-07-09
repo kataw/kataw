@@ -37,6 +37,7 @@ x => { return x; }, bar
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -44,6 +45,7 @@ x => { return x; }, bar
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -58,6 +60,7 @@ x => { return x; }, bar
                                         "returnKeyword": {
                                             "kind": 37757022,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 13
                                         },
@@ -66,23 +69,28 @@ x => { return x; }, bar
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 15
                                         },
                                         "flags": 80,
+                                        "transformFlags": 256,
                                         "start": 6,
                                         "end": 16
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 18
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 18
                     },
@@ -91,15 +99,18 @@ x => { return x; }, bar
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 23
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         }
@@ -108,6 +119,7 @@ x => { return x; }, bar
     "source": "x => { return x; }, bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -116,11 +128,9 @@ x => { return x; }, bar
 ### Printed
 
 ```javascript
-
 x => {
   return x;
 }, bar;
-
 ```
 
 ### Diagnostics

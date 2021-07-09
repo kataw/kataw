@@ -30,6 +30,7 @@ loop: for (;;) {
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,11 +47,13 @@ loop: for (;;) {
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 18
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 33
                         },
@@ -59,24 +62,29 @@ loop: for (;;) {
                             "continueKeyword": {
                                 "kind": 37757009,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 44
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 59
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 59
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 61
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         },
@@ -87,12 +95,14 @@ loop: for (;;) {
                 "text": "loop",
                 "rawText": "loop",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 67
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 67,
                 "end": 68
             },
@@ -101,6 +111,7 @@ loop: for (;;) {
                 "forKeyword": {
                     "kind": 37757017,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 72
                 },
@@ -117,6 +128,7 @@ loop: for (;;) {
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 79,
                                     "end": 87
                                 },
@@ -125,10 +137,12 @@ loop: for (;;) {
                                     "text": "loop",
                                     "rawText": "loop",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 87,
                                     "end": 106
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 79,
                                 "end": 107
                             },
@@ -137,6 +151,7 @@ loop: for (;;) {
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 107,
                                     "end": 115
                                 },
@@ -145,10 +160,12 @@ loop: for (;;) {
                                     "text": "loop",
                                     "rawText": "loop",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 115,
                                     "end": 120
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 107,
                                 "end": 135
                             },
@@ -157,6 +174,7 @@ loop: for (;;) {
                                 "continueKeyword": {
                                     "kind": 37757009,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 135,
                                     "end": 146
                                 },
@@ -165,10 +183,12 @@ loop: for (;;) {
                                     "text": "loop",
                                     "rawText": "loop",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 146,
                                     "end": 165
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 135,
                                 "end": 166
                             },
@@ -177,6 +197,7 @@ loop: for (;;) {
                                 "continueKeyword": {
                                     "kind": 37757009,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 166,
                                     "end": 177
                                 },
@@ -185,27 +206,33 @@ loop: for (;;) {
                                     "text": "loop",
                                     "rawText": "loop",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 177,
                                     "end": 182
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 166,
                                 "end": 197
                             }
                         ],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 79,
                         "end": 197
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 199
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 199
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 61,
             "end": 199
         }
@@ -214,6 +241,7 @@ loop: for (;;) {
     "source": "for (;;) {\n  break /* comment */;\n  continue /* comment */;\n}\n\nloop: for (;;) {\n  break /* comment */ loop;\n  break loop /* comment */;\n  continue /* comment */ loop;\n  continue loop /* comment */;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 199
 }
@@ -222,17 +250,18 @@ loop: for (;;) {
 ### Printed
 
 ```javascript
-
-for (;;) {
-  break/* comment */;
-  continue/* comment */;
-}
-loop: for (;;) {
-  break/* comment */ loop;
-  break loop/* comment */;
-  continue/* comment */ loop;
-  continue loop/* comment */;
-}
+for (;;)
+  {
+    break;
+    continue;
+  }
+loop:  for (;;)
+  {
+    break loop;
+    break loop;
+    continue loop;
+    continue loop;
+  }
 
 ```
 

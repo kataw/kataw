@@ -31,14 +31,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 2
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -49,10 +52,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 3,
             "end": 10
         },
@@ -67,6 +72,7 @@
                     "text": "number",
                     "rawText": "number",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 18
                 },
@@ -74,6 +80,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 21
                 },
@@ -84,18 +91,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 24
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 26
         }
@@ -104,6 +115,7 @@
     "source": "(a: string):number =>  {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

@@ -30,6 +30,7 @@ function foo<T,S>() {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function foo<T,S>() {}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -54,6 +56,7 @@ function foo<T,S>() {}
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
@@ -61,6 +64,7 @@ function foo<T,S>() {}
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -71,6 +75,7 @@ function foo<T,S>() {}
                                 "text": "S",
                                 "rawText": "S",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 16
                             },
@@ -78,16 +83,19 @@ function foo<T,S>() {}
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 16
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 12,
                 "end": 17
             },
@@ -96,6 +104,7 @@ function foo<T,S>() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
@@ -106,15 +115,18 @@ function foo<T,S>() {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -123,6 +135,7 @@ function foo<T,S>() {}
     "source": "function foo<T,S>() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -131,9 +144,7 @@ function foo<T,S>() {}
 ### Printed
 
 ```javascript
-
-function foo<T, S> () {}
-
+function foo<T, S>() {}
 ```
 
 ### Diagnostics

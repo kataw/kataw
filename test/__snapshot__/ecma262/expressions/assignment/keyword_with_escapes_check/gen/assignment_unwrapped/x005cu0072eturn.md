@@ -28,6 +28,7 @@
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -38,12 +39,14 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -52,14 +55,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 11,
                 "end": 15
             },
             "flags": 16464,
+            "transformFlags": 256,
             "start": 0,
             "end": 16
         }
@@ -68,6 +74,7 @@
     "source": "\\u0072eturn = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

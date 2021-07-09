@@ -37,12 +37,14 @@ foo = {
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -58,6 +60,7 @@ foo = {
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 13
                                 },
@@ -69,6 +72,7 @@ foo = {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 15
                                     },
@@ -78,6 +82,7 @@ foo = {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1057,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 17
                                     },
@@ -92,6 +97,7 @@ foo = {
                                                     "text": "use strict",
                                                     "rawText": "\"use strict\"",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 35
                                                 }
@@ -102,6 +108,7 @@ foo = {
                                                     "withKeyword": {
                                                         "kind": 37757029,
                                                         "flags": 81,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 45
                                                     },
@@ -112,12 +119,14 @@ foo = {
                                                             "text": "",
                                                             "rawText": "",
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 45,
                                                             "end": 45
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 45,
                                                             "end": 47
                                                         },
@@ -126,10 +135,12 @@ foo = {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 47,
                                                             "end": 49
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
+                                                        "transformFlags": 128,
                                                         "start": 45,
                                                         "end": 49
                                                     },
@@ -140,49 +151,60 @@ foo = {
                                                             "text": "",
                                                             "rawText": "",
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 49,
                                                             "end": 49
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 4096,
                                                         "start": 49,
                                                         "end": 49
                                                     },
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 49
                                                 }
                                             ],
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 49
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 53
                                     },
                                     "flags": 1057,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 53
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 53
                             }
                         ],
                         "trailingComma": false,
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 53
                     },
                     "flags": 49,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 55
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 55
         }
@@ -191,6 +213,7 @@ foo = {
     "source": "foo = {\n  get x(){\n    \"use strict\";\n    with = x\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }

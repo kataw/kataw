@@ -27,6 +27,7 @@ var a: Array<(number)>
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ var a: Array<(number)>
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,6 +56,7 @@ var a: Array<(number)>
                                     "text": "Array",
                                     "rawText": "Array",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -71,46 +74,56 @@ var a: Array<(number)>
                                                     "type": {
                                                         "kind": 134234345,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 20
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 21
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 21
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 21
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 512,
                                     "start": 12,
                                     "end": 22
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 22
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 22
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -119,6 +132,7 @@ var a: Array<(number)>
     "source": "var a: Array<(number)>",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -127,9 +141,7 @@ var a: Array<(number)>
 ### Printed
 
 ```javascript
-
 var a: Array<(number)>;
-
 ```
 
 ### Diagnostics

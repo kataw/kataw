@@ -30,10 +30,12 @@ yield /* comment */
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         }
@@ -42,6 +44,7 @@ yield /* comment */
     "source": "yield /* comment */",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -50,9 +53,7 @@ yield /* comment */
 ### Printed
 
 ```javascript
-
-yield;/* comment */
-
+yield;
 ```
 
 ### Diagnostics

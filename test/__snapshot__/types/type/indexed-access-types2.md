@@ -29,6 +29,7 @@ type C = Obj['bar'][foo]['boz'];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type C = Obj['bar'][foo]['boz'];
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type C = Obj['bar'][foo]['boz'];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -64,11 +67,13 @@ type C = Obj['bar'][foo]['boz'];
                                     "text": "Obj",
                                     "rawText": "Obj",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 12
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             },
@@ -81,14 +86,17 @@ type C = Obj['bar'][foo]['boz'];
                                     "text": "bar",
                                     "rawText": "'bar'",
                                     "flags": 6291520,
+                                    "transformFlags": 1024,
                                     "start": 13,
                                     "end": 18
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 18
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 20
                         },
@@ -103,19 +111,23 @@ type C = Obj['bar'][foo]['boz'];
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 23
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 23
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 23
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 25
                     },
@@ -128,22 +140,27 @@ type C = Obj['bar'][foo]['boz'];
                             "text": "boz",
                             "rawText": "'boz'",
                             "flags": 6291520,
+                            "transformFlags": 1024,
                             "start": 25,
                             "end": 30
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 30
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 32
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 31
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -152,6 +169,7 @@ type C = Obj['bar'][foo]['boz'];
     "source": "type C = Obj['bar'][foo]['boz'];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -160,9 +178,7 @@ type C = Obj['bar'][foo]['boz'];
 ### Printed
 
 ```javascript
-
-type C = Obj[ '\'bar\''][ foo][ '\'boz\'']
-
+type C = Obj["'bar'"][foo]["'boz'"]
 ```
 
 ### Diagnostics

@@ -30,6 +30,7 @@ class x {static set switch(x){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {static set switch(x){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -55,6 +57,7 @@ class x {static set switch(x){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -63,6 +66,7 @@ class x {static set switch(x){}}
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
@@ -74,6 +78,7 @@ class x {static set switch(x){}}
                                     "text": "switch",
                                     "rawText": "switch",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 26
                                 },
@@ -86,12 +91,14 @@ class x {static set switch(x){}}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 28
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
@@ -103,31 +110,38 @@ class x {static set switch(x){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 30
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 31
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 31
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -136,6 +150,7 @@ class x {static set switch(x){}}
     "source": "class x {static set switch(x){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -144,11 +159,9 @@ class x {static set switch(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set switch(x) {}
 }
-
 ```
 
 ### Diagnostics

@@ -33,6 +33,7 @@ a, async => ok
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -45,6 +46,7 @@ a, async => ok
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 8
                         },
@@ -52,6 +54,7 @@ a, async => ok
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         },
@@ -60,19 +63,23 @@ a, async => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 14
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 14
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -81,6 +88,7 @@ a, async => ok
     "source": "a, async => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -89,9 +97,7 @@ a, async => ok
 ### Printed
 
 ```javascript
-
 a, async => ok;
-
 ```
 
 ### Diagnostics

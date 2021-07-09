@@ -30,6 +30,7 @@ declare class C {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -37,6 +38,7 @@ declare class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -45,6 +47,7 @@ declare class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -60,6 +63,7 @@ declare class C {
                             "protoKeyword": {
                                 "kind": 16873,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 25
                             },
@@ -71,6 +75,7 @@ declare class C {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
@@ -86,33 +91,40 @@ declare class C {
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 31
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 33
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -121,6 +133,7 @@ declare class C {
     "source": "declare class C {\n  proto x: T;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -129,9 +142,7 @@ declare class C {
 ### Printed
 
 ```javascript
-
 declare class C { proto x: T }
-
 ```
 
 ### Diagnostics

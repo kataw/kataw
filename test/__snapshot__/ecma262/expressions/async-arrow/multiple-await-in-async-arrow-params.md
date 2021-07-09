@@ -22,6 +22,7 @@ async ({ x = [ await ], y = { await } }) => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -42,6 +43,7 @@ async ({ x = [ await ], y = { await } }) => {}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 10
                                         },
@@ -57,20 +59,24 @@ async ({ x = [ await ], y = { await } }) => {}
                                                         "text": "await",
                                                         "rawText": "await",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 20
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 20
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 12,
                                             "end": 22
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 8,
                                         "end": 22
                                     },
@@ -82,6 +88,7 @@ async ({ x = [ await ], y = { await } }) => {}
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 25
                                         },
@@ -97,36 +104,43 @@ async ({ x = [ await ], y = { await } }) => {}
                                                         "text": "await",
                                                         "rawText": "await",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 35
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 35
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 27,
                                             "end": 37
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 23,
                                         "end": 37
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 37
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 39
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 40
                 },
@@ -134,6 +148,7 @@ async ({ x = [ await ], y = { await } }) => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 43
                 },
@@ -144,18 +159,22 @@ async ({ x = [ await ], y = { await } }) => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 45,
                         "end": 45
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 46
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 46
         }
@@ -164,6 +183,7 @@ async ({ x = [ await ], y = { await } }) => {}
     "source": "async ({ x = [ await ], y = { await } }) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }
@@ -172,12 +192,7 @@ async ({ x = [ await ], y = { await } }) => {}
 ### Printed
 
 ```javascript
-
-async ({
-    x = [await,],
-    y = { await }
-  }) => {};
-
+async ({ x = [await], y = { await } }) => {};
 ```
 
 ### Diagnostics

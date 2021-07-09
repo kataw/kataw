@@ -39,6 +39,7 @@ for (x in a>c;;) x
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,12 +48,14 @@ for (x in a>c;;) x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
@@ -63,12 +66,14 @@ for (x in a>c;;) x
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 12
                 },
@@ -77,26 +82,31 @@ for (x in a>c;;) x
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 13
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 9,
                 "end": 13
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 15
         },
@@ -107,10 +117,12 @@ for (x in a>c;;) x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 16,
             "end": 18
         }
@@ -119,6 +131,7 @@ for (x in a>c;;) x
     "source": "for (x in a>c;;) x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

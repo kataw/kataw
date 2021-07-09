@@ -36,22 +36,26 @@
                                         "text": "const",
                                         "rawText": "const",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 7
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 7
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 9
                 },
@@ -59,6 +63,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 12
                 },
@@ -67,14 +72,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         },
@@ -97,22 +105,26 @@
                                         "text": "debugger",
                                         "rawText": "debugger",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 27
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 27
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 29
                 },
@@ -120,6 +132,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 32
                 },
@@ -128,14 +141,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 35
         }
@@ -144,6 +160,7 @@
     "source": "({const}) => x;\n\n({debugger}) => x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

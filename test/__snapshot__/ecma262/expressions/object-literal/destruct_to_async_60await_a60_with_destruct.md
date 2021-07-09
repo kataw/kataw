@@ -21,12 +21,14 @@ async function g() {   s = {"foo": await a = x} = x   }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,12 +67,14 @@ async function g() {   s = {"foo": await a = x} = x   }
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 24
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -87,6 +93,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                         "text": "foo",
                                                         "rawText": "\"foo\"",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 33
                                                     },
@@ -97,6 +104,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 34,
                                                                 "end": 40
                                                             },
@@ -105,16 +113,19 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 40,
                                                                 "end": 42
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 4096,
                                                             "start": 34,
                                                             "end": 42
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 42,
                                                             "end": 44
                                                         },
@@ -123,30 +134,36 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 44,
                                                             "end": 46
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
+                                                        "transformFlags": 128,
                                                         "start": 28,
                                                         "end": 46
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 28,
                                                     "end": 46
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 46
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 26,
                                         "end": 47
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 49
                                     },
@@ -155,32 +172,39 @@ async function g() {   s = {"foo": await a = x} = x   }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 49,
                                         "end": 51
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 26,
                                     "end": 51
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 20,
                                 "end": 51
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 51
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 51
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 55
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 55
         }
@@ -189,6 +213,7 @@ async function g() {   s = {"foo": await a = x} = x   }
     "source": "async function g() {   s = {\"foo\": await a = x} = x   }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }

@@ -21,6 +21,7 @@ a;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ a;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -46,7 +48,8 @@ a;
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 9
                             },
@@ -54,6 +57,7 @@ a;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
@@ -62,6 +66,7 @@ a;
                                 "operandToken": {
                                     "kind": 196636,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 16
                                 },
@@ -70,27 +75,33 @@ a;
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 18
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 18
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -99,6 +110,7 @@ a;
     "source": "let x = () => --\na;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -107,9 +119,7 @@ a;
 ### Printed
 
 ```javascript
-
-let x = () => --a;
-
+let x = () => -- a;
 ```
 
 ### Diagnostics

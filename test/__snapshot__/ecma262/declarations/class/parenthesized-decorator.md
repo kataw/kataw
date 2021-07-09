@@ -31,6 +31,7 @@ class Foo {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -41,6 +42,7 @@ class Foo {
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 1
                             },
@@ -56,6 +58,7 @@ class Foo {
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2,
                                                 "end": 5
                                             },
@@ -64,10 +67,12 @@ class Foo {
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 6
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 2,
                                             "end": 7
                                         },
@@ -76,35 +81,42 @@ class Foo {
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 11
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 2,
                                         "start": 2,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 11
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 1,
                             "end": 12
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 12
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
@@ -113,6 +125,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 22
             },
@@ -134,6 +147,7 @@ class Foo {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 28
                                         },
@@ -144,6 +158,7 @@ class Foo {
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 28
                                             },
@@ -157,6 +172,7 @@ class Foo {
                                                             "text": "member",
                                                             "rawText": "member",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 29,
                                                             "end": 35
                                                         },
@@ -165,29 +181,35 @@ class Foo {
                                                             "text": "expression",
                                                             "rawText": "expression",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 36,
                                                             "end": 46
                                                         },
                                                         "flags": 536870944,
+                                                        "transformFlags": 4,
                                                         "start": 29,
                                                         "end": 47
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 47
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 28,
                                             "end": 48
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 48
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 48
                             },
@@ -203,6 +225,7 @@ class Foo {
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 55
                                 },
@@ -212,6 +235,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 57
                                 },
@@ -223,18 +247,22 @@ class Foo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 59,
                                         "end": 59
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 57,
                                     "end": 60
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 55,
                                 "end": 60
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 60
                         },
@@ -249,6 +277,7 @@ class Foo {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 65
                                         },
@@ -259,6 +288,7 @@ class Foo {
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 65,
                                                 "end": 65
                                             },
@@ -272,12 +302,14 @@ class Foo {
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 66,
                                                             "end": 69
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 69,
                                                             "end": 71
                                                         },
@@ -286,29 +318,35 @@ class Foo {
                                                             "text": "bar",
                                                             "rawText": "bar",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 71,
                                                             "end": 75
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 5120,
                                                         "start": 66,
                                                         "end": 75
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 66,
                                                 "end": 75
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 65,
                                             "end": 76
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 65,
                                         "end": 76
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 76
                             },
@@ -324,6 +362,7 @@ class Foo {
                                     "text": "method2",
                                     "rawText": "method2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 76,
                                     "end": 84
                                 },
@@ -333,6 +372,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 85,
                                     "end": 86
                                 },
@@ -344,31 +384,38 @@ class Foo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 88,
                                         "end": 88
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 86,
                                     "end": 89
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 84,
                                 "end": 89
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 60,
                             "end": 89
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 89
                 },
                 "flags": 22,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 91
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 91
         }
@@ -377,6 +424,7 @@ class Foo {
     "source": "@(foo().bar)\nclass Foo {\n  @(member[expression]) method() {}\n\n  @(foo + bar) method2() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 91
 }

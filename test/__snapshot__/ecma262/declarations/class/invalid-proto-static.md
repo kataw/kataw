@@ -30,6 +30,7 @@ declare class C {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -37,6 +38,7 @@ declare class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -45,6 +47,7 @@ declare class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -60,6 +63,7 @@ declare class C {
                             "protoKeyword": {
                                 "kind": 16873,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 25
                             },
@@ -71,6 +75,7 @@ declare class C {
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 32
                             },
@@ -86,33 +91,40 @@ declare class C {
                                         "text": "p",
                                         "rawText": "p",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 34
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 34
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 34
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 34
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         },
@@ -123,10 +135,12 @@ declare class C {
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 35,
             "end": 38
         }
@@ -135,6 +149,7 @@ declare class C {
     "source": "declare class C {\n  proto static p: T;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

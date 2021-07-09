@@ -22,12 +22,14 @@ foo: for (;;) break foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -36,6 +38,7 @@ foo: for (;;) break foo
                 "forKeyword": {
                     "kind": 37757017,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 8
                 },
@@ -47,6 +50,7 @@ foo: for (;;) break foo
                     "breakKeyword": {
                         "kind": 37757005,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 19
                     },
@@ -55,18 +59,22 @@ foo: for (;;) break foo
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 23
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 23
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -75,6 +83,7 @@ foo: for (;;) break foo
     "source": "foo: for (;;) break foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -83,10 +92,8 @@ foo: for (;;) break foo
 ### Printed
 
 ```javascript
-
-foo: for (;;)
+foo:  for (;;)
   break foo;
-
 ```
 
 ### Diagnostics

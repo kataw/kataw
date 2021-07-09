@@ -27,12 +27,14 @@
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 5
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 6
                         },
@@ -43,12 +45,14 @@
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 10
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -59,6 +63,7 @@
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 20
                                 },
@@ -68,6 +73,7 @@
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
@@ -77,6 +83,7 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 23
                                 },
@@ -87,32 +94,39 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 25
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
                                 "returnType": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 26
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -121,6 +135,7 @@
     "source": "{ foo: bar: function f(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -129,11 +144,9 @@
 ### Printed
 
 ```javascript
-
 {
-  foo: bar: function f() {}
+  foo:  bar:  function f() {}
 }
-
 ```
 
 ### Diagnostics

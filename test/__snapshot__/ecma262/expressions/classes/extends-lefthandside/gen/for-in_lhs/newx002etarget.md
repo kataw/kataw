@@ -28,6 +28,7 @@ for (new.target in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,22 +37,26 @@ for (new.target in x) ;
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
                 "targetIdentifier": {
                     "kind": 16594,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
@@ -60,16 +65,19 @@ for (new.target in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -78,6 +86,7 @@ for (new.target in x) ;
     "source": "for (new.target in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

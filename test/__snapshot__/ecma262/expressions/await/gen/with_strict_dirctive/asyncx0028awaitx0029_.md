@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -41,6 +42,7 @@
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
@@ -52,20 +54,24 @@
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 13,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 27
         }
@@ -74,6 +80,7 @@
     "source": "'use strict'; async(await);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -83,9 +90,8 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 async(await);
-
 ```
 
 ### Diagnostics

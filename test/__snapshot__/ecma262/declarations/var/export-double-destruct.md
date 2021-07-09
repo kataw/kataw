@@ -39,6 +39,7 @@ export var [foo] = arr, [bar] = arr2;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -48,6 +49,7 @@ export var [foo] = arr, [bar] = arr2;
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -66,16 +68,19 @@ export var [foo] = arr, [bar] = arr2;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 15
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 16
                             },
@@ -85,10 +90,12 @@ export var [foo] = arr, [bar] = arr2;
                                 "text": "arr",
                                 "rawText": "arr",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 22
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 22
                         },
@@ -104,16 +111,19 @@ export var [foo] = arr, [bar] = arr2;
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 28
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 29
                             },
@@ -123,19 +133,23 @@ export var [foo] = arr, [bar] = arr2;
                                 "text": "arr2",
                                 "rawText": "arr2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 36
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 23,
                             "end": 36
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 36
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 37
             },
@@ -144,6 +158,7 @@ export var [foo] = arr, [bar] = arr2;
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -152,6 +167,7 @@ export var [foo] = arr, [bar] = arr2;
     "source": "export var [foo] = arr, [bar] = arr2;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

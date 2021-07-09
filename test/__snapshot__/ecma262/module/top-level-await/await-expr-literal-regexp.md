@@ -28,6 +28,7 @@ await /1/;
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -35,14 +36,17 @@ await /1/;
                     "kind": 371,
                     "text": "/1/",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -51,6 +55,7 @@ await /1/;
     "source": "await /1/;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -59,9 +64,7 @@ await /1/;
 ### Printed
 
 ```javascript
-
 await /1/;
-
 ```
 
 ### Diagnostics

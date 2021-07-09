@@ -30,12 +30,14 @@ function *f(x = delete ((private) = f)) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -44,6 +46,7 @@ function *f(x = delete ((private) = f)) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -59,6 +62,7 @@ function *f(x = delete ((private) = f)) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -69,6 +73,7 @@ function *f(x = delete ((private) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 22
                             },
@@ -83,16 +88,19 @@ function *f(x = delete ((private) = f)) {}
                                             "text": "private",
                                             "rawText": "private",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 32
                                         },
-                                        "flags": 32,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "transformFlags": 0,
+                                        "start": 32,
                                         "end": 33
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 35
                                     },
@@ -101,28 +109,34 @@ function *f(x = delete ((private) = f)) {}
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 37
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 24,
                                     "end": 37
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 38
                             },
                             "flags": 32,
+                            "transformFlags": 1024,
                             "start": 15,
                             "end": 38
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 38
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 38
             },
@@ -133,15 +147,18 @@ function *f(x = delete ((private) = f)) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 42
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -150,6 +167,7 @@ function *f(x = delete ((private) = f)) {}
     "source": "function *f(x = delete ((private) = f)) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -158,9 +176,7 @@ function *f(x = delete ((private) = f)) {}
 ### Printed
 
 ```javascript
-
-function * f(x = delete ((private) = f)) {}
-
+function *f(x = delete ((private) = f)) {}
 ```
 
 ### Diagnostics

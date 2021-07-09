@@ -30,6 +30,7 @@ class C { a\n get }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C { a\n get }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -59,6 +61,7 @@ class C { a\n get }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -66,19 +69,23 @@ class C { a\n get }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 11
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -89,10 +96,12 @@ class C { a\n get }
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 13
         },
@@ -103,10 +112,12 @@ class C { a\n get }
                 "text": "get",
                 "rawText": "get",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 17
         }
@@ -115,6 +126,7 @@ class C { a\n get }
     "source": "class C { a\\n get }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

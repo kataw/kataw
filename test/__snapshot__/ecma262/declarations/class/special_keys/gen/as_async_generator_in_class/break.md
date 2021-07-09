@@ -30,6 +30,7 @@ class x {async * break(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {async * break(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x {async * break(){}}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -64,6 +67,7 @@ class x {async * break(){}}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 14,
                                 "end": 16
                             },
@@ -74,6 +78,7 @@ class x {async * break(){}}
                                     "text": "break",
                                     "rawText": "break",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 22
                                 },
@@ -83,6 +88,7 @@ class x {async * break(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 24
                                 },
@@ -94,31 +100,38 @@ class x {async * break(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 25
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
                                 "flags": 384,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 26
                             },
                             "flags": 384,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 26
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 26
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -127,6 +140,7 @@ class x {async * break(){}}
     "source": "class x {async * break(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -135,11 +149,9 @@ class x {async * break(){}}
 ### Printed
 
 ```javascript
-
 class x {
-  async * break() {}
+  async *break() {}
 }
-
 ```
 
 ### Diagnostics

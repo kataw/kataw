@@ -30,6 +30,7 @@ class A extends fooo[bar] {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class A extends fooo[bar] {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class A extends fooo[bar] {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -59,6 +62,7 @@ class A extends fooo[bar] {}
                             "text": "fooo",
                             "rawText": "fooo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 20
                         },
@@ -67,15 +71,18 @@ class A extends fooo[bar] {}
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 24
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 15,
                         "end": 25
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 25
                 },
@@ -83,14 +90,17 @@ class A extends fooo[bar] {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 27
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -99,6 +109,7 @@ class A extends fooo[bar] {}
     "source": "class A extends fooo[bar] {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -107,10 +118,7 @@ class A extends fooo[bar] {}
 ### Printed
 
 ```javascript
-
-class A extends fooo[bar] {
-}
-
+class A extends fooo[bar] {}
 ```
 
 ### Diagnostics

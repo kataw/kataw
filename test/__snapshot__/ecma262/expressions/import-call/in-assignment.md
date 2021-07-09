@@ -24,12 +24,14 @@ x = import(y);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -38,6 +40,7 @@ x = import(y);
                     "importKeyword": {
                         "kind": 37814364,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 10
                     },
@@ -46,18 +49,22 @@ x = import(y);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -66,6 +73,7 @@ x = import(y);
     "source": "x = import(y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -74,9 +82,7 @@ x = import(y);
 ### Printed
 
 ```javascript
-
 x = import(y);
-
 ```
 
 ### Diagnostics

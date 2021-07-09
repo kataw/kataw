@@ -35,12 +35,14 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 3
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 4
                         },
@@ -51,33 +53,40 @@
                                 "importKeyword": {
                                     "kind": 37814364,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 11
                                 },
                                 "metaIdentifier": {
                                     "kind": 16595,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 16
                                 },
                                 "flags": 11,
+                                "transformFlags": 0,
                                 "start": 96,
                                 "end": 16
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 4,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 16
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -86,6 +95,7 @@
     "source": "{ x: import.meta }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

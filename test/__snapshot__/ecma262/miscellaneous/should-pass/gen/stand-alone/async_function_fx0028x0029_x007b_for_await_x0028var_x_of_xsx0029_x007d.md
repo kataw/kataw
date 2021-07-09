@@ -29,12 +29,14 @@ async function f() { for await (var x of xs); }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -44,6 +46,7 @@ async function f() { for await (var x of xs); }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -53,6 +56,7 @@ async function f() { for await (var x of xs); }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -67,12 +71,14 @@ async function f() { for await (var x of xs); }
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 30
                             },
@@ -81,6 +87,7 @@ async function f() { for await (var x of xs); }
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 35
                                 },
@@ -94,27 +101,32 @@ async function f() { for await (var x of xs); }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 37
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 35,
                                             "end": 37
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 40
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 40
                             },
@@ -123,30 +135,36 @@ async function f() { for await (var x of xs); }
                                 "text": "xs",
                                 "rawText": "xs",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 43
                             },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 45
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 45
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 45
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 47
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         }
@@ -155,6 +173,7 @@ async function f() { for await (var x of xs); }
     "source": "async function f() { for await (var x of xs); }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }
@@ -163,12 +182,9 @@ async function f() { for await (var x of xs); }
 ### Printed
 
 ```javascript
-
 async function f() {
-  for await (var x of xs)
-    ;
+  for await (var x of xs);
 }
-
 ```
 
 ### Diagnostics

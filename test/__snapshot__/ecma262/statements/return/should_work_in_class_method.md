@@ -22,6 +22,7 @@ class x {foo(){ return }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x {foo(){ return }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x {foo(){ return }}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -65,6 +68,7 @@ class x {foo(){ return }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 14
                                 },
@@ -80,41 +84,50 @@ class x {foo(){ return }}
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 22
                                                 },
                                                 "expression": null,
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 15,
                                                 "end": 22
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 24
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 24
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 24
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 24
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -123,6 +136,7 @@ class x {foo(){ return }}
     "source": "class x {foo(){ return }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -131,13 +145,11 @@ class x {foo(){ return }}
 ### Printed
 
 ```javascript
-
 class x {
   foo() {
     return;
   }
 }
-
 ```
 
 ### Diagnostics

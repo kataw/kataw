@@ -28,6 +28,7 @@ let x; strubg
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,21 +42,25 @@ let x; strubg
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -66,10 +71,12 @@ let x; strubg
                 "text": "strubg",
                 "rawText": "strubg",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 13
         }
@@ -78,6 +85,7 @@ let x; strubg
     "source": "let x; strubg",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -86,7 +94,6 @@ let x; strubg
 ### Printed
 
 ```javascript
-
 let x;
 strubg;
 

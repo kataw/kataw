@@ -28,6 +28,7 @@ let tuple1: [number] = [1];
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let tuple1: [number] = [1];
                             "text": "tuple1",
                             "rawText": "tuple1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
@@ -58,20 +60,24 @@ let tuple1: [number] = [1];
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 19
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 20
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 20
                         },
@@ -85,29 +91,35 @@ let tuple1: [number] = [1];
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 22,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -116,6 +128,7 @@ let tuple1: [number] = [1];
     "source": "let tuple1: [number] = [1];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -124,9 +137,7 @@ let tuple1: [number] = [1];
 ### Printed
 
 ```javascript
-
-let tuple1: [[number]] = [1,];
-
+let tuple1: [number] = [1];
 ```
 
 ### Diagnostics

@@ -40,6 +40,7 @@ const x = 1
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ const x = 1
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -61,21 +63,25 @@ const x = 1
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -84,10 +90,12 @@ const x = 1
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -96,6 +104,7 @@ const x = 1
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 20
             },
@@ -109,6 +118,7 @@ const x = 1
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
@@ -118,19 +128,23 @@ const x = 1
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 20,
                         "end": 26
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 14,
             "end": 26
         }
@@ -139,6 +153,7 @@ const x = 1
     "source": "for (var x;;);\nconst x = 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

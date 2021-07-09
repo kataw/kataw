@@ -24,12 +24,14 @@ s = {s: true}
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -46,34 +48,41 @@ s = {s: true}
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 6
                                 },
                                 "right": {
                                     "kind": 24752947,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 12
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 12
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -82,6 +91,7 @@ s = {s: true}
     "source": "s = {s: true}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -90,9 +100,7 @@ s = {s: true}
 ### Printed
 
 ```javascript
-
-s = { s : true };
-
+s = { s: true };
 ```
 
 ### Diagnostics

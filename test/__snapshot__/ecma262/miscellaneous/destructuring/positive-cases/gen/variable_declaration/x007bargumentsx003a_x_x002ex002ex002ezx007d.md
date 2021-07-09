@@ -29,6 +29,7 @@ var {arguments: x, ...z} = {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ var {arguments: x, ...z} = {};
                                             "text": "arguments",
                                             "rawText": "arguments",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 14
                                         },
@@ -57,11 +59,13 @@ var {arguments: x, ...z} = {};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 17
                                     },
@@ -70,6 +74,7 @@ var {arguments: x, ...z} = {};
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 22
                                         },
@@ -78,6 +83,7 @@ var {arguments: x, ...z} = {};
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 23
                                         },
@@ -85,16 +91,19 @@ var {arguments: x, ...z} = {};
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 18,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 24
                         },
@@ -106,23 +115,28 @@ var {arguments: x, ...z} = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 28
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 26,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -131,6 +145,7 @@ var {arguments: x, ...z} = {};
     "source": "var {arguments: x, ...z} = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -139,12 +154,7 @@ var {arguments: x, ...z} = {};
 ### Printed
 
 ```javascript
-
-var {
-  arguments: x,
-  ...z
-} = {};
-
+var { arguments: x, ...z } = {};
 ```
 
 ### Diagnostics

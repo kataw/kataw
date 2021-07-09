@@ -46,6 +46,7 @@
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 4
                             },
@@ -55,12 +56,14 @@
                                     "kind": 371,
                                     "text": "/x/",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 7
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
@@ -69,28 +72,34 @@
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 4,
                                 "end": 9
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -99,6 +108,7 @@
     "source": "[.../x/+y]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -107,9 +117,7 @@
 ### Printed
 
 ```javascript
-
 [.../x/ + y];
-
 ```
 
 ### Diagnostics

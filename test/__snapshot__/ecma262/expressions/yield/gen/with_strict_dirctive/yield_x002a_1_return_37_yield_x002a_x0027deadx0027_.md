@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -41,12 +42,14 @@
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 19,
                     "end": 21
                 },
@@ -55,14 +58,17 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 13,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 24
         },
@@ -71,6 +77,7 @@
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 31
             },
@@ -79,10 +86,12 @@
                 "text": 37,
                 "rawText": "37",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 34
             },
             "flags": 80,
+            "transformFlags": 256,
             "start": 24,
             "end": 35
         },
@@ -95,12 +104,14 @@
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 41
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 41,
                     "end": 43
                 },
@@ -109,14 +120,17 @@
                     "text": "dead",
                     "rawText": "'dead'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 50
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 35,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 35,
             "end": 51
         }
@@ -125,6 +139,7 @@
     "source": "'use strict'; yield * 1; return 37; yield * 'dead';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

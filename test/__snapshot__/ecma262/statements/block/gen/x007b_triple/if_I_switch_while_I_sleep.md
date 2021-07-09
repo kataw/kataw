@@ -43,6 +43,7 @@
                                                 "ifKeyword": {
                                                     "kind": 37757019,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 5,
                                                     "end": 8
                                                 },
@@ -51,6 +52,7 @@
                                                     "text": "I",
                                                     "rawText": "I",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 8,
                                                     "end": 10
                                                 },
@@ -59,6 +61,7 @@
                                                     "switchKeyword": {
                                                         "kind": 37757024,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 17
                                                     },
@@ -67,6 +70,7 @@
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 17
                                                     },
@@ -74,16 +78,19 @@
                                                         "kind": 152,
                                                         "clauses": [],
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 17
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 17
                                                 },
                                                 "elseKeyword": null,
                                                 "alternate": null,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 17
                                             },
@@ -92,6 +99,7 @@
                                                 "whileKeyword": {
                                                     "kind": 37757028,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 23
                                                 },
@@ -100,6 +108,7 @@
                                                     "text": "I",
                                                     "rawText": "I",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 25
                                                 },
@@ -110,41 +119,50 @@
                                                         "text": "sleep",
                                                         "rawText": "sleep",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 31
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 4096,
                                                     "start": 25,
                                                     "end": 31
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 31
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 31
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 31
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -153,6 +171,7 @@
     "source": "{ { { if I switch while I sleep",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

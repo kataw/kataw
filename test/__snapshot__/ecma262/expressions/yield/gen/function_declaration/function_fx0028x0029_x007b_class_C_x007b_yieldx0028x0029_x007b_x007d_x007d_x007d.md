@@ -30,6 +30,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -48,6 +50,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -64,6 +67,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 29
                             },
@@ -73,6 +77,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 31
                             },
@@ -82,6 +87,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 32
                             },
@@ -98,6 +104,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                             "classKeyword": {
                                                 "kind": 37822544,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 41
                                             },
@@ -106,6 +113,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                 "text": "C",
                                                 "rawText": "C",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 43
                                             },
@@ -132,6 +140,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                     "text": "yield",
                                                                     "rawText": "yield",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 45,
                                                                     "end": 51
                                                                 },
@@ -141,6 +150,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 0,
+                                                                    "transformFlags": 0,
                                                                     "start": 52,
                                                                     "end": 53
                                                                 },
@@ -152,59 +162,72 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                         "directives": [],
                                                                         "statements": [],
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 55,
                                                                         "end": 55
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 53,
                                                                     "end": 57
                                                                 },
                                                                 "flags": 0,
+                                                                "transformFlags": 0,
                                                                 "start": 51,
                                                                 "end": 57
                                                             },
                                                             "flags": 0,
+                                                            "transformFlags": 0,
                                                             "start": 45,
                                                             "end": 57
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 45,
                                                     "end": 57
                                                 },
                                                 "flags": 43,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 59
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 35,
                                             "end": 59
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 59
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 61
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 61
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 61
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 63
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 63
         }
@@ -213,6 +236,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
     "source": "function not_gen() { function f() { class C { yield() { } } } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 64
 }

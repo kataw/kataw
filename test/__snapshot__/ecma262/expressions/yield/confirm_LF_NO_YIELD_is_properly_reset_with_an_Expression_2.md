@@ -22,12 +22,14 @@ function *g(){ return x + (yield f); }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *g(){ return x + (yield f); }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *g(){ return x + (yield f); }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -59,6 +63,7 @@ function *g(){ return x + (yield f); }
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 21
                             },
@@ -69,12 +74,14 @@ function *g(){ return x + (yield f); }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
@@ -85,6 +92,7 @@ function *g(){ return x + (yield f); }
                                         "yieldKeyword": {
                                             "kind": 8454253,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 32
                                         },
@@ -95,36 +103,44 @@ function *g(){ return x + (yield f); }
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 34
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 27,
                                         "end": 34
                                     },
-                                    "flags": 32,
-                                    "start": 25,
+                                    "flags": 25,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 35
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 21,
                                 "end": 35
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 14,
                             "end": 36
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 38
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -133,6 +149,7 @@ function *g(){ return x + (yield f); }
     "source": "function *g(){ return x + (yield f); }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -141,11 +158,9 @@ function *g(){ return x + (yield f); }
 ### Printed
 
 ```javascript
-
-function * g() {
-  return x + (yield  f);
+function *g() {
+  return x + (yield f);
 }
-
 ```
 
 ### Diagnostics

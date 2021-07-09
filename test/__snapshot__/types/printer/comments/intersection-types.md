@@ -34,6 +34,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -43,6 +44,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                 "text": "method",
                 "rawText": "method",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
@@ -58,6 +60,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                             "text": "value",
                             "rawText": "value",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 21
                         },
@@ -76,11 +79,13 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "text": "A",
                                             "rawText": "A",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 29
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 29
                                     },
@@ -91,11 +96,13 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "text": "B",
                                             "rawText": "B",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 33
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     },
@@ -106,31 +113,37 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "text": "C",
                                             "rawText": "C",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 35,
                                             "end": 43
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 43
                                     }
                                 ],
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 43
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 43
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 16,
                         "end": 43
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 43
             },
@@ -146,6 +159,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 58
                             },
@@ -159,6 +173,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 58,
                                             "end": 60
                                         },
@@ -173,15 +188,18 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                                     "text": "A",
                                                     "rawText": "A",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 61,
                                                     "end": 63
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 63
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 61,
                                             "end": 63
                                         },
@@ -190,19 +208,23 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "text": "value",
                                             "rawText": "value",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 65,
                                             "end": 71
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 58,
                                         "end": 71
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 71
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 52,
                             "end": 72
                         },
@@ -212,6 +234,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 78
                             },
@@ -225,6 +248,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 78,
                                             "end": 80
                                         },
@@ -239,15 +263,18 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                                     "text": "B",
                                                     "rawText": "B",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 81,
                                                     "end": 83
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 81,
                                                 "end": 83
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 81,
                                             "end": 83
                                         },
@@ -256,19 +283,23 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "text": "value",
                                             "rawText": "value",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 85,
                                             "end": 91
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 78,
                                         "end": 91
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 78,
                                 "end": 91
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 72,
                             "end": 92
                         },
@@ -278,6 +309,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 92,
                                 "end": 104
                             },
@@ -291,6 +323,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 104,
                                             "end": 106
                                         },
@@ -305,15 +338,18 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                                     "text": "C",
                                                     "rawText": "C",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 107,
                                                     "end": 109
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 107,
                                                 "end": 109
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 107,
                                             "end": 109
                                         },
@@ -322,33 +358,40 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                                             "text": "value",
                                             "rawText": "value",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 111,
                                             "end": 117
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 104,
                                         "end": 117
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 104,
                                 "end": 117
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 92,
                             "end": 118
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 118
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 120
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 120
         }
@@ -357,6 +400,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
     "source": "function method(value: /*1*/A & B & /*2*/ C /*3*/) {\n  var a: A = value;\n  var b: B = value; /*4*/\n  var c: C = value;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 120
 }
@@ -365,13 +409,11 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
 ### Printed
 
 ```javascript
-
-function method(value:/*1*/ /*1*/A & B & /*2*/C/*3*/) {
+function method(value: A & B & C) {
   var a: A = value;
-  var b: B = value;/*4*/
+  var b: B = value;
   var c: C = value;
 }
-
 ```
 
 ### Diagnostics

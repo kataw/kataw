@@ -23,6 +23,7 @@ var a = async (options = {}) => {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ var a = async (options = {}) => {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -45,6 +47,7 @@ var a = async (options = {}) => {
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
@@ -60,6 +63,7 @@ var a = async (options = {}) => {
                                             "text": "options",
                                             "rawText": "options",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 22
                                         },
@@ -72,20 +76,24 @@ var a = async (options = {}) => {
                                                 "properties": [],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 26
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 24,
                                             "end": 27
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 15,
                                         "end": 27
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 28
                             },
@@ -93,6 +101,7 @@ var a = async (options = {}) => {
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 31
                             },
@@ -106,33 +115,40 @@ var a = async (options = {}) => {
                                             "text": "use strict",
                                             "rawText": "\"use strict\"",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 48
                                         }
                                     ],
                                     "statements": [],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 49
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 51
                             },
                             "flags": 290,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 51
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 51
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         }
@@ -141,6 +157,7 @@ var a = async (options = {}) => {
     "source": "var a = async (options = {}) => {\n  \"use strict\";\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }

@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -37,6 +38,7 @@
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -47,12 +49,14 @@
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 20
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 21
                 },
@@ -61,10 +65,12 @@
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 22
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 13,
                 "end": 22
             },
@@ -73,6 +79,7 @@
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 27
             },
@@ -81,6 +88,7 @@
                 "text": "of",
                 "rawText": "of",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 25
             },
@@ -91,14 +99,17 @@
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 28,
                 "end": 31
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 13,
             "end": 31
         }
@@ -107,6 +118,7 @@
     "source": "\"use strict\"; for (a+b of c) d;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -116,10 +128,8 @@
 
 ```javascript
 
-'"use strict"';
-for (a + b; c; of)
-  d;
-
+"\"use strict\"";
+for (a + b; c; of) d;
 ```
 
 ### Diagnostics

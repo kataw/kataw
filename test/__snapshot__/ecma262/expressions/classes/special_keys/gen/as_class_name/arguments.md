@@ -30,6 +30,7 @@ class arguments {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class arguments {}
                 "text": "arguments",
                 "rawText": "arguments",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
@@ -49,14 +51,17 @@ class arguments {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 15,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -65,6 +70,7 @@ class arguments {}
     "source": "class arguments {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -73,10 +79,7 @@ class arguments {}
 ### Printed
 
 ```javascript
-
-class arguments {
-}
-
+class arguments {}
 ```
 
 ### Diagnostics

@@ -38,10 +38,12 @@
                 "text": " a ",
                 "rawText": "\" a \"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -52,10 +54,12 @@
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 7
         },
@@ -66,10 +70,12 @@
                 "text": "",
                 "rawText": "\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 11
         },
@@ -80,10 +86,12 @@
                 "text": " a ",
                 "rawText": "\" a \"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 17
         },
@@ -94,10 +102,12 @@
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 19
         },
@@ -108,10 +118,12 @@
                 "text": " c ",
                 "rawText": "\" c \"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 19,
             "end": 27
         },
@@ -122,10 +134,12 @@
                 "text": " a ' b ",
                 "rawText": "\" a ' b \"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 39
         },
@@ -136,10 +150,12 @@
                 "text": " a ' b ' c ",
                 "rawText": "\" a ' b ' c \"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 39,
             "end": 55
         },
@@ -150,10 +166,12 @@
                 "text": " a ` b ",
                 "rawText": "\" a ` b \"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 65
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 55,
             "end": 67
         },
@@ -164,10 +182,12 @@
                 "text": " a ` b ` c ",
                 "rawText": "\" a ` b ` c \"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 67,
                 "end": 81
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 67,
             "end": 81
         }
@@ -176,6 +196,7 @@
     "source": "\" a \" b \"\n;\n\" a \" b \" c \"\n;\n\" a ' b \"\n;\n\" a ' b ' c \"\n;\n\" a ` b \"\n;\n\" a ` b ` c \"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 81
 }

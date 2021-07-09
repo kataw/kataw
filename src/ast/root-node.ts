@@ -1,4 +1,4 @@
-import { SyntaxKind, SyntaxNode, NodeFlags } from './syntax-node';
+import { SyntaxKind, SyntaxNode, NodeFlags, TransformFlags } from './syntax-node';
 import { StatementNode } from './statements';
 import { StringLiteral } from './expressions/string-literal';
 
@@ -29,6 +29,7 @@ export function createRootNode(
     source,
     fileName,
     flags: NodeFlags.None,
+    transformFlags: TransformFlags.None,
     start: 0,
     end: source.length
   };

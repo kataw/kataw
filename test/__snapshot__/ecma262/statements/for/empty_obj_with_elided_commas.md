@@ -20,6 +20,7 @@ for (let {,,} = obj;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let {,,} = obj;;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -43,25 +45,30 @@ for (let {,,} = obj;;);
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 10
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -70,6 +77,7 @@ for (let {,,} = obj;;);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -81,6 +89,7 @@ for (let {,,} = obj;;);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 11
                     },
@@ -89,11 +98,13 @@ for (let {,,} = obj;;);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 11,
                 "end": 12
             },
@@ -104,14 +115,17 @@ for (let {,,} = obj;;);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -122,22 +136,26 @@ for (let {,,} = obj;;);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 20
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 21
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 23
         }
@@ -146,6 +164,7 @@ for (let {,,} = obj;;);
     "source": "for (let {,,} = obj;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

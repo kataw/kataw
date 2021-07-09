@@ -32,6 +32,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -40,6 +41,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -57,6 +59,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
@@ -74,12 +77,14 @@ class C {
                                                     "text": "value",
                                                     "rawText": "value",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 30
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 32
                                                 },
@@ -88,50 +93,61 @@ class C {
                                                     "newKeyword": {
                                                         "kind": 138477661,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 36
                                                     },
                                                     "targetIdentifier": {
                                                         "kind": 16594,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 43
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 43
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 20,
                                                 "end": 43
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 44
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 44
                                 },
                                 "flags": 9,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 48
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 48
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 48
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -140,6 +156,7 @@ class C {
     "source": "class C {\n  static {\n    value = new.target;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

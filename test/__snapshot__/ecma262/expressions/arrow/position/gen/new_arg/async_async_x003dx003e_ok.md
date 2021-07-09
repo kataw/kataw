@@ -30,6 +30,7 @@ new async async => ok
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -38,6 +39,7 @@ new async async => ok
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -47,6 +49,7 @@ new async async => ok
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 15
                     },
@@ -54,6 +57,7 @@ new async async => ok
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
@@ -62,19 +66,23 @@ new async async => ok
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 21
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 21
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -83,6 +91,7 @@ new async async => ok
     "source": "new async async => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

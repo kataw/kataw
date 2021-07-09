@@ -32,12 +32,14 @@ bar ? (foo ? bar : baz => {}) : baz;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -50,12 +52,14 @@ bar ? (foo ? bar : baz => {}) : baz;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
                         "questionToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
@@ -64,12 +68,14 @@ bar ? (foo ? bar : baz => {}) : baz;
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 16
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
@@ -82,6 +88,7 @@ bar ? (foo ? bar : baz => {}) : baz;
                                 "text": "baz",
                                 "rawText": "baz",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 22
                             },
@@ -89,6 +96,7 @@ bar ? (foo ? bar : baz => {}) : baz;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 25
                             },
@@ -99,28 +107,34 @@ bar ? (foo ? bar : baz => {}) : baz;
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 28
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 28
                         },
                         "flags": 96,
+                        "transformFlags": 4096,
                         "start": 5,
                         "end": 28
                     },
-                    "flags": 32,
-                    "start": 5,
+                    "flags": 5,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 29
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
@@ -129,14 +143,17 @@ bar ? (foo ? bar : baz => {}) : baz;
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 35
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }
@@ -145,6 +162,7 @@ bar ? (foo ? bar : baz => {}) : baz;
     "source": "bar ? (foo ? bar : baz => {}) : baz;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -153,9 +171,7 @@ bar ? (foo ? bar : baz => {}) : baz;
 ### Printed
 
 ```javascript
-
 bar ? (foo ? bar : baz => {}) : baz;
-
 ```
 
 ### Diagnostics

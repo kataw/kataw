@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,6 +40,7 @@
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
@@ -48,6 +50,7 @@
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
@@ -55,6 +58,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 25
                 },
@@ -63,6 +67,7 @@
                     "awaitKeyword": {
                         "kind": 82196,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 31
                     },
@@ -71,18 +76,22 @@
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 31
                     },
                     "flags": 32,
+                    "transformFlags": 4096,
                     "start": 25,
                     "end": 31
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 31
         }
@@ -91,6 +100,7 @@
     "source": "\"use strict\"; async () => await",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

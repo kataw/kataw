@@ -37,6 +37,7 @@ async => ok, async => ok
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
@@ -44,6 +45,7 @@ async => ok, async => ok
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
@@ -52,10 +54,12 @@ async => ok, async => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 11
                     },
@@ -68,6 +72,7 @@ async => ok, async => ok
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 18
                         },
@@ -75,6 +80,7 @@ async => ok, async => ok
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 21
                         },
@@ -83,19 +89,23 @@ async => ok, async => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 24
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 24
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }
@@ -104,6 +114,7 @@ async => ok, async => ok
     "source": "async => ok, async => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -112,9 +123,7 @@ async => ok, async => ok
 ### Printed
 
 ```javascript
-
 async => ok, async => ok;
-
 ```
 
 ### Diagnostics

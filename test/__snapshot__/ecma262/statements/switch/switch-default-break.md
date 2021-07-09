@@ -28,6 +28,7 @@ switch(0) { default: function f(){ break; } }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ switch(0) { default: function f(){ break; } }
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -47,12 +49,14 @@ switch(0) { default: function f(){ break; } }
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 19
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 20
                         },
@@ -64,6 +68,7 @@ switch(0) { default: function f(){ break; } }
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 29
                                 },
@@ -73,6 +78,7 @@ switch(0) { default: function f(){ break; } }
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
@@ -82,6 +88,7 @@ switch(0) { default: function f(){ break; } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 32
                                 },
@@ -96,39 +103,47 @@ switch(0) { default: function f(){ break; } }
                                                 "breakKeyword": {
                                                     "kind": 37757005,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 40
                                                 },
                                                 "label": null,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 41
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 41
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 43
                                 },
                                 "returnType": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 43
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 43
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 43
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -137,6 +152,7 @@ switch(0) { default: function f(){ break; } }
     "source": "switch(0) { default: function f(){ break; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }

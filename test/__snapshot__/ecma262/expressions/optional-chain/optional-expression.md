@@ -22,6 +22,7 @@ obj?.a?.b
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -30,6 +31,7 @@ obj?.a?.b
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -38,6 +40,7 @@ obj?.a?.b
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -51,18 +54,22 @@ obj?.a?.b
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 5,
                             "end": 6
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -76,22 +83,27 @@ obj?.a?.b
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -100,6 +112,7 @@ obj?.a?.b
     "source": "obj?.a?.b",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -108,9 +121,7 @@ obj?.a?.b
 ### Printed
 
 ```javascript
-
 obj?.a?.b;
-
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,12 +43,14 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -58,12 +61,14 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -74,21 +79,25 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -103,6 +112,7 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                         "text": "m",
                         "rawText": "m",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -119,32 +129,38 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                                             "text": "b",
                                             "rawText": "'b'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 19
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 4194336,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 15,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 12,
                     "end": 21
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -153,12 +169,14 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                     "text": "lhs",
                     "rawText": "lhs",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 27
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
@@ -174,6 +192,7 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                                     "member": {
                                         "kind": 4259935,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 36
                                     },
@@ -182,26 +201,31 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 36
                                     },
                                     "flags": 32,
+                                    "transformFlags": 2,
                                     "start": 31,
                                     "end": 36
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 36
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 29,
                         "end": 37
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 39
                     },
@@ -212,22 +236,27 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 41
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 39,
                         "end": 42
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 29,
                     "end": 42
                 },
                 "flags": 268435488,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 42
         }
@@ -236,6 +265,7 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
     "source": "var x, y, z; m(['b']) ? lhs : [super] = {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

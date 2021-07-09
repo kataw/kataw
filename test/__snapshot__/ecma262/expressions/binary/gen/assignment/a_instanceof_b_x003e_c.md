@@ -32,12 +32,14 @@ x = a instanceof b > c
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -50,12 +52,14 @@ x = a instanceof b > c
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "operatorToken": {
                             "kind": 4229173,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 16
                         },
@@ -64,16 +68,19 @@ x = a instanceof b > c
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 3,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 34883,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -82,18 +89,22 @@ x = a instanceof b > c
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 3,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }
@@ -102,6 +113,7 @@ x = a instanceof b > c
     "source": "x = a instanceof b > c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -110,9 +122,7 @@ x = a instanceof b > c
 ### Printed
 
 ```javascript
-
 x = a instanceof b > c;
-
 ```
 
 ### Diagnostics

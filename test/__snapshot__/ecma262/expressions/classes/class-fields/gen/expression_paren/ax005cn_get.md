@@ -33,6 +33,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -55,6 +56,7 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 10
                                     },
@@ -62,27 +64,33 @@
                                     "type": null,
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 8,
                                     "end": 10
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 10
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         },
@@ -93,10 +101,12 @@
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 12
         },
@@ -107,16 +117,19 @@
                 "text": "get",
                 "rawText": "get",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 16
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 20
         }
@@ -125,6 +138,7 @@
     "source": "(class { a\\n get });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

@@ -30,6 +30,7 @@ var v = a ? b :
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ var v = a ? b :
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,12 +56,14 @@ var v = a ? b :
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -68,12 +72,14 @@ var v = a ? b :
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 13
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -82,23 +88,28 @@ var v = a ? b :
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
                             "flags": 96,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -107,6 +118,7 @@ var v = a ? b :
     "source": "var v = a ? b :\n  c;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -115,9 +127,7 @@ var v = a ? b :
 ### Printed
 
 ```javascript
-
 var v = a ? b : c;
-
 ```
 
 ### Diagnostics

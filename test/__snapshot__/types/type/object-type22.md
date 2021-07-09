@@ -29,6 +29,7 @@ type a = {function((((-1) => [c|d]))):string};
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = {function((((-1) => [c|d]))):string};
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = {function((((-1) => [c|d]))):string};
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -65,6 +68,7 @@ type a = {function((((-1) => [c|d]))):string};
                                 "text": "function",
                                 "rawText": "function",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 18
                             },
@@ -76,6 +80,7 @@ type a = {function((((-1) => [c|d]))):string};
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 19
                                 },
@@ -104,28 +109,33 @@ type a = {function((((-1) => [c|d]))):string};
                                                                 "subtractionToken": {
                                                                     "kind": 134318643,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 22,
                                                                     "end": 23
                                                                 },
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 22,
                                                                 "end": 24
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 22,
                                                             "end": 24
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 25
                                                 },
                                                 "arrowToken": {
                                                     "kind": 10,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 25,
                                                     "end": 28
                                                 },
@@ -150,11 +160,13 @@ type a = {function((((-1) => [c|d]))):string};
                                                                                 "text": "c",
                                                                                 "rawText": "c",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 30,
                                                                                 "end": 31
                                                                             },
                                                                             "typeParameters": null,
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 30,
                                                                             "end": 31
                                                                         },
@@ -165,69 +177,84 @@ type a = {function((((-1) => [c|d]))):string};
                                                                                 "text": "d",
                                                                                 "rawText": "d",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 32,
                                                                                 "end": 33
                                                                             },
                                                                             "typeParameters": null,
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 32,
                                                                             "end": 33
                                                                         }
                                                                     ],
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 31,
                                                                     "end": 33
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 30,
                                                                 "end": 33
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 34
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 34
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 34
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 34
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 36
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 36
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 36
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 36
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 36
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 36
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         },
@@ -238,16 +265,19 @@ type a = {function((((-1) => [c|d]))):string};
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 38,
             "end": 44
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 45,
             "end": 46
         }
@@ -256,6 +286,7 @@ type a = {function((((-1) => [c|d]))):string};
     "source": "type a = {function((((-1) => [c|d]))):string};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

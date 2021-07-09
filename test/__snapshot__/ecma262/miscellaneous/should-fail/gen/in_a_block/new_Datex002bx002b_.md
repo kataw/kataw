@@ -35,6 +35,7 @@
                             "operandToken": {
                                 "kind": 196635,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
@@ -43,6 +44,7 @@
                                 "newKeyword": {
                                     "kind": 138477661,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 5
                                 },
@@ -51,28 +53,34 @@
                                     "text": "Date",
                                     "rawText": "Date",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 10
                                 },
                                 "argumentList": null,
                                 "flags": 96,
+                                "transformFlags": 2048,
                                 "start": 1,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -81,6 +89,7 @@
     "source": "{ new Date++; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

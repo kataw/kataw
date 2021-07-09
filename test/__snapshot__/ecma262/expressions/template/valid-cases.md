@@ -44,10 +44,12 @@ tag`${a}\\rb`;
                 "text": "a\nb",
                 "rawText": "a\\nb",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -58,10 +60,12 @@ tag`${a}\\rb`;
                 "text": "a\rb",
                 "rawText": "a\\rb",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 15
         },
@@ -72,10 +76,12 @@ tag`${a}\\rb`;
                 "text": "a\r\nb",
                 "rawText": "a\\r\\nb",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 25
         },
@@ -86,10 +92,12 @@ tag`${a}\\rb`;
                 "text": "a\\nb",
                 "rawText": "a\\\\nb",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 34
         },
@@ -100,10 +108,12 @@ tag`${a}\\rb`;
                 "text": "a\\rb",
                 "rawText": "a\\\\rb",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 34,
             "end": 43
         },
@@ -114,10 +124,12 @@ tag`${a}\\rb`;
                 "text": "a\\r\\nb",
                 "rawText": "a\\\\r\\\\nb",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 43,
             "end": 55
         },
@@ -128,10 +140,12 @@ tag`${a}\\rb`;
                 "text": "a b",
                 "rawText": "a\\u2028b",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 55,
             "end": 67
         },
@@ -142,10 +156,12 @@ tag`${a}\\rb`;
                 "text": "a b",
                 "rawText": "a\\u2029b",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 67,
                 "end": 78
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 67,
             "end": 79
         },
@@ -165,10 +181,12 @@ tag`${a}\\rb`;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 85,
                                 "end": 88
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 79,
                             "end": 88
                         }
@@ -178,16 +196,19 @@ tag`${a}\\rb`;
                         "text": "b",
                         "rawText": "b",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 88,
                         "end": 91
                     },
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 79,
                     "end": 91
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 91,
                     "end": 93
                 },
@@ -196,14 +217,17 @@ tag`${a}\\rb`;
                     "text": "template",
                     "rawText": "template",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 93,
                     "end": 104
                 },
                 "flags": 33,
+                "transformFlags": 5120,
                 "start": 79,
                 "end": 104
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 79,
             "end": 105
         },
@@ -223,10 +247,12 @@ tag`${a}\\rb`;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 110,
                                 "end": 113
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 105,
                             "end": 113
                         }
@@ -236,16 +262,19 @@ tag`${a}\\rb`;
                         "text": "b",
                         "rawText": "b",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 113,
                         "end": 116
                     },
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 105,
                     "end": 116
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 116,
                     "end": 118
                 },
@@ -261,10 +290,12 @@ tag`${a}\\rb`;
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 123,
                                 "end": 126
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 118,
                             "end": 126
                         }
@@ -274,18 +305,22 @@ tag`${a}\\rb`;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 126,
                         "end": 129
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 118,
                     "end": 129
                 },
                 "flags": 33,
+                "transformFlags": 5120,
                 "start": 105,
                 "end": 129
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 105,
             "end": 130
         },
@@ -305,10 +340,12 @@ tag`${a}\\rb`;
                                 "text": "i",
                                 "rawText": "i",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 135,
                                 "end": 136
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 130,
                             "end": 136
                         },
@@ -321,10 +358,12 @@ tag`${a}\\rb`;
                                 "text": "j",
                                 "rawText": "j",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 139,
                                 "end": 140
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 136,
                             "end": 140
                         }
@@ -334,16 +373,19 @@ tag`${a}\\rb`;
                         "text": "bb",
                         "rawText": "bb",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 140,
                         "end": 144
                     },
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 130,
                     "end": 144
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 144,
                     "end": 146
                 },
@@ -359,10 +401,12 @@ tag`${a}\\rb`;
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 153,
                                 "end": 156
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 146,
                             "end": 156
                         }
@@ -372,18 +416,22 @@ tag`${a}\\rb`;
                         "text": "yyyy",
                         "rawText": "yyyy",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 156,
                         "end": 162
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 146,
                     "end": 162
                 },
                 "flags": 33,
+                "transformFlags": 5120,
                 "start": 130,
                 "end": 162
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 130,
             "end": 163
         },
@@ -398,6 +446,7 @@ tag`${a}\\rb`;
                         "text": "tag",
                         "rawText": "tag",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 163,
                         "end": 168
                     },
@@ -406,16 +455,19 @@ tag`${a}\\rb`;
                         "text": "template",
                         "rawText": "template",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 168,
                         "end": 178
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 163,
                     "end": 178
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 178,
                     "end": 180
                 },
@@ -424,14 +476,17 @@ tag`${a}\\rb`;
                     "text": "template2",
                     "rawText": "template2",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 180,
                     "end": 192
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 163,
                 "end": 192
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 163,
             "end": 193
         },
@@ -451,10 +506,12 @@ tag`${a}\\rb`;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 198,
                                 "end": 201
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 193,
                             "end": 201
                         }
@@ -464,16 +521,19 @@ tag`${a}\\rb`;
                         "text": "b",
                         "rawText": "b",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 201,
                         "end": 204
                     },
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 193,
                     "end": 204
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 204,
                     "end": 206
                 },
@@ -482,14 +542,17 @@ tag`${a}\\rb`;
                     "text": "string",
                     "rawText": "'string'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 206,
                     "end": 215
                 },
                 "flags": 33,
+                "transformFlags": 5120,
                 "start": 193,
                 "end": 215
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 193,
             "end": 216
         },
@@ -502,12 +565,14 @@ tag`${a}\\rb`;
                     "text": "string",
                     "rawText": "'string'",
                     "flags": 4194401,
+                    "transformFlags": 0,
                     "start": 216,
                     "end": 225
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 225,
                     "end": 227
                 },
@@ -523,10 +588,12 @@ tag`${a}\\rb`;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 232,
                                 "end": 235
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 227,
                             "end": 235
                         }
@@ -536,18 +603,22 @@ tag`${a}\\rb`;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 235,
                         "end": 238
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 227,
                     "end": 238
                 },
                 "flags": 4194401,
+                "transformFlags": 5120,
                 "start": 216,
                 "end": 238
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 216,
             "end": 239
         },
@@ -560,6 +631,7 @@ tag`${a}\\rb`;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 239,
                     "end": 244
                 },
@@ -575,10 +647,12 @@ tag`${a}\\rb`;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 247,
                                 "end": 248
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 244,
                             "end": 248
                         }
@@ -588,18 +662,22 @@ tag`${a}\\rb`;
                         "text": "\nb",
                         "rawText": "\\nb",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 248,
                         "end": 253
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 244,
                     "end": 253
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 239,
                 "end": 253
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 239,
             "end": 254
         },
@@ -612,6 +690,7 @@ tag`${a}\\rb`;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 254,
                     "end": 258
                 },
@@ -627,10 +706,12 @@ tag`${a}\\rb`;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 261,
                                 "end": 262
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 258,
                             "end": 262
                         }
@@ -640,18 +721,22 @@ tag`${a}\\rb`;
                         "text": "\rb",
                         "rawText": "\\rb",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 262,
                         "end": 267
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 258,
                     "end": 267
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 254,
                 "end": 267
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 254,
             "end": 268
         },
@@ -664,6 +749,7 @@ tag`${a}\\rb`;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 268,
                     "end": 272
                 },
@@ -679,10 +765,12 @@ tag`${a}\\rb`;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 275,
                                 "end": 276
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 272,
                             "end": 276
                         }
@@ -692,18 +780,22 @@ tag`${a}\\rb`;
                         "text": "\r\nb",
                         "rawText": "\\r\\nb",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 276,
                         "end": 283
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 272,
                     "end": 283
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 268,
                 "end": 283
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 268,
             "end": 284
         },
@@ -716,6 +808,7 @@ tag`${a}\\rb`;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 284,
                     "end": 288
                 },
@@ -731,10 +824,12 @@ tag`${a}\\rb`;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 291,
                                 "end": 292
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 288,
                             "end": 292
                         }
@@ -744,18 +839,22 @@ tag`${a}\\rb`;
                         "text": "\\nb",
                         "rawText": "\\\\nb",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 292,
                         "end": 298
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 288,
                     "end": 298
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 284,
                 "end": 298
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 284,
             "end": 299
         },
@@ -768,6 +867,7 @@ tag`${a}\\rb`;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 299,
                     "end": 303
                 },
@@ -783,10 +883,12 @@ tag`${a}\\rb`;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 306,
                                 "end": 307
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 303,
                             "end": 307
                         }
@@ -796,18 +898,22 @@ tag`${a}\\rb`;
                         "text": "\\rb",
                         "rawText": "\\\\rb",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 307,
                         "end": 313
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 303,
                     "end": 313
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 299,
                 "end": 313
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 299,
             "end": 314
         }
@@ -816,6 +922,7 @@ tag`${a}\\rb`;
     "source": "`a\\nb`;\n`a\\rb`;\n`a\\r\\nb`;\n`a\\\\nb`;\n`a\\\\rb`;\n`a\\\\r\\\\nb`;\n`a\\u2028b`;\n`a\\u2029b`;\n\n`a${foo}b` + `template`;\n`a${foo}b` + `x${bar}y`;\n`a${i}${j}bb` + `xxx${bar}yyyy`;\n\ntag`template` + `template2`;\n`a${foo}b` + 'string';\n'string' + `a${foo}b`;\n\ntag`${a}\\nb`;\ntag`${a}\\rb`;\ntag`${a}\\r\\nb`;\ntag`${a}\\\\nb`;\ntag`${a}\\\\rb`;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 315
 }
@@ -824,25 +931,42 @@ tag`${a}\\rb`;
 ### Printed
 
 ```javascript
-
 `a\nb`;
 `a\rb`;
+
 `a\r\nb`;
+
 `a\\nb`;
+
 `a\\rb`;
+
 `a\\r\\nb`;
+
 `a\u2028b`;
+
 `a\u2029b`;
+
 `a${foo}b` + `template`;
+
 `a${foo}b` + `x${bar}y`;
-`a${i}${j}bb` + `xxx${bar}yyyy`;
+
+`a${i},
+${j}bb` + `xxx${bar}yyyy`;
+
 tag`template` + `template2`;
-`a${foo}b` + '\'string\'';
-'\'string\'' + `a${foo}b`;
+
+`a${foo}b` + "'string'";
+
+"'string'" + `a${foo}b`;
+
 tag`${a}\nb`;
+
 tag`${a}\rb`;
+
 tag`${a}\r\nb`;
+
 tag`${a}\\nb`;
+
 tag`${a}\\rb`;
 
 ```

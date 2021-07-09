@@ -26,6 +26,7 @@ export async function f(){}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,12 +36,14 @@ export async function f(){}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 21
                 },
@@ -50,6 +53,7 @@ export async function f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -59,6 +63,7 @@ export async function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
@@ -69,15 +74,18 @@ export async function f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 26
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 27
                 },
                 "returnType": null,
                 "flags": 144,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 27
             },
@@ -86,6 +94,7 @@ export async function f(){}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -94,6 +103,7 @@ export async function f(){}
     "source": "export async function f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -102,9 +112,7 @@ export async function f(){}
 ### Printed
 
 ```javascript
-
 export async function f() {}
-
 ```
 
 ### Diagnostics

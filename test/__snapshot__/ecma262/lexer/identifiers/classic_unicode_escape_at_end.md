@@ -28,10 +28,12 @@ xxx\u0065
                 "text": "xxxe",
                 "rawText": "xxx\\u0065",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -40,6 +42,7 @@ xxx\u0065
     "source": "xxx\\u0065",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -48,9 +51,7 @@ xxx\u0065
 ### Printed
 
 ```javascript
-
 xxx\u0065;
-
 ```
 
 ### Diagnostics

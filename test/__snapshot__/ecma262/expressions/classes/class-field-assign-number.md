@@ -22,6 +22,7 @@ class C { #aaa = 0 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class C { #aaa = 0 }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -51,6 +53,7 @@ class C { #aaa = 0 }
                                 "text": "#aaa",
                                 "rawText": "#aaa",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -61,23 +64,28 @@ class C { #aaa = 0 }
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 18
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 18
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -86,6 +94,7 @@ class C { #aaa = 0 }
     "source": "class C { #aaa = 0 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -94,11 +103,9 @@ class C { #aaa = 0 }
 ### Printed
 
 ```javascript
-
 class C {
-  #aaa = 0
+  #aaa = 0;
 }
-
 ```
 
 ### Diagnostics

@@ -28,6 +28,7 @@ switch (l) { case a = b ? c : d : }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ switch (l) { case a = b ? c : d : }
                 "text": "l",
                 "rawText": "l",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -47,6 +49,7 @@ switch (l) { case a = b ? c : d : }
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 17
                         },
@@ -57,12 +60,14 @@ switch (l) { case a = b ? c : d : }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 19
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
@@ -73,12 +78,14 @@ switch (l) { case a = b ? c : d : }
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
@@ -87,12 +94,14 @@ switch (l) { case a = b ? c : d : }
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 27
                                 },
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
@@ -101,34 +110,41 @@ switch (l) { case a = b ? c : d : }
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "flags": 96,
+                                "transformFlags": 4096,
                                 "start": 21,
                                 "end": 31
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 17,
                             "end": 31
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 33
                         },
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 33
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 33
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -137,6 +153,7 @@ switch (l) { case a = b ? c : d : }
     "source": "switch (l) { case a = b ? c : d : }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -145,11 +162,10 @@ switch (l) { case a = b ? c : d : }
 ### Printed
 
 ```javascript
-
 switch (l) {
-  case a = b ? c : d: 
-}
+  case a = b ? c : d:
 
+}
 ```
 
 ### Diagnostics

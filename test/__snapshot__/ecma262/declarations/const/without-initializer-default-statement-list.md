@@ -20,12 +20,14 @@ switch (true) { default: const x; }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -37,12 +39,14 @@ switch (true) { default: const x; }
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 23
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 24
                         },
@@ -52,6 +56,7 @@ switch (true) { default: const x; }
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 30
                                 },
@@ -65,35 +70,42 @@ switch (true) { default: const x; }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 32
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 30,
                                             "end": 32
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 33
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 33
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 33
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -102,6 +114,7 @@ switch (true) { default: const x; }
     "source": "switch (true) { default: const x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

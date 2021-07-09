@@ -30,6 +30,7 @@ class C extends Base { set static(v) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C extends Base { set static(v) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class C extends Base { set static(v) {} }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -57,11 +60,13 @@ class C extends Base { set static(v) {} }
                         "text": "Base",
                         "rawText": "Base",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
@@ -78,6 +83,7 @@ class C extends Base { set static(v) {} }
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 26
                             },
@@ -89,6 +95,7 @@ class C extends Base { set static(v) {} }
                                     "text": "static",
                                     "rawText": "static",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 33
                                 },
@@ -101,12 +108,14 @@ class C extends Base { set static(v) {} }
                                             "text": "v",
                                             "rawText": "v",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 35
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
                                 },
@@ -118,31 +127,38 @@ class C extends Base { set static(v) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 38
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 39
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 39
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 39
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 39
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -151,6 +167,7 @@ class C extends Base { set static(v) {} }
     "source": "class C extends Base { set static(v) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }
@@ -159,11 +176,9 @@ class C extends Base { set static(v) {} }
 ### Printed
 
 ```javascript
-
 class C extends Base {
   set static(v) {}
 }
-
 ```
 
 ### Diagnostics

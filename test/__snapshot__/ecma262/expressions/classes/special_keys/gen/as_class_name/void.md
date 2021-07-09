@@ -30,6 +30,7 @@ class void {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class void {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -49,14 +51,17 @@ class void {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -67,6 +72,7 @@ class void {}
                 "operandToken": {
                     "kind": 138477615,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -77,18 +83,22 @@ class void {}
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 10,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 5,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 13
         }
@@ -97,6 +107,7 @@ class void {}
     "source": "class void {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

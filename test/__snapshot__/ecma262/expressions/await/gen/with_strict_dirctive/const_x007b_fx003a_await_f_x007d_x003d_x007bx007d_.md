@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -37,6 +38,7 @@
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -57,6 +59,7 @@
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
@@ -65,11 +68,13 @@
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 30
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 30
                                     },
@@ -78,16 +83,19 @@
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 32
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 34
                         },
@@ -99,23 +107,28 @@
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 38
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 36,
                             "end": 39
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 19,
                         "end": 39
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 39
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 13,
             "end": 40
         }
@@ -124,6 +137,7 @@
     "source": "'use strict'; const { f: await f } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

@@ -30,10 +30,12 @@
                 "text": 0,
                 "rawText": "0B0i",
                 "flags": 524384,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -44,10 +46,12 @@
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 4,
             "end": 5
         }
@@ -56,6 +60,7 @@
     "source": "0B0in",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

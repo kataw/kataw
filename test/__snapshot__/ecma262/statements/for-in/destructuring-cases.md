@@ -21,6 +21,7 @@ for (let {...a.b} in c);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ for (let {...a.b} in c);
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 9
                             },
@@ -44,6 +46,7 @@ for (let {...a.b} in c);
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 10
                                 },
@@ -52,30 +55,36 @@ for (let {...a.b} in c);
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 9,
                                 "end": 12
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 13
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
@@ -84,16 +93,19 @@ for (let {...a.b} in c);
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         },
@@ -102,6 +114,7 @@ for (let {...a.b} in c);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 25
             },
@@ -110,6 +123,7 @@ for (let {...a.b} in c);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 30
                 },
@@ -128,6 +142,7 @@ for (let {...a.b} in c);
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 35
                                             },
@@ -136,6 +151,7 @@ for (let {...a.b} in c);
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 36
                                             },
@@ -143,31 +159,37 @@ for (let {...a.b} in c);
                                             "type": null,
                                             "right": null,
                                             "flags": 0,
+                                            "transformFlags": 4096,
                                             "start": 32,
                                             "end": 36
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 36
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 36
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 30,
                             "end": 36
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 36
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 36
             },
@@ -176,6 +198,7 @@ for (let {...a.b} in c);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 38
             },
@@ -186,6 +209,7 @@ for (let {...a.b} in c);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 36
                 },
@@ -194,10 +218,12 @@ for (let {...a.b} in c);
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 38
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 36,
                 "end": 38
             },
@@ -208,14 +234,17 @@ for (let {...a.b} in c);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 38
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 38,
                 "end": 38
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 21,
             "end": 38
         },
@@ -228,12 +257,14 @@ for (let {...a.b} in c);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 39
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 42
                 },
@@ -242,20 +273,24 @@ for (let {...a.b} in c);
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 44
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 39,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 39,
             "end": 44
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 45,
             "end": 46
         }
@@ -264,6 +299,7 @@ for (let {...a.b} in c);
     "source": "for ({...a.b} in c) ;\nfor (let {...a.b} in c);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

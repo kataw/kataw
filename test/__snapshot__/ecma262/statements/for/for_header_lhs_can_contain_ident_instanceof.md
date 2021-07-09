@@ -39,6 +39,7 @@ for (a instanceof b;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,12 +50,14 @@ for (a instanceof b;;);
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 17
                 },
@@ -63,10 +66,12 @@ for (a instanceof b;;);
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 19
             },
@@ -75,10 +80,12 @@ for (a instanceof b;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -87,6 +94,7 @@ for (a instanceof b;;);
     "source": "for (a instanceof b;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -95,10 +103,7 @@ for (a instanceof b;;);
 ### Printed
 
 ```javascript
-
-for (a instanceof b;;)
-  ;
-
+for (a instanceof b; ; );
 ```
 
 ### Diagnostics

@@ -30,6 +30,7 @@
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
@@ -38,14 +39,17 @@
                     "text": "arguments",
                     "rawText": "arguments",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 11
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -54,6 +58,7 @@
     "source": "++arguments;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -62,9 +67,7 @@
 ### Printed
 
 ```javascript
-
-++arguments;
-
+++ arguments;
 ```
 
 ### Diagnostics

@@ -38,6 +38,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 2,
                                     "end": 3
                                 },
@@ -50,6 +51,7 @@
                                         "text": "instanceof",
                                         "rawText": "instanceof",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 13
                                     },
@@ -62,6 +64,7 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 15
                                             },
@@ -70,12 +73,14 @@
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 18
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 224,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 19
                                     },
@@ -87,36 +92,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 21
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 22
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 22
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 22
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 22
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 23
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -125,6 +138,7 @@
     "source": "({*instanceof(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -133,9 +147,7 @@
 ### Printed
 
 ```javascript
-
-({ * instanceof(x, y) {} });
-
+({ *instanceof(x, y) {} });
 ```
 
 ### Diagnostics

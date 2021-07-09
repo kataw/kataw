@@ -20,6 +20,7 @@ do h(function(){});while(x)
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -32,6 +33,7 @@ do h(function(){});while(x)
                         "text": "h",
                         "rawText": "h",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 4
                     },
@@ -44,6 +46,7 @@ do h(function(){});while(x)
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 13
                                 },
@@ -55,6 +58,7 @@ do h(function(){});while(x)
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 14
                                 },
@@ -65,35 +69,42 @@ do h(function(){});while(x)
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 16
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
                                 "returnType": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 17
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 2,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 19
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 24
             },
@@ -102,10 +113,12 @@ do h(function(){});while(x)
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -114,6 +127,7 @@ do h(function(){});while(x)
     "source": "do h(function(){});while(x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -122,10 +136,8 @@ do h(function(){});while(x)
 ### Printed
 
 ```javascript
-
-do
-  h(function () {}); while (x)
-
+do  h(function () {});
+while (x);
 ```
 
 ### Diagnostics

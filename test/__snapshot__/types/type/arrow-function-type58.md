@@ -28,6 +28,7 @@ let a: ([-1] | x | q & (x)) => T;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let a: ([-1] | x | q & (x)) => T;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -73,22 +75,26 @@ let a: ([-1] | x | q & (x)) => T;
                                                                     "subtractionToken": {
                                                                         "kind": 134318643,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 9,
                                                                         "end": 10
                                                                     },
                                                                     "text": 1,
                                                                     "rawText": "1",
                                                                     "flags": 2097216,
+                                                                    "transformFlags": 0,
                                                                     "start": 9,
                                                                     "end": 11
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 9,
                                                                 "end": 11
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 8,
                                                         "end": 12
                                                     },
@@ -99,11 +105,13 @@ let a: ([-1] | x | q & (x)) => T;
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 14,
                                                             "end": 16
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 16
                                                     },
@@ -117,11 +125,13 @@ let a: ([-1] | x | q & (x)) => T;
                                                                     "text": "q",
                                                                     "rawText": "q",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 18,
                                                                     "end": 20
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 18,
                                                                 "end": 20
                                                             },
@@ -134,41 +144,49 @@ let a: ([-1] | x | q & (x)) => T;
                                                                         "text": "x",
                                                                         "rawText": "x",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 24,
                                                                         "end": 25
                                                                     },
                                                                     "typeParameters": null,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 22,
                                                                     "end": 25
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 22,
                                                                 "end": 26
                                                             }
                                                         ],
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 26
                                                     }
                                                 ],
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 26
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 26
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 27
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 30
                                 },
@@ -183,37 +201,45 @@ let a: ([-1] | x | q & (x)) => T;
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 32
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 32
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 32
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 32
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 32
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -222,6 +248,7 @@ let a: ([-1] | x | q & (x)) => T;
     "source": "let a: ([-1] | x | q & (x)) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -230,9 +257,7 @@ let a: ([-1] | x | q & (x)) => T;
 ### Printed
 
 ```javascript
-
-let a: ([[-1]] | x | q & (x)) => T;
-
+let a: ([-1] | x | q & (x)) => T;
 ```
 
 ### Diagnostics

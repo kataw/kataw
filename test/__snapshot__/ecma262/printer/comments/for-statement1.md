@@ -20,6 +20,7 @@ for(;/*1*/;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,10 +30,12 @@ for(;/*1*/;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -41,6 +44,7 @@ for(;/*1*/;);
     "source": "for(;/*1*/;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -49,10 +53,7 @@ for(;/*1*/;);
 ### Printed
 
 ```javascript
-
-for (;/*1*/;)
-  ;
-
+for (;;);
 ```
 
 ### Diagnostics

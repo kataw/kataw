@@ -24,6 +24,7 @@ x`foo ${a b} bar`
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -39,10 +40,12 @@ x`foo ${a b} bar`
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 9
                         }
@@ -52,18 +55,22 @@ x`foo ${a b} bar`
                         "text": "} bar",
                         "rawText": "} bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -72,6 +79,7 @@ x`foo ${a b} bar`
     "source": "x`foo ${a b} bar`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -80,9 +88,7 @@ x`foo ${a b} bar`
 ### Printed
 
 ```javascript
-
 x`foo ${a}} bar`;
-
 ```
 
 ### Diagnostics

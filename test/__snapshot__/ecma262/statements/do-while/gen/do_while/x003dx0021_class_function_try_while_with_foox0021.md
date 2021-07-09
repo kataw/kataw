@@ -28,6 +28,7 @@ do =! class function try while with foo! while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -40,12 +41,14 @@ do =! class function try while with foo! while
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 2
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 4
                     },
@@ -54,6 +57,7 @@ do =! class function try while with foo! while
                         "operandToken": {
                             "kind": 65584,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 5
                         },
@@ -63,6 +67,7 @@ do =! class function try while with foo! while
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 11
                             },
@@ -75,26 +80,32 @@ do =! class function try while with foo! while
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 11
                                 },
                                 "flags": 11,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 4,
                         "end": 11
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 2,
                     "end": 11
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 11
             },
@@ -105,6 +116,7 @@ do =! class function try while with foo! while
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 20
                 },
@@ -116,6 +128,7 @@ do =! class function try while with foo! while
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
@@ -126,19 +139,23 @@ do =! class function try while with foo! while
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "returnType": null,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         },
@@ -147,6 +164,7 @@ do =! class function try while with foo! while
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 24
             },
@@ -156,10 +174,12 @@ do =! class function try while with foo! while
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 24
             },
@@ -171,14 +191,17 @@ do =! class function try while with foo! while
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 24
         },
@@ -187,6 +210,7 @@ do =! class function try while with foo! while
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 30
             },
@@ -195,6 +219,7 @@ do =! class function try while with foo! while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 30
             },
@@ -203,6 +228,7 @@ do =! class function try while with foo! while
                 "withKeyword": {
                     "kind": 37757029,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 35
                 },
@@ -211,6 +237,7 @@ do =! class function try while with foo! while
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 39
                 },
@@ -221,6 +248,7 @@ do =! class function try while with foo! while
                         "operandToken": {
                             "kind": 65584,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 40
                         },
@@ -229,22 +257,27 @@ do =! class function try while with foo! while
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 40
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 39,
                         "end": 40
                     },
                     "flags": 16,
+                    "transformFlags": 4096,
                     "start": 39,
                     "end": 40
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 40
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 24,
             "end": 40
         },
@@ -253,6 +286,7 @@ do =! class function try while with foo! while
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 46
             },
@@ -261,6 +295,7 @@ do =! class function try while with foo! while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 46
             },
@@ -271,14 +306,17 @@ do =! class function try while with foo! while
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 46
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 46,
                 "end": 46
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 40,
             "end": 46
         }
@@ -287,6 +325,7 @@ do =! class function try while with foo! while
     "source": "do =! class function try while with foo! while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

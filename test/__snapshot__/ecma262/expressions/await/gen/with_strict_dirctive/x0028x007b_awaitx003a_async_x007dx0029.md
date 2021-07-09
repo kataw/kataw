@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -49,6 +50,7 @@
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 22
                                 },
@@ -57,28 +59,34 @@
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 29
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 16,
                                 "end": 29
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 29
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 15,
                     "end": 31
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 32
         }
@@ -87,6 +95,7 @@
     "source": "'use strict'; ({ await: async })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -96,9 +105,8 @@
 
 ```javascript
 
-'\'use strict\'';
-({ await : async });
-
+"'use strict'";
+({ await: async });
 ```
 
 ### Diagnostics

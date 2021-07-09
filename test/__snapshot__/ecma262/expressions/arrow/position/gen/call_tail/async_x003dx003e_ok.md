@@ -34,6 +34,7 @@ foo(async => ok).bar
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -49,6 +50,7 @@ foo(async => ok).bar
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 9
                                 },
@@ -56,6 +58,7 @@ foo(async => ok).bar
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -64,20 +67,24 @@ foo(async => ok).bar
                                     "text": "ok",
                                     "rawText": "ok",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 15
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 16
                 },
@@ -86,14 +93,17 @@ foo(async => ok).bar
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
                 "flags": 268435488,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -102,6 +112,7 @@ foo(async => ok).bar
     "source": "foo(async => ok).bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -110,9 +121,7 @@ foo(async => ok).bar
 ### Printed
 
 ```javascript
-
 foo(async => ok).bar;
-
 ```
 
 ### Diagnostics

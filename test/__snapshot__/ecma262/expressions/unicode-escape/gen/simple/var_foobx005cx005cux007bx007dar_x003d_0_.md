@@ -29,6 +29,7 @@ var foob\\u{}ar = 0;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,21 +43,25 @@ var foob\\u{}ar = 0;
                             "text": "foob",
                             "rawText": "foob",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -67,10 +72,12 @@ var foob\\u{}ar = 0;
                 "text": "u",
                 "rawText": "u",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 10,
             "end": 11
         },
@@ -80,10 +87,12 @@ var foob\\u{}ar = 0;
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 13
         },
@@ -96,12 +105,14 @@ var foob\\u{}ar = 0;
                     "text": "ar",
                     "rawText": "ar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -110,14 +121,17 @@ var foob\\u{}ar = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 13,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 20
         }
@@ -126,6 +140,7 @@ var foob\\u{}ar = 0;
     "source": "var foob\\\\u{}ar = 0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

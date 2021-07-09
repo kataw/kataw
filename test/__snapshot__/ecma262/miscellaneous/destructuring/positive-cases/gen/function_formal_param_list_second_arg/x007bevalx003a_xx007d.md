@@ -30,6 +30,7 @@ function f(argument1, {eval: x}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function f(argument1, {eval: x}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -51,6 +53,7 @@ function f(argument1, {eval: x}) {}
                         "text": "argument1",
                         "rawText": "argument1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 20
                     },
@@ -66,6 +69,7 @@ function f(argument1, {eval: x}) {}
                                         "text": "eval",
                                         "rawText": "eval",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 27
                                     },
@@ -74,27 +78,32 @@ function f(argument1, {eval: x}) {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 30
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 30
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 31
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 31
             },
@@ -105,15 +114,18 @@ function f(argument1, {eval: x}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -122,6 +134,7 @@ function f(argument1, {eval: x}) {}
     "source": "function f(argument1, {eval: x}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -130,11 +143,7 @@ function f(argument1, {eval: x}) {}
 ### Printed
 
 ```javascript
-
-function f(argument1, {
-    eval: x
-  }) {}
-
+function f(argument1, { eval: x }) {}
 ```
 
 ### Diagnostics

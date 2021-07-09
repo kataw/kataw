@@ -53,6 +53,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -63,6 +64,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 22
                 },
@@ -71,10 +73,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 29
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 29
             },
@@ -97,12 +101,14 @@ import { let as l } from 'm.js';
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -111,27 +117,33 @@ import { let as l } from 'm.js';
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 15
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 15
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
@@ -140,6 +152,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 38
             },
@@ -150,6 +163,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 45
                 },
@@ -158,10 +172,12 @@ import { let as l } from 'm.js';
                     "text": "n.js",
                     "rawText": "'n.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 52
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 52
             },
@@ -173,16 +189,19 @@ import { let as l } from 'm.js';
                     "text": "n",
                     "rawText": "n",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 40
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 40
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 30,
             "end": 53
         },
@@ -191,6 +210,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 61
             },
@@ -201,6 +221,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 72,
                     "end": 77
                 },
@@ -209,10 +230,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 84
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 84
             },
@@ -235,12 +258,14 @@ import { let as l } from 'm.js';
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 63,
                                     "end": 65
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 65,
                                     "end": 68
                                 },
@@ -249,27 +274,33 @@ import { let as l } from 'm.js';
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 68,
                                     "end": 70
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 70
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 63,
                         "end": 70
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 61,
                     "end": 72
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 72
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 53,
             "end": 85
         },
@@ -278,6 +309,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 85,
                 "end": 93
             },
@@ -288,6 +320,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 95,
                     "end": 100
                 },
@@ -296,10 +329,12 @@ import { let as l } from 'm.js';
                     "text": "n.js",
                     "rawText": "'n.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 100,
                     "end": 107
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 95,
                 "end": 107
             },
@@ -311,16 +346,19 @@ import { let as l } from 'm.js';
                     "text": "w",
                     "rawText": "w",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 93,
                     "end": 95
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 85,
                 "end": 95
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 85,
             "end": 108
         },
@@ -329,6 +367,7 @@ import { let as l } from 'm.js';
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 108,
                 "end": 116
             },
@@ -346,12 +385,14 @@ import { let as l } from 'm.js';
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 118,
                                 "end": 120
                             },
                             "asKeyword": {
                                 "kind": 16494,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 120,
                                 "end": 123
                             },
@@ -360,19 +401,23 @@ import { let as l } from 'm.js';
                                 "text": "h",
                                 "rawText": "h",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 123,
                                 "end": 125
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 118,
                             "end": 125
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 118,
                     "end": 125
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 116,
                 "end": 127
             },
@@ -382,6 +427,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 127,
                     "end": 132
                 },
@@ -390,15 +436,18 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 132,
                     "end": 139
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 127,
                 "end": 139
             },
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 108,
             "end": 140
         },
@@ -407,6 +456,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 140,
                 "end": 148
             },
@@ -422,12 +472,14 @@ import { let as l } from 'm.js';
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 148,
                         "end": 148
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 148,
                         "end": 150
                     },
@@ -436,14 +488,17 @@ import { let as l } from 'm.js';
                         "text": "as",
                         "rawText": "as",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 150,
                         "end": 153
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 148,
                     "end": 153
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 148,
                 "end": 153
             },
@@ -454,10 +509,12 @@ import { let as l } from 'm.js';
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 140,
                 "end": 148
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 140,
             "end": 153
         },
@@ -468,10 +525,12 @@ import { let as l } from 'm.js';
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 157
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 153,
             "end": 157
         },
@@ -482,10 +541,12 @@ import { let as l } from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 157,
                 "end": 162
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 157,
             "end": 162
         },
@@ -496,10 +557,12 @@ import { let as l } from 'm.js';
                 "text": "bar.js",
                 "rawText": "'bar.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 162,
                 "end": 171
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 162,
             "end": 172
         },
@@ -508,6 +571,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 172,
                 "end": 180
             },
@@ -518,6 +582,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 191,
                     "end": 196
                 },
@@ -526,10 +591,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 196,
                     "end": 203
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 191,
                 "end": 203
             },
@@ -552,12 +619,14 @@ import { let as l } from 'm.js';
                                     "text": "q",
                                     "rawText": "q",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 182,
                                     "end": 184
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 184,
                                     "end": 187
                                 },
@@ -566,27 +635,33 @@ import { let as l } from 'm.js';
                                     "text": "o",
                                     "rawText": "o",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 187,
                                     "end": 189
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 182,
                                 "end": 189
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 182,
                         "end": 189
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 180,
                     "end": 191
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 172,
                 "end": 191
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 172,
             "end": 204
         },
@@ -595,6 +670,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 204,
                 "end": 212
             },
@@ -606,11 +682,13 @@ import { let as l } from 'm.js';
                 "text": "somemodule.js",
                 "rawText": "'somemodule.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 212,
                 "end": 228
             },
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 204,
             "end": 229
         },
@@ -619,6 +697,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 229,
                 "end": 236
             },
@@ -629,6 +708,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 240,
                     "end": 245
                 },
@@ -637,10 +717,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 245,
                     "end": 252
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 240,
                 "end": 252
             },
@@ -655,18 +737,22 @@ import { let as l } from 'm.js';
                         "kind": 265,
                         "specifiers": [],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 238,
                         "end": 238
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 236,
                     "end": 240
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 229,
                 "end": 240
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 229,
             "end": 253
         },
@@ -675,6 +761,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 253,
                 "end": 260
             },
@@ -685,6 +772,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 266,
                     "end": 271
                 },
@@ -693,10 +781,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 271,
                     "end": 278
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 266,
                 "end": 278
             },
@@ -721,27 +811,33 @@ import { let as l } from 'm.js';
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 262,
                                     "end": 264
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 262,
                                 "end": 264
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 262,
                         "end": 264
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 260,
                     "end": 266
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 253,
                 "end": 266
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 253,
             "end": 279
         },
@@ -750,6 +846,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 279,
                 "end": 286
             },
@@ -760,6 +857,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 304,
                     "end": 309
                 },
@@ -768,10 +866,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 309,
                     "end": 316
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 304,
                 "end": 316
             },
@@ -796,10 +896,12 @@ import { let as l } from 'm.js';
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 288,
                                     "end": 290
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 288,
                                 "end": 290
                             },
@@ -812,12 +914,14 @@ import { let as l } from 'm.js';
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 291,
                                     "end": 293
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 293,
                                     "end": 296
                                 },
@@ -826,10 +930,12 @@ import { let as l } from 'm.js';
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 296,
                                     "end": 298
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 291,
                                 "end": 298
                             },
@@ -844,27 +950,33 @@ import { let as l } from 'm.js';
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 299,
                                     "end": 301
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 299,
                                 "end": 301
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 288,
                         "end": 302
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 286,
                     "end": 304
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 279,
                 "end": 304
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 279,
             "end": 317
         },
@@ -873,6 +985,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 317,
                 "end": 324
             },
@@ -888,12 +1001,14 @@ import { let as l } from 'm.js';
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 324,
                         "end": 324
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 324,
                         "end": 326
                     },
@@ -902,14 +1017,17 @@ import { let as l } from 'm.js';
                         "text": "as",
                         "rawText": "as",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 326,
                         "end": 329
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 324,
                     "end": 329
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 324,
                 "end": 329
             },
@@ -920,10 +1038,12 @@ import { let as l } from 'm.js';
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 317,
                 "end": 324
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 317,
             "end": 329
         },
@@ -934,10 +1054,12 @@ import { let as l } from 'm.js';
                 "text": "thing",
                 "rawText": "thing",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 329,
                 "end": 335
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 329,
             "end": 335
         },
@@ -948,10 +1070,12 @@ import { let as l } from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 335,
                 "end": 340
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 335,
             "end": 340
         },
@@ -962,10 +1086,12 @@ import { let as l } from 'm.js';
                 "text": "m.js",
                 "rawText": "'m.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 340,
                 "end": 347
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 340,
             "end": 348
         },
@@ -974,6 +1100,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 348,
                 "end": 355
             },
@@ -984,6 +1111,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 361,
                     "end": 366
                 },
@@ -992,10 +1120,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 366,
                     "end": 373
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 361,
                 "end": 373
             },
@@ -1007,16 +1137,19 @@ import { let as l } from 'm.js';
                     "text": "thing",
                     "rawText": "thing",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 355,
                     "end": 361
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 348,
                 "end": 361
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 348,
             "end": 374
         },
@@ -1025,6 +1158,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 374,
                 "end": 381
             },
@@ -1040,12 +1174,14 @@ import { let as l } from 'm.js';
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 388,
                         "end": 388
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 388,
                         "end": 390
                     },
@@ -1054,14 +1190,17 @@ import { let as l } from 'm.js';
                         "text": "as",
                         "rawText": "as",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 390,
                         "end": 393
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 388,
                     "end": 393
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 388,
                 "end": 393
             },
@@ -1073,16 +1212,19 @@ import { let as l } from 'm.js';
                     "text": "thing",
                     "rawText": "thing",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 381,
                     "end": 387
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 374,
                 "end": 388
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 374,
             "end": 393
         },
@@ -1093,10 +1235,12 @@ import { let as l } from 'm.js';
                 "text": "rest",
                 "rawText": "rest",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 393,
                 "end": 398
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 393,
             "end": 398
         },
@@ -1107,10 +1251,12 @@ import { let as l } from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 398,
                 "end": 403
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 398,
             "end": 403
         },
@@ -1121,10 +1267,12 @@ import { let as l } from 'm.js';
                 "text": "m.js",
                 "rawText": "'m.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 403,
                 "end": 410
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 403,
             "end": 411
         },
@@ -1133,6 +1281,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 411,
                 "end": 418
             },
@@ -1143,6 +1292,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 437,
                     "end": 442
                 },
@@ -1151,10 +1301,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 442,
                     "end": 449
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 437,
                 "end": 449
             },
@@ -1166,6 +1318,7 @@ import { let as l } from 'm.js';
                     "text": "thing",
                     "rawText": "thing",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 418,
                     "end": 424
                 },
@@ -1186,10 +1339,12 @@ import { let as l } from 'm.js';
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 427,
                                     "end": 429
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 427,
                                 "end": 429
                             },
@@ -1204,10 +1359,12 @@ import { let as l } from 'm.js';
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 430,
                                     "end": 432
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 430,
                                 "end": 432
                             },
@@ -1222,27 +1379,33 @@ import { let as l } from 'm.js';
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 433,
                                     "end": 435
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 433,
                                 "end": 435
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 427,
                         "end": 435
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 425,
                     "end": 437
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 411,
                 "end": 437
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 411,
             "end": 450
         },
@@ -1251,6 +1414,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 450,
                 "end": 457
             },
@@ -1261,6 +1425,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 476,
                     "end": 481
                 },
@@ -1269,10 +1434,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 481,
                     "end": 488
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 476,
                 "end": 488
             },
@@ -1295,12 +1462,14 @@ import { let as l } from 'm.js';
                                     "text": "arguments",
                                     "rawText": "arguments",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 459,
                                     "end": 469
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 469,
                                     "end": 472
                                 },
@@ -1309,27 +1478,33 @@ import { let as l } from 'm.js';
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 472,
                                     "end": 474
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 459,
                                 "end": 474
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 459,
                         "end": 474
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 457,
                     "end": 476
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 450,
                 "end": 476
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 450,
             "end": 489
         },
@@ -1338,6 +1513,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 489,
                 "end": 496
             },
@@ -1348,6 +1524,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 509,
                     "end": 514
                 },
@@ -1356,10 +1533,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 514,
                     "end": 521
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 509,
                 "end": 521
             },
@@ -1382,12 +1561,14 @@ import { let as l } from 'm.js';
                                     "text": "for",
                                     "rawText": "for",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 498,
                                     "end": 502
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 502,
                                     "end": 505
                                 },
@@ -1396,27 +1577,33 @@ import { let as l } from 'm.js';
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 505,
                                     "end": 507
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 498,
                                 "end": 507
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 498,
                         "end": 507
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 496,
                     "end": 509
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 489,
                 "end": 509
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 489,
             "end": 522
         },
@@ -1425,6 +1612,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 522,
                 "end": 529
             },
@@ -1435,6 +1623,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 544,
                     "end": 549
                 },
@@ -1443,10 +1632,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 549,
                     "end": 556
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 544,
                 "end": 556
             },
@@ -1469,12 +1660,14 @@ import { let as l } from 'm.js';
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 531,
                                     "end": 537
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 537,
                                     "end": 540
                                 },
@@ -1483,27 +1676,33 @@ import { let as l } from 'm.js';
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 540,
                                     "end": 542
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 531,
                                 "end": 542
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 531,
                         "end": 542
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 529,
                     "end": 544
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 522,
                 "end": 544
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 522,
             "end": 557
         },
@@ -1512,6 +1711,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 557,
                 "end": 564
             },
@@ -1522,6 +1722,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 580,
                     "end": 585
                 },
@@ -1530,10 +1731,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 585,
                     "end": 592
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 580,
                 "end": 592
             },
@@ -1556,12 +1759,14 @@ import { let as l } from 'm.js';
                                     "text": "static",
                                     "rawText": "static",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 566,
                                     "end": 573
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 573,
                                     "end": 576
                                 },
@@ -1570,27 +1775,33 @@ import { let as l } from 'm.js';
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 576,
                                     "end": 578
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 566,
                                 "end": 578
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 566,
                         "end": 578
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 564,
                     "end": 580
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 557,
                 "end": 580
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 557,
             "end": 593
         },
@@ -1599,6 +1810,7 @@ import { let as l } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 593,
                 "end": 600
             },
@@ -1609,6 +1821,7 @@ import { let as l } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 613,
                     "end": 618
                 },
@@ -1617,10 +1830,12 @@ import { let as l } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 618,
                     "end": 625
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 613,
                 "end": 625
             },
@@ -1643,12 +1858,14 @@ import { let as l } from 'm.js';
                                     "text": "let",
                                     "rawText": "let",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 602,
                                     "end": 606
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 606,
                                     "end": 609
                                 },
@@ -1657,27 +1874,33 @@ import { let as l } from 'm.js';
                                     "text": "l",
                                     "rawText": "l",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 609,
                                     "end": 611
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 602,
                                 "end": 611
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 602,
                         "end": 611
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 600,
                     "end": 613
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 593,
                 "end": 613
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 593,
             "end": 626
         }
@@ -1686,6 +1909,7 @@ import { let as l } from 'm.js';
     "source": "import { x as d } from 'm.js';\n\nimport n from 'n.js';\n\nimport { y as a } from 'm.js';\n\nimport w from 'n.js';\n\nexport { z as h } from 'm.js';\n\nimport * as foo from 'bar.js';\n\nimport { q as o } from 'm.js';\n\nimport 'somemodule.js';\nimport { } from 'm.js';\nimport { a } from 'm.js';\nimport { a, b as d, c, } from 'm.js';\nimport * as thing from 'm.js';\nimport thing from 'm.js';\nimport thing, * as rest from 'm.js';\nimport thing, { a, b, c } from 'm.js';\nimport { arguments as a } from 'm.js';\nimport { for as f } from 'm.js';\nimport { yield as y } from 'm.js';\nimport { static as s } from 'm.js';\nimport { let as l } from 'm.js';\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 627
 }

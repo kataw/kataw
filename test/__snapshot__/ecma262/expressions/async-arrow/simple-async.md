@@ -22,6 +22,7 @@ async (x, ...a)=>0;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -34,6 +35,7 @@ async (x, ...a)=>0;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
@@ -42,6 +44,7 @@ async (x, ...a)=>0;
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -50,6 +53,7 @@ async (x, ...a)=>0;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
@@ -57,12 +61,14 @@ async (x, ...a)=>0;
                             "type": null,
                             "right": null,
                             "flags": 1073741856,
+                            "transformFlags": 4096,
                             "start": 9,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 15
                 },
@@ -70,6 +76,7 @@ async (x, ...a)=>0;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -78,14 +85,17 @@ async (x, ...a)=>0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 18
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -94,6 +104,7 @@ async (x, ...a)=>0;
     "source": "async (x, ...a)=>0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -102,9 +113,7 @@ async (x, ...a)=>0;
 ### Printed
 
 ```javascript
-
 async (x, ...a) => 0;
-
 ```
 
 ### Diagnostics

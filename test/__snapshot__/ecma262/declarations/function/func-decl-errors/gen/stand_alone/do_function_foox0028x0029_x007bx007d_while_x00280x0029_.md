@@ -28,6 +28,7 @@ do function foo() {} while (0);
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,6 +39,7 @@ do function foo() {} while (0);
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 11
                 },
@@ -47,6 +49,7 @@ do function foo() {} while (0);
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 15
                 },
@@ -56,6 +59,7 @@ do function foo() {} while (0);
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
@@ -66,21 +70,25 @@ do function foo() {} while (0);
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 20
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 26
             },
@@ -89,10 +97,12 @@ do function foo() {} while (0);
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 29
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -101,6 +111,7 @@ do function foo() {} while (0);
     "source": "do function foo() {} while (0);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

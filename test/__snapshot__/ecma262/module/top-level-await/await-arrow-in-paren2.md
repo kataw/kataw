@@ -30,6 +30,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -42,6 +43,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 13
                             },
@@ -51,6 +53,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
@@ -58,6 +61,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 19
                             },
@@ -68,19 +72,23 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 22
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 22
                         },
-                        "flags": 32,
-                        "start": 6,
+                        "flags": 6,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 23
                     },
                     "argumentList": {
@@ -88,18 +96,22 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 24
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 6,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -108,6 +120,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
     "source": "\nawait (async () => {})(); // equivalent to: await((async () => {})())\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }
@@ -116,9 +129,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
 ### Printed
 
 ```javascript
-
-await (async () => {})();// equivalent to: await((async () => {})())
-
+await (async () => {})();
 ```
 
 ### Diagnostics

@@ -26,6 +26,7 @@ import { typeof Foo12 } from "bar";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import { typeof Foo12 } from "bar";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 28
                 },
@@ -44,10 +46,12 @@ import { typeof Foo12 } from "bar";
                     "text": "bar",
                     "rawText": "\"bar\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 34
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 34
             },
@@ -72,10 +76,12 @@ import { typeof Foo12 } from "bar";
                                     "text": "typeof",
                                     "rawText": "typeof",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 15
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 15
                             },
@@ -90,27 +96,33 @@ import { typeof Foo12 } from "bar";
                                     "text": "Foo12",
                                     "rawText": "Foo12",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 21
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -119,6 +131,7 @@ import { typeof Foo12 } from "bar";
     "source": "import { typeof Foo12 } from \"bar\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

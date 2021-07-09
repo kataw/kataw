@@ -22,6 +22,7 @@ throw
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,10 +31,12 @@ throw
                 "text": "\n",
                 "rawText": "\n",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -42,6 +45,7 @@ throw
     "source": "throw\n`\n`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

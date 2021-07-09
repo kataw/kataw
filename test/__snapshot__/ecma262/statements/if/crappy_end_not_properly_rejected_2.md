@@ -20,6 +20,7 @@ for (;;) {}}dsadsa
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -32,14 +33,17 @@ for (;;) {}}dsadsa
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -50,10 +54,12 @@ for (;;) {}}dsadsa
                 "text": "dsadsa",
                 "rawText": "dsadsa",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 18
         }
@@ -62,6 +68,7 @@ for (;;) {}}dsadsa
     "source": "for (;;) {}}dsadsa",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

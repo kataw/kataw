@@ -21,10 +21,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 2
         },
@@ -35,6 +37,7 @@
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 4
                 },
@@ -43,14 +46,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 2,
             "end": 4
         }
@@ -59,6 +65,7 @@
     "source": "{}++",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }

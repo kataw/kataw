@@ -30,6 +30,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -48,6 +50,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -67,6 +70,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                     "classKeyword": {
                                         "kind": 37822544,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 27
                                     },
@@ -85,12 +89,14 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                     "staticKeyword": {
                                                         "kind": 8388716,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 36
                                                     },
                                                     "asyncKeyword": {
                                                         "kind": 82031,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 42
                                                     },
@@ -104,6 +110,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                             "text": "method",
                                                             "rawText": "method",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 42,
                                                             "end": 49
                                                         },
@@ -116,6 +123,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                     "ellipsisToken": {
                                                                         "kind": 524302,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 50,
                                                                         "end": 53
                                                                     },
@@ -124,6 +132,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                         "text": "await",
                                                                         "rawText": "await",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 53,
                                                                         "end": 58
                                                                     },
@@ -131,12 +140,14 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                     "type": null,
                                                                     "right": null,
                                                                     "flags": 34,
+                                                                    "transformFlags": 4096,
                                                                     "start": 50,
                                                                     "end": 58
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 290,
+                                                            "transformFlags": 0,
                                                             "start": 50,
                                                             "end": 59
                                                         },
@@ -148,53 +159,65 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                                 "directives": [],
                                                                 "statements": [],
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 61,
                                                                 "end": 61
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 59,
                                                             "end": 62
                                                         },
                                                         "flags": 256,
+                                                        "transformFlags": 0,
                                                         "start": 49,
                                                         "end": 62
                                                     },
                                                     "flags": 256,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 62
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 62
                                         },
                                         "flags": 27,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 64
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 64
                                 },
-                                "flags": 32,
-                                "start": 20,
+                                "flags": 20,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 65
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 65
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 65
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 67
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 67
         }
@@ -203,6 +226,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
     "source": "function not_gen() { (class { static async method(...await) {} }) }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }

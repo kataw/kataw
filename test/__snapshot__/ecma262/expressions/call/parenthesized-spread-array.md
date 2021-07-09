@@ -21,6 +21,7 @@ var foo = async ([...(foo)]);
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var foo = async ([...(foo)]);
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -45,6 +47,7 @@ var foo = async ([...(foo)]);
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -61,6 +64,7 @@ var foo = async ([...(foo)]);
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 21
                                                     },
@@ -71,47 +75,57 @@ var foo = async ([...(foo)]);
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 22,
                                                             "end": 25
                                                         },
-                                                        "flags": 32,
-                                                        "start": 21,
+                                                        "flags": 21,
+                                                        "transformFlags": 0,
+                                                        "start": 32,
                                                         "end": 26
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 26
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 26
                                         },
                                         "flags": 32,
+                                        "transformFlags": 8,
                                         "start": 17,
                                         "end": 27
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 9
                             },
                             "flags": 268435490,
+                            "transformFlags": 1,
                             "start": 9,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -120,6 +134,7 @@ var foo = async ([...(foo)]);
     "source": "var foo = async ([...(foo)]);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -128,9 +143,7 @@ var foo = async ([...(foo)]);
 ### Printed
 
 ```javascript
-
 var foo = async([...(foo)]);
-
 ```
 
 ### Diagnostics

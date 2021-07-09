@@ -28,6 +28,7 @@ for (var let = 1; let < 1; let++) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for (var let = 1; let < 1; let++) {}
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -49,6 +51,7 @@ for (var let = 1; let < 1; let++) {}
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             },
@@ -58,19 +61,23 @@ for (var let = 1; let < 1; let++) {}
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 16
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 16
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
@@ -79,6 +86,7 @@ for (var let = 1; let < 1; let++) {}
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 32
                 },
@@ -87,10 +95,12 @@ for (var let = 1; let < 1; let++) {}
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 32
             },
@@ -101,12 +111,14 @@ for (var let = 1; let < 1; let++) {}
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 21
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -115,10 +127,12 @@ for (var let = 1; let < 1; let++) {}
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 17,
                 "end": 25
             },
@@ -128,14 +142,17 @@ for (var let = 1; let < 1; let++) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 35
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 36
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -144,6 +161,7 @@ for (var let = 1; let < 1; let++) {}
     "source": "for (var let = 1; let < 1; let++) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -152,9 +170,7 @@ for (var let = 1; let < 1; let++) {}
 ### Printed
 
 ```javascript
-
-for (var let = 1; let++; let  < 1) { }
-
+for (var let = 1; let++; let  < 1) {}
 ```
 
 ### Diagnostics

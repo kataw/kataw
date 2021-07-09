@@ -35,6 +35,7 @@ let {x}: string = y;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,21 +49,25 @@ let {x}: string = y;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -73,10 +78,12 @@ let {x}: string = y;
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 14
         },
@@ -85,6 +92,7 @@ let {x}: string = y;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 19
             },
@@ -103,31 +111,37 @@ let {x}: string = y;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 22
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 22
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 23
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 19,
                         "end": 23
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 14,
             "end": 23
         },
@@ -140,12 +154,14 @@ let {x}: string = y;
                     "text": "string",
                     "rawText": "string",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 31
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 33
                 },
@@ -154,14 +170,17 @@ let {x}: string = y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 24,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 24,
             "end": 36
         },
@@ -170,6 +189,7 @@ let {x}: string = y;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 41
             },
@@ -191,6 +211,7 @@ let {x}: string = y;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 43,
                                             "end": 44
                                         },
@@ -198,31 +219,37 @@ let {x}: string = y;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 43,
                                         "end": 44
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 44
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 44
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 41,
                         "end": 44
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 44
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 36,
             "end": 44
         },
@@ -233,10 +260,12 @@ let {x}: string = y;
                 "text": "symbol",
                 "rawText": "symbol",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 45,
             "end": 51
         },
@@ -249,12 +278,14 @@ let {x}: string = y;
                     "text": "string",
                     "rawText": "string",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 53,
                     "end": 60
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 62
                 },
@@ -263,14 +294,17 @@ let {x}: string = y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 62,
                     "end": 64
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 53,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 53,
             "end": 65
         },
@@ -279,6 +313,7 @@ let {x}: string = y;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 70
             },
@@ -297,31 +332,37 @@ let {x}: string = y;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 73
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 73
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 70,
                             "end": 74
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 70,
                         "end": 74
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 70,
                 "end": 74
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 65,
             "end": 74
         },
@@ -334,12 +375,14 @@ let {x}: string = y;
                     "text": "string",
                     "rawText": "string",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 75,
                     "end": 82
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 82,
                     "end": 84
                 },
@@ -348,14 +391,17 @@ let {x}: string = y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 84,
                     "end": 86
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 75,
                 "end": 86
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 75,
             "end": 87
         }
@@ -364,6 +410,7 @@ let {x}: string = y;
     "source": "let x: string;\n\nlet [x]: string = y;\n\nlet [x:symbol]: string = y;\n\nlet {x}: string = y;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 88
 }

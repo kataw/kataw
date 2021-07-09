@@ -25,12 +25,14 @@ x={..."foo".foo=x}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -44,6 +46,7 @@ x={..."foo".foo=x}
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 6
                                 },
@@ -56,6 +59,7 @@ x={..."foo".foo=x}
                                             "text": "foo",
                                             "rawText": "\"foo\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 11
                                         },
@@ -64,16 +68,19 @@ x={..."foo".foo=x}
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 15
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 6,
                                         "end": 15
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 16
                                     },
@@ -82,32 +89,39 @@ x={..."foo".foo=x}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 17
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 6,
                                     "end": 17
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 17
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -116,6 +130,7 @@ x={..."foo".foo=x}
     "source": "x={...\"foo\".foo=x}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -124,9 +139,7 @@ x={..."foo".foo=x}
 ### Printed
 
 ```javascript
-
-x = { ...'"foo"'.foo = x };
-
+x = { ..."\"foo\"".foo = x };
 ```
 
 ### Diagnostics

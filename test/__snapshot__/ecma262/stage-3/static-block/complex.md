@@ -43,6 +43,7 @@ class C {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -56,6 +57,7 @@ class C {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -65,19 +67,23 @@ class C {
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 11
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 11
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -86,6 +92,7 @@ class C {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 18
             },
@@ -99,6 +106,7 @@ class C {
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 20
                         },
@@ -108,19 +116,23 @@ class C {
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 18,
                         "end": 24
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 12,
             "end": 25
         },
@@ -131,6 +143,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 32
             },
@@ -139,6 +152,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 34
             },
@@ -156,6 +170,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 47
                             },
@@ -169,6 +184,7 @@ class C {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 63
                                             },
@@ -182,6 +198,7 @@ class C {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 63,
                                                             "end": 65
                                                         },
@@ -191,19 +208,23 @@ class C {
                                                             "text": 11,
                                                             "rawText": "11",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 67,
                                                             "end": 70
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 4224,
                                                         "start": 63,
                                                         "end": 70
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 63,
                                                 "end": 70
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 49,
                                             "end": 71
                                         },
@@ -214,10 +235,12 @@ class C {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 71,
                                                 "end": 82
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 71,
                                             "end": 83
                                         },
@@ -228,23 +251,28 @@ class C {
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 83,
                                                 "end": 93
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 83,
                                             "end": 94
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 94
                                 },
                                 "flags": 36,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 100
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 100
                         },
@@ -255,6 +283,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 100,
                                 "end": 112
                             },
@@ -268,6 +297,7 @@ class C {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 114,
                                                 "end": 128
                                             },
@@ -281,6 +311,7 @@ class C {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 128,
                                                             "end": 130
                                                         },
@@ -290,19 +321,23 @@ class C {
                                                             "text": 11,
                                                             "rawText": "11",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 132,
                                                             "end": 135
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 4224,
                                                         "start": 128,
                                                         "end": 135
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 128,
                                                 "end": 135
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 114,
                                             "end": 136
                                         },
@@ -313,10 +348,12 @@ class C {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 136,
                                                 "end": 147
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 136,
                                             "end": 148
                                         },
@@ -327,36 +364,44 @@ class C {
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 148,
                                                 "end": 158
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 148,
                                             "end": 159
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 114,
                                     "end": 159
                                 },
                                 "flags": 100,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 165
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 100,
                             "end": 165
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 165
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 167
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 25,
             "end": 167
         }
@@ -365,6 +410,7 @@ class C {
     "source": "const a = 1;\nconst b = 2;\n\nclass C {\n    static {\n        const a = 11;\n\n        a;\n        b;\n    }\n\n    static {\n        const a = 11;\n\n        a;\n        b;\n    }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 167
 }
@@ -373,20 +419,12 @@ class C {
 ### Printed
 
 ```javascript
-
 const a = 1;
 const b = 2;
+
 class C {
-  static  {
-    const a = 11;
-    a;
-    b;
-  }
-  static  {
-    const a = 11;
-    a;
-    b;
-  }
+
+
 }
 
 ```

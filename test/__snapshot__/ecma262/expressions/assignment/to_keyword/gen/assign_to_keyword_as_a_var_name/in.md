@@ -32,12 +32,14 @@ in = x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
@@ -46,14 +48,17 @@ in = x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 2
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -64,10 +69,12 @@ in = x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 4,
             "end": 6
         }
@@ -76,6 +83,7 @@ in = x
     "source": "in = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

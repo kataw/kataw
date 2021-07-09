@@ -31,6 +31,7 @@ const uuid = String(this._uuidCounter++);
                             "operandToken": {
                                 "kind": 196635,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
@@ -39,6 +40,7 @@ const uuid = String(this._uuidCounter++);
                                 "member": {
                                     "kind": 4276321,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 5
                                 },
@@ -47,19 +49,23 @@ const uuid = String(this._uuidCounter++);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 7
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 0,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 9
                         },
-                        "flags": 32,
-                        "start": 0,
+                        "flags": 0,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 10
                     },
                     "expression": {
@@ -67,10 +73,12 @@ const uuid = String(this._uuidCounter++);
                         "text": "toString",
                         "rawText": "toString",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 19
                     },
                     "flags": 32,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 19
                 },
@@ -79,14 +87,17 @@ const uuid = String(this._uuidCounter++);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         },
@@ -97,6 +108,7 @@ const uuid = String(this._uuidCounter++);
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 25
                 },
@@ -107,6 +119,7 @@ const uuid = String(this._uuidCounter++);
                         "operandToken": {
                             "kind": 196635,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 30
                         },
@@ -115,23 +128,28 @@ const uuid = String(this._uuidCounter++);
                             "text": "r",
                             "rawText": "r",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 28
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 30
                     },
-                    "flags": 32,
-                    "start": 25,
+                    "flags": 25,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 31
                 },
                 "argumentList": null,
                 "flags": 97,
+                "transformFlags": 2048,
                 "start": 21,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 21,
             "end": 32
         },
@@ -146,6 +164,7 @@ const uuid = String(this._uuidCounter++);
                         "operandToken": {
                             "kind": 196635,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 37
                         },
@@ -154,15 +173,18 @@ const uuid = String(this._uuidCounter++);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 35
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 37
                     },
                     "flags": 32,
-                    "start": 32,
+                    "transformFlags": 0,
+                    "start": 33,
                     "end": 38
                 },
                 "argumentList": {
@@ -170,14 +192,17 @@ const uuid = String(this._uuidCounter++);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 39
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 32,
             "end": 41
         },
@@ -186,6 +211,7 @@ const uuid = String(this._uuidCounter++);
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 47
             },
@@ -199,6 +225,7 @@ const uuid = String(this._uuidCounter++);
                             "text": "uuid",
                             "rawText": "uuid",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 52
                         },
@@ -210,6 +237,7 @@ const uuid = String(this._uuidCounter++);
                                 "text": "String",
                                 "rawText": "String",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 61
                             },
@@ -221,6 +249,7 @@ const uuid = String(this._uuidCounter++);
                                         "operandToken": {
                                             "kind": 196635,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 79,
                                             "end": 81
                                         },
@@ -229,6 +258,7 @@ const uuid = String(this._uuidCounter++);
                                             "member": {
                                                 "kind": 4276321,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 62,
                                                 "end": 66
                                             },
@@ -237,37 +267,45 @@ const uuid = String(this._uuidCounter++);
                                                 "text": "_uuidCounter",
                                                 "rawText": "_uuidCounter",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 67,
                                                 "end": 79
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 62,
                                             "end": 79
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 62,
                                         "end": 81
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 62,
                                 "end": 81
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 54,
                             "end": 82
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 47,
                         "end": 82
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 82
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 41,
             "end": 83
         }
@@ -276,6 +314,7 @@ const uuid = String(this._uuidCounter++);
     "source": "(this.x++).toString()\nnew (r++);\n(x++)();\nconst uuid = String(this._uuidCounter++);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 83
 }
@@ -284,10 +323,11 @@ const uuid = String(this._uuidCounter++);
 ### Printed
 
 ```javascript
-
 (this.x++).toString();
 new (r++);
+
 (x++)();
+
 const uuid = String(this._uuidCounter++);
 
 ```

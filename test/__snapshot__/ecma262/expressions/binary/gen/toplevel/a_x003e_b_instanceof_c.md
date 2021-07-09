@@ -34,12 +34,14 @@ a > b instanceof c
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
                     "operatorToken": {
                         "kind": 34883,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 3
                     },
@@ -48,16 +50,19 @@ a > b instanceof c
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 16
                 },
@@ -66,14 +71,17 @@ a > b instanceof c
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -82,6 +90,7 @@ a > b instanceof c
     "source": "a > b instanceof c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -90,9 +99,7 @@ a > b instanceof c
 ### Printed
 
 ```javascript
-
 a > b instanceof c;
-
 ```
 
 ### Diagnostics

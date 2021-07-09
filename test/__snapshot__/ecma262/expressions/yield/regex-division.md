@@ -23,12 +23,14 @@ function* f(){ yield
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -37,6 +39,7 @@ function* f(){ yield
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -46,6 +49,7 @@ function* f(){ yield
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -62,6 +66,7 @@ function* f(){ yield
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 20
                                 },
@@ -71,28 +76,34 @@ function* f(){ yield
                                     "kind": 371,
                                     "text": "/foo }",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 27
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 14,
                                 "end": 27
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 27
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 27
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -101,6 +112,7 @@ function* f(){ yield
     "source": "function* f(){ yield\n/foo }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

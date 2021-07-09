@@ -20,6 +20,7 @@ const array = [/* element 1 */ 1, /* end of element 1 */];
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,6 +34,7 @@ const array = [/* element 1 */ 1, /* end of element 1 */];
                             "text": "array",
                             "rawText": "array",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         },
@@ -47,29 +49,35 @@ const array = [/* element 1 */ 1, /* end of element 1 */];
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 33
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 13,
                             "end": 57
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 57
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 57
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 58
         }
@@ -78,6 +86,7 @@ const array = [/* element 1 */ 1, /* end of element 1 */];
     "source": "const array = [/* element 1 */ 1, /* end of element 1 */];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }
@@ -86,9 +95,7 @@ const array = [/* element 1 */ 1, /* end of element 1 */];
 ### Printed
 
 ```javascript
-
-const array = [/* element 1 */1,/* end of element 1 */];
-
+const array = [1,];
 ```
 
 ### Diagnostics

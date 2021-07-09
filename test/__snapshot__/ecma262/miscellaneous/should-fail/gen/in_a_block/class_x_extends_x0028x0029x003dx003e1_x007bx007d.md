@@ -35,6 +35,7 @@
                         "classKeyword": {
                             "kind": 37822544,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
@@ -43,6 +44,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         },
@@ -54,6 +56,7 @@
                                 "extendsKeyword": {
                                     "kind": 4194391,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 17
                                 },
@@ -65,7 +68,8 @@
                                         "kind": 342,
                                         "parameters": [],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 19
                                     },
@@ -73,6 +77,7 @@
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -81,15 +86,18 @@
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 23
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 23
                                 },
                                 "typeParameter": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
@@ -97,23 +105,28 @@
                                 "kind": 303,
                                 "elements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 25
                             },
                             "flags": 9,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -122,6 +135,7 @@
     "source": "{ class x extends ()=>1 {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

@@ -29,6 +29,7 @@ type X = (x & {[x]:string});
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type X = (x & {[x]:string});
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type X = (x & {[x]:string});
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -63,11 +66,13 @@ type X = (x & {[x]:string});
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
@@ -86,11 +91,13 @@ type X = (x & {[x]:string});
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 17
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
@@ -101,37 +108,45 @@ type X = (x & {[x]:string});
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 25
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 25
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 26
                             }
                         ],
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 26
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 27
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 27
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -140,6 +155,7 @@ type X = (x & {[x]:string});
     "source": "type X = (x & {[x]:string});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -148,9 +164,7 @@ type X = (x & {[x]:string});
 ### Printed
 
 ```javascript
-
-type X = (x & { [x]:  string })
-
+type X = (x & { [x]: string })
 ```
 
 ### Diagnostics

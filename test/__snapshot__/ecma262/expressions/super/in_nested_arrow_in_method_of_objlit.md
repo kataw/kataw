@@ -24,12 +24,14 @@ x={ foo(){ return () => function() { super.foo; } }}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -51,6 +53,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 7
                                     },
@@ -60,6 +63,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 9
                                     },
@@ -75,6 +79,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 17
                                                     },
@@ -86,7 +91,8 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                             "kind": 342,
                                                             "parameters": [],
                                                             "trailingComma": false,
-                                                            "flags": 0,
+                                                            "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 19,
                                                             "end": 19
                                                         },
@@ -94,6 +100,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 20,
                                                             "end": 23
                                                         },
@@ -103,6 +110,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 23,
                                                                 "end": 32
                                                             },
@@ -114,6 +122,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 33,
                                                                 "end": 33
                                                             },
@@ -130,6 +139,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                                 "member": {
                                                                                     "kind": 4259935,
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 36,
                                                                                     "end": 42
                                                                                 },
@@ -138,71 +148,87 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                                     "text": "foo",
                                                                                     "rawText": "foo",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 43,
                                                                                     "end": 46
                                                                                 },
                                                                                 "flags": 96,
+                                                                                "transformFlags": 2,
                                                                                 "start": 36,
                                                                                 "end": 46
                                                                             },
                                                                             "flags": 16,
+                                                                            "transformFlags": 4096,
                                                                             "start": 36,
                                                                             "end": 47
                                                                         }
                                                                     ],
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 36,
                                                                     "end": 47
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 34,
                                                                 "end": 49
                                                             },
                                                             "returnType": null,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 23,
                                                             "end": 49
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 49
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 256,
                                                     "start": 10,
                                                     "end": 49
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 49
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 51
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 51
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 51
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 51
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 52
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 52
         }
@@ -211,6 +237,7 @@ x={ foo(){ return () => function() { super.foo; } }}
     "source": "x={ foo(){ return () => function() { super.foo; } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }

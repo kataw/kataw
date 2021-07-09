@@ -29,6 +29,7 @@ new it(/* comment */)
                     "text": "require",
                     "rawText": "require",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
@@ -37,14 +38,17 @@ new it(/* comment */)
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         },
@@ -55,6 +59,7 @@ new it(/* comment */)
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 26
                 },
@@ -63,6 +68,7 @@ new it(/* comment */)
                     "text": "require",
                     "rawText": "require",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 34
                 },
@@ -71,14 +77,17 @@ new it(/* comment */)
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 35
                 },
                 "flags": 97,
+                "transformFlags": 2048,
                 "start": 22,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 49
         },
@@ -91,6 +100,7 @@ new it(/* comment */)
                     "text": "define",
                     "rawText": "define",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 56
                 },
@@ -99,14 +109,17 @@ new it(/* comment */)
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 57,
                     "end": 57
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 49,
                 "end": 71
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 49,
             "end": 71
         },
@@ -117,6 +130,7 @@ new it(/* comment */)
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 71,
                     "end": 75
                 },
@@ -125,6 +139,7 @@ new it(/* comment */)
                     "text": "define",
                     "rawText": "define",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 75,
                     "end": 82
                 },
@@ -133,14 +148,17 @@ new it(/* comment */)
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 83,
                     "end": 83
                 },
                 "flags": 97,
+                "transformFlags": 2048,
                 "start": 71,
                 "end": 97
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 71,
             "end": 97
         },
@@ -153,6 +171,7 @@ new it(/* comment */)
                     "text": "it",
                     "rawText": "it",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 97,
                     "end": 100
                 },
@@ -161,14 +180,17 @@ new it(/* comment */)
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 101,
                     "end": 101
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 97,
                 "end": 115
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 97,
             "end": 115
         },
@@ -179,6 +201,7 @@ new it(/* comment */)
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 115,
                     "end": 119
                 },
@@ -187,6 +210,7 @@ new it(/* comment */)
                     "text": "it",
                     "rawText": "it",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 119,
                     "end": 122
                 },
@@ -195,14 +219,17 @@ new it(/* comment */)
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 123,
                     "end": 123
                 },
                 "flags": 97,
+                "transformFlags": 2048,
                 "start": 115,
                 "end": 137
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 115,
             "end": 137
         }
@@ -211,6 +238,7 @@ new it(/* comment */)
     "source": "require(/* comment */)\nnew require(/* comment */)\ndefine(/* comment */)\nnew define(/* comment */)\nit(/* comment */)\nnew it(/* comment */)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 137
 }
@@ -219,13 +247,16 @@ new it(/* comment */)
 ### Printed
 
 ```javascript
+require();
+new require();
 
-require(/* comment */);
-new require(/* comment */);
-define(/* comment */);
-new define(/* comment */);
-it(/* comment */);
-new it(/* comment */);
+define();
+
+new define();
+
+it();
+
+new it();
 
 ```
 

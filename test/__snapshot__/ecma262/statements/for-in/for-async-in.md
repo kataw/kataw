@@ -26,6 +26,7 @@ for (async in { a: 1, b: 2 }) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,12 +35,14 @@ for (async in { a: 1, b: 2 }) {}
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -56,6 +59,7 @@ for (async in { a: 1, b: 2 }) {}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
@@ -64,10 +68,12 @@ for (async in { a: 1, b: 2 }) {}
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 20
                         },
@@ -79,6 +85,7 @@ for (async in { a: 1, b: 2 }) {}
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
@@ -87,20 +94,24 @@ for (async in { a: 1, b: 2 }) {}
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 21,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 26
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 13,
                 "end": 28
             },
@@ -110,14 +121,17 @@ for (async in { a: 1, b: 2 }) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 31
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 32
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -126,6 +140,7 @@ for (async in { a: 1, b: 2 }) {}
     "source": "for (async in { a: 1, b: 2 }) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -134,9 +149,7 @@ for (async in { a: 1, b: 2 }) {}
 ### Printed
 
 ```javascript
-
-for (async in { a : 1, b : 2 }) { }
-
+for (async in { a: 1, b: 2 }) {}
 ```
 
 ### Diagnostics

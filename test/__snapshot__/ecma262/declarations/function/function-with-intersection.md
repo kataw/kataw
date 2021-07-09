@@ -30,6 +30,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -54,6 +56,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -63,6 +66,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "bitwiseOrToken": {
                                 "kind": 134251592,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -75,6 +79,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -83,20 +88,24 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     }
                                 ],
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 21
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 21
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 21
                     },
@@ -108,6 +117,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 24
                         },
@@ -118,6 +128,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                             "bitwiseAndToken": {
                                 "kind": 134252103,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
@@ -129,6 +140,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 29
                                     },
@@ -137,26 +149,31 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                         "text": 4,
                                         "rawText": "4",
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     }
                                 ],
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 33
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 33
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 22,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 33
             },
@@ -167,10 +184,12 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 45
             },
@@ -181,14 +200,17 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 42
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -197,6 +219,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
     "source": "function x(a: | 1 | 2, b: & 3 & 4): number {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -205,9 +228,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
 ### Printed
 
 ```javascript
-
 function x(a: | 1 | 2, b: & 3 & 4): number {}
-
 ```
 
 ### Diagnostics

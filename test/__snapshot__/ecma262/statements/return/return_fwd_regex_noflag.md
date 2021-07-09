@@ -25,6 +25,7 @@ function f(){
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -34,6 +35,7 @@ function f(){
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -57,11 +60,13 @@ function f(){
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 22
                             },
                             "expression": null,
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 13,
                             "end": 22
                         },
@@ -71,24 +76,29 @@ function f(){
                                 "kind": 371,
                                 "text": "/x/",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 22,
                             "end": 28
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -97,6 +107,7 @@ function f(){
     "source": "function f(){\n  return\n  /x/\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -105,12 +116,10 @@ function f(){
 ### Printed
 
 ```javascript
-
 function f() {
   return;
   /x/;
 }
-
 ```
 
 ### Diagnostics

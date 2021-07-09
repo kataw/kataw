@@ -29,6 +29,7 @@ var {x}: {x: string; } = { x: "hello" };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,16 +48,19 @@ var {x}: {x: string; } = { x: "hello" };
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -78,6 +82,7 @@ var {x}: {x: string; } = { x: "hello" };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
@@ -89,24 +94,29 @@ var {x}: {x: string; } = { x: "hello" };
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 19
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 19
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 22
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 22
                         },
@@ -123,6 +133,7 @@ var {x}: {x: string; } = { x: "hello" };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 28
                                         },
@@ -131,33 +142,40 @@ var {x}: {x: string; } = { x: "hello" };
                                             "text": "hello",
                                             "rawText": "\"hello\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 37
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 26,
                                         "end": 37
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 37
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 24,
                             "end": 39
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 39
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -166,6 +184,7 @@ var {x}: {x: string; } = { x: "hello" };
     "source": "var {x}: {x: string; } = { x: \"hello\" };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -174,11 +193,7 @@ var {x}: {x: string; } = { x: "hello" };
 ### Printed
 
 ```javascript
-
-var {
-  x
-}: { x: string } = { x : '"hello"' };
-
+var { x }: { x: string } = { x: "\"hello\"" };
 ```
 
 ### Diagnostics

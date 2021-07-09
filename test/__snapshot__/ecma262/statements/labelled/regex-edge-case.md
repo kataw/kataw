@@ -23,12 +23,14 @@ foo:
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -38,14 +40,17 @@ foo:
                     "kind": 371,
                     "text": "/bar/",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 4,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -54,6 +59,7 @@ foo:
     "source": "foo:\n/bar/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -62,9 +68,7 @@ foo:
 ### Printed
 
 ```javascript
-
-foo: /bar/;
-
+foo:  /bar/;
 ```
 
 ### Diagnostics

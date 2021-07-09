@@ -28,6 +28,7 @@ for (a ? b : c of x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,12 +39,14 @@ for (a ? b : c of x);
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -52,12 +55,14 @@ for (a ? b : c of x);
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -66,10 +71,12 @@ for (a ? b : c of x);
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 14
             },
@@ -78,6 +85,7 @@ for (a ? b : c of x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
@@ -86,16 +94,19 @@ for (a ? b : c of x);
                 "text": "of",
                 "rawText": "of",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -104,6 +115,7 @@ for (a ? b : c of x);
     "source": "for (a ? b : c of x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -112,10 +124,7 @@ for (a ? b : c of x);
 ### Printed
 
 ```javascript
-
-for (a ? b : c; x; of)
-  ;
-
+for (a ? b : c; x; of);
 ```
 
 ### Diagnostics

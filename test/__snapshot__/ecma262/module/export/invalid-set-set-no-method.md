@@ -28,6 +28,7 @@ class A {set set foo(value) { }};
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ class A {set set foo(value) { }};
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class A {set set foo(value) { }};
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
@@ -67,6 +70,7 @@ class A {set set foo(value) { }};
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 16
                                 },
@@ -76,6 +80,7 @@ class A {set set foo(value) { }};
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 512,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 16
                                 },
@@ -87,18 +92,22 @@ class A {set set foo(value) { }};
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 16
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 16
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 16
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 16
                         },
@@ -118,6 +127,7 @@ class A {set set foo(value) { }};
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -130,12 +140,14 @@ class A {set set foo(value) { }};
                                             "text": "value",
                                             "rawText": "value",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 26
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 27
                                 },
@@ -147,37 +159,45 @@ class A {set set foo(value) { }};
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 29
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 31
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 31
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 31
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 32,
             "end": 33
         }
@@ -186,6 +206,7 @@ class A {set set foo(value) { }};
     "source": "class A {set set foo(value) { }};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

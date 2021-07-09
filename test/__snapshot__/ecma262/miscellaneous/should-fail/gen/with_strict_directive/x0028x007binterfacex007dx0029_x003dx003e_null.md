@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -51,22 +52,26 @@
                                         "text": "interface",
                                         "rawText": "interface",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 25
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 27
                 },
@@ -74,20 +79,24 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 30
                 },
                 "contents": {
                     "kind": 138477575,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 35
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 35
         }
@@ -96,6 +105,7 @@
     "source": "\"use strict\"; ({interface}) => null",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -105,11 +115,8 @@
 
 ```javascript
 
-'"use strict"';
-({
-    interface
-  }) => null;
-
+"\"use strict\"";
+({ interface }) => null;
 ```
 
 ### Diagnostics

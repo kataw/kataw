@@ -21,6 +21,7 @@ var x; "use strict"; with (x) y;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,21 +35,25 @@ var x; "use strict"; with (x) y;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -59,10 +64,12 @@ var x; "use strict"; with (x) y;
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 20
         },
@@ -71,6 +78,7 @@ var x; "use strict"; with (x) y;
             "withKeyword": {
                 "kind": 37757029,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 25
             },
@@ -79,6 +87,7 @@ var x; "use strict"; with (x) y;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 28
             },
@@ -89,14 +98,17 @@ var x; "use strict"; with (x) y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 29,
                 "end": 32
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 20,
             "end": 32
         }
@@ -105,6 +117,7 @@ var x; "use strict"; with (x) y;
     "source": "var x; \"use strict\"; with (x) y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -113,11 +126,10 @@ var x; "use strict"; with (x) y;
 ### Printed
 
 ```javascript
-
 var x;
-'"use strict"';
-with (x)
-  y;
+"\"use strict\"";
+
+with (x) y;
 
 ```
 

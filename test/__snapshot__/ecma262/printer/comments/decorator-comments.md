@@ -26,6 +26,7 @@ class Something {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ class Something {
                 "text": "Something",
                 "rawText": "Something",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
@@ -54,6 +56,7 @@ class Something {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 23
                                         },
@@ -64,6 +67,7 @@ class Something {
                                                 "text": "Annotateme",
                                                 "rawText": "Annotateme",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 33
                                             },
@@ -72,19 +76,23 @@ class Something {
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 34
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 23,
                                             "end": 35
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 35
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 35
                             },
@@ -92,6 +100,7 @@ class Something {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 61
                             },
@@ -101,6 +110,7 @@ class Something {
                                 "text": "property",
                                 "rawText": "property",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 61,
                                 "end": 70
                             },
@@ -108,25 +118,30 @@ class Something {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 61,
                             "end": 70
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 70,
                             "end": 71
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 71
                 },
                 "flags": 15,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 73
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 73
         }
@@ -135,6 +150,7 @@ class Something {
     "source": "class Something {\n    @Annotateme()\n    // comment\n    static property;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 73
 }
@@ -143,13 +159,9 @@ class Something {
 ### Printed
 
 ```javascript
-
 class Something {
-  @Annotateme()
-  static property
-  ;
+  @Annotateme() static property;;
 }
-
 ```
 
 ### Diagnostics

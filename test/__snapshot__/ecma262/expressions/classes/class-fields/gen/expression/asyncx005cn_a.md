@@ -30,6 +30,7 @@ class C extends Base { async\n a }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C extends Base { async\n a }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class C extends Base { async\n a }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -57,11 +60,13 @@ class C extends Base { async\n a }
                         "text": "Base",
                         "rawText": "Base",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
@@ -79,6 +84,7 @@ class C extends Base { async\n a }
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 28
                             },
@@ -86,19 +92,23 @@ class C extends Base { async\n a }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 22,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 28
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
@@ -109,10 +119,12 @@ class C extends Base { async\n a }
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 29,
             "end": 30
         },
@@ -123,10 +135,12 @@ class C extends Base { async\n a }
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 30,
             "end": 32
         }
@@ -135,6 +149,7 @@ class C extends Base { async\n a }
     "source": "class C extends Base { async\\n a }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

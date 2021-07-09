@@ -25,6 +25,7 @@ foo, bar, zoo
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -33,6 +34,7 @@ foo, bar, zoo
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 8
                     },
@@ -41,15 +43,18 @@ foo, bar, zoo
                         "text": "zoo",
                         "rawText": "zoo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 13
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -58,6 +63,7 @@ foo, bar, zoo
     "source": "foo, bar, zoo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -66,9 +72,7 @@ foo, bar, zoo
 ### Printed
 
 ```javascript
-
 foo, bar, zoo;
-
 ```
 
 ### Diagnostics

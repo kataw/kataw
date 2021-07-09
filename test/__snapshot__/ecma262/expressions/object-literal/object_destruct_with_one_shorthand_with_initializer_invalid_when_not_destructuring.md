@@ -24,6 +24,7 @@ x({a=b}=c);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -44,6 +45,7 @@ x({a=b}=c);
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 3,
                                                 "end": 4
                                             },
@@ -52,26 +54,31 @@ x({a=b}=c);
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 6
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 6
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 6
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 2,
                                 "end": 7
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -80,24 +87,29 @@ x({a=b}=c);
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 2,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 9
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -106,6 +118,7 @@ x({a=b}=c);
     "source": "x({a=b}=c);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -114,9 +127,7 @@ x({a=b}=c);
 ### Printed
 
 ```javascript
-
 x({ a = b } = c);
-
 ```
 
 ### Diagnostics

@@ -30,12 +30,14 @@ x = 0o4567
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -44,14 +46,17 @@ x = 0o4567
                     "text": 2423,
                     "rawText": "0o4567",
                     "flags": 262240,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -60,6 +65,7 @@ x = 0o4567
     "source": "x = 0o4567",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -68,9 +74,7 @@ x = 0o4567
 ### Printed
 
 ```javascript
-
 x = 0o4567;
-
 ```
 
 ### Diagnostics

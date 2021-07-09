@@ -29,6 +29,7 @@ type x
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -53,19 +55,23 @@ type x
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "typeParameters": null,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -74,6 +80,7 @@ type x
     "source": "type x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

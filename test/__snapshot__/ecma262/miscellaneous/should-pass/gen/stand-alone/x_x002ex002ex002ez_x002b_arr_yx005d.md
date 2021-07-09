@@ -33,6 +33,7 @@ x, ...z + arr, y]
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -41,15 +42,18 @@ x, ...z + arr, y]
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 2
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -65,12 +69,14 @@ x, ...z + arr, y]
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         },
@@ -79,10 +85,12 @@ x, ...z + arr, y]
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 6,
                         "end": 13
                     },
@@ -91,15 +99,18 @@ x, ...z + arr, y]
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 6,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 16
         }
@@ -108,6 +119,7 @@ x, ...z + arr, y]
     "source": "x, ...z + arr, y]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

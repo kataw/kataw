@@ -24,6 +24,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                             "text": "FLAG_A",
                             "rawText": "FLAG_A",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 12
                         },
@@ -48,12 +50,14 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 16
                             },
                             "operatorToken": {
                                 "kind": 35140,
                                 "flags": 96,
+                                "transformFlags": 64,
                                 "start": 16,
                                 "end": 19
                             },
@@ -62,23 +66,28 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 14,
                             "end": 21
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 21
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 21
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -87,6 +96,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 28
             },
@@ -100,6 +110,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                             "text": "FLAG_B",
                             "rawText": "FLAG_B",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 35
                         },
@@ -111,12 +122,14 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 39
                             },
                             "operatorToken": {
                                 "kind": 35140,
                                 "flags": 96,
+                                "transformFlags": 64,
                                 "start": 39,
                                 "end": 42
                             },
@@ -125,23 +138,28 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 44
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 37,
                             "end": 44
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 28,
                         "end": 44
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 44
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 22,
             "end": 45
         },
@@ -150,6 +168,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 51
             },
@@ -163,6 +182,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                             "text": "FLAG_C",
                             "rawText": "FLAG_C",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 51,
                             "end": 58
                         },
@@ -174,12 +194,14 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 62
                             },
                             "operatorToken": {
                                 "kind": 35140,
                                 "flags": 96,
+                                "transformFlags": 64,
                                 "start": 62,
                                 "end": 65
                             },
@@ -188,23 +210,28 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 65,
                                 "end": 67
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 60,
                             "end": 67
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 51,
                         "end": 67
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 67
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 45,
             "end": 68
         },
@@ -213,6 +240,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 75
             },
@@ -226,6 +254,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                             "text": "all",
                             "rawText": "all",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 75,
                             "end": 79
                         },
@@ -239,12 +268,14 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                     "text": "FLAG_A",
                                     "rawText": "FLAG_A",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 81,
                                     "end": 88
                                 },
                                 "operatorToken": {
                                     "kind": 134251592,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 88,
                                     "end": 90
                                 },
@@ -253,16 +284,19 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                     "text": "FLAG_B",
                                     "rawText": "FLAG_B",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 90,
                                     "end": 97
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 81,
                                 "end": 97
                             },
                             "operatorToken": {
                                 "kind": 134251592,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 97,
                                 "end": 99
                             },
@@ -271,23 +305,28 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "text": "FLAG_C",
                                 "rawText": "FLAG_C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 99,
                                 "end": 106
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 81,
                             "end": 106
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 75,
                         "end": 106
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 75,
                 "end": 106
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 68,
             "end": 107
         }
@@ -296,6 +335,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
     "source": "const FLAG_A = 1 << 0;\nconst FLAG_B = 1 << 1;\nconst FLAG_C = 1 << 2;\n\nconst all = FLAG_A | FLAG_B | FLAG_C;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 107
 }
@@ -304,10 +344,11 @@ const all = FLAG_A | FLAG_B | FLAG_C;
 ### Printed
 
 ```javascript
-
 const FLAG_A = 1 << 0;
 const FLAG_B = 1 << 1;
+
 const FLAG_C = 1 << 2;
+
 const all = FLAG_A | FLAG_B | FLAG_C;
 
 ```

@@ -29,10 +29,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -43,6 +45,7 @@
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 4
                 },
@@ -52,6 +55,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 10
                     },
@@ -64,22 +68,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 10,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 10
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 3,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 3,
             "end": 10
         },
@@ -90,6 +99,7 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 19
             },
@@ -101,6 +111,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
@@ -111,15 +122,18 @@
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 19
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 19
         },
@@ -128,6 +142,7 @@
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
@@ -137,10 +152,12 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
@@ -152,14 +169,17 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 23
         },
@@ -168,6 +188,7 @@
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 29
             },
@@ -176,6 +197,7 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 29
             },
@@ -184,6 +206,7 @@
                 "withKeyword": {
                     "kind": 37757029,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 34
                 },
@@ -192,6 +215,7 @@
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 38
                 },
@@ -202,6 +226,7 @@
                         "operandToken": {
                             "kind": 65584,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 39
                         },
@@ -210,22 +235,27 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 39
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 38,
                         "end": 39
                     },
                     "flags": 16,
+                    "transformFlags": 4096,
                     "start": 38,
                     "end": 39
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 39
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 23,
             "end": 39
         }
@@ -234,6 +264,7 @@
     "source": "{ =! class function try while with foo!",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

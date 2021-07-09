@@ -30,6 +30,7 @@ class x {get debugger(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {get debugger(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -57,6 +59,7 @@ class x {get debugger(){}}
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
@@ -69,6 +72,7 @@ class x {get debugger(){}}
                                     "text": "debugger",
                                     "rawText": "debugger",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 21
                                 },
@@ -78,6 +82,7 @@ class x {get debugger(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -89,31 +94,38 @@ class x {get debugger(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 24
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 25
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 25
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 25
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -122,6 +134,7 @@ class x {get debugger(){}}
     "source": "class x {get debugger(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -130,11 +143,9 @@ class x {get debugger(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get debugger() {}
 }
-
 ```
 
 ### Diagnostics

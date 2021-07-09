@@ -20,6 +20,7 @@ for(delete(x in y);;)x
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for(delete(x in y);;)x
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 10
                 },
@@ -40,12 +42,14 @@ for(delete(x in y);;)x
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
                         "operatorToken": {
                             "kind": 21006388,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 15
                         },
@@ -54,18 +58,22 @@ for(delete(x in y);;)x
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 10,
                         "end": 17
                     },
-                    "flags": 32,
-                    "start": 10,
+                    "flags": 10,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 4,
                 "end": 18
             },
@@ -78,14 +86,17 @@ for(delete(x in y);;)x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 21,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -94,6 +105,7 @@ for(delete(x in y);;)x
     "source": "for(delete(x in y);;)x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -102,10 +114,7 @@ for(delete(x in y);;)x
 ### Printed
 
 ```javascript
-
-for (delete (x in y);;)
-  x;
-
+for (delete (x in y); ; ) x;
 ```
 
 ### Diagnostics

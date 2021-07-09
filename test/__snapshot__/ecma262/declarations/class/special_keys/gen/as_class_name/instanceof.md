@@ -30,6 +30,7 @@ class instanceof {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class instanceof {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -49,14 +51,17 @@ class instanceof {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -69,12 +74,14 @@ class instanceof {}
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 16
                 },
@@ -85,18 +92,22 @@ class instanceof {}
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 16,
                     "end": 19
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 5,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 19
         }
@@ -105,6 +116,7 @@ class instanceof {}
     "source": "class instanceof {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

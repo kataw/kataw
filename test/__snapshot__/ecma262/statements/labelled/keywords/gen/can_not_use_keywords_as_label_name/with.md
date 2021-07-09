@@ -28,6 +28,7 @@ with: x
             "withKeyword": {
                 "kind": 37757029,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -36,6 +37,7 @@ with: x
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 4
             },
@@ -46,14 +48,17 @@ with: x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 4,
                 "end": 4
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         },
@@ -64,10 +69,12 @@ with: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 7
         }
@@ -76,6 +83,7 @@ with: x
     "source": "with: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

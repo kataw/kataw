@@ -30,6 +30,7 @@ async (x = (import) = f) => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -45,6 +46,7 @@ async (x = (import) = f) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -57,6 +59,7 @@ async (x = (import) = f) => {}
                                     "importKeyword": {
                                         "kind": 37814364,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 18
                                     },
@@ -67,12 +70,14 @@ async (x = (import) = f) => {}
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 19
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
@@ -81,28 +86,34 @@ async (x = (import) = f) => {}
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
+                                        "transformFlags": 128,
                                         "start": 19,
                                         "end": 23
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 24
                                 },
-                                "flags": 32,
-                                "start": 10,
+                                "flags": 10,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 24
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 24
                 },
@@ -110,6 +121,7 @@ async (x = (import) = f) => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 27
                 },
@@ -120,18 +132,22 @@ async (x = (import) = f) => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 29
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 30
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 30
         }
@@ -140,6 +156,7 @@ async (x = (import) = f) => {}
     "source": "async (x = (import) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

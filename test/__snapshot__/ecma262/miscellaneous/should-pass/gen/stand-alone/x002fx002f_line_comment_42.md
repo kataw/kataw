@@ -32,10 +32,12 @@
                 "text": 42,
                 "rawText": "42",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -44,6 +46,7 @@
     "source": "// line comment\n 42",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -52,9 +55,7 @@
 ### Printed
 
 ```javascript
-// line comment
 42;
-
 ```
 
 ### Diagnostics

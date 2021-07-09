@@ -30,18 +30,21 @@ async function * gen() {var [await] = [42];}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -50,6 +53,7 @@ async function * gen() {var [await] = [42];}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -59,6 +63,7 @@ async function * gen() {var [await] = [42];}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -74,6 +79,7 @@ async function * gen() {var [await] = [42];}
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
@@ -92,16 +98,19 @@ async function * gen() {var [await] = [42];}
                                                         "text": "await",
                                                         "rawText": "await",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 34
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 34
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 35
                                         },
@@ -116,43 +125,52 @@ async function * gen() {var [await] = [42];}
                                                         "text": 42,
                                                         "rawText": "42",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 39,
                                                         "end": 41
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 41
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 37,
                                             "end": 42
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 27,
                                         "end": 42
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 42
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 43
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 43
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 44
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -161,6 +179,7 @@ async function * gen() {var [await] = [42];}
     "source": "async function * gen() {var [await] = [42];}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }

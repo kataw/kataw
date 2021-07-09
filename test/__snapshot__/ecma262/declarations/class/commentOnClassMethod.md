@@ -36,6 +36,7 @@ class WebControls {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -44,6 +45,7 @@ class WebControls {
                 "text": "WebControls",
                 "rawText": "WebControls",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 17
             },
@@ -70,6 +72,7 @@ class WebControls {
                                     "text": "createControl",
                                     "rawText": "createControl",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 77
                                 },
@@ -79,6 +82,7 @@ class WebControls {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 78,
                                     "end": 79
                                 },
@@ -89,10 +93,12 @@ class WebControls {
                                     "type": {
                                         "kind": 134234252,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 80,
                                         "end": 84
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 80,
                                     "end": 84
                                 },
@@ -103,31 +109,38 @@ class WebControls {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 86,
                                         "end": 86
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 84,
                                     "end": 92
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 92
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 92
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 92
                 },
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 94
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 94
         }
@@ -136,6 +149,7 @@ class WebControls {
     "source": "class WebControls {\n    /**\n     * Render a control\n     */\n    createControl(): any {\n    }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 94
 }
@@ -144,18 +158,9 @@ class WebControls {
 ### Printed
 
 ```javascript
-
 class WebControls {
-   /**
-     * Render a control
-     */
-   /**
-     * Render a control
-     */
-  createControl(): any {
-  }
+  createControl(): any {}
 }
-
 ```
 
 ### Diagnostics

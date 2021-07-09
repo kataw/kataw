@@ -33,6 +33,7 @@ function f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -42,6 +43,7 @@ function f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -51,6 +53,7 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -64,6 +67,7 @@ function f() {
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 29
                         }
@@ -74,6 +78,7 @@ function f() {
                             "importKeyword": {
                                 "kind": 37814364,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 39
                             },
@@ -83,20 +88,24 @@ function f() {
                             "moduleSpecifier": null,
                             "importClause": null,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 39
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 39
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         },
@@ -107,10 +116,12 @@ function f() {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 41,
             "end": 43
         }
@@ -119,6 +130,7 @@ function f() {
     "source": "function f() {\n  \"use strict\";\n  import = x\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }

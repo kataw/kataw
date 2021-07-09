@@ -33,6 +33,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -41,6 +42,7 @@
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -52,17 +54,20 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 16
                             },
                             "expression": {
                                 "kind": 205586437,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 22
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 22
                         },
@@ -70,22 +75,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 24
                         },
                         "flags": 8,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -94,6 +104,7 @@
     "source": "(class B extends false {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -102,10 +113,7 @@
 ### Printed
 
 ```javascript
-
-(class B extends false {
-});
-
+(class B extends false {});
 ```
 
 ### Diagnostics

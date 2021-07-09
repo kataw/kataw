@@ -33,6 +33,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -41,6 +42,7 @@
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -52,6 +54,7 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 16
                             },
@@ -60,6 +63,7 @@
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 21
                                 },
@@ -68,15 +72,18 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 16,
                                 "end": 23
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 23
                         },
@@ -84,22 +91,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 25
                         },
                         "flags": 8,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 26
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 26
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -108,6 +120,7 @@
     "source": "(class B extends void x {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

@@ -33,6 +33,7 @@ z(x)?x:y;
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -44,22 +45,26 @@ z(x)?x:y;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 3
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 4
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 5
                 },
@@ -68,12 +73,14 @@ z(x)?x:y;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 7
                 },
@@ -82,14 +89,17 @@ z(x)?x:y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 268435488,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -98,6 +108,7 @@ z(x)?x:y;
     "source": "z(x)?x:y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -106,9 +117,7 @@ z(x)?x:y;
 ### Printed
 
 ```javascript
-
 z(x) ? x : y;
-
 ```
 
 ### Diagnostics

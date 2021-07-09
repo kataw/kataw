@@ -26,6 +26,7 @@
                         "operandToken": {
                             "kind": 196636,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 3
                         },
@@ -34,16 +35,19 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 4
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
                     "operatorToken": {
                         "kind": 35897,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 7
                     },
@@ -52,18 +56,22 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 5120,
                     "start": 1,
                     "end": 9
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -72,6 +80,7 @@
     "source": "(--x ** a)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -80,9 +89,7 @@
 ### Printed
 
 ```javascript
-
-(--x ** a);
-
+(-- x ** a);
 ```
 
 ### Diagnostics

@@ -26,6 +26,7 @@ while (await await await await await await await await await await await await a
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ while (await await await await await await await await await await await await a
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 12
                 },
@@ -42,6 +44,7 @@ while (await await await await await await await await await await await await a
                     "awaitKeyword": {
                         "kind": 82196,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 18
                     },
@@ -50,6 +53,7 @@ while (await await await await await await await await await await await await a
                         "awaitKeyword": {
                             "kind": 82196,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 24
                         },
@@ -58,6 +62,7 @@ while (await await await await await await await await await await await await a
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 30
                             },
@@ -66,6 +71,7 @@ while (await await await await await await await await await await await await a
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 36
                                 },
@@ -74,6 +80,7 @@ while (await await await await await await await await await await await await a
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 42
                                     },
@@ -82,6 +89,7 @@ while (await await await await await await await await await await await await a
                                         "awaitKeyword": {
                                             "kind": 82196,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 48
                                         },
@@ -90,6 +98,7 @@ while (await await await await await await await await await await await await a
                                             "awaitKeyword": {
                                                 "kind": 82196,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 54
                                             },
@@ -98,6 +107,7 @@ while (await await await await await await await await await await await await a
                                                 "awaitKeyword": {
                                                     "kind": 82196,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 60
                                                 },
@@ -106,6 +116,7 @@ while (await await await await await await await await await await await await a
                                                     "awaitKeyword": {
                                                         "kind": 82196,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 60,
                                                         "end": 66
                                                     },
@@ -114,6 +125,7 @@ while (await await await await await await await await await await await await a
                                                         "awaitKeyword": {
                                                             "kind": 82196,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 66,
                                                             "end": 72
                                                         },
@@ -122,6 +134,7 @@ while (await await await await await await await await await await await await a
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 72,
                                                                 "end": 78
                                                             },
@@ -130,6 +143,7 @@ while (await await await await await await await await await await await await a
                                                                 "awaitKeyword": {
                                                                     "kind": 82196,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 78,
                                                                     "end": 84
                                                                 },
@@ -138,6 +152,7 @@ while (await await await await await await await await await await await await a
                                                                     "awaitKeyword": {
                                                                         "kind": 82196,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 84,
                                                                         "end": 90
                                                                     },
@@ -146,6 +161,7 @@ while (await await await await await await await await await await await await a
                                                                         "awaitKeyword": {
                                                                             "kind": 82196,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 90,
                                                                             "end": 96
                                                                         },
@@ -154,66 +170,82 @@ while (await await await await await await await await await await await await a
                                                                             "text": "await",
                                                                             "rawText": "'await'",
                                                                             "flags": 4194400,
+                                                                            "transformFlags": 0,
                                                                             "start": 96,
                                                                             "end": 104
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 4096,
                                                                         "start": 90,
                                                                         "end": 104
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 4096,
                                                                     "start": 84,
                                                                     "end": 104
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 78,
                                                                 "end": 104
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 4096,
                                                             "start": 72,
                                                             "end": 104
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 4096,
                                                         "start": 66,
                                                         "end": 104
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 4096,
                                                     "start": 60,
                                                     "end": 104
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 54,
                                                 "end": 104
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 48,
                                             "end": 104
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 42,
                                         "end": 104
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 36,
                                     "end": 104
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 30,
                                 "end": 104
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 104
                         },
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 18,
                         "end": 104
                     },
                     "flags": 32,
+                    "transformFlags": 4096,
                     "start": 12,
                     "end": 104
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 7,
                 "end": 104
             },
@@ -227,24 +259,29 @@ while (await await await await await await await await await await await await a
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 107,
                                 "end": 113
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 107,
                             "end": 114
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 107,
                     "end": 114
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 105,
                 "end": 116
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 116
         }
@@ -253,6 +290,7 @@ while (await await await await await await await await await await await await a
     "source": "while (await await await await await await await await await await await await await await await 'await') { break; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 116
 }
@@ -261,11 +299,12 @@ while (await await await await await await await await await await await await a
 ### Printed
 
 ```javascript
-
-while (await await await await await await await await await await await await await await await '\'await\'') {
-  break;
-}
-
+while (
+  await await await await await await await await await await await await await await await "'await'"
+)
+  {
+    break;
+  }
 ```
 
 ### Diagnostics

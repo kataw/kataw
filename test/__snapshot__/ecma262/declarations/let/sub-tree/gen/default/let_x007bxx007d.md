@@ -28,6 +28,7 @@ switch (a) { default: let {x} }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ switch (a) { default: let {x} }
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -47,12 +49,14 @@ switch (a) { default: let {x} }
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 20
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 21
                         },
@@ -62,6 +66,7 @@ switch (a) { default: let {x} }
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 25
                                 },
@@ -80,45 +85,54 @@ switch (a) { default: let {x} }
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 27,
                                                             "end": 28
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 28
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 29
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 25,
                                             "end": 29
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 29
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 29
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 29
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -127,6 +141,7 @@ switch (a) { default: let {x} }
     "source": "switch (a) { default: let {x} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

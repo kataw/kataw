@@ -24,6 +24,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -32,6 +33,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -52,6 +54,7 @@ class A {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 13
                                         },
@@ -60,15 +63,18 @@ class A {
                                             "text": "dec",
                                             "rawText": "dec",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 16
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 16
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -80,6 +86,7 @@ class A {
                                 "text": "#name",
                                 "rawText": "#name",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 22
                             },
@@ -90,23 +97,28 @@ class A {
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 26
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 26
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -115,6 +127,7 @@ class A {
     "source": "class A {\n  @dec #name = 0\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -123,12 +136,9 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
-  @dec
-  #name = 0
+  @dec #name = 0;
 }
-
 ```
 
 ### Diagnostics

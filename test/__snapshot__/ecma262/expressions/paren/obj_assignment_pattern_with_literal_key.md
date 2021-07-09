@@ -29,14 +29,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 13
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         },
@@ -47,16 +50,19 @@
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 19
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 21
         }
@@ -65,6 +71,7 @@
     "source": "({ \"x\" = true } = y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

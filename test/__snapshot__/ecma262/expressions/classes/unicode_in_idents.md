@@ -29,6 +29,7 @@ class x { \u0063onstructor(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x { \u0063onstructor(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -63,6 +65,7 @@ class x { \u0063onstructor(){} }
                                     "text": "constructor",
                                     "rawText": "\\u0063onstructor",
                                     "flags": 16480,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 26
                                 },
@@ -72,6 +75,7 @@ class x { \u0063onstructor(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 28
                                 },
@@ -83,31 +87,38 @@ class x { \u0063onstructor(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 29
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 30
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 30
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 30
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -116,6 +127,7 @@ class x { \u0063onstructor(){} }
     "source": "class x { \\u0063onstructor(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -124,11 +136,9 @@ class x { \u0063onstructor(){} }
 ### Printed
 
 ```javascript
-
 class x {
   \u0063onstructor() {}
 }
-
 ```
 
 ### Diagnostics

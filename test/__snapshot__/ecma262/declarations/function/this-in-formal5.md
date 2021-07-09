@@ -38,6 +38,7 @@ function five<T>(this: T) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -47,6 +48,7 @@ function five<T>(this: T) {}
                 "text": "one",
                 "rawText": "one",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -62,6 +64,7 @@ function five<T>(this: T) {}
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
@@ -73,21 +76,25 @@ function five<T>(this: T) {}
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 25
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 25
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 25
             },
@@ -98,15 +105,18 @@ function five<T>(this: T) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 29
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         },
@@ -117,6 +127,7 @@ function five<T>(this: T) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 39
             },
@@ -126,6 +137,7 @@ function five<T>(this: T) {}
                 "text": "two",
                 "rawText": "two",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 43
             },
@@ -141,6 +153,7 @@ function five<T>(this: T) {}
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 48
                         },
@@ -152,15 +165,18 @@ function five<T>(this: T) {}
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 56
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 56
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 44,
                         "end": 56
                     },
@@ -169,12 +185,14 @@ function five<T>(this: T) {}
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 57,
                         "end": 59
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 59
             },
@@ -185,15 +203,18 @@ function five<T>(this: T) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 62,
                     "end": 62
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 60,
                 "end": 63
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 63
         },
@@ -204,6 +225,7 @@ function five<T>(this: T) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 73
             },
@@ -213,6 +235,7 @@ function five<T>(this: T) {}
                 "text": "three",
                 "rawText": "three",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 73,
                 "end": 79
             },
@@ -228,6 +251,7 @@ function five<T>(this: T) {}
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 80,
                             "end": 84
                         },
@@ -239,15 +263,18 @@ function five<T>(this: T) {}
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 85,
                                 "end": 92
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 85,
                             "end": 92
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 80,
                         "end": 92
                     },
@@ -256,6 +283,7 @@ function five<T>(this: T) {}
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 93,
                             "end": 97
                         },
@@ -264,6 +292,7 @@ function five<T>(this: T) {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 97,
                             "end": 98
                         },
@@ -271,12 +300,14 @@ function five<T>(this: T) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 93,
                         "end": 98
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 80,
                 "end": 98
             },
@@ -287,15 +318,18 @@ function five<T>(this: T) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 101,
                     "end": 101
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 99,
                 "end": 102
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 63,
             "end": 102
         },
@@ -306,6 +340,7 @@ function five<T>(this: T) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 112
             },
@@ -315,6 +350,7 @@ function five<T>(this: T) {}
                 "text": "four",
                 "rawText": "four",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 112,
                 "end": 117
             },
@@ -330,6 +366,7 @@ function five<T>(this: T) {}
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 118,
                             "end": 122
                         },
@@ -341,15 +378,18 @@ function five<T>(this: T) {}
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 123,
                                 "end": 130
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 123,
                             "end": 130
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 118,
                         "end": 130
                     },
@@ -358,6 +398,7 @@ function five<T>(this: T) {}
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 131,
                         "end": 133
                     },
@@ -366,6 +407,7 @@ function five<T>(this: T) {}
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 134,
                         "end": 136
                     },
@@ -374,6 +416,7 @@ function five<T>(this: T) {}
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 137,
                             "end": 141
                         },
@@ -382,6 +425,7 @@ function five<T>(this: T) {}
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 141,
                             "end": 142
                         },
@@ -389,12 +433,14 @@ function five<T>(this: T) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 137,
                         "end": 142
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 118,
                 "end": 142
             },
@@ -405,15 +451,18 @@ function five<T>(this: T) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 145,
                     "end": 145
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 143,
                 "end": 146
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 102,
             "end": 146
         },
@@ -424,6 +473,7 @@ function five<T>(this: T) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 146,
                 "end": 156
             },
@@ -433,6 +483,7 @@ function five<T>(this: T) {}
                 "text": "five",
                 "rawText": "five",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 156,
                 "end": 161
             },
@@ -448,6 +499,7 @@ function five<T>(this: T) {}
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 162,
                                 "end": 163
                             },
@@ -455,16 +507,19 @@ function five<T>(this: T) {}
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 162,
                             "end": 163
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 162,
                     "end": 163
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 161,
                 "end": 164
             },
@@ -479,6 +534,7 @@ function five<T>(this: T) {}
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 165,
                             "end": 169
                         },
@@ -494,26 +550,31 @@ function five<T>(this: T) {}
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 170,
                                     "end": 172
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 170,
                                 "end": 172
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 170,
                             "end": 172
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 165,
                         "end": 172
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 165,
                 "end": 172
             },
@@ -524,15 +585,18 @@ function five<T>(this: T) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 175,
                     "end": 175
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 173,
                 "end": 176
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 146,
             "end": 176
         }
@@ -541,6 +605,7 @@ function five<T>(this: T) {}
     "source": "function one(this: number) {}\n\nfunction two(this: number, a) {}\n\nfunction three(this: number, ...a) {}\n\nfunction four(this: number, a, b, ...c) {}\n\nfunction five<T>(this: T) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 176
 }
@@ -549,12 +614,14 @@ function five<T>(this: T) {}
 ### Printed
 
 ```javascript
-
 function one(this: number) {}
 function two(this: number, a) {}
+
 function three(this: number, ...a) {}
+
 function four(this: number, a, b, ...c) {}
-function five<T> (this: T) {}
+
+function five<T>(this: T) {}
 
 ```
 

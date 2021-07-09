@@ -30,6 +30,7 @@ class A extends `temp {waitforit} late` {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class A extends `temp {waitforit} late` {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class A extends `temp {waitforit} late` {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -57,11 +60,13 @@ class A extends `temp {waitforit} late` {}
                         "text": "temp {waitforit} late",
                         "rawText": "temp {waitforit} late",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 39
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 39
                 },
@@ -69,14 +74,17 @@ class A extends `temp {waitforit} late` {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 41
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -85,6 +93,7 @@ class A extends `temp {waitforit} late` {}
     "source": "class A extends `temp {waitforit} late` {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -93,10 +102,7 @@ class A extends `temp {waitforit} late` {}
 ### Printed
 
 ```javascript
-
-class A extends `temp {waitforit} late` {
-}
-
+class A extends `temp {waitforit} late` {}
 ```
 
 ### Diagnostics

@@ -21,12 +21,14 @@ async function f() { "use strict"; }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f() { "use strict"; }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function f() { "use strict"; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -58,21 +62,25 @@ async function f() { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 33
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 36
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -81,6 +89,7 @@ async function f() { "use strict"; }
     "source": "async function f() { \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -89,11 +98,7 @@ async function f() { "use strict"; }
 ### Printed
 
 ```javascript
-
-async function f() {
-'"use strict"';
-}
-
+async function f() {}
 ```
 
 ### Diagnostics

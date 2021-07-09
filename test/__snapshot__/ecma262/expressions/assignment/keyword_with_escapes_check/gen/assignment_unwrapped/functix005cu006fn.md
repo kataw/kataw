@@ -30,6 +30,7 @@ functi\u006fn = x;
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 16448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -41,6 +42,7 @@ functi\u006fn = x;
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -51,15 +53,18 @@ functi\u006fn = x;
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -70,10 +75,12 @@ functi\u006fn = x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 18
         }
@@ -82,6 +89,7 @@ functi\u006fn = x;
     "source": "functi\\u006fn = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

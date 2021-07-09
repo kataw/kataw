@@ -28,6 +28,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,6 +38,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -50,27 +52,32 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 12
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -84,6 +91,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -92,6 +100,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
@@ -100,16 +109,19 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 15,
                 "end": 27
             },
@@ -129,6 +141,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 32
                                     },
@@ -137,6 +150,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                         "operandToken": {
                                             "kind": 196635,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 36
                                         },
@@ -145,20 +159,24 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                             "text": "i",
                                             "rawText": "i",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 34
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 36
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 4,
                                     "start": 30,
                                     "end": 37
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 39
                                 },
@@ -168,6 +186,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 48
                                     },
@@ -179,6 +198,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 50,
                                         "end": 50
                                     },
@@ -193,6 +213,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 53,
                                                         "end": 60
                                                     },
@@ -201,45 +222,55 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 60,
                                                         "end": 62
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 256,
                                                     "start": 53,
                                                     "end": 63
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 53,
                                             "end": 63
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 51,
                                         "end": 65
                                     },
                                     "returnType": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 65
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 30,
                                 "end": 65
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 30,
                             "end": 66
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 66
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 68
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 68
         }
@@ -248,6 +279,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
     "source": "for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }
@@ -256,13 +288,11 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
 ### Printed
 
 ```javascript
-
-for (const x of [1, 2, 3,]) {
-  a[i++] = function () {
-    return x;
-  };
-}
-
+for (const x of [1, 2, 3]) {
+    a[i++] = function () {
+      return x;
+    };
+  }
 ```
 
 ### Diagnostics

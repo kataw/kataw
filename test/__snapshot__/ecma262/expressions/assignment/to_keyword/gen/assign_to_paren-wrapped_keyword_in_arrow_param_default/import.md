@@ -33,7 +33,8 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 18
                 },
@@ -41,6 +42,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 21
                 },
@@ -51,18 +53,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 24
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }
@@ -71,6 +77,7 @@
     "source": "(x = (import) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

@@ -26,6 +26,7 @@ import { for } from "iteration"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import { for } from "iteration"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 19
                 },
@@ -44,10 +46,12 @@ import { for } from "iteration"
                     "text": "iteration",
                     "rawText": "\"iteration\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 31
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 31
             },
@@ -72,27 +76,33 @@ import { for } from "iteration"
                                     "text": "for",
                                     "rawText": "for",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 12
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -101,6 +111,7 @@ import { for } from "iteration"
     "source": "import { for } from \"iteration\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -109,9 +120,7 @@ import { for } from "iteration"
 ### Printed
 
 ```javascript
-
-import {  for, } from '"iteration"';
-
+import {  for } from "\"iteration\"";
 ```
 
 ### Diagnostics

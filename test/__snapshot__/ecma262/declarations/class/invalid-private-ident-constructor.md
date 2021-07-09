@@ -38,6 +38,7 @@ class w { static #\u0063onstructor }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -46,6 +47,7 @@ class w { static #\u0063onstructor }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -67,6 +69,7 @@ class w { static #\u0063onstructor }
                                 "text": "#constructor",
                                 "rawText": "#constructor",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 22
                             },
@@ -74,19 +77,23 @@ class w { static #\u0063onstructor }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 22
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 22
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         },
@@ -97,6 +104,7 @@ class w { static #\u0063onstructor }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 31
             },
@@ -105,6 +113,7 @@ class w { static #\u0063onstructor }
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 33
             },
@@ -131,6 +140,7 @@ class w { static #\u0063onstructor }
                                     "text": "#constructor",
                                     "rawText": "#constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 48
                                 },
@@ -140,6 +150,7 @@ class w { static #\u0063onstructor }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 50
                                 },
@@ -151,31 +162,38 @@ class w { static #\u0063onstructor }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 52,
                                         "end": 52
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 50,
                                     "end": 53
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 53
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 53
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 53
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 55
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 24,
             "end": 55
         },
@@ -186,6 +204,7 @@ class w { static #\u0063onstructor }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 62
             },
@@ -194,6 +213,7 @@ class w { static #\u0063onstructor }
                 "text": "z",
                 "rawText": "z",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 62,
                 "end": 64
             },
@@ -211,6 +231,7 @@ class w { static #\u0063onstructor }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 66,
                                 "end": 73
                             },
@@ -220,6 +241,7 @@ class w { static #\u0063onstructor }
                                 "text": "#constructor",
                                 "rawText": "#constructor",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 73,
                                 "end": 86
                             },
@@ -227,19 +249,23 @@ class w { static #\u0063onstructor }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 73,
                             "end": 86
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 66,
                     "end": 86
                 },
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 88
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 55,
             "end": 88
         },
@@ -250,6 +276,7 @@ class w { static #\u0063onstructor }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 88,
                 "end": 95
             },
@@ -258,6 +285,7 @@ class w { static #\u0063onstructor }
                 "text": "q",
                 "rawText": "q",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 95,
                 "end": 97
             },
@@ -275,6 +303,7 @@ class w { static #\u0063onstructor }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 99,
                                 "end": 106
                             },
@@ -289,6 +318,7 @@ class w { static #\u0063onstructor }
                                     "text": "#constructor",
                                     "rawText": "#constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 106,
                                     "end": 119
                                 },
@@ -298,6 +328,7 @@ class w { static #\u0063onstructor }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 120,
                                     "end": 121
                                 },
@@ -309,31 +340,38 @@ class w { static #\u0063onstructor }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 123,
                                         "end": 123
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 121,
                                     "end": 124
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 119,
                                 "end": 124
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 106,
                             "end": 124
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 99,
                     "end": 124
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 126
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 88,
             "end": 126
         },
@@ -344,6 +382,7 @@ class w { static #\u0063onstructor }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 133
             },
@@ -352,6 +391,7 @@ class w { static #\u0063onstructor }
                 "text": "w",
                 "rawText": "w",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 133,
                 "end": 135
             },
@@ -369,6 +409,7 @@ class w { static #\u0063onstructor }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 137,
                                 "end": 144
                             },
@@ -378,6 +419,7 @@ class w { static #\u0063onstructor }
                                 "text": "#constructor",
                                 "rawText": "#",
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 144,
                                 "end": 146
                             },
@@ -385,6 +427,7 @@ class w { static #\u0063onstructor }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 144,
                             "end": 146
                         },
@@ -399,6 +442,7 @@ class w { static #\u0063onstructor }
                                 "text": "constructor",
                                 "rawText": "\\u0063onstructor",
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 146,
                                 "end": 162
                             },
@@ -406,19 +450,23 @@ class w { static #\u0063onstructor }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 146,
                             "end": 162
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 137,
                     "end": 162
                 },
                 "flags": 135,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 164
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 126,
             "end": 164
         }
@@ -427,6 +475,7 @@ class w { static #\u0063onstructor }
     "source": "class x { #constructor }\n\nclass y { #constructor() {} }\n\nclass z { static #constructor }\n\nclass q { static #constructor() {} }\n\nclass w { static #\\u0063onstructor }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 164
 }

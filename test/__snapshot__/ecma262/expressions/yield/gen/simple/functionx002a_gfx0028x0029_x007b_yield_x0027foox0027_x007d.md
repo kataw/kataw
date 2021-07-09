@@ -30,12 +30,14 @@ function* gf() { yield 'foo' }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -44,6 +46,7 @@ function* gf() { yield 'foo' }
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -53,6 +56,7 @@ function* gf() { yield 'foo' }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -69,6 +73,7 @@ function* gf() { yield 'foo' }
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 22
                                 },
@@ -79,28 +84,34 @@ function* gf() { yield 'foo' }
                                     "text": "foo",
                                     "rawText": "'foo'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 16,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 30
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -109,6 +120,7 @@ function* gf() { yield 'foo' }
     "source": "function* gf() { yield 'foo' }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -117,11 +129,9 @@ function* gf() { yield 'foo' }
 ### Printed
 
 ```javascript
-
-function * gf() {
-  yield  '\'foo\'';
+function *gf() {
+  yield "'foo'";
 }
-
 ```
 
 ### Diagnostics

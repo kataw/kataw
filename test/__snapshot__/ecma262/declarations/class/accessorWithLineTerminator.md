@@ -36,6 +36,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -44,6 +45,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -65,6 +67,7 @@ class C {
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 17
                             },
@@ -72,6 +75,7 @@ class C {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 17
                         },
@@ -91,6 +95,7 @@ class C {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 23
                                 },
@@ -100,6 +105,7 @@ class C {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 25
                                 },
@@ -115,6 +121,7 @@ class C {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 34
                                                 },
@@ -123,27 +130,33 @@ class C {
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 36
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 27,
                                                 "end": 36
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 36
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 38
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 38
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 38
                         },
@@ -158,6 +171,7 @@ class C {
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 47
                             },
@@ -165,6 +179,7 @@ class C {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 38,
                             "end": 47
                         },
@@ -184,6 +199,7 @@ class C {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 53
                                 },
@@ -196,12 +212,14 @@ class C {
                                             "text": "v",
                                             "rawText": "v",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 54,
                                             "end": 55
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 56
                                 },
@@ -213,31 +231,38 @@ class C {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 58,
                                         "end": 58
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 61
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 53,
                                 "end": 61
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 61
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 61
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 63
         }
@@ -246,6 +271,7 @@ class C {
     "source": "class C {\n    get\n    x() { return 1 }\n\n    set\n    x(v) {  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 63
 }
@@ -254,16 +280,14 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
-  get
+  get;
   x() {
     return 1;
   }
-  set
+  set;
   x(v) {}
 }
-
 ```
 
 ### Diagnostics

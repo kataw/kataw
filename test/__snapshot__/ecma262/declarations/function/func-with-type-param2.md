@@ -32,12 +32,14 @@ a=function<T,S>() {}
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -47,6 +49,7 @@ a=function<T,S>() {}
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 10
                     },
@@ -64,6 +67,7 @@ a=function<T,S>() {}
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
                                     },
@@ -71,6 +75,7 @@ a=function<T,S>() {}
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
@@ -81,6 +86,7 @@ a=function<T,S>() {}
                                         "text": "S",
                                         "rawText": "S",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 14
                                     },
@@ -88,16 +94,19 @@ a=function<T,S>() {}
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 14
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 14
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 10,
                         "end": 15
                     },
@@ -106,6 +115,7 @@ a=function<T,S>() {}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 16
                     },
@@ -116,23 +126,28 @@ a=function<T,S>() {}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 19
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 20
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -141,6 +156,7 @@ a=function<T,S>() {}
     "source": "a=function<T,S>() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -149,9 +165,7 @@ a=function<T,S>() {}
 ### Printed
 
 ```javascript
-
-a = function <T, S> () {};
-
+a = function <T, S>() {};
 ```
 
 ### Diagnostics

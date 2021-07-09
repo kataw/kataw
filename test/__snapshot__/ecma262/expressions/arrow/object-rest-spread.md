@@ -23,6 +23,7 @@ var foo = ( { title, ...other } ) => {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ var foo = ( { title, ...other } ) => {
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -57,6 +59,7 @@ var foo = ( { title, ...other } ) => {
                                                     "text": "title",
                                                     "rawText": "title",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 19
                                                 },
@@ -65,6 +68,7 @@ var foo = ( { title, ...other } ) => {
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 24
                                                     },
@@ -73,6 +77,7 @@ var foo = ( { title, ...other } ) => {
                                                         "text": "other",
                                                         "rawText": "other",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 29
                                                     },
@@ -80,22 +85,26 @@ var foo = ( { title, ...other } ) => {
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
+                                                    "transformFlags": 4096,
                                                     "start": 20,
                                                     "end": 29
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 29
                                         },
                                         "flags": 48,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 33
                             },
@@ -103,6 +112,7 @@ var foo = ( { title, ...other } ) => {
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 36
                             },
@@ -113,27 +123,33 @@ var foo = ( { title, ...other } ) => {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 38
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 41
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 41
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 41
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -142,6 +158,7 @@ var foo = ( { title, ...other } ) => {
     "source": "var foo = ( { title, ...other } ) => {\n\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -150,13 +167,7 @@ var foo = ( { title, ...other } ) => {
 ### Printed
 
 ```javascript
-
-var foo = ({
-    title,
-    ...other
-  }) => {
-};
-
+var foo = ({ title, ...other }) => {};
 ```
 
 ### Diagnostics

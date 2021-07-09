@@ -35,6 +35,7 @@
                         "classKeyword": {
                             "kind": 37822544,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 6
                         },
@@ -47,20 +48,24 @@
                                 "kind": 303,
                                 "elements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 6
                             },
                             "flags": 6,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 6
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -69,18 +74,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 10
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -89,6 +98,7 @@
     "source": "(class = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

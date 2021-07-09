@@ -28,6 +28,7 @@ let foo = arr, [bar] = arr2;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let foo = arr, [bar] = arr2;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -50,10 +52,12 @@ let foo = arr, [bar] = arr2;
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     },
@@ -69,16 +73,19 @@ let foo = arr, [bar] = arr2;
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 19
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 20
                         },
@@ -88,19 +95,23 @@ let foo = arr, [bar] = arr2;
                             "text": "arr2",
                             "rawText": "arr2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 27
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 27
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 27
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -109,6 +120,7 @@ let foo = arr, [bar] = arr2;
     "source": "let foo = arr, [bar] = arr2;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -117,9 +129,7 @@ let foo = arr, [bar] = arr2;
 ### Printed
 
 ```javascript
-
 let foo = arr, [bar] = arr2;
-
 ```
 
 ### Diagnostics

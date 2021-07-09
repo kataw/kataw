@@ -30,6 +30,7 @@ class C {}; class C2 extends C { static async prototype() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C {}; class C2 extends C { static async prototype() {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,20 +51,24 @@ class C {}; class C2 extends C { static async prototype() {} }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 11
         },
@@ -73,6 +79,7 @@ class C {}; class C2 extends C { static async prototype() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -81,6 +88,7 @@ class C {}; class C2 extends C { static async prototype() {} }
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 20
             },
@@ -92,6 +100,7 @@ class C {}; class C2 extends C { static async prototype() {} }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 28
                     },
@@ -100,11 +109,13 @@ class C {}; class C2 extends C { static async prototype() {} }
                         "text": "C",
                         "rawText": "C",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 30
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
@@ -118,12 +129,14 @@ class C {}; class C2 extends C { static async prototype() {} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 39
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 45
                             },
@@ -137,6 +150,7 @@ class C {}; class C2 extends C { static async prototype() {} }
                                     "text": "prototype",
                                     "rawText": "prototype",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 55
                                 },
@@ -146,6 +160,7 @@ class C {}; class C2 extends C { static async prototype() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 57
                                 },
@@ -157,31 +172,38 @@ class C {}; class C2 extends C { static async prototype() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 59,
                                         "end": 59
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 57,
                                     "end": 60
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 55,
                                 "end": 60
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 60
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 60
                 },
                 "flags": 20,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 62
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 62
         }
@@ -190,6 +212,7 @@ class C {}; class C2 extends C { static async prototype() {} }
     "source": "class C {}; class C2 extends C { static async prototype() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }

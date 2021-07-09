@@ -34,12 +34,14 @@ a in b instanceof delete -c
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
@@ -48,16 +50,19 @@ a in b instanceof delete -c
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 17
                 },
@@ -66,6 +71,7 @@ a in b instanceof delete -c
                     "operandToken": {
                         "kind": 4259886,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 24
                     },
@@ -74,6 +80,7 @@ a in b instanceof delete -c
                         "operandToken": {
                             "kind": 134318643,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 26
                         },
@@ -82,22 +89,27 @@ a in b instanceof delete -c
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 27
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 24,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 17,
                     "end": 27
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -106,6 +118,7 @@ a in b instanceof delete -c
     "source": "a in b instanceof delete -c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -114,9 +127,7 @@ a in b instanceof delete -c
 ### Printed
 
 ```javascript
-
 a in b instanceof delete -c;
-
 ```
 
 ### Diagnostics

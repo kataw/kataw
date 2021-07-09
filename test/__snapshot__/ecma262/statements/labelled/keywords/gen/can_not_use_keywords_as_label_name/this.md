@@ -28,12 +28,14 @@ this: x
             "label": {
                 "kind": 4276321,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -44,14 +46,17 @@ this: x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 5,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         }
@@ -60,6 +65,7 @@ this: x
     "source": "this: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -68,9 +74,7 @@ this: x
 ### Printed
 
 ```javascript
-
-this: x;
-
+this:  x;
 ```
 
 ### Diagnostics

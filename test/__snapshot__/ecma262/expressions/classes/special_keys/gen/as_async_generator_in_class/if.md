@@ -30,6 +30,7 @@ class x {async * if(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {async * if(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x {async * if(){}}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -64,6 +67,7 @@ class x {async * if(){}}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 14,
                                 "end": 16
                             },
@@ -74,6 +78,7 @@ class x {async * if(){}}
                                     "text": "if",
                                     "rawText": "if",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 19
                                 },
@@ -83,6 +88,7 @@ class x {async * if(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 21
                                 },
@@ -94,31 +100,38 @@ class x {async * if(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "flags": 384,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 23
                             },
                             "flags": 384,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 23
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 23
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -127,6 +140,7 @@ class x {async * if(){}}
     "source": "class x {async * if(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -135,11 +149,9 @@ class x {async * if(){}}
 ### Printed
 
 ```javascript
-
 class x {
-  async * if() {}
+  async *if() {}
 }
-
 ```
 
 ### Diagnostics

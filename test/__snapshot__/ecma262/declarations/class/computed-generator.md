@@ -25,6 +25,7 @@ class Foo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,6 +34,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -54,6 +56,7 @@ class Foo {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 65,
+                                "transformFlags": 32,
                                 "start": 11,
                                 "end": 14
                             },
@@ -68,6 +71,7 @@ class Foo {
                                             "text": "Symbol",
                                             "rawText": "Symbol",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 21
                                         },
@@ -76,14 +80,17 @@ class Foo {
                                             "text": "iterator",
                                             "rawText": "iterator",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 30
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 15,
                                         "end": 30
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 31
                                 },
@@ -93,6 +100,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -104,31 +112,38 @@ class Foo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 35
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 38
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 38
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 38
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 38
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -137,6 +152,7 @@ class Foo {
     "source": "class Foo {\n\t*[Symbol.iterator]() {\n\t}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -145,12 +161,9 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
-  * [Symbol.iterator]() {
-  }
+  *[Symbol.iterator]() {}
 }
-
 ```
 
 ### Diagnostics

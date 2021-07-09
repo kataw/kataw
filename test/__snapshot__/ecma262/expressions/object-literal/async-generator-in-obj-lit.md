@@ -24,6 +24,7 @@ const obj = {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ const obj = {
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
@@ -51,6 +53,7 @@ const obj = {
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 23
                                     },
@@ -60,6 +63,7 @@ const obj = {
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 65,
+                                            "transformFlags": 32,
                                             "start": 24,
                                             "end": 30
                                         },
@@ -72,6 +76,7 @@ const obj = {
                                                 "text": "generator",
                                                 "rawText": "generator",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 39
                                             },
@@ -81,6 +86,7 @@ const obj = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 41
                                             },
@@ -92,41 +98,50 @@ const obj = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 33,
+                                                    "transformFlags": 0,
                                                     "start": 43,
                                                     "end": 43
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 49
                                             },
                                             "flags": 160,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 49
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 49
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 49
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 11,
                             "end": 51
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 51
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 51
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         }
@@ -135,6 +150,7 @@ const obj = {
     "source": "const obj = {\n    async,\n    *generator() {\n    }\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }
@@ -143,13 +159,10 @@ const obj = {
 ### Printed
 
 ```javascript
-
 const obj = {
-  async,
-  * generator() {
-  }
-};
-
+    async,
+    *generator() {}
+  };
 ```
 
 ### Diagnostics

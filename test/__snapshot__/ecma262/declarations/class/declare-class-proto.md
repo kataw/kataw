@@ -34,6 +34,7 @@ declare class B {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -41,6 +42,7 @@ declare class B {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -49,6 +51,7 @@ declare class B {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -70,6 +73,7 @@ declare class B {
                                 "text": "proto",
                                 "rawText": "proto",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 25
                             },
@@ -85,33 +89,40 @@ declare class B {
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 28
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 29
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 31
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         },
@@ -120,6 +131,7 @@ declare class B {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 40
             },
@@ -127,6 +139,7 @@ declare class B {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 46
             },
@@ -135,6 +148,7 @@ declare class B {
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 48
             },
@@ -150,6 +164,7 @@ declare class B {
                             "protoKeyword": {
                                 "kind": 16873,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 58
                             },
@@ -161,6 +176,7 @@ declare class B {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 60
                             },
@@ -176,33 +192,40 @@ declare class B {
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 61,
                                         "end": 63
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 61,
                                     "end": 63
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 61,
                                 "end": 63
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 50,
                             "end": 64
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 48,
                     "end": 66
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 31,
             "end": 66
         }
@@ -211,6 +234,7 @@ declare class B {
     "source": "declare class A {\n  proto: T;\n}\n\ndeclare class B {\n  proto x: T;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 66
 }
@@ -219,7 +243,6 @@ declare class B {
 ### Printed
 
 ```javascript
-
 declare class A { proto: T }
 declare class B { proto x: T }
 

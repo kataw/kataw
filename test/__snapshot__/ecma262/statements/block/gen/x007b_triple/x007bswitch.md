@@ -48,6 +48,7 @@
                                                             "switchKeyword": {
                                                                 "kind": 37757024,
                                                                 "flags": 80,
+                                                                "transformFlags": 0,
                                                                 "start": 7,
                                                                 "end": 13
                                                             },
@@ -56,6 +57,7 @@
                                                                 "text": "",
                                                                 "rawText": "",
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 13,
                                                                 "end": 13
                                                             },
@@ -63,46 +65,56 @@
                                                                 "kind": 152,
                                                                 "clauses": [],
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 13,
                                                                 "end": 13
                                                             },
                                                             "flags": 80,
+                                                            "transformFlags": 0,
                                                             "start": 7,
                                                             "end": 13
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 7,
                                                     "end": 13
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 13
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 13
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 13
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -111,6 +123,7 @@
     "source": "{ { { {switch",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

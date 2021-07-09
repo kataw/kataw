@@ -26,6 +26,7 @@ import { y as yield } from 'm.js'
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import { y as yield } from 'm.js'
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 26
                 },
@@ -44,10 +46,12 @@ import { y as yield } from 'm.js'
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 33
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 33
             },
@@ -70,12 +74,14 @@ import { y as yield } from 'm.js'
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -84,27 +90,33 @@ import { y as yield } from 'm.js'
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 19
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 19
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 19
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -113,6 +125,7 @@ import { y as yield } from 'm.js'
     "source": "import { y as yield } from 'm.js'",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

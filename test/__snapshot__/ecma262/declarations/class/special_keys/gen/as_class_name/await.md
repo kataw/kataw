@@ -30,6 +30,7 @@ class await {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class await {}
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 11
             },
@@ -49,14 +51,17 @@ class await {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 11,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -65,6 +70,7 @@ class await {}
     "source": "class await {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -73,10 +79,7 @@ class await {}
 ### Printed
 
 ```javascript
-
-class await {
-}
-
+class await {}
 ```
 
 ### Diagnostics

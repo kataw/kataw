@@ -30,6 +30,7 @@ async x => ok()
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -39,6 +40,7 @@ async x => ok()
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -46,6 +48,7 @@ async x => ok()
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -56,6 +59,7 @@ async x => ok()
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 13
                     },
@@ -64,18 +68,22 @@ async x => ok()
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 10,
                     "end": 15
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -84,6 +92,7 @@ async x => ok()
     "source": "async x => ok()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -92,9 +101,7 @@ async x => ok()
 ### Printed
 
 ```javascript
-
 async x => ok();
-
 ```
 
 ### Diagnostics

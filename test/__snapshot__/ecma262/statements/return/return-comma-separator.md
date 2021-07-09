@@ -24,6 +24,7 @@ function one() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function one() {
                 "text": "one",
                 "rawText": "one",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -42,6 +44,7 @@ function one() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -56,6 +59,7 @@ function one() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 25
                             },
@@ -67,6 +71,7 @@ function one() {
                                         "text": "two",
                                         "rawText": "two",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 29
                                     },
@@ -75,29 +80,35 @@ function one() {
                                         "text": "three",
                                         "rawText": "three",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 36
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 25,
                                 "end": 36
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 16,
                             "end": 37
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 37
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 39
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -106,6 +117,7 @@ function one() {
     "source": "function one() {\n  return two, three;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }
@@ -114,11 +126,9 @@ function one() {
 ### Printed
 
 ```javascript
-
 function one() {
   return two, three;
 }
-
 ```
 
 ### Diagnostics

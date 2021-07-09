@@ -33,6 +33,7 @@
                         "lexicalKeyword": {
                             "kind": 41951307,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 5
                         },
@@ -46,30 +47,36 @@
                                         "text": "enum",
                                         "rawText": "enum",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     },
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
+                                    "transformFlags": 4224,
                                     "start": 5,
                                     "end": 10
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 10
                         },
                         "flags": 33554448,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -78,6 +85,7 @@
     "source": "{ let enum; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -86,11 +94,9 @@
 ### Printed
 
 ```javascript
-
 {
   let enum;
 }
-
 ```
 
 ### Diagnostics

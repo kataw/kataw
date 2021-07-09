@@ -21,12 +21,14 @@ async function f(){ (new await foo) }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f(){ (new await foo) }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function f(){ (new await foo) }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,6 +67,7 @@ async function f(){ (new await foo) }
                                     "newKeyword": {
                                         "kind": 138477661,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 24
                                     },
@@ -71,6 +76,7 @@ async function f(){ (new await foo) }
                                         "awaitKeyword": {
                                             "kind": 82196,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 30
                                         },
@@ -79,37 +85,45 @@ async function f(){ (new await foo) }
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 34
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 24,
                                         "end": 34
                                     },
                                     "argumentList": null,
                                     "flags": 96,
+                                    "transformFlags": 2048,
                                     "start": 21,
                                     "end": 34
                                 },
-                                "flags": 32,
-                                "start": 19,
+                                "flags": 19,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 35
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 19,
                             "end": 35
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 37
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -118,6 +132,7 @@ async function f(){ (new await foo) }
     "source": "async function f(){ (new await foo) }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

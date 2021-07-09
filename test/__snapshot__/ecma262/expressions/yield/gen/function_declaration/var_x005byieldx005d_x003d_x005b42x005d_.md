@@ -30,6 +30,7 @@ function not_gen() { var [yield] = [42]; }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function not_gen() { var [yield] = [42]; }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -48,6 +50,7 @@ function not_gen() { var [yield] = [42]; }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,6 +66,7 @@ function not_gen() { var [yield] = [42]; }}
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
@@ -81,16 +85,19 @@ function not_gen() { var [yield] = [42]; }}
                                                         "text": "yield",
                                                         "rawText": "yield",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 26,
                                                         "end": 31
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 31
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 32
                                         },
@@ -105,43 +112,52 @@ function not_gen() { var [yield] = [42]; }}
                                                         "text": 42,
                                                         "rawText": "42",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 38
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 38
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 34,
                                             "end": 39
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 24,
                                         "end": 39
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 39
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 40
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 42
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -150,6 +166,7 @@ function not_gen() { var [yield] = [42]; }}
     "source": "function not_gen() { var [yield] = [42]; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

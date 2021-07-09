@@ -30,6 +30,7 @@ function method(obj: { [key: string]: any }) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function method(obj: { [key: string]: any }) {}
                 "text": "method",
                 "rawText": "method",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
@@ -54,6 +56,7 @@ function method(obj: { [key: string]: any }) {}
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 19
                         },
@@ -74,6 +77,7 @@ function method(obj: { [key: string]: any }) {}
                                             "text": "key",
                                             "rawText": "key",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 27
                                         },
@@ -84,10 +88,12 @@ function method(obj: { [key: string]: any }) {}
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 35
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -98,35 +104,42 @@ function method(obj: { [key: string]: any }) {}
                                             "type": {
                                                 "kind": 134234252,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 41
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 41
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 41
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 43
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 43
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 16,
                         "end": 43
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 43
             },
@@ -137,15 +150,18 @@ function method(obj: { [key: string]: any }) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 46
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 47
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         }
@@ -154,6 +170,7 @@ function method(obj: { [key: string]: any }) {}
     "source": "function method(obj: { [key: string]: any }) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }
@@ -162,9 +179,7 @@ function method(obj: { [key: string]: any }) {}
 ### Printed
 
 ```javascript
-
-function method(obj: { [keystring]:  any }) {}
-
+function method(obj: { [string]: any }) {}
 ```
 
 ### Diagnostics

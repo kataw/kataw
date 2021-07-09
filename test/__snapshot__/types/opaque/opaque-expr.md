@@ -29,6 +29,7 @@ opaque += 4;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ opaque += 4;
                             "text": "opaque",
                             "rawText": "opaque",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
@@ -51,19 +53,23 @@ opaque += 4;
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -76,12 +82,14 @@ opaque += 4;
                     "text": "opaque",
                     "rawText": "opaque",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 22
                 },
                 "operatorToken": {
                     "kind": 4130,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 25
                 },
@@ -90,14 +98,17 @@ opaque += 4;
                     "text": 4,
                     "rawText": "4",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 15,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 28
         }
@@ -106,6 +117,7 @@ opaque += 4;
     "source": "var opaque = 0;\nopaque += 4;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -114,7 +126,6 @@ opaque += 4;
 ### Printed
 
 ```javascript
-
 var opaque = 0;
 opaque += 4;
 

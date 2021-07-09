@@ -33,6 +33,7 @@ async () => {
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -42,6 +43,7 @@ async () => {
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -49,6 +51,7 @@ async () => {
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -65,20 +68,24 @@ async () => {
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 65,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 21
                                     },
                                     "expression": {
                                         "kind": 138477575,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 26
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 13,
                                     "end": 26
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 13,
                                 "end": 27
                             },
@@ -89,6 +96,7 @@ async () => {
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 35
                                     },
@@ -104,6 +112,7 @@ async () => {
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 38
                                                     },
@@ -111,16 +120,19 @@ async () => {
                                                     "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 39
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 39
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 512,
                                         "start": 27,
                                         "end": 39
                                     },
@@ -129,6 +141,7 @@ async () => {
                                         "parameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 40
                                     },
@@ -136,37 +149,45 @@ async () => {
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 44
                                     },
                                     "contents": {
                                         "kind": 138477575,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 44,
                                         "end": 49
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 49
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 27,
                                 "end": 50
                             }
                         ],
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 50
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 52
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 53
         }
@@ -175,6 +196,7 @@ async () => {
     "source": "async () => {\n  await null;\n  async <T>() => null;\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }
@@ -183,12 +205,10 @@ async () => {
 ### Printed
 
 ```javascript
-
 async () => {
   await null;
   async <T>() => null;
 };
-
 ```
 
 ### Diagnostics

@@ -32,10 +32,12 @@ new package => x
                 "text": "package",
                 "rawText": "package",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -46,6 +48,7 @@ new package => x
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
@@ -54,14 +57,17 @@ new package => x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 7,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 8
         },
@@ -72,10 +78,12 @@ new package => x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 13
         },
@@ -88,12 +96,14 @@ new package => x
                     "text": 1,
                     "rawText": "1",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
                 "operatorToken": {
                     "kind": 35897,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
@@ -102,14 +112,17 @@ new package => x
                     "text": "package",
                     "rawText": "package",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 25
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 13,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 25
         },
@@ -120,6 +133,7 @@ new package => x
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 26
                 },
@@ -128,14 +142,17 @@ new package => x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 25,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 26
         },
@@ -148,12 +165,14 @@ new package => x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 34
                 },
@@ -164,12 +183,14 @@ new package => x
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 34
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 34,
                         "end": 35
                     },
@@ -182,6 +203,7 @@ new package => x
                             "text": "package",
                             "rawText": "package",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 42
                         },
@@ -189,6 +211,7 @@ new package => x
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 45
                         },
@@ -197,6 +220,7 @@ new package => x
                             "operandToken": {
                                 "kind": 65584,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 47
                             },
@@ -205,6 +229,7 @@ new package => x
                                 "newKeyword": {
                                     "kind": 138477661,
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 52
                                 },
@@ -217,6 +242,7 @@ new package => x
                                         "text": "package",
                                         "rawText": "package",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 52,
                                         "end": 60
                                     },
@@ -224,6 +250,7 @@ new package => x
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 60,
                                         "end": 63
                                     },
@@ -234,12 +261,14 @@ new package => x
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 63,
                                             "end": 65
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 65,
                                             "end": 68
                                         },
@@ -252,6 +281,7 @@ new package => x
                                                 "text": "package",
                                                 "rawText": "package",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 68,
                                                 "end": 75
                                             },
@@ -259,6 +289,7 @@ new package => x
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 75,
                                                 "end": 78
                                             },
@@ -267,43 +298,53 @@ new package => x
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 78,
                                                 "end": 80
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 68,
                                             "end": 80
                                         },
                                         "flags": 97,
+                                        "transformFlags": 5120,
                                         "start": 63,
                                         "end": 80
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 80
                                 },
                                 "argumentList": null,
                                 "flags": 97,
+                                "transformFlags": 2048,
                                 "start": 47,
                                 "end": 80
                             },
                             "flags": 32,
+                            "transformFlags": 1024,
                             "start": 45,
                             "end": 80
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 80
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 34,
                     "end": 80
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 29,
                 "end": 80
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 29,
             "end": 80
         },
@@ -314,6 +355,7 @@ new package => x
                 "operandToken": {
                     "kind": 65584,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 80,
                     "end": 83
                 },
@@ -326,6 +368,7 @@ new package => x
                         "text": "package",
                         "rawText": "package",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 83,
                         "end": 90
                     },
@@ -333,6 +376,7 @@ new package => x
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 90,
                         "end": 93
                     },
@@ -341,18 +385,22 @@ new package => x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 93,
                         "end": 95
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 83,
                     "end": 95
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 80,
                 "end": 95
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 80,
             "end": 95
         }
@@ -361,6 +409,7 @@ new package => x
     "source": "package! => x\n\n1**package! => x\n\n+*package => !\n\nnew package => x\n\n+package => x\n\n!package => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 95
 }

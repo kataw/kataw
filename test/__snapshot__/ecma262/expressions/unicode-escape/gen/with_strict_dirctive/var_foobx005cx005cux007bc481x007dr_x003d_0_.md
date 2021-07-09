@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -51,21 +53,25 @@
                             "text": "foob",
                             "rawText": "foob",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 22
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 22
         },
@@ -78,12 +84,14 @@
                     "text": "쒁r",
                     "rawText": "\\u{c481}r",
                     "flags": 8288,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 32
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
@@ -92,14 +100,17 @@
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 23,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 23,
             "end": 37
         }
@@ -108,6 +119,7 @@
     "source": "'use strict'; var foob\\\\u{c481}r = 0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

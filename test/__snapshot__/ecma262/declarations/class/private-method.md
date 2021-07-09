@@ -48,6 +48,7 @@ class Foo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -56,6 +57,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -77,6 +79,7 @@ class Foo {
                                 "text": "#field",
                                 "rawText": "#field",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 19
                             },
@@ -84,6 +87,7 @@ class Foo {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 19
                         },
@@ -103,6 +107,7 @@ class Foo {
                                     "text": "#method",
                                     "rawText": "#method",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 28
                                 },
@@ -112,6 +117,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 30
                                 },
@@ -123,18 +129,22 @@ class Foo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 33
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 33
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 33
                         },
@@ -154,6 +164,7 @@ class Foo {
                                     "text": "baseline",
                                     "rawText": "baseline",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 43
                                 },
@@ -163,6 +174,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 45
                                 },
@@ -184,6 +196,7 @@ class Foo {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 47,
                                                             "end": 51
                                                         },
@@ -192,10 +205,12 @@ class Foo {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 52,
                                                             "end": 52
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 47,
                                                         "end": 53
                                                     },
@@ -204,14 +219,17 @@ class Foo {
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 54,
                                                         "end": 57
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 2,
                                                     "start": 47,
                                                     "end": 57
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 47,
                                                 "end": 57
                                             },
@@ -228,6 +246,7 @@ class Foo {
                                                                 "text": "b",
                                                                 "rawText": "b",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 57,
                                                                 "end": 61
                                                             },
@@ -236,10 +255,12 @@ class Foo {
                                                                 "elements": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 62,
                                                                 "end": 62
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 57,
                                                             "end": 63
                                                         },
@@ -248,10 +269,12 @@ class Foo {
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 64,
                                                             "end": 67
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 2,
                                                         "start": 57,
                                                         "end": 67
                                                     },
@@ -263,20 +286,24 @@ class Foo {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 68,
                                                                 "end": 69
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 68,
                                                         "end": 69
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 57,
                                                     "end": 70
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 57,
                                                 "end": 70
                                             },
@@ -287,6 +314,7 @@ class Foo {
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 76,
                                                         "end": 78
                                                     },
@@ -297,6 +325,7 @@ class Foo {
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 70,
                                                             "end": 74
                                                         },
@@ -305,10 +334,12 @@ class Foo {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 75,
                                                             "end": 75
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 70,
                                                         "end": 76
                                                     },
@@ -324,14 +355,17 @@ class Foo {
                                                                     "text": "foo",
                                                                     "rawText": "foo",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 78,
                                                                     "end": 81
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 78,
                                                                 "end": 81
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 78,
                                                             "end": 81
                                                         },
@@ -344,24 +378,29 @@ class Foo {
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 82,
                                                                     "end": 83
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 82,
                                                             "end": 83
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 81,
                                                         "end": 84
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 70,
                                                     "end": 84
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 70,
                                                 "end": 84
                                             },
@@ -372,6 +411,7 @@ class Foo {
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 110,
                                                         "end": 112
                                                     },
@@ -380,6 +420,7 @@ class Foo {
                                                         "chainToken": {
                                                             "kind": 393240,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 105,
                                                             "end": 107
                                                         },
@@ -390,6 +431,7 @@ class Foo {
                                                                 "chainToken": {
                                                                     "kind": 393240,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 94,
                                                                     "end": 96
                                                                 },
@@ -402,6 +444,7 @@ class Foo {
                                                                             "text": "d",
                                                                             "rawText": "d",
                                                                             "flags": 97,
+                                                                            "transformFlags": 0,
                                                                             "start": 84,
                                                                             "end": 88
                                                                         },
@@ -410,10 +453,12 @@ class Foo {
                                                                             "elements": [],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 89,
                                                                             "end": 89
                                                                         },
                                                                         "flags": 268435488,
+                                                                        "transformFlags": 1,
                                                                         "start": 84,
                                                                         "end": 90
                                                                     },
@@ -422,10 +467,12 @@ class Foo {
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 91,
                                                                         "end": 94
                                                                     },
                                                                     "flags": 268435488,
+                                                                    "transformFlags": 2,
                                                                     "start": 84,
                                                                     "end": 94
                                                                 },
@@ -445,20 +492,24 @@ class Foo {
                                                                                         "text": "x",
                                                                                         "rawText": "x",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 97,
                                                                                         "end": 98
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 97,
                                                                                 "end": 98
                                                                             },
                                                                             "flags": 268435488,
+                                                                            "transformFlags": 1,
                                                                             "start": 96,
                                                                             "end": 99
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 96,
                                                                         "end": 99
                                                                     },
@@ -467,14 +518,17 @@ class Foo {
                                                                         "text": "e",
                                                                         "rawText": "e",
                                                                         "flags": 97,
+                                                                        "transformFlags": 0,
                                                                         "start": 99,
                                                                         "end": 103
                                                                     },
                                                                     "flags": 536870944,
+                                                                    "transformFlags": 2,
                                                                     "start": 99,
                                                                     "end": 103
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 84,
                                                                 "end": 103
                                                             },
@@ -483,10 +537,12 @@ class Foo {
                                                                 "elements": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 104,
                                                                 "end": 104
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 84,
                                                             "end": 105
                                                         },
@@ -500,18 +556,22 @@ class Foo {
                                                                     "text": "foo",
                                                                     "rawText": "foo",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 107,
                                                                     "end": 110
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 107,
                                                                 "end": 110
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 107,
                                                             "end": 110
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 84,
                                                         "end": 110
                                                     },
@@ -529,45 +589,55 @@ class Foo {
                                                                         "text": "x",
                                                                         "rawText": "x",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 113,
                                                                         "end": 114
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 113,
                                                                 "end": 114
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 112,
                                                             "end": 115
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 112,
                                                         "end": 115
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 84,
                                                     "end": 115
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 84,
                                                 "end": 115
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 115
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 118
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 118
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 118
                         },
@@ -587,6 +657,7 @@ class Foo {
                                     "text": "privateField",
                                     "rawText": "privateField",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 118,
                                     "end": 132
                                 },
@@ -596,6 +667,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 133,
                                     "end": 134
                                 },
@@ -617,6 +689,7 @@ class Foo {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 136,
                                                             "end": 140
                                                         },
@@ -625,10 +698,12 @@ class Foo {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 141,
                                                             "end": 141
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 136,
                                                         "end": 142
                                                     },
@@ -637,14 +712,17 @@ class Foo {
                                                         "text": "#field",
                                                         "rawText": "#field",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 143,
                                                         "end": 149
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 2,
                                                     "start": 136,
                                                     "end": 149
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 136,
                                                 "end": 149
                                             },
@@ -661,6 +739,7 @@ class Foo {
                                                                 "text": "b",
                                                                 "rawText": "b",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 149,
                                                                 "end": 153
                                                             },
@@ -669,10 +748,12 @@ class Foo {
                                                                 "elements": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 154,
                                                                 "end": 154
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 149,
                                                             "end": 155
                                                         },
@@ -681,10 +762,12 @@ class Foo {
                                                             "text": "#field",
                                                             "rawText": "#field",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 156,
                                                             "end": 162
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 2,
                                                         "start": 149,
                                                         "end": 162
                                                     },
@@ -696,20 +779,24 @@ class Foo {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 163,
                                                                 "end": 164
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 163,
                                                         "end": 164
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 149,
                                                     "end": 165
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 149,
                                                 "end": 165
                                             },
@@ -720,6 +807,7 @@ class Foo {
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 171,
                                                         "end": 173
                                                     },
@@ -730,6 +818,7 @@ class Foo {
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 165,
                                                             "end": 169
                                                         },
@@ -738,10 +827,12 @@ class Foo {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 170,
                                                             "end": 170
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 165,
                                                         "end": 171
                                                     },
@@ -757,14 +848,17 @@ class Foo {
                                                                     "text": "#field",
                                                                     "rawText": "#field",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 173,
                                                                     "end": 179
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 173,
                                                                 "end": 179
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 173,
                                                             "end": 179
                                                         },
@@ -777,24 +871,29 @@ class Foo {
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 180,
                                                                     "end": 181
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 180,
                                                             "end": 181
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 179,
                                                         "end": 182
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 165,
                                                     "end": 182
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 165,
                                                 "end": 182
                                             },
@@ -811,6 +910,7 @@ class Foo {
                                                                 "chainToken": {
                                                                     "kind": 393240,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 225,
                                                                     "end": 227
                                                                 },
@@ -821,6 +921,7 @@ class Foo {
                                                                         "chainToken": {
                                                                             "kind": 393240,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 214,
                                                                             "end": 216
                                                                         },
@@ -829,6 +930,7 @@ class Foo {
                                                                             "chainToken": {
                                                                                 "kind": 393240,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 206,
                                                                                 "end": 208
                                                                             },
@@ -839,6 +941,7 @@ class Foo {
                                                                                     "chainToken": {
                                                                                         "kind": 393240,
                                                                                         "flags": 64,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 195,
                                                                                         "end": 197
                                                                                     },
@@ -851,6 +954,7 @@ class Foo {
                                                                                                 "text": "d",
                                                                                                 "rawText": "d",
                                                                                                 "flags": 97,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 182,
                                                                                                 "end": 186
                                                                                             },
@@ -859,10 +963,12 @@ class Foo {
                                                                                                 "elements": [],
                                                                                                 "trailingComma": false,
                                                                                                 "flags": 32,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 187,
                                                                                                 "end": 187
                                                                                             },
                                                                                             "flags": 268435488,
+                                                                                            "transformFlags": 1,
                                                                                             "start": 182,
                                                                                             "end": 188
                                                                                         },
@@ -871,10 +977,12 @@ class Foo {
                                                                                             "text": "#field",
                                                                                             "rawText": "#field",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 189,
                                                                                             "end": 195
                                                                                         },
                                                                                         "flags": 268435488,
+                                                                                        "transformFlags": 2,
                                                                                         "start": 182,
                                                                                         "end": 195
                                                                                     },
@@ -894,20 +1002,24 @@ class Foo {
                                                                                                             "text": "x",
                                                                                                             "rawText": "x",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 198,
                                                                                                             "end": 199
                                                                                                         }
                                                                                                     ],
                                                                                                     "trailingComma": false,
                                                                                                     "flags": 32,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 198,
                                                                                                     "end": 199
                                                                                                 },
                                                                                                 "flags": 268435488,
+                                                                                                "transformFlags": 1,
                                                                                                 "start": 197,
                                                                                                 "end": 200
                                                                                             },
                                                                                             "flags": 32,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 197,
                                                                                             "end": 200
                                                                                         },
@@ -916,14 +1028,17 @@ class Foo {
                                                                                             "text": "e",
                                                                                             "rawText": "e",
                                                                                             "flags": 97,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 200,
                                                                                             "end": 204
                                                                                         },
                                                                                         "flags": 536870944,
+                                                                                        "transformFlags": 2,
                                                                                         "start": 200,
                                                                                         "end": 204
                                                                                     },
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 182,
                                                                                     "end": 204
                                                                                 },
@@ -932,10 +1047,12 @@ class Foo {
                                                                                     "elements": [],
                                                                                     "trailingComma": false,
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 205,
                                                                                     "end": 205
                                                                                 },
                                                                                 "flags": 268435488,
+                                                                                "transformFlags": 1,
                                                                                 "start": 182,
                                                                                 "end": 206
                                                                             },
@@ -949,18 +1066,22 @@ class Foo {
                                                                                         "text": "#field",
                                                                                         "rawText": "#field",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 208,
                                                                                         "end": 214
                                                                                     },
                                                                                     "flags": 536870944,
+                                                                                    "transformFlags": 2,
                                                                                     "start": 208,
                                                                                     "end": 214
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 208,
                                                                                 "end": 214
                                                                             },
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 182,
                                                                             "end": 214
                                                                         },
@@ -980,20 +1101,24 @@ class Foo {
                                                                                                 "text": "x",
                                                                                                 "rawText": "x",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 217,
                                                                                                 "end": 218
                                                                                             }
                                                                                         ],
                                                                                         "trailingComma": false,
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 217,
                                                                                         "end": 218
                                                                                     },
                                                                                     "flags": 268435488,
+                                                                                    "transformFlags": 1,
                                                                                     "start": 216,
                                                                                     "end": 219
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 216,
                                                                                 "end": 219
                                                                             },
@@ -1002,14 +1127,17 @@ class Foo {
                                                                                 "text": "f",
                                                                                 "rawText": "f",
                                                                                 "flags": 97,
+                                                                                "transformFlags": 0,
                                                                                 "start": 219,
                                                                                 "end": 223
                                                                             },
                                                                             "flags": 536870944,
+                                                                            "transformFlags": 2,
                                                                             "start": 219,
                                                                             "end": 223
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 182,
                                                                         "end": 223
                                                                     },
@@ -1018,10 +1146,12 @@ class Foo {
                                                                         "elements": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 224,
                                                                         "end": 224
                                                                     },
                                                                     "flags": 268435488,
+                                                                    "transformFlags": 1,
                                                                     "start": 182,
                                                                     "end": 225
                                                                 },
@@ -1037,14 +1167,17 @@ class Foo {
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 227,
                                                                                 "end": 230
                                                                             },
                                                                             "flags": 536870944,
+                                                                            "transformFlags": 2,
                                                                             "start": 227,
                                                                             "end": 230
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 227,
                                                                         "end": 230
                                                                     },
@@ -1053,14 +1186,17 @@ class Foo {
                                                                         "text": "#field",
                                                                         "rawText": "#field",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 231,
                                                                         "end": 237
                                                                     },
                                                                     "flags": 536870944,
+                                                                    "transformFlags": 2,
                                                                     "start": 230,
                                                                     "end": 237
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 182,
                                                                 "end": 237
                                                             },
@@ -1072,16 +1208,19 @@ class Foo {
                                                                         "text": "x",
                                                                         "rawText": "x",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 238,
                                                                         "end": 239
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 238,
                                                                 "end": 239
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 182,
                                                             "end": 240
                                                         },
@@ -1090,10 +1229,12 @@ class Foo {
                                                             "text": "bar",
                                                             "rawText": "bar",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 241,
                                                             "end": 244
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 2,
                                                         "start": 182,
                                                         "end": 244
                                                     },
@@ -1102,31 +1243,38 @@ class Foo {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 245,
                                                         "end": 245
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 182,
                                                     "end": 246
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 182,
                                                 "end": 246
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 136,
                                         "end": 246
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 134,
                                     "end": 249
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 132,
                                 "end": 249
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 118,
                             "end": 249
                         },
@@ -1146,6 +1294,7 @@ class Foo {
                                     "text": "privateMethod",
                                     "rawText": "privateMethod",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 249,
                                     "end": 264
                                 },
@@ -1155,6 +1304,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 265,
                                     "end": 266
                                 },
@@ -1176,6 +1326,7 @@ class Foo {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 268,
                                                             "end": 272
                                                         },
@@ -1184,10 +1335,12 @@ class Foo {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 273,
                                                             "end": 273
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 268,
                                                         "end": 274
                                                     },
@@ -1196,14 +1349,17 @@ class Foo {
                                                         "text": "#method",
                                                         "rawText": "#method",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 275,
                                                         "end": 282
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 2,
                                                     "start": 268,
                                                     "end": 282
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 268,
                                                 "end": 282
                                             },
@@ -1220,6 +1376,7 @@ class Foo {
                                                                 "text": "b",
                                                                 "rawText": "b",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 282,
                                                                 "end": 286
                                                             },
@@ -1228,10 +1385,12 @@ class Foo {
                                                                 "elements": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 287,
                                                                 "end": 287
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 282,
                                                             "end": 288
                                                         },
@@ -1240,10 +1399,12 @@ class Foo {
                                                             "text": "#method",
                                                             "rawText": "#method",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 289,
                                                             "end": 296
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 2,
                                                         "start": 282,
                                                         "end": 296
                                                     },
@@ -1255,20 +1416,24 @@ class Foo {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 297,
                                                                 "end": 298
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 297,
                                                         "end": 298
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 282,
                                                     "end": 299
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 282,
                                                 "end": 299
                                             },
@@ -1279,6 +1444,7 @@ class Foo {
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 305,
                                                         "end": 307
                                                     },
@@ -1289,6 +1455,7 @@ class Foo {
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 299,
                                                             "end": 303
                                                         },
@@ -1297,10 +1464,12 @@ class Foo {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 304,
                                                             "end": 304
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 299,
                                                         "end": 305
                                                     },
@@ -1316,14 +1485,17 @@ class Foo {
                                                                     "text": "#method",
                                                                     "rawText": "#method",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 307,
                                                                     "end": 314
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 307,
                                                                 "end": 314
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 307,
                                                             "end": 314
                                                         },
@@ -1336,24 +1508,29 @@ class Foo {
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 315,
                                                                     "end": 316
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 315,
                                                             "end": 316
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 314,
                                                         "end": 317
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 299,
                                                     "end": 317
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 299,
                                                 "end": 317
                                             },
@@ -1370,6 +1547,7 @@ class Foo {
                                                                 "chainToken": {
                                                                     "kind": 393240,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 362,
                                                                     "end": 364
                                                                 },
@@ -1380,6 +1558,7 @@ class Foo {
                                                                         "chainToken": {
                                                                             "kind": 393240,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 351,
                                                                             "end": 353
                                                                         },
@@ -1388,6 +1567,7 @@ class Foo {
                                                                             "chainToken": {
                                                                                 "kind": 393240,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 342,
                                                                                 "end": 344
                                                                             },
@@ -1398,6 +1578,7 @@ class Foo {
                                                                                     "chainToken": {
                                                                                         "kind": 393240,
                                                                                         "flags": 64,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 331,
                                                                                         "end": 333
                                                                                     },
@@ -1410,6 +1591,7 @@ class Foo {
                                                                                                 "text": "d",
                                                                                                 "rawText": "d",
                                                                                                 "flags": 97,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 317,
                                                                                                 "end": 321
                                                                                             },
@@ -1418,10 +1600,12 @@ class Foo {
                                                                                                 "elements": [],
                                                                                                 "trailingComma": false,
                                                                                                 "flags": 32,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 322,
                                                                                                 "end": 322
                                                                                             },
                                                                                             "flags": 268435488,
+                                                                                            "transformFlags": 1,
                                                                                             "start": 317,
                                                                                             "end": 323
                                                                                         },
@@ -1430,10 +1614,12 @@ class Foo {
                                                                                             "text": "#method",
                                                                                             "rawText": "#method",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 324,
                                                                                             "end": 331
                                                                                         },
                                                                                         "flags": 268435488,
+                                                                                        "transformFlags": 2,
                                                                                         "start": 317,
                                                                                         "end": 331
                                                                                     },
@@ -1453,20 +1639,24 @@ class Foo {
                                                                                                             "text": "x",
                                                                                                             "rawText": "x",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 334,
                                                                                                             "end": 335
                                                                                                         }
                                                                                                     ],
                                                                                                     "trailingComma": false,
                                                                                                     "flags": 32,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 334,
                                                                                                     "end": 335
                                                                                                 },
                                                                                                 "flags": 268435488,
+                                                                                                "transformFlags": 1,
                                                                                                 "start": 333,
                                                                                                 "end": 336
                                                                                             },
                                                                                             "flags": 32,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 333,
                                                                                             "end": 336
                                                                                         },
@@ -1475,14 +1665,17 @@ class Foo {
                                                                                             "text": "e",
                                                                                             "rawText": "e",
                                                                                             "flags": 97,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 336,
                                                                                             "end": 340
                                                                                         },
                                                                                         "flags": 536870944,
+                                                                                        "transformFlags": 2,
                                                                                         "start": 336,
                                                                                         "end": 340
                                                                                     },
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 317,
                                                                                     "end": 340
                                                                                 },
@@ -1491,10 +1684,12 @@ class Foo {
                                                                                     "elements": [],
                                                                                     "trailingComma": false,
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 341,
                                                                                     "end": 341
                                                                                 },
                                                                                 "flags": 268435488,
+                                                                                "transformFlags": 1,
                                                                                 "start": 317,
                                                                                 "end": 342
                                                                             },
@@ -1508,18 +1703,22 @@ class Foo {
                                                                                         "text": "#method",
                                                                                         "rawText": "#method",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 344,
                                                                                         "end": 351
                                                                                     },
                                                                                     "flags": 536870944,
+                                                                                    "transformFlags": 2,
                                                                                     "start": 344,
                                                                                     "end": 351
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 344,
                                                                                 "end": 351
                                                                             },
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 317,
                                                                             "end": 351
                                                                         },
@@ -1539,20 +1738,24 @@ class Foo {
                                                                                                 "text": "x",
                                                                                                 "rawText": "x",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 354,
                                                                                                 "end": 355
                                                                                             }
                                                                                         ],
                                                                                         "trailingComma": false,
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 354,
                                                                                         "end": 355
                                                                                     },
                                                                                     "flags": 268435488,
+                                                                                    "transformFlags": 1,
                                                                                     "start": 353,
                                                                                     "end": 356
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 353,
                                                                                 "end": 356
                                                                             },
@@ -1561,14 +1764,17 @@ class Foo {
                                                                                 "text": "f",
                                                                                 "rawText": "f",
                                                                                 "flags": 97,
+                                                                                "transformFlags": 0,
                                                                                 "start": 356,
                                                                                 "end": 360
                                                                             },
                                                                             "flags": 536870944,
+                                                                            "transformFlags": 2,
                                                                             "start": 356,
                                                                             "end": 360
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 317,
                                                                         "end": 360
                                                                     },
@@ -1577,10 +1783,12 @@ class Foo {
                                                                         "elements": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 361,
                                                                         "end": 361
                                                                     },
                                                                     "flags": 268435488,
+                                                                    "transformFlags": 1,
                                                                     "start": 317,
                                                                     "end": 362
                                                                 },
@@ -1596,14 +1804,17 @@ class Foo {
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 364,
                                                                                 "end": 367
                                                                             },
                                                                             "flags": 536870944,
+                                                                            "transformFlags": 2,
                                                                             "start": 364,
                                                                             "end": 367
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 364,
                                                                         "end": 367
                                                                     },
@@ -1612,14 +1823,17 @@ class Foo {
                                                                         "text": "#method",
                                                                         "rawText": "#method",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 368,
                                                                         "end": 375
                                                                     },
                                                                     "flags": 536870944,
+                                                                    "transformFlags": 2,
                                                                     "start": 367,
                                                                     "end": 375
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 317,
                                                                 "end": 375
                                                             },
@@ -1631,16 +1845,19 @@ class Foo {
                                                                         "text": "x",
                                                                         "rawText": "x",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 376,
                                                                         "end": 377
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 376,
                                                                 "end": 377
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 317,
                                                             "end": 378
                                                         },
@@ -1649,10 +1866,12 @@ class Foo {
                                                             "text": "bar",
                                                             "rawText": "bar",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 379,
                                                             "end": 382
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 2,
                                                         "start": 317,
                                                         "end": 382
                                                     },
@@ -1661,44 +1880,54 @@ class Foo {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 383,
                                                         "end": 383
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 317,
                                                     "end": 384
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 317,
                                                 "end": 384
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 268,
                                         "end": 384
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 266,
                                     "end": 387
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 264,
                                 "end": 387
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 249,
                             "end": 387
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 387
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 389
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 389
         }
@@ -1707,6 +1936,7 @@ class Foo {
     "source": "class Foo {\n\t#field\n\t#method() {}\n\tbaseline() {\n\t\ta().foo\n\t\tb().foo(x)\n\t\tc()?.foo(x)\n\t\td().foo?.(x)\n\t\te()?.foo?.(x)\n\t}\n\tprivateField() {\n\t\ta().#field\n\t\tb().#field(x)\n\t\tc()?.#field(x)\n\t\td().#field?.(x)\n\t\te()?.#field?.(x)\n\t\tf()?.foo.#field(x).bar()\n\t}\n\tprivateMethod() {\n\t\ta().#method\n\t\tb().#method(x)\n\t\tc()?.#method(x)\n\t\td().#method?.(x)\n\t\te()?.#method?.(x)\n\t\tf()?.foo.#method(x).bar()\n\t}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 389
 }
@@ -1715,30 +1945,28 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
-  #field
+  #field;
   #method() {}
   baseline() {
     a().foo;
     b().foo(x);
     c()?.foo(x);
-    d().foo?.(x)e()?.foo?.(x);
+    d().foo?.(x).e()?.foo?.(x);
   }
   privateField() {
     a().#field;
     b().#field(x);
     c()?.#field(x);
-    d().#field?.(x)e()?.#field?.(x)f()?.foo#field(x).bar();
+    d().#field?.(x).e()?.#field?.(x).f()?.foo.#field(x).bar();
   }
   privateMethod() {
     a().#method;
     b().#method(x);
     c()?.#method(x);
-    d().#method?.(x)e()?.#method?.(x)f()?.foo#method(x).bar();
+    d().#method?.(x).e()?.#method?.(x).f()?.foo.#method(x).bar();
   }
 }
-
 ```
 
 ### Diagnostics

@@ -24,12 +24,14 @@ x={ foo(){ super[foo]; }}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -51,6 +53,7 @@ x={ foo(){ super[foo]; }}
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 7
                                     },
@@ -60,6 +63,7 @@ x={ foo(){ super[foo]; }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 9
                                     },
@@ -77,6 +81,7 @@ x={ foo(){ super[foo]; }}
                                                         "member": {
                                                             "kind": 4259935,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 10,
                                                             "end": 16
                                                         },
@@ -85,49 +90,60 @@ x={ foo(){ super[foo]; }}
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 20
                                                         },
                                                         "flags": 536870944,
+                                                        "transformFlags": 4,
                                                         "start": 10,
                                                         "end": 21
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 4096,
                                                     "start": 10,
                                                     "end": 22
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 22
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 24
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 24
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 24
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 24
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -136,6 +152,7 @@ x={ foo(){ super[foo]; }}
     "source": "x={ foo(){ super[foo]; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -144,11 +161,9 @@ x={ foo(){ super[foo]; }}
 ### Printed
 
 ```javascript
-
 x = { foo() {
     super[foo];
   } };
-
 ```
 
 ### Diagnostics

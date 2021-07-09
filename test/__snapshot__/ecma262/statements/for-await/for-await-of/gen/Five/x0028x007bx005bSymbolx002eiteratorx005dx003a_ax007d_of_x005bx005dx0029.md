@@ -29,12 +29,14 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -44,6 +46,7 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -53,6 +56,7 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -66,6 +70,7 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 33
                         }
@@ -76,12 +81,14 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 38
                             },
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 44
                             },
@@ -102,6 +109,7 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
                                                         "text": "Symbol",
                                                         "rawText": "Symbol",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 48,
                                                         "end": 54
                                                     },
@@ -110,14 +118,17 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
                                                         "text": "iterator",
                                                         "rawText": "iterator",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 63
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 48,
                                                     "end": 63
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 64
                                             },
@@ -126,26 +137,31 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 65,
                                                 "end": 67
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 47,
                                             "end": 67
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 67
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 46,
                                 "end": 68
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 71
                             },
@@ -156,10 +172,12 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 73,
                                     "end": 73
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 71,
                                 "end": 74
                             },
@@ -169,28 +187,34 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 78,
                                     "end": 78
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 75,
                                 "end": 80
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 80
                         }
                     ],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 80
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 82
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 82
         }
@@ -199,6 +223,7 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
     "source": "async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 82
 }
@@ -207,12 +232,11 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  { }
 ### Printed
 
 ```javascript
-
 async function f() {
-'\'use strict\'';
-  for await ({ [Symbol.iterator] : a } of []) { }
-}
 
+  "'use strict'";
+  for await ({ [Symbol.iterator]: a } of []) {}
+}
 ```
 
 ### Diagnostics

@@ -22,6 +22,7 @@ class x { async *prot\u006ftype(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x { async *prot\u006ftype(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class x { async *prot\u006ftype(){} }
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -56,6 +59,7 @@ class x { async *prot\u006ftype(){} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 15,
                                 "end": 17
                             },
@@ -66,6 +70,7 @@ class x { async *prot\u006ftype(){} }
                                     "text": "prototype",
                                     "rawText": "prot\\u006ftype",
                                     "flags": 16480,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 31
                                 },
@@ -75,6 +80,7 @@ class x { async *prot\u006ftype(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -86,31 +92,38 @@ class x { async *prot\u006ftype(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 34
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 35
                                 },
                                 "flags": 384,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 35
                             },
                             "flags": 384,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 35
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 35
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -119,6 +132,7 @@ class x { async *prot\u006ftype(){} }
     "source": "class x { async *prot\\u006ftype(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -127,11 +141,9 @@ class x { async *prot\u006ftype(){} }
 ### Printed
 
 ```javascript
-
 class x {
-  async * prot\u006ftype() {}
+  async *prot\u006ftype() {}
 }
-
 ```
 
 ### Diagnostics

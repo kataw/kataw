@@ -26,12 +26,14 @@ export default async function() { };
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -41,12 +43,14 @@ export default async function() { };
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 29
                 },
@@ -58,6 +62,7 @@ export default async function() { };
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
@@ -68,25 +73,30 @@ export default async function() { };
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 35
                 },
                 "returnType": null,
                 "flags": 144,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 36
         }
@@ -95,6 +105,7 @@ export default async function() { };
     "source": "export default async function() { };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -103,10 +114,7 @@ export default async function() { };
 ### Printed
 
 ```javascript
-
 export default async function () {};
-;
-
 ```
 
 ### Diagnostics

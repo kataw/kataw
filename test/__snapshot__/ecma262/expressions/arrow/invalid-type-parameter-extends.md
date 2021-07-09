@@ -32,12 +32,14 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -46,14 +48,17 @@
                     "text": "A",
                     "rawText": "A",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -66,12 +71,14 @@
                     "text": "B",
                     "rawText": "B",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 13
                 },
@@ -87,12 +94,14 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
@@ -100,6 +109,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 19
                     },
@@ -110,22 +120,27 @@
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 21
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 22
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 10,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 10,
             "end": 22
         }
@@ -134,6 +149,7 @@
     "source": "<A extends B>(x) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

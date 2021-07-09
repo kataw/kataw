@@ -35,6 +35,7 @@
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 5
                             },
@@ -45,12 +46,14 @@
                                     "text": "target",
                                     "rawText": "target",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 11
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 13
                                 },
@@ -59,28 +62,34 @@
                                     "text": "source",
                                     "rawText": "source",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 20
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 20
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -89,6 +98,7 @@
     "source": " [...target = source]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -97,9 +107,7 @@
 ### Printed
 
 ```javascript
-
 [...target = source];
-
 ```
 
 ### Diagnostics

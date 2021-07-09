@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -44,19 +45,23 @@
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 15,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 21
         }
@@ -65,6 +70,7 @@
     "source": "'use strict'; {yield}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -74,11 +80,10 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 {
   yield;
 }
-
 ```
 
 ### Diagnostics

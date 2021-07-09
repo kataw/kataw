@@ -20,6 +20,7 @@ do x;while(y)z
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -30,16 +31,19 @@ do x;while(y)z
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 4
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 5
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
@@ -48,10 +52,12 @@ do x;while(y)z
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -62,10 +68,12 @@ do x;while(y)z
                 "text": "z",
                 "rawText": "z",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 14
         }
@@ -74,6 +82,7 @@ do x;while(y)z
     "source": "do x;while(y)z",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -82,11 +91,8 @@ do x;while(y)z
 ### Printed
 
 ```javascript
-
-do
-  x; while (y)
-z;
-
+do  x;
+while (y);z;
 ```
 
 ### Diagnostics

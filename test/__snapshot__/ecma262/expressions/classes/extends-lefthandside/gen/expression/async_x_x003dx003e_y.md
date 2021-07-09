@@ -35,6 +35,7 @@ x => y {})
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -43,6 +44,7 @@ x => y {})
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -54,6 +56,7 @@ x => y {})
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 16
                             },
@@ -62,11 +65,13 @@ x => y {})
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 22
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 22
                         },
@@ -74,22 +79,27 @@ x => y {})
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 8
                         },
                         "flags": 8,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 22
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         },
@@ -104,6 +114,7 @@ x => y {})
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
@@ -111,6 +122,7 @@ x => y {})
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 27
                 },
@@ -119,14 +131,17 @@ x => y {})
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 29
         },
@@ -136,10 +151,12 @@ x => y {})
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 32
         }
@@ -148,6 +165,7 @@ x => y {})
     "source": "(class B extends async\nx => y {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

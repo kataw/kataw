@@ -30,6 +30,7 @@ function arrayRestWithNestedRest(...[...r]) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function arrayRestWithNestedRest(...[...r]) {}
                 "text": "arrayRestWithNestedRest",
                 "rawText": "arrayRestWithNestedRest",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 32
             },
@@ -51,6 +53,7 @@ function arrayRestWithNestedRest(...[...r]) {}
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 36
                         },
@@ -64,6 +67,7 @@ function arrayRestWithNestedRest(...[...r]) {}
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 40
                                         },
@@ -72,6 +76,7 @@ function arrayRestWithNestedRest(...[...r]) {}
                                             "text": "r",
                                             "rawText": "r",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 41
                                         },
@@ -79,16 +84,19 @@ function arrayRestWithNestedRest(...[...r]) {}
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 37,
                                         "end": 41
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 41
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 42
                         },
@@ -96,12 +104,14 @@ function arrayRestWithNestedRest(...[...r]) {}
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 33,
                         "end": 42
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 42
             },
@@ -112,15 +122,18 @@ function arrayRestWithNestedRest(...[...r]) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 45
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 46
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -129,6 +142,7 @@ function arrayRestWithNestedRest(...[...r]) {}
     "source": "function arrayRestWithNestedRest(...[...r]) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }
@@ -137,9 +151,7 @@ function arrayRestWithNestedRest(...[...r]) {}
 ### Printed
 
 ```javascript
-
 function arrayRestWithNestedRest(...[...r]) {}
-
 ```
 
 ### Diagnostics

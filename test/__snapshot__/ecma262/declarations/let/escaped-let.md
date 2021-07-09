@@ -24,10 +24,12 @@ a;
                 "text": "let",
                 "rawText": "l\\u0065t",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         },
@@ -38,10 +40,12 @@ a;
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 18
         }
@@ -50,6 +54,7 @@ a;
     "source": "l\\u0065t // ASI\na;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -58,8 +63,7 @@ a;
 ### Printed
 
 ```javascript
-
-l\u0065t;// ASI
+l\u0065t;
 a;
 
 ```

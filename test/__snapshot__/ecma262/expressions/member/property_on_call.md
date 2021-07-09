@@ -32,6 +32,7 @@ a().b
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -40,10 +41,12 @@ a().b
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 2
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 3
                 },
@@ -52,14 +55,17 @@ a().b
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 5
                 },
                 "flags": 268435488,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         }
@@ -68,6 +74,7 @@ a().b
     "source": "a().b",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }
@@ -76,9 +83,7 @@ a().b
 ### Printed
 
 ```javascript
-
 a().b;
-
 ```
 
 ### Diagnostics

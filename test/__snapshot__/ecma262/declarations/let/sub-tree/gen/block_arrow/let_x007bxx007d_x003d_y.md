@@ -33,7 +33,8 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -41,6 +42,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -55,6 +57,7 @@
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 11
                                 },
@@ -73,16 +76,19 @@
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 13,
                                                             "end": 14
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 14
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 15
                                             },
@@ -92,36 +98,44 @@
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 19
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 11,
                                             "end": 19
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 19
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 19
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 19
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -130,6 +144,7 @@
     "source": "() => { let {x} = y }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -138,13 +153,9 @@
 ### Printed
 
 ```javascript
-
 () => {
-  let {
-    x
-  } = y;
+  let { x } = y;
 };
-
 ```
 
 ### Diagnostics

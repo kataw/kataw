@@ -29,6 +29,7 @@ let =>  x, let =>  x;
                             "text": "let",
                             "rawText": "let",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 3
                         },
@@ -36,6 +37,7 @@ let =>  x, let =>  x;
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 6
                         },
@@ -44,10 +46,12 @@ let =>  x, let =>  x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 9
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     },
@@ -60,6 +64,7 @@ let =>  x, let =>  x;
                             "text": "let",
                             "rawText": "let",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 14
                         },
@@ -67,6 +72,7 @@ let =>  x, let =>  x;
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
@@ -75,19 +81,23 @@ let =>  x, let =>  x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 20
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -96,6 +106,7 @@ let =>  x, let =>  x;
     "source": "let =>  x, let =>  x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -104,9 +115,7 @@ let =>  x, let =>  x;
 ### Printed
 
 ```javascript
-
 let => x, let => x;
-
 ```
 
 ### Diagnostics

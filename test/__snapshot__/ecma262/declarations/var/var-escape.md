@@ -21,6 +21,7 @@ var _\u{104A6} = 10;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var _\u{104A6} = 10;
                             "text": "_A¦",
                             "rawText": "_\\u{104A6}",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 14
                         },
@@ -43,19 +45,23 @@ var _\u{104A6} = 10;
                             "text": 10,
                             "rawText": "10",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -64,6 +70,7 @@ var _\u{104A6} = 10;
     "source": "var _\\u{104A6} = 10;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -72,9 +79,7 @@ var _\u{104A6} = 10;
 ### Printed
 
 ```javascript
-
 var _\u{104A6} = 10;
-
 ```
 
 ### Diagnostics

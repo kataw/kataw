@@ -29,6 +29,7 @@ type a = (b[()=> c]) => c;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (b[()=> c]) => c;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (b[()=> c]) => c;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -69,11 +72,13 @@ type a = (b[()=> c]) => c;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 11
                                     },
@@ -89,12 +94,14 @@ type a = (b[()=> c]) => c;
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 13
                                             },
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
@@ -109,45 +116,54 @@ type a = (b[()=> c]) => c;
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 18
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 18
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 18
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 18
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 18
                                     },
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 20
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 20
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 23
                     },
@@ -162,27 +178,33 @@ type a = (b[()=> c]) => c;
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 25
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 25
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 25
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -191,6 +213,7 @@ type a = (b[()=> c]) => c;
     "source": "type a = (b[()=> c]) => c;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -199,9 +222,7 @@ type a = (b[()=> c]) => c;
 ### Printed
 
 ```javascript
-
-type a = (b[ () => c]) => c
-
+type a = (b[() => c]) => c
 ```
 
 ### Diagnostics

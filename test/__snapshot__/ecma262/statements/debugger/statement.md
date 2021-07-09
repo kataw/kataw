@@ -20,12 +20,14 @@ while (false) debugger;
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 12
             },
@@ -34,14 +36,17 @@ while (false) debugger;
                 "debuggerKeyword": {
                     "kind": 37757010,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -50,6 +55,7 @@ while (false) debugger;
     "source": "while (false) debugger;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -58,10 +64,7 @@ while (false) debugger;
 ### Printed
 
 ```javascript
-
-while (false)
-  debugger;
-
+while (false) debugger;
 ```
 
 ### Diagnostics

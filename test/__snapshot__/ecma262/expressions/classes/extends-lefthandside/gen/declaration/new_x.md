@@ -30,6 +30,7 @@ class A extends new x {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class A extends new x {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class A extends new x {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -57,6 +60,7 @@ class A extends new x {}
                         "newKeyword": {
                             "kind": 138477661,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 19
                         },
@@ -65,16 +69,19 @@ class A extends new x {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
                         "argumentList": null,
                         "flags": 96,
+                        "transformFlags": 2048,
                         "start": 15,
                         "end": 21
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
@@ -82,14 +89,17 @@ class A extends new x {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -98,6 +108,7 @@ class A extends new x {}
     "source": "class A extends new x {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -106,10 +117,7 @@ class A extends new x {}
 ### Printed
 
 ```javascript
-
-class A extends new x {
-}
-
+class A extends new x {}
 ```
 
 ### Diagnostics

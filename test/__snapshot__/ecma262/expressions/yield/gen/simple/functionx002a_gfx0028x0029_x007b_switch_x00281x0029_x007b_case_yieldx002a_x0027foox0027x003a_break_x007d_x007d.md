@@ -30,12 +30,14 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -44,6 +46,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -53,6 +56,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -67,6 +71,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                             "switchKeyword": {
                                 "kind": 37757024,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 23
                             },
@@ -75,6 +80,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 26
                             },
@@ -86,6 +92,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                         "caseKeyword": {
                                             "kind": 4194382,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 34
                                         },
@@ -94,6 +101,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                             "yieldKeyword": {
                                                 "kind": 8454253,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 40
                                             },
@@ -101,6 +109,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
+                                                "transformFlags": 32,
                                                 "start": 40,
                                                 "end": 41
                                             },
@@ -109,16 +118,19 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "text": "foo",
                                                 "rawText": "'foo'",
                                                 "flags": 4194400,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 47
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 34,
                                             "end": 47
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 47,
                                             "end": 48
                                         },
@@ -128,39 +140,47 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "breakKeyword": {
                                                     "kind": 37757005,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 48,
                                                     "end": 54
                                                 },
                                                 "label": null,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 55
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 55
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 55
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 57
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 57
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 59
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -169,6 +189,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
     "source": "function* gf() { switch (1) { case yield* 'foo': break; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }
@@ -177,14 +198,12 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 ### Printed
 
 ```javascript
-
-function * gf() {
+function *gf() {
   switch (1) {
-    case yield *  '\'foo\'': 
+    case yield* "'foo'":
       break;
   }
 }
-
 ```
 
 ### Diagnostics

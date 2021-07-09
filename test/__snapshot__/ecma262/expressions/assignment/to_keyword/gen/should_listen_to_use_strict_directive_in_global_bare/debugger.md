@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -37,10 +38,12 @@
             "debuggerKeyword": {
                 "kind": 37757010,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 22
         },
@@ -51,10 +54,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 24,
             "end": 27
         }
@@ -63,6 +68,7 @@
     "source": "\"use strict\"; debugger = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

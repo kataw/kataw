@@ -43,6 +43,7 @@
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 10
                                 },
@@ -50,6 +51,7 @@
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -58,14 +60,17 @@
                                     "text": "ok",
                                     "rawText": "ok",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 16
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 16
                         }
@@ -75,10 +80,12 @@
                         "text": " b",
                         "rawText": " b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 20
                 },
@@ -87,14 +94,17 @@
                     "text": "length",
                     "rawText": "length",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -103,6 +113,7 @@
     "source": "`a ${async => ok} b`.length",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -111,9 +122,7 @@
 ### Printed
 
 ```javascript
-
 `a ${async => ok} b`.length;
-
 ```
 
 ### Diagnostics

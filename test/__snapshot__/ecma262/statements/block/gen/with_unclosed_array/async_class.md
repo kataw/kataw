@@ -40,6 +40,7 @@
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 8
                                     },
@@ -49,6 +50,7 @@
                                         "classKeyword": {
                                             "kind": 37822544,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 14
                                         },
@@ -61,37 +63,45 @@
                                                 "kind": 303,
                                                 "elements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 14
                                             },
                                             "flags": 14,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 14
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 1,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -100,6 +110,7 @@
     "source": "{[ async class",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

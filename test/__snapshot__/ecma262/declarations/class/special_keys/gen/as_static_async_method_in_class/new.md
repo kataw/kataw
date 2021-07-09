@@ -30,6 +30,7 @@ class x {static async new(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {static async new(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -55,12 +57,14 @@ class x {static async new(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -74,6 +78,7 @@ class x {static async new(){}}
                                     "text": "new",
                                     "rawText": "new",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 25
                                 },
@@ -83,6 +88,7 @@ class x {static async new(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 27
                                 },
@@ -94,31 +100,38 @@ class x {static async new(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 29
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 29
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -127,6 +140,7 @@ class x {static async new(){}}
     "source": "class x {static async new(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -135,11 +149,9 @@ class x {static async new(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async new() {}
 }
-
 ```
 
 ### Diagnostics

@@ -36,6 +36,7 @@ declare class D extends C { }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -43,6 +44,7 @@ declare class D extends C { }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -51,6 +53,7 @@ declare class D extends C { }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -67,6 +70,7 @@ declare class D extends C { }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 28
                             },
@@ -77,6 +81,7 @@ declare class D extends C { }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
@@ -88,14 +93,17 @@ declare class D extends C { }
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 38
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 38
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 39
                         },
@@ -105,6 +113,7 @@ declare class D extends C { }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 50
                             },
@@ -115,6 +124,7 @@ declare class D extends C { }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 54
                             },
@@ -132,6 +142,7 @@ declare class D extends C { }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 56
                                             },
@@ -143,20 +154,24 @@ declare class D extends C { }
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 57,
                                                     "end": 64
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 64
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 55,
                                             "end": 64
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 64
                                 },
@@ -167,19 +182,23 @@ declare class D extends C { }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 66,
                                         "end": 71
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 71
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 71
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 72
                         },
@@ -194,6 +213,7 @@ declare class D extends C { }
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 89
                             },
@@ -211,6 +231,7 @@ declare class D extends C { }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 90,
                                                 "end": 91
                                             },
@@ -222,20 +243,24 @@ declare class D extends C { }
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 92,
                                                     "end": 99
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 92,
                                                 "end": 99
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 90,
                                             "end": 99
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 90,
                                     "end": 99
                                 },
@@ -246,33 +271,40 @@ declare class D extends C { }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 101,
                                         "end": 106
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 101,
                                     "end": 106
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 89,
                                 "end": 106
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 72,
                             "end": 107
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 109
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 109
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 109
         },
@@ -281,6 +313,7 @@ declare class D extends C { }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 118
             },
@@ -288,6 +321,7 @@ declare class D extends C { }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 124
             },
@@ -296,6 +330,7 @@ declare class D extends C { }
                 "text": "D",
                 "rawText": "D",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 124,
                 "end": 126
             },
@@ -307,6 +342,7 @@ declare class D extends C { }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 126,
                         "end": 134
                     },
@@ -315,11 +351,13 @@ declare class D extends C { }
                         "text": "C",
                         "rawText": "C",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 134,
                         "end": 136
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 134,
                     "end": 136
                 },
@@ -328,14 +366,17 @@ declare class D extends C { }
                     "properties": [],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 136,
                     "end": 140
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 140
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 109,
             "end": 140
         }
@@ -344,6 +385,7 @@ declare class D extends C { }
     "source": "declare class C {\n    static x: number;\n    static foo(x: number): void;\n\n    constructor(x: string): void;\n}\n\ndeclare class D extends C { }\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 141
 }
@@ -352,8 +394,11 @@ declare class D extends C { }
 ### Printed
 
 ```javascript
-
-declare class C { static x: number, static foo(x: number): void, constructor(x: string): void }
+declare class C {
+  static x: number,
+  static foo(x: number): void,
+  constructor(x: string): void
+}
 declare class D extends C {}
 
 ```

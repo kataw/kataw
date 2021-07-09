@@ -44,37 +44,45 @@
                                                     "kind": 371,
                                                     "text": "/)finally",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 5,
                                                     "end": 15
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 5,
                                                 "end": 15
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 15
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 15
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -83,6 +91,7 @@
     "source": "{ { { /)finally",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

@@ -29,6 +29,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -63,6 +65,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "text": "str",
                                             "rawText": "str",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 13
                                         },
@@ -74,14 +77,17 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 20
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 20
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 21
                                     },
@@ -96,6 +102,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "text": "i",
                                             "rawText": "i",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
@@ -107,14 +114,17 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 30
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 30
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 31
                                     },
@@ -129,6 +139,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "text": "j",
                                             "rawText": "j",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 33
                                         },
@@ -140,24 +151,29 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "type": {
                                                 "kind": 134234254,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 41
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 41
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 41
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 42
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 42
                         },
@@ -174,6 +190,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "text": "str",
                                             "rawText": "str",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 49
                                         },
@@ -182,10 +199,12 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "text": "...",
                                             "rawText": "\"...\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 50,
                                             "end": 56
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 46,
                                         "end": 56
                                     },
@@ -197,6 +216,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "text": "i",
                                             "rawText": "i",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 57,
                                             "end": 59
                                         },
@@ -205,10 +225,12 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "text": "...",
                                             "rawText": "\"...\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 66
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 57,
                                         "end": 66
                                     },
@@ -220,39 +242,47 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "text": "k",
                                             "rawText": "k",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 67,
                                             "end": 69
                                         },
                                         "right": {
                                             "kind": 205586437,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 70,
                                             "end": 76
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 67,
                                         "end": 76
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 76
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 44,
                             "end": 77
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 77
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 77
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 78
         }
@@ -261,6 +291,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
     "source": "var obj: {str:string; i:number; j:boolean} = {str: \"...\", i: \"...\", k: false};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 78
 }
@@ -269,9 +300,11 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
 ### Printed
 
 ```javascript
-
-var obj: { str: string, i: number, j: boolean } = { str : '"..."', i : '"..."', k : false };
-
+var obj: { str: string, i: number, j: boolean } = {
+  str: "\"...\"",
+  i: "\"...\"",
+  k: false
+};
 ```
 
 ### Diagnostics

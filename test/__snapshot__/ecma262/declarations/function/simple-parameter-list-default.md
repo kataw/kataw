@@ -24,6 +24,7 @@ function a(options = {}) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function a(options = {}) {
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -48,6 +50,7 @@ function a(options = {}) {
                             "text": "options",
                             "rawText": "options",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 18
                         },
@@ -60,20 +63,24 @@ function a(options = {}) {
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 22
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 20,
                             "end": 23
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 23
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 23
             },
@@ -87,21 +94,25 @@ function a(options = {}) {
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 41
                         }
                     ],
                     "statements": [],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 42
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 44
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -110,6 +121,7 @@ function a(options = {}) {
     "source": "function a(options = {}) {\n  \"use strict\";\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

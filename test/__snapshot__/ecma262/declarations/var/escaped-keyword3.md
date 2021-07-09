@@ -23,6 +23,7 @@ var a = {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ var a = {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -53,6 +55,7 @@ var a = {
                                             "text": "break",
                                             "rawText": "br\\u{65}ak",
                                             "flags": 8289,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 22
                                         },
@@ -61,33 +64,40 @@ var a = {
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 25
                                         },
                                         "flags": 8225,
+                                        "transformFlags": 128,
                                         "start": 9,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 8209,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 25
                             },
                             "flags": 8241,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 27
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 27
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -96,6 +106,7 @@ var a = {
     "source": "var a = {\n  br\\u{65}ak: 2\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -104,11 +115,9 @@ var a = {
 ### Printed
 
 ```javascript
-
 var a = {
-  br\u{65}ak : 2
+  br\u{65}ak: 2
 };
-
 ```
 
 ### Diagnostics

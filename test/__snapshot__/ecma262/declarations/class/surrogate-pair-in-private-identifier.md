@@ -30,6 +30,7 @@ class C { #@{x29e3d}@ }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C { #@{x29e3d}@ }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -59,6 +61,7 @@ class C { #@{x29e3d}@ }
                                 "text": "#",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -66,6 +69,7 @@ class C { #@{x29e3d}@ }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 11
                         },
@@ -79,6 +83,7 @@ class C { #@{x29e3d}@ }
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         },
@@ -87,15 +92,18 @@ class C { #@{x29e3d}@ }
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 12
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 12
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
@@ -107,6 +115,7 @@ class C { #@{x29e3d}@ }
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
@@ -114,19 +123,23 @@ class C { #@{x29e3d}@ }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 12
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 12
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -142,19 +155,23 @@ class C { #@{x29e3d}@ }
                             "text": "x29e3d",
                             "rawText": "x29e3d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 20
         },
@@ -169,6 +186,7 @@ class C { #@{x29e3d}@ }
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 21
                         },
@@ -177,15 +195,18 @@ class C { #@{x29e3d}@ }
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 21
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 21
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
@@ -195,6 +216,7 @@ class C { #@{x29e3d}@ }
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -206,14 +228,17 @@ class C { #@{x29e3d}@ }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 21,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 21
         }
@@ -222,6 +247,7 @@ class C { #@{x29e3d}@ }
     "source": "class C { #@{x29e3d}@ }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

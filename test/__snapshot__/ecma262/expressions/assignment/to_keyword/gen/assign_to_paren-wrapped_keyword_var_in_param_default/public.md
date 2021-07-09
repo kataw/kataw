@@ -40,6 +40,7 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
@@ -54,16 +55,19 @@
                                         "text": "public",
                                         "rawText": "public",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 12
                                     },
-                                    "flags": 32,
-                                    "start": 4,
+                                    "flags": 4,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 13
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -72,20 +76,24 @@
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 4,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 0,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 18
                 },
@@ -93,6 +101,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 21
                 },
@@ -103,18 +112,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 24
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }
@@ -123,6 +136,7 @@
     "source": "(x = (public) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -131,9 +145,7 @@
 ### Printed
 
 ```javascript
-
 (x = (public) = f) => {};
-
 ```
 
 ### Diagnostics

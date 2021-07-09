@@ -31,6 +31,7 @@ try {
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,10 +41,12 @@ try {
                     "kind": 249,
                     "statements": [],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
@@ -52,6 +55,7 @@ try {
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 13
                 },
@@ -60,6 +64,7 @@ try {
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 16
                 },
@@ -75,6 +80,7 @@ try {
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 30
                                 },
@@ -84,6 +90,7 @@ try {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 },
@@ -93,6 +100,7 @@ try {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 33
                                 },
@@ -103,34 +111,41 @@ try {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 35
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
                                 },
                                 "returnType": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 36
                             }
                         ],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 36
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 38
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 38
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -139,6 +154,7 @@ try {
     "source": "try {\n} catch (e) {\n  function f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -147,13 +163,9 @@ try {
 ### Printed
 
 ```javascript
-
-try {
-}
-catch (e){
+try {} catch (e) {
   function f() {}
 }
-
 ```
 
 ### Diagnostics

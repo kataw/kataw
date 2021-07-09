@@ -28,10 +28,12 @@ d\u0065bugger;
             "debuggerKeyword": {
                 "kind": 37757010,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -40,6 +42,7 @@ d\u0065bugger;
     "source": "d\\u0065bugger;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

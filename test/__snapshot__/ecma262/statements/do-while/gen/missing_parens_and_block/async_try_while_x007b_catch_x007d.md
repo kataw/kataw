@@ -28,6 +28,7 @@ do async try while { catch } while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,10 +39,12 @@ do async try while { catch } while
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 8
             },
@@ -51,10 +54,12 @@ do async try while { catch } while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -63,6 +68,7 @@ do async try while { catch } while
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -72,10 +78,12 @@ do async try while { catch } while
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -87,14 +95,17 @@ do async try while { catch } while
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 12
         },
@@ -103,6 +114,7 @@ do async try while { catch } while
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 18
             },
@@ -116,16 +128,19 @@ do async try while { catch } while
                             "text": "catch",
                             "rawText": "catch",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 26
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 18,
                 "end": 28
             },
@@ -134,6 +149,7 @@ do async try while { catch } while
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 34
                 },
@@ -142,6 +158,7 @@ do async try while { catch } while
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 34
                 },
@@ -152,18 +169,22 @@ do async try while { catch } while
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 34
                     },
                     "flags": 16,
+                    "transformFlags": 4096,
                     "start": 34,
                     "end": 34
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 34
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 34
         }
@@ -172,6 +193,7 @@ do async try while { catch } while
     "source": "do async try while { catch } while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

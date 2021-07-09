@@ -22,6 +22,7 @@ class A {*=f(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class A {*=f(){}}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,14 +43,17 @@ class A {*=f(){}}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -61,6 +66,7 @@ class A {*=f(){}}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 12
                 },
@@ -69,14 +75,17 @@ class A {*=f(){}}
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 11,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 14
         },
@@ -86,10 +95,12 @@ class A {*=f(){}}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 16
         }
@@ -98,6 +109,7 @@ class A {*=f(){}}
     "source": "class A {*=f(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

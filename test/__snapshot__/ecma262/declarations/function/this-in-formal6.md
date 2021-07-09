@@ -31,6 +31,7 @@ declare function four<T>(this: T): void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -38,6 +39,7 @@ declare function four<T>(this: T): void;
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 16
             },
@@ -47,6 +49,7 @@ declare function four<T>(this: T): void;
                 "text": "one",
                 "rawText": "one",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -62,6 +65,7 @@ declare function four<T>(this: T): void;
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 25
                         },
@@ -73,21 +77,25 @@ declare function four<T>(this: T): void;
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 33
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 33
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 21,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 33
             },
@@ -99,20 +107,24 @@ declare function four<T>(this: T): void;
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 40
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 40
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 40
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 40,
             "end": 41
         },
@@ -121,6 +133,7 @@ declare function four<T>(this: T): void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 49
             },
@@ -128,6 +141,7 @@ declare function four<T>(this: T): void;
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 58
             },
@@ -137,6 +151,7 @@ declare function four<T>(this: T): void;
                 "text": "two",
                 "rawText": "two",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 62
             },
@@ -152,6 +167,7 @@ declare function four<T>(this: T): void;
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 63,
                             "end": 67
                         },
@@ -163,15 +179,18 @@ declare function four<T>(this: T): void;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 75
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 68,
                             "end": 75
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 63,
                         "end": 75
                     },
@@ -183,6 +202,7 @@ declare function four<T>(this: T): void;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 76,
                             "end": 78
                         },
@@ -194,21 +214,25 @@ declare function four<T>(this: T): void;
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 79,
                                 "end": 86
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 79,
                             "end": 86
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 76,
                         "end": 86
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 86
             },
@@ -220,20 +244,24 @@ declare function four<T>(this: T): void;
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 88,
                     "end": 93
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 88,
                 "end": 93
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 49,
             "end": 93
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 93,
             "end": 94
         },
@@ -242,6 +270,7 @@ declare function four<T>(this: T): void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 94,
                 "end": 102
             },
@@ -249,6 +278,7 @@ declare function four<T>(this: T): void;
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 111
             },
@@ -258,6 +288,7 @@ declare function four<T>(this: T): void;
                 "text": "three",
                 "rawText": "three",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 111,
                 "end": 117
             },
@@ -273,6 +304,7 @@ declare function four<T>(this: T): void;
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 118,
                             "end": 122
                         },
@@ -284,15 +316,18 @@ declare function four<T>(this: T): void;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 123,
                                 "end": 130
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 123,
                             "end": 130
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 118,
                         "end": 130
                     },
@@ -301,6 +336,7 @@ declare function four<T>(this: T): void;
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 131,
                             "end": 135
                         },
@@ -309,6 +345,7 @@ declare function four<T>(this: T): void;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 135,
                             "end": 136
                         },
@@ -320,21 +357,25 @@ declare function four<T>(this: T): void;
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 137,
                                 "end": 141
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 137,
                             "end": 141
                         },
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 131,
                         "end": 141
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 118,
                 "end": 141
             },
@@ -346,20 +387,24 @@ declare function four<T>(this: T): void;
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 143,
                     "end": 148
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 143,
                 "end": 148
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 102,
             "end": 148
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 148,
             "end": 149
         },
@@ -368,6 +413,7 @@ declare function four<T>(this: T): void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 149,
                 "end": 157
             },
@@ -375,6 +421,7 @@ declare function four<T>(this: T): void;
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 157,
                 "end": 166
             },
@@ -384,6 +431,7 @@ declare function four<T>(this: T): void;
                 "text": "four",
                 "rawText": "four",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 166,
                 "end": 171
             },
@@ -399,6 +447,7 @@ declare function four<T>(this: T): void;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 172,
                                 "end": 173
                             },
@@ -406,16 +455,19 @@ declare function four<T>(this: T): void;
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 172,
                             "end": 173
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 172,
                     "end": 173
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 171,
                 "end": 174
             },
@@ -430,6 +482,7 @@ declare function four<T>(this: T): void;
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 175,
                             "end": 179
                         },
@@ -445,26 +498,31 @@ declare function four<T>(this: T): void;
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 180,
                                     "end": 182
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 180,
                                 "end": 182
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 180,
                             "end": 182
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 175,
                         "end": 182
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 175,
                 "end": 182
             },
@@ -476,20 +534,24 @@ declare function four<T>(this: T): void;
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 184,
                     "end": 189
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 184,
                 "end": 189
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 157,
             "end": 189
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 189,
             "end": 190
         }
@@ -498,6 +560,7 @@ declare function four<T>(this: T): void;
     "source": "declare function one(this: number): void;\ndeclare function two(this: string, a: number): void;\ndeclare function three(this: string, ...a: any): void;\ndeclare function four<T>(this: T): void;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 190
 }
@@ -506,15 +569,12 @@ declare function four<T>(this: T): void;
 ### Printed
 
 ```javascript
+declare function one(this: number): void;
+declare function two(this: string, a: number): void;
 
-declare function one(this: number): void 
-;
-declare function two(this: string, a: number): void 
-;
-declare function three(this: string, ...a: any): void 
-;
-declare function four<T> (this: T): void 
-;
+declare function three(this: string, ...a: any): void;
+
+declare function four<T>(this: T): void;
 
 ```
 

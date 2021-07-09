@@ -30,6 +30,7 @@ async () => {  def\u0061ult = x  }
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -39,6 +40,7 @@ async () => {  def\u0061ult = x  }
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -46,6 +48,7 @@ async () => {  def\u0061ult = x  }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -56,18 +59,22 @@ async () => {  def\u0061ult = x  }
                         "directives": [],
                         "statements": [],
                         "flags": 16416,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         },
@@ -78,10 +85,12 @@ async () => {  def\u0061ult = x  }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 29,
             "end": 31
         }
@@ -90,6 +99,7 @@ async () => {  def\u0061ult = x  }
     "source": "async () => {  def\\u0061ult = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

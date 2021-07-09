@@ -22,12 +22,14 @@ foo: do continue foo; while(true)
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -36,6 +38,7 @@ foo: do continue foo; while(true)
                 "doKeyword": {
                     "kind": 4202580,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
@@ -44,6 +47,7 @@ foo: do continue foo; while(true)
                     "continueKeyword": {
                         "kind": 37757009,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 16
                     },
@@ -52,30 +56,36 @@ foo: do continue foo; while(true)
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 20
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 21
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 64,
+                    "flags": 80,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 27
                 },
                 "expression": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 32
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -84,6 +94,7 @@ foo: do continue foo; while(true)
     "source": "foo: do continue foo; while(true)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -92,10 +103,8 @@ foo: do continue foo; while(true)
 ### Printed
 
 ```javascript
-
-foo: do
-  continue foo; while (true)
-
+foo:  do  continue foo;
+while (true);
 ```
 
 ### Diagnostics

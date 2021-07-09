@@ -28,6 +28,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                             "text": "g",
                             "rawText": "g",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -51,6 +53,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 28
                             },
@@ -65,6 +68,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 48
                                     },
@@ -73,12 +77,14 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 58,
                                         "end": 68
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 68
                             },
@@ -91,39 +97,47 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                                         {
                                             "kind": 168,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 88,
                                             "end": 98
                                         },
                                         {
                                             "kind": 168,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 98,
                                             "end": 108
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 88,
                                     "end": 108
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 78,
                                 "end": 118
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 118
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 118
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 118
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 130
         }
@@ -132,6 +146,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
     "source": "let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /* f */ { /* g */ ; /* h */ ; /* i */ }/* after */;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 130
 }
@@ -140,12 +155,10 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
 ### Printed
 
 ```javascript
+let g = function (x, y) {
 
-let g =/* before */ function/* a */ (/* b */x/* c */, /* d */y/* e */) {/* g */
-  ;/* h */
-  ;/* i */
-}/* after */;
 
+  };
 ```
 
 ### Diagnostics

@@ -41,6 +41,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -50,6 +51,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -65,6 +67,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                             "text": "callback",
                             "rawText": "callback",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 21
                         },
@@ -87,6 +90,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                 "text": "_1",
                                                 "rawText": "_1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 26
                                             },
@@ -102,19 +106,23 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                         "text": "bool",
                                                         "rawText": "bool",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 27,
                                                         "end": 31
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 31
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 31
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 31
                                         },
@@ -126,6 +134,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                 "text": "_2",
                                                 "rawText": "_2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 35
                                             },
@@ -137,26 +146,31 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 42
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 42
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 42
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 42
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 46
                                 },
@@ -167,29 +181,35 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 53
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 53
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 53
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 53
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 53
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 53
             },
@@ -200,15 +220,18 @@ function foo(callback: (_1:bool, _2:string) => number){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 55,
                     "end": 55
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 56
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 56
         }
@@ -217,6 +240,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
     "source": "function foo(callback: (_1:bool, _2:string) => number){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }
@@ -225,9 +249,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
 ### Printed
 
 ```javascript
-
 function foo(callback: (_1: bool, _2: string) => number) {}
-
 ```
 
 ### Diagnostics

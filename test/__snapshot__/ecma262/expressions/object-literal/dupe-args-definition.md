@@ -44,12 +44,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -71,6 +73,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -83,6 +86,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 8
                                             },
@@ -91,12 +95,14 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 11
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 12
                                     },
@@ -108,36 +114,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 15
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 15
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         },
@@ -150,12 +164,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
@@ -177,6 +193,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 25
                                     },
@@ -189,6 +206,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 27
                                             },
@@ -197,6 +215,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 30
                                             },
@@ -205,12 +224,14 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 33
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 34
                                     },
@@ -222,36 +243,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 36
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 37
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 37
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 37
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 37
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 22,
                     "end": 38
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 17,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 39
         },
@@ -264,12 +293,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 42
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 44
                 },
@@ -291,6 +322,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 47
                                     },
@@ -303,6 +335,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 49
                                             },
@@ -311,6 +344,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 52
                                             },
@@ -319,12 +353,14 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 53,
                                                 "end": 55
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 56
                                     },
@@ -336,36 +372,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 58,
                                             "end": 58
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 56,
                                         "end": 59
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 59
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 59
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 46,
                         "end": 59
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 44,
                     "end": 60
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 39,
                 "end": 60
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 39,
             "end": 61
         },
@@ -378,12 +422,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 61,
                     "end": 64
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 66
                 },
@@ -405,6 +451,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 68,
                                         "end": 69
                                     },
@@ -417,6 +464,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 70,
                                                 "end": 71
                                             },
@@ -425,6 +473,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 72,
                                                 "end": 74
                                             },
@@ -433,12 +482,14 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 75,
                                                 "end": 77
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 78
                                     },
@@ -450,36 +501,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 80,
                                             "end": 80
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 78,
                                         "end": 81
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 81
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 81
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 68,
                         "end": 81
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 66,
                     "end": 82
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 61,
                 "end": 82
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 61,
             "end": 83
         },
@@ -492,12 +551,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 83,
                     "end": 86
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 86,
                     "end": 88
                 },
@@ -519,6 +580,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 90,
                                         "end": 91
                                     },
@@ -531,6 +593,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 92,
                                                 "end": 93
                                             },
@@ -539,6 +602,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 94,
                                                 "end": 96
                                             },
@@ -547,6 +611,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 97,
                                                 "end": 99
                                             },
@@ -555,6 +620,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 100,
                                                 "end": 102
                                             },
@@ -568,22 +634,26 @@ o = {f([b, a], b=x) {}};
                                                             "text": "fine",
                                                             "rawText": "fine",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 105,
                                                             "end": 109
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 105,
                                                     "end": 109
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 103,
                                                 "end": 110
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 92,
                                         "end": 111
                                     },
@@ -595,36 +665,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 113,
                                             "end": 113
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 111,
                                         "end": 114
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 91,
                                     "end": 114
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 90,
                                 "end": 114
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 90,
                         "end": 114
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 88,
                     "end": 115
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 83,
                 "end": 115
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 83,
             "end": 116
         },
@@ -637,12 +715,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 116,
                     "end": 119
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 119,
                     "end": 121
                 },
@@ -664,6 +744,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 123,
                                         "end": 124
                                     },
@@ -676,6 +757,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 125,
                                                 "end": 126
                                             },
@@ -684,6 +766,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 127,
                                                 "end": 129
                                             },
@@ -692,6 +775,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 130,
                                                 "end": 132
                                             },
@@ -703,6 +787,7 @@ o = {f([b, a], b=x) {}};
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 133,
                                                     "end": 135
                                                 },
@@ -713,16 +798,19 @@ o = {f([b, a], b=x) {}};
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 137,
                                                     "end": 139
                                                 },
                                                 "flags": 34,
+                                                "transformFlags": 4096,
                                                 "start": 133,
                                                 "end": 139
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 98,
+                                        "transformFlags": 0,
                                         "start": 125,
                                         "end": 140
                                     },
@@ -734,36 +822,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 142,
                                             "end": 142
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 140,
                                         "end": 143
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 124,
                                     "end": 143
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 123,
                                 "end": 143
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 123,
                         "end": 143
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 121,
                     "end": 144
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 116,
                 "end": 144
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 116,
             "end": 145
         },
@@ -776,12 +872,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 145,
                     "end": 148
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 148,
                     "end": 150
                 },
@@ -803,6 +901,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 152,
                                         "end": 153
                                     },
@@ -815,6 +914,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 154,
                                                 "end": 155
                                             },
@@ -823,6 +923,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 156,
                                                 "end": 158
                                             },
@@ -831,6 +932,7 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 159,
                                                 "end": 161
                                             },
@@ -839,6 +941,7 @@ o = {f([b, a], b=x) {}};
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 162,
                                                     "end": 166
                                                 },
@@ -847,6 +950,7 @@ o = {f([b, a], b=x) {}};
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 166,
                                                     "end": 167
                                                 },
@@ -854,12 +958,14 @@ o = {f([b, a], b=x) {}};
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 34,
+                                                "transformFlags": 4096,
                                                 "start": 162,
                                                 "end": 167
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 98,
+                                        "transformFlags": 0,
                                         "start": 154,
                                         "end": 168
                                     },
@@ -871,36 +977,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 170,
                                             "end": 170
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 168,
                                         "end": 171
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 153,
                                     "end": 171
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 152,
                                 "end": 171
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 152,
                         "end": 171
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 150,
                     "end": 172
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 145,
                 "end": 172
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 145,
             "end": 173
         },
@@ -913,12 +1027,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 173,
                     "end": 176
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 176,
                     "end": 178
                 },
@@ -940,6 +1056,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 180,
                                         "end": 181
                                     },
@@ -957,6 +1074,7 @@ o = {f([b, a], b=x) {}};
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 183,
                                                             "end": 184
                                                         },
@@ -965,16 +1083,19 @@ o = {f([b, a], b=x) {}};
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 185,
                                                             "end": 187
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 183,
                                                     "end": 187
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 182,
                                                 "end": 188
                                             },
@@ -983,12 +1104,14 @@ o = {f([b, a], b=x) {}};
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 189,
                                                 "end": 191
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 182,
                                         "end": 192
                                     },
@@ -1000,36 +1123,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 194,
                                             "end": 194
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 192,
                                         "end": 195
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 181,
                                     "end": 195
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 180,
                                 "end": 195
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 180,
                         "end": 195
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 178,
                     "end": 196
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 173,
                 "end": 196
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 173,
             "end": 197
         },
@@ -1042,12 +1173,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 197,
                     "end": 200
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 200,
                     "end": 202
                 },
@@ -1069,6 +1202,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 204,
                                         "end": 205
                                     },
@@ -1086,6 +1220,7 @@ o = {f([b, a], b=x) {}};
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 207,
                                                             "end": 208
                                                         },
@@ -1094,16 +1229,19 @@ o = {f([b, a], b=x) {}};
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 209,
                                                             "end": 211
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 207,
                                                     "end": 211
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 206,
                                                 "end": 212
                                             },
@@ -1115,6 +1253,7 @@ o = {f([b, a], b=x) {}};
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 213,
                                                     "end": 215
                                                 },
@@ -1125,16 +1264,19 @@ o = {f([b, a], b=x) {}};
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 216,
                                                     "end": 217
                                                 },
                                                 "flags": 34,
+                                                "transformFlags": 4096,
                                                 "start": 213,
                                                 "end": 217
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 34,
+                                        "transformFlags": 0,
                                         "start": 206,
                                         "end": 218
                                     },
@@ -1146,36 +1288,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 220,
                                             "end": 220
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 218,
                                         "end": 221
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 205,
                                     "end": 221
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 204,
                                 "end": 221
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 204,
                         "end": 221
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 202,
                     "end": 222
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 197,
                 "end": 222
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 197,
             "end": 223
         },
@@ -1188,12 +1338,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 223,
                     "end": 226
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 226,
                     "end": 228
                 },
@@ -1215,6 +1367,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 230,
                                         "end": 231
                                     },
@@ -1232,6 +1385,7 @@ o = {f([b, a], b=x) {}};
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 233,
                                                             "end": 234
                                                         },
@@ -1240,16 +1394,19 @@ o = {f([b, a], b=x) {}};
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 235,
                                                             "end": 237
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 233,
                                                     "end": 237
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 232,
                                                 "end": 238
                                             },
@@ -1258,6 +1415,7 @@ o = {f([b, a], b=x) {}};
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 239,
                                                     "end": 243
                                                 },
@@ -1266,6 +1424,7 @@ o = {f([b, a], b=x) {}};
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 243,
                                                     "end": 244
                                                 },
@@ -1273,12 +1432,14 @@ o = {f([b, a], b=x) {}};
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 34,
+                                                "transformFlags": 4096,
                                                 "start": 239,
                                                 "end": 244
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 34,
+                                        "transformFlags": 0,
                                         "start": 232,
                                         "end": 245
                                     },
@@ -1290,36 +1451,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 247,
                                             "end": 247
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 245,
                                         "end": 248
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 231,
                                     "end": 248
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 230,
                                 "end": 248
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 230,
                         "end": 248
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 228,
                     "end": 249
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 223,
                 "end": 249
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 223,
             "end": 250
         },
@@ -1332,12 +1501,14 @@ o = {f([b, a], b=x) {}};
                     "text": "o",
                     "rawText": "o",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 250,
                     "end": 253
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 253,
                     "end": 255
                 },
@@ -1359,6 +1530,7 @@ o = {f([b, a], b=x) {}};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 257,
                                         "end": 258
                                     },
@@ -1376,6 +1548,7 @@ o = {f([b, a], b=x) {}};
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 260,
                                                             "end": 261
                                                         },
@@ -1384,16 +1557,19 @@ o = {f([b, a], b=x) {}};
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 262,
                                                             "end": 264
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 260,
                                                     "end": 264
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 259,
                                                 "end": 265
                                             },
@@ -1405,6 +1581,7 @@ o = {f([b, a], b=x) {}};
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 266,
                                                     "end": 268
                                                 },
@@ -1415,16 +1592,19 @@ o = {f([b, a], b=x) {}};
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 269,
                                                     "end": 270
                                                 },
                                                 "flags": 34,
+                                                "transformFlags": 4096,
                                                 "start": 266,
                                                 "end": 270
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 34,
+                                        "transformFlags": 0,
                                         "start": 259,
                                         "end": 271
                                     },
@@ -1436,36 +1616,44 @@ o = {f([b, a], b=x) {}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 273,
                                             "end": 273
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 271,
                                         "end": 274
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 258,
                                     "end": 274
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 257,
                                 "end": 274
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 257,
                         "end": 274
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 255,
                     "end": 275
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 250,
                 "end": 275
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 250,
             "end": 276
         }
@@ -1474,6 +1662,7 @@ o = {f([b, a], b=x) {}};
     "source": "o = {f(a, a) {}};\n\no = {f(a, b, a) {}};\n\no = {f(b, a, a) {}};\n\no = {f(a, a, b) {}};\n\no = {f(b, a, b, a, [fine]) {}};\n\no = {f(b, a, b, a = x) {}};\n\no = {f(b, a, b, ...a) {}};\n\no = {f([b, a], b) {}};\n\no = {f([b, a], b=x) {}};\n\no = {f([b, a], ...b) {}};\n\no = {f([b, a], b=x) {}};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 276
 }

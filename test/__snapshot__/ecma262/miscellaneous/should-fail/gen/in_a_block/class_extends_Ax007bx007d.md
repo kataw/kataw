@@ -35,6 +35,7 @@
                         "classKeyword": {
                             "kind": 37822544,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
@@ -47,6 +48,7 @@
                                 "extendsKeyword": {
                                     "kind": 4194391,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 15
                                 },
@@ -55,11 +57,13 @@
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
                                 "typeParameter": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
@@ -67,23 +71,28 @@
                                 "kind": 303,
                                 "elements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 18
                             },
                             "flags": 7,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -92,6 +101,7 @@
     "source": "{ class extends A{} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -100,12 +110,9 @@
 ### Printed
 
 ```javascript
-
 {
-  class  extends A {
-  }
+  class extends A {}
 }
-
 ```
 
 ### Diagnostics

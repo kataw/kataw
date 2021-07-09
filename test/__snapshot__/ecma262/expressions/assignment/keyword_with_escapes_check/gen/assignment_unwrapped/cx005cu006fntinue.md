@@ -28,6 +28,7 @@ c\u006fntinue = x;
             "continueKeyword": {
                 "kind": 37757009,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -36,10 +37,12 @@ c\u006fntinue = x;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -50,10 +53,12 @@ c\u006fntinue = x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 18
         }
@@ -62,6 +67,7 @@ c\u006fntinue = x;
     "source": "c\\u006fntinue = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

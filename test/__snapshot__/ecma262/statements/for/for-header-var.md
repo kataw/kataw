@@ -20,6 +20,7 @@ for (var a;;) { let a; }
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (var a;;) { let a; }
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -41,21 +43,25 @@ for (var a;;) { let a; }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -71,6 +77,7 @@ for (var a;;) { let a; }
                             "lexicalKeyword": {
                                 "kind": 41951307,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
@@ -84,34 +91,41 @@ for (var a;;) { let a; }
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 19,
                                         "end": 21
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 22
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 24
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -120,6 +134,7 @@ for (var a;;) { let a; }
     "source": "for (var a;;) { let a; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -128,11 +143,9 @@ for (var a;;) { let a; }
 ### Printed
 
 ```javascript
-
-for (var a;;) {
-  let a;
-}
-
+for (var a; ; ) {
+    let a;
+  }
 ```
 
 ### Diagnostics

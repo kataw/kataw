@@ -22,6 +22,7 @@ class x extends new A() {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x extends new A() {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,6 +43,7 @@ class x extends new A() {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -49,6 +52,7 @@ class x extends new A() {}
                         "newKeyword": {
                             "kind": 138477661,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 19
                         },
@@ -57,6 +61,7 @@ class x extends new A() {}
                             "text": "A",
                             "rawText": "A",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
@@ -65,15 +70,18 @@ class x extends new A() {}
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 22
                         },
                         "flags": 96,
+                        "transformFlags": 2048,
                         "start": 15,
                         "end": 23
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 23
                 },
@@ -81,14 +89,17 @@ class x extends new A() {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -97,6 +108,7 @@ class x extends new A() {}
     "source": "class x extends new A() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -105,10 +117,7 @@ class x extends new A() {}
 ### Printed
 
 ```javascript
-
-class x extends new A() {
-}
-
+class x extends new A() {}
 ```
 
 ### Diagnostics

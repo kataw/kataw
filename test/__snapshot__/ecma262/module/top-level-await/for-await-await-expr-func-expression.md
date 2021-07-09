@@ -45,6 +45,7 @@ for await (let binding of [await function() {}]) {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -58,21 +59,25 @@ for await (let binding of [await function() {}]) {
                             "text": "binding",
                             "rawText": "binding",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -81,12 +86,14 @@ for await (let binding of [await function() {}]) {
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 179
             },
             "awaitKeyword": {
                 "kind": 82196,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 179,
                 "end": 185
             },
@@ -95,12 +102,14 @@ for await (let binding of [await function() {}]) {
                 "text": "binding",
                 "rawText": "binding",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 187,
                 "end": 194
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 194,
                 "end": 197
             },
@@ -114,6 +123,7 @@ for await (let binding of [await function() {}]) {
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 199,
                                 "end": 204
                             },
@@ -123,6 +133,7 @@ for await (let binding of [await function() {}]) {
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 204,
                                     "end": 213
                                 },
@@ -134,6 +145,7 @@ for await (let binding of [await function() {}]) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 214,
                                     "end": 214
                                 },
@@ -144,29 +156,35 @@ for await (let binding of [await function() {}]) {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 217,
                                         "end": 217
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 215,
                                     "end": 218
                                 },
                                 "returnType": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 204,
                                 "end": 218
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 199,
                             "end": 218
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 199,
                     "end": 218
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 197,
                 "end": 219
             },
@@ -182,6 +200,7 @@ for await (let binding of [await function() {}]) {
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 222,
                                     "end": 230
                                 },
@@ -191,6 +210,7 @@ for await (let binding of [await function() {}]) {
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 230,
                                         "end": 239
                                     },
@@ -202,6 +222,7 @@ for await (let binding of [await function() {}]) {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 240,
                                         "end": 240
                                     },
@@ -212,23 +233,28 @@ for await (let binding of [await function() {}]) {
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 243,
                                             "end": 243
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 241,
                                         "end": 244
                                     },
                                     "returnType": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 230,
                                     "end": 244
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 222,
                                 "end": 244
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 222,
                             "end": 245
                         },
@@ -237,24 +263,29 @@ for await (let binding of [await function() {}]) {
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 245,
                                 "end": 253
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 245,
                             "end": 254
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 222,
                     "end": 254
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 220,
                 "end": 256
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 12,
             "end": 256
         },
@@ -263,12 +294,14 @@ for await (let binding of [await function() {}]) {
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 256,
                 "end": 397
             },
             "awaitKeyword": {
                 "kind": 82196,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 397,
                 "end": 403
             },
@@ -277,6 +310,7 @@ for await (let binding of [await function() {}]) {
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 405,
                     "end": 408
                 },
@@ -290,27 +324,32 @@ for await (let binding of [await function() {}]) {
                                 "text": "binding",
                                 "rawText": "binding",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 408,
                                 "end": 416
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 408,
                             "end": 416
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 408,
                     "end": 416
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 256,
                 "end": 419
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 416,
                 "end": 419
             },
@@ -324,6 +363,7 @@ for await (let binding of [await function() {}]) {
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 421,
                                 "end": 426
                             },
@@ -333,6 +373,7 @@ for await (let binding of [await function() {}]) {
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 426,
                                     "end": 435
                                 },
@@ -344,6 +385,7 @@ for await (let binding of [await function() {}]) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 436,
                                     "end": 436
                                 },
@@ -354,29 +396,35 @@ for await (let binding of [await function() {}]) {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 439,
                                         "end": 439
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 437,
                                     "end": 440
                                 },
                                 "returnType": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 426,
                                 "end": 440
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 421,
                             "end": 440
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 421,
                     "end": 440
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 419,
                 "end": 441
             },
@@ -392,6 +440,7 @@ for await (let binding of [await function() {}]) {
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 444,
                                     "end": 452
                                 },
@@ -401,6 +450,7 @@ for await (let binding of [await function() {}]) {
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 452,
                                         "end": 461
                                     },
@@ -412,6 +462,7 @@ for await (let binding of [await function() {}]) {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 462,
                                         "end": 462
                                     },
@@ -422,23 +473,28 @@ for await (let binding of [await function() {}]) {
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 465,
                                             "end": 465
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 463,
                                         "end": 466
                                     },
                                     "returnType": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 452,
                                     "end": 466
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 444,
                                 "end": 466
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 444,
                             "end": 467
                         },
@@ -447,24 +503,29 @@ for await (let binding of [await function() {}]) {
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 467,
                                 "end": 475
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 467,
                             "end": 476
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 444,
                     "end": 476
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 442,
                 "end": 478
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 256,
             "end": 478
         },
@@ -473,12 +534,14 @@ for await (let binding of [await function() {}]) {
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 478,
                 "end": 619
             },
             "awaitKeyword": {
                 "kind": 82196,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 619,
                 "end": 625
             },
@@ -487,6 +550,7 @@ for await (let binding of [await function() {}]) {
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 478,
                     "end": 630
                 },
@@ -500,27 +564,32 @@ for await (let binding of [await function() {}]) {
                                 "text": "binding",
                                 "rawText": "binding",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 630,
                                 "end": 638
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 630,
                             "end": 638
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 630,
                     "end": 638
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 478,
                 "end": 638
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 638,
                 "end": 641
             },
@@ -534,6 +603,7 @@ for await (let binding of [await function() {}]) {
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 643,
                                 "end": 648
                             },
@@ -543,6 +613,7 @@ for await (let binding of [await function() {}]) {
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 648,
                                     "end": 657
                                 },
@@ -554,6 +625,7 @@ for await (let binding of [await function() {}]) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 658,
                                     "end": 658
                                 },
@@ -564,29 +636,35 @@ for await (let binding of [await function() {}]) {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 661,
                                         "end": 661
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 659,
                                     "end": 662
                                 },
                                 "returnType": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 648,
                                 "end": 662
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 643,
                             "end": 662
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 643,
                     "end": 662
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 641,
                 "end": 663
             },
@@ -602,6 +680,7 @@ for await (let binding of [await function() {}]) {
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 666,
                                     "end": 674
                                 },
@@ -611,6 +690,7 @@ for await (let binding of [await function() {}]) {
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 674,
                                         "end": 683
                                     },
@@ -622,6 +702,7 @@ for await (let binding of [await function() {}]) {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 684,
                                         "end": 684
                                     },
@@ -632,23 +713,28 @@ for await (let binding of [await function() {}]) {
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 687,
                                             "end": 687
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 685,
                                         "end": 688
                                     },
                                     "returnType": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 674,
                                     "end": 688
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 666,
                                 "end": 688
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 666,
                             "end": 689
                         },
@@ -657,24 +743,29 @@ for await (let binding of [await function() {}]) {
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 689,
                                 "end": 697
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 689,
                             "end": 698
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 666,
                     "end": 698
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 664,
                 "end": 700
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 478,
             "end": 700
         }
@@ -683,6 +774,7 @@ for await (let binding of [await function() {}]) {
     "source": "var binding;\n\n// [+Await]for await ( [lookahead ≠ let] LeftHandSideExpression[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]\nfor await (binding of [await function() {}]) {\n  await function() {};\n  break;\n}\n\n// [+Await]for await ( var ForBinding[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]\nfor await (var binding of [await function() {}]) {\n  await function() {};\n  break;\n}\n\n// [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]\nfor await (let binding of [await function() {}]) {\n  await function() {};\n  break;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 700
 }
@@ -691,23 +783,21 @@ for await (let binding of [await function() {}]) {
 ### Printed
 
 ```javascript
-
 var binding;
- // [+Await]for await ( [lookahead ≠ let] LeftHandSideExpression[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (binding of [await function () {},]) {
-  await function () {};
-  break;
-}
- // [+Await]for await ( var ForBinding[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (var binding of [await function () {},]) {
-  await function () {};
-  break;
-}
- // [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (let binding of [await function () {},]) {
-  await function () {};
-  break;
-}
+for await (binding of [await function () {}]) {
+    await function () {};
+    break;
+  }
+
+for await (var binding of [await function () {}]) {
+    await function () {};
+    break;
+  }
+
+for await (let binding of [await function () {}]) {
+    await function () {};
+    break;
+  }
 
 ```
 

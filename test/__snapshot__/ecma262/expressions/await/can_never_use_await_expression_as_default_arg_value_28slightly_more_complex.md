@@ -22,6 +22,7 @@ function call(foo= 5 + (await bar())){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function call(foo= 5 + (await bar())){}
                 "text": "call",
                 "rawText": "call",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
@@ -46,6 +48,7 @@ function call(foo= 5 + (await bar())){}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
@@ -58,12 +61,14 @@ function call(foo= 5 + (await bar())){}
                                 "text": 5,
                                 "rawText": "5",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
@@ -73,18 +78,22 @@ function call(foo= 5 + (await bar())){}
                                     "kind": 132,
                                     "expressions": [],
                                     "flags": 32,
+                                    "transformFlags": 1024,
                                     "start": 22,
                                     "end": 29
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 29
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 18,
                             "end": 29
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 29
                     },
@@ -93,12 +102,14 @@ function call(foo= 5 + (await bar())){}
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 33
             },
@@ -109,15 +120,18 @@ function call(foo= 5 + (await bar())){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         },
@@ -128,10 +142,12 @@ function call(foo= 5 + (await bar())){}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 33,
             "end": 35
         },
@@ -141,10 +157,12 @@ function call(foo= 5 + (await bar())){}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 37,
             "end": 39
         }
@@ -153,6 +171,7 @@ function call(foo= 5 + (await bar())){}
     "source": "function call(foo= 5 + (await bar())){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

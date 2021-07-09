@@ -30,12 +30,14 @@ a = ((b)) = c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -50,20 +52,24 @@ a = ((b)) = c;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
-                            "flags": 32,
-                            "start": 5,
+                            "flags": 5,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 8
                         },
-                        "flags": 32,
-                        "start": 3,
+                        "flags": 3,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
@@ -72,18 +78,22 @@ a = ((b)) = c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -92,6 +102,7 @@ a = ((b)) = c;
     "source": "a = ((b)) = c;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -100,9 +111,7 @@ a = ((b)) = c;
 ### Printed
 
 ```javascript
-
 a = ((b)) = c;
-
 ```
 
 ### Diagnostics

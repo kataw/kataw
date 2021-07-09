@@ -29,6 +29,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,21 +43,25 @@ var await; var f = (async function() { (function call(foo=await){}) });
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -66,6 +71,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -79,6 +85,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
@@ -90,12 +97,14 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 25
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 34
                                 },
@@ -107,6 +116,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 35
                                 },
@@ -126,6 +136,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                         "functionKeyword": {
                                                             "kind": 37822554,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 40,
                                                             "end": 48
                                                         },
@@ -135,6 +146,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                             "text": "call",
                                                             "rawText": "call",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 48,
                                                             "end": 53
                                                         },
@@ -150,6 +162,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 54,
                                                                         "end": 57
                                                                     },
@@ -160,16 +173,19 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                                         "text": "await",
                                                                         "rawText": "await",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 58,
                                                                         "end": 63
                                                                     },
                                                                     "flags": 34,
+                                                                    "transformFlags": 4096,
                                                                     "start": 54,
                                                                     "end": 63
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 34,
+                                                            "transformFlags": 0,
                                                             "start": 54,
                                                             "end": 63
                                                         },
@@ -180,54 +196,66 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                                 "directives": [],
                                                                 "statements": [],
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 65,
                                                                 "end": 65
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 64,
                                                             "end": 66
                                                         },
                                                         "returnType": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 40,
                                                         "end": 66
                                                     },
-                                                    "flags": 32,
-                                                    "start": 38,
+                                                    "flags": 38,
+                                                    "transformFlags": 0,
+                                                    "start": 32,
                                                     "end": 67
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 38,
                                                 "end": 67
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 67
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 69
                                 },
                                 "returnType": null,
                                 "flags": 160,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 69
                             },
-                            "flags": 32,
-                            "start": 18,
+                            "flags": 18,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 70
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 70
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 70
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 71
         }
@@ -236,6 +264,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
     "source": "var await; var f = (async function() { (function call(foo=await){}) });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }
@@ -244,11 +273,10 @@ var await; var f = (async function() { (function call(foo=await){}) });
 ### Printed
 
 ```javascript
-
 var await;
 var f = (async function () {
-  (function call(foo = await) {});
-});
+    (function call(foo = await) {});
+  });
 
 ```
 

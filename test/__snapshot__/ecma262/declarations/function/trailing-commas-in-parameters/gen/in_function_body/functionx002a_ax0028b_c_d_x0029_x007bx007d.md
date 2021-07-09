@@ -30,6 +30,7 @@ function foo() {function* a(b,c,d,) {}}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function foo() {function* a(b,c,d,) {}}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -48,6 +50,7 @@ function foo() {function* a(b,c,d,) {}}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -64,12 +67,14 @@ function foo() {function* a(b,c,d,) {}}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 24
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 24,
                                 "end": 25
                             },
@@ -78,6 +83,7 @@ function foo() {function* a(b,c,d,) {}}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
@@ -90,6 +96,7 @@ function foo() {function* a(b,c,d,) {}}
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 29
                                     },
@@ -98,6 +105,7 @@ function foo() {function* a(b,c,d,) {}}
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 31
                                     },
@@ -106,12 +114,14 @@ function foo() {function* a(b,c,d,) {}}
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 33
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 34
                             },
@@ -122,29 +132,35 @@ function foo() {function* a(b,c,d,) {}}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 37
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 38
                             },
                             "returnType": null,
                             "flags": 272,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 38
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 38
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 39
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -153,6 +169,7 @@ function foo() {function* a(b,c,d,) {}}
     "source": "function foo() {function* a(b,c,d,) {}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }
@@ -161,11 +178,9 @@ function foo() {function* a(b,c,d,) {}}
 ### Printed
 
 ```javascript
-
 function foo() {
-  function * a(b, c, d,) {}
+  function *a(b, c, d) {}
 }
-
 ```
 
 ### Diagnostics

@@ -27,6 +27,7 @@ const bifornCringerMoshedPerplexSawder = // !!!
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -40,6 +41,7 @@ const bifornCringerMoshedPerplexSawder = // !!!
                             "text": "kochabCooieGameOnOboleUnweave",
                             "rawText": "kochabCooieGameOnOboleUnweave",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 35
                         },
@@ -49,19 +51,23 @@ const bifornCringerMoshedPerplexSawder = // !!!
                             "text": "annularCooeedSplicesWalksWayWay",
                             "rawText": "annularCooeedSplicesWalksWayWay",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 82
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 82
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 82
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 83
         },
@@ -70,6 +76,7 @@ const bifornCringerMoshedPerplexSawder = // !!!
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 83,
                 "end": 90
             },
@@ -83,6 +90,7 @@ const bifornCringerMoshedPerplexSawder = // !!!
                             "text": "bifornCringerMoshedPerplexSawder",
                             "rawText": "bifornCringerMoshedPerplexSawder",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 90,
                             "end": 123
                         },
@@ -94,12 +102,14 @@ const bifornCringerMoshedPerplexSawder = // !!!
                                 "text": "glimseGlyphsHazardNoopsTieTie",
                                 "rawText": "glimseGlyphsHazardNoopsTieTie",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 125,
                                 "end": 164
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 164,
                                 "end": 166
                             },
@@ -110,12 +120,14 @@ const bifornCringerMoshedPerplexSawder = // !!!
                                     "text": "averredBathersBoxroomBuggyNurl",
                                     "rawText": "averredBathersBoxroomBuggyNurl",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 166,
                                     "end": 199
                                 },
                                 "operatorToken": {
                                     "kind": 134318643,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 199,
                                     "end": 201
                                 },
@@ -124,27 +136,33 @@ const bifornCringerMoshedPerplexSawder = // !!!
                                     "text": "anodyneCondosMalateOverateRetinol",
                                     "rawText": "anodyneCondosMalateOverateRetinol",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 201,
                                     "end": 237
                                 },
                                 "flags": 97,
+                                "transformFlags": 5120,
                                 "start": 199,
                                 "end": 237
                             },
                             "flags": 97,
+                            "transformFlags": 5120,
                             "start": 125,
                             "end": 237
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 90,
                         "end": 237
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 237
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 83,
             "end": 238
         }
@@ -153,6 +171,7 @@ const bifornCringerMoshedPerplexSawder = // !!!
     "source": "const kochabCooieGameOnOboleUnweave = // ???\n      annularCooeedSplicesWalksWayWay;\n\nconst bifornCringerMoshedPerplexSawder = // !!!\n  glimseGlyphsHazardNoopsTieTie +\n  averredBathersBoxroomBuggyNurl -\n  anodyneCondosMalateOverateRetinol;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 239
 }
@@ -161,11 +180,11 @@ const bifornCringerMoshedPerplexSawder = // !!!
 ### Printed
 
 ```javascript
-
-const kochabCooieGameOnOboleUnweave =// ???
- annularCooeedSplicesWalksWayWay;
-const bifornCringerMoshedPerplexSawder =// !!!
- glimseGlyphsHazardNoopsTieTie + averredBathersBoxroomBuggyNurl - anodyneCondosMalateOverateRetinol;
+const kochabCooieGameOnOboleUnweave = annularCooeedSplicesWalksWayWay;
+const bifornCringerMoshedPerplexSawder =
+    glimseGlyphsHazardNoopsTieTie +
+    averredBathersBoxroomBuggyNurl - anodyneCondosMalateOverateRetinol
+  ;
 
 ```
 

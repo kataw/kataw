@@ -37,6 +37,7 @@ var v = {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -50,6 +51,7 @@ var v = {
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -67,6 +69,7 @@ var v = {
                                             "text": "prop",
                                             "rawText": "prop",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 27
                                         },
@@ -75,10 +78,12 @@ var v = {
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 30
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 9,
                                         "end": 30
                                     },
@@ -90,6 +95,7 @@ var v = {
                                             "text": "func",
                                             "rawText": "func",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 86,
                                             "end": 104
                                         },
@@ -99,6 +105,7 @@ var v = {
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 105,
                                                 "end": 114
                                             },
@@ -110,6 +117,7 @@ var v = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 116,
                                                 "end": 116
                                             },
@@ -120,19 +128,23 @@ var v = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 33,
+                                                    "transformFlags": 0,
                                                     "start": 119,
                                                     "end": 119
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 117,
                                                 "end": 122
                                             },
                                             "returnType": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 105,
                                             "end": 122
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 86,
                                         "end": 122
                                     },
@@ -149,6 +161,7 @@ var v = {
                                                 "text": "func1",
                                                 "rawText": "func1",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 123,
                                                 "end": 162
                                             },
@@ -158,6 +171,7 @@ var v = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 163,
                                                 "end": 164
                                             },
@@ -169,18 +183,22 @@ var v = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 166,
                                                     "end": 166
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 164,
                                                 "end": 168
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 162,
                                             "end": 168
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 123,
                                         "end": 168
                                     },
@@ -191,6 +209,7 @@ var v = {
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 169,
                                             "end": 184
                                         },
@@ -202,6 +221,7 @@ var v = {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 184,
                                                 "end": 186
                                             },
@@ -211,6 +231,7 @@ var v = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1057,
+                                                "transformFlags": 0,
                                                 "start": 187,
                                                 "end": 188
                                             },
@@ -226,6 +247,7 @@ var v = {
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
                                                                 "flags": 81,
+                                                                "transformFlags": 0,
                                                                 "start": 190,
                                                                 "end": 199
                                                             },
@@ -234,6 +256,7 @@ var v = {
                                                                 "member": {
                                                                     "kind": 4276321,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 199,
                                                                     "end": 204
                                                                 },
@@ -242,31 +265,38 @@ var v = {
                                                                     "text": "prop",
                                                                     "rawText": "prop",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 205,
                                                                     "end": 209
                                                                 },
                                                                 "flags": 96,
+                                                                "transformFlags": 2,
                                                                 "start": 199,
                                                                 "end": 209
                                                             },
                                                             "flags": 81,
+                                                            "transformFlags": 256,
                                                             "start": 190,
                                                             "end": 210
                                                         }
                                                     ],
                                                     "flags": 33,
+                                                    "transformFlags": 0,
                                                     "start": 190,
                                                     "end": 210
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 188,
                                                 "end": 213
                                             },
                                             "flags": 1057,
+                                            "transformFlags": 0,
                                             "start": 186,
                                             "end": 213
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 169,
                                         "end": 213
                                     },
@@ -278,6 +308,7 @@ var v = {
                                         "setKeyword": {
                                             "kind": 16499,
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 229,
                                             "end": 244
                                         },
@@ -288,6 +319,7 @@ var v = {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 244,
                                                 "end": 246
                                             },
@@ -300,12 +332,14 @@ var v = {
                                                         "text": "value",
                                                         "rawText": "value",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 247,
                                                         "end": 252
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 609,
+                                                "transformFlags": 0,
                                                 "start": 247,
                                                 "end": 253
                                             },
@@ -325,6 +359,7 @@ var v = {
                                                                     "member": {
                                                                         "kind": 4276321,
                                                                         "flags": 97,
+                                                                        "transformFlags": 0,
                                                                         "start": 255,
                                                                         "end": 262
                                                                     },
@@ -333,16 +368,19 @@ var v = {
                                                                         "text": "prop",
                                                                         "rawText": "prop",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 263,
                                                                         "end": 267
                                                                     },
                                                                     "flags": 97,
+                                                                    "transformFlags": 2,
                                                                     "start": 255,
                                                                     "end": 267
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 267,
                                                                     "end": 269
                                                                 },
@@ -351,54 +389,66 @@ var v = {
                                                                     "text": "value",
                                                                     "rawText": "value",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 269,
                                                                     "end": 275
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 0,
+                                                                "transformFlags": 128,
                                                                 "start": 255,
                                                                 "end": 275
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4096,
                                                             "start": 255,
                                                             "end": 276
                                                         }
                                                     ],
                                                     "flags": 33,
+                                                    "transformFlags": 0,
                                                     "start": 255,
                                                     "end": 276
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 253,
                                                 "end": 279
                                             },
                                             "flags": 545,
+                                            "transformFlags": 0,
                                             "start": 246,
                                             "end": 279
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 229,
                                         "end": 279
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 279
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 295
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 295
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 295
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 296
         }
@@ -407,6 +457,7 @@ var v = {
     "source": "var v = {\n //property\n prop: 1 /* multiple trailing comments */ /*trailing comments*/,\n //property\n func: function () {\n },\n //PropertyName + CallSignature\n func1() { },\n //getter\n get a() {\n  return this.prop;\n } /*trailing 1*/,\n //setter\n set a(value) {\n  this.prop = value;\n } // trailing 2\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 296
 }
@@ -415,26 +466,17 @@ var v = {
 ### Printed
 
 ```javascript
-
 var v = {
-   //property
-  prop : 1/* multiple trailing comments */ /*trailing comments*/,
-   //property
-  func : function () {
-  },
-   //PropertyName + CallSignature
-   //PropertyName + CallSignature
+  prop: 1,
+  func: function () {},
   func1() {},
-   //getter
   get a() {
     return this.prop;
-  }/*trailing 1*/,
-   //setter
+  },
   set a(value) {
     this.prop = value;
-  }// trailing 2
+  }
 };
-
 ```
 
 ### Diagnostics

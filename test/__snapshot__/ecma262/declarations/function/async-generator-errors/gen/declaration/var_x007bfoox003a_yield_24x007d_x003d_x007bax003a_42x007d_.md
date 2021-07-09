@@ -30,18 +30,21 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -50,6 +53,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -59,6 +63,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -74,6 +79,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
@@ -94,6 +100,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 29,
                                                             "end": 32
                                                         },
@@ -102,11 +109,13 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                                             "text": "yield",
                                                             "rawText": "yield",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 39
                                                         },
                                                         "initializer": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 39
                                                     },
@@ -117,6 +126,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                                             "text": 24,
                                                             "rawText": "24",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 39,
                                                             "end": 42
                                                         },
@@ -125,21 +135,25 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                                             "text": "",
                                                             "rawText": "",
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 42,
                                                             "end": 42
                                                         },
                                                         "initializer": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 39,
                                                         "end": 42
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 42
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 43
                                         },
@@ -157,6 +171,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 47,
                                                             "end": 48
                                                         },
@@ -165,47 +180,57 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                                             "text": 42,
                                                             "rawText": "42",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 49,
                                                             "end": 52
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 47,
                                                         "end": 52
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 52
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 45,
                                             "end": 53
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 27,
                                         "end": 53
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 53
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 54
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 55
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 55
         }
@@ -214,6 +239,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
     "source": "async function * gen() {var {foo: yield 24} = {a: 42};}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }

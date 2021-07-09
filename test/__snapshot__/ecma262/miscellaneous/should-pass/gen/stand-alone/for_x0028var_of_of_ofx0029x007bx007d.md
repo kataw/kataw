@@ -28,6 +28,7 @@ for (var of of of){}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,6 +38,7 @@ for (var of of of){}
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -50,27 +52,32 @@ for (var of of of){}
                                 "text": "of",
                                 "rawText": "of",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 11
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
@@ -79,6 +86,7 @@ for (var of of of){}
                 "text": "of",
                 "rawText": "of",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
@@ -88,14 +96,17 @@ for (var of of of){}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -104,6 +115,7 @@ for (var of of of){}
     "source": "for (var of of of){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -112,9 +124,7 @@ for (var of of of){}
 ### Printed
 
 ```javascript
-
-for (var of of of) { }
-
+for (var of of of) {}
 ```
 
 ### Diagnostics

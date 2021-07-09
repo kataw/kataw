@@ -30,6 +30,7 @@ delete x => ok
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -42,6 +43,7 @@ delete x => ok
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -49,6 +51,7 @@ delete x => ok
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 11
                     },
@@ -57,18 +60,22 @@ delete x => ok
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -77,6 +84,7 @@ delete x => ok
     "source": "delete x => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -85,9 +93,7 @@ delete x => ok
 ### Printed
 
 ```javascript
-
 delete x => ok;
-
 ```
 
 ### Diagnostics

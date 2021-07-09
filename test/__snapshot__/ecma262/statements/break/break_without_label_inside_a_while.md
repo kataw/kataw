@@ -20,6 +20,7 @@ while (x) break
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -28,6 +29,7 @@ while (x) break
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -36,15 +38,18 @@ while (x) break
                 "breakKeyword": {
                     "kind": 37757005,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
                 "label": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -53,6 +58,7 @@ while (x) break
     "source": "while (x) break",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -61,10 +67,7 @@ while (x) break
 ### Printed
 
 ```javascript
-
-while (x)
-  break;
-
+while (x) break;
 ```
 
 ### Diagnostics

@@ -39,6 +39,7 @@ for (function(){ a in b; };;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ for (function(){ a in b; };;);
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 13
                 },
@@ -59,6 +61,7 @@ for (function(){ a in b; };;);
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
@@ -77,12 +80,14 @@ for (function(){ a in b; };;);
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     },
                                     "operatorToken": {
                                         "kind": 21006388,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 21
                                     },
@@ -91,28 +96,34 @@ for (function(){ a in b; };;);
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 23
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 16,
                                     "end": 23
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 16,
                                 "end": 24
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 24
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 26
                 },
                 "returnType": null,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 26
             },
@@ -121,10 +132,12 @@ for (function(){ a in b; };;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 30
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -133,6 +146,7 @@ for (function(){ a in b; };;);
     "source": "for (function(){ a in b; };;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -141,12 +155,9 @@ for (function(){ a in b; };;);
 ### Printed
 
 ```javascript
-
 for (function () {
-  a in b;
-};;)
-  ;
-
+    a in b;
+  }; ; );
 ```
 
 ### Diagnostics

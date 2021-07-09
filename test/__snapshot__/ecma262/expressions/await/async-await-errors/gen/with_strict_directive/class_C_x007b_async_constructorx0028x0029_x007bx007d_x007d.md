@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,6 +40,7 @@
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -47,6 +49,7 @@
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
@@ -65,6 +68,7 @@
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 29
                             },
@@ -78,6 +82,7 @@
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 41
                                 },
@@ -87,6 +92,7 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2304,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 43
                                 },
@@ -98,31 +104,38 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 45
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 46
                                 },
                                 "flags": 2304,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 46
                             },
                             "flags": 2304,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 46
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 46
                 },
                 "flags": 21,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 48
         }
@@ -131,6 +144,7 @@
     "source": "'use strict'; class C { async constructor() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

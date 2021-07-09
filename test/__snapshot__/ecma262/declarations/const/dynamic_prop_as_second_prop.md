@@ -39,6 +39,7 @@ const {a, [x]: y} = a;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -57,6 +58,7 @@ const {a, [x]: y} = a;
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 8
                                     },
@@ -69,10 +71,12 @@ const {a, [x]: y} = a;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 12
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 13
                                         },
@@ -81,21 +85,25 @@ const {a, [x]: y} = a;
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 16
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 17
                         },
@@ -105,19 +113,23 @@ const {a, [x]: y} = a;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 21
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 21
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -126,6 +138,7 @@ const {a, [x]: y} = a;
     "source": "const {a, [x]: y} = a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -134,12 +147,7 @@ const {a, [x]: y} = a;
 ### Printed
 
 ```javascript
-
-const {
-  a,
-  [x]: y
-} = a;
-
+const { a, [x]: y } = a;
 ```
 
 ### Diagnostics

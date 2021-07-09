@@ -29,6 +29,7 @@
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 4
                             },
@@ -37,22 +38,26 @@
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -61,14 +66,17 @@
                     "text": "arr",
                     "rawText": "arr",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -77,6 +85,7 @@
     "source": "[foo, bar] = arr;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -85,9 +94,7 @@
 ### Printed
 
 ```javascript
-
-[foo, bar,] = arr;
-
+[foo, bar] = arr;
 ```
 
 ### Diagnostics

@@ -40,12 +40,14 @@
                                     "text": "interface",
                                     "rawText": "interface",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 10
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 11
                         },
@@ -53,6 +55,7 @@
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 14
                         },
@@ -66,6 +69,7 @@
                                         "text": "use strict",
                                         "rawText": "'use strict'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 29
                                     }
@@ -78,23 +82,28 @@
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 32
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4096,
                                         "start": 30,
                                         "end": 32
                                     }
                                 ],
                                 "flags": 4194336,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 32
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 34
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 34
                     },
@@ -103,15 +112,18 @@
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 40
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 41
         }
@@ -120,6 +132,7 @@
     "source": "(interface) => { 'use strict'; 0 } , bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }
@@ -128,12 +141,11 @@
 ### Printed
 
 ```javascript
-
 (interface) => {
-'\'use strict\'';
+
+  "'use strict'";
   0;
 }, bar;
-
 ```
 
 ### Diagnostics

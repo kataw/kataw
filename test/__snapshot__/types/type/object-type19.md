@@ -29,6 +29,7 @@ type a = {get foo():string};
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = {get foo():string};
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = {get foo():string};
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -61,6 +64,7 @@ type a = {get foo():string};
                             "getKeyword": {
                                 "kind": 16498,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
@@ -70,6 +74,7 @@ type a = {get foo():string};
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 17
                             },
@@ -81,6 +86,7 @@ type a = {get foo():string};
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 18
                                 },
@@ -91,33 +97,40 @@ type a = {get foo():string};
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 26
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 26
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 26
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 27
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 27
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -126,6 +139,7 @@ type a = {get foo():string};
     "source": "type a = {get foo():string};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -134,9 +148,7 @@ type a = {get foo():string};
 ### Printed
 
 ```javascript
-
 type a = { foo(): string }
-
 ```
 
 ### Diagnostics

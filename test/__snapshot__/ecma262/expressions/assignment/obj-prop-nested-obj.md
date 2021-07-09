@@ -30,12 +30,14 @@ result = { x: { y } } = { x: { y: 2 } };
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -54,6 +56,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
                                     },
@@ -67,36 +70,43 @@ result = { x: { y } } = { x: { y: 2 } };
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 17
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 13,
                                         "end": 19
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 10,
                                     "end": 19
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 19
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 8,
                         "end": 21
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 23
                     },
@@ -113,6 +123,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 27
                                     },
@@ -129,6 +140,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 32
                                                     },
@@ -137,46 +149,56 @@ result = { x: { y } } = { x: { y: 2 } };
                                                         "text": 2,
                                                         "rawText": "2",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 33,
                                                         "end": 35
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 30,
                                                     "end": 35
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 35
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 28,
                                         "end": 37
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 25,
                                     "end": 37
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 37
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 23,
                         "end": 39
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 8,
                     "end": 39
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 40
         }
@@ -185,6 +207,7 @@ result = { x: { y } } = { x: { y: 2 } };
     "source": "result = { x: { y } } = { x: { y: 2 } };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -193,9 +216,7 @@ result = { x: { y } } = { x: { y: 2 } };
 ### Printed
 
 ```javascript
-
-result = { x : { y } } = { x : { y : 2 } };
-
+result = { x: { y } } = { x: { y: 2 } };
 ```
 
 ### Diagnostics

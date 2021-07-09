@@ -22,12 +22,14 @@ function *g(){ (x = {[yield]: 1}) => z }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -71,6 +75,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 17
                                             },
@@ -91,6 +96,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 22,
                                                                         "end": 27
                                                                     },
@@ -98,10 +104,12 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
+                                                                    "transformFlags": 4096,
                                                                     "start": 22,
                                                                     "end": 27
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 21,
                                                                 "end": 28
                                                             },
@@ -110,30 +118,36 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 29,
                                                                 "end": 31
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 128,
                                                             "start": 21,
                                                             "end": 31
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 31
                                                 },
                                                 "flags": 48,
+                                                "transformFlags": 8,
                                                 "start": 19,
                                                 "end": 32
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 14,
                                             "end": 32
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 33
                                 },
@@ -141,6 +155,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 36
                                 },
@@ -149,28 +164,34 @@ function *g(){ (x = {[yield]: 1}) => z }
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 38
                                 },
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 38
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 38
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 38
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 40
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -179,6 +200,7 @@ function *g(){ (x = {[yield]: 1}) => z }
     "source": "function *g(){ (x = {[yield]: 1}) => z }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -187,11 +209,9 @@ function *g(){ (x = {[yield]: 1}) => z }
 ### Printed
 
 ```javascript
-
-function * g() {
-  (x = { [yield ] : 1 }) => z;
+function *g() {
+  (x = { [yield ]: 1 }) => z;
 }
-
 ```
 
 ### Diagnostics

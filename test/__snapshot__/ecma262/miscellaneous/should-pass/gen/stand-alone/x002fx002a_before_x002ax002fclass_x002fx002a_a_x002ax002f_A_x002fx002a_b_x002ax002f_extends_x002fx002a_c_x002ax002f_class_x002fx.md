@@ -30,6 +30,7 @@
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
@@ -38,6 +39,7 @@
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 27
             },
@@ -49,6 +51,7 @@
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 43
                     },
@@ -58,6 +61,7 @@
                         "classKeyword": {
                             "kind": 37822544,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 43,
                             "end": 57
                         },
@@ -66,6 +70,7 @@
                             "text": "B",
                             "rawText": "B",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 57,
                             "end": 67
                         },
@@ -77,19 +82,23 @@
                                 "kind": 303,
                                 "elements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 77
                             },
                             "flags": 67,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 87
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 43,
                         "end": 87
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 87
                 },
@@ -97,14 +106,17 @@
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 97,
                     "end": 97
                 },
                 "flags": 27,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 107
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 107
         }
@@ -113,6 +125,7 @@
     "source": "/* before */class /* a */ A /* b */ extends /* c */ class /* d */ B /* e */ { /* f */ } /* g */ { /* h */ }/* after */",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 118
 }
@@ -121,11 +134,7 @@
 ### Printed
 
 ```javascript
-/* before */
-class/* a */ A/* b */ extends/* c */ class/* d */ B/* e */ {
-} /* g */{
-}/* after */
-
+class A extends class B {} {}
 ```
 
 ### Diagnostics

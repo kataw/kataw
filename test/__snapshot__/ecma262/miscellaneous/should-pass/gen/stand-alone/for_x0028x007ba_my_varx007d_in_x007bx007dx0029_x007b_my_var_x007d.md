@@ -28,6 +28,7 @@ for ({a, my_var} in {}) { my_var; }
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ for ({a, my_var} in {}) { my_var; }
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         },
@@ -49,22 +51,26 @@ for ({a, my_var} in {}) { my_var; }
                             "text": "my_var",
                             "rawText": "my_var",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 15
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 16
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
@@ -75,10 +81,12 @@ for ({a, my_var} in {}) { my_var; }
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 19,
                 "end": 22
             },
@@ -94,23 +102,28 @@ for ({a, my_var} in {}) { my_var; }
                                 "text": "my_var",
                                 "rawText": "my_var",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 32
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 25,
                             "end": 33
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 33
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 35
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -119,6 +132,7 @@ for ({a, my_var} in {}) { my_var; }
     "source": "for ({a, my_var} in {}) { my_var; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -127,11 +141,9 @@ for ({a, my_var} in {}) { my_var; }
 ### Printed
 
 ```javascript
-
 for ({ a, my_var } in {}) {
-  my_var;
-}
-
+    my_var;
+  }
 ```
 
 ### Diagnostics

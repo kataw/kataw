@@ -28,6 +28,7 @@ do false
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,10 +37,12 @@ do false
                 "expression": {
                     "kind": 205586437,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 8
             },
@@ -49,10 +52,12 @@ do false
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -61,6 +66,7 @@ do false
     "source": "do false",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

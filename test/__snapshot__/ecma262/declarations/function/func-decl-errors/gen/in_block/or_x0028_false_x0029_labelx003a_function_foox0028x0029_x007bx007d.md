@@ -37,6 +37,7 @@
                                 "text": "or",
                                 "rawText": "or",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 3
                             },
@@ -45,14 +46,17 @@
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 5
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 1,
                             "end": 5
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 6
                     },
@@ -61,19 +65,23 @@
                         "expression": {
                             "kind": 205586437,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 6,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -84,12 +92,14 @@
                 "text": "label",
                 "rawText": "label",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
@@ -100,6 +110,7 @@
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 29
                 },
@@ -109,6 +120,7 @@
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 33
                 },
@@ -118,6 +130,7 @@
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 34
                 },
@@ -128,19 +141,23 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 37
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 38
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 38
         }
@@ -149,6 +166,7 @@
     "source": "{or (;false;) label: function foo() {}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

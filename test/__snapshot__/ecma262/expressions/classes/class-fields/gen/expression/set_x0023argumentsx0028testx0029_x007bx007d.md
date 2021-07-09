@@ -30,6 +30,7 @@ class C extends Base { set #arguments(test) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C extends Base { set #arguments(test) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class C extends Base { set #arguments(test) {} }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -57,11 +60,13 @@ class C extends Base { set #arguments(test) {} }
                         "text": "Base",
                         "rawText": "Base",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
@@ -78,6 +83,7 @@ class C extends Base { set #arguments(test) {} }
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 26
                             },
@@ -89,6 +95,7 @@ class C extends Base { set #arguments(test) {} }
                                     "text": "#arguments",
                                     "rawText": "#arguments",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 37
                                 },
@@ -101,12 +108,14 @@ class C extends Base { set #arguments(test) {} }
                                             "text": "test",
                                             "rawText": "test",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 42
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 43
                                 },
@@ -118,31 +127,38 @@ class C extends Base { set #arguments(test) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 45
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 46
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 46
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 46
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 46
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         }
@@ -151,6 +167,7 @@ class C extends Base { set #arguments(test) {} }
     "source": "class C extends Base { set #arguments(test) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }
@@ -159,11 +176,9 @@ class C extends Base { set #arguments(test) {} }
 ### Printed
 
 ```javascript
-
 class C extends Base {
   set #arguments(test) {}
 }
-
 ```
 
 ### Diagnostics

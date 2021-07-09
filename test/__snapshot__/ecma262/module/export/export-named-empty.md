@@ -26,6 +26,7 @@ export {};
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,10 +37,12 @@ export {};
                     "kind": 289,
                     "specifiers": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
@@ -47,6 +50,7 @@ export {};
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -55,6 +59,7 @@ export {};
     "source": "export {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -63,9 +68,7 @@ export {};
 ### Printed
 
 ```javascript
-
-export { };
-
+export {};
 ```
 
 ### Diagnostics

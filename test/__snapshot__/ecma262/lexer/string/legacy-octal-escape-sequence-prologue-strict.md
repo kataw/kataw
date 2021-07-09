@@ -28,6 +28,7 @@
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     },
@@ -39,6 +40,7 @@
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
@@ -52,6 +54,7 @@
                                     "text": "use strict",
                                     "rawText": "\"use strict\"",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 48
                                 }
@@ -64,32 +67,39 @@
                                         "text": "asterisk: \u000052",
                                         "rawText": "\"asterisk: \\052\"",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 32
                                     },
                                     "flags": 16,
+                                    "transformFlags": 4096,
                                     "start": 13,
                                     "end": 33
                                 }
                             ],
                             "flags": 33,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 49
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 51
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 51
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 53
         }
@@ -98,6 +108,7 @@
     "source": "(function() {\n  \"asterisk: \\052\";\n  \"use strict\";\n});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }
@@ -106,12 +117,11 @@
 ### Printed
 
 ```javascript
-
 (function () {
-'"use strict"';
-  '"asterisk: \052"';
-});
 
+    "\"use strict\"";
+    "\"asterisk: \052\"";
+  });
 ```
 
 ### Diagnostics

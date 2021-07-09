@@ -28,6 +28,7 @@ for (let x = 42 in list) process(x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for (let x = 42 in list) process(x);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -49,6 +51,7 @@ for (let x = 42 in list) process(x);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
@@ -58,25 +61,30 @@ for (let x = 42 in list) process(x);
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 15
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 15
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 15
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
@@ -85,6 +93,7 @@ for (let x = 42 in list) process(x);
                 "text": "list",
                 "rawText": "list",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 23
             },
@@ -97,6 +106,7 @@ for (let x = 42 in list) process(x);
                         "text": "process",
                         "rawText": "process",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 32
                     },
@@ -108,24 +118,29 @@ for (let x = 42 in list) process(x);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 34
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 34
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 24,
                     "end": 35
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 24,
                 "end": 36
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -134,6 +149,7 @@ for (let x = 42 in list) process(x);
     "source": "for (let x = 42 in list) process(x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

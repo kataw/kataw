@@ -21,10 +21,12 @@
                 "kind": 371,
                 "text": "/++!{class",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 2,
             "end": 12
         }
@@ -33,6 +35,7 @@
     "source": ")=/++!{class",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

@@ -30,6 +30,7 @@ class x {static async implements(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {static async implements(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -55,12 +57,14 @@ class x {static async implements(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -74,6 +78,7 @@ class x {static async implements(){}}
                                     "text": "implements",
                                     "rawText": "implements",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 32
                                 },
@@ -83,6 +88,7 @@ class x {static async implements(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 34
                                 },
@@ -94,31 +100,38 @@ class x {static async implements(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 35
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 36
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 36
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 36
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -127,6 +140,7 @@ class x {static async implements(){}}
     "source": "class x {static async implements(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -135,11 +149,9 @@ class x {static async implements(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async implements() {}
 }
-
 ```
 
 ### Diagnostics

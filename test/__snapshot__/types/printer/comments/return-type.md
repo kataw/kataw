@@ -33,6 +33,7 @@ function f(
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -42,6 +43,7 @@ function f(
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -57,6 +59,7 @@ function f(
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 15
                         },
@@ -68,21 +71,25 @@ function f(
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 23
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 23
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 23
                     }
                 ],
                 "trailingComma": true,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 24
             },
@@ -97,6 +104,7 @@ function f(
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 57,
                                 "end": 66
                             },
@@ -107,12 +115,14 @@ function f(
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 68
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 68,
                                     "end": 70
                                 },
@@ -121,23 +131,28 @@ function f(
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 72
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 66,
                                 "end": 72
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 57,
                             "end": 73
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 57,
                     "end": 73
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 75
             },
@@ -148,14 +163,17 @@ function f(
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 48,
                     "end": 55
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 75
         }
@@ -164,6 +182,7 @@ function f(
     "source": "function f(\n  a: number,\n// some comment here\n): number {\n  return a + 1;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 75
 }
@@ -172,15 +191,9 @@ function f(
 ### Printed
 
 ```javascript
-
-function f(a: number,
-   // some comment here
-)
- // some comment here
-: number {
+function f(a: number): number {
   return a + 1;
 }
-
 ```
 
 ### Diagnostics

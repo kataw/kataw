@@ -28,20 +28,24 @@ import.m\u0065ta;
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "metaIdentifier": {
                     "kind": 16595,
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 16
                 },
                 "flags": 6,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -50,6 +54,7 @@ import.m\u0065ta;
     "source": "import.m\\u0065ta;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

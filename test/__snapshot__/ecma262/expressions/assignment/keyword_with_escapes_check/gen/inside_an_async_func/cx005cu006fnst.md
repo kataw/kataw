@@ -30,6 +30,7 @@ async () => {  c\u006fnst = x  }
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -39,6 +40,7 @@ async () => {  c\u006fnst = x  }
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -46,6 +48,7 @@ async () => {  c\u006fnst = x  }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -60,6 +63,7 @@ async () => {  c\u006fnst = x  }
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 16464,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 25
                                 },
@@ -67,27 +71,33 @@ async () => {  c\u006fnst = x  }
                                     "kind": 151,
                                     "bindingList": [],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 25
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 25
                             }
                         ],
                         "flags": 16416,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 25
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         },
@@ -98,10 +108,12 @@ async () => {  c\u006fnst = x  }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 29
         }
@@ -110,6 +122,7 @@ async () => {  c\u006fnst = x  }
     "source": "async () => {  c\\u006fnst = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

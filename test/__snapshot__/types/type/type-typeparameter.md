@@ -43,6 +43,7 @@ type B = Foo<
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -51,6 +52,7 @@ type B = Foo<
                 "text": "A3",
                 "rawText": "A3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
@@ -66,6 +68,7 @@ type B = Foo<
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -78,26 +81,31 @@ type B = Foo<
                                     "nullableToken": {
                                         "kind": 134217750,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
                                     },
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 18
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 18
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 18
                             },
                             "assignToken": {
                                 "kind": 4125,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
@@ -108,30 +116,36 @@ type B = Foo<
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 27
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 27
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 27
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 27
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 28
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
@@ -146,19 +160,23 @@ type B = Foo<
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 32
                     },
                     "typeParameters": null,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 32
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 32
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         },
@@ -168,6 +186,7 @@ type B = Foo<
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 39
             },
@@ -176,6 +195,7 @@ type B = Foo<
                 "text": "A4",
                 "rawText": "A4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 42
             },
@@ -191,6 +211,7 @@ type B = Foo<
                                 "text": "S",
                                 "rawText": "S",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 44
                             },
@@ -198,6 +219,7 @@ type B = Foo<
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 43,
                             "end": 44
                         },
@@ -208,6 +230,7 @@ type B = Foo<
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 47
                             },
@@ -220,26 +243,31 @@ type B = Foo<
                                     "nullableToken": {
                                         "kind": 134217750,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 50
                                     },
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 50,
                                         "end": 56
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 56
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 56
                             },
                             "assignToken": {
                                 "kind": 4125,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 56,
                                 "end": 58
                             },
@@ -250,30 +278,36 @@ type B = Foo<
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 65
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 65
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 65
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 65
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 42,
                 "end": 66
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 68
             },
@@ -288,19 +322,23 @@ type B = Foo<
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 68,
                         "end": 70
                     },
                     "typeParameters": null,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 70
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 70
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 33,
             "end": 71
         },
@@ -310,6 +348,7 @@ type B = Foo<
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 71,
                 "end": 77
             },
@@ -318,6 +357,7 @@ type B = Foo<
                 "text": "A5",
                 "rawText": "A5",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 77,
                 "end": 80
             },
@@ -333,6 +373,7 @@ type B = Foo<
                                 "text": "S",
                                 "rawText": "S",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 81,
                                 "end": 82
                             },
@@ -340,6 +381,7 @@ type B = Foo<
                             "assignToken": {
                                 "kind": 4125,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 82,
                                 "end": 84
                             },
@@ -350,14 +392,17 @@ type B = Foo<
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 84,
                                     "end": 91
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 84,
                                 "end": 91
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 81,
                             "end": 91
                         },
@@ -368,6 +413,7 @@ type B = Foo<
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 92,
                                 "end": 94
                             },
@@ -380,26 +426,31 @@ type B = Foo<
                                     "nullableToken": {
                                         "kind": 134217750,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 95,
                                         "end": 97
                                     },
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 97,
                                         "end": 103
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 95,
                                     "end": 103
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 95,
                                 "end": 103
                             },
                             "assignToken": {
                                 "kind": 4125,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 103,
                                 "end": 105
                             },
@@ -410,30 +461,36 @@ type B = Foo<
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 105,
                                     "end": 112
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 105,
                                 "end": 112
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 92,
                             "end": 112
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 81,
                     "end": 112
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 80,
                 "end": 113
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 113,
                 "end": 115
             },
@@ -448,19 +505,23 @@ type B = Foo<
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 115,
                         "end": 117
                     },
                     "typeParameters": null,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 115,
                     "end": 117
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 115,
                 "end": 117
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 71,
             "end": 118
         },
@@ -470,6 +531,7 @@ type B = Foo<
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 118,
                 "end": 124
             },
@@ -478,6 +540,7 @@ type B = Foo<
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 124,
                 "end": 126
             },
@@ -485,6 +548,7 @@ type B = Foo<
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 128
             },
@@ -499,6 +563,7 @@ type B = Foo<
                         "text": "Foo",
                         "rawText": "Foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 128,
                         "end": 132
                     },
@@ -512,6 +577,7 @@ type B = Foo<
                                     "bitwiseOrToken": {
                                         "kind": 134251592,
                                         "flags": 65,
+                                        "transformFlags": 0,
                                         "start": 133,
                                         "end": 137
                                     },
@@ -533,6 +599,7 @@ type B = Foo<
                                                             "text": "type",
                                                             "rawText": "type",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 139,
                                                             "end": 143
                                                         },
@@ -546,20 +613,24 @@ type B = Foo<
                                                                 "text": "A",
                                                                 "rawText": "\"A\"",
                                                                 "flags": 2097216,
+                                                                "transformFlags": 1024,
                                                                 "start": 144,
                                                                 "end": 148
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 144,
                                                             "end": 148
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 139,
                                                         "end": 148
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 137,
                                                 "end": 149
                                             },
@@ -577,6 +648,7 @@ type B = Foo<
                                                             "text": "type",
                                                             "rawText": "type",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 155,
                                                             "end": 159
                                                         },
@@ -590,51 +662,62 @@ type B = Foo<
                                                                 "text": "B",
                                                                 "rawText": "\"B\"",
                                                                 "flags": 2097216,
+                                                                "transformFlags": 1024,
                                                                 "start": 160,
                                                                 "end": 164
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 160,
                                                             "end": 164
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 155,
                                                         "end": 164
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 153,
                                                 "end": 165
                                             }
                                         ],
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 149,
                                         "end": 165
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 133,
                                     "end": 165
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 133,
                             "end": 165
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 132,
                         "end": 167
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 128,
                     "end": 167
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 128,
                 "end": 167
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 118,
             "end": 168
         },
@@ -644,6 +727,7 @@ type B = Foo<
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 168,
                 "end": 174
             },
@@ -652,6 +736,7 @@ type B = Foo<
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 174,
                 "end": 176
             },
@@ -659,6 +744,7 @@ type B = Foo<
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 176,
                 "end": 178
             },
@@ -673,6 +759,7 @@ type B = Foo<
                         "text": "Foo",
                         "rawText": "Foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 178,
                         "end": 182
                     },
@@ -687,6 +774,7 @@ type B = Foo<
                                     "bitwiseAndToken": {
                                         "kind": 134252103,
                                         "flags": 65,
+                                        "transformFlags": 0,
                                         "start": 183,
                                         "end": 187
                                     },
@@ -707,6 +795,7 @@ type B = Foo<
                                                             "text": "type",
                                                             "rawText": "type",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 189,
                                                             "end": 193
                                                         },
@@ -720,20 +809,24 @@ type B = Foo<
                                                                 "text": "A",
                                                                 "rawText": "\"A\"",
                                                                 "flags": 2097216,
+                                                                "transformFlags": 1024,
                                                                 "start": 194,
                                                                 "end": 198
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 194,
                                                             "end": 198
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 189,
                                                         "end": 198
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 187,
                                                 "end": 199
                                             },
@@ -751,6 +844,7 @@ type B = Foo<
                                                             "text": "type",
                                                             "rawText": "type",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 205,
                                                             "end": 209
                                                         },
@@ -764,51 +858,62 @@ type B = Foo<
                                                                 "text": "B",
                                                                 "rawText": "\"B\"",
                                                                 "flags": 2097216,
+                                                                "transformFlags": 1024,
                                                                 "start": 210,
                                                                 "end": 214
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 210,
                                                             "end": 214
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 205,
                                                         "end": 214
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 203,
                                                 "end": 215
                                             }
                                         ],
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 199,
                                         "end": 215
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 183,
                                     "end": 215
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 183,
                             "end": 215
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 182,
                         "end": 217
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 178,
                     "end": 217
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 178,
                 "end": 217
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 168,
             "end": 218
         }
@@ -817,6 +922,7 @@ type B = Foo<
     "source": "type A3<T: ?string = string> = T;\n\ntype A4<S, T: ?string = string> = T;\n\ntype A5<S = number, T: ?string = string> = T;\n\ntype A = Foo<\n  | {type: \"A\"}\n  | {type: \"B\"}\n>;\n\ntype B = Foo<\n  & {type: \"A\"}\n  & {type: \"B\"}\n>;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 218
 }
@@ -825,12 +931,14 @@ type B = Foo<
 ### Printed
 
 ```javascript
+type A3<T: ? string= string> = T
+type A4<S, T: ? string= string> = T
 
-type A3<T: ?string= string> = T
-type A4<S, T: ?string= string> = T
-type A5<S= number, T: ?string= string> = T
-type A = Foo<| { type: '"A"' } | { type: '"B"' }>
-type B = Foo<& { type: '"A"' } & { type: '"B"' }>
+type A5<S= number, T: ? string= string> = T
+
+type A = Foo<| { type: "\"A\"" } | { type: "\"B\"" }>
+
+type B = Foo<& { type: "\"A\"" } & { type: "\"B\"" }>
 
 ```
 

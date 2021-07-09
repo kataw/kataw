@@ -28,6 +28,7 @@ let x: Array<() => void>;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x: Array<() => void>;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -55,6 +57,7 @@ let x: Array<() => void>;
                                     "text": "Array",
                                     "rawText": "Array",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -75,12 +78,14 @@ let x: Array<() => void>;
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 14
                                                     },
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 18
                                                     },
@@ -91,50 +96,61 @@ let x: Array<() => void>;
                                                         "type": {
                                                             "kind": 138477615,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 18,
                                                             "end": 23
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 23
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 23
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 23
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 23
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 512,
                                     "start": 12,
                                     "end": 24
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 24
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 24
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -143,6 +159,7 @@ let x: Array<() => void>;
     "source": "let x: Array<() => void>;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -151,9 +168,7 @@ let x: Array<() => void>;
 ### Printed
 
 ```javascript
-
 let x: Array<() => void>;
-
 ```
 
 ### Diagnostics

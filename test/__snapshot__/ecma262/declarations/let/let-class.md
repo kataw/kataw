@@ -20,6 +20,7 @@ let[{}=class{}]=null
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,10 +44,12 @@ let[{}=class{}]=null
                                                 "properties": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 5
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 6
                                         },
@@ -58,6 +61,7 @@ let[{}=class{}]=null
                                             "classKeyword": {
                                                 "kind": 37822544,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 12
                                             },
@@ -70,28 +74,34 @@ let[{}=class{}]=null
                                                     "kind": 303,
                                                     "elements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 13
                                                 },
                                                 "flags": 12,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 14
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 4,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 14
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 15
                         },
@@ -99,19 +109,23 @@ let[{}=class{}]=null
                         "initializer": {
                             "kind": 138477575,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 20
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -120,6 +134,7 @@ let[{}=class{}]=null
     "source": "let[{}=class{}]=null",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -128,10 +143,7 @@ let[{}=class{}]=null
 ### Printed
 
 ```javascript
-
-let [{ } = class  {
-}] = null;
-
+let [{} = class {}] = null;
 ```
 
 ### Diagnostics

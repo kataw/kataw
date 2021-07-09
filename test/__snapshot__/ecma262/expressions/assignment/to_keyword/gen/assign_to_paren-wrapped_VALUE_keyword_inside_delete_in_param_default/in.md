@@ -30,12 +30,14 @@ function *f(x = delete ((in) = f)) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -44,6 +46,7 @@ function *f(x = delete ((in) = f)) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -59,6 +62,7 @@ function *f(x = delete ((in) = f)) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -69,6 +73,7 @@ function *f(x = delete ((in) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 22
                             },
@@ -85,12 +90,14 @@ function *f(x = delete ((in) = f)) {}
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 25
                                             },
                                             "operatorToken": {
                                                 "kind": 21006388,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 27
                                             },
@@ -99,20 +106,24 @@ function *f(x = delete ((in) = f)) {}
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 27
                                             },
                                             "flags": 96,
+                                            "transformFlags": 5120,
                                             "start": 25,
                                             "end": 27
                                         },
-                                        "flags": 32,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "transformFlags": 0,
+                                        "start": 32,
                                         "end": 28
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     },
@@ -121,28 +132,34 @@ function *f(x = delete ((in) = f)) {}
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 32
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 24,
                                     "end": 32
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 33
                             },
                             "flags": 32,
+                            "transformFlags": 1024,
                             "start": 15,
                             "end": 33
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 33
             },
@@ -153,15 +170,18 @@ function *f(x = delete ((in) = f)) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 37
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -170,6 +190,7 @@ function *f(x = delete ((in) = f)) {}
     "source": "function *f(x = delete ((in) = f)) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

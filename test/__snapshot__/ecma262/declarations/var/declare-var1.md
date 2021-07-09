@@ -28,12 +28,14 @@ declare var foo;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -47,21 +49,25 @@ declare var foo;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 15
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 11,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 16
         }
@@ -70,6 +76,7 @@ declare var foo;
     "source": "declare var foo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -78,9 +85,7 @@ declare var foo;
 ### Printed
 
 ```javascript
-
-var foo;
-
+declare var foo;
 ```
 
 ### Diagnostics

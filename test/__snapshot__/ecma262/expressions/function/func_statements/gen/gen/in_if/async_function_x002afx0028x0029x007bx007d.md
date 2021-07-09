@@ -28,6 +28,7 @@ if (x) async function *f(){}
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,6 +37,7 @@ if (x) async function *f(){}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -45,18 +47,21 @@ if (x) async function *f(){}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 21
                 },
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 21,
                     "end": 23
                 },
@@ -65,6 +70,7 @@ if (x) async function *f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 24
                 },
@@ -74,6 +80,7 @@ if (x) async function *f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
@@ -84,21 +91,25 @@ if (x) async function *f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
                 "returnType": null,
                 "flags": 400,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 28
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -107,6 +118,7 @@ if (x) async function *f(){}
     "source": "if (x) async function *f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

@@ -25,6 +25,7 @@ function f(){
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -34,6 +35,7 @@ function f(){
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -59,10 +62,12 @@ function f(){
                                 "text": "foo",
                                 "rawText": "'foo'",
                                 "flags": 4194401,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 13,
                             "end": 20
                         },
@@ -73,24 +78,29 @@ function f(){
                                 "text": "bar",
                                 "rawText": "'bar'",
                                 "flags": 4194401,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 27
                         }
                     ],
                     "flags": 4194337,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 29
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -99,6 +109,7 @@ function f(){
     "source": "function f(){\n'foo';\n'bar';\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -107,12 +118,10 @@ function f(){
 ### Printed
 
 ```javascript
-
 function f() {
-  '\'foo\'';
-  '\'bar\'';
+  "'foo'";
+  "'bar'";
 }
-
 ```
 
 ### Diagnostics

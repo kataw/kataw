@@ -29,14 +29,17 @@
                     "elements": [],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 2
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -45,6 +48,7 @@
     "source": " [\n\n   /*1*/\n\n   ]\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -53,11 +57,7 @@
 ### Printed
 
 ```javascript
-
-[
- /*1*/
-];
-
+[];
 ```
 
 ### Diagnostics

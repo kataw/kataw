@@ -28,20 +28,24 @@ await null;
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "expression": {
                     "kind": 138477575,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -50,6 +54,7 @@ await null;
     "source": "await null;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -58,9 +63,7 @@ await null;
 ### Printed
 
 ```javascript
-
 await null;
-
 ```
 
 ### Diagnostics

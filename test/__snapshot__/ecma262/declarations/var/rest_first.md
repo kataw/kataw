@@ -40,6 +40,7 @@ var ...a = 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,10 +48,12 @@ var ...a = 1;
                 "kind": 156,
                 "declarations": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -63,12 +66,14 @@ var ...a = 1;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -77,14 +82,17 @@ var ...a = 1;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 7,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 13
         }
@@ -93,6 +101,7 @@ var ...a = 1;
     "source": "var ...a = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

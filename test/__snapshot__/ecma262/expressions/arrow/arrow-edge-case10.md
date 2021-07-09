@@ -32,12 +32,14 @@ a ? <T>(b) : c => (d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -48,16 +50,19 @@ a ? <T>(b) : c => (d) : e => f;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 10
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -70,6 +75,7 @@ a ? <T>(b) : c => (d) : e => f;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -77,6 +83,7 @@ a ? <T>(b) : c => (d) : e => f;
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
@@ -92,12 +99,14 @@ a ? <T>(b) : c => (d) : e => f;
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 20
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 25
                         },
@@ -112,21 +121,25 @@ a ? <T>(b) : c => (d) : e => f;
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 28
                         },
@@ -135,22 +148,27 @@ a ? <T>(b) : c => (d) : e => f;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 30
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 30
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 30
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         }
@@ -159,6 +177,7 @@ a ? <T>(b) : c => (d) : e => f;
     "source": "a ? <T>(b) : c => (d) : e => f;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

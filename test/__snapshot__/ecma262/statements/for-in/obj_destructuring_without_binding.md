@@ -39,6 +39,7 @@ for ({a: b.c} in d) e
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -55,6 +56,7 @@ for ({a: b.c} in d) e
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
@@ -65,6 +67,7 @@ for ({a: b.c} in d) e
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -73,30 +76,36 @@ for ({a: b.c} in d) e
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 6,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 6,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 13
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
@@ -105,6 +114,7 @@ for ({a: b.c} in d) e
                 "text": "d",
                 "rawText": "d",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
@@ -115,14 +125,17 @@ for ({a: b.c} in d) e
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 19,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -131,6 +144,7 @@ for ({a: b.c} in d) e
     "source": "for ({a: b.c} in d) e",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -139,10 +153,7 @@ for ({a: b.c} in d) e
 ### Printed
 
 ```javascript
-
-for ({ a : b.c } in d)
-  e;
-
+for ({ a: b.c } in d) e;
 ```
 
 ### Diagnostics

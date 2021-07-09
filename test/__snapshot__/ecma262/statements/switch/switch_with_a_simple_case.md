@@ -20,6 +20,7 @@ switch (A) {case B: C;}
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -28,6 +29,7 @@ switch (A) {case B: C;}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -39,6 +41,7 @@ switch (A) {case B: C;}
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 16
                         },
@@ -47,12 +50,14 @@ switch (A) {case B: C;}
                             "text": "B",
                             "rawText": "B",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 19
                         },
@@ -64,24 +69,29 @@ switch (A) {case B: C;}
                                     "text": "C",
                                     "rawText": "C",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 19,
                                 "end": 22
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -90,6 +100,7 @@ switch (A) {case B: C;}
     "source": "switch (A) {case B: C;}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -98,12 +109,10 @@ switch (A) {case B: C;}
 ### Printed
 
 ```javascript
-
 switch (A) {
-  case B: 
+  case B:
     C;
 }
-
 ```
 
 ### Diagnostics

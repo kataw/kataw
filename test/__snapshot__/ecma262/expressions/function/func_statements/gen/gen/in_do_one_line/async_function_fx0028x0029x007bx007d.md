@@ -28,6 +28,7 @@ do async function f(){} while (x);
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,12 +38,14 @@ do async function f(){} while (x);
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 17
                 },
@@ -52,6 +55,7 @@ do async function f(){} while (x);
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -61,6 +65,7 @@ do async function f(){} while (x);
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
@@ -71,21 +76,25 @@ do async function f(){} while (x);
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "returnType": null,
                 "flags": 144,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 23
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 29
             },
@@ -94,10 +103,12 @@ do async function f(){} while (x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 32
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -106,6 +117,7 @@ do async function f(){} while (x);
     "source": "do async function f(){} while (x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

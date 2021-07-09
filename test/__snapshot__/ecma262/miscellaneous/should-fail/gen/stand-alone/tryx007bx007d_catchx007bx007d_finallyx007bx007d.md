@@ -28,6 +28,7 @@ try{};catch{};finally{}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,10 +38,12 @@ try{};catch{};finally{}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
@@ -52,20 +55,24 @@ try{};catch{};finally{}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 6
         },
@@ -78,10 +85,12 @@ try{};catch{};finally{}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
@@ -90,6 +99,7 @@ try{};catch{};finally{}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
@@ -100,26 +110,31 @@ try{};catch{};finally{}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 13
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 14
         },
@@ -132,10 +147,12 @@ try{};catch{};finally{}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -143,6 +160,7 @@ try{};catch{};finally{}
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 21
             },
@@ -152,14 +170,17 @@ try{};catch{};finally{}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 23
         }
@@ -168,6 +189,7 @@ try{};catch{};finally{}
     "source": "try{};catch{};finally{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

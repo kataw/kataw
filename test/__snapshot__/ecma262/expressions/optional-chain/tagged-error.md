@@ -26,6 +26,7 @@ a?.()``;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -34,6 +35,7 @@ a?.()``;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -49,14 +51,17 @@ a?.()``;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 4
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 3,
                             "end": 4
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 4
                     },
@@ -65,18 +70,22 @@ a?.()``;
                         "text": "",
                         "rawText": "",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -87,6 +96,7 @@ a?.()``;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -95,6 +105,7 @@ a?.()``;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -110,14 +121,17 @@ a?.()``;
                                 "text": "b",
                                 "rawText": "'b'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 16
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 12,
                             "end": 16
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 17
                     },
@@ -126,18 +140,22 @@ a?.()``;
                         "text": "",
                         "rawText": "",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 20
         },
@@ -148,6 +166,7 @@ a?.()``;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
@@ -156,6 +175,7 @@ a?.()``;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
@@ -172,14 +192,17 @@ a?.()``;
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 26
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 25,
                             "end": 27
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 27
                     },
@@ -188,18 +211,22 @@ a?.()``;
                         "text": "",
                         "rawText": "",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 29
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 20,
             "end": 30
         }
@@ -208,6 +235,7 @@ a?.()``;
     "source": "a?.b``;\n\na?.['b']``;\n\na?.()``;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

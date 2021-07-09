@@ -37,6 +37,7 @@
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 4
                                 },
@@ -45,26 +46,31 @@
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 9
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -73,14 +79,17 @@
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -89,6 +98,7 @@
     "source": "[...await] = obj",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -97,9 +107,7 @@
 ### Printed
 
 ```javascript
-
 [...await] = obj;
-
 ```
 
 ### Diagnostics

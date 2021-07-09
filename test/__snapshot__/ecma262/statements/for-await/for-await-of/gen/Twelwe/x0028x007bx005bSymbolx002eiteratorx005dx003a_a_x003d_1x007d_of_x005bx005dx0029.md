@@ -30,18 +30,21 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -50,6 +53,7 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
@@ -59,6 +63,7 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
@@ -72,6 +77,7 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 35
                         }
@@ -82,12 +88,14 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 40
                             },
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 46
                             },
@@ -108,6 +116,7 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                                                         "text": "Symbol",
                                                         "rawText": "Symbol",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 50,
                                                         "end": 56
                                                     },
@@ -116,14 +125,17 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                                                         "text": "iterator",
                                                         "rawText": "iterator",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 57,
                                                         "end": 65
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 50,
                                                     "end": 65
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 66
                                             },
@@ -134,12 +146,14 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 67,
                                                     "end": 69
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 69,
                                                     "end": 71
                                                 },
@@ -148,30 +162,36 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 71,
                                                     "end": 73
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 49,
                                                 "end": 73
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 49,
                                             "end": 73
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 73
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 48,
                                 "end": 74
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 74,
                                 "end": 77
                             },
@@ -182,10 +202,12 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 79,
                                     "end": 79
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 77,
                                 "end": 80
                             },
@@ -195,28 +217,34 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 83,
                                     "end": 83
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 81,
                                 "end": 85
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 85
                         }
                     ],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 85
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 87
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 87
         }
@@ -225,6 +253,7 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
     "source": "async function * f() { 'use strict'; for\nawait ({[Symbol.iterator]: a = 1} of []) { } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 87
 }
@@ -233,12 +262,11 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
 ### Printed
 
 ```javascript
+async function *f() {
 
-async function * f() {
-'\'use strict\'';
-  for await ({ [Symbol.iterator] : a = 1 } of []) { }
+  "'use strict'";
+  for await ({ [Symbol.iterator]: a = 1 } of []) {}
 }
-
 ```
 
 ### Diagnostics

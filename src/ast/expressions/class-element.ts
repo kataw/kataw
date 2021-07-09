@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { MethodDefinition } from './method-definition';
 import { DecoratorList } from './decorator-list';
@@ -41,6 +41,7 @@ export function createClassElement(
     asteriskToken,
     method,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

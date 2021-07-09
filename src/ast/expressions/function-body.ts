@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { FunctionStatementList } from './function-stmt-list';
 
 export interface FunctionBody extends SyntaxNode {
@@ -14,6 +14,7 @@ export function createFunctionBody(
     kind: SyntaxKind.FunctionBody,
     functionStatementList,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

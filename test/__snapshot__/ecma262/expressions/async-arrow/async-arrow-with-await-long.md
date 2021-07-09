@@ -27,6 +27,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -49,6 +51,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
@@ -61,6 +64,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 16
                                     },
@@ -69,6 +73,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 19
                                     },
@@ -77,6 +82,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -85,6 +91,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     },
@@ -93,6 +100,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                         "text": "e",
                                         "rawText": "e",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
@@ -101,6 +109,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     },
@@ -109,12 +118,14 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 34
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 35
                             },
@@ -122,6 +133,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 38
                             },
@@ -142,6 +154,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                                         "awaitKeyword": {
                                                             "kind": 82196,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 38,
                                                             "end": 44
                                                         },
@@ -150,16 +163,19 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 44,
                                                             "end": 46
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 4096,
                                                         "start": 38,
                                                         "end": 46
                                                     },
                                                     "operatorToken": {
                                                         "kind": 99634,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 46,
                                                         "end": 48
                                                     },
@@ -168,6 +184,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                                         "awaitKeyword": {
                                                             "kind": 82196,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 48,
                                                             "end": 54
                                                         },
@@ -176,20 +193,24 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 54,
                                                             "end": 56
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 4096,
                                                         "start": 48,
                                                         "end": 56
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 5120,
                                                     "start": 38,
                                                     "end": 56
                                                 },
                                                 "operatorToken": {
                                                     "kind": 99634,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 56,
                                                     "end": 58
                                                 },
@@ -198,16 +219,19 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                                     "text": "c",
                                                     "rawText": "c",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 58,
                                                     "end": 60
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 5120,
                                                 "start": 38,
                                                 "end": 60
                                             },
                                             "operatorToken": {
                                                 "kind": 99634,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 60,
                                                 "end": 62
                                             },
@@ -216,16 +240,19 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 62,
                                                 "end": 64
                                             },
                                             "flags": 32,
+                                            "transformFlags": 5120,
                                             "start": 38,
                                             "end": 64
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 64,
                                             "end": 66
                                         },
@@ -234,16 +261,19 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                             "text": "e",
                                             "rawText": "e",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 66,
                                             "end": 68
                                         },
                                         "flags": 32,
+                                        "transformFlags": 5120,
                                         "start": 38,
                                         "end": 68
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 68,
                                         "end": 70
                                     },
@@ -252,16 +282,19 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 72
                                     },
                                     "flags": 32,
+                                    "transformFlags": 5120,
                                     "start": 38,
                                     "end": 72
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 74
                                 },
@@ -270,27 +303,33 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 74,
                                     "end": 76
                                 },
                                 "flags": 32,
+                                "transformFlags": 5120,
                                 "start": 38,
                                 "end": 76
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 76
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 76
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 76
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 77
         }
@@ -299,6 +338,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
     "source": "var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 77
 }
@@ -307,9 +347,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
 ### Printed
 
 ```javascript
-
 var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
-
 ```
 
 ### Diagnostics

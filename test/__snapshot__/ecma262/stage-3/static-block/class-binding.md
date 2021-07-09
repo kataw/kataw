@@ -33,6 +33,7 @@ class Foo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -58,6 +60,7 @@ class Foo {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 20
                             },
@@ -67,6 +70,7 @@ class Foo {
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
@@ -77,16 +81,19 @@ class Foo {
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 29
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 20,
                             "end": 29
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 30
                         },
@@ -97,6 +104,7 @@ class Foo {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 39
                             },
@@ -114,6 +122,7 @@ class Foo {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 50
                                                     },
@@ -122,16 +131,19 @@ class Foo {
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 51,
                                                         "end": 54
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 41,
                                                     "end": 54
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 56
                                                 },
@@ -142,6 +154,7 @@ class Foo {
                                                         "text": "Foo",
                                                         "rawText": "Foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 56,
                                                         "end": 60
                                                     },
@@ -150,44 +163,54 @@ class Foo {
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 61,
                                                         "end": 64
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 56,
                                                     "end": 64
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 41,
                                                 "end": 64
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 41,
                                             "end": 65
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 65
                                 },
                                 "flags": 30,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 69
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 69
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 69
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 71
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 71
         }
@@ -196,6 +219,7 @@ class Foo {
     "source": "class Foo {\n  static bar = 42;\n  static {\n    this.foo = Foo.bar;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }
@@ -204,15 +228,10 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
-  static bar = 42
-  ;
-  static  {
-    this.foo = Foo.bar;
-  }
-}
+  static bar = 42;;
 
+}
 ```
 
 ### Diagnostics

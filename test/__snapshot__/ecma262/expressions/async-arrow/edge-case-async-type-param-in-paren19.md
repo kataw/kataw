@@ -30,6 +30,7 @@ async <T, U,>(x) => y;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -45,6 +46,7 @@ async <T, U,>(x) => y;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -52,6 +54,7 @@ async <T, U,>(x) => y;
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 8
                         },
@@ -62,6 +65,7 @@ async <T, U,>(x) => y;
                                 "text": "U",
                                 "rawText": "U",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -69,16 +73,19 @@ async <T, U,>(x) => y;
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         }
                     ],
                     "trailingComma": true,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 12
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 0,
                 "end": 13
             },
@@ -90,12 +97,14 @@ async <T, U,>(x) => y;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -103,6 +112,7 @@ async <T, U,>(x) => y;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
@@ -111,16 +121,19 @@ async <T, U,>(x) => y;
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 22
         },
@@ -133,6 +146,7 @@ async <T, U,>(x) => y;
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 30
                     },
@@ -148,6 +162,7 @@ async <T, U,>(x) => y;
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 33
                                     },
@@ -155,6 +170,7 @@ async <T, U,>(x) => y;
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 33
                                 },
@@ -165,6 +181,7 @@ async <T, U,>(x) => y;
                                         "text": "U",
                                         "rawText": "U",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 36
                                     },
@@ -172,16 +189,19 @@ async <T, U,>(x) => y;
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
                                 }
                             ],
                             "trailingComma": true,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 37
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 25,
                         "end": 38
                     },
@@ -193,12 +213,14 @@ async <T, U,>(x) => y;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 40
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 41
                     },
@@ -206,6 +228,7 @@ async <T, U,>(x) => y;
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 41,
                         "end": 44
                     },
@@ -214,18 +237,22 @@ async <T, U,>(x) => y;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 46
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 46
                 },
-                "flags": 32,
-                "start": 22,
+                "flags": 22,
+                "transformFlags": 0,
+                "start": 33,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 48
         }
@@ -234,6 +261,7 @@ async <T, U,>(x) => y;
     "source": "async <T, U,>(x) => y;\n\n(async <T, U,>(x) => y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }
@@ -242,10 +270,8 @@ async <T, U,>(x) => y;
 ### Printed
 
 ```javascript
-
-async <T, U,>(x) => y
-;
-(async <T, U,>(x) => y);
+async <T, U>(x) => y
+(async <T, U>(x) => y);
 
 ```
 

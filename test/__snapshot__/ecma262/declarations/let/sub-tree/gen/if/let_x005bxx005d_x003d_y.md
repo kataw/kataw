@@ -28,6 +28,7 @@ if (a) let [x] = y
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,6 +37,7 @@ if (a) let [x] = y
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -50,6 +52,7 @@ if (a) let [x] = y
                             "text": "let",
                             "rawText": "let",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 10
                         },
@@ -58,16 +61,19 @@ if (a) let [x] = y
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 6,
                         "end": 14
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
@@ -76,20 +82,24 @@ if (a) let [x] = y
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 6,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 18
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -98,6 +108,7 @@ if (a) let [x] = y
     "source": "if (a) let [x] = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

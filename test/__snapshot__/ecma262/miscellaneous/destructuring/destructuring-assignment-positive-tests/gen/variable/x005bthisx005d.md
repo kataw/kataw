@@ -29,6 +29,7 @@ var x, y, z; ([this] = {});
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,12 +43,14 @@ var x, y, z; ([this] = {});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -58,12 +61,14 @@ var x, y, z; ([this] = {});
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -74,21 +79,25 @@ var x, y, z; ([this] = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -106,22 +115,26 @@ var x, y, z; ([this] = {});
                                 {
                                     "kind": 4276321,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 19
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 19
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 14,
                         "end": 20
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
@@ -132,22 +145,27 @@ var x, y, z; ([this] = {});
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 24
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 22,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 14,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 12,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 27
         }
@@ -156,6 +174,7 @@ var x, y, z; ([this] = {});
     "source": "var x, y, z; ([this] = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

@@ -24,6 +24,7 @@ async (a=/i/) = /i/
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -37,12 +38,14 @@ async (a=/i/) = /i/
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -50,24 +53,29 @@ async (a=/i/) = /i/
                                 "kind": 371,
                                 "text": "/i/",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 7,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "flags": 268435490,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         },
@@ -77,10 +85,12 @@ async (a=/i/) = /i/
                 "kind": 371,
                 "text": "/i/",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 19
         }
@@ -89,6 +99,7 @@ async (a=/i/) = /i/
     "source": "async (a=/i/) = /i/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

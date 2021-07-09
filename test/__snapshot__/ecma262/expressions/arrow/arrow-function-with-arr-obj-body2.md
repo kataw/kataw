@@ -21,6 +21,7 @@ var v = a => <any><any>{}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var v = a => <any><any>{}
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -47,6 +49,7 @@ var v = a => <any><any>{}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
@@ -54,6 +57,7 @@ var v = a => <any><any>{}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
@@ -70,12 +74,14 @@ var v = a => <any><any>{}
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 12
                                             },
                                             "operatorToken": {
                                                 "kind": 536971330,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 14
                                             },
@@ -84,16 +90,19 @@ var v = a => <any><any>{}
                                                 "text": "any",
                                                 "rawText": "any",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 17
                                             },
                                             "flags": 96,
+                                            "transformFlags": 5120,
                                             "start": 12,
                                             "end": 17
                                         },
                                         "operatorToken": {
                                             "kind": 34883,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 18
                                         },
@@ -102,16 +111,19 @@ var v = a => <any><any>{}
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 18
                                         },
                                         "flags": 96,
+                                        "transformFlags": 5120,
                                         "start": 12,
                                         "end": 18
                                     },
                                     "operatorToken": {
                                         "kind": 536971330,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 19
                                     },
@@ -120,16 +132,19 @@ var v = a => <any><any>{}
                                         "text": "any",
                                         "rawText": "any",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 22
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 12,
                                     "end": 22
                                 },
                                 "operatorToken": {
                                     "kind": 34883,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -140,31 +155,38 @@ var v = a => <any><any>{}
                                         "properties": [],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 24
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 12,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 25
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 25
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -173,6 +195,7 @@ var v = a => <any><any>{}
     "source": "var v = a => <any><any>{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

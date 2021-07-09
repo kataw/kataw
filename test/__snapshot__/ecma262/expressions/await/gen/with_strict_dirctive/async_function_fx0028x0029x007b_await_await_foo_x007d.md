@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,12 +39,14 @@
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 28
             },
@@ -53,6 +56,7 @@
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
@@ -62,6 +66,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 31
             },
@@ -78,6 +83,7 @@
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 39
                                 },
@@ -86,6 +92,7 @@
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 45
                                     },
@@ -94,32 +101,39 @@
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 49
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 39,
                                     "end": 49
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 33,
                                 "end": 49
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 33,
                             "end": 50
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 50
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 52
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 13,
             "end": 52
         }
@@ -128,6 +142,7 @@
     "source": "'use strict'; async function f(){ await await foo; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }
@@ -137,11 +152,10 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 async function f() {
   await await foo;
 }
-
 ```
 
 ### Diagnostics

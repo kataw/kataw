@@ -38,6 +38,7 @@
                                     "switchKeyword": {
                                         "kind": 37757024,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 9
                                     },
@@ -46,6 +47,7 @@
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 9
                                     },
@@ -53,28 +55,34 @@
                                         "kind": 152,
                                         "clauses": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 9
                                     },
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 9
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -83,6 +91,7 @@
     "source": "{ {switch",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

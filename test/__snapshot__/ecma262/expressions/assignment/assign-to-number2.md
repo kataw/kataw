@@ -30,12 +30,14 @@ x = 0x1_2b5
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -44,14 +46,17 @@ x = 0x1_2b5
                     "text": 4789,
                     "rawText": "0x1_2b5",
                     "flags": 1114208,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -60,6 +65,7 @@ x = 0x1_2b5
     "source": "x = 0x1_2b5",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -68,9 +74,7 @@ x = 0x1_2b5
 ### Printed
 
 ```javascript
-
 x = 0x1_2b5;
-
 ```
 
 ### Diagnostics

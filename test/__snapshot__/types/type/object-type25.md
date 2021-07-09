@@ -29,6 +29,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -112,28 +115,33 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                                     "subtractionToken": {
                                                                                                         "kind": 134318643,
                                                                                                         "flags": 64,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 19,
                                                                                                         "end": 20
                                                                                                     },
                                                                                                     "text": 1,
                                                                                                     "rawText": "1",
                                                                                                     "flags": 2097216,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 19,
                                                                                                     "end": 21
                                                                                                 },
                                                                                                 "flags": 2097152,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 19,
                                                                                                 "end": 21
                                                                                             }
                                                                                         ],
                                                                                         "trailingComma": false,
                                                                                         "flags": 2097152,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 18,
                                                                                         "end": 22
                                                                                     },
                                                                                     "arrowToken": {
                                                                                         "kind": 10,
                                                                                         "flags": 64,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 22,
                                                                                         "end": 25
                                                                                     },
@@ -158,11 +166,13 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                                                     "text": "c",
                                                                                                                     "rawText": "c",
                                                                                                                     "flags": 96,
+                                                                                                                    "transformFlags": 0,
                                                                                                                     "start": 27,
                                                                                                                     "end": 28
                                                                                                                 },
                                                                                                                 "typeParameters": null,
                                                                                                                 "flags": 2097152,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 27,
                                                                                                                 "end": 28
                                                                                                             },
@@ -173,46 +183,56 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                                                     "text": "d",
                                                                                                                     "rawText": "d",
                                                                                                                     "flags": 96,
+                                                                                                                    "transformFlags": 0,
                                                                                                                     "start": 29,
                                                                                                                     "end": 30
                                                                                                                 },
                                                                                                                 "typeParameters": null,
                                                                                                                 "flags": 2097152,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 29,
                                                                                                                 "end": 30
                                                                                                             }
                                                                                                         ],
                                                                                                         "flags": 2097152,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 28,
                                                                                                         "end": 30
                                                                                                     },
                                                                                                     "flags": 2097152,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 27,
                                                                                                     "end": 30
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
                                                                                             "flags": 2097152,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 25,
                                                                                             "end": 31
                                                                                         },
                                                                                         "flags": 2097152,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 25,
                                                                                         "end": 31
                                                                                     },
                                                                                     "flags": 2097152,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 18,
                                                                                     "end": 31
                                                                                 },
                                                                                 "flags": 2097152,
+                                                                                "transformFlags": 0,
                                                                                 "start": 18,
                                                                                 "end": 31
                                                                             },
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 16,
                                                                             "end": 33
                                                                         },
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 16,
                                                                         "end": 33
                                                                     },
@@ -223,36 +243,43 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                         "type": {
                                                                             "kind": 134234347,
                                                                             "flags": 2097216,
+                                                                            "transformFlags": 0,
                                                                             "start": 35,
                                                                             "end": 41
                                                                         },
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 35,
                                                                         "end": 41
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 15,
                                                                     "end": 41
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 14,
                                                             "end": 42
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 42
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 43
                                             },
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 46
                                             },
@@ -277,11 +304,13 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                             "text": "c",
                                                                             "rawText": "c",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 48,
                                                                             "end": 49
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 48,
                                                                         "end": 49
                                                                     },
@@ -292,46 +321,56 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                             "text": "d",
                                                                             "rawText": "d",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 50,
                                                                             "end": 51
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 50,
                                                                         "end": 51
                                                                     }
                                                                 ],
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 49,
                                                                 "end": 51
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 48,
                                                             "end": 51
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 52
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 52
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 52
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 52
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 54
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 54
                             },
@@ -342,28 +381,34 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 62
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 56,
                                 "end": 62
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 62
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 63
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 63
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 64
         }
@@ -372,6 +417,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
     "source": "type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 64
 }
@@ -380,9 +426,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
 ### Printed
 
 ```javascript
-
-type a = { [(({ [((-1) => [[c | d]])]:  string }) => [[c | d]])]:  string }
-
+type a = { [(({ [((-1) => [c | d])]: string }) => [c | d])]: string }
 ```
 
 ### Diagnostics

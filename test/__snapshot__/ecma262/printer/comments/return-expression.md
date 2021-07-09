@@ -42,6 +42,7 @@ function name() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -51,6 +52,7 @@ function name() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -60,6 +62,7 @@ function name() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -76,24 +79,29 @@ function name() {
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 18
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 43
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         },
@@ -104,6 +112,7 @@ function name() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 53
             },
@@ -113,6 +122,7 @@ function name() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 55
             },
@@ -122,6 +132,7 @@ function name() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 56
             },
@@ -138,24 +149,29 @@ function name() {
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 59,
                                 "end": 63
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 59,
                             "end": 63
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 59,
                     "end": 63
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 89
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 43,
             "end": 89
         },
@@ -166,6 +182,7 @@ function name() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 99
             },
@@ -175,6 +192,7 @@ function name() {
                 "text": "name",
                 "rawText": "name",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 99,
                 "end": 104
             },
@@ -184,6 +202,7 @@ function name() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 105,
                 "end": 105
             },
@@ -202,6 +221,7 @@ function name() {
                                     "text": "func1",
                                     "rawText": "func1",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 108,
                                     "end": 130
                                 },
@@ -210,14 +230,17 @@ function name() {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 131,
                                     "end": 131
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 108,
                                 "end": 132
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 108,
                             "end": 132
                         },
@@ -230,6 +253,7 @@ function name() {
                                     "text": "func2",
                                     "rawText": "func2",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 132,
                                     "end": 155
                                 },
@@ -238,28 +262,34 @@ function name() {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 156,
                                     "end": 156
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 132,
                                 "end": 157
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 132,
                             "end": 157
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 108,
                     "end": 157
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 106,
                 "end": 207
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 89,
             "end": 207
         }
@@ -268,6 +298,7 @@ function name() {
     "source": "function f() {\n  a\n  /* eslint-disable */\n}\n\nfunction f() {\n  a\n\n  /* eslint-disable */\n}\n\nfunction name() {\n  // comment1\n  func1()\n\n  // comment2\n  func2()\n\n  // comment3 why func3 commented\n  // func3()\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 207
 }
@@ -276,22 +307,16 @@ function name() {
 ### Printed
 
 ```javascript
+function f() {
+  a;
+}
+function f() {
+  a;
+}
 
-function f() {
-  a;
- /* eslint-disable */
-}
-function f() {
-  a;
- /* eslint-disable */
-}
 function name() {
-   // comment1
   func1();
-   // comment2
   func2();
- // comment3 why func3 commented
-// func3()
 }
 
 ```

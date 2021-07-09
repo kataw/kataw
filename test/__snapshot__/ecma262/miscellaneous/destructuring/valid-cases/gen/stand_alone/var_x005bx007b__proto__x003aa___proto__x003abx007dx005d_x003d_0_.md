@@ -29,6 +29,7 @@ var [{__proto__:a, __proto__:b}] = 0;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -54,6 +55,7 @@ var [{__proto__:a, __proto__:b}] = 0;
                                                         "text": "__proto__",
                                                         "rawText": "__proto__",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 15
                                                     },
@@ -62,11 +64,13 @@ var [{__proto__:a, __proto__:b}] = 0;
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 17
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 6,
                                                     "end": 17
                                                 },
@@ -77,6 +81,7 @@ var [{__proto__:a, __proto__:b}] = 0;
                                                         "text": "__proto__",
                                                         "rawText": "__proto__",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 28
                                                     },
@@ -85,31 +90,37 @@ var [{__proto__:a, __proto__:b}] = 0;
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 30
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 30
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 30
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 31
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 32
                         },
@@ -119,19 +130,23 @@ var [{__proto__:a, __proto__:b}] = 0;
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 36
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -140,6 +155,7 @@ var [{__proto__:a, __proto__:b}] = 0;
     "source": "var [{__proto__:a, __proto__:b}] = 0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -148,12 +164,7 @@ var [{__proto__:a, __proto__:b}] = 0;
 ### Printed
 
 ```javascript
-
-var [{
-  __proto__: a,
-  __proto__: b
-}] = 0;
-
+var [{ __proto__: a, __proto__: b }] = 0;
 ```
 
 ### Diagnostics

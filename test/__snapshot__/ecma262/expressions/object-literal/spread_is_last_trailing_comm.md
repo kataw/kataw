@@ -35,6 +35,7 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
@@ -43,6 +44,7 @@
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 8
                                 },
@@ -51,28 +53,34 @@
                                     "text": "rest",
                                     "rawText": "rest",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 12
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 12
                             }
                         ],
                         "trailingComma": true,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 13
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -81,6 +89,7 @@
     "source": "({x, ...rest,});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -89,9 +98,7 @@
 ### Printed
 
 ```javascript
-
 ({ x, ...rest });
-
 ```
 
 ### Diagnostics

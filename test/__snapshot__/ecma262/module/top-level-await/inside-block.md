@@ -28,12 +28,14 @@ if (true) {
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -49,6 +51,7 @@ if (true) {
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 19
                                 },
@@ -57,29 +60,35 @@ if (true) {
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 11,
                                 "end": 21
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 11,
                             "end": 22
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 24
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -88,6 +97,7 @@ if (true) {
     "source": "if (true) {\n  await 0;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -96,11 +106,9 @@ if (true) {
 ### Printed
 
 ```javascript
-
 if (true) {
-  await 0;
-}
-
+    await 0;
+  }
 ```
 
 ### Diagnostics

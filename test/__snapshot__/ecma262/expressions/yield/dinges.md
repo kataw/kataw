@@ -22,12 +22,14 @@ function *g() { yield {...(x,y),}}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *g() { yield {...(x,y),}}
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *g() { yield {...(x,y),}}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -61,6 +65,7 @@ function *g() { yield {...(x,y),}}
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
                                 },
@@ -76,6 +81,7 @@ function *g() { yield {...(x,y),}}
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 26
                                                 },
@@ -89,6 +95,7 @@ function *g() { yield {...(x,y),}}
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 27,
                                                                 "end": 28
                                                             },
@@ -97,51 +104,62 @@ function *g() { yield {...(x,y),}}
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 29,
                                                                 "end": 30
                                                             }
                                                         ],
                                                         "flags": 32,
+                                                        "transformFlags": 1024,
                                                         "start": 26,
                                                         "end": 31
                                                     },
-                                                    "flags": 32,
-                                                    "start": 26,
+                                                    "flags": 26,
+                                                    "transformFlags": 0,
+                                                    "start": 32,
                                                     "end": 31
                                                 },
                                                 "flags": 1073741856,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 31
                                             }
                                         ],
                                         "trailingComma": true,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 32
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 21,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 34
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -150,6 +168,7 @@ function *g() { yield {...(x,y),}}
     "source": "function *g() { yield {...(x,y),}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -158,11 +177,9 @@ function *g() { yield {...(x,y),}}
 ### Printed
 
 ```javascript
-
-function * g() {
-  yield  { ...(x, y) };
+function *g() {
+  yield { ...(x, y) };
 }
-
 ```
 
 ### Diagnostics

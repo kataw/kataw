@@ -22,6 +22,7 @@ function f(x=(yield)=y){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(x=(yield)=y){}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -46,6 +48,7 @@ function f(x=(yield)=y){}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -60,16 +63,19 @@ function f(x=(yield)=y){}
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 19
                                 },
-                                "flags": 32,
-                                "start": 13,
+                                "flags": 13,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 20
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 21
                             },
@@ -78,20 +84,24 @@ function f(x=(yield)=y){}
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 13,
                             "end": 22
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 22
             },
@@ -102,15 +112,18 @@ function f(x=(yield)=y){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -119,6 +132,7 @@ function f(x=(yield)=y){}
     "source": "function f(x=(yield)=y){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -127,9 +141,7 @@ function f(x=(yield)=y){}
 ### Printed
 
 ```javascript
-
 function f(x = (yield) = y) {}
-
 ```
 
 ### Diagnostics

@@ -24,6 +24,7 @@ function x() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function x() {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -42,6 +44,7 @@ function x() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -52,15 +55,18 @@ function x() {
                     "directives": [],
                     "statements": [],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 41
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -69,6 +75,7 @@ function x() {
     "source": "function x() {\n            // Something\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }
@@ -77,11 +84,7 @@ function x() {
 ### Printed
 
 ```javascript
-
-function x() {
- // Something
-}
-
+function x() {}
 ```
 
 ### Diagnostics

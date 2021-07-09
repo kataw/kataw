@@ -30,12 +30,14 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -44,6 +46,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -53,6 +56,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -69,6 +73,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 27
                             },
@@ -78,6 +83,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 35
                             },
@@ -87,6 +93,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
@@ -103,6 +110,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 48
                                             },
@@ -112,6 +120,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 54
                                             },
@@ -124,12 +133,14 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                         "text": "yield",
                                                         "rawText": "yield",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 60
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 60
                                             },
@@ -146,12 +157,14 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 63,
                                                                 "end": 69
                                                             },
                                                             "colonToken": {
                                                                 "kind": 21,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 69,
                                                                 "end": 70
                                                             },
@@ -164,6 +177,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                         "text": "yield",
                                                                         "rawText": "yield",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 70,
                                                                         "end": 76
                                                                     },
@@ -177,12 +191,14 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                     "text": "yield",
                                                                                     "rawText": "yield",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 78,
                                                                                     "end": 83
                                                                                 },
                                                                                 "operatorToken": {
                                                                                     "kind": 99634,
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 83,
                                                                                     "end": 85
                                                                                 },
@@ -193,6 +209,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                         "text": "yield",
                                                                                         "rawText": "yield",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 85,
                                                                                         "end": 91
                                                                                     },
@@ -204,80 +221,97 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                                 "text": 0,
                                                                                                 "rawText": "0",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 92,
                                                                                                 "end": 93
                                                                                             }
                                                                                         ],
                                                                                         "trailingComma": false,
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 92,
                                                                                         "end": 93
                                                                                     },
                                                                                     "flags": 268435488,
+                                                                                    "transformFlags": 1,
                                                                                     "start": 85,
                                                                                     "end": 94
                                                                                 },
                                                                                 "flags": 96,
+                                                                                "transformFlags": 5120,
                                                                                 "start": 78,
                                                                                 "end": 94
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 78,
                                                                         "end": 94
                                                                     },
                                                                     "flags": 268435488,
+                                                                    "transformFlags": 1,
                                                                     "start": 70,
                                                                     "end": 95
                                                                 },
                                                                 "flags": 16,
+                                                                "transformFlags": 4096,
                                                                 "start": 70,
                                                                 "end": 96
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 63,
                                                             "end": 96
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 63,
                                                     "end": 96
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 98
                                             },
                                             "returnType": null,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 98
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 98
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 100
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 100
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 100
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 101
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 101
         }
@@ -286,6 +320,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
     "source": "function * gen() { function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 101
 }
@@ -294,15 +329,13 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
 ### Printed
 
 ```javascript
-
-function * gen() {
+function *gen() {
   function not_gen() {
     function yield(yield) {
-      yield: yield(yield + yield(0));
+      yield:  yield(yield + yield(0));
     }
   }
 }
-
 ```
 
 ### Diagnostics

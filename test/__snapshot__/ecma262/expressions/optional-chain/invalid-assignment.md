@@ -26,6 +26,7 @@ x?.y = 0;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 3
                     },
@@ -34,6 +35,7 @@ x?.y = 0;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -47,24 +49,29 @@ x?.y = 0;
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 5
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 3,
                             "end": 5
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 6
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -73,14 +80,17 @@ x?.y = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         },
@@ -93,6 +103,7 @@ x?.y = 0;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
@@ -101,6 +112,7 @@ x?.y = 0;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
@@ -114,24 +126,29 @@ x?.y = 0;
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 16,
                             "end": 17
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -140,14 +157,17 @@ x?.y = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 11,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 22
         }
@@ -156,6 +176,7 @@ x?.y = 0;
     "source": "x?.[y] = 0;\n\nx?.y = 0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

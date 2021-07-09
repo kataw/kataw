@@ -32,12 +32,14 @@ instanceof: x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 10
                 },
@@ -46,14 +48,17 @@ instanceof: x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 10
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         },
@@ -64,10 +69,12 @@ instanceof: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 13
         }
@@ -76,6 +83,7 @@ instanceof: x
     "source": "instanceof: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

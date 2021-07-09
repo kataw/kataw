@@ -30,12 +30,14 @@ f = ([[,] = g()]) => {};
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -62,16 +64,19 @@ f = ([[,] = g()]) => {};
                                                         {
                                                             "kind": 230,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 7,
                                                             "end": 7
                                                         }
                                                     ],
                                                     "trailingComma": true,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 7,
                                                     "end": 8
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 9
                                             },
@@ -84,6 +89,7 @@ f = ([[,] = g()]) => {};
                                                     "text": "g",
                                                     "rawText": "g",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 13
                                                 },
@@ -92,30 +98,36 @@ f = ([[,] = g()]) => {};
                                                     "elements": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 14
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 11,
                                                 "end": 15
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 6,
                                             "end": 15
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 16
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 17
                     },
@@ -123,6 +135,7 @@ f = ([[,] = g()]) => {};
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 20
                     },
@@ -133,22 +146,27 @@ f = ([[,] = g()]) => {};
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 22
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 23
                     },
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }
@@ -157,6 +175,7 @@ f = ([[,] = g()]) => {};
     "source": "f = ([[,] = g()]) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -165,9 +184,7 @@ f = ([[,] = g()]) => {};
 ### Printed
 
 ```javascript
-
 f = ([[,] = g()]) => {};
-
 ```
 
 ### Diagnostics

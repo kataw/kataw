@@ -27,6 +27,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -35,6 +36,7 @@
                             "operandToken": {
                                 "kind": 196635,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 7
                             },
@@ -43,23 +45,28 @@
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 5
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 7
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 8
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         },
@@ -69,10 +76,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 14
         }
@@ -81,6 +90,7 @@
     "source": "(a, b++) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

@@ -26,7 +26,8 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -34,6 +35,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -42,14 +44,17 @@
                     "text": 42,
                     "rawText": "42",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -58,6 +63,7 @@
     "source": "()\n=> 42",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

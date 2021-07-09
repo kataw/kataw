@@ -20,6 +20,7 @@ let {...(a,b)} = foo
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ let {...(a,b)} = foo
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -46,6 +48,7 @@ let {...(a,b)} = foo
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 8
                                         },
@@ -53,31 +56,37 @@ let {...(a,b)} = foo
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 8
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -93,6 +102,7 @@ let {...(a,b)} = foo
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         },
@@ -101,19 +111,23 @@ let {...(a,b)} = foo
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 8,
                     "end": 13
                 },
-                "flags": 32,
-                "start": 8,
+                "flags": 8,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 13
         },
@@ -124,10 +138,12 @@ let {...(a,b)} = foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 16,
             "end": 20
         }
@@ -136,6 +152,7 @@ let {...(a,b)} = foo
     "source": "let {...(a,b)} = foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

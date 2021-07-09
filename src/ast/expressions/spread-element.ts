@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { ExpressionNode } from '.';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 
@@ -21,6 +21,7 @@ export function createSpreadElement(
     ellipsisToken,
     argument,
     flags: NodeFlags.ExpressionNode | NodeFlags.DisallowTrailingComma,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

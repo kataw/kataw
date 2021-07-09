@@ -28,6 +28,7 @@ let x = (y: any): ([,[b]]) => {} => { };
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x = (y: any): ([,[b]]) => {} => { };
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -60,6 +62,7 @@ let x = (y: any): ([,[b]]) => {} => { };
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -71,21 +74,25 @@ let x = (y: any): ([,[b]]) => {} => { };
                                             "type": {
                                                 "kind": 134234252,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 15
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 15
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 24
                             },
@@ -111,16 +118,19 @@ let x = (y: any): ([,[b]]) => {} => { };
                                                         "elementTypes": [],
                                                         "trailingComma": false,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 20
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 20
                                                 },
                                                 "optionalToken": null,
                                                 "types": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 20
                                             },
@@ -147,35 +157,42 @@ let x = (y: any): ([,[b]]) => {} => { };
                                                                         "text": "b",
                                                                         "rawText": "b",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 22,
                                                                         "end": 23
                                                                     },
                                                                     "typeParameters": null,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 22,
                                                                     "end": 23
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 22,
                                                                 "end": 23
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 24
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 24
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 24
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 24
                                     },
@@ -191,23 +208,28 @@ let x = (y: any): ([,[b]]) => {} => { };
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 24
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 24
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 24
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 24
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 24
                             },
@@ -217,23 +239,28 @@ let x = (y: any): ([,[b]]) => {} => { };
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 24
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         },
@@ -243,10 +270,12 @@ let x = (y: any): ([,[b]]) => {} => { };
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 32
         },
@@ -256,16 +285,19 @@ let x = (y: any): ([,[b]]) => {} => { };
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 39
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 40
         }
@@ -274,6 +306,7 @@ let x = (y: any): ([,[b]]) => {} => { };
     "source": "let x = (y: any): ([,[b]]) => {} => { };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

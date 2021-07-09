@@ -39,6 +39,7 @@ for (yield[g]--;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ for (yield[g]--;;);
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
@@ -57,6 +59,7 @@ for (yield[g]--;;);
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 10
                     },
@@ -65,14 +68,17 @@ for (yield[g]--;;);
                         "text": "g",
                         "rawText": "g",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 5,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
@@ -81,10 +87,12 @@ for (yield[g]--;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -93,6 +101,7 @@ for (yield[g]--;;);
     "source": "for (yield[g]--;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -101,10 +110,7 @@ for (yield[g]--;;);
 ### Printed
 
 ```javascript
-
-for (yield[g]--;;)
-  ;
-
+for (yield[g]--; ; );
 ```
 
 ### Diagnostics

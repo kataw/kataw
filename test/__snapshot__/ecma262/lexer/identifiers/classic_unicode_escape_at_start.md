@@ -28,10 +28,12 @@
                 "text": "exxx",
                 "rawText": "\\u0065xxx",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -40,6 +42,7 @@
     "source": "\\u0065xxx",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -48,9 +51,7 @@
 ### Printed
 
 ```javascript
-
 \u0065xxx;
-
 ```
 
 ### Diagnostics

@@ -22,15 +22,18 @@ new.meta
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "targetIdentifier": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -41,10 +44,12 @@ new.meta
                 "text": "meta",
                 "rawText": "meta",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 4,
             "end": 8
         }
@@ -53,6 +58,7 @@ new.meta
     "source": "new.meta",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

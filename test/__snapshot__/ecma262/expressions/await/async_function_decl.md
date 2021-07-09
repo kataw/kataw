@@ -21,12 +21,14 @@ async function await(){}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function await(){}
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 20
             },
@@ -45,6 +48,7 @@ async function await(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -55,15 +59,18 @@ async function await(){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 24
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -72,6 +79,7 @@ async function await(){}
     "source": "async function await(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -80,9 +88,7 @@ async function await(){}
 ### Printed
 
 ```javascript
-
 async function await() {}
-
 ```
 
 ### Diagnostics

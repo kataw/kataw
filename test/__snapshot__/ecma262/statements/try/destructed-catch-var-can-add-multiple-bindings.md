@@ -20,6 +20,7 @@ try {} catch ([a,b,c]) { }
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,10 +30,12 @@ try {} catch ([a,b,c]) { }
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -41,6 +44,7 @@ try {} catch ([a,b,c]) { }
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -54,6 +58,7 @@ try {} catch ([a,b,c]) { }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 16
                             },
@@ -62,6 +67,7 @@ try {} catch ([a,b,c]) { }
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 18
                             },
@@ -70,16 +76,19 @@ try {} catch ([a,b,c]) { }
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 21
                 },
@@ -89,20 +98,24 @@ try {} catch ([a,b,c]) { }
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 24
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 26
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 26
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -111,6 +124,7 @@ try {} catch ([a,b,c]) { }
     "source": "try {} catch ([a,b,c]) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -119,10 +133,7 @@ try {} catch ([a,b,c]) { }
 ### Printed
 
 ```javascript
-
-try { }
-catch ([a, b, c]){ }
-
+try {} catch ([a, b, c]) {}
 ```
 
 ### Diagnostics

@@ -39,6 +39,7 @@ for (function(){ if (a in b); }.prop in x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -50,6 +51,7 @@ for (function(){ if (a in b); }.prop in x);
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 13
                     },
@@ -61,6 +63,7 @@ for (function(){ if (a in b); }.prop in x);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
@@ -75,6 +78,7 @@ for (function(){ if (a in b); }.prop in x);
                                     "ifKeyword": {
                                         "kind": 37757019,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 19
                                     },
@@ -85,12 +89,14 @@ for (function(){ if (a in b); }.prop in x);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 22
                                         },
                                         "operatorToken": {
                                             "kind": 21006388,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 25
                                         },
@@ -99,36 +105,43 @@ for (function(){ if (a in b); }.prop in x);
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 27
                                         },
                                         "flags": 96,
+                                        "transformFlags": 5120,
                                         "start": 21,
                                         "end": 27
                                     },
                                     "consequent": {
                                         "kind": 168,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 29
                                     },
                                     "elseKeyword": null,
                                     "alternate": null,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 29
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 29
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 31
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 31
                 },
@@ -137,16 +150,19 @@ for (function(){ if (a in b); }.prop in x);
                     "text": "prop",
                     "rawText": "prop",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 36
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 39
             },
@@ -155,16 +171,19 @@ for (function(){ if (a in b); }.prop in x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 41
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 43
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -173,6 +192,7 @@ for (function(){ if (a in b); }.prop in x);
     "source": "for (function(){ if (a in b); }.prop in x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -181,13 +201,9 @@ for (function(){ if (a in b); }.prop in x);
 ### Printed
 
 ```javascript
-
 for (function () {
-  if (a in b)
-    ;
-}.prop in x)
-  ;
-
+  if (a in b);
+}.prop in x);
 ```
 
 ### Diagnostics

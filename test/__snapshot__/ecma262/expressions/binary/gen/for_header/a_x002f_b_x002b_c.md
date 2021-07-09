@@ -28,6 +28,7 @@ for ( a / b + c ;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,12 +41,14 @@ for ( a / b + c ;;);
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 7,
                         "end": 9
                     },
@@ -54,16 +57,19 @@ for ( a / b + c ;;);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -72,10 +78,12 @@ for ( a / b + c ;;);
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 15
             },
@@ -84,10 +92,12 @@ for ( a / b + c ;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -96,6 +106,7 @@ for ( a / b + c ;;);
     "source": "for ( a / b + c ;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -104,10 +115,7 @@ for ( a / b + c ;;);
 ### Printed
 
 ```javascript
-
-for (a / b + c;;)
-  ;
-
+for (a / b + c; ; );
 ```
 
 ### Diagnostics

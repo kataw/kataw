@@ -30,12 +30,14 @@ a %= b
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4134,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -44,14 +46,17 @@ a %= b
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         }
@@ -60,6 +65,7 @@ a %= b
     "source": "a %= b",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }
@@ -68,9 +74,7 @@ a %= b
 ### Printed
 
 ```javascript
-
 a %= b;
-
 ```
 
 ### Diagnostics

@@ -35,6 +35,7 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 2
                     },
@@ -45,16 +46,19 @@
                                 "kind": 371,
                                 "text": "/^(<[^>]+>)/",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 15
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 16
                 },
@@ -63,14 +67,17 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 18
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 0,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         },
@@ -83,6 +90,7 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 24
                 },
@@ -94,6 +102,7 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 26
                         },
@@ -101,20 +110,24 @@
                             "kind": 371,
                             "text": "/a/",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 31
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 31
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 20,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 20,
             "end": 33
         }
@@ -123,6 +136,7 @@
     "source": " x(/^(<[^>]+>)/)[1];\n\n x(y, /a/);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -131,7 +145,6 @@
 ### Printed
 
 ```javascript
-
 x(/^(<[^>]+>)/)[1];
 x(y, /a/);
 

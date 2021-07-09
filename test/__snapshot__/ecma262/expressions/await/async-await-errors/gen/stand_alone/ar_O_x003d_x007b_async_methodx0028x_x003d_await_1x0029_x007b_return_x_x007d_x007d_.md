@@ -30,10 +30,12 @@ ar O = { async method(x = await 1) { return x; } };
                 "text": "ar",
                 "rawText": "ar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -46,12 +48,14 @@ ar O = { async method(x = await 1) { return x; } };
                     "text": "O",
                     "rawText": "O",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 4
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
@@ -65,6 +69,7 @@ ar O = { async method(x = await 1) { return x; } };
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 14
                                 },
@@ -78,6 +83,7 @@ ar O = { async method(x = await 1) { return x; } };
                                         "text": "method",
                                         "rawText": "method",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 21
                                     },
@@ -93,6 +99,7 @@ ar O = { async method(x = await 1) { return x; } };
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 23
                                                 },
@@ -103,6 +110,7 @@ ar O = { async method(x = await 1) { return x; } };
                                                     "awaitKeyword": {
                                                         "kind": 82196,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 31
                                                     },
@@ -111,20 +119,24 @@ ar O = { async method(x = await 1) { return x; } };
                                                         "text": 1,
                                                         "rawText": "1",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 31,
                                                         "end": 33
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 4096,
                                                     "start": 25,
                                                     "end": 33
                                                 },
                                                 "flags": 34,
+                                                "transformFlags": 4096,
                                                 "start": 22,
                                                 "end": 33
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 290,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 34
                                     },
@@ -140,6 +152,7 @@ ar O = { async method(x = await 1) { return x; } };
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 43
                                                     },
@@ -148,45 +161,55 @@ ar O = { async method(x = await 1) { return x; } };
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 45
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 256,
                                                     "start": 36,
                                                     "end": 46
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 46
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 48
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 48
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 48
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 48
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 6,
                     "end": 50
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 2,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 2,
             "end": 51
         }
@@ -195,6 +218,7 @@ ar O = { async method(x = await 1) { return x; } };
     "source": "ar O = { async method(x = await 1) { return x; } };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

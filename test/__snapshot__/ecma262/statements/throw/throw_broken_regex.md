@@ -20,6 +20,7 @@ throw/("
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -27,10 +28,12 @@ throw/("
                 "kind": 371,
                 "text": "/(\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 8
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -39,6 +42,7 @@ throw/("
     "source": "throw/(\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

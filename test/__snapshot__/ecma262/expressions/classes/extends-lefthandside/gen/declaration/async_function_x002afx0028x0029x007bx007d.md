@@ -30,6 +30,7 @@ class A extends async function *f(){} {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class A extends async function *f(){} {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class A extends async function *f(){} {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -57,18 +60,21 @@ class A extends async function *f(){} {}
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 21
                         },
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 30
                         },
                         "asteriskToken": {
                             "kind": 67143222,
                             "flags": 64,
+                            "transformFlags": 32,
                             "start": 30,
                             "end": 32
                         },
@@ -77,6 +83,7 @@ class A extends async function *f(){} {}
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 33
                         },
@@ -86,6 +93,7 @@ class A extends async function *f(){} {}
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 34
                         },
@@ -96,20 +104,24 @@ class A extends async function *f(){} {}
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 37
                         },
                         "returnType": null,
                         "flags": 416,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 37
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 37
                 },
@@ -117,14 +129,17 @@ class A extends async function *f(){} {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 39
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -133,6 +148,7 @@ class A extends async function *f(){} {}
     "source": "class A extends async function *f(){} {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -141,10 +157,7 @@ class A extends async function *f(){} {}
 ### Printed
 
 ```javascript
-
-class A extends async function * f() {} {
-}
-
+class A extends async function *f() {} {}
 ```
 
 ### Diagnostics

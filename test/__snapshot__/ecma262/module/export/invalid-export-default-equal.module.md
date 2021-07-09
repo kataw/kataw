@@ -26,12 +26,14 @@ export default = 42
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -42,12 +44,14 @@ export default = 42
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -56,14 +60,17 @@ export default = 42
                     "text": 42,
                     "rawText": "42",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 14,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -72,6 +79,7 @@ export default = 42
     "source": "export default = 42",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

@@ -29,12 +29,14 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -44,6 +46,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -59,6 +62,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 20
                         },
@@ -76,12 +80,14 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                                         "text": "eval",
                                         "rawText": "eval",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 29
                             },
@@ -89,6 +95,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
@@ -102,6 +109,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                                             "text": "use strict",
                                             "rawText": "\"use strict\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 47
                                         }
@@ -116,6 +124,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                                                     "text": "funeval",
                                                     "rawText": "funeval",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 48,
                                                     "end": 56
                                                 },
@@ -127,43 +136,52 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                                                             "text": "x",
                                                             "rawText": "\"x\"",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 57,
                                                             "end": 60
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 57,
                                                     "end": 60
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 48,
                                                 "end": 61
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 48,
                                             "end": 62
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 62
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 64
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 64
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 19,
                         "end": 64
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 64
             },
@@ -174,15 +192,18 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 67,
                     "end": 67
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 68
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 68
         }
@@ -191,6 +212,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
     "source": "async function foo(a = (eval) => { \"use strict\"; funeval(\"x\"); }) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }
@@ -199,12 +221,11 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
 ### Printed
 
 ```javascript
-
 async function foo(a = (eval) => {
-  '"use strict"';
-    funeval('"x"');
-  }) {}
 
+  "\"use strict\"";
+  funeval("\"x\"");
+}) {}
 ```
 
 ### Diagnostics

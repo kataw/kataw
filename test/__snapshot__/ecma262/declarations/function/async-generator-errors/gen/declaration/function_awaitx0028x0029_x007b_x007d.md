@@ -30,18 +30,21 @@ async function * gen() {function await() { }}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -50,6 +53,7 @@ async function * gen() {function await() { }}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -59,6 +63,7 @@ async function * gen() {function await() { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -75,6 +80,7 @@ async function * gen() {function await() { }}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 32
                             },
@@ -84,6 +90,7 @@ async function * gen() {function await() { }}
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 38
                             },
@@ -93,6 +100,7 @@ async function * gen() {function await() { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 39
                             },
@@ -103,29 +111,35 @@ async function * gen() {function await() { }}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 42
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 44
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 44
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 45
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -134,6 +148,7 @@ async function * gen() {function await() { }}
     "source": "async function * gen() {function await() { }}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

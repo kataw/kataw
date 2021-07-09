@@ -40,6 +40,7 @@
                                 "text": "props",
                                 "rawText": "props",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 7
                             },
@@ -55,26 +56,31 @@
                                         "text": "SomeType",
                                         "rawText": "SomeType",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 17
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 17
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 17
                             },
                             "right": null,
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 0,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 33
                 },
@@ -89,21 +95,25 @@
                             "text": "ReturnType",
                             "rawText": "ReturnType",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 33
                         },
                         "typeParameters": null,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 33
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 33
                 },
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 36
                 },
@@ -114,18 +124,22 @@
                         "text": 3,
                         "rawText": "3",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 40
                     },
-                    "flags": 32,
-                    "start": 36,
+                    "flags": 36,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 42
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 43
         }
@@ -134,6 +148,7 @@
     "source": "( props: SomeType, ) : ReturnType => ( 3 );",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -142,9 +157,7 @@
 ### Printed
 
 ```javascript
-
 (props: SomeType) => (3);
-
 ```
 
 ### Diagnostics

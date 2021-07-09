@@ -30,12 +30,14 @@ function *f(x = (false) = f) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -44,6 +46,7 @@ function *f(x = (false) = f) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -59,6 +62,7 @@ function *f(x = (false) = f) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -71,16 +75,19 @@ function *f(x = (false) = f) {}
                                 "expression": {
                                     "kind": 205586437,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 22
                                 },
-                                "flags": 32,
-                                "start": 15,
+                                "flags": 15,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 23
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
@@ -89,20 +96,24 @@ function *f(x = (false) = f) {}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 27
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 27
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 27
             },
@@ -113,15 +124,18 @@ function *f(x = (false) = f) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 31
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -130,6 +144,7 @@ function *f(x = (false) = f) {}
     "source": "function *f(x = (false) = f) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -138,9 +153,7 @@ function *f(x = (false) = f) {}
 ### Printed
 
 ```javascript
-
-function * f(x = (false) = f) {}
-
+function *f(x = (false) = f) {}
 ```
 
 ### Diagnostics

@@ -28,6 +28,7 @@ let x = function f(foo = await bar){
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x = function f(foo = await bar){
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -51,6 +53,7 @@ let x = function f(foo = await bar){
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 16
                             },
@@ -60,6 +63,7 @@ let x = function f(foo = await bar){
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
@@ -75,6 +79,7 @@ let x = function f(foo = await bar){
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 22
                                         },
@@ -85,10 +90,12 @@ let x = function f(foo = await bar){
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 30
                                         },
                                         "flags": 34,
+                                        "transformFlags": 4096,
                                         "start": 19,
                                         "end": 30
                                     },
@@ -97,12 +104,14 @@ let x = function f(foo = await bar){
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 34
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 34
                             },
@@ -113,28 +122,34 @@ let x = function f(foo = await bar){
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 36
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 36
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 36
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 36
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -143,6 +158,7 @@ let x = function f(foo = await bar){
     "source": "let x = function f(foo = await bar){",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

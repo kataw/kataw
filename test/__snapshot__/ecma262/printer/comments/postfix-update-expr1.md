@@ -22,6 +22,7 @@ a--/*1*/;
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -30,14 +31,17 @@ a--/*1*/;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -46,6 +50,7 @@ a--/*1*/;
     "source": "a--/*1*/;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -54,9 +59,7 @@ a--/*1*/;
 ### Printed
 
 ```javascript
-
-a--/*1*/;
-
+a--;
 ```
 
 ### Diagnostics

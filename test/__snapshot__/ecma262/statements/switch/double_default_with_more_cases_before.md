@@ -20,6 +20,7 @@ switch(x) { case y: break; case z: break; default: default: }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -28,6 +29,7 @@ switch(x) { case y: break; case z: break; default: default: }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -39,6 +41,7 @@ switch(x) { case y: break; case z: break; default: default: }
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 16
                         },
@@ -47,12 +50,14 @@ switch(x) { case y: break; case z: break; default: default: }
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 19
                         },
@@ -62,16 +67,19 @@ switch(x) { case y: break; case z: break; default: default: }
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 25
                                 },
                                 "label": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 26
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 26
                     },
@@ -80,6 +88,7 @@ switch(x) { case y: break; case z: break; default: default: }
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 31
                         },
@@ -88,12 +97,14 @@ switch(x) { case y: break; case z: break; default: default: }
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 33
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 34
                         },
@@ -103,16 +114,19 @@ switch(x) { case y: break; case z: break; default: default: }
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 40
                                 },
                                 "label": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 41
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 41
                     },
@@ -121,17 +135,20 @@ switch(x) { case y: break; case z: break; default: default: }
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 49
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 50
                         },
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 41,
                         "end": 50
                     },
@@ -140,26 +157,31 @@ switch(x) { case y: break; case z: break; default: default: }
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 50,
                             "end": 58
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 58,
                             "end": 59
                         },
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 50,
                         "end": 59
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 59
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -168,6 +190,7 @@ switch(x) { case y: break; case z: break; default: default: }
     "source": "switch(x) { case y: break; case z: break; default: default: }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }

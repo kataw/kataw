@@ -28,6 +28,7 @@ let {my_var} = {my_var: 3}; my_var;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,16 +47,19 @@ let {my_var} = {my_var: 3}; my_var;
                                         "text": "my_var",
                                         "rawText": "my_var",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 12
                         },
@@ -73,6 +77,7 @@ let {my_var} = {my_var: 3}; my_var;
                                             "text": "my_var",
                                             "rawText": "my_var",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 22
                                         },
@@ -81,33 +86,40 @@ let {my_var} = {my_var: 3}; my_var;
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 25
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 16,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 25
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 14,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         },
@@ -118,10 +130,12 @@ let {my_var} = {my_var: 3}; my_var;
                 "text": "my_var",
                 "rawText": "my_var",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 35
         }
@@ -130,6 +144,7 @@ let {my_var} = {my_var: 3}; my_var;
     "source": "let {my_var} = {my_var: 3}; my_var;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -138,10 +153,7 @@ let {my_var} = {my_var: 3}; my_var;
 ### Printed
 
 ```javascript
-
-let {
-  my_var
-} = { my_var : 3 };
+let { my_var } = { my_var: 3 };
 my_var;
 
 ```

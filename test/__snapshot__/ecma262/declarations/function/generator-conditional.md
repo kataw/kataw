@@ -32,12 +32,14 @@ function* fn() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -46,6 +48,7 @@ function* fn() {
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -55,6 +58,7 @@ function* fn() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -73,12 +77,14 @@ function* fn() {
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 20
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
@@ -87,6 +93,7 @@ function* fn() {
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 28
                                     },
@@ -94,12 +101,14 @@ function* fn() {
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 22,
                                     "end": 28
                                 },
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
@@ -108,28 +117,34 @@ function* fn() {
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 },
                                 "flags": 97,
+                                "transformFlags": 4096,
                                 "start": 16,
                                 "end": 32
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 32
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 34
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -138,6 +153,7 @@ function* fn() {
     "source": "function* fn() {\n  a ? yield : 2\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -146,11 +162,9 @@ function* fn() {
 ### Printed
 
 ```javascript
-
-function * fn() {
+function *fn() {
   a ? yield  : 2;
 }
-
 ```
 
 ### Diagnostics

@@ -33,6 +33,7 @@ declare class C {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -40,6 +41,7 @@ declare class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -48,6 +50,7 @@ declare class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -64,6 +67,7 @@ declare class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 28
                             },
@@ -74,6 +78,7 @@ declare class C {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
@@ -85,14 +90,17 @@ declare class C {
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 38
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 38
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 39
                         },
@@ -102,6 +110,7 @@ declare class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 50
                             },
@@ -112,6 +121,7 @@ declare class C {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 54
                             },
@@ -129,6 +139,7 @@ declare class C {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 56
                                             },
@@ -140,20 +151,24 @@ declare class C {
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 57,
                                                     "end": 64
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 64
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 55,
                                             "end": 64
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 64
                                 },
@@ -164,19 +179,23 @@ declare class C {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 66,
                                         "end": 71
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 71
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 71
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 72
                         },
@@ -191,6 +210,7 @@ declare class C {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 88
                             },
@@ -208,6 +228,7 @@ declare class C {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 89,
                                                 "end": 90
                                             },
@@ -219,20 +240,24 @@ declare class C {
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 91,
                                                     "end": 98
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 91,
                                                 "end": 98
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 98
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 89,
                                     "end": 98
                                 },
@@ -243,33 +268,40 @@ declare class C {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 100,
                                         "end": 105
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 100,
                                     "end": 105
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 88,
                                 "end": 105
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 72,
                             "end": 106
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 108
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 108
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 108
         }
@@ -278,6 +310,7 @@ declare class C {
     "source": "declare class C {\n    static x: number;\n    static foo(x: number): void;\n    constructor(x: string): void;\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 109
 }
@@ -286,9 +319,11 @@ declare class C {
 ### Printed
 
 ```javascript
-
-declare class C { static x: number, static foo(x: number): void, constructor(x: string): void }
-
+declare class C {
+  static x: number,
+  static foo(x: number): void,
+  constructor(x: string): void
+}
 ```
 
 ### Diagnostics

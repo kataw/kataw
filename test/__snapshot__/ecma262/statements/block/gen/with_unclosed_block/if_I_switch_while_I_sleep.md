@@ -34,10 +34,12 @@
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 3
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
@@ -50,10 +52,12 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 4
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 4
                         },
@@ -61,6 +65,7 @@
                         "finallyKeyword": {
                             "kind": 37757016,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 12
                         },
@@ -70,14 +75,17 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 12
                     },
@@ -90,14 +98,17 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
-                            "flags": 32,
-                            "start": 12,
+                            "flags": 12,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 15
                     },
@@ -111,6 +122,7 @@
                                     "ifKeyword": {
                                         "kind": 37757019,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 20
                                     },
@@ -119,6 +131,7 @@
                                         "text": "I",
                                         "rawText": "I",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -127,6 +140,7 @@
                                         "switchKeyword": {
                                             "kind": 37757024,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 29
                                         },
@@ -135,6 +149,7 @@
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 29
                                         },
@@ -142,16 +157,19 @@
                                             "kind": 152,
                                             "clauses": [],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 29
                                         },
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 29
                                     },
                                     "elseKeyword": null,
                                     "alternate": null,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 29
                                 },
@@ -160,6 +178,7 @@
                                     "whileKeyword": {
                                         "kind": 37757028,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 35
                                     },
@@ -168,6 +187,7 @@
                                         "text": "I",
                                         "rawText": "I",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 37
                                     },
@@ -178,32 +198,39 @@
                                             "text": "sleep",
                                             "rawText": "sleep",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 43
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4096,
                                         "start": 37,
                                         "end": 43
                                     },
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 43
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 43
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 43
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -212,6 +239,7 @@
     "source": "{ {} finally(x) { if I switch while I sleep",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

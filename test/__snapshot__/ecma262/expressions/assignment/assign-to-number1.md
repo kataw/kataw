@@ -30,12 +30,14 @@ x = 123;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -44,14 +46,17 @@ x = 123;
                     "text": 123,
                     "rawText": "123",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -60,6 +65,7 @@ x = 123;
     "source": "x = 123;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -68,9 +74,7 @@ x = 123;
 ### Printed
 
 ```javascript
-
 x = 123;
-
 ```
 
 ### Diagnostics

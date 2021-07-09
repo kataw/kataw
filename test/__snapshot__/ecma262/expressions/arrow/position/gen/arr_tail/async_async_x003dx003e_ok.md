@@ -37,6 +37,7 @@
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 6
                                 },
@@ -46,6 +47,7 @@
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -53,6 +55,7 @@
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 15
                                 },
@@ -61,20 +64,24 @@
                                     "text": "ok",
                                     "rawText": "ok",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 18
                                 },
                                 "flags": 288,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 18
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 19
                 },
@@ -83,14 +90,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -99,6 +109,7 @@
     "source": "[async async => ok].x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -107,9 +118,7 @@
 ### Printed
 
 ```javascript
-
-[async async => ok,].x;
-
+[async async => ok].x;
 ```
 
 ### Diagnostics

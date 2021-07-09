@@ -30,6 +30,7 @@ async () => { await import(x) }
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -39,6 +40,7 @@ async () => { await import(x) }
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -46,6 +48,7 @@ async () => { await import(x) }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -62,6 +65,7 @@ async () => { await import(x) }
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 19
                                     },
@@ -70,6 +74,7 @@ async () => { await import(x) }
                                         "importKeyword": {
                                             "kind": 37814364,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 26
                                         },
@@ -78,35 +83,43 @@ async () => { await import(x) }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 28
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 29
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 13,
                                     "end": 29
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 13,
                                 "end": 29
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 29
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 31
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         }
@@ -115,6 +128,7 @@ async () => { await import(x) }
     "source": "async () => { await import(x) }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -123,11 +137,9 @@ async () => { await import(x) }
 ### Printed
 
 ```javascript
-
 async () => {
   await import(x);
 };
-
 ```
 
 ### Diagnostics

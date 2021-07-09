@@ -30,6 +30,7 @@ function not_gen() { class C extends yield { } }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function not_gen() { class C extends yield { } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -48,6 +50,7 @@ function not_gen() { class C extends yield { } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -64,6 +67,7 @@ function not_gen() { class C extends yield { } }}
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
@@ -72,6 +76,7 @@ function not_gen() { class C extends yield { } }}
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 28
                             },
@@ -83,6 +88,7 @@ function not_gen() { class C extends yield { } }}
                                     "extendsKeyword": {
                                         "kind": 4194391,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 36
                                     },
@@ -91,11 +97,13 @@ function not_gen() { class C extends yield { } }}
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 42
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 42
                                 },
@@ -103,28 +111,34 @@ function not_gen() { class C extends yield { } }}
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 44
                                 },
                                 "flags": 28,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 46
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 46
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 46
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 48
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         }
@@ -133,6 +147,7 @@ function not_gen() { class C extends yield { } }}
     "source": "function not_gen() { class C extends yield { } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }

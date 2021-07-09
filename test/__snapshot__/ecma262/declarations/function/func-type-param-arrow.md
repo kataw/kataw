@@ -27,6 +27,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -36,6 +37,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -45,6 +47,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -55,10 +58,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 35
             },
@@ -80,6 +85,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "text": "_",
                                     "rawText": "_",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -95,31 +101,37 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             "text": "bool",
                                             "rawText": "bool",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 22
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 22
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 22
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 22
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 26
                     },
@@ -130,22 +142,27 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 33
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 33
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 33
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         },
@@ -156,6 +173,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 45
             },
@@ -165,6 +183,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 49
             },
@@ -180,6 +199,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                             "text": "callback",
                             "rawText": "callback",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 50,
                             "end": 58
                         },
@@ -187,12 +207,14 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "type": null,
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 50,
                         "end": 58
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 58
             },
@@ -203,10 +225,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 90,
                     "end": 90
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 90
             },
@@ -228,6 +252,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "text": "_1",
                                     "rawText": "_1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 61,
                                     "end": 63
                                 },
@@ -243,19 +268,23 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             "text": "bool",
                                             "rawText": "bool",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 64,
                                             "end": 68
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 64,
                                         "end": 68
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 64,
                                     "end": 68
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 59,
                                 "end": 68
                             },
@@ -267,6 +296,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "text": "_2",
                                     "rawText": "_2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 72
                                 },
@@ -278,26 +308,31 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 73,
                                         "end": 79
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 73,
                                     "end": 79
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 69,
                                 "end": 79
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 59,
                         "end": 79
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 80,
                         "end": 83
                     },
@@ -308,22 +343,27 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 90
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 83,
                         "end": 90
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 59,
                     "end": 90
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 90
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 90
         },
@@ -333,10 +373,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 92,
                 "end": 92
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 91,
             "end": 93
         },
@@ -347,6 +389,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 93,
                 "end": 103
             },
@@ -356,6 +399,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 103,
                 "end": 107
             },
@@ -371,6 +415,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                             "text": "callback",
                             "rawText": "callback",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 108,
                             "end": 116
                         },
@@ -378,12 +423,14 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "type": null,
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 108,
                         "end": 116
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 108,
                 "end": 116
             },
@@ -394,10 +441,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 159,
                     "end": 159
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 159,
                 "end": 159
             },
@@ -419,6 +468,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "text": "_1",
                                     "rawText": "_1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 119,
                                     "end": 121
                                 },
@@ -434,19 +484,23 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             "text": "bool",
                                             "rawText": "bool",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 122,
                                             "end": 126
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 122,
                                         "end": 126
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 122,
                                     "end": 126
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 117,
                                 "end": 126
                             },
@@ -455,6 +509,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 127,
                                     "end": 131
                                 },
@@ -463,6 +518,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 131,
                                     "end": 134
                                 },
@@ -478,6 +534,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             "text": "Array",
                                             "rawText": "Array",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 135,
                                             "end": 140
                                         },
@@ -493,44 +550,53 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 141,
                                                             "end": 147
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 141,
                                                         "end": 147
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 141,
                                                 "end": 147
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 512,
                                             "start": 140,
                                             "end": 148
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 135,
                                         "end": 148
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 135,
                                     "end": 148
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 127,
                                 "end": 148
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 117,
                         "end": 148
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 149,
                         "end": 152
                     },
@@ -541,22 +607,27 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 152,
                             "end": 159
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 152,
                         "end": 159
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 117,
                     "end": 159
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 117,
                 "end": 159
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 93,
             "end": 159
         },
@@ -566,10 +637,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 161,
                 "end": 161
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 160,
             "end": 162
         }
@@ -578,6 +651,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
     "source": "function foo():(_:bool) => number{}\n\nfunction foo(callback: (_1:bool, _2:string) => number){}\n\nfunction foo(callback: (_1:bool, ...foo:Array<number>) => number){}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 163
 }

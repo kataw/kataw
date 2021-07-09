@@ -22,6 +22,7 @@ function f(b, a, b, a, [fine]) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(b, a, b, a, [fine]) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function f(b, a, b, a, [fine]) {}
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
@@ -51,6 +54,7 @@ function f(b, a, b, a, [fine]) {}
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
@@ -59,6 +63,7 @@ function f(b, a, b, a, [fine]) {}
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
@@ -67,6 +72,7 @@ function f(b, a, b, a, [fine]) {}
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
@@ -80,22 +86,26 @@ function f(b, a, b, a, [fine]) {}
                                     "text": "fine",
                                     "rawText": "fine",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 28
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 28
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 29
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 29
             },
@@ -106,15 +116,18 @@ function f(b, a, b, a, [fine]) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -123,6 +136,7 @@ function f(b, a, b, a, [fine]) {}
     "source": "function f(b, a, b, a, [fine]) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -131,9 +145,7 @@ function f(b, a, b, a, [fine]) {}
 ### Printed
 
 ```javascript
-
 function f(b, a, b, a, [fine]) {}
-
 ```
 
 ### Diagnostics

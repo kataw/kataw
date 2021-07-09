@@ -26,6 +26,7 @@ let MyClass = @foo export class {}
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ let MyClass = @foo export class {}
                             "text": "MyClass",
                             "rawText": "MyClass",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 11
                         },
@@ -53,6 +55,7 @@ let MyClass = @foo export class {}
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 15
                                         },
@@ -61,15 +64,18 @@ let MyClass = @foo export class {}
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 18
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 18
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 18
                             },
@@ -83,27 +89,33 @@ let MyClass = @foo export class {}
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 18
                                 },
                                 "flags": 18,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 18
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 18
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         },
@@ -112,6 +124,7 @@ let MyClass = @foo export class {}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 25
             },
@@ -122,6 +135,7 @@ let MyClass = @foo export class {}
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 31
                 },
@@ -134,14 +148,17 @@ let MyClass = @foo export class {}
                         "kind": 303,
                         "elements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 33
                     },
                     "flags": 31,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 34
             },
@@ -150,6 +167,7 @@ let MyClass = @foo export class {}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 18,
             "end": 34
         }
@@ -158,6 +176,7 @@ let MyClass = @foo export class {}
     "source": "let MyClass = @foo export class {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

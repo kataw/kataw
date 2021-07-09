@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,6 +40,7 @@
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -47,6 +49,7 @@
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
@@ -64,12 +67,14 @@
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 30
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 36
                             },
@@ -83,6 +88,7 @@
                                     "text": "prototype",
                                     "rawText": "prototype",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 46
                                 },
@@ -92,6 +98,7 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 48
                                 },
@@ -103,31 +110,38 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 50,
                                         "end": 50
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 51
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 51
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 51
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 51
                 },
                 "flags": 21,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 53
         }
@@ -136,6 +150,7 @@
     "source": "'use strict'; class C { static async prototype() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }

@@ -22,6 +22,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -41,6 +43,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 17
                     },
@@ -49,11 +52,13 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                         "text": "Bar",
                         "rawText": "Bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 21
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 21
                 },
@@ -71,6 +76,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                 "text": "#foo",
                                 "rawText": "#foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 28
                             },
@@ -78,12 +84,14 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 23,
                             "end": 28
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 29
                         },
@@ -103,6 +111,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 33
                                 },
@@ -112,6 +121,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -129,6 +139,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                                     "member": {
                                                         "kind": 4259935,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 43
                                                     },
@@ -137,44 +148,54 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                                         "text": "#foo",
                                                         "rawText": "#foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 44,
                                                         "end": 48
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 37,
                                                     "end": 48
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 37,
                                                 "end": 48
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 48
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 50
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 50
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 50
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 50
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         }
@@ -183,6 +204,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
     "source": "class Foo extends Bar { #foo; foo() { super.#foo } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }

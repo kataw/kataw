@@ -30,6 +30,7 @@ foo--.toString();
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -38,14 +39,17 @@ foo--.toString();
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -58,6 +62,7 @@ foo--.toString();
                     "text": "toString",
                     "rawText": "toString",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 14
                 },
@@ -66,14 +71,17 @@ foo--.toString();
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 6,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 17
         }
@@ -82,6 +90,7 @@ foo--.toString();
     "source": "foo--.toString();",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

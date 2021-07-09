@@ -30,6 +30,7 @@ class C { set #arguments(test) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C { set #arguments(test) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -58,6 +60,7 @@ class C { set #arguments(test) {} }
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -69,6 +72,7 @@ class C { set #arguments(test) {} }
                                     "text": "#arguments",
                                     "rawText": "#arguments",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 24
                                 },
@@ -81,12 +85,14 @@ class C { set #arguments(test) {} }
                                             "text": "test",
                                             "rawText": "test",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 29
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 30
                                 },
@@ -98,31 +104,38 @@ class C { set #arguments(test) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 33
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 33
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 33
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -131,6 +144,7 @@ class C { set #arguments(test) {} }
     "source": "class C { set #arguments(test) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -139,11 +153,9 @@ class C { set #arguments(test) {} }
 ### Printed
 
 ```javascript
-
 class C {
   set #arguments(test) {}
 }
-
 ```
 
 ### Diagnostics

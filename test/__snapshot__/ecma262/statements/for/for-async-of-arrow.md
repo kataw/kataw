@@ -20,6 +20,7 @@ for (async of => {};;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (async of => {};;);
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -37,6 +39,7 @@ for (async of => {};;);
                     "text": "of",
                     "rawText": "of",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
@@ -44,6 +47,7 @@ for (async of => {};;);
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
@@ -54,14 +58,17 @@ for (async of => {};;);
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 19
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 19
             },
@@ -70,10 +77,12 @@ for (async of => {};;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -82,6 +91,7 @@ for (async of => {};;);
     "source": "for (async of => {};;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -90,10 +100,7 @@ for (async of => {};;);
 ### Printed
 
 ```javascript
-
-for (async of => {};;)
-  ;
-
+for (async of => {}; ; );
 ```
 
 ### Diagnostics

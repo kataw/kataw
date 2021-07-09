@@ -29,6 +29,7 @@ var [yield] = [42];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,16 +48,19 @@ var [yield] = [42];
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 11
                         },
@@ -71,29 +75,35 @@ var [yield] = [42];
                                         "text": 42,
                                         "rawText": "42",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 13,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -102,6 +112,7 @@ var [yield] = [42];
     "source": "var [yield] = [42];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -110,9 +121,7 @@ var [yield] = [42];
 ### Printed
 
 ```javascript
-
-var [yield] = [42,];
-
+var [yield] = [42];
 ```
 
 ### Diagnostics

@@ -21,12 +21,14 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,6 +67,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 29
                                 },
@@ -81,22 +86,26 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 32,
                                                             "end": 33
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 33
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 8,
                                                 "start": 31,
                                                 "end": 34
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 36
                                             },
@@ -105,6 +114,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                 "operandToken": {
                                                     "kind": 4259886,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 43
                                                 },
@@ -119,6 +129,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 46,
                                                                 "end": 49
                                                             },
@@ -127,6 +138,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                                 "awaitKeyword": {
                                                                     "kind": 82196,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 50,
                                                                     "end": 55
                                                                 },
@@ -135,58 +147,71 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 55,
                                                                     "end": 57
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 50,
                                                                 "end": 57
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 4,
                                                             "start": 45,
                                                             "end": 58
                                                         },
-                                                        "flags": 32,
-                                                        "start": 45,
+                                                        "flags": 45,
+                                                        "transformFlags": 0,
+                                                        "start": 32,
                                                         "end": 59
                                                     },
-                                                    "flags": 32,
-                                                    "start": 43,
+                                                    "flags": 43,
+                                                    "transformFlags": 0,
+                                                    "start": 32,
                                                     "end": 60
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 1024,
                                                 "start": 36,
                                                 "end": 60
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 31,
                                             "end": 60
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 19
                                 },
                                 "flags": 268435490,
+                                "transformFlags": 1,
                                 "start": 19,
                                 "end": 61
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 19,
                             "end": 61
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 61
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 61
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         },
@@ -196,16 +221,19 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 64,
             "end": 67
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 67,
             "end": 68
         }
@@ -214,6 +242,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
     "source": "async function a(){     async ([y] = delete ((foo[await x]))) => {};     }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 74
 }

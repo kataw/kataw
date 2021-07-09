@@ -1,4 +1,4 @@
-import { printCST } from '../../src/printer';
+import { printSource } from '../../src/printer';
 import { parseScript, parseModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, deepEqual, readMdJs, readMdJavascript } from './utils';
 import { visit } from './visit';
@@ -52,7 +52,7 @@ export async function file2Tob(filename: string, check = false): Promise<Tob> {
   visit(cst, tob.filename);
 
   tob.$cst = JSON.stringify(cst, null, 4);
-  tob.$printed = diagnostics.length === 0 ? printCST(cst, tob.printerOptions) : '';
+  tob.$printed = diagnostics.length === 0 ? printSource(cst, tob.printerOptions) : '';
   tob.$diagnostics = diagnostics2md(diagnostics);
 
   // check the pirnted code
@@ -77,7 +77,6 @@ export function isMatchedTob(tob: Tob): boolean {
     deepEqual(tob.cst, tob.$cst) && deepEqual(tob.printed, tob.$printed) && deepEqual(tob.diagnostics, tob.$diagnostics)
   );
 }
-
 
 function outputBlock(tob: Tob, updateItems: any) {
   return `${Constants.Output}

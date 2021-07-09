@@ -24,6 +24,7 @@ foo`H\x45Y`
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -32,14 +33,17 @@ foo`H\x45Y`
                     "text": "HEY",
                     "rawText": "H\\x45Y",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 11
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -48,6 +52,7 @@ foo`H\x45Y`
     "source": "foo`H\\x45Y`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -56,9 +61,7 @@ foo`H\x45Y`
 ### Printed
 
 ```javascript
-
 foo`H\x45Y`;
-
 ```
 
 ### Diagnostics

@@ -30,6 +30,7 @@ class x {* do(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {* do(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -59,6 +61,7 @@ class x {* do(){}}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 9,
                                 "end": 10
                             },
@@ -69,6 +72,7 @@ class x {* do(){}}
                                     "text": "do",
                                     "rawText": "do",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -78,6 +82,7 @@ class x {* do(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -89,31 +94,38 @@ class x {* do(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 16
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 17
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 17
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 17
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -122,6 +134,7 @@ class x {* do(){}}
     "source": "class x {* do(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -130,11 +143,9 @@ class x {* do(){}}
 ### Printed
 
 ```javascript
-
 class x {
-  * do() {}
+  *do() {}
 }
-
 ```
 
 ### Diagnostics

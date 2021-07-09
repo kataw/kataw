@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { IndexExpressionChain } from './index-expr-chain';
 import { MemberAccessChain } from './member-access-chain';
 import { ArgumentList } from './argument-list';
@@ -26,6 +26,7 @@ export function createCallChain(
     typeArguments,
     argumentList,
     flags: NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+    transformFlags: TransformFlags.CallExpression,
     start,
     end
   };

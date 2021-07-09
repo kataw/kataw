@@ -35,6 +35,7 @@ type Foo = /*1*/
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -43,6 +44,7 @@ type Foo = /*1*/
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -50,6 +52,7 @@ type Foo = /*1*/
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -58,6 +61,7 @@ type Foo = /*1*/
                 "bitwiseOrToken": {
                     "kind": 134251592,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 25
                 },
@@ -72,11 +76,13 @@ type Foo = /*1*/
                                 "text": "Type1",
                                 "rawText": "Type1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 37
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 37
                         },
@@ -87,11 +93,13 @@ type Foo = /*1*/
                                 "text": "Type2",
                                 "rawText": "Type2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 58
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 58
                         },
@@ -102,24 +110,29 @@ type Foo = /*1*/
                                 "text": "TypeN",
                                 "rawText": "TypeN",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 67,
                                 "end": 79
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 67,
                             "end": 79
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 79
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 79
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 79
         }
@@ -128,6 +141,7 @@ type Foo = /*1*/
     "source": "type Foo = /*1*/\n/*2*/  | /*3*/ Type1\n/*4*/  | /*5*/ Type2\n/*6*/  | /*7*/ TypeN /*8*/\n\n\n/*9*/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 93
 }
@@ -136,13 +150,7 @@ type Foo = /*1*/
 ### Printed
 
 ```javascript
-
-type Foo =/*1*/ 
- /*2*/|/*3*/ 
- /*4*//*3*/Type1 | /*5*/Type2
- /*6*/ | /*7*/TypeN/*8*/
- /*9*/
-
+type Foo = | Type1 | Type2 | TypeN
 ```
 
 ### Diagnostics

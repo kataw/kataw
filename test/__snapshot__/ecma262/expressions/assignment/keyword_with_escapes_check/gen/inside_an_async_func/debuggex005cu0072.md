@@ -30,6 +30,7 @@ async () => {  debugge\u0072 = x  }
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -39,6 +40,7 @@ async () => {  debugge\u0072 = x  }
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -46,6 +48,7 @@ async () => {  debugge\u0072 = x  }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -60,27 +63,33 @@ async () => {  debugge\u0072 = x  }
                                 "debuggerKeyword": {
                                     "kind": 37757010,
                                     "flags": 16464,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 28
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 28
                             }
                         ],
                         "flags": 16416,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 28
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 28
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 28
         },
@@ -91,10 +100,12 @@ async () => {  debugge\u0072 = x  }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 30,
             "end": 32
         }
@@ -103,6 +114,7 @@ async () => {  debugge\u0072 = x  }
     "source": "async () => {  debugge\\u0072 = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

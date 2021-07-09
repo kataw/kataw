@@ -33,12 +33,14 @@ function *foo() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -47,6 +49,7 @@ function *foo() {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -56,6 +59,7 @@ function *foo() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -70,6 +74,7 @@ function *foo() {
                             "lexicalKeyword": {
                                 "kind": 37757004,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 25
                             },
@@ -83,6 +88,7 @@ function *foo() {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 27
                                         },
@@ -97,6 +103,7 @@ function *foo() {
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 31,
                                                         "end": 36
                                                     },
@@ -107,10 +114,12 @@ function *foo() {
                                                         "text": 5,
                                                         "rawText": "5",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 38
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 4096,
                                                     "start": 31,
                                                     "end": 38
                                                 },
@@ -122,32 +131,39 @@ function *foo() {
                                                     "type": {
                                                         "kind": 134234252,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 39,
                                                         "end": 43
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 43
                                                 },
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 29,
                                                 "end": 43
                                             },
-                                            "flags": 32,
-                                            "start": 29,
+                                            "flags": 29,
+                                            "transformFlags": 0,
+                                            "start": 32,
                                             "end": 44
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 25,
                                         "end": 44
                                     }
                                 ],
                                 "flags": 16777232,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 44
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 45
                         },
@@ -160,12 +176,14 @@ function *foo() {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 49
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 51
                                 },
@@ -174,6 +192,7 @@ function *foo() {
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 51,
                                         "end": 57
                                     },
@@ -184,16 +203,19 @@ function *foo() {
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 57,
                                         "end": 59
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 51,
                                     "end": 59
                                 },
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 59,
                                     "end": 61
                                 },
@@ -202,28 +224,34 @@ function *foo() {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 61,
                                     "end": 63
                                 },
                                 "flags": 97,
+                                "transformFlags": 4096,
                                 "start": 45,
                                 "end": 63
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 45,
                             "end": 64
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 64
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 66
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 66
         }
@@ -232,6 +260,7 @@ function *foo() {
     "source": "function *foo() {\n  const x = (yield 5: any);\n  x ? yield 1 : x;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 66
 }

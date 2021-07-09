@@ -29,6 +29,7 @@ var a: -0x7B
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var a: -0x7B
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,30 +56,36 @@ var a: -0x7B
                                 "subtractionToken": {
                                     "kind": 134318643,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 8
                                 },
                                 "text": 123,
                                 "rawText": "0x7B",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 12
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 12
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -86,6 +94,7 @@ var a: -0x7B
     "source": "var a: -0x7B",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -94,9 +103,7 @@ var a: -0x7B
 ### Printed
 
 ```javascript
-
 var a: -0x7b;
-
 ```
 
 ### Diagnostics

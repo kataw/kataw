@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -51,21 +53,25 @@
                             "text": "foob",
                             "rawText": "foob",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 22
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 22
         },
@@ -76,10 +82,12 @@
                 "text": "u",
                 "rawText": "u",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 24,
             "end": 25
         },
@@ -89,10 +97,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 27
         },
@@ -105,12 +115,14 @@
                     "text": "ar",
                     "rawText": "ar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
@@ -119,14 +131,17 @@
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 27,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 34
         }
@@ -135,6 +150,7 @@
     "source": "'use strict'; var foob\\\\u{}ar = 0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

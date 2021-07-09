@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -41,12 +42,14 @@
                     "text": "enum",
                     "rawText": "enum",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -55,14 +58,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 13,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 23
         }
@@ -71,6 +77,7 @@
     "source": "\"use strict\"; enum = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -80,9 +87,8 @@
 
 ```javascript
 
-'"use strict"';
+"\"use strict\"";
 enum = x;
-
 ```
 
 ### Diagnostics

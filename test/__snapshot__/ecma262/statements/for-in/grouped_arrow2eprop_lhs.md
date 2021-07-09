@@ -39,6 +39,7 @@ for (((x)=>{}).x in y);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -58,12 +59,14 @@ for (((x)=>{}).x in y);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         },
@@ -71,6 +74,7 @@ for (((x)=>{}).x in y);
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
@@ -81,19 +85,23 @@ for (((x)=>{}).x in y);
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 13
                     },
-                    "flags": 32,
-                    "start": 5,
+                    "flags": 5,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 14
                 },
                 "expression": {
@@ -101,16 +109,19 @@ for (((x)=>{}).x in y);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 37,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 16
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
@@ -119,16 +130,19 @@ for (((x)=>{}).x in y);
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -137,6 +151,7 @@ for (((x)=>{}).x in y);
     "source": "for (((x)=>{}).x in y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -145,10 +160,7 @@ for (((x)=>{}).x in y);
 ### Printed
 
 ```javascript
-
-for (((x) => {}).x in y)
-  ;
-
+for (((x) => {}).x in y);
 ```
 
 ### Diagnostics

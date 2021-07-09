@@ -23,10 +23,12 @@ xyz*/"bar";
                 "text": "foo",
                 "rawText": "\"foo\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -37,10 +39,12 @@ xyz*/"bar";
                 "text": "bar",
                 "rawText": "\"bar\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 23
         }
@@ -49,6 +53,7 @@ xyz*/"bar";
     "source": "\"foo\";/*abc\nxyz*/\"bar\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -57,10 +62,8 @@ xyz*/"bar";
 ### Printed
 
 ```javascript
-
-'"foo"';/*abc
-xyz*/
-'"bar"';
+"\"foo\"";
+"\"bar\"";
 
 ```
 

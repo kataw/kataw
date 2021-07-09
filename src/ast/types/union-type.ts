@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { TypeNode } from '.';
 
 export interface UnionType extends SyntaxNode {
@@ -10,6 +10,7 @@ export function createUnionType(types: readonly TypeNode[], start: number, end: 
     kind: SyntaxKind.UnionType,
     types,
     flags: NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

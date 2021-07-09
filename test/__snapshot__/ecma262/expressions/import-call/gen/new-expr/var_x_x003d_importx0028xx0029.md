@@ -29,6 +29,7 @@ var x = import(x)
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var x = import(x)
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -51,6 +53,7 @@ var x = import(x)
                             "importKeyword": {
                                 "kind": 37814364,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 14
                             },
@@ -59,23 +62,28 @@ var x = import(x)
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -84,6 +92,7 @@ var x = import(x)
     "source": "var x = import(x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -92,9 +101,7 @@ var x = import(x)
 ### Printed
 
 ```javascript
-
 var x = import(x);
-
 ```
 
 ### Diagnostics

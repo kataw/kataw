@@ -28,12 +28,14 @@ yi\u0065ld: 1;
                 "text": "yield",
                 "rawText": "yi\\u0065ld",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -44,14 +46,17 @@ yi\u0065ld: 1;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 11,
                 "end": 14
             },
             "flags": 16400,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -60,6 +65,7 @@ yi\u0065ld: 1;
     "source": "yi\\u0065ld: 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -68,9 +74,7 @@ yi\u0065ld: 1;
 ### Printed
 
 ```javascript
-
-yi\u0065ld: 1;
-
+yi\u0065ld:  1;
 ```
 
 ### Diagnostics

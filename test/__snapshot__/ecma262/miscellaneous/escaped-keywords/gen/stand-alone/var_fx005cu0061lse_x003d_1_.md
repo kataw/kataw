@@ -29,6 +29,7 @@ var f\u0061lse = 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,10 +37,12 @@ var f\u0061lse = 1;
                 "kind": 156,
                 "declarations": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -50,12 +53,14 @@ var f\u0061lse = 1;
                 "left": {
                     "kind": 205586437,
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -64,14 +69,17 @@ var f\u0061lse = 1;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 3,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 3,
             "end": 19
         }
@@ -80,6 +88,7 @@ var f\u0061lse = 1;
     "source": "var f\\u0061lse = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

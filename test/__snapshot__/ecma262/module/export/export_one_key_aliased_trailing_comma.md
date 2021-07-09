@@ -27,6 +27,7 @@ var x; export {x as a,}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,21 +41,25 @@ var x; export {x as a,}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -63,6 +68,7 @@ var x; export {x as a,}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -80,12 +86,14 @@ var x; export {x as a,}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 16
                             },
                             "asKeyword": {
                                 "kind": 16494,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 19
                             },
@@ -94,19 +102,23 @@ var x; export {x as a,}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 21
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 22
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 23
             },
@@ -114,6 +126,7 @@ var x; export {x as a,}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 6,
             "end": 23
         }
@@ -122,6 +135,7 @@ var x; export {x as a,}
     "source": "var x; export {x as a,}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -130,9 +144,8 @@ var x; export {x as a,}
 ### Printed
 
 ```javascript
-
 var x;
-export { x as  a, };
+export { x as  a };
 
 ```
 

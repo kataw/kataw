@@ -37,6 +37,7 @@ eval => { 'use strict'; 0 } , bar;
                             "text": "eval",
                             "rawText": "eval",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 4
                         },
@@ -44,6 +45,7 @@ eval => { 'use strict'; 0 } , bar;
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 7
                         },
@@ -57,6 +59,7 @@ eval => { 'use strict'; 0 } , bar;
                                         "text": "use strict",
                                         "rawText": "'use strict'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 22
                                     }
@@ -69,23 +72,28 @@ eval => { 'use strict'; 0 } , bar;
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 25
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4096,
                                         "start": 23,
                                         "end": 25
                                     }
                                 ],
                                 "flags": 4194336,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 27
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 27
                     },
@@ -94,15 +102,18 @@ eval => { 'use strict'; 0 } , bar;
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 33
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }
@@ -111,6 +122,7 @@ eval => { 'use strict'; 0 } , bar;
     "source": "eval => { 'use strict'; 0 } , bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -119,12 +131,11 @@ eval => { 'use strict'; 0 } , bar;
 ### Printed
 
 ```javascript
-
 eval => {
-'\'use strict\'';
+
+  "'use strict'";
   0;
 }, bar;
-
 ```
 
 ### Diagnostics

@@ -24,12 +24,14 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,10 +47,12 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 15
                         },
@@ -61,10 +65,12 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                                 "text": 3,
                                 "rawText": "3",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 24
                         }
@@ -74,18 +80,22 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                         "text": " 4",
                         "rawText": " 4",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 29
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 29
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }
@@ -94,6 +104,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
     "source": "x = `1 ${ yield } 2 ${ 3 } 4`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -102,9 +113,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
 ### Printed
 
 ```javascript
-
-x = `1 ${yield} 2 ${3} 4`;
-
+x = `1 ${yield},  2 ${3} 4`;
 ```
 
 ### Diagnostics

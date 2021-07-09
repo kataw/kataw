@@ -28,6 +28,7 @@ return => {} ;
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,10 +37,12 @@ return => {} ;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
             "flags": 80,
+            "transformFlags": 256,
             "start": 0,
             "end": 6
         },
@@ -49,16 +52,19 @@ return => {} ;
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 12
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 14
         }
@@ -67,6 +73,7 @@ return => {} ;
     "source": "return => {} ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

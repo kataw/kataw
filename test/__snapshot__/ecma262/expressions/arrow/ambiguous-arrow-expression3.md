@@ -32,12 +32,14 @@
                     "text": 5,
                     "rawText": "5",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -50,6 +52,7 @@
                         "text": "t",
                         "rawText": "t",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -57,6 +60,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
@@ -65,16 +69,19 @@
                         "text": 5,
                         "rawText": "5",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 10
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -89,6 +96,7 @@
                             "text": "t",
                             "rawText": "t",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
@@ -96,6 +104,7 @@
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 18
                         },
@@ -104,22 +113,27 @@
                             "text": 5,
                             "rawText": "5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 20
                     },
-                    "flags": 32,
-                    "start": 12,
+                    "flags": 12,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 21
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }
@@ -128,6 +142,7 @@
     "source": "5 ? t => 5 : (t => 5);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -136,9 +151,7 @@
 ### Printed
 
 ```javascript
-
 5 ? t => 5 : (t => 5);
-
 ```
 
 ### Diagnostics

@@ -32,6 +32,7 @@ const f = async <T, R, S>(
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -45,6 +46,7 @@ const f = async <T, R, S>(
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -56,12 +58,14 @@ const f = async <T, R, S>(
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "operatorToken": {
                                 "kind": 536971330,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
@@ -70,14 +74,17 @@ const f = async <T, R, S>(
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 18
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 9,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 18
                     },
@@ -88,12 +95,14 @@ const f = async <T, R, S>(
                             "text": "R",
                             "rawText": "R",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 19,
                         "end": 21
                     },
@@ -104,21 +113,25 @@ const f = async <T, R, S>(
                             "text": "S",
                             "rawText": "S",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 24
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 22,
                         "end": 24
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         },
@@ -131,12 +144,14 @@ const f = async <T, R, S>(
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 25
                 },
@@ -146,18 +161,22 @@ const f = async <T, R, S>(
                         "kind": 132,
                         "expressions": [],
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 25,
                         "end": 30
                     },
-                    "flags": 32,
-                    "start": 25,
+                    "flags": 25,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 30
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 24,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 24,
             "end": 30
         },
@@ -171,6 +190,7 @@ const f = async <T, R, S>(
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 33
                     },
@@ -179,15 +199,18 @@ const f = async <T, R, S>(
                         "text": "y",
                         "rawText": "y",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 38
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 31,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 31,
             "end": 38
         },
@@ -201,6 +224,7 @@ const f = async <T, R, S>(
                         "text": "R",
                         "rawText": "R",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 41
                     },
@@ -209,15 +233,18 @@ const f = async <T, R, S>(
                         "text": "z",
                         "rawText": "z",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 46
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 39,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 39,
             "end": 46
         },
@@ -231,6 +258,7 @@ const f = async <T, R, S>(
                         "text": "S",
                         "rawText": "S",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 49
                     },
@@ -239,15 +267,18 @@ const f = async <T, R, S>(
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 50,
                         "end": 50
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 47,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 47,
             "end": 50
         },
@@ -261,31 +292,37 @@ const f = async <T, R, S>(
                         "returnKeyword": {
                             "kind": 37757022,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 57,
                             "end": 66
                         },
                         "expression": {
                             "kind": 138477575,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 66,
                             "end": 71
                         },
                         "flags": 81,
+                        "transformFlags": 256,
                         "start": 57,
                         "end": 72
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 72
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 55,
             "end": 74
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 74,
             "end": 75
         }
@@ -294,6 +331,7 @@ const f = async <T, R, S>(
     "source": "const f = async <T, R, S>(\n  x: T,\n  y: R,\n  z: S,\n) => {\n  return null;\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 75
 }

@@ -25,12 +25,14 @@ foo = bar;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 67108961,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 19
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
@@ -39,14 +41,17 @@ foo = bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -55,6 +60,7 @@ foo = bar;
     "source": "// kataw-ignore\nfoo = bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -63,9 +69,7 @@ foo = bar;
 ### Printed
 
 ```javascript
-// kataw-ignore
 foo = bar;
-
 ```
 
 ### Diagnostics

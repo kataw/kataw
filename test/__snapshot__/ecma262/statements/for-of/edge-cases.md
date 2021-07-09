@@ -26,6 +26,7 @@ for ((async) of x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ for ((async) of x);
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
@@ -45,16 +47,19 @@ for ((async) of x);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 13
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 6,
                 "end": 13
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
@@ -63,16 +68,19 @@ for ((async) of x);
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         },
@@ -81,6 +89,7 @@ for ((async) of x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 25
             },
@@ -89,6 +98,7 @@ for ((async) of x);
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 32
                 },
@@ -98,6 +108,7 @@ for ((async) of x);
                     "text": "of",
                     "rawText": "of",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 35
                 },
@@ -105,6 +116,7 @@ for ((async) of x);
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 38
                 },
@@ -115,14 +127,17 @@ for ((async) of x);
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 40,
                         "end": 40
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 41
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 41
             },
@@ -131,10 +146,12 @@ for ((async) of x);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 45
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 20,
             "end": 45
         },
@@ -143,6 +160,7 @@ for ((async) of x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 50
             },
@@ -154,16 +172,19 @@ for ((async) of x);
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 53,
                     "end": 58
                 },
-                "flags": 32,
-                "start": 52,
+                "flags": 52,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 59
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 62
             },
@@ -172,16 +193,19 @@ for ((async) of x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 62,
                 "end": 64
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 66
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 45,
             "end": 66
         }
@@ -190,6 +214,7 @@ for ((async) of x);
     "source": "\nfor (async.x of y);\n\nfor (async of => {};;);\n\nfor ((async) of x);\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 67
 }
@@ -198,13 +223,10 @@ for ((async) of x);
 ### Printed
 
 ```javascript
+for (async.x of y);
+for (async of => {}; ; );
 
-for (async.x of y)
-  ;
-for (async of => {};;)
-  ;
-for ((async) of x)
-  ;
+for ((async) of x);
 
 ```
 

@@ -28,6 +28,7 @@ do do do function while while while while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,6 +37,7 @@ do do do function while while while while
                 "doKeyword": {
                     "kind": 4202580,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -44,6 +46,7 @@ do do do function while while while while
                     "doKeyword": {
                         "kind": 4202580,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
@@ -54,6 +57,7 @@ do do do function while while while while
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 17
                         },
@@ -65,6 +69,7 @@ do do do function while while while while
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 17
                         },
@@ -75,21 +80,25 @@ do do do function while while while while
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 17
                         },
                         "returnType": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 17
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 64,
+                        "flags": 80,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 23
                     },
@@ -98,16 +107,19 @@ do do do function while while while while
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 23
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 64,
+                    "flags": 80,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 29
                 },
@@ -116,16 +128,19 @@ do do do function while while while while
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 29
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 35
             },
@@ -134,10 +149,12 @@ do do do function while while while while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 35
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         },
@@ -146,6 +163,7 @@ do do do function while while while while
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 41
             },
@@ -154,6 +172,7 @@ do do do function while while while while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 41
             },
@@ -164,14 +183,17 @@ do do do function while while while while
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 41
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 41,
                 "end": 41
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 35,
             "end": 41
         }
@@ -180,6 +202,7 @@ do do do function while while while while
     "source": "do do do function while while while while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

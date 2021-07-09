@@ -23,12 +23,14 @@ async function f(){
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -38,6 +40,7 @@ async function f(){
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -47,6 +50,7 @@ async function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -61,12 +65,14 @@ async function f(){
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 25
                             },
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 31
                             },
@@ -87,6 +93,7 @@ async function f(){
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 35,
                                                             "end": 36
                                                         },
@@ -95,6 +102,7 @@ async function f(){
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 37,
                                                                 "end": 40
                                                             },
@@ -103,36 +111,43 @@ async function f(){
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 40,
                                                                 "end": 41
                                                             },
                                                             "flags": 1073741856,
+                                                            "transformFlags": 0,
                                                             "start": 37,
                                                             "end": 41
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 41
                                                 },
                                                 "flags": 48,
+                                                "transformFlags": 8,
                                                 "start": 34,
                                                 "end": 42
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 42
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 33,
                                     "end": 43
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 44
                                 },
@@ -141,16 +156,19 @@ async function f(){
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 45
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 33,
                                 "end": 45
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 48
                             },
@@ -159,30 +177,36 @@ async function f(){
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 50
                             },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 53
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 53
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 53
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 55
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 55
         }
@@ -191,6 +215,7 @@ async function f(){
     "source": "async function f(){\n  for await ([{x,...x}]=x of x) ;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }
@@ -199,12 +224,9 @@ async function f(){
 ### Printed
 
 ```javascript
-
 async function f() {
-  for await ([{ x, ...x },] = x of x)
-    ;
+  for await ([{ x, ...x }] = x of x);
 }
-
 ```
 
 ### Diagnostics

@@ -22,6 +22,7 @@ function yield() {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function yield() {}
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 14
             },
@@ -40,6 +42,7 @@ function yield() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -50,15 +53,18 @@ function yield() {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -67,6 +73,7 @@ function yield() {}
     "source": "function yield() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -75,9 +82,7 @@ function yield() {}
 ### Printed
 
 ```javascript
-
 function yield() {}
-
 ```
 
 ### Diagnostics

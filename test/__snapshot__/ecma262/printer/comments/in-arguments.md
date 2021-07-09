@@ -23,6 +23,7 @@ function f1(a, /* my comment */ c) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -32,6 +33,7 @@ function f1(a, /* my comment */ c) {
                 "text": "f1",
                 "rawText": "f1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -44,6 +46,7 @@ function f1(a, /* my comment */ c) {
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 13
                     },
@@ -52,12 +55,14 @@ function f1(a, /* my comment */ c) {
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 33
             },
@@ -68,15 +73,18 @@ function f1(a, /* my comment */ c) {
                     "directives": [],
                     "statements": [],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 38
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -85,6 +93,7 @@ function f1(a, /* my comment */ c) {
     "source": "function f1(a, /* my comment */ c) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -93,10 +102,7 @@ function f1(a, /* my comment */ c) {
 ### Printed
 
 ```javascript
-
-function f1(a, /* my comment */c) {
-}
-
+function f1(a, c) {}
 ```
 
 ### Diagnostics

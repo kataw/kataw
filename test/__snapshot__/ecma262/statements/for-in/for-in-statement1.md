@@ -30,6 +30,7 @@ for (a in expr) {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ for (a in expr) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -53,24 +55,29 @@ for (a in expr) {
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 10
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 10
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -80,6 +87,7 @@ for (a in expr) {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
@@ -93,6 +101,7 @@ for (a in expr) {
                             "text": "expr",
                             "rawText": "expr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 20
                         },
@@ -103,24 +112,29 @@ for (a in expr) {
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 25
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 25
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 15,
                         "end": 25
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 26
         },
@@ -129,6 +143,7 @@ for (a in expr) {
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 30
             },
@@ -137,12 +152,14 @@ for (a in expr) {
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 33
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 36
             },
@@ -151,6 +168,7 @@ for (a in expr) {
                 "text": "expr",
                 "rawText": "expr",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 41
             },
@@ -160,14 +178,17 @@ for (a in expr) {
                     "kind": 249,
                     "statements": [],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 44
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 46
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 26,
             "end": 46
         }
@@ -176,6 +197,7 @@ for (a in expr) {
     "source": "var a: any;\nvar expr: any;\nfor (a in expr) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }
@@ -184,11 +206,10 @@ for (a in expr) {
 ### Printed
 
 ```javascript
-
 var a: any;
 var expr: any;
-for (a in expr) {
-}
+
+for (a in expr) {}
 
 ```
 

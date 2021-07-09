@@ -24,12 +24,14 @@
                     "text": 3,
                     "rawText": "3",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -38,6 +40,7 @@
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -47,6 +50,7 @@
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
@@ -54,6 +58,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
@@ -62,18 +67,22 @@
                         "text": 2,
                         "rawText": "2",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 16
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -82,6 +91,7 @@
     "source": "3 + async() => 2",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -90,9 +100,7 @@
 ### Printed
 
 ```javascript
-
 3 + async () => 2;
-
 ```
 
 ### Diagnostics

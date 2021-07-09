@@ -22,6 +22,7 @@
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
@@ -34,10 +35,12 @@
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 3
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 2,
                         "end": 4
                     },
@@ -46,18 +49,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
                     "flags": 48,
+                    "transformFlags": 2,
                     "start": 2,
                     "end": 6
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         }
@@ -66,6 +73,7 @@
     "source": "--{}.x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }
@@ -74,9 +82,7 @@
 ### Printed
 
 ```javascript
-
---{}.x;
-
+-- {}.x;
 ```
 
 ### Diagnostics

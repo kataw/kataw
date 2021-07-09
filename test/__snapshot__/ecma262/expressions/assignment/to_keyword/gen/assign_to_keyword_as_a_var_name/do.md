@@ -28,6 +28,7 @@ do = x
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -40,12 +41,14 @@ do = x
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 2
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 4
                     },
@@ -54,14 +57,17 @@ do = x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 2,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 6
             },
@@ -71,10 +77,12 @@ do = x
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -83,6 +91,7 @@ do = x
     "source": "do = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

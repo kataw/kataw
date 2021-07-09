@@ -30,6 +30,7 @@ async () => {  \u0074ypeof = x  }
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -39,6 +40,7 @@ async () => {  \u0074ypeof = x  }
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -46,6 +48,7 @@ async () => {  \u0074ypeof = x  }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -64,6 +67,7 @@ async () => {  \u0074ypeof = x  }
                                         "operandToken": {
                                             "kind": 138477613,
                                             "flags": 16480,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 26
                                         },
@@ -72,16 +76,19 @@ async () => {  \u0074ypeof = x  }
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 26
                                         },
                                         "flags": 32,
+                                        "transformFlags": 1024,
                                         "start": 13,
                                         "end": 26
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
@@ -90,31 +97,38 @@ async () => {  \u0074ypeof = x  }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 13,
                                     "end": 30
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 13,
                                 "end": 30
                             }
                         ],
                         "flags": 16416,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 30
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 33
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 33
         }
@@ -123,6 +137,7 @@ async () => {  \u0074ypeof = x  }
     "source": "async () => {  \\u0074ypeof = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

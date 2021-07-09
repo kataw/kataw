@@ -25,6 +25,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,6 +34,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -59,6 +61,7 @@ class C {
                                     "text": "ma",
                                     "rawText": "ma",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 16
                                 },
@@ -68,6 +71,7 @@ class C {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 18
                                 },
@@ -79,18 +83,22 @@ class C {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 20
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 21
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 21
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 21
                         },
@@ -110,6 +118,7 @@ class C {
                                     "text": "mb",
                                     "rawText": "mb",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 44
                                 },
@@ -119,6 +128,7 @@ class C {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 46
                                 },
@@ -130,31 +140,38 @@ class C {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 48
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 49
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 49
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 49
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 49
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         }
@@ -163,6 +180,7 @@ class C {
     "source": "class C {\n    ma() {} /* D */ /* E */\n    mb() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }
@@ -171,12 +189,10 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
-  ma() {}/* D */ /* E */
+  ma() {}
   mb() {}
 }
-
 ```
 
 ### Diagnostics

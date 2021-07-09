@@ -32,12 +32,14 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -46,12 +48,14 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -66,6 +70,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                             "text": "eval",
                             "rawText": "eval",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 18
                         },
@@ -73,6 +78,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 21
                         },
@@ -86,6 +92,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                                         "text": "use strict",
                                         "rawText": "'use strict'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 36
                                     }
@@ -98,35 +105,43 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 39
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4096,
                                         "start": 37,
                                         "end": 39
                                     }
                                 ],
                                 "flags": 4194336,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 39
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 41
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 41
                     },
-                    "flags": 32,
-                    "start": 11,
+                    "flags": 11,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 43
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 44
         }
@@ -135,6 +150,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
     "source": "bar ? baz : ( eval => { 'use strict'; 0 } );",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -143,12 +159,11 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
 ### Printed
 
 ```javascript
-
 bar ? baz : (eval => {
-'\'use strict\'';
-  0;
-});
 
+        "'use strict'";
+        0;
+      });
 ```
 
 ### Diagnostics

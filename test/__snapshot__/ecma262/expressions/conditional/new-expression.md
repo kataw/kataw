@@ -22,6 +22,7 @@ const testConsole = new TestConsole(
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,6 +36,7 @@ const testConsole = new TestConsole(
                             "text": "testConsole",
                             "rawText": "testConsole",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 17
                         },
@@ -44,6 +46,7 @@ const testConsole = new TestConsole(
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 23
                             },
@@ -52,6 +55,7 @@ const testConsole = new TestConsole(
                                 "text": "TestConsole",
                                 "rawText": "TestConsole",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 35
                             },
@@ -67,6 +71,7 @@ const testConsole = new TestConsole(
                                                 "text": "config",
                                                 "rawText": "config",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 45
                                             },
@@ -75,16 +80,19 @@ const testConsole = new TestConsole(
                                                 "text": "useStderr",
                                                 "rawText": "useStderr",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 55
                                             },
                                             "flags": 97,
+                                            "transformFlags": 2,
                                             "start": 36,
                                             "end": 55
                                         },
                                         "questionToken": {
                                             "kind": 134217750,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 55,
                                             "end": 57
                                         },
@@ -95,6 +103,7 @@ const testConsole = new TestConsole(
                                                 "text": "process",
                                                 "rawText": "process",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 65
                                             },
@@ -103,16 +112,19 @@ const testConsole = new TestConsole(
                                                 "text": "stderr",
                                                 "rawText": "stderr",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 66,
                                                 "end": 72
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 57,
                                             "end": 72
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 72,
                                             "end": 74
                                         },
@@ -123,6 +135,7 @@ const testConsole = new TestConsole(
                                                 "text": "process",
                                                 "rawText": "process",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 74,
                                                 "end": 82
                                             },
@@ -131,37 +144,45 @@ const testConsole = new TestConsole(
                                                 "text": "stdout",
                                                 "rawText": "stdout",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 83,
                                                 "end": 89
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 74,
                                             "end": 89
                                         },
                                         "flags": 97,
+                                        "transformFlags": 4096,
                                         "start": 36,
                                         "end": 89
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 89
                             },
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 19,
                             "end": 91
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 91
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 91
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 92
         }
@@ -170,6 +191,7 @@ const testConsole = new TestConsole(
     "source": "const testConsole = new TestConsole(\n  config.useStderr ? process.stderr : process.stdout\n);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 92
 }
@@ -178,9 +200,9 @@ const testConsole = new TestConsole(
 ### Printed
 
 ```javascript
-
-const testConsole = new TestConsole(config.useStderr ? process.stderr : process.stdout);
-
+const testConsole = new TestConsole(
+    config.useStderr ? process.stderr : process.stdout
+  );
 ```
 
 ### Diagnostics

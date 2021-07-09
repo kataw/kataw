@@ -26,6 +26,7 @@ export * as x from "x" foo
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,12 +37,14 @@ export * as x from "x" foo
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 6,
                     "end": 8
                 },
                 "asKeyword": {
                     "kind": 16494,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -51,10 +54,12 @@ export * as x from "x" foo
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -63,6 +68,7 @@ export * as x from "x" foo
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 18
                 },
@@ -71,15 +77,18 @@ export * as x from "x" foo
                     "text": "x",
                     "rawText": "\"x\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 22
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -90,10 +99,12 @@ export * as x from "x" foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 26
         }
@@ -102,6 +113,7 @@ export * as x from "x" foo
     "source": "export * as x from \"x\" foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

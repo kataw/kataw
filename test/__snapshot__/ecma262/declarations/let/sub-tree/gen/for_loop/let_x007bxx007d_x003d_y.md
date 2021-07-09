@@ -28,6 +28,7 @@ for (;;) let {x} = y
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,14 +42,17 @@ for (;;) let {x} = y
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -64,19 +68,23 @@ for (;;) let {x} = y
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 18
         },
@@ -87,10 +95,12 @@ for (;;) let {x} = y
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 18,
             "end": 20
         }
@@ -99,6 +109,7 @@ for (;;) let {x} = y
     "source": "for (;;) let {x} = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

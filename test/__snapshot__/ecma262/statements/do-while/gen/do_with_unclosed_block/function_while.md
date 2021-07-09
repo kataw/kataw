@@ -28,6 +28,7 @@ do {} while (x) { function while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,16 +38,19 @@ do {} while (x) { function while
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 5
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 11
             },
@@ -55,10 +59,12 @@ do {} while (x) { function while
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -74,6 +80,7 @@ do {} while (x) { function while
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 26
                         },
@@ -85,6 +92,7 @@ do {} while (x) { function while
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 26
                         },
@@ -95,15 +103,18 @@ do {} while (x) { function while
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 26
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 26
                         },
                         "returnType": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 26
                     },
@@ -112,6 +123,7 @@ do {} while (x) { function while
                         "whileKeyword": {
                             "kind": 37757028,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 32
                         },
@@ -120,6 +132,7 @@ do {} while (x) { function while
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 32
                         },
@@ -130,23 +143,28 @@ do {} while (x) { function while
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 32
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 32,
                             "end": 32
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 32
         }
@@ -155,6 +173,7 @@ do {} while (x) { function while
     "source": "do {} while (x) { function while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

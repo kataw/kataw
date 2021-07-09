@@ -50,6 +50,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -60,18 +61,22 @@ typeof (0 ? 1 : x);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 32,
-                    "start": 6,
+                    "flags": 6,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 10
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         },
@@ -82,6 +87,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 19
                 },
@@ -92,12 +98,14 @@ typeof (0 ? 1 : x);
                         "left": {
                             "kind": 24752947,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 25
                         },
                         "operatorToken": {
                             "kind": 33594,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 28
                         },
@@ -106,22 +114,27 @@ typeof (0 ? 1 : x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 30
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 21,
                         "end": 30
                     },
-                    "flags": 32,
-                    "start": 19,
+                    "flags": 19,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 11,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 32
         },
@@ -132,6 +145,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 40
                 },
@@ -144,12 +158,14 @@ typeof (0 ? 1 : x);
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 43
                         },
                         "questionToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 43,
                             "end": 45
                         },
@@ -158,12 +174,14 @@ typeof (0 ? 1 : x);
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 47
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 49
                         },
@@ -172,22 +190,27 @@ typeof (0 ? 1 : x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 51
                         },
                         "flags": 96,
+                        "transformFlags": 4096,
                         "start": 42,
                         "end": 51
                     },
-                    "flags": 32,
-                    "start": 40,
+                    "flags": 40,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 52
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 32,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 32,
             "end": 53
         },
@@ -198,6 +221,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 53,
                     "end": 61
                 },
@@ -211,6 +235,7 @@ typeof (0 ? 1 : x);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 64
                             },
@@ -219,23 +244,28 @@ typeof (0 ? 1 : x);
                                 "text": "NaN",
                                 "rawText": "NaN",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 65,
                                 "end": 69
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 61,
                         "end": 69
                     },
-                    "flags": 32,
-                    "start": 61,
+                    "flags": 61,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 70
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 53,
                 "end": 70
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 53,
             "end": 71
         },
@@ -246,6 +276,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 71,
                     "end": 79
                 },
@@ -259,6 +290,7 @@ typeof (0 ? 1 : x);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 81,
                                 "end": 82
                             },
@@ -267,23 +299,28 @@ typeof (0 ? 1 : x);
                                 "text": "Infinity",
                                 "rawText": "Infinity",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 83,
                                 "end": 92
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 79,
                         "end": 92
                     },
-                    "flags": 32,
-                    "start": 79,
+                    "flags": 79,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 93
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 71,
                 "end": 93
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 71,
             "end": 94
         },
@@ -294,6 +331,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 94,
                     "end": 102
                 },
@@ -307,6 +345,7 @@ typeof (0 ? 1 : x);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 104,
                                 "end": 105
                             },
@@ -315,6 +354,7 @@ typeof (0 ? 1 : x);
                                 "operandToken": {
                                     "kind": 134318643,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 106,
                                     "end": 108
                                 },
@@ -323,27 +363,33 @@ typeof (0 ? 1 : x);
                                     "text": "Infinity",
                                     "rawText": "Infinity",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 108,
                                     "end": 116
                                 },
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 106,
                                 "end": 116
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 102,
                         "end": 116
                     },
-                    "flags": 32,
-                    "start": 102,
+                    "flags": 102,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 117
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 94,
                 "end": 117
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 94,
             "end": 118
         },
@@ -354,6 +400,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 118,
                     "end": 126
                 },
@@ -367,6 +414,7 @@ typeof (0 ? 1 : x);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 128,
                                 "end": 129
                             },
@@ -375,6 +423,7 @@ typeof (0 ? 1 : x);
                                 "operandToken": {
                                     "kind": 134318643,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 130,
                                     "end": 132
                                 },
@@ -383,27 +432,33 @@ typeof (0 ? 1 : x);
                                     "text": "Infinity",
                                     "rawText": "Infinity",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 132,
                                     "end": 140
                                 },
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 130,
                                 "end": 140
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 126,
                         "end": 140
                     },
-                    "flags": 32,
-                    "start": 126,
+                    "flags": 126,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 141
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 118,
                 "end": 141
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 118,
             "end": 142
         },
@@ -418,6 +473,7 @@ typeof (0 ? 1 : x);
                         "operandToken": {
                             "kind": 138477613,
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 142,
                             "end": 150
                         },
@@ -426,16 +482,19 @@ typeof (0 ? 1 : x);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 150,
                             "end": 152
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 142,
                         "end": 152
                     },
                     "operatorToken": {
                         "kind": 34622,
                         "flags": 96,
+                        "transformFlags": 16,
                         "start": 152,
                         "end": 155
                     },
@@ -444,16 +503,19 @@ typeof (0 ? 1 : x);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 155,
                         "end": 157
                     },
                     "flags": 32,
+                    "transformFlags": 5120,
                     "start": 142,
                     "end": 157
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 157,
                     "end": 159
                 },
@@ -462,14 +524,17 @@ typeof (0 ? 1 : x);
                     "text": "",
                     "rawText": "''",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 159,
                     "end": 162
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 142,
                 "end": 162
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 142,
             "end": 163
         },
@@ -484,6 +549,7 @@ typeof (0 ? 1 : x);
                         "operandToken": {
                             "kind": 138477613,
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 163,
                             "end": 171
                         },
@@ -492,16 +558,19 @@ typeof (0 ? 1 : x);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 171,
                             "end": 173
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 163,
                         "end": 173
                     },
                     "operatorToken": {
                         "kind": 34623,
                         "flags": 96,
+                        "transformFlags": 16,
                         "start": 173,
                         "end": 176
                     },
@@ -510,16 +579,19 @@ typeof (0 ? 1 : x);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 176,
                         "end": 178
                     },
                     "flags": 32,
+                    "transformFlags": 5120,
                     "start": 163,
                     "end": 178
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 178,
                     "end": 180
                 },
@@ -528,14 +600,17 @@ typeof (0 ? 1 : x);
                     "text": "",
                     "rawText": "''",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 180,
                     "end": 183
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 163,
                 "end": 183
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 163,
             "end": 184
         },
@@ -546,6 +621,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 138477615,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 184,
                     "end": 190
                 },
@@ -554,14 +630,17 @@ typeof (0 ? 1 : x);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 190,
                     "end": 192
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 184,
                 "end": 192
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 184,
             "end": 193
         },
@@ -572,6 +651,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 193,
                     "end": 201
                 },
@@ -584,12 +664,14 @@ typeof (0 ? 1 : x);
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 203,
                             "end": 204
                         },
                         "operatorToken": {
                             "kind": 33339,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 204,
                             "end": 207
                         },
@@ -598,22 +680,27 @@ typeof (0 ? 1 : x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 207,
                             "end": 209
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 203,
                         "end": 209
                     },
-                    "flags": 32,
-                    "start": 201,
+                    "flags": 201,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 210
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 193,
                 "end": 210
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 193,
             "end": 211
         },
@@ -624,6 +711,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 211,
                     "end": 219
                 },
@@ -636,12 +724,14 @@ typeof (0 ? 1 : x);
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 221,
                             "end": 222
                         },
                         "questionToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 222,
                             "end": 224
                         },
@@ -650,12 +740,14 @@ typeof (0 ? 1 : x);
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 224,
                             "end": 226
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 226,
                             "end": 228
                         },
@@ -664,22 +756,27 @@ typeof (0 ? 1 : x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 228,
                             "end": 230
                         },
                         "flags": 96,
+                        "transformFlags": 4096,
                         "start": 221,
                         "end": 230
                     },
-                    "flags": 32,
-                    "start": 219,
+                    "flags": 219,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 231
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 211,
                 "end": 231
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 211,
             "end": 232
         },
@@ -690,6 +787,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 65584,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 232,
                     "end": 235
                 },
@@ -698,14 +796,17 @@ typeof (0 ? 1 : x);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 235,
                     "end": 236
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 232,
                 "end": 236
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 232,
             "end": 237
         },
@@ -716,6 +817,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 134318643,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 237,
                     "end": 240
                 },
@@ -724,14 +826,17 @@ typeof (0 ? 1 : x);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 240,
                     "end": 241
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 237,
                 "end": 241
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 237,
             "end": 242
         },
@@ -742,6 +847,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 99634,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 242,
                     "end": 245
                 },
@@ -750,14 +856,17 @@ typeof (0 ? 1 : x);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 245,
                     "end": 246
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 242,
                 "end": 246
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 242,
             "end": 247
         }
@@ -766,6 +875,7 @@ typeof (0 ? 1 : x);
     "source": "delete (x);\n\ndelete (true && x);\n\ndelete (0 ? 1 : x);\n\ndelete (1, NaN);\n\ndelete (1, Infinity);\n\ndelete (1, -Infinity);\n\ntypeof (1, -Infinity);\n\ntypeof a == b + '';\n\ntypeof a != b + '';\n\nvoid x;\n\ntypeof (0 || x);\n\ntypeof (0 ? 1 : x);\n\n!x;\n\n-x;\n\n+x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 247
 }
@@ -774,21 +884,33 @@ typeof (0 ? 1 : x);
 ### Printed
 
 ```javascript
-
 delete (x);
 delete (true && x);
+
 delete (0 ? 1 : x);
+
 delete (1, NaN);
+
 delete (1, Infinity);
+
 delete (1, -Infinity);
+
 typeof (1, -Infinity);
-typeof a == b + '\'\'';
-typeof a != b + '\'\'';
+
+typeof a == b + "''";
+
+typeof a != b + "''";
+
 void x;
+
 typeof (0 || x);
+
 typeof (0 ? 1 : x);
+
 !x;
+
 -x;
+
 +x;
 
 ```

@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -40,14 +41,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 13,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 16
         },
@@ -61,6 +65,7 @@
                         "text": "string",
                         "rawText": "string",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 24
                     },
@@ -74,25 +79,30 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 28
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 28
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 25,
                         "end": 28
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 17,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 28
         },
@@ -103,10 +113,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 29,
             "end": 36
         },
@@ -117,10 +129,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 38,
             "end": 45
         },
@@ -130,16 +144,19 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 49,
             "end": 53
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 53,
             "end": 54
         }
@@ -148,6 +165,7 @@
     "source": "\"use strict\"; (x: string, [x: string]: string) =>  {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }

@@ -28,6 +28,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -51,12 +53,14 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 18,
                                 "end": 19
                             },
@@ -67,6 +71,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 20
                             },
@@ -81,6 +86,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                             "tryKeyword": {
                                                 "kind": 37757027,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 27
                                             },
@@ -96,6 +102,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 29,
                                                                     "end": 34
                                                                 },
@@ -106,23 +113,28 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                     "text": 42,
                                                                     "rawText": "42",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 34,
                                                                     "end": 37
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 29,
                                                                 "end": 37
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4096,
                                                             "start": 29,
                                                             "end": 37
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 37
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 38
                                             },
@@ -130,6 +142,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                             "finallyKeyword": {
                                                 "kind": 37757016,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 46
                                             },
@@ -145,6 +158,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 48,
                                                                     "end": 53
                                                                 },
@@ -155,14 +169,17 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                     "text": 43,
                                                                     "rawText": "43",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 53,
                                                                     "end": 56
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 48,
                                                                 "end": 56
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4096,
                                                             "start": 48,
                                                             "end": 57
                                                         },
@@ -171,6 +188,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
                                                                 "flags": 80,
+                                                                "transformFlags": 0,
                                                                 "start": 57,
                                                                 "end": 64
                                                             },
@@ -179,50 +197,61 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "text": 13,
                                                                 "rawText": "13",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 64,
                                                                 "end": 67
                                                             },
                                                             "flags": 80,
+                                                            "transformFlags": 256,
                                                             "start": 57,
                                                             "end": 67
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 48,
                                                     "end": 67
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 68
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 68
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 68
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 70
                             },
                             "returnType": null,
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 70
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 70
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 70
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 71
         }
@@ -231,6 +260,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
     "source": "let foo = function*() { try {yield 42} finally {yield 43; return 13} };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }
@@ -239,17 +269,14 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
 ### Printed
 
 ```javascript
-
-let foo = function * () {
-  try {
-    yield  42;
-  }
-  finally {
-    yield  43;
-    return 13;
-  }
-};
-
+let foo = function *() {
+    try {
+      yield 42;
+    } finally {
+      yield 43;
+      return 13;
+    }
+  };
 ```
 
 ### Diagnostics

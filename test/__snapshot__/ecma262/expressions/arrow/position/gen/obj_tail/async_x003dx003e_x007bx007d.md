@@ -32,12 +32,14 @@ x = {arrow: async => {}}.y
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -56,6 +58,7 @@ x = {arrow: async => {}}.y
                                         "text": "arrow",
                                         "rawText": "arrow",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -68,6 +71,7 @@ x = {arrow: async => {}}.y
                                             "text": "async",
                                             "rawText": "async",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 17
                                         },
@@ -75,6 +79,7 @@ x = {arrow: async => {}}.y
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 20
                                         },
@@ -85,28 +90,34 @@ x = {arrow: async => {}}.y
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 22
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 23
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 23
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 5,
                                     "end": 23
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 23
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 24
                     },
@@ -115,18 +126,22 @@ x = {arrow: async => {}}.y
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 26
                     },
                     "flags": 48,
+                    "transformFlags": 2,
                     "start": 3,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -135,6 +150,7 @@ x = {arrow: async => {}}.y
     "source": "x = {arrow: async => {}}.y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -143,9 +159,7 @@ x = {arrow: async => {}}.y
 ### Printed
 
 ```javascript
-
-x = { arrow : async => {} }.y;
-
+x = { arrow: async => {} }.y;
 ```
 
 ### Diagnostics

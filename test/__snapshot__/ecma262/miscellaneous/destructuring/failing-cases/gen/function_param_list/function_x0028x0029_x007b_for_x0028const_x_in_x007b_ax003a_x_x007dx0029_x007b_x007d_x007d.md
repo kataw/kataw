@@ -30,6 +30,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -48,6 +50,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -58,15 +61,18 @@ function x(function () { for (const x in { a: x }) { } }) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -77,6 +83,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 19
             },
@@ -88,6 +95,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -102,6 +110,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 28
                             },
@@ -110,6 +119,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 35
                                 },
@@ -123,27 +133,32 @@ function x(function () { for (const x in { a: x }) { } }) {}
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 37
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 35,
                                             "end": 37
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 37
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 40
                             },
@@ -160,6 +175,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 44
                                             },
@@ -168,20 +184,24 @@ function x(function () { for (const x in { a: x }) { } }) {}
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 45,
                                                 "end": 47
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 42,
                                             "end": 47
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 47
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 40,
                                 "end": 49
                             },
@@ -191,28 +211,34 @@ function x(function () { for (const x in { a: x }) { } }) {}
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 52
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 54
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 54
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 56
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 56
         },
@@ -222,10 +248,12 @@ function x(function () { for (const x in { a: x }) { } }) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 59
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 57,
             "end": 60
         }
@@ -234,6 +262,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
     "source": "function x(function () { for (const x in { a: x }) { } }) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }

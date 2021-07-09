@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -45,12 +46,14 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 15
                         },
                         "operatorToken": {
                             "kind": 21006388,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
@@ -59,20 +62,24 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 17
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 15,
                         "end": 17
                     },
-                    "flags": 32,
-                    "start": 13,
+                    "flags": 13,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -81,20 +88,24 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 13,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 21
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 23
         }
@@ -103,6 +114,7 @@
     "source": "\"use strict\"; (in = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

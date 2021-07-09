@@ -28,6 +28,7 @@ declare class A { "static" foo(): number }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare class A { "static" foo(): number }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -43,6 +45,7 @@ declare class A { "static" foo(): number }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -64,6 +67,7 @@ declare class A { "static" foo(): number }
                                 "text": "static",
                                 "rawText": "\"static\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 26
                             },
@@ -79,19 +83,23 @@ declare class A { "static" foo(): number }
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 30
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 30
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 30
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 30
                         },
@@ -105,6 +113,7 @@ declare class A { "static" foo(): number }
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 31
                             },
@@ -115,28 +124,34 @@ declare class A { "static" foo(): number }
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 40
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 40
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 40
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 42
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -145,6 +160,7 @@ declare class A { "static" foo(): number }
     "source": "declare class A { \"static\" foo(): number }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

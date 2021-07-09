@@ -22,6 +22,7 @@ function e(x=eval=10){ }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function e(x=eval=10){ }
                 "text": "e",
                 "rawText": "e",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -46,6 +48,7 @@ function e(x=eval=10){ }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -58,12 +61,14 @@ function e(x=eval=10){ }
                                 "text": "eval",
                                 "rawText": "eval",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 17
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 18
                             },
@@ -72,20 +77,24 @@ function e(x=eval=10){ }
                                 "text": 10,
                                 "rawText": "10",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 13,
                             "end": 20
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 20
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 20
             },
@@ -96,15 +105,18 @@ function e(x=eval=10){ }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -113,6 +125,7 @@ function e(x=eval=10){ }
     "source": "function e(x=eval=10){ }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -121,9 +134,7 @@ function e(x=eval=10){ }
 ### Printed
 
 ```javascript
-
 function e(x = eval = 10) {}
-
 ```
 
 ### Diagnostics

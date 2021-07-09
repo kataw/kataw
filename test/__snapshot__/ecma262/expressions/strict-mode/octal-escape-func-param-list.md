@@ -22,6 +22,7 @@ function foo(p\141ckage) { "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function foo(p\141ckage) { "use strict"; }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -43,12 +45,14 @@ function foo(p\141ckage) { "use strict"; }
                         "text": "p",
                         "rawText": "p",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 14
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
@@ -59,15 +63,18 @@ function foo(p\141ckage) { "use strict"; }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -78,10 +85,12 @@ function foo(p\141ckage) { "use strict"; }
                 "text": 141,
                 "rawText": "141",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 18
         },
@@ -92,10 +101,12 @@ function foo(p\141ckage) { "use strict"; }
                 "text": "ckage",
                 "rawText": "ckage",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 18,
             "end": 23
         },
@@ -111,19 +122,23 @@ function foo(p\141ckage) { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 39
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 26,
                         "end": 40
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 42
         }
@@ -132,6 +147,7 @@ function foo(p\141ckage) { "use strict"; }
     "source": "function foo(p\\141ckage) { \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

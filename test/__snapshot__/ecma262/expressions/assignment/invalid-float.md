@@ -24,12 +24,14 @@ x = 1.0n;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -37,15 +39,18 @@ x = 1.0n;
                     "kind": 201392400,
                     "text": "1.0",
                     "rawText": "1.0n",
-                    "flags": 96,
+                    "flags": 32864,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -54,6 +59,7 @@ x = 1.0n;
     "source": "x = 1.0n;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

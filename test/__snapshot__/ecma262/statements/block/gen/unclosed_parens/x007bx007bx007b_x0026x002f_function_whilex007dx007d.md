@@ -36,14 +36,17 @@
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 1,
                                 "end": 4
                             },
-                            "flags": 32,
-                            "start": 1,
+                            "flags": 1,
+                            "transformFlags": 0,
+                            "start": 34,
                             "end": 4
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 4
                     },
@@ -66,12 +69,14 @@
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 6
                                                     },
                                                     "operatorToken": {
                                                         "kind": 134252103,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 8
                                                     },
@@ -79,41 +84,50 @@
                                                         "kind": 371,
                                                         "text": "/ function while}}",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 8,
                                                         "end": 26
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 5120,
                                                     "start": 6,
                                                     "end": 26
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 6,
                                                 "end": 26
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 26
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 26
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -122,6 +136,7 @@
     "source": "{( {{{ &/ function while}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

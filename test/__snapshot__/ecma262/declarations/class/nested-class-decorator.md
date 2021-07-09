@@ -31,6 +31,7 @@ class Bar {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -41,6 +42,7 @@ class Bar {
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 1
                             },
@@ -60,6 +62,7 @@ class Bar {
                                                         "text": "store",
                                                         "rawText": "store",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 3,
                                                         "end": 11
                                                     },
@@ -73,6 +76,7 @@ class Bar {
                                                                     "decoratorToken": {
                                                                         "kind": 34611453,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 12,
                                                                         "end": 14
                                                                     },
@@ -81,21 +85,25 @@ class Bar {
                                                                         "text": "inner",
                                                                         "rawText": "inner",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 14,
                                                                         "end": 19
                                                                     },
                                                                     "flags": 0,
+                                                                    "transformFlags": 0,
                                                                     "start": 14,
                                                                     "end": 19
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 19
                                                         },
                                                         "classKeyword": {
                                                             "kind": 37822544,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 19,
                                                             "end": 25
                                                         },
@@ -104,6 +112,7 @@ class Bar {
                                                             "text": "Foo",
                                                             "rawText": "Foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 25,
                                                             "end": 29
                                                         },
@@ -115,53 +124,64 @@ class Bar {
                                                                 "kind": 303,
                                                                 "elements": [],
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 31,
                                                                 "end": 31
                                                             },
                                                             "flags": 29,
+                                                            "transformFlags": 0,
                                                             "start": 32,
                                                             "end": 32
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 32
                                                     },
                                                     "flags": 33,
+                                                    "transformFlags": 128,
                                                     "start": 3,
                                                     "end": 32
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 17,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 32
                                         },
                                         "flags": 49,
+                                        "transformFlags": 8,
                                         "start": 2,
                                         "end": 34
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 34
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 1,
                             "end": 35
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 35
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 35
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 41
             },
@@ -170,6 +190,7 @@ class Bar {
                 "text": "Bar",
                 "rawText": "Bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 45
             },
@@ -181,14 +202,17 @@ class Bar {
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 47
                 },
                 "flags": 45,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 50
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -197,6 +221,7 @@ class Bar {
     "source": "@({\n  store: @inner class Foo {}\n})\nclass Bar {\n\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

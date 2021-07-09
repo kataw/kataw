@@ -27,6 +27,7 @@ _ => {}
                     "text": "_",
                     "rawText": "_",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -34,6 +35,7 @@ _ => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -44,18 +46,22 @@ _ => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -65,10 +71,12 @@ _ => {}
                 "kind": 371,
                 "text": "/foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 12
         }
@@ -77,6 +85,7 @@ _ => {}
     "source": "_ => {}\n/foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

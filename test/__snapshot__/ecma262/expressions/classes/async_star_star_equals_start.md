@@ -28,6 +28,7 @@ class A {async **=f(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ class A {async **=f(){}}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -57,6 +59,7 @@ class A {async **=f(){}}
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -64,19 +67,23 @@ class A {async **=f(){}}
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 14
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 14
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -89,6 +96,7 @@ class A {async **=f(){}}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 19
                 },
@@ -97,14 +105,17 @@ class A {async **=f(){}}
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 18,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 18,
             "end": 21
         },
@@ -114,10 +125,12 @@ class A {async **=f(){}}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 23
         }
@@ -126,6 +139,7 @@ class A {async **=f(){}}
     "source": "class A {async **=f(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

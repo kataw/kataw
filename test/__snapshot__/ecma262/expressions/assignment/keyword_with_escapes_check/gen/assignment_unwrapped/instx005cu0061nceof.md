@@ -32,12 +32,14 @@ inst\u0061nceof = x;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 15
                 },
@@ -46,14 +48,17 @@ inst\u0061nceof = x;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 16480,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         },
@@ -64,10 +69,12 @@ inst\u0061nceof = x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 20
         }
@@ -76,6 +83,7 @@ inst\u0061nceof = x;
     "source": "inst\\u0061nceof = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

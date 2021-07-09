@@ -37,6 +37,7 @@
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2,
                                                 "end": 3
                                             },
@@ -45,26 +46,31 @@
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 4,
                                                 "end": 6
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 2,
                                             "end": 6
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 6
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 1,
                                 "end": 7
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
@@ -75,28 +81,34 @@
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 11
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 9,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 1,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -105,6 +117,7 @@
     "source": "[{a: 1} = []];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

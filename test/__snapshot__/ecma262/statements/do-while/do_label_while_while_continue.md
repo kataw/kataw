@@ -20,6 +20,7 @@ do wow: while (x) while (x) continue wow;
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -30,12 +31,14 @@ do wow: while (x) while (x) continue wow;
                     "text": "wow",
                     "rawText": "wow",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 6
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 7
                 },
@@ -44,6 +47,7 @@ do wow: while (x) while (x) continue wow;
                     "whileKeyword": {
                         "kind": 37757028,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 13
                     },
@@ -52,6 +56,7 @@ do wow: while (x) while (x) continue wow;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 16
                     },
@@ -60,6 +65,7 @@ do wow: while (x) while (x) continue wow;
                         "whileKeyword": {
                             "kind": 37757028,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 23
                         },
@@ -68,6 +74,7 @@ do wow: while (x) while (x) continue wow;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 26
                         },
@@ -76,6 +83,7 @@ do wow: while (x) while (x) continue wow;
                             "continueKeyword": {
                                 "kind": 37757009,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 36
                             },
@@ -84,22 +92,27 @@ do wow: while (x) while (x) continue wow;
                                 "text": "wow",
                                 "rawText": "wow",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 40
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 41
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 41
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 41
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 41
             },
@@ -109,10 +122,12 @@ do wow: while (x) while (x) continue wow;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 41
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -121,6 +136,7 @@ do wow: while (x) while (x) continue wow;
     "source": "do wow: while (x) while (x) continue wow;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

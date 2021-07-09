@@ -32,12 +32,14 @@ x = {arrow: async async => ok}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -54,6 +56,7 @@ x = {arrow: async async => ok}
                                     "text": "arrow",
                                     "rawText": "arrow",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 10
                                 },
@@ -62,6 +65,7 @@ x = {arrow: async async => ok}
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 17
                                     },
@@ -71,6 +75,7 @@ x = {arrow: async async => ok}
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 23
                                     },
@@ -78,6 +83,7 @@ x = {arrow: async async => ok}
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 26
                                     },
@@ -86,32 +92,39 @@ x = {arrow: async async => ok}
                                         "text": "ok",
                                         "rawText": "ok",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 29
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 29
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 29
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 29
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 30
         }
@@ -120,6 +133,7 @@ x = {arrow: async async => ok}
     "source": "x = {arrow: async async => ok}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -128,9 +142,7 @@ x = {arrow: async async => ok}
 ### Printed
 
 ```javascript
-
-x = { arrow : async async => ok };
-
+x = { arrow: async async => ok };
 ```
 
 ### Diagnostics

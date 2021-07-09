@@ -32,16 +32,19 @@
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 12
                                 },
                                 "right": {
                                     "kind": 138477575,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 18
                                 },
                                 "flags": 36,
+                                "transformFlags": 128,
                                 "start": 2,
                                 "end": 18
                             },
@@ -53,6 +56,7 @@
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 23
                                 },
@@ -63,6 +67,7 @@
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 33
                                     },
@@ -75,12 +80,14 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 35
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 36
                                     },
@@ -92,36 +99,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 37
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 38
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 38
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 38
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 38
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 40
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 41
         }
@@ -130,6 +145,7 @@
     "source": "({ __proto__: null, set __proto__(x){} })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }
@@ -138,9 +154,7 @@
 ### Printed
 
 ```javascript
-
-({ __proto__ : null, set __proto__(x) {} });
-
+({ __proto__: null, set __proto__(x) {} });
 ```
 
 ### Diagnostics

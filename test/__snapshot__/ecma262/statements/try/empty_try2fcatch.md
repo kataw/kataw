@@ -20,6 +20,7 @@ try {} catch(e) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,10 +30,12 @@ try {} catch(e) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -41,6 +44,7 @@ try {} catch(e) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -49,6 +53,7 @@ try {} catch(e) {}
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 14
                 },
@@ -58,20 +63,24 @@ try {} catch(e) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 17
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 18
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -80,6 +89,7 @@ try {} catch(e) {}
     "source": "try {} catch(e) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -88,10 +98,7 @@ try {} catch(e) {}
 ### Printed
 
 ```javascript
-
-try { }
-catch (e){ }
-
+try {} catch (e) {}
 ```
 
 ### Diagnostics

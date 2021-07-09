@@ -29,12 +29,14 @@ async function g(){let o = {async *f(foo = await bar){}}    }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -44,6 +46,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -53,6 +56,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -67,6 +71,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                             "lexicalKeyword": {
                                 "kind": 41951307,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 22
                             },
@@ -80,6 +85,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                             "text": "o",
                                             "rawText": "o",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 24
                                         },
@@ -94,12 +100,14 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                         "asyncKeyword": {
                                                             "kind": 82031,
                                                             "flags": 352,
+                                                            "transformFlags": 0,
                                                             "start": 28,
                                                             "end": 33
                                                         },
                                                         "asteriskToken": {
                                                             "kind": 67143222,
                                                             "flags": 64,
+                                                            "transformFlags": 32,
                                                             "start": 33,
                                                             "end": 35
                                                         },
@@ -112,6 +120,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                 "text": "f",
                                                                 "rawText": "f",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 35,
                                                                 "end": 36
                                                             },
@@ -127,6 +136,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                             "text": "foo",
                                                                             "rawText": "foo",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 37,
                                                                             "end": 40
                                                                         },
@@ -137,6 +147,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                             "awaitKeyword": {
                                                                                 "kind": 82196,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 42,
                                                                                 "end": 48
                                                                             },
@@ -145,20 +156,24 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                                 "text": "bar",
                                                                                 "rawText": "bar",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 48,
                                                                                 "end": 52
                                                                             },
                                                                             "flags": 32,
+                                                                            "transformFlags": 4096,
                                                                             "start": 42,
                                                                             "end": 52
                                                                         },
                                                                         "flags": 34,
+                                                                        "transformFlags": 4096,
                                                                         "start": 37,
                                                                         "end": 52
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 418,
+                                                                "transformFlags": 0,
                                                                 "start": 37,
                                                                 "end": 53
                                                             },
@@ -170,55 +185,67 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                     "directives": [],
                                                                     "statements": [],
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 54,
                                                                     "end": 54
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 53,
                                                                 "end": 55
                                                             },
                                                             "flags": 416,
+                                                            "transformFlags": 0,
                                                             "start": 36,
                                                             "end": 55
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 55
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 55
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 26,
                                             "end": 56
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 22,
                                         "end": 56
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 56
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 56
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 56
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 61
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -227,6 +254,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
     "source": "async function g(){let o = {async *f(foo = await bar){}}    }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }

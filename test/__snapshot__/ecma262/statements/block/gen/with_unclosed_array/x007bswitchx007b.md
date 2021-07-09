@@ -45,16 +45,19 @@
                                                     "text": "switch",
                                                     "rawText": "switch",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 4,
                                                     "end": 10
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 10
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 2,
                                         "end": 10
                                     },
@@ -65,33 +68,40 @@
                                             "properties": [],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 11
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 10,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 1,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -100,6 +110,7 @@
     "source": "{[ {switch{",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

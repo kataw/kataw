@@ -29,6 +29,7 @@ type a = ({} | {static [x]:string}) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = ({} | {static [x]:string}) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = ({} | {static [x]:string}) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -65,6 +68,7 @@ type a = ({} | {static [x]:string}) => T;
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -82,6 +86,7 @@ type a = ({} | {static [x]:string}) => T;
                                                 "text": "static",
                                                 "rawText": "static",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 22
                                             },
@@ -104,56 +109,68 @@ type a = ({} | {static [x]:string}) => T;
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 24,
                                                                     "end": 25
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 24,
                                                                 "end": 25
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 24,
                                                             "end": 25
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 26
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 26
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 26
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 26
                                 }
                             ],
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 26
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 26
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 26
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 26
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -164,10 +181,12 @@ type a = ({} | {static [x]:string}) => T;
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 33
         },
@@ -178,10 +197,12 @@ type a = ({} | {static [x]:string}) => T;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 38,
             "end": 41
         }
@@ -190,6 +211,7 @@ type a = ({} | {static [x]:string}) => T;
     "source": "type a = ({} | {static [x]:string}) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

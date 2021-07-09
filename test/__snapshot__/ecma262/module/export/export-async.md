@@ -26,6 +26,7 @@ export async function foo() { };
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,12 +36,14 @@ export async function foo() { };
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 21
                 },
@@ -50,6 +53,7 @@ export async function foo() { };
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 25
                 },
@@ -59,6 +63,7 @@ export async function foo() { };
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
@@ -69,15 +74,18 @@ export async function foo() { };
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 29
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 31
                 },
                 "returnType": null,
                 "flags": 144,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 31
             },
@@ -86,12 +94,14 @@ export async function foo() { };
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 31,
             "end": 32
         }
@@ -100,6 +110,7 @@ export async function foo() { };
     "source": "export async function foo() { };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -108,10 +119,7 @@ export async function foo() { };
 ### Printed
 
 ```javascript
-
 export async function foo() {}
-;
-
 ```
 
 ### Diagnostics

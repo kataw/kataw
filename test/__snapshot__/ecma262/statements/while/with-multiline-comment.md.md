@@ -24,12 +24,14 @@ there; }
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -43,11 +45,13 @@ there; }
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 20
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 20
                         },
@@ -58,23 +62,28 @@ there; }
                                 "text": "there",
                                 "rawText": "there",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 49
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 50
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 50
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 52
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         },
@@ -83,12 +92,14 @@ there; }
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 59
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 65
             },
@@ -102,11 +113,13 @@ there; }
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 74
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 68,
                             "end": 74
                         },
@@ -117,23 +130,28 @@ there; }
                                 "text": "there",
                                 "rawText": "there",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 74,
                                 "end": 91
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 74,
                             "end": 92
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 92
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 94
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 52,
             "end": 94
         }
@@ -142,6 +160,7 @@ there; }
     "source": "while (true) { break /* Multiline\nComment */there; }\n\nwhile (true) { break // Comment\nthere; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 94
 }
@@ -150,16 +169,14 @@ there; }
 ### Printed
 
 ```javascript
-
 while (true) {
-  break;/* Multiline
-Comment */
-  there;
-}
+    break;
+    there;
+  }
 while (true) {
-  break;// Comment
-  there;
-}
+    break;
+    there;
+  }
 
 ```
 

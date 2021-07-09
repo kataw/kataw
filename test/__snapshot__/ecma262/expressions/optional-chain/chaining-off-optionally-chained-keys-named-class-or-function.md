@@ -25,6 +25,7 @@ foo?.function?.bar
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -33,6 +34,7 @@ foo?.function?.bar
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -48,14 +50,17 @@ foo?.function?.bar
                                 "text": "class",
                                 "rawText": "class",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 10
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 5,
                             "end": 10
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 10
                     },
@@ -64,18 +69,22 @@ foo?.function?.bar
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
                     "flags": 536870944,
+                    "transformFlags": 2,
                     "start": 10,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         },
@@ -86,6 +95,7 @@ foo?.function?.bar
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -94,6 +104,7 @@ foo?.function?.bar
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 18
                 },
@@ -109,14 +120,17 @@ foo?.function?.bar
                                 "text": "function",
                                 "rawText": "function",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 28
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 20,
                             "end": 28
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 28
                     },
@@ -125,18 +139,22 @@ foo?.function?.bar
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 32
                     },
                     "flags": 536870944,
+                    "transformFlags": 2,
                     "start": 28,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 32
         },
@@ -147,6 +165,7 @@ foo?.function?.bar
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 43
                 },
@@ -155,6 +174,7 @@ foo?.function?.bar
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 38
                     },
@@ -163,6 +183,7 @@ foo?.function?.bar
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 36
                     },
@@ -176,18 +197,22 @@ foo?.function?.bar
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 41
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 38,
                             "end": 41
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 41
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 41
                 },
@@ -203,14 +228,17 @@ foo?.function?.bar
                                 "text": "class",
                                 "rawText": "class",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 48
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 43,
                             "end": 48
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 43,
                         "end": 48
                     },
@@ -219,18 +247,22 @@ foo?.function?.bar
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 49,
                         "end": 52
                     },
                     "flags": 536870944,
+                    "transformFlags": 2,
                     "start": 48,
                     "end": 52
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 32,
             "end": 52
         },
@@ -241,6 +273,7 @@ foo?.function?.bar
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 66,
                     "end": 68
                 },
@@ -249,6 +282,7 @@ foo?.function?.bar
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 56,
                         "end": 58
                     },
@@ -257,6 +291,7 @@ foo?.function?.bar
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 52,
                         "end": 56
                     },
@@ -270,18 +305,22 @@ foo?.function?.bar
                                 "text": "function",
                                 "rawText": "function",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 66
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 58,
                             "end": 66
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 58,
                         "end": 66
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 66
                 },
@@ -295,22 +334,27 @@ foo?.function?.bar
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 68,
                             "end": 71
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 68,
                         "end": 71
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 71
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 71
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 52,
             "end": 71
         }
@@ -319,6 +363,7 @@ foo?.function?.bar
     "source": "foo?.class.bar\nfoo?.function.bar\nfoo?.bar?.class.bar\nfoo?.function?.bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }
@@ -327,10 +372,11 @@ foo?.function?.bar
 ### Printed
 
 ```javascript
+foo?.class.bar;
+foo?.function.bar;
 
-foo?.classbar;
-foo?.functionbar;
-foo?.bar?.classbar;
+foo?.bar?.class.bar;
+
 foo?.function?.bar;
 
 ```

@@ -24,12 +24,14 @@ result = {} = vals;
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -42,16 +44,19 @@ result = {} = vals;
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 8,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
@@ -60,18 +65,22 @@ result = {} = vals;
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 8,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -80,6 +89,7 @@ result = {} = vals;
     "source": "result = {} = vals;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -88,9 +98,7 @@ result = {} = vals;
 ### Printed
 
 ```javascript
-
 result = {} = vals;
-
 ```
 
 ### Diagnostics

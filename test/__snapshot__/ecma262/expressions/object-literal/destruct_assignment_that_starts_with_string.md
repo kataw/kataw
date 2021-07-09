@@ -34,6 +34,7 @@
                                         "text": "s",
                                         "rawText": "s",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 3
                                     },
@@ -44,6 +45,7 @@
                                             "text": "foo",
                                             "rawText": "\"foo\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 10
                                         },
@@ -52,30 +54,36 @@
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 14
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 4,
                                         "end": 14
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 2,
                                     "end": 14
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 14
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
@@ -84,18 +92,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -104,6 +116,7 @@
     "source": "({s: \"foo\".foo} = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -112,9 +125,7 @@
 ### Printed
 
 ```javascript
-
-({ s : '"foo"'.foo } = x);
-
+({ s: "\"foo\"".foo } = x);
 ```
 
 ### Diagnostics

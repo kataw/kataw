@@ -30,6 +30,7 @@ declare class B {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -37,6 +38,7 @@ declare class B {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -45,6 +47,7 @@ declare class B {
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -63,6 +66,7 @@ declare class B {
                             "setKeyword": {
                                 "kind": 16499,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 30
                             },
@@ -71,6 +75,7 @@ declare class B {
                                 "text": "string",
                                 "rawText": "\"string\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 39
                             },
@@ -85,6 +90,7 @@ declare class B {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 44
                                             },
@@ -97,21 +103,25 @@ declare class B {
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 44,
                                                     "end": 45
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 45
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 45
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 45
                                 },
@@ -124,33 +134,40 @@ declare class B {
                                         "properties": [],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 50
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 50
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 50
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 51
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 53
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 53
         }
@@ -159,6 +176,7 @@ declare class B {
     "source": "declare class B {\n  static set \"string\" (...a): {};\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }

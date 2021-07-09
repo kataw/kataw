@@ -30,6 +30,7 @@ class C extends Base { async async(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C extends Base { async async(){} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class C extends Base { async async(){} }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -57,11 +60,13 @@ class C extends Base { async async(){} }
                         "text": "Base",
                         "rawText": "Base",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
@@ -76,6 +81,7 @@ class C extends Base { async async(){} }
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 28
                             },
@@ -89,6 +95,7 @@ class C extends Base { async async(){} }
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 34
                                 },
@@ -98,6 +105,7 @@ class C extends Base { async async(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
                                 },
@@ -109,31 +117,38 @@ class C extends Base { async async(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 37
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 38
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 38
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 38
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 38
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -142,6 +157,7 @@ class C extends Base { async async(){} }
     "source": "class C extends Base { async async(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -150,11 +166,9 @@ class C extends Base { async async(){} }
 ### Printed
 
 ```javascript
-
 class C extends Base {
   async async() {}
 }
-
 ```
 
 ### Diagnostics

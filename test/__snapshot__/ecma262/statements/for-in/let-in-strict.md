@@ -28,6 +28,7 @@ for (let in in x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,12 +37,14 @@ for (let in in x);
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 8
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -50,16 +53,19 @@ for (let in in x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -68,6 +74,7 @@ for (let in in x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 20
             },
@@ -76,12 +83,14 @@ for (let in in x);
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 25
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 28
             },
@@ -92,12 +101,14 @@ for (let in in x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 28
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 31
                 },
@@ -106,20 +117,24 @@ for (let in in x);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 33
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 28,
                 "end": 33
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 35
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 15,
             "end": 35
         }
@@ -128,6 +143,7 @@ for (let in in x);
     "source": "for (let in x);\n\nfor (let in in x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

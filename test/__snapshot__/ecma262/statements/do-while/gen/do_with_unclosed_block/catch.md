@@ -28,6 +28,7 @@ do {} while (x) { catch
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,16 +38,19 @@ do {} while (x) { catch
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 5
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 11
             },
@@ -55,10 +59,12 @@ do {} while (x) { catch
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -76,10 +82,12 @@ do {} while (x) { catch
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 17
                         },
@@ -88,6 +96,7 @@ do {} while (x) { catch
                             "catchKeyword": {
                                 "kind": 4202575,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
@@ -98,29 +107,35 @@ do {} while (x) { catch
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 23
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 23
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 23
                         },
                         "finallyKeyword": null,
                         "finallyBlock": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 23
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 23
         }
@@ -129,6 +144,7 @@ do {} while (x) { catch
     "source": "do {} while (x) { catch",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

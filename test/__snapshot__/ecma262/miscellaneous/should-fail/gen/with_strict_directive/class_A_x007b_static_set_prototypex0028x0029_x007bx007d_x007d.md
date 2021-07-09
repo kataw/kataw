@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,6 +40,7 @@
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -47,6 +49,7 @@
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
@@ -64,6 +67,7 @@
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 30
                             },
@@ -72,6 +76,7 @@
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 34
                             },
@@ -83,6 +88,7 @@
                                     "text": "prototype",
                                     "rawText": "prototype",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 44
                                 },
@@ -92,6 +98,7 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 512,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 46
                                 },
@@ -103,31 +110,38 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 48
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 49
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 49
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 49
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 49
                 },
                 "flags": 21,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 51
         }
@@ -136,6 +150,7 @@
     "source": "\"use strict\"; class A { static set prototype() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

@@ -28,6 +28,7 @@ const a = async (foo: string = "") => {}
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ const a = async (foo: string = "") => {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -50,6 +52,7 @@ const a = async (foo: string = "") => {}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -65,6 +68,7 @@ const a = async (foo: string = "") => {}
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 20
                                         },
@@ -76,10 +80,12 @@ const a = async (foo: string = "") => {}
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 28
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 28
                                         },
@@ -88,16 +94,19 @@ const a = async (foo: string = "") => {}
                                             "text": "",
                                             "rawText": "\"\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 33
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 17,
                                         "end": 33
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 34
                             },
@@ -105,6 +114,7 @@ const a = async (foo: string = "") => {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 37
                             },
@@ -115,27 +125,33 @@ const a = async (foo: string = "") => {}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 39
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 40
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 40
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 40
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 40
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -144,6 +160,7 @@ const a = async (foo: string = "") => {}
     "source": "const a = async (foo: string = \"\") => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -152,9 +169,7 @@ const a = async (foo: string = "") => {}
 ### Printed
 
 ```javascript
-
-const a = async (foo: string = '""') => {};
-
+const a = async (foo: string = "\"\"") => {};
 ```
 
 ### Diagnostics

@@ -22,6 +22,7 @@ function f([b, a], {b}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f([b, a], {b}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -48,6 +50,7 @@ function f([b, a], {b}) {}
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 },
@@ -56,16 +59,19 @@ function f([b, a], {b}) {}
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 16
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 16
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     },
@@ -79,22 +85,26 @@ function f([b, a], {b}) {}
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 21
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 21
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 22
             },
@@ -105,15 +115,18 @@ function f([b, a], {b}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 26
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -122,6 +135,7 @@ function f([b, a], {b}) {}
     "source": "function f([b, a], {b}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -130,11 +144,7 @@ function f([b, a], {b}) {}
 ### Printed
 
 ```javascript
-
-function f([b, a], {
-    b
-  }) {}
-
+function f([b, a], { b }) {}
 ```
 
 ### Diagnostics

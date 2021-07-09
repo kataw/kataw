@@ -30,6 +30,7 @@ function inner2({a} = {a: my_var}) { }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function inner2({a} = {a: my_var}) { }
                 "text": "inner2",
                 "rawText": "inner2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
@@ -59,16 +61,19 @@ function inner2({a} = {a: my_var}) { }
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 18
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 19
                         },
@@ -87,6 +92,7 @@ function inner2({a} = {a: my_var}) { }
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 24
                                         },
@@ -95,30 +101,36 @@ function inner2({a} = {a: my_var}) { }
                                             "text": "my_var",
                                             "rawText": "my_var",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 32
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 23,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 32
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 21,
                             "end": 33
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 16,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 33
             },
@@ -129,15 +141,18 @@ function inner2({a} = {a: my_var}) { }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 38
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -146,6 +161,7 @@ function inner2({a} = {a: my_var}) { }
     "source": "function inner2({a} = {a: my_var}) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -154,11 +170,7 @@ function inner2({a} = {a: my_var}) { }
 ### Printed
 
 ```javascript
-
-function inner2({
-    a
-  } = { a : my_var }) {}
-
+function inner2({ a } = { a: my_var }) {}
 ```
 
 ### Diagnostics

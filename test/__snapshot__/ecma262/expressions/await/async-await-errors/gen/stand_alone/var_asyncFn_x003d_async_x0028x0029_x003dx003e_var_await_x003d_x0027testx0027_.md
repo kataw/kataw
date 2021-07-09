@@ -29,6 +29,7 @@ var asyncFn = async () => var await = 'test';
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var asyncFn = async () => var await = 'test';
                             "text": "asyncFn",
                             "rawText": "asyncFn",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 11
                         },
@@ -51,6 +53,7 @@ var asyncFn = async () => var await = 'test';
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
                             },
@@ -60,6 +63,7 @@ var asyncFn = async () => var await = 'test';
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 21
                             },
@@ -67,6 +71,7 @@ var asyncFn = async () => var await = 'test';
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 25
                             },
@@ -75,23 +80,28 @@ var asyncFn = async () => var await = 'test';
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 25
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 25
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 25
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -101,6 +111,7 @@ var asyncFn = async () => var await = 'test';
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 29
             },
@@ -114,6 +125,7 @@ var asyncFn = async () => var await = 'test';
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 35
                         },
@@ -123,19 +135,23 @@ var asyncFn = async () => var await = 'test';
                             "text": "test",
                             "rawText": "'test'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 44
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 44
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 45
         }
@@ -144,6 +160,7 @@ var asyncFn = async () => var await = 'test';
     "source": "var asyncFn = async () => var await = 'test';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }

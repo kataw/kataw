@@ -30,6 +30,7 @@ class x {static async * protected(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {static async * protected(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -55,12 +57,14 @@ class x {static async * protected(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -69,6 +73,7 @@ class x {static async * protected(){}}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 21,
                                 "end": 23
                             },
@@ -79,6 +84,7 @@ class x {static async * protected(){}}
                                     "text": "protected",
                                     "rawText": "protected",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 33
                                 },
@@ -88,6 +94,7 @@ class x {static async * protected(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -99,31 +106,38 @@ class x {static async * protected(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 36
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
                                 "flags": 384,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 37
                             },
                             "flags": 384,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 37
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 37
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -132,6 +146,7 @@ class x {static async * protected(){}}
     "source": "class x {static async * protected(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -140,11 +155,9 @@ class x {static async * protected(){}}
 ### Printed
 
 ```javascript
-
 class x {
-  static async * protected() {}
+  static async *protected() {}
 }
-
 ```
 
 ### Diagnostics

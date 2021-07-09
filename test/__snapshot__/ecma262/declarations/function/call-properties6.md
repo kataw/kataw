@@ -32,6 +32,7 @@ function d(x: { (z: number): string }): () => string {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ function d(x: { (z: number): string }): () => string {
                 "text": "d",
                 "rawText": "d",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -56,6 +58,7 @@ function d(x: { (z: number): string }): () => string {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -83,6 +86,7 @@ function d(x: { (z: number): string }): () => string {
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 18
                                                     },
@@ -94,20 +98,24 @@ function d(x: { (z: number): string }): () => string {
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 19,
                                                             "end": 26
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 26
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 26
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 26
                                         },
@@ -118,35 +126,42 @@ function d(x: { (z: number): string }): () => string {
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 35
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 35
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 37
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 37
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 37
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 37
             },
@@ -161,6 +176,7 @@ function d(x: { (z: number): string }): () => string {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 63
                             },
@@ -169,19 +185,23 @@ function d(x: { (z: number): string }): () => string {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 65
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 54,
                             "end": 66
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 66
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 68
             },
@@ -197,12 +217,14 @@ function d(x: { (z: number): string }): () => string {
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 41,
                         "end": 41
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 45
                     },
@@ -213,22 +235,27 @@ function d(x: { (z: number): string }): () => string {
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 52
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 45,
                         "end": 52
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 52
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 68
         }
@@ -237,6 +264,7 @@ function d(x: { (z: number): string }): () => string {
     "source": "function d(x: { (z: number): string }): () => string {\n  return x;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }
@@ -245,11 +273,9 @@ function d(x: { (z: number): string }): () => string {
 ### Printed
 
 ```javascript
-
 function d(x: { (z: number): string }): () => string {
   return x;
 }
-
 ```
 
 ### Diagnostics

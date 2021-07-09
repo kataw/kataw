@@ -24,12 +24,14 @@ result = {...rest} = 69;
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -45,6 +47,7 @@ result = {...rest} = 69;
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 13
                                     },
@@ -53,26 +56,31 @@ result = {...rest} = 69;
                                         "text": "rest",
                                         "rawText": "rest",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 17
                                     },
                                     "flags": 1073741856,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 17
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 17
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 8,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -81,18 +89,22 @@ result = {...rest} = 69;
                         "text": 69,
                         "rawText": "69",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 23
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 8,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }
@@ -101,6 +113,7 @@ result = {...rest} = 69;
     "source": "result = {...rest} = 69;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -109,9 +122,7 @@ result = {...rest} = 69;
 ### Printed
 
 ```javascript
-
 result = { ...rest } = 69;
-
 ```
 
 ### Diagnostics

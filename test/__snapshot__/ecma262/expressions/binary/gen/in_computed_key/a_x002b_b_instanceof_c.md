@@ -32,12 +32,14 @@ x = {[ a + b instanceof c ]: y}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -58,12 +60,14 @@ x = {[ a + b instanceof c ]: y}
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 8
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 10
                                         },
@@ -74,12 +78,14 @@ x = {[ a + b instanceof c ]: y}
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 12
                                             },
                                             "operatorToken": {
                                                 "kind": 4229173,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 23
                                             },
@@ -88,18 +94,22 @@ x = {[ a + b instanceof c ]: y}
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 96,
+                                            "transformFlags": 5120,
                                             "start": 12,
                                             "end": 25
                                         },
                                         "flags": 96,
+                                        "transformFlags": 5120,
                                         "start": 6,
                                         "end": 25
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 27
                                 },
@@ -108,28 +118,34 @@ x = {[ a + b instanceof c ]: y}
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 30
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 30
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         }
@@ -138,6 +154,7 @@ x = {[ a + b instanceof c ]: y}
     "source": "x = {[ a + b instanceof c ]: y}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -146,9 +163,7 @@ x = {[ a + b instanceof c ]: y}
 ### Printed
 
 ```javascript
-
-x = { [a + b instanceof c] : y };
-
+x = { [a + b instanceof c]: y };
 ```
 
 ### Diagnostics

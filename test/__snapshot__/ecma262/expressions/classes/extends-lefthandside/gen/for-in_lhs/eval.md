@@ -28,6 +28,7 @@ for (eval in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,12 +37,14 @@ for (eval in x) ;
                 "text": "eval",
                 "rawText": "eval",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -50,16 +53,19 @@ for (eval in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -68,6 +74,7 @@ for (eval in x) ;
     "source": "for (eval in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -76,10 +83,7 @@ for (eval in x) ;
 ### Printed
 
 ```javascript
-
-for (eval in x)
-  ;
-
+for (eval in x);
 ```
 
 ### Diagnostics

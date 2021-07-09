@@ -38,10 +38,12 @@
                 "text": "prefix '",
                 "rawText": "\"prefix \\'\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         },
@@ -52,10 +54,12 @@
                 "text": "prefix\"",
                 "rawText": "\"prefix\\\"\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 26
         },
@@ -66,10 +70,12 @@
                 "text": "prefix\\",
                 "rawText": "\"prefix\\\\\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 26,
             "end": 39
         },
@@ -80,10 +86,12 @@
                 "text": "prefix\b",
                 "rawText": "\"prefix\\b\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 39,
             "end": 52
         },
@@ -94,10 +102,12 @@
                 "text": "prefix\f",
                 "rawText": "\"prefix\\f\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 52,
             "end": 65
         },
@@ -108,10 +118,12 @@
                 "text": "prefix\n",
                 "rawText": "\"prefix\\n\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 76
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 65,
             "end": 78
         },
@@ -122,10 +134,12 @@
                 "text": "prefix\r",
                 "rawText": "\"prefix\\r\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 78,
                 "end": 89
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 78,
             "end": 91
         },
@@ -136,10 +150,12 @@
                 "text": "prefix\t",
                 "rawText": "\"prefix\\t\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 91,
                 "end": 102
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 91,
             "end": 104
         },
@@ -150,10 +166,12 @@
                 "text": "prefix\u000b",
                 "rawText": "\"prefix\\v\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 104,
                 "end": 115
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 104,
             "end": 115
         }
@@ -162,6 +180,7 @@
     "source": "\"prefix \\'\"\n;\n\"prefix\\\"\"\n;\n\"prefix\\\\\"\n;\n\"prefix\\b\"\n;\n\"prefix\\f\"\n;\n\"prefix\\n\"\n;\n\"prefix\\r\"\n;\n\"prefix\\t\"\n;\n\"prefix\\v\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 115
 }
@@ -170,16 +189,22 @@
 ### Printed
 
 ```javascript
+"\"prefix '\"";
+"\"prefix\"\"";
 
-'"prefix \'"';
-'"prefix""';
-'"prefix\\"';
-'"prefix\b"';
-'"prefix\f"';
-'"prefix\n"';
-'"prefix\r"';
-'"prefix\t"';
-'"prefix\v"';
+"\"prefix\\\"";
+
+"\"prefix\b\"";
+
+"\"prefix\f\"";
+
+"\"prefix\n\"";
+
+"\"prefix\r\"";
+
+"\"prefix\t\"";
+
+"\"prefix\v\"";
 
 ```
 

@@ -42,16 +42,19 @@
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 3,
                                                 "end": 6
                                             },
                                             "argument": {
                                                 "kind": 4276321,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 10
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 10
                                         },
@@ -60,22 +63,26 @@
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 13
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 13
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 1,
                                 "end": 14
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 16
                             },
@@ -84,23 +91,28 @@
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 1,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 21
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -109,6 +121,7 @@
     "source": "{ [...this, y] = foo; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

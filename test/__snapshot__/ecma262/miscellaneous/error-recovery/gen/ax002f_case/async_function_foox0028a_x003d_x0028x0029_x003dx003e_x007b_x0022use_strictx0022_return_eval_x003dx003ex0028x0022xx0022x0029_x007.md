@@ -29,12 +29,14 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -44,6 +46,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -59,6 +62,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 20
                         },
@@ -72,7 +76,8 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 24
                             },
@@ -80,6 +85,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 28
                             },
@@ -93,6 +99,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                             "text": "use strict",
                                             "rawText": "\"use strict\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 43
                                         }
@@ -103,6 +110,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 51
                                             },
@@ -115,6 +123,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                                     "text": "eval",
                                                     "rawText": "eval",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 51,
                                                     "end": 56
                                                 },
@@ -122,6 +131,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                                 "arrowToken": {
                                                     "kind": 10,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 56,
                                                     "end": 59
                                                 },
@@ -132,41 +142,50 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                                         "text": "x",
                                                         "rawText": "\"x\"",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 60,
                                                         "end": 63
                                                     },
-                                                    "flags": 32,
-                                                    "start": 59,
+                                                    "flags": 59,
+                                                    "transformFlags": 0,
+                                                    "start": 32,
                                                     "end": 64
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 64
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 44,
                                             "end": 65
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 65
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 67
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 67
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 19,
                         "end": 67
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 67
             },
@@ -177,15 +196,18 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 70,
                     "end": 70
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 71
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 71
         }
@@ -194,6 +216,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
     "source": "async function foo(a = () => { \"use strict\"; return eval =>(\"x\"); }) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }
@@ -202,12 +225,11 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 ### Printed
 
 ```javascript
-
 async function foo(a = () => {
-  '"use strict"';
-    return eval => ('"x"');
-  }) {}
 
+  "\"use strict\"";
+  return eval => ("\"x\"");
+}) {}
 ```
 
 ### Diagnostics

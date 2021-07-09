@@ -30,6 +30,7 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -48,6 +50,7 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -64,24 +67,29 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 26
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 26
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -92,10 +100,12 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 41,
             "end": 42
         },
@@ -111,12 +121,14 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 49
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 50
                         },
@@ -127,23 +139,28 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 53
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 50,
                             "end": 53
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 53
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 42,
             "end": 54
         }
@@ -152,6 +169,7 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
     "source": "function not_gen() { yield /* comment */\\n {yield: 42} }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

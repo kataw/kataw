@@ -22,6 +22,7 @@ async () => (await 5) ** 6;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -31,6 +32,7 @@ async () => (await 5) ** 6;
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -38,6 +40,7 @@ async () => (await 5) ** 6;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -50,6 +53,7 @@ async () => (await 5) ** 6;
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 18
                             },
@@ -58,20 +62,24 @@ async () => (await 5) ** 6;
                                 "text": 5,
                                 "rawText": "5",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 13,
                             "end": 20
                         },
-                        "flags": 32,
-                        "start": 11,
+                        "flags": 11,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 21
                     },
                     "operatorToken": {
                         "kind": 35897,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 24
                     },
@@ -80,18 +88,22 @@ async () => (await 5) ** 6;
                         "text": 6,
                         "rawText": "6",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 26
                     },
-                    "flags": 32,
+                    "flags": 43,
+                    "transformFlags": 5120,
                     "start": 11,
                     "end": 26
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -100,6 +112,7 @@ async () => (await 5) ** 6;
     "source": "async () => (await 5) ** 6;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -108,9 +121,7 @@ async () => (await 5) ** 6;
 ### Printed
 
 ```javascript
-
 async () => (await 5) ** 6;
-
 ```
 
 ### Diagnostics

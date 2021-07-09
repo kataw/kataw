@@ -21,6 +21,7 @@ while(y
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -29,6 +30,7 @@ while(y
                 "ifKeyword": {
                     "kind": 37757019,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -41,6 +43,7 @@ while(y
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 7
                     },
@@ -48,6 +51,7 @@ while(y
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -58,26 +62,31 @@ while(y
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
                 "consequent": {
                     "kind": 168,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 13
                 },
                 "elseKeyword": {
                     "kind": 4194389,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 17
                 },
@@ -88,20 +97,24 @@ while(y
                         "text": "n",
                         "rawText": "n",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
                     "flags": 16,
+                    "transformFlags": 4096,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 19
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 25
             },
@@ -110,10 +123,12 @@ while(y
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 27
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -122,6 +137,7 @@ while(y
     "source": "do if(x=>{});else n\nwhile(y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

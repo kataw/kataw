@@ -28,10 +28,12 @@
                 "text": "пϿ",
                 "rawText": "\"\\u{0000000000000000000010ffff}\"",
                 "flags": 8288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 32
         }
@@ -40,6 +42,7 @@
     "source": "\"\\u{0000000000000000000010ffff}\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -48,9 +51,7 @@
 ### Printed
 
 ```javascript
-
-'"\u{0000000000000000000010ffff}"';
-
+"\"\u{0000000000000000000010ffff}\"";
 ```
 
 ### Diagnostics

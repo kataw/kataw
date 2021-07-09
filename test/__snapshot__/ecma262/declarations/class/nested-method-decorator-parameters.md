@@ -30,6 +30,7 @@ class Bar{
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class Bar{
                 "text": "Bar",
                 "rawText": "Bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -58,6 +60,7 @@ class Bar{
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 14
                                         },
@@ -68,6 +71,7 @@ class Bar{
                                                 "text": "outer",
                                                 "rawText": "outer",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 19
                                             },
@@ -76,14 +80,17 @@ class Bar{
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 20
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 14,
                                             "end": 20
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 20
                                     },
@@ -92,6 +99,7 @@ class Bar{
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 26
                                         },
@@ -100,15 +108,18 @@ class Bar{
                                             "text": "classDec",
                                             "rawText": "classDec",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 34
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 34
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 34
                             },
@@ -120,6 +131,7 @@ class Bar{
                                 "text": "class",
                                 "rawText": "class",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 40
                             },
@@ -127,19 +139,23 @@ class Bar{
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 40
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 40
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         },
@@ -159,6 +175,7 @@ class Bar{
                                     "decoratorToken": {
                                         "kind": 34611453,
                                         "flags": 65,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 50
                                     },
@@ -167,15 +184,18 @@ class Bar{
                                         "text": "inner",
                                         "rawText": "inner",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 50,
                                         "end": 55
                                     },
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 50,
                                     "end": 55
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 55
                         },
@@ -185,6 +205,7 @@ class Bar{
                             "text": "innerMethod",
                             "rawText": "innerMethod",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 55,
                             "end": 73
                         },
@@ -196,14 +217,17 @@ class Bar{
                                 "kind": 303,
                                 "elements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 73,
                                 "end": 73
                             },
                             "flags": 73,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 73
                         },
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 73
                     },
@@ -217,7 +241,8 @@ class Bar{
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 74,
                                 "end": 74
                             },
@@ -230,27 +255,33 @@ class Bar{
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 77,
                                     "end": 77
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 75,
                                 "end": 78
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 73,
                             "end": 78
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 73,
                         "end": 78
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 78
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 40,
             "end": 84
         },
@@ -263,6 +294,7 @@ class Bar{
                     "text": "outerMethod",
                     "rawText": "outerMethod",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 88,
                     "end": 102
                 },
@@ -271,14 +303,17 @@ class Bar{
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 103,
                     "end": 103
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 88,
                 "end": 104
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 88,
             "end": 104
         },
@@ -288,10 +323,12 @@ class Bar{
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 106,
                 "end": 106
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 104,
             "end": 107
         }
@@ -300,6 +337,7 @@ class Bar{
     "source": "class Bar{\n  @outer(\n    @classDec class {\n      @inner\n      innerMethod() {}\n    }\n  )\n  outerMethod() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 109
 }

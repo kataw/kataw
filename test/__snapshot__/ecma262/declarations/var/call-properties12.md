@@ -29,6 +29,7 @@ var z : Object = function (x: number): string { return "hi"; };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var z : Object = function (x: number): string { return "hi"; };
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -56,15 +58,18 @@ var z : Object = function (x: number): string { return "hi"; };
                                     "text": "Object",
                                     "rawText": "Object",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 14
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 14
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 14
                         },
@@ -74,6 +79,7 @@ var z : Object = function (x: number): string { return "hi"; };
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 25
                             },
@@ -91,6 +97,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 28
                                         },
@@ -102,21 +109,25 @@ var z : Object = function (x: number): string { return "hi"; };
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 36
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 36
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 27,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 36
                             },
@@ -131,6 +142,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 54
                                             },
@@ -139,19 +151,23 @@ var z : Object = function (x: number): string { return "hi"; };
                                                 "text": "hi",
                                                 "rawText": "\"hi\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 59
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 47,
                                             "end": 60
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 60
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 62
                             },
@@ -162,27 +178,33 @@ var z : Object = function (x: number): string { return "hi"; };
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 45
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 45
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 62
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 62
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 62
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 63
         }
@@ -191,6 +213,7 @@ var z : Object = function (x: number): string { return "hi"; };
     "source": "var z : Object = function (x: number): string { return \"hi\"; };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 63
 }
@@ -199,11 +222,9 @@ var z : Object = function (x: number): string { return "hi"; };
 ### Printed
 
 ```javascript
-
 var z: Object = function (x: number): string {
-  return '"hi"';
+  return "\"hi\"";
 };
-
 ```
 
 ### Diagnostics

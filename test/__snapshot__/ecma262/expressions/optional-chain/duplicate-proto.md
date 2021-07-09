@@ -22,6 +22,7 @@ async?.({ __proto__: x, __proto__: y })
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -30,6 +31,7 @@ async?.({ __proto__: x, __proto__: y })
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -55,6 +57,7 @@ async?.({ __proto__: x, __proto__: y })
                                                     "text": "__proto__",
                                                     "rawText": "__proto__",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 9,
                                                     "end": 19
                                                 },
@@ -63,10 +66,12 @@ async?.({ __proto__: x, __proto__: y })
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 22
                                                 },
                                                 "flags": 36,
+                                                "transformFlags": 128,
                                                 "start": 9,
                                                 "end": 22
                                             },
@@ -78,6 +83,7 @@ async?.({ __proto__: x, __proto__: y })
                                                     "text": "__proto__",
                                                     "rawText": "__proto__",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 33
                                                 },
@@ -86,42 +92,51 @@ async?.({ __proto__: x, __proto__: y })
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 36
                                                 },
                                                 "flags": 36,
+                                                "transformFlags": 128,
                                                 "start": 23,
                                                 "end": 36
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 20,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 36
                                     },
                                     "flags": 52,
+                                    "transformFlags": 8,
                                     "start": 8,
                                     "end": 38
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 38
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 7,
                         "end": 39
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 39
         }
@@ -130,6 +145,7 @@ async?.({ __proto__: x, __proto__: y })
     "source": "async?.({ __proto__: x, __proto__: y })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

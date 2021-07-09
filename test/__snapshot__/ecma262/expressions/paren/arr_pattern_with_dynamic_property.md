@@ -31,6 +31,7 @@
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 5
                                     },
@@ -46,16 +47,19 @@
                                                         "text": 0,
                                                         "rawText": "0",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 7
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 7
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -64,30 +68,36 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 4,
                                         "start": 5,
                                         "end": 11
                                     },
                                     "flags": 1073741856,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 11
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 11
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -98,22 +108,27 @@
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 16
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 14,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 17
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -122,6 +137,7 @@
     "source": "({...[0][x]} = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -130,9 +146,7 @@
 ### Printed
 
 ```javascript
-
-({ ...[0,][x] } = {});
-
+({ ...[0][x] } = {});
 ```
 
 ### Diagnostics

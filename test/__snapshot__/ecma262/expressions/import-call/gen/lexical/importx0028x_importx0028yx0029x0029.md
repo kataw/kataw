@@ -33,6 +33,7 @@ import(x,import(y))
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 6
                         },
@@ -41,10 +42,12 @@ import(x,import(y))
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -53,6 +56,7 @@ import(x,import(y))
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 15
                         },
@@ -61,19 +65,23 @@ import(x,import(y))
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 17
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -82,6 +90,7 @@ import(x,import(y))
     "source": "import(x,import(y))",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

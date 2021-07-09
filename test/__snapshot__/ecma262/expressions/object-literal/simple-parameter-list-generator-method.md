@@ -25,6 +25,7 @@ var obj = {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ var obj = {
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -53,6 +55,7 @@ var obj = {
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 65,
+                                            "transformFlags": 32,
                                             "start": 11,
                                             "end": 15
                                         },
@@ -65,6 +68,7 @@ var obj = {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 17
                                             },
@@ -80,6 +84,7 @@ var obj = {
                                                             "text": "options",
                                                             "rawText": "options",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 18,
                                                             "end": 25
                                                         },
@@ -92,20 +97,24 @@ var obj = {
                                                                 "properties": [],
                                                                 "trailingComma": false,
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 29,
                                                                 "end": 29
                                                             },
                                                             "flags": 48,
+                                                            "transformFlags": 8,
                                                             "start": 27,
                                                             "end": 30
                                                         },
                                                         "flags": 34,
+                                                        "transformFlags": 4096,
                                                         "start": 18,
                                                         "end": 30
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 162,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 31
                                             },
@@ -120,47 +129,57 @@ var obj = {
                                                             "text": "use strict",
                                                             "rawText": "\"use strict\"",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 50
                                                         }
                                                     ],
                                                     "statements": [],
                                                     "flags": 33,
+                                                    "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 51
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 55
                                             },
                                             "flags": 160,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 55
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 55
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 55
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 9,
                             "end": 57
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 57
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 57
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 58
         }
@@ -169,6 +188,7 @@ var obj = {
     "source": "var obj = {\n  * a(options = {}) {\n    \"use strict\";\n  }\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }

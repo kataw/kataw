@@ -29,6 +29,7 @@ var foo = ((foo)): string => {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var foo = ((foo)): string => {};
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -55,27 +57,33 @@ var foo = ((foo)): string => {};
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 15
                                 },
-                                "flags": 32,
-                                "start": 11,
+                                "flags": 11,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 16
                             },
-                            "flags": 32,
-                            "start": 9,
+                            "flags": 9,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -90,6 +98,7 @@ var foo = ((foo)): string => {};
                     "text": "string",
                     "rawText": "string",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 25
                 },
@@ -97,6 +106,7 @@ var foo = ((foo)): string => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 28
                 },
@@ -107,18 +117,22 @@ var foo = ((foo)): string => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 30
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 18,
             "end": 32
         }
@@ -127,6 +141,7 @@ var foo = ((foo)): string => {};
     "source": "var foo = ((foo)): string => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

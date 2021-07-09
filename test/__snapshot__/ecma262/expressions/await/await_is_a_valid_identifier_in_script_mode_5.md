@@ -24,12 +24,14 @@ await - 25
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 134318643,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -38,14 +40,17 @@ await - 25
                     "text": 25,
                     "rawText": "25",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -54,6 +59,7 @@ await - 25
     "source": "await - 25",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -62,9 +68,7 @@ await - 25
 ### Printed
 
 ```javascript
-
 await - 25;
-
 ```
 
 ### Diagnostics

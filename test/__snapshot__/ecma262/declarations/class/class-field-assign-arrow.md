@@ -41,6 +41,7 @@ class C { aaa=()=>0 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class C { aaa=()=>0 }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -70,6 +72,7 @@ class C { aaa=()=>0 }
                                 "text": "aaa",
                                 "rawText": "aaa",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -83,7 +86,8 @@ class C { aaa=()=>0 }
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 15
                                 },
@@ -91,6 +95,7 @@ class C { aaa=()=>0 }
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -99,27 +104,33 @@ class C { aaa=()=>0 }
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 19
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 19
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 19
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -128,6 +139,7 @@ class C { aaa=()=>0 }
     "source": "class C { aaa=()=>0 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -136,11 +148,9 @@ class C { aaa=()=>0 }
 ### Printed
 
 ```javascript
-
 class C {
-  aaa = () => 0
+  aaa = () => 0;
 }
-
 ```
 
 ### Diagnostics

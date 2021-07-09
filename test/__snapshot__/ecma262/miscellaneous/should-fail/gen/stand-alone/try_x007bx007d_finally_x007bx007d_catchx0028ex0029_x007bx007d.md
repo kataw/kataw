@@ -28,6 +28,7 @@ try {} finally {} catch(e) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,10 +38,12 @@ try {} finally {} catch(e) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -48,6 +51,7 @@ try {} finally {} catch(e) {}
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 14
             },
@@ -57,14 +61,17 @@ try {} finally {} catch(e) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -77,10 +84,12 @@ try {} finally {} catch(e) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -89,6 +98,7 @@ try {} finally {} catch(e) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 23
                 },
@@ -97,6 +107,7 @@ try {} finally {} catch(e) {}
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 25
                 },
@@ -106,20 +117,24 @@ try {} finally {} catch(e) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 28
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 29
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 29
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 29
         }
@@ -128,6 +143,7 @@ try {} finally {} catch(e) {}
     "source": "try {} finally {} catch(e) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

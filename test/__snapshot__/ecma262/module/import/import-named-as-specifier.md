@@ -26,6 +26,7 @@ import {bar as baz} from "foo";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import {bar as baz} from "foo";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 24
                 },
@@ -44,10 +46,12 @@ import {bar as baz} from "foo";
                     "text": "foo",
                     "rawText": "\"foo\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 30
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 30
             },
@@ -70,12 +74,14 @@ import {bar as baz} from "foo";
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 11
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 14
                                 },
@@ -84,27 +90,33 @@ import {bar as baz} from "foo";
                                     "text": "baz",
                                     "rawText": "baz",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 18
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 18
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 18
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -113,6 +125,7 @@ import {bar as baz} from "foo";
     "source": "import {bar as baz} from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -121,9 +134,7 @@ import {bar as baz} from "foo";
 ### Printed
 
 ```javascript
-
-import { bar as  baz, } from '"foo"';
-
+import { bar as baz } from "\"foo\"";
 ```
 
 ### Diagnostics

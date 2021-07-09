@@ -33,6 +33,7 @@ function x(y: | z):
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -42,6 +43,7 @@ function x(y: | z):
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -57,6 +59,7 @@ function x(y: | z):
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -66,6 +69,7 @@ function x(y: | z):
                             "bitwiseOrToken": {
                                 "kind": 134251592,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -77,26 +81,31 @@ function x(y: | z):
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -107,10 +116,12 @@ function x(y: | z):
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 56,
                     "end": 56
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 57
             },
@@ -119,6 +130,7 @@ function x(y: | z):
                 "bitwiseOrToken": {
                     "kind": 134251592,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 23
                 },
@@ -131,12 +143,14 @@ function x(y: | z):
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 43,
                         "end": 43
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 47
                     },
@@ -147,22 +161,27 @@ function x(y: | z):
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 54
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 54
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 54
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 57
         }
@@ -171,6 +190,7 @@ function x(y: | z):
     "source": "function x(y: | z):\n  |\n  /* comment */\n  () => number {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }
@@ -179,11 +199,7 @@ function x(y: | z):
 ### Printed
 
 ```javascript
-
-function x(y: | z): | 
- /* comment */
-() => number {}
-
+function x(y: | z): | () => number {}
 ```
 
 ### Diagnostics

@@ -28,6 +28,7 @@ await new Promise(function(res, rej) { res(1); });
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -36,6 +37,7 @@ await new Promise(function(res, rej) { res(1); });
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 9
                     },
@@ -44,6 +46,7 @@ await new Promise(function(res, rej) { res(1); });
                         "text": "Promise",
                         "rawText": "Promise",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 17
                     },
@@ -56,6 +59,7 @@ await new Promise(function(res, rej) { res(1); });
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 26
                                 },
@@ -70,6 +74,7 @@ await new Promise(function(res, rej) { res(1); });
                                             "text": "res",
                                             "rawText": "res",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 30
                                         },
@@ -78,12 +83,14 @@ await new Promise(function(res, rej) { res(1); });
                                             "text": "rej",
                                             "rawText": "rej",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 35
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -102,6 +109,7 @@ await new Promise(function(res, rej) { res(1); });
                                                         "text": "res",
                                                         "rawText": "res",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 38,
                                                         "end": 42
                                                     },
@@ -113,52 +121,63 @@ await new Promise(function(res, rej) { res(1); });
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 43,
                                                                 "end": 44
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 44
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 38,
                                                     "end": 45
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 38,
                                                 "end": 46
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 46
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 48
                                 },
                                 "returnType": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 48
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 48
                     },
                     "flags": 96,
+                    "transformFlags": 2048,
                     "start": 5,
                     "end": 49
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 50
         }
@@ -167,6 +186,7 @@ await new Promise(function(res, rej) { res(1); });
     "source": "await new Promise(function(res, rej) { res(1); });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }
@@ -175,11 +195,9 @@ await new Promise(function(res, rej) { res(1); });
 ### Printed
 
 ```javascript
-
 await new Promise(function (res, rej) {
   res(1);
 });
-
 ```
 
 ### Diagnostics

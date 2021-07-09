@@ -29,6 +29,7 @@ var e = (await);
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var e = (await);
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -53,23 +55,28 @@ var e = (await);
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
-                            "flags": 32,
-                            "start": 7,
+                            "flags": 7,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -78,6 +85,7 @@ var e = (await);
     "source": "var e = (await);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -86,9 +94,7 @@ var e = (await);
 ### Printed
 
 ```javascript
-
 var e = (await);
-
 ```
 
 ### Diagnostics

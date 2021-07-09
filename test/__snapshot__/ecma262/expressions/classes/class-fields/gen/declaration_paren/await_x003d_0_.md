@@ -33,6 +33,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -45,6 +46,7 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 14
                             },
@@ -53,11 +55,13 @@
                                 "text": "Base",
                                 "rawText": "Base",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 19
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 19
                         },
@@ -75,6 +79,7 @@
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 27
                                     },
@@ -85,37 +90,45 @@
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 21,
                                     "end": 31
                                 },
                                 {
                                     "kind": 1108353041,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 32
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 32
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }
@@ -124,6 +137,7 @@
     "source": "(class extends Base { await = 0; });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -132,12 +146,9 @@
 ### Printed
 
 ```javascript
-
-(class  extends Base {
-  await = 0
-  ;
-});
-
+(class extends Base {
+    await = 0;;
+  });
 ```
 
 ### Diagnostics

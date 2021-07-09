@@ -28,6 +28,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -54,16 +56,19 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         }
                                     ],
                                     "trailingComma": true,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 17
                             },
@@ -81,6 +86,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 23
                                             },
@@ -89,33 +95,40 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                                 "text": 23,
                                                 "rawText": "23",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 27
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 21,
                                             "end": 27
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 27
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 19,
                                 "end": 29
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 29
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 29
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 29
             },
@@ -127,12 +140,14 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 32
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
@@ -141,10 +156,12 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 36
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 30,
                 "end": 36
             },
@@ -154,20 +171,24 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 41
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 42
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 42,
             "end": 43
         },
@@ -176,6 +197,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 47
             },
@@ -184,6 +206,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 54
                 },
@@ -202,16 +225,19 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 56,
                                             "end": 58
                                         }
                                     ],
                                     "trailingComma": true,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 59
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 61
                             },
@@ -229,6 +255,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 65,
                                                 "end": 67
                                             },
@@ -237,33 +264,40 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                                 "text": 23,
                                                 "rawText": "23",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 68,
                                                 "end": 71
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 65,
                                             "end": 71
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 65,
                                     "end": 71
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 63,
                                 "end": 73
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 54,
                             "end": 73
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 73
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 73
             },
@@ -275,12 +309,14 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 74,
                     "end": 76
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 76,
                     "end": 78
                 },
@@ -289,10 +325,12 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 78,
                     "end": 80
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 74,
                 "end": 80
             },
@@ -302,20 +340,24 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 85,
                     "end": 85
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 83,
                 "end": 86
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 43,
             "end": 86
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 86,
             "end": 87
         }
@@ -324,6 +366,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
     "source": "for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1; ) {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 87
 }
@@ -332,15 +375,8 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
 ### Printed
 
 ```javascript
-
-for (const {
-  x,
-} = { x : 23 };; a  < 1) { }
-;
-for (const {
-  x,
-} = { x : 23 };; a  < 1) { }
-;
+for (const { x } = { x: 23 }; ; a  < 1) {}
+for (const { x } = { x: 23 }; ; a  < 1) {}
 
 ```
 

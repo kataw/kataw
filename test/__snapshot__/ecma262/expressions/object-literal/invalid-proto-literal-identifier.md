@@ -32,16 +32,19 @@
                                     "text": "__proto__",
                                     "rawText": "\"__proto__\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 14
                                 },
                                 "right": {
                                     "kind": 138477575,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 20
                                 },
                                 "flags": 36,
+                                "transformFlags": 128,
                                 "start": 2,
                                 "end": 20
                             },
@@ -53,34 +56,41 @@
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 31
                                 },
                                 "right": {
                                     "kind": 138477575,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 37
                                 },
                                 "flags": 36,
+                                "transformFlags": 128,
                                 "start": 21,
                                 "end": 37
                             }
                         ],
                         "trailingComma": false,
                         "flags": 20,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 37
                     },
                     "flags": 52,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 39
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 40
         }
@@ -89,6 +99,7 @@
     "source": "({ \"__proto__\": null, __proto__: null })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

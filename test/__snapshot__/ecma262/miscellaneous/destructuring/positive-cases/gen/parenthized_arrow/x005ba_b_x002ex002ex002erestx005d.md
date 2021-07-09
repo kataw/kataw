@@ -29,6 +29,7 @@ var f = ([a,b,...rest]) => {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var f = ([a,b,...rest]) => {};
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -63,6 +65,7 @@ var f = ([a,b,...rest]) => {};
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 11
                                                 },
@@ -71,6 +74,7 @@ var f = ([a,b,...rest]) => {};
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 13
                                                 },
@@ -79,6 +83,7 @@ var f = ([a,b,...rest]) => {};
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 17
                                                     },
@@ -87,6 +92,7 @@ var f = ([a,b,...rest]) => {};
                                                         "text": "rest",
                                                         "rawText": "rest",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 21
                                                     },
@@ -94,22 +100,26 @@ var f = ([a,b,...rest]) => {};
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
+                                                    "transformFlags": 4096,
                                                     "start": 14,
                                                     "end": 21
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 21
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 22
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 23
                             },
@@ -117,6 +127,7 @@ var f = ([a,b,...rest]) => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 26
                             },
@@ -127,27 +138,33 @@ var f = ([a,b,...rest]) => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 29
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -156,6 +173,7 @@ var f = ([a,b,...rest]) => {};
     "source": "var f = ([a,b,...rest]) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -164,9 +182,7 @@ var f = ([a,b,...rest]) => {};
 ### Printed
 
 ```javascript
-
 var f = ([a, b, ...rest]) => {};
-
 ```
 
 ### Diagnostics

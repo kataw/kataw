@@ -30,6 +30,7 @@ for (a of b) let
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,12 +40,14 @@ for (a of b) let
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
@@ -53,6 +56,7 @@ for (a of b) let
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -65,6 +69,7 @@ for (a of b) let
                         "text": "let",
                         "rawText": "let",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 16
                     },
@@ -73,18 +78,22 @@ for (a of b) let
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 12,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -93,6 +102,7 @@ for (a of b) let
     "source": "for (a of b) let\n[]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

@@ -22,6 +22,7 @@ class c {foo(eval){ "use strict"; }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class c {foo(eval){ "use strict"; }}
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class c {foo(eval){ "use strict"; }}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -68,12 +71,14 @@ class c {foo(eval){ "use strict"; }}
                                             "text": "eval",
                                             "rawText": "eval",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 17
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 18
                                 },
@@ -88,37 +93,45 @@ class c {foo(eval){ "use strict"; }}
                                                 "text": "use strict",
                                                 "rawText": "\"use strict\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 32
                                             }
                                         ],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 35
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 35
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 35
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 35
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -127,6 +140,7 @@ class c {foo(eval){ "use strict"; }}
     "source": "class c {foo(eval){ \"use strict\"; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -135,13 +149,9 @@ class c {foo(eval){ "use strict"; }}
 ### Printed
 
 ```javascript
-
 class c {
-  foo(eval) {
-  '"use strict"';
-  }
+  foo(eval) {}
 }
-
 ```
 
 ### Diagnostics

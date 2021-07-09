@@ -32,12 +32,14 @@ s = {foo: yield /x/g}
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -54,6 +56,7 @@ s = {foo: yield /x/g}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 8
                                 },
@@ -66,12 +69,14 @@ s = {foo: yield /x/g}
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 15
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
+                                            "transformFlags": 32,
                                             "start": 15,
                                             "end": 17
                                         },
@@ -80,16 +85,19 @@ s = {foo: yield /x/g}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 18
                                         },
                                         "flags": 96,
+                                        "transformFlags": 5120,
                                         "start": 5,
                                         "end": 18
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 18,
                                         "end": 19
                                     },
@@ -98,32 +106,39 @@ s = {foo: yield /x/g}
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 20
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 5,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 20
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -132,6 +147,7 @@ s = {foo: yield /x/g}
     "source": "s = {foo: yield /x/g}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -140,9 +156,7 @@ s = {foo: yield /x/g}
 ### Printed
 
 ```javascript
-
-s = { foo : yield / x / g };
-
+s = { foo: yield / x / g };
 ```
 
 ### Diagnostics

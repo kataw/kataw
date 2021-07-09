@@ -29,6 +29,7 @@ new foo ++;
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -37,15 +38,18 @@ new foo ++;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 8
                 },
                 "argumentList": null,
                 "flags": 97,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         },
@@ -56,10 +60,12 @@ new foo ++;
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 13
         },
@@ -70,6 +76,7 @@ new foo ++;
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 18
                 },
@@ -78,15 +85,18 @@ new foo ++;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "argumentList": null,
                 "flags": 97,
+                "transformFlags": 2048,
                 "start": 13,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 18
         },
@@ -97,10 +107,12 @@ new foo ++;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 20,
             "end": 25
         },
@@ -111,6 +123,7 @@ new foo ++;
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 30
                 },
@@ -119,6 +132,7 @@ new foo ++;
                     "operandToken": {
                         "kind": 196635,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 33
                     },
@@ -127,19 +141,23 @@ new foo ++;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 36
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 36
                 },
                 "argumentList": null,
                 "flags": 97,
+                "transformFlags": 2048,
                 "start": 25,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 37
         },
@@ -150,6 +168,7 @@ new foo ++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 49
                 },
@@ -158,6 +177,7 @@ new foo ++;
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 42
                     },
@@ -166,19 +186,23 @@ new foo ++;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 46
                     },
                     "argumentList": null,
                     "flags": 97,
+                    "transformFlags": 2048,
                     "start": 37,
                     "end": 46
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 37,
             "end": 50
         }
@@ -187,6 +211,7 @@ new foo ++;
     "source": "\nnew foo bar;\n\nnew ) foo;\n\nnew ++foo;\n\nnew foo ++;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

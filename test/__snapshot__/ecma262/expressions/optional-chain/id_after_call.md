@@ -22,6 +22,7 @@ foo()?.bar
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -32,6 +33,7 @@ foo()?.bar
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -40,10 +42,12 @@ foo()?.bar
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 4
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 5
                 },
@@ -57,22 +61,27 @@ foo()?.bar
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 7,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -81,6 +90,7 @@ foo()?.bar
     "source": "foo()?.bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -89,9 +99,7 @@ foo()?.bar
 ### Printed
 
 ```javascript
-
 foo()?.bar;
-
 ```
 
 ### Diagnostics

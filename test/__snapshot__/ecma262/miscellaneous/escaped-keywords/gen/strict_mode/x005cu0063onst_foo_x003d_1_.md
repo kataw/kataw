@@ -28,6 +28,7 @@
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -41,6 +42,7 @@
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 14
                         },
@@ -50,19 +52,23 @@
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 10,
                         "end": 18
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 18
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -71,6 +77,7 @@
     "source": "\\u0063onst foo = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

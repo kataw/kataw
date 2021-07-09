@@ -28,10 +28,12 @@
                 "text": "0}",
                 "rawText": "\"\\u{110000}\"",
                 "flags": 8288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -40,6 +42,7 @@
     "source": "\"\\u{110000}\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

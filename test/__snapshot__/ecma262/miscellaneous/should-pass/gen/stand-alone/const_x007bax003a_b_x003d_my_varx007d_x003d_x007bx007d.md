@@ -28,6 +28,7 @@ const {a: b = my_var} = {}
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -48,6 +49,7 @@ const {a: b = my_var} = {}
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -56,6 +58,7 @@ const {a: b = my_var} = {}
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
@@ -64,20 +67,24 @@ const {a: b = my_var} = {}
                                             "text": "my_var",
                                             "rawText": "my_var",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 21
                         },
@@ -89,23 +96,28 @@ const {a: b = my_var} = {}
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 25
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 23,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 26
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -114,6 +126,7 @@ const {a: b = my_var} = {}
     "source": "const {a: b = my_var} = {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -122,11 +135,7 @@ const {a: b = my_var} = {}
 ### Printed
 
 ```javascript
-
-const {
-  a: b = my_var
-} = {};
-
+const { a: b = my_var } = {};
 ```
 
 ### Diagnostics

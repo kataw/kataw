@@ -30,6 +30,7 @@ async (): void => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -39,6 +40,7 @@ async (): void => {}
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -49,16 +51,19 @@ async (): void => {}
                     "type": {
                         "kind": 138477615,
                         "flags": 2097216,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 14
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 14
                 },
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 17
                 },
@@ -69,18 +74,22 @@ async (): void => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -89,6 +98,7 @@ async (): void => {}
     "source": "async (): void => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -97,9 +107,7 @@ async (): void => {}
 ### Printed
 
 ```javascript
-
 async () => {};
-
 ```
 
 ### Diagnostics

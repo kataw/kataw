@@ -30,6 +30,7 @@ class /*x*/ x {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class /*x*/ x {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 13
             },
@@ -49,14 +51,17 @@ class /*x*/ x {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 13,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -65,6 +70,7 @@ class /*x*/ x {}
     "source": "class /*x*/ x {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -73,10 +79,7 @@ class /*x*/ x {}
 ### Printed
 
 ```javascript
-
-class/*x*/ x {
-}
-
+class x {}
 ```
 
 ### Diagnostics

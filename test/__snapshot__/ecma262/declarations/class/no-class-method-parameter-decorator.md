@@ -24,6 +24,7 @@ class Foo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -32,6 +33,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -58,6 +60,7 @@ class Foo {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 25
                                 },
@@ -67,6 +70,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 27
                                 },
@@ -78,18 +82,22 @@ class Foo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 26
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 26
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 26
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 26
                         },
@@ -103,6 +111,7 @@ class Foo {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 27
                                         },
@@ -111,15 +120,18 @@ class Foo {
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 30
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 30
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 30
                             },
@@ -131,6 +143,7 @@ class Foo {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 32
                             },
@@ -138,19 +151,23 @@ class Foo {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 26,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 32
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         },
@@ -160,10 +177,12 @@ class Foo {
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 33,
             "end": 36
         }
@@ -172,6 +191,7 @@ class Foo {
     "source": "class Foo {\n  constructor(@foo x) {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

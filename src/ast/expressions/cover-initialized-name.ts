@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { ExpressionNode } from './';
 import { Identifier } from './identifier-expr';
 
@@ -21,6 +21,7 @@ export function createCoverInitializedName(
     left,
     right,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

@@ -31,14 +31,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 2
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -54,12 +57,14 @@
                             "text": "string",
                             "rawText": "string",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
@@ -68,10 +73,12 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
-                        "flags": 32,
+                        "flags": 0,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 14
                     },
@@ -80,15 +87,18 @@
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 3,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 3,
             "end": 17
         },
@@ -99,10 +109,12 @@
                 "text": "ok",
                 "rawText": "ok",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 21,
             "end": 24
         }
@@ -111,6 +123,7 @@
     "source": "(x: string = y, z) => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

@@ -30,6 +30,7 @@ new /crap/
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,15 +38,18 @@ new /crap/
                     "kind": 371,
                     "text": "/crap/",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 10
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -54,6 +58,7 @@ new /crap/
     "source": "new /crap/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -62,9 +67,7 @@ new /crap/
 ### Printed
 
 ```javascript
-
 new /crap/;
-
 ```
 
 ### Diagnostics

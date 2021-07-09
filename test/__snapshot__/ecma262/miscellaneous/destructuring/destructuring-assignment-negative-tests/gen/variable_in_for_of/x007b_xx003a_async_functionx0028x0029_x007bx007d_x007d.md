@@ -29,6 +29,7 @@ var x, y, z; for (x of { x: async function() {} } = {});
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,12 +43,14 @@ var x, y, z; for (x of { x: async function() {} } = {});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -58,12 +61,14 @@ var x, y, z; for (x of { x: async function() {} } = {});
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -74,21 +79,25 @@ var x, y, z; for (x of { x: async function() {} } = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -97,6 +106,7 @@ var x, y, z; for (x of { x: async function() {} } = {});
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
@@ -106,12 +116,14 @@ var x, y, z; for (x of { x: async function() {} } = {});
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -130,6 +142,7 @@ var x, y, z; for (x of { x: async function() {} } = {});
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -138,12 +151,14 @@ var x, y, z; for (x of { x: async function() {} } = {});
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 33
                                     },
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 42
                                     },
@@ -155,6 +170,7 @@ var x, y, z; for (x of { x: async function() {} } = {});
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 43
                                     },
@@ -165,35 +181,42 @@ var x, y, z; for (x of { x: async function() {} } = {});
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 46
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 44,
                                         "end": 47
                                     },
                                     "returnType": null,
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 47
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 24,
                                 "end": 47
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 47
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 22,
                     "end": 49
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 51
                 },
@@ -204,24 +227,29 @@ var x, y, z; for (x of { x: async function() {} } = {});
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 53,
                         "end": 53
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 51,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 22,
                 "end": 54
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 56
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 56
         }
@@ -230,6 +258,7 @@ var x, y, z; for (x of { x: async function() {} } = {});
     "source": "var x, y, z; for (x of { x: async function() {} } = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }

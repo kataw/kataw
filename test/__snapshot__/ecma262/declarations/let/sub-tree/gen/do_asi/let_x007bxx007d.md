@@ -29,6 +29,7 @@ while (a);
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -39,10 +40,12 @@ while (a);
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 6
             },
@@ -57,20 +60,24 @@ while (a);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 6,
                 "end": 10
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -79,6 +86,7 @@ while (a);
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
@@ -87,16 +95,19 @@ while (a);
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 10,
             "end": 21
         }
@@ -105,6 +116,7 @@ while (a);
     "source": "do let {x}\nwhile (a);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

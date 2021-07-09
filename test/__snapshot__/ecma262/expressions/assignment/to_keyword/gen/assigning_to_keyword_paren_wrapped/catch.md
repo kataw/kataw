@@ -32,14 +32,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 1
         },
@@ -52,10 +55,12 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 1
             },
@@ -64,6 +69,7 @@
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 6
                 },
@@ -74,20 +80,24 @@
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 6
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1,
             "end": 6
         },
@@ -98,10 +108,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 10
         }
@@ -110,6 +122,7 @@
     "source": "(catch = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

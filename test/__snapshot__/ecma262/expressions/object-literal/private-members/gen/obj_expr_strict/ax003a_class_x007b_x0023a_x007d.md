@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -49,6 +50,7 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -58,6 +60,7 @@
                                     "classKeyword": {
                                         "kind": 37822544,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 25
                                     },
@@ -80,6 +83,7 @@
                                                         "text": "#a",
                                                         "rawText": "#a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 27,
                                                         "end": 30
                                                     },
@@ -87,41 +91,50 @@
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 27,
                                                     "end": 30
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 30
                                         },
                                         "flags": 25,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 32
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 16,
                                 "end": 32
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 32
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 15,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 36
         }
@@ -130,6 +143,7 @@
     "source": "'use strict'; ({ a: class { #a } });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -139,11 +153,10 @@
 
 ```javascript
 
-'\'use strict\'';
-({ a : class  {
-    #a
-  } });
-
+"'use strict'";
+({ a: class {
+      #a;
+    } });
 ```
 
 ### Diagnostics

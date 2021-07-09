@@ -35,6 +35,7 @@ class C2 {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -43,15 +44,18 @@ class C2 {
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 1
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 1
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 1
             },
@@ -61,6 +65,7 @@ class C2 {
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 1
             },
@@ -72,14 +77,17 @@ class C2 {
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
                 "flags": 1,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 1
         },
@@ -88,11 +96,13 @@ class C2 {
             "breakKeyword": {
                 "kind": 37757005,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 6
             },
             "label": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1,
             "end": 6
         },
@@ -103,6 +113,7 @@ class C2 {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 12
             },
@@ -111,6 +122,7 @@ class C2 {
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -137,6 +149,7 @@ class C2 {
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 26
                                 },
@@ -146,6 +159,7 @@ class C2 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 28
                                 },
@@ -157,31 +171,38 @@ class C2 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 30
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 31
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 31
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 31
                 },
                 "flags": 15,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 33
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 6,
             "end": 33
         }
@@ -190,6 +211,7 @@ class C2 {
     "source": "@break\nclass C2 {\n  method() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

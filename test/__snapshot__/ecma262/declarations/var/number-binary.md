@@ -29,6 +29,7 @@ var a: 0b1111011
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var a: 0b1111011
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,24 +56,29 @@ var a: 0b1111011
                                 "text": 123,
                                 "rawText": "0b1111011",
                                 "flags": 2621504,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 16
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 16
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 16
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -80,6 +87,7 @@ var a: 0b1111011
     "source": "var a: 0b1111011",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -88,9 +96,7 @@ var a: 0b1111011
 ### Printed
 
 ```javascript
-
 var a: 0b1111011;
-
 ```
 
 ### Diagnostics

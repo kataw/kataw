@@ -34,6 +34,7 @@ o.attr = function() {};
                         "text": "o",
                         "rawText": "o",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 2
                     },
@@ -42,16 +43,19 @@ o.attr = function() {};
                         "text": "attr",
                         "rawText": "attr",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 7
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -61,6 +65,7 @@ o.attr = function() {};
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 18
                     },
@@ -72,6 +77,7 @@ o.attr = function() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
@@ -82,23 +88,28 @@ o.attr = function() {};
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 22
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 23
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }
@@ -107,6 +118,7 @@ o.attr = function() {};
     "source": "\no.attr = function() {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -115,9 +127,7 @@ o.attr = function() {};
 ### Printed
 
 ```javascript
-
 o.attr = function () {};
-
 ```
 
 ### Diagnostics

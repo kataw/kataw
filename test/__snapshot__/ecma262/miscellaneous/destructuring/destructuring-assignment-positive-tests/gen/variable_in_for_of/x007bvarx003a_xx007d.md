@@ -29,6 +29,7 @@ var x, y, z; for (x of {var: x} = {});
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,12 +43,14 @@ var x, y, z; for (x of {var: x} = {});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -58,12 +61,14 @@ var x, y, z; for (x of {var: x} = {});
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -74,21 +79,25 @@ var x, y, z; for (x of {var: x} = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -97,6 +106,7 @@ var x, y, z; for (x of {var: x} = {});
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
@@ -106,12 +116,14 @@ var x, y, z; for (x of {var: x} = {});
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -130,6 +142,7 @@ var x, y, z; for (x of {var: x} = {});
                                     "text": "var",
                                     "rawText": "var",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 27
                                 },
@@ -138,26 +151,31 @@ var x, y, z; for (x of {var: x} = {});
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 24,
                                 "end": 30
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 30
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 22,
                     "end": 31
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 33
                 },
@@ -168,24 +186,29 @@ var x, y, z; for (x of {var: x} = {});
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 35
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 33,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 22,
                 "end": 36
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 38
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 38
         }
@@ -194,6 +217,7 @@ var x, y, z; for (x of {var: x} = {});
     "source": "var x, y, z; for (x of {var: x} = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -202,10 +226,8 @@ var x, y, z; for (x of {var: x} = {});
 ### Printed
 
 ```javascript
-
 var x, y, z;
-for (x of { var : x } = {})
-  ;
+for (x of { var: x } = {});
 
 ```
 

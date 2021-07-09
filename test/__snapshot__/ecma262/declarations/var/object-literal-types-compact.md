@@ -32,6 +32,7 @@ type T4 = { foo: number, bar: string, ... };
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -40,6 +41,7 @@ type T4 = { foo: number, bar: string, ... };
                 "text": "T1",
                 "rawText": "T1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
@@ -47,6 +49,7 @@ type T4 = { foo: number, bar: string, ... };
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 9
             },
@@ -64,6 +67,7 @@ type T4 = { foo: number, bar: string, ... };
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 15
                             },
@@ -78,33 +82,40 @@ type T4 = { foo: number, bar: string, ... };
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 15
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 15
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 17
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 17
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         },
@@ -114,6 +125,7 @@ type T4 = { foo: number, bar: string, ... };
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 23
             },
@@ -122,6 +134,7 @@ type T4 = { foo: number, bar: string, ... };
                 "text": "T2",
                 "rawText": "T2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 26
             },
@@ -129,6 +142,7 @@ type T4 = { foo: number, bar: string, ... };
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
@@ -150,6 +164,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 32
                             },
@@ -172,6 +187,7 @@ type T4 = { foo: number, bar: string, ... };
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 37
                                             },
@@ -194,6 +210,7 @@ type T4 = { foo: number, bar: string, ... };
                                                                 "text": "c",
                                                                 "rawText": "c",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 40,
                                                                 "end": 42
                                                             },
@@ -212,6 +229,7 @@ type T4 = { foo: number, bar: string, ... };
                                                                             "ellipsisToken": {
                                                                                 "kind": 524302,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 45,
                                                                                 "end": 48
                                                                             },
@@ -226,33 +244,40 @@ type T4 = { foo: number, bar: string, ... };
                                                                                         "text": "",
                                                                                         "rawText": "",
                                                                                         "flags": 64,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 48,
                                                                                         "end": 48
                                                                                     },
                                                                                     "typeParameters": null,
                                                                                     "flags": 2097152,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 48,
                                                                                     "end": 48
                                                                                 },
                                                                                 "flags": 2097152,
+                                                                                "transformFlags": 0,
                                                                                 "start": 48,
                                                                                 "end": 48
                                                                             },
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 45,
                                                                             "end": 48
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 43,
                                                                     "end": 49
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 43,
                                                                 "end": 49
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 40,
                                                             "end": 50
                                                         },
@@ -263,6 +288,7 @@ type T4 = { foo: number, bar: string, ... };
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 50,
                                                                 "end": 54
                                                             },
@@ -277,33 +303,40 @@ type T4 = { foo: number, bar: string, ... };
                                                                         "text": "",
                                                                         "rawText": "",
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 54,
                                                                         "end": 54
                                                                     },
                                                                     "typeParameters": null,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 54,
                                                                     "end": 54
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 54,
                                                                 "end": 54
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 50,
                                                             "end": 54
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 38,
                                                     "end": 56
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 56
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 35,
                                             "end": 57
                                         },
@@ -314,6 +347,7 @@ type T4 = { foo: number, bar: string, ... };
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 61
                                             },
@@ -328,47 +362,57 @@ type T4 = { foo: number, bar: string, ... };
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 61,
                                                         "end": 61
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 61,
                                                     "end": 61
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 61
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 57,
                                             "end": 61
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 63
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 63
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 63
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 65
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 65
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 18,
             "end": 65
         },
@@ -378,6 +422,7 @@ type T4 = { foo: number, bar: string, ... };
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 70
             },
@@ -386,6 +431,7 @@ type T4 = { foo: number, bar: string, ... };
                 "text": "T3",
                 "rawText": "T3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 70,
                 "end": 73
             },
@@ -393,6 +439,7 @@ type T4 = { foo: number, bar: string, ... };
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 73,
                 "end": 75
             },
@@ -414,6 +461,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 81
                             },
@@ -425,14 +473,17 @@ type T4 = { foo: number, bar: string, ... };
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 82,
                                     "end": 89
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 82,
                                 "end": 89
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 77,
                             "end": 90
                         },
@@ -443,6 +494,7 @@ type T4 = { foo: number, bar: string, ... };
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 90,
                                 "end": 94
                             },
@@ -457,33 +509,40 @@ type T4 = { foo: number, bar: string, ... };
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 94,
                                         "end": 94
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 94,
                                     "end": 94
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 94,
                                 "end": 94
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 90,
                             "end": 94
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 75,
                     "end": 96
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 75,
                 "end": 96
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 65,
             "end": 97
         },
@@ -493,6 +552,7 @@ type T4 = { foo: number, bar: string, ... };
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 97,
                 "end": 102
             },
@@ -501,6 +561,7 @@ type T4 = { foo: number, bar: string, ... };
                 "text": "T4",
                 "rawText": "T4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 105
             },
@@ -508,6 +569,7 @@ type T4 = { foo: number, bar: string, ... };
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 105,
                 "end": 107
             },
@@ -529,6 +591,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 109,
                                 "end": 113
                             },
@@ -540,14 +603,17 @@ type T4 = { foo: number, bar: string, ... };
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 114,
                                     "end": 121
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 114,
                                 "end": 121
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 109,
                             "end": 122
                         },
@@ -562,6 +628,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 122,
                                 "end": 126
                             },
@@ -573,14 +640,17 @@ type T4 = { foo: number, bar: string, ... };
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 127,
                                     "end": 134
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 127,
                                 "end": 134
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 122,
                             "end": 135
                         },
@@ -591,6 +661,7 @@ type T4 = { foo: number, bar: string, ... };
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 135,
                                 "end": 139
                             },
@@ -605,33 +676,40 @@ type T4 = { foo: number, bar: string, ... };
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 139,
                                         "end": 139
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 139,
                                     "end": 139
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 139,
                                 "end": 139
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 135,
                             "end": 139
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 107,
                     "end": 141
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 107,
                 "end": 141
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 97,
             "end": 142
         }
@@ -640,6 +718,7 @@ type T4 = { foo: number, bar: string, ... };
     "source": "type T1 = { ... };\ntype T2 = { a: { b: { c: {...}, ... }, ... } }\ntype T3 = { foo: number, ... };\ntype T4 = { foo: number, bar: string, ... };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 142
 }

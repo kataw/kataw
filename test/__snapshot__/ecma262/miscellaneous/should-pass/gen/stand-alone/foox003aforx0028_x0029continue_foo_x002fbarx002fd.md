@@ -32,12 +32,14 @@ foo:for(;;)continue foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -46,6 +48,7 @@ foo:for(;;)continue foo
                 "forKeyword": {
                     "kind": 37757017,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
@@ -57,6 +60,7 @@ foo:for(;;)continue foo
                     "continueKeyword": {
                         "kind": 37757009,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 19
                     },
@@ -65,18 +69,22 @@ foo:for(;;)continue foo
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 23
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 23
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -91,12 +99,14 @@ foo:for(;;)continue foo
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
+                        "transformFlags": 32,
                         "start": 23,
                         "end": 25
                     },
@@ -105,16 +115,19 @@ foo:for(;;)continue foo
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 28
                     },
                     "flags": 97,
+                    "transformFlags": 5120,
                     "start": 23,
                     "end": 28
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 28,
                     "end": 29
                 },
@@ -123,14 +136,17 @@ foo:for(;;)continue foo
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 30
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 23,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 23,
             "end": 30
         }
@@ -139,6 +155,7 @@ foo:for(;;)continue foo
     "source": "foo:for(;;)continue foo\n/bar/d",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

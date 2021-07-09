@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -37,12 +38,14 @@
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 22
             },
@@ -58,6 +61,7 @@
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 34
                             },
@@ -67,6 +71,7 @@
                                 "text": "my_var",
                                 "rawText": "my_var",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 41
                             },
@@ -76,6 +81,7 @@
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 42
                             },
@@ -86,30 +92,36 @@
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 45
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 46
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 46
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 46
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 48
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 13,
             "end": 48
         },
@@ -120,10 +132,12 @@
                 "text": "my_var",
                 "rawText": "my_var",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 48,
             "end": 56
         }
@@ -132,6 +146,7 @@
     "source": "'use strict'; if (true) { function my_var() {} } my_var;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }
@@ -141,10 +156,10 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 if (true) {
-  function my_var() {}
-}
+    function my_var() {}
+  }
 my_var;
 
 ```

@@ -22,12 +22,14 @@ function *g() { function f(x = yield) {}; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *g() { function f(x = yield) {}; }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *g() { function f(x = yield) {}; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -61,6 +65,7 @@ function *g() { function f(x = yield) {}; }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 24
                             },
@@ -70,6 +75,7 @@ function *g() { function f(x = yield) {}; }
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -85,6 +91,7 @@ function *g() { function f(x = yield) {}; }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 28
                                         },
@@ -95,16 +102,19 @@ function *g() { function f(x = yield) {}; }
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 36
                                         },
                                         "flags": 34,
+                                        "transformFlags": 4096,
                                         "start": 27,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 36
                             },
@@ -115,35 +125,42 @@ function *g() { function f(x = yield) {}; }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 39
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 40
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 40
                         },
                         {
                             "kind": 168,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 41
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 43
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -152,6 +169,7 @@ function *g() { function f(x = yield) {}; }
     "source": "function *g() { function f(x = yield) {}; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -160,12 +178,9 @@ function *g() { function f(x = yield) {}; }
 ### Printed
 
 ```javascript
-
-function * g() {
+function *g() {
   function f(x = yield) {}
-  ;
 }
-
 ```
 
 ### Diagnostics

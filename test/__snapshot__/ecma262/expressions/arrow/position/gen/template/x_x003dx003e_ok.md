@@ -41,6 +41,7 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
@@ -48,6 +49,7 @@
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 9
                             },
@@ -56,14 +58,17 @@
                                 "text": "ok",
                                 "rawText": "ok",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 12
                     }
@@ -73,14 +78,17 @@
                     "text": " b",
                     "rawText": " b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -89,6 +97,7 @@
     "source": "`a ${x => ok} b`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -97,9 +106,7 @@
 ### Printed
 
 ```javascript
-
 `a ${x => ok} b`;
-
 ```
 
 ### Diagnostics

@@ -25,6 +25,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -47,6 +48,7 @@
                                     "text": 8,
                                     "rawText": "08",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -55,28 +57,34 @@
                                     "text": 4,
                                     "rawText": "4",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 16,
                                 "end": 21
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 21
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 15,
                     "end": 22
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 24
         },
@@ -87,10 +95,12 @@
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 24,
             "end": 39
         },
@@ -99,6 +109,7 @@
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 43
             },
@@ -119,6 +130,7 @@
                                             "text": 8,
                                             "rawText": "08",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 45,
                                             "end": 47
                                         },
@@ -127,21 +139,25 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 48,
                                             "end": 50
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 50
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 50
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 43,
                             "end": 51
                         },
@@ -151,19 +167,23 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 53,
                             "end": 55
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 43,
                         "end": 55
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 55
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 39,
             "end": 56
         },
@@ -174,10 +194,12 @@
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 70
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 56,
             "end": 71
         },
@@ -186,6 +208,7 @@
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 71,
                 "end": 75
             },
@@ -206,6 +229,7 @@
                                             "text": 123,
                                             "rawText": "0123",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 77,
                                             "end": 81
                                         },
@@ -214,21 +238,25 @@
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 82,
                                             "end": 84
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 77,
                                         "end": 84
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 84
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 75,
                             "end": 85
                         },
@@ -238,19 +266,23 @@
                             "text": "q",
                             "rawText": "q",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 87,
                             "end": 89
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 75,
                         "end": 89
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 75,
                 "end": 89
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 71,
             "end": 90
         },
@@ -261,10 +293,12 @@
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 104
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 90,
             "end": 105
         },
@@ -275,10 +309,12 @@
                 "text": 8,
                 "rawText": "08",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 105,
                 "end": 108
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 105,
             "end": 109
         }
@@ -287,6 +323,7 @@
     "source": "'use strict'; ({08: 4});\n\n'use strict'; let {08: x} = y;\n\n'use strict'; let {0123: z} = q;\n\n'use strict'; 08;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 109
 }

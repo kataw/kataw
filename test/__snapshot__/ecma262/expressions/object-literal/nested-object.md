@@ -21,6 +21,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -49,11 +51,13 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 9
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 9
                                     },
@@ -64,6 +68,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -79,6 +84,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 15,
                                                             "end": 17
                                                         },
@@ -87,36 +93,43 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 18,
                                                             "end": 20
                                                         },
                                                         "initializer": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 20
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 20
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 22
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 22
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 22
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 24
                         },
@@ -134,6 +147,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 30
                                         },
@@ -142,10 +156,12 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "text": "3",
                                             "rawText": "\"3\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 35
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 28,
                                         "end": 35
                                     },
@@ -157,6 +173,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 38
                                         },
@@ -173,6 +190,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 41,
                                                             "end": 43
                                                         },
@@ -181,47 +199,57 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "text": "b",
                                                             "rawText": "\"b\"",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 44,
                                                             "end": 48
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 41,
                                                         "end": 48
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 48
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 39,
                                             "end": 50
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 36,
                                         "end": 50
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 50
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 26,
                             "end": 52
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 52
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 53
         }
@@ -230,6 +258,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
     "source": "var {x: y, z: { a: b } } = { x: \"3\", z: { a: \"b\" } };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }
@@ -238,14 +267,10 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
 ### Printed
 
 ```javascript
-
 var {
   x: y,
-  z: {
-    a: b
-  }
-} = { x : '"3"', z : { a : '"b"' } };
-
+  z: { a: b }
+} = { x: "\"3\"", z: { a: "\"b\"" } };
 ```
 
 ### Diagnostics

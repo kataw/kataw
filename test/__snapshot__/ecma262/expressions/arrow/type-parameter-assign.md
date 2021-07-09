@@ -40,6 +40,7 @@
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 2
                                 },
@@ -47,6 +48,7 @@
                                 "assignToken": {
                                     "kind": 4125,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -61,29 +63,35 @@
                                             "text": "B",
                                             "rawText": "B",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 6
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 6
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 6
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 6
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
                     "flags": 2097152,
+                    "transformFlags": 512,
                     "start": 0,
                     "end": 7
                 },
@@ -95,12 +103,14 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -108,6 +118,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
@@ -118,18 +129,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -138,6 +153,7 @@
     "source": "<A = B>(x) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -146,9 +162,7 @@
 ### Printed
 
 ```javascript
-
 <A= B>(x) => {};
-
 ```
 
 ### Diagnostics

@@ -29,10 +29,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -43,10 +45,12 @@
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 4,
             "end": 8
         },
@@ -57,6 +61,7 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 17
             },
@@ -68,6 +73,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -78,15 +84,18 @@
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 17
         },
@@ -95,6 +104,7 @@
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 23
             },
@@ -110,25 +120,30 @@
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 23,
                         "end": 25
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 17,
             "end": 25
         }
@@ -137,6 +152,7 @@
     "source": "{ }} let function const {",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

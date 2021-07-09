@@ -22,6 +22,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -51,6 +53,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                 "text": "#aaa",
                                 "rawText": "#aaa",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -58,12 +61,14 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 14
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
@@ -83,6 +88,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
@@ -95,12 +101,14 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                             "text": "obj",
                                             "rawText": "obj",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 21
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -118,6 +126,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 30
                                                     },
@@ -126,6 +135,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                         "text": "obj",
                                                         "rawText": "obj",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 28
                                                     },
@@ -139,52 +149,64 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                                 "text": "#aaa",
                                                                 "rawText": "#aaa",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 30,
                                                                 "end": 34
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 2,
                                                             "start": 30,
                                                             "end": 34
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 34
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 34
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 24,
                                                 "end": 34
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 34
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 36
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 36
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 36
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 36
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -193,6 +215,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
     "source": "class C { #aaa; f(obj) { obj?.#aaa } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -201,15 +224,12 @@ class C { #aaa; f(obj) { obj?.#aaa } }
 ### Printed
 
 ```javascript
-
 class C {
-  #aaa
-  ;
+  #aaa;;
   f(obj) {
     obj?.#aaa;
   }
 }
-
 ```
 
 ### Diagnostics

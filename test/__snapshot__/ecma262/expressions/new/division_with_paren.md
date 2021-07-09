@@ -25,6 +25,7 @@ new x()
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -33,6 +34,7 @@ new x()
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -41,16 +43,19 @@ new x()
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 96,
+                    "transformFlags": 2048,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 97,
+                    "transformFlags": 32,
                     "start": 7,
                     "end": 9
                 },
@@ -59,14 +64,17 @@ new x()
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -75,6 +83,7 @@ new x()
     "source": "new x()\n/y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -83,9 +92,7 @@ new x()
 ### Printed
 
 ```javascript
-
 new x() / y;
-
 ```
 
 ### Diagnostics

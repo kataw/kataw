@@ -34,12 +34,14 @@
                         "text": "protected",
                         "rawText": "protected",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
@@ -48,18 +50,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 0,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -68,6 +74,7 @@
     "source": "(protected = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -76,9 +83,7 @@
 ### Printed
 
 ```javascript
-
 (protected = x);
-
 ```
 
 ### Diagnostics

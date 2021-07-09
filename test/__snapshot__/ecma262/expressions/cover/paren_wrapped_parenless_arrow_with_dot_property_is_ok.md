@@ -30,6 +30,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -37,6 +38,7 @@
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 5
                         },
@@ -47,19 +49,23 @@
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 8
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 9
                 },
                 "expression": {
@@ -67,14 +73,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -83,6 +92,7 @@
     "source": "(x => {}).x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -91,9 +101,7 @@
 ### Printed
 
 ```javascript
-
 (x => {}).x;
-
 ```
 
 ### Diagnostics

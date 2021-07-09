@@ -42,6 +42,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -64,10 +65,12 @@ let x = a; let x = b;
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 7
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -76,11 +79,13 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -91,6 +96,7 @@ let x = a; let x = b;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         },
@@ -99,21 +105,25 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 18
                         },
@@ -123,19 +133,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -144,6 +158,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 30
             },
@@ -166,10 +181,12 @@ let x = a; let x = b;
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 34
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 35
                                         },
@@ -178,11 +195,13 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 38
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 38
                                     },
@@ -195,10 +214,12 @@ let x = a; let x = b;
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 42
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 43
                                         },
@@ -207,21 +228,25 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 46
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 46
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 46
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 47
                         },
@@ -231,19 +256,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 53
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 30,
                         "end": 53
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 53
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 25,
             "end": 54
         },
@@ -252,6 +281,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 59
             },
@@ -272,6 +302,7 @@ let x = a; let x = b;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 61,
                                             "end": 62
                                         },
@@ -280,11 +311,13 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 63,
                                             "end": 65
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 61,
                                         "end": 65
                                     },
@@ -295,6 +328,7 @@ let x = a; let x = b;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 66,
                                             "end": 68
                                         },
@@ -303,21 +337,25 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 69,
                                             "end": 71
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 66,
                                         "end": 71
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 61,
                                 "end": 71
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 59,
                             "end": 72
                         },
@@ -327,19 +365,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 74,
                             "end": 78
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 59,
                         "end": 78
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 78
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 54,
             "end": 79
         },
@@ -348,6 +390,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 79,
                 "end": 84
             },
@@ -368,6 +411,7 @@ let x = a; let x = b;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 86,
                                             "end": 87
                                         },
@@ -376,11 +420,13 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 88,
                                             "end": 90
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 86,
                                         "end": 90
                                     },
@@ -391,6 +437,7 @@ let x = a; let x = b;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 91,
                                             "end": 93
                                         },
@@ -399,21 +446,25 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 94,
                                             "end": 96
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 91,
                                         "end": 96
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 86,
                                 "end": 96
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 84,
                             "end": 97
                         },
@@ -423,19 +474,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 99,
                             "end": 103
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 84,
                         "end": 103
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 103
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 79,
             "end": 104
         },
@@ -444,6 +499,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 104,
                 "end": 109
             },
@@ -462,6 +518,7 @@ let x = a; let x = b;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 111,
                                         "end": 112
                                     },
@@ -470,16 +527,19 @@ let x = a; let x = b;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 113,
                                         "end": 115
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 111,
                                 "end": 115
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 109,
                             "end": 116
                         },
@@ -489,19 +549,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 118,
                             "end": 122
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 109,
                         "end": 122
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 122
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 104,
             "end": 123
         },
@@ -510,6 +574,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 123,
                 "end": 128
             },
@@ -530,6 +595,7 @@ let x = a; let x = b;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 130,
                                             "end": 131
                                         },
@@ -538,11 +604,13 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 132,
                                             "end": 134
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 130,
                                         "end": 134
                                     },
@@ -553,6 +621,7 @@ let x = a; let x = b;
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 135,
                                             "end": 137
                                         },
@@ -568,6 +637,7 @@ let x = a; let x = b;
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 140,
                                                             "end": 141
                                                         },
@@ -576,36 +646,43 @@ let x = a; let x = b;
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 142,
                                                             "end": 144
                                                         },
                                                         "initializer": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 140,
                                                         "end": 144
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 140,
                                                 "end": 144
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 138,
                                             "end": 145
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 135,
                                         "end": 145
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 130,
                                 "end": 145
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 128,
                             "end": 146
                         },
@@ -615,19 +692,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 148,
                             "end": 152
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 128,
                         "end": 152
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 128,
                 "end": 152
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 123,
             "end": 153
         },
@@ -636,6 +717,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 158
             },
@@ -649,12 +731,14 @@ let x = a; let x = b;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 158,
                             "end": 160
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 158,
                         "end": 160
                     },
@@ -672,6 +756,7 @@ let x = a; let x = b;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 163,
                                             "end": 164
                                         },
@@ -687,6 +772,7 @@ let x = a; let x = b;
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 167,
                                                             "end": 168
                                                         },
@@ -695,36 +781,43 @@ let x = a; let x = b;
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 169,
                                                             "end": 171
                                                         },
                                                         "initializer": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 167,
                                                         "end": 171
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 167,
                                                 "end": 171
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 165,
                                             "end": 172
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 163,
                                         "end": 172
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 163,
                                 "end": 172
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 161,
                             "end": 173
                         },
@@ -734,19 +827,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 175,
                             "end": 179
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 161,
                         "end": 179
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 158,
                 "end": 179
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 153,
             "end": 180
         },
@@ -755,6 +852,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 180,
                 "end": 185
             },
@@ -768,12 +866,14 @@ let x = a; let x = b;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 185,
                             "end": 187
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 185,
                         "end": 187
                     },
@@ -791,6 +891,7 @@ let x = a; let x = b;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 190,
                                             "end": 191
                                         },
@@ -804,31 +905,37 @@ let x = a; let x = b;
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 194,
                                                         "end": 195
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 194,
                                                 "end": 195
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 192,
                                             "end": 196
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 190,
                                         "end": 196
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 190,
                                 "end": 196
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 188,
                             "end": 197
                         },
@@ -838,19 +945,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 199,
                             "end": 203
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 188,
                         "end": 203
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 185,
                 "end": 203
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 180,
             "end": 204
         },
@@ -859,6 +970,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 204,
                 "end": 209
             },
@@ -879,6 +991,7 @@ let x = a; let x = b;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 211,
                                             "end": 212
                                         },
@@ -887,11 +1000,13 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 213,
                                             "end": 215
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 211,
                                         "end": 215
                                     },
@@ -900,6 +1015,7 @@ let x = a; let x = b;
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 216,
                                             "end": 220
                                         },
@@ -908,6 +1024,7 @@ let x = a; let x = b;
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 220,
                                             "end": 220
                                         },
@@ -915,6 +1032,7 @@ let x = a; let x = b;
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 216,
                                         "end": 220
                                     },
@@ -925,6 +1043,7 @@ let x = a; let x = b;
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 220,
                                             "end": 220
                                         },
@@ -938,31 +1057,37 @@ let x = a; let x = b;
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 221,
                                                         "end": 222
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 221,
                                                 "end": 222
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 220,
                                             "end": 223
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 220,
                                         "end": 223
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 211,
                                 "end": 223
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 209,
                             "end": 224
                         },
@@ -972,19 +1097,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 226,
                             "end": 230
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 209,
                         "end": 230
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 209,
                 "end": 230
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 204,
             "end": 231
         },
@@ -993,6 +1122,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 231,
                 "end": 236
             },
@@ -1013,6 +1143,7 @@ let x = a; let x = b;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 238,
                                             "end": 239
                                         },
@@ -1021,11 +1152,13 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 240,
                                             "end": 242
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 238,
                                         "end": 242
                                     },
@@ -1034,6 +1167,7 @@ let x = a; let x = b;
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 243,
                                             "end": 247
                                         },
@@ -1042,6 +1176,7 @@ let x = a; let x = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 247,
                                             "end": 248
                                         },
@@ -1049,16 +1184,19 @@ let x = a; let x = b;
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 243,
                                         "end": 248
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 238,
                                 "end": 248
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 236,
                             "end": 249
                         },
@@ -1068,19 +1206,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 251,
                             "end": 255
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 236,
                         "end": 255
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 236,
                 "end": 255
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 231,
             "end": 256
         },
@@ -1089,6 +1231,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 256,
                 "end": 261
             },
@@ -1102,12 +1245,14 @@ let x = a; let x = b;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 261,
                             "end": 263
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 261,
                         "end": 263
                     },
@@ -1123,16 +1268,19 @@ let x = a; let x = b;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 266,
                                         "end": 267
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 266,
                                 "end": 267
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 264,
                             "end": 268
                         },
@@ -1142,19 +1290,23 @@ let x = a; let x = b;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 270,
                             "end": 274
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 264,
                         "end": 274
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 261,
                 "end": 274
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 256,
             "end": 275
         },
@@ -1163,6 +1315,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 275,
                 "end": 280
             },
@@ -1176,6 +1329,7 @@ let x = a; let x = b;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 280,
                             "end": 282
                         },
@@ -1185,19 +1339,23 @@ let x = a; let x = b;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 284,
                             "end": 286
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 280,
                         "end": 286
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 280,
                 "end": 286
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 275,
             "end": 287
         },
@@ -1206,6 +1364,7 @@ let x = a; let x = b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 287,
                 "end": 291
             },
@@ -1219,6 +1378,7 @@ let x = a; let x = b;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 291,
                             "end": 293
                         },
@@ -1228,19 +1388,23 @@ let x = a; let x = b;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 295,
                             "end": 297
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 291,
                         "end": 297
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 291,
                 "end": 297
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 287,
             "end": 298
         }
@@ -1249,6 +1413,7 @@ let x = a; let x = b;
     "source": "let {[a]: x, b: x} = obj;\n\nlet {[a]: x, [b]: x} = obj;\n\nlet {a: x, b: x} = obj;\n\nlet {a: x, b: x} = obj;\n\nlet {x, x} = obj;\n\nlet {a: x, c: {b: x}} = obj;\n\nlet x, {a: {b: x}} = obj;\n\nlet x, {a: {x}} = obj;\n\nlet {a: x, ...{x}} = obj;\n\nlet {a: x, ...x} = obj;\n\nlet x, {x} = obj;\n\nlet x = a; let x = b;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 298
 }

@@ -32,12 +32,14 @@ x<number>(y)
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 2
                     },
@@ -46,16 +48,19 @@ x<number>(y)
                         "text": "number",
                         "rawText": "number",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 8
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
@@ -66,18 +71,22 @@ x<number>(y)
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 11
                     },
-                    "flags": 32,
-                    "start": 9,
+                    "flags": 9,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 12
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -86,6 +95,7 @@ x<number>(y)
     "source": "x<number>(y)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -94,9 +104,7 @@ x<number>(y)
 ### Printed
 
 ```javascript
-
 x  < number > (y);
-
 ```
 
 ### Diagnostics

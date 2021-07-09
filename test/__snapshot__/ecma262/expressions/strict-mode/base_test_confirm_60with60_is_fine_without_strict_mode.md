@@ -18,6 +18,7 @@
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 1
         },
@@ -26,6 +27,7 @@
             "withKeyword": {
                 "kind": 37757029,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 6
             },
@@ -34,6 +36,7 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -44,14 +47,17 @@
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 10,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 1,
             "end": 13
         }
@@ -60,6 +66,7 @@
     "source": "; with (x) y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -68,11 +75,7 @@
 ### Printed
 
 ```javascript
-
-;
-with (x)
-  y;
-
+with (x) y;
 ```
 
 ### Diagnostics

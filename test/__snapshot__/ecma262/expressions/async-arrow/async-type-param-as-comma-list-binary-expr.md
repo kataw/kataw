@@ -33,12 +33,14 @@ async  <T, U>(x) >> y - z;
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
                         "operatorToken": {
                             "kind": 536971330,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
@@ -47,10 +49,12 @@ async  <T, U>(x) >> y - z;
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         },
                         "flags": 32,
+                        "transformFlags": 5120,
                         "start": 0,
                         "end": 9
                     },
@@ -61,12 +65,14 @@ async  <T, U>(x) >> y - z;
                             "text": "U",
                             "rawText": "U",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
                         "operatorToken": {
                             "kind": 34883,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -79,16 +85,19 @@ async  <T, U>(x) >> y - z;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
-                                "flags": 32,
-                                "start": 13,
+                                "flags": 13,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 16
                             },
                             "operatorToken": {
                                 "kind": 35141,
                                 "flags": 96,
+                                "transformFlags": 64,
                                 "start": 16,
                                 "end": 19
                             },
@@ -99,12 +108,14 @@ async  <T, U>(x) >> y - z;
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "operatorToken": {
                                     "kind": 134318643,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
@@ -113,27 +124,33 @@ async  <T, U>(x) >> y - z;
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 21,
                                 "end": 25
                             },
-                            "flags": 32,
+                            "flags": 45,
+                            "transformFlags": 5120,
                             "start": 16,
                             "end": 25
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 10,
                         "end": 25
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -142,6 +159,7 @@ async  <T, U>(x) >> y - z;
     "source": "async  <T, U>(x) >> y - z;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -150,9 +168,7 @@ async  <T, U>(x) >> y - z;
 ### Printed
 
 ```javascript
-
 async  < T, U > (x) >> y - z;
-
 ```
 
 ### Diagnostics

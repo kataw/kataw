@@ -30,6 +30,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -51,6 +53,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                         "text": "argument1",
                         "rawText": "argument1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 20
                     },
@@ -66,6 +69,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 33
                                     },
@@ -74,11 +78,13 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 36
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 36
                                 },
@@ -89,6 +95,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 47
                                     },
@@ -97,27 +104,32 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 50
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 50
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 50
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 51
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 51
             },
@@ -128,15 +140,18 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 55
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 55
         }
@@ -145,6 +160,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
     "source": "function f(argument1, { __proto__: x, __proto__: y}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }
@@ -153,12 +169,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
 ### Printed
 
 ```javascript
-
-function f(argument1, {
-    __proto__: x,
-    __proto__: y
-  }) {}
-
+function f(argument1, { __proto__: x, __proto__: y }) {}
 ```
 
 ### Diagnostics

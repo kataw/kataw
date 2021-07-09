@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,12 +40,14 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 22,
                 "end": 24
             },
@@ -53,6 +56,7 @@
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 28
             },
@@ -62,6 +66,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 29
             },
@@ -82,6 +87,7 @@
                                         "yieldKeyword": {
                                             "kind": 8454253,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 39
                                         },
@@ -89,16 +95,19 @@
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 34,
                                         "end": 39
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 40
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 42
                                 },
@@ -107,6 +116,7 @@
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 48
                                     },
@@ -114,12 +124,14 @@
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 42,
                                     "end": 48
                                 },
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 50
                                 },
@@ -128,6 +140,7 @@
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 50,
                                         "end": 56
                                     },
@@ -135,28 +148,34 @@
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 50,
                                     "end": 56
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 32,
                                 "end": 56
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 32,
                             "end": 56
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 56
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 58
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 13,
             "end": 58
         }
@@ -165,6 +184,7 @@
     "source": "'use strict'; function * gen() { (yield) ? yield : yield }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }
@@ -174,11 +194,10 @@
 
 ```javascript
 
-'\'use strict\'';
-function * gen() {
+"'use strict'";
+function *gen() {
   (yield ) ? yield  : yield ;
 }
-
 ```
 
 ### Diagnostics

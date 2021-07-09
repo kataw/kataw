@@ -28,6 +28,7 @@ do {} while (x) { class x {}
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,16 +38,19 @@ do {} while (x) { class x {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 5
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 11
             },
@@ -55,10 +59,12 @@ do {} while (x) { class x {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -74,6 +80,7 @@ do {} while (x) { class x {}
                         "classKeyword": {
                             "kind": 37822544,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 23
                         },
@@ -82,6 +89,7 @@ do {} while (x) { class x {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
@@ -93,23 +101,28 @@ do {} while (x) { class x {}
                                 "kind": 303,
                                 "elements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
                             "flags": 25,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 28
         }
@@ -118,6 +131,7 @@ do {} while (x) { class x {}
     "source": "do {} while (x) { class x {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

@@ -27,6 +27,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -42,6 +44,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -66,6 +69,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                                 "text": "Record",
                                                 "rawText": "Record",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 16
                                             },
@@ -81,10 +85,12 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                                             "type": {
                                                                 "kind": 134234347,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 17,
                                                                 "end": 23
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 23
                                                         },
@@ -95,43 +101,52 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                                             "type": {
                                                                 "kind": 134234252,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 24,
                                                                 "end": 28
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 24,
                                                             "end": 28
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 28
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 512,
                                                 "start": 16,
                                                 "end": 29
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 29
                                         },
                                         {
                                             "kind": 138477575,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 36
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 36
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 37
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 39
                         },
@@ -149,6 +164,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                         "text": "length",
                                         "rawText": "length",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 50
                                     },
@@ -162,33 +178,40 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 51,
                                             "end": 53
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 51,
                                         "end": 53
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 54
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 56
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 56
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 56
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 56
         }
@@ -197,6 +220,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
     "source": "type x = (Record<string, any> | null)[] & { length: 2; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }
@@ -205,9 +229,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
 ### Printed
 
 ```javascript
-
 type x = (Record<string, any> | null)[] & { length: 2 }
-
 ```
 
 ### Diagnostics

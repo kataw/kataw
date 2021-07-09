@@ -30,12 +30,14 @@ function* foo() { var x = 10; yield 1; return x; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -44,6 +46,7 @@ function* foo() { var x = 10; yield 1; return x; }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 13
             },
@@ -53,6 +56,7 @@ function* foo() { var x = 10; yield 1; return x; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -68,6 +72,7 @@ function* foo() { var x = 10; yield 1; return x; }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 21
                             },
@@ -81,6 +86,7 @@ function* foo() { var x = 10; yield 1; return x; }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
@@ -90,19 +96,23 @@ function* foo() { var x = 10; yield 1; return x; }
                                             "text": 10,
                                             "rawText": "10",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 28
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 21,
                                         "end": 28
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 29
                         },
@@ -113,6 +123,7 @@ function* foo() { var x = 10; yield 1; return x; }
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 35
                                 },
@@ -123,14 +134,17 @@ function* foo() { var x = 10; yield 1; return x; }
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 29,
                                 "end": 37
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 29,
                             "end": 38
                         },
@@ -139,6 +153,7 @@ function* foo() { var x = 10; yield 1; return x; }
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 45
                             },
@@ -147,24 +162,29 @@ function* foo() { var x = 10; yield 1; return x; }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 47
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 38,
                             "end": 48
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 48
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 50
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -173,6 +193,7 @@ function* foo() { var x = 10; yield 1; return x; }
     "source": "function* foo() { var x = 10; yield 1; return x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }
@@ -181,13 +202,11 @@ function* foo() { var x = 10; yield 1; return x; }
 ### Printed
 
 ```javascript
-
-function * foo() {
+function *foo() {
   var x = 10;
-  yield  1;
+  yield 1;
   return x;
 }
-
 ```
 
 ### Diagnostics

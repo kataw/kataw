@@ -22,6 +22,7 @@ async (x = yield y) => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -37,6 +38,7 @@ async (x = yield y) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -47,10 +49,12 @@ async (x = yield y) => {}
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 16
                         },
@@ -59,12 +63,14 @@ async (x = yield y) => {}
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 19
                 },
@@ -72,6 +78,7 @@ async (x = yield y) => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 22
                 },
@@ -82,18 +89,22 @@ async (x = yield y) => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 24
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 25
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -102,6 +113,7 @@ async (x = yield y) => {}
     "source": "async (x = yield y) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -110,9 +122,7 @@ async (x = yield y) => {}
 ### Printed
 
 ```javascript
-
 async (x = yield, y) => {};
-
 ```
 
 ### Diagnostics

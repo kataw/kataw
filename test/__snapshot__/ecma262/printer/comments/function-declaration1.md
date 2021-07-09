@@ -36,6 +36,7 @@ function x (
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -45,6 +46,7 @@ function x (
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -54,6 +56,7 @@ function x (
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -64,15 +67,18 @@ function x (
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 21
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         },
@@ -83,6 +89,7 @@ function x (
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 31
             },
@@ -92,6 +99,7 @@ function x (
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 33
             },
@@ -101,6 +109,7 @@ function x (
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 35
             },
@@ -111,15 +120,18 @@ function x (
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 43
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 51
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 51
         },
@@ -130,6 +142,7 @@ function x (
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 61
             },
@@ -139,6 +152,7 @@ function x (
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 63
             },
@@ -151,6 +165,7 @@ function x (
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 65,
                         "end": 71
                     },
@@ -159,12 +174,14 @@ function x (
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 72,
                         "end": 73
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 73
             },
@@ -175,15 +192,18 @@ function x (
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 81,
                     "end": 81
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 79,
                 "end": 82
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 51,
             "end": 82
         },
@@ -194,6 +214,7 @@ function x (
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 82,
                 "end": 92
             },
@@ -203,6 +224,7 @@ function x (
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 92,
                 "end": 94
             },
@@ -215,6 +237,7 @@ function x (
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 96,
                         "end": 102
                     },
@@ -223,12 +246,14 @@ function x (
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 103,
                         "end": 106
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 106
             },
@@ -239,15 +264,18 @@ function x (
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 114,
                     "end": 114
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 112,
                 "end": 115
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 82,
             "end": 115
         },
@@ -258,6 +286,7 @@ function x (
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 115,
                 "end": 126
             },
@@ -267,6 +296,7 @@ function x (
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 128
             },
@@ -276,6 +306,7 @@ function x (
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 130,
                 "end": 130
             },
@@ -286,15 +317,18 @@ function x (
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 140,
                     "end": 140
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 138,
                 "end": 141
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 115,
             "end": 141
         }
@@ -303,6 +337,7 @@ function x (
     "source": "function x (/*1*/) {}\n\nfunction x (/*1*/) { /*2*/ }\n\nfunction x (/*1*/a,b/*2*/) {}\n\nfunction x (/*1*/a,\n\nb/*2*/) {}\n\n\nfunction x (\n\n/*2*/) {}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 142
 }
@@ -311,13 +346,14 @@ function x (
 ### Printed
 
 ```javascript
+function x() {}
+function x() {}
 
-function x(/*1*/) {}
-function x(/*1*/) {/*2*/}
-function x(/*1*/a, b/*2*/) {}
-function x(/*1*/a, b/*2*/) {}
-function x(
- /*2*/) {}
+function x(a, b) {}
+
+function x(a, b) {}
+
+function x() {}
 
 ```
 

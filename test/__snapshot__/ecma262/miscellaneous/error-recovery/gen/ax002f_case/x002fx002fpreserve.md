@@ -27,6 +27,7 @@
     "source": "//preserve",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -35,7 +36,6 @@
 ### Printed
 
 ```javascript
-//preserve
 
 ```
 

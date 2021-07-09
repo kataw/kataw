@@ -22,6 +22,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,6 +43,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -49,11 +52,13 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -76,6 +81,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 30
                                 },
@@ -85,6 +91,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -116,6 +123,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                                 "text": "foo",
                                                                                 "rawText": "\"foo\"",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 39,
                                                                                 "end": 44
                                                                             },
@@ -124,6 +132,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                                 "member": {
                                                                                     "kind": 4259935,
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 45,
                                                                                     "end": 51
                                                                                 },
@@ -132,31 +141,37 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                                     "text": "",
                                                                                     "rawText": "",
                                                                                     "flags": 64,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 51,
                                                                                     "end": 51
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 2,
                                                                                 "start": 45,
                                                                                 "end": 51
                                                                             },
                                                                             "initializer": null,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 39,
                                                                             "end": 51
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 39,
                                                                     "end": 51
                                                                 },
                                                                 "flags": 48,
+                                                                "transformFlags": 0,
                                                                 "start": 38,
                                                                 "end": 52
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 2,
+                                                        "flags": 34,
+                                                        "transformFlags": 0,
                                                         "start": 38,
                                                         "end": 53
                                                     },
@@ -164,6 +179,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 53,
                                                         "end": 56
                                                     },
@@ -172,44 +188,54 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 56,
                                                         "end": 58
                                                     },
                                                     "flags": 34,
+                                                    "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 58
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 33,
                                                 "end": 58
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 58
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 63
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 63
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 63
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 63
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 64
         }
@@ -218,6 +244,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
     "source": "class x extends y {constructor(){    ({\"foo\": super}) => x    }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 64
 }

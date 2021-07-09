@@ -32,6 +32,7 @@ type MyObject<A, B, C> = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -40,6 +41,7 @@ type MyObject<A, B, C> = {
                 "text": "MyObject",
                 "rawText": "MyObject",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 13
             },
@@ -55,6 +57,7 @@ type MyObject<A, B, C> = {
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 15
                             },
@@ -62,6 +65,7 @@ type MyObject<A, B, C> = {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
@@ -72,6 +76,7 @@ type MyObject<A, B, C> = {
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
@@ -79,6 +84,7 @@ type MyObject<A, B, C> = {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
@@ -89,6 +95,7 @@ type MyObject<A, B, C> = {
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
@@ -96,22 +103,26 @@ type MyObject<A, B, C> = {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 21
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 13,
                 "end": 22
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 24
             },
@@ -133,6 +144,7 @@ type MyObject<A, B, C> = {
                                 "text": "property",
                                 "rawText": "property",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 37
                             },
@@ -148,19 +160,23 @@ type MyObject<A, B, C> = {
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 40
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 40
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 40
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 41
                         },
@@ -175,6 +191,7 @@ type MyObject<A, B, C> = {
                                 "text": "method",
                                 "rawText": "method",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 50
                             },
@@ -192,6 +209,7 @@ type MyObject<A, B, C> = {
                                                 "text": "val",
                                                 "rawText": "val",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 54
                                             },
@@ -207,25 +225,30 @@ type MyObject<A, B, C> = {
                                                         "text": "B",
                                                         "rawText": "B",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 57
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 55,
                                                     "end": 57
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 57
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 51,
                                             "end": 57
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 51,
                                     "end": 57
                                 },
@@ -240,38 +263,46 @@ type MyObject<A, B, C> = {
                                             "text": "C",
                                             "rawText": "C",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 59,
                                             "end": 61
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 59,
                                         "end": 61
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 59,
                                     "end": 61
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 61
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 62
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 64
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 64
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 65
         }
@@ -280,6 +311,7 @@ type MyObject<A, B, C> = {
     "source": "type MyObject<A, B, C> = {\n  property: A,\n  method(val: B): C,\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 65
 }
@@ -288,9 +320,7 @@ type MyObject<A, B, C> = {
 ### Printed
 
 ```javascript
-
 type MyObject<A, B, C> = { property: A, method(val: B): C }
-
 ```
 
 ### Diagnostics

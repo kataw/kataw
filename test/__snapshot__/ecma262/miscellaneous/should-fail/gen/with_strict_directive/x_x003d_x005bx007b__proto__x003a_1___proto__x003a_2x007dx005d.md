@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -41,12 +42,14 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -68,6 +71,7 @@
                                                 "text": "__proto__",
                                                 "rawText": "__proto__",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 29
                                             },
@@ -76,10 +80,12 @@
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 32
                                             },
                                             "flags": 36,
+                                            "transformFlags": 128,
                                             "start": 20,
                                             "end": 32
                                         },
@@ -91,6 +97,7 @@
                                                 "text": "__proto__",
                                                 "rawText": "__proto__",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 43
                                             },
@@ -99,38 +106,46 @@
                                                 "text": 2,
                                                 "rawText": "2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 46
                                             },
                                             "flags": 36,
+                                            "transformFlags": 128,
                                             "start": 33,
                                             "end": 46
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 20,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 46
                                 },
                                 "flags": 52,
+                                "transformFlags": 8,
                                 "start": 19,
                                 "end": 47
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 47
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 17,
                     "end": 48
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 13,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 48
         }
@@ -139,6 +154,7 @@
     "source": "\"use strict\"; x = [{__proto__: 1, __proto__: 2}]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }
@@ -148,9 +164,8 @@
 
 ```javascript
 
-'"use strict"';
-x = [{ __proto__ : 1, __proto__ : 2 },];
-
+"\"use strict\"";
+x = [{ __proto__: 1, __proto__: 2 }];
 ```
 
 ### Diagnostics

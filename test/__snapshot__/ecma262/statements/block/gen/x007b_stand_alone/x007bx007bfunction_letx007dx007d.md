@@ -45,6 +45,7 @@
                                                 "functionKeyword": {
                                                     "kind": 37822554,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 4,
                                                     "end": 12
                                                 },
@@ -54,6 +55,7 @@
                                                     "text": "let",
                                                     "rawText": "let",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 16
                                                 },
@@ -63,6 +65,7 @@
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 16
                                                 },
@@ -73,42 +76,51 @@
                                                         "directives": [],
                                                         "statements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 16
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 16
                                                 },
                                                 "returnType": null,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 4,
                                                 "end": 16
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 16
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 17
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -117,6 +129,7 @@
     "source": "{ {{function let}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

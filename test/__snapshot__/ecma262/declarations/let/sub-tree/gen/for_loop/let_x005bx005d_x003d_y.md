@@ -30,6 +30,7 @@ for (;;) let
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ for (;;) let
                             "text": "let",
                             "rawText": "let",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 12
                         },
@@ -55,16 +57,19 @@ for (;;) let
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 14
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 8,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
@@ -73,18 +78,22 @@ for (;;) let
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
-                    "flags": 32,
+                    "flags": 1,
+                    "transformFlags": 128,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -93,6 +102,7 @@ for (;;) let
     "source": "for (;;) let\n[] = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

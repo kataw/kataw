@@ -26,6 +26,7 @@
                         "operandToken": {
                             "kind": 65584,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -34,20 +35,24 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 3
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 1,
                         "end": 3
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 4
                 },
                 "operatorToken": {
                     "kind": 4130,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
@@ -56,14 +61,17 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -72,6 +80,7 @@
     "source": "(!a) += 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -80,9 +89,7 @@
 ### Printed
 
 ```javascript
-
 (!a) += 1;
-
 ```
 
 ### Diagnostics

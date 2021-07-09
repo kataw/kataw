@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { TypeParameterInstantiation } from './type-parameter-instantiation';
 import { DummyIdentifier } from '../internal/dummy-identifier';
 import { Identifier } from '../expressions/identifier-expr';
@@ -19,6 +19,7 @@ export function createTypeReference(
     typeName,
     typeParameters,
     flags: NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

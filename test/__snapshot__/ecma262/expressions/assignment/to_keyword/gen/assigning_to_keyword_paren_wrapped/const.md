@@ -32,14 +32,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 1
         },
@@ -48,6 +51,7 @@
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 6
             },
@@ -55,10 +59,12 @@
                 "kind": 151,
                 "bindingList": [],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 1,
             "end": 6
         },
@@ -69,10 +75,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 10
         }
@@ -81,6 +89,7 @@
     "source": "(const = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

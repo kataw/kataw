@@ -20,6 +20,7 @@ for (let [foo] = arr, bar;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let [foo] = arr, bar;;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -46,16 +48,19 @@ for (let [foo] = arr, bar;;);
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 13
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 14
                             },
@@ -65,10 +70,12 @@ for (let [foo] = arr, bar;;);
                                 "text": "arr",
                                 "rawText": "arr",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 20
                         },
@@ -79,21 +86,25 @@ for (let [foo] = arr, bar;;);
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 25
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 21,
                             "end": 25
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 25
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
@@ -102,10 +113,12 @@ for (let [foo] = arr, bar;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 29
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -114,6 +127,7 @@ for (let [foo] = arr, bar;;);
     "source": "for (let [foo] = arr, bar;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -122,10 +136,7 @@ for (let [foo] = arr, bar;;);
 ### Printed
 
 ```javascript
-
-for (let [foo] = arr, bar;;)
-  ;
-
+for (let [foo] = arr, bar; ; );
 ```
 
 ### Diagnostics

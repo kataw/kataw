@@ -44,16 +44,19 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 3,
                                                 "end": 4
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 4
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 1,
                                     "end": 5
                                 },
@@ -62,26 +65,31 @@
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 12
                                 },
                                 "flags": 32,
+                                "transformFlags": 2,
                                 "start": 1,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -90,14 +98,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -106,6 +117,7 @@
     "source": "[ [x].length ] = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -114,9 +126,7 @@
 ### Printed
 
 ```javascript
-
-[[x,].length,] = x;
-
+[[x].length] = x;
 ```
 
 ### Diagnostics

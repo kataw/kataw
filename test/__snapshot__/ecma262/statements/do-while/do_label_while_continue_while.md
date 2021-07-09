@@ -20,6 +20,7 @@ do wow: while (x) continue wow; while (x)
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -30,12 +31,14 @@ do wow: while (x) continue wow; while (x)
                     "text": "wow",
                     "rawText": "wow",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 6
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 7
                 },
@@ -44,6 +47,7 @@ do wow: while (x) continue wow; while (x)
                     "whileKeyword": {
                         "kind": 37757028,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 13
                     },
@@ -52,6 +56,7 @@ do wow: while (x) continue wow; while (x)
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 16
                     },
@@ -60,6 +65,7 @@ do wow: while (x) continue wow; while (x)
                         "continueKeyword": {
                             "kind": 37757009,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 26
                         },
@@ -68,24 +74,29 @@ do wow: while (x) continue wow; while (x)
                             "text": "wow",
                             "rawText": "wow",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 30
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 31
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 31
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 31
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 37
             },
@@ -94,10 +105,12 @@ do wow: while (x) continue wow; while (x)
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 40
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -106,6 +119,7 @@ do wow: while (x) continue wow; while (x)
     "source": "do wow: while (x) continue wow; while (x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }
@@ -114,11 +128,8 @@ do wow: while (x) continue wow; while (x)
 ### Printed
 
 ```javascript
-
-do
-  wow: while (x)
-    continue wow; while (x)
-
+do  wow:  while (x) continue wow;
+while (x);
 ```
 
 ### Diagnostics

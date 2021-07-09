@@ -28,6 +28,7 @@ for (arguments in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,12 +37,14 @@ for (arguments in x) ;
                 "text": "arguments",
                 "rawText": "arguments",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
@@ -50,16 +53,19 @@ for (arguments in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -68,6 +74,7 @@ for (arguments in x) ;
     "source": "for (arguments in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -76,10 +83,7 @@ for (arguments in x) ;
 ### Printed
 
 ```javascript
-
-for (arguments in x)
-  ;
-
+for (arguments in x);
 ```
 
 ### Diagnostics

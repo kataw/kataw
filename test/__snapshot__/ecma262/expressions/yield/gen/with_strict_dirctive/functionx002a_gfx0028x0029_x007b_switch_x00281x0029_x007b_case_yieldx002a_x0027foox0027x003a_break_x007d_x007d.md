@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,12 +40,14 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 22,
                 "end": 23
             },
@@ -53,6 +56,7 @@
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 26
             },
@@ -62,6 +66,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 27
             },
@@ -76,6 +81,7 @@
                             "switchKeyword": {
                                 "kind": 37757024,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 37
                             },
@@ -84,6 +90,7 @@
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 40
                             },
@@ -95,6 +102,7 @@
                                         "caseKeyword": {
                                             "kind": 4194382,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 43,
                                             "end": 48
                                         },
@@ -103,6 +111,7 @@
                                             "yieldKeyword": {
                                                 "kind": 8454253,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 54
                                             },
@@ -110,6 +119,7 @@
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
+                                                "transformFlags": 32,
                                                 "start": 54,
                                                 "end": 55
                                             },
@@ -118,16 +128,19 @@
                                                 "text": "foo",
                                                 "rawText": "'foo'",
                                                 "flags": 4194400,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 61
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 48,
                                             "end": 61
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 61,
                                             "end": 62
                                         },
@@ -137,39 +150,47 @@
                                                 "breakKeyword": {
                                                     "kind": 37757005,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 62,
                                                     "end": 68
                                                 },
                                                 "label": null,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 62,
                                                 "end": 69
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 69
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 69
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 71
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 71
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 73
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 13,
             "end": 73
         }
@@ -178,6 +199,7 @@
     "source": "'use strict'; function* gf() { switch (1) { case yield* 'foo': break; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 73
 }
@@ -187,14 +209,13 @@
 
 ```javascript
 
-'\'use strict\'';
-function * gf() {
+"'use strict'";
+function *gf() {
   switch (1) {
-    case yield *  '\'foo\'': 
+    case yield* "'foo'":
       break;
   }
 }
-
 ```
 
 ### Diagnostics

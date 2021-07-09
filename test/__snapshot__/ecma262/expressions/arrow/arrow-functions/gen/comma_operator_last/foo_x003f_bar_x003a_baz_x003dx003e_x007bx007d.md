@@ -35,12 +35,14 @@ foo ? bar : baz => {}, bar
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 3
                         },
                         "questionToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -49,12 +51,14 @@ foo ? bar : baz => {}, bar
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
@@ -67,6 +71,7 @@ foo ? bar : baz => {}, bar
                                 "text": "baz",
                                 "rawText": "baz",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 15
                             },
@@ -74,6 +79,7 @@ foo ? bar : baz => {}, bar
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 18
                             },
@@ -84,18 +90,22 @@ foo ? bar : baz => {}, bar
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 21
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 21
                         },
                         "flags": 96,
+                        "transformFlags": 4096,
                         "start": 0,
                         "end": 21
                     },
@@ -104,15 +114,18 @@ foo ? bar : baz => {}, bar
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 26
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -121,6 +134,7 @@ foo ? bar : baz => {}, bar
     "source": "foo ? bar : baz => {}, bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -129,9 +143,7 @@ foo ? bar : baz => {}, bar
 ### Printed
 
 ```javascript
-
 foo ? bar : baz => {}, bar;
-
 ```
 
 ### Diagnostics

@@ -27,6 +27,7 @@ def\u0061ult
     "source": "def\\u0061ult",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

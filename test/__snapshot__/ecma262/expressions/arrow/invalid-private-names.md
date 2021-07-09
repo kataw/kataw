@@ -31,7 +31,8 @@
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 2
                             },
@@ -39,21 +40,25 @@
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 6
                             },
                             "contents": {
                                 "kind": 4276321,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 11
                         },
-                        "flags": 32,
-                        "start": 0,
+                        "flags": 0,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 12
                     },
                     "argumentList": {
@@ -61,10 +66,12 @@
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 14
                 },
@@ -73,14 +80,17 @@
                     "text": "#x",
                     "rawText": "#x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "flags": 268435488,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -89,6 +99,7 @@
     "source": "(() => this)().#x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

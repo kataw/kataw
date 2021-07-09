@@ -28,6 +28,7 @@ declare function foo(): void
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare function foo(): void
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 16
             },
@@ -44,6 +46,7 @@ declare function foo(): void
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -53,6 +56,7 @@ declare function foo(): void
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -64,14 +68,17 @@ declare function foo(): void
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 28
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 28
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 28
         }
@@ -80,6 +87,7 @@ declare function foo(): void
     "source": "declare function foo(): void",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -88,9 +96,7 @@ declare function foo(): void
 ### Printed
 
 ```javascript
-
-declare function foo(): void 
-
+declare function foo(): void;
 ```
 
 ### Diagnostics

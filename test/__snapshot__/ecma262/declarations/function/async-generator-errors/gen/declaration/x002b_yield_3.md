@@ -30,18 +30,21 @@ async function * gen() {+ yield 3}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -50,6 +53,7 @@ async function * gen() {+ yield 3}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -59,6 +63,7 @@ async function * gen() {+ yield 3}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -75,6 +80,7 @@ async function * gen() {+ yield 3}
                                 "operandToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 25
                                 },
@@ -83,6 +89,7 @@ async function * gen() {+ yield 3}
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 31
                                     },
@@ -93,32 +100,39 @@ async function * gen() {+ yield 3}
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 25,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 24,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 34
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -127,6 +141,7 @@ async function * gen() {+ yield 3}
     "source": "async function * gen() {+ yield 3}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -135,11 +150,9 @@ async function * gen() {+ yield 3}
 ### Printed
 
 ```javascript
-
-async function * gen() {
-  +yield  3;
+async function *gen() {
+  +yield 3;
 }
-
 ```
 
 ### Diagnostics

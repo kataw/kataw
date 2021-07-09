@@ -29,12 +29,14 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -44,6 +46,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -53,6 +56,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -66,6 +70,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 33
                         }
@@ -76,6 +81,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                             "lexicalKeyword": {
                                 "kind": 41951307,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 38
                             },
@@ -89,21 +95,25 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 40
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 38,
                                         "end": 40
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 40
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 41
                         },
@@ -112,12 +122,14 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 45
                             },
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 51
                             },
@@ -126,6 +138,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 58
                                 },
@@ -150,6 +163,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                                                         "text": "Symbol",
                                                                         "rawText": "Symbol",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 61,
                                                                         "end": 67
                                                                     },
@@ -158,14 +172,17 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                                                         "text": "iterator",
                                                                         "rawText": "iterator",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 68,
                                                                         "end": 76
                                                                     },
                                                                     "flags": 96,
+                                                                    "transformFlags": 2,
                                                                     "start": 61,
                                                                     "end": 76
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 60,
                                                                 "end": 77
                                                             },
@@ -174,6 +191,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 78,
                                                                 "end": 80
                                                             },
@@ -182,41 +200,49 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 82,
                                                                 "end": 84
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 60,
                                                             "end": 84
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 60,
                                                     "end": 84
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 58,
                                                 "end": 85
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 58,
                                             "end": 85
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 85
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 85
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 85,
                                 "end": 88
                             },
@@ -227,34 +253,41 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 90,
                                     "end": 90
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 88,
                                 "end": 91
                             },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 92,
                                 "end": 94
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 94
                         }
                     ],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 94
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 96
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 96
         }
@@ -263,6 +296,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
     "source": "async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a = 1} of []) ; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 96
 }
@@ -271,16 +305,12 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
 ### Printed
 
 ```javascript
-
 async function f() {
-'\'use strict\'';
-  let a;
-  for await (const {
-    [Symbol.iterator]: a = 1
-  } of [])
-    ;
-}
 
+  "'use strict'";
+  let a;
+  for await (const { [Symbol.iterator]: a = 1 } of []);
+}
 ```
 
 ### Diagnostics

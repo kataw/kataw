@@ -33,6 +33,7 @@ function f(){
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -42,6 +43,7 @@ function f(){
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -51,6 +53,7 @@ function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -64,6 +67,7 @@ function f(){
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 28
                         }
@@ -78,12 +82,14 @@ function f(){
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 35
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
@@ -92,28 +98,34 @@ function f(){
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 39
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 28,
                                 "end": 39
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 28,
                             "end": 40
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 42
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -122,6 +134,7 @@ function f(){
     "source": "function f(){\n  \"use strict\"\n  eval = 1;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

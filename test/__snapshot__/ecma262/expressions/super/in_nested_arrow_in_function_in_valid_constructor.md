@@ -22,6 +22,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,6 +43,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -49,11 +52,13 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -76,6 +81,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 31
                                 },
@@ -85,6 +91,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -100,6 +107,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 41
                                                 },
@@ -109,6 +117,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 50
                                                     },
@@ -120,6 +129,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 51,
                                                         "end": 51
                                                     },
@@ -134,6 +144,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 54,
                                                                         "end": 61
                                                                     },
@@ -145,7 +156,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                             "kind": 342,
                                                                             "parameters": [],
                                                                             "trailingComma": false,
-                                                                            "flags": 0,
+                                                                            "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 63,
                                                                             "end": 63
                                                                         },
@@ -153,6 +165,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                         "arrowToken": {
                                                                             "kind": 10,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 64,
                                                                             "end": 67
                                                                         },
@@ -161,6 +174,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                             "member": {
                                                                                 "kind": 4259935,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 67,
                                                                                 "end": 73
                                                                             },
@@ -169,66 +183,81 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 74,
                                                                                 "end": 77
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 2,
                                                                             "start": 67,
                                                                             "end": 77
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 61,
                                                                         "end": 77
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 54,
                                                                     "end": 78
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 54,
                                                             "end": 78
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 52,
                                                         "end": 80
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 41,
                                                     "end": 80
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 34,
                                                 "end": 80
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 80
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 82
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 82
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 82
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 82
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 83
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 83
         }
@@ -237,6 +266,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
     "source": "class x extends y { constructor(){ return function() { return () => super.foo; } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 83
 }

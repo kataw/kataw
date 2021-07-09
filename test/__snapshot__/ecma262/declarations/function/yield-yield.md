@@ -25,12 +25,14 @@
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     },
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
+                        "transformFlags": 32,
                         "start": 9,
                         "end": 10
                     },
@@ -41,6 +43,7 @@
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
@@ -57,6 +60,7 @@
                                         "yieldKeyword": {
                                             "kind": 8454253,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 21
                                         },
@@ -67,6 +71,7 @@
                                             "yieldKeyword": {
                                                 "kind": 8454253,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 27
                                             },
@@ -77,40 +82,49 @@
                                                 "text": 10,
                                                 "rawText": "10",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 30
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 21,
                                             "end": 30
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 15,
                                         "end": 30
                                     },
                                     "flags": 16,
+                                    "transformFlags": 4096,
                                     "start": 15,
                                     "end": 30
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 30
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 32
                     },
                     "returnType": null,
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 32
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 33
         }
@@ -119,6 +133,7 @@
     "source": "(function* () { yield yield 10 })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -127,11 +142,9 @@
 ### Printed
 
 ```javascript
-
-(function * () {
-  yield  yield  10;
-});
-
+(function *() {
+    yield yield 10;
+  });
 ```
 
 ### Diagnostics

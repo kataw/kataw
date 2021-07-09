@@ -35,6 +35,7 @@
                             "operandToken": {
                                 "kind": 196636,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 7
                             },
@@ -43,23 +44,28 @@
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 5
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 7
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -72,6 +78,7 @@
                     "text": "toString",
                     "rawText": "toString",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 16
                 },
@@ -80,14 +87,17 @@
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 8,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 19
         }
@@ -96,6 +106,7 @@
     "source": "{ foo--.toString(); }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

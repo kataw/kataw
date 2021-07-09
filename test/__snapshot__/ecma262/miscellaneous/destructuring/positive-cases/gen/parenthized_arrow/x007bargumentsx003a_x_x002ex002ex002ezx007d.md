@@ -29,6 +29,7 @@ var f = ({arguments: x, ...z}) => {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var f = ({arguments: x, ...z}) => {};
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -65,6 +67,7 @@ var f = ({arguments: x, ...z}) => {};
                                                         "text": "arguments",
                                                         "rawText": "arguments",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 19
                                                     },
@@ -73,11 +76,13 @@ var f = ({arguments: x, ...z}) => {};
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 22
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 22
                                                 },
@@ -86,6 +91,7 @@ var f = ({arguments: x, ...z}) => {};
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 27
                                                     },
@@ -94,6 +100,7 @@ var f = ({arguments: x, ...z}) => {};
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 27,
                                                         "end": 28
                                                     },
@@ -101,22 +108,26 @@ var f = ({arguments: x, ...z}) => {};
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
+                                                    "transformFlags": 4096,
                                                     "start": 23,
                                                     "end": 28
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 28
                                         },
                                         "flags": 48,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 29
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 30
                             },
@@ -124,6 +135,7 @@ var f = ({arguments: x, ...z}) => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 33
                             },
@@ -134,27 +146,33 @@ var f = ({arguments: x, ...z}) => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 35
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 36
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 36
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -163,6 +181,7 @@ var f = ({arguments: x, ...z}) => {};
     "source": "var f = ({arguments: x, ...z}) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -171,12 +190,7 @@ var f = ({arguments: x, ...z}) => {};
 ### Printed
 
 ```javascript
-
-var f = ({
-    arguments: x,
-    ...z
-  }) => {};
-
+var f = ({ arguments: x, ...z }) => {};
 ```
 
 ### Diagnostics

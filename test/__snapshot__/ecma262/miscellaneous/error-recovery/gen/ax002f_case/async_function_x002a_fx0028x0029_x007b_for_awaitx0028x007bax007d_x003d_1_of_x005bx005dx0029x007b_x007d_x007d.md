@@ -29,18 +29,21 @@ async function * f() { for await({a} = 1 of []){ } }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -49,6 +52,7 @@ async function * f() { for await({a} = 1 of []){ } }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
@@ -58,6 +62,7 @@ async function * f() { for await({a} = 1 of []){ } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
@@ -72,12 +77,14 @@ async function * f() { for await({a} = 1 of []){ } }
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 26
                             },
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 32
                             },
@@ -93,22 +100,26 @@ async function * f() { for await({a} = 1 of []){ } }
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 35
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 35
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 33,
                                     "end": 36
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 38
                                 },
@@ -117,16 +128,19 @@ async function * f() { for await({a} = 1 of []){ } }
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 40
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 33,
                                 "end": 40
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 43
                             },
@@ -137,10 +151,12 @@ async function * f() { for await({a} = 1 of []){ } }
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 45
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 43,
                                 "end": 46
                             },
@@ -150,28 +166,34 @@ async function * f() { for await({a} = 1 of []){ } }
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 48
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 50
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 50
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 50
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 52
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         }
@@ -180,6 +202,7 @@ async function * f() { for await({a} = 1 of []){ } }
     "source": "async function * f() { for await({a} = 1 of []){ } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }
@@ -188,11 +211,9 @@ async function * f() { for await({a} = 1 of []){ } }
 ### Printed
 
 ```javascript
-
-async function * f() {
-  for await ({ a } = 1 of []) { }
+async function *f() {
+  for await ({ a } = 1 of []) {}
 }
-
 ```
 
 ### Diagnostics

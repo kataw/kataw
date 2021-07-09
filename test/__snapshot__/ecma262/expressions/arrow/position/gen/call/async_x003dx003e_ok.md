@@ -34,6 +34,7 @@ async => ok()
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -41,6 +42,7 @@ async => ok()
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -51,6 +53,7 @@ async => ok()
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 11
                     },
@@ -59,18 +62,22 @@ async => ok()
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 8,
                     "end": 13
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -79,6 +86,7 @@ async => ok()
     "source": "async => ok()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -87,9 +95,7 @@ async => ok()
 ### Printed
 
 ```javascript
-
 async => ok();
-
 ```
 
 ### Diagnostics

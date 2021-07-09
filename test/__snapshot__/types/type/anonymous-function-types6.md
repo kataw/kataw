@@ -29,6 +29,7 @@ type A = (x: string, number) => void
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type A = (x: string, number) => void
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type A = (x: string, number) => void
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -65,6 +68,7 @@ type A = (x: string, number) => void
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -76,14 +80,17 @@ type A = (x: string, number) => void
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 19
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 19
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 19
                             },
@@ -95,22 +102,26 @@ type A = (x: string, number) => void
                                 "types": {
                                     "kind": 134234345,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 27
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 27
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 27
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 31
                     },
@@ -121,22 +132,27 @@ type A = (x: string, number) => void
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 36
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 36
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 36
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 36
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -145,6 +161,7 @@ type A = (x: string, number) => void
     "source": "type A = (x: string, number) => void",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -153,9 +170,7 @@ type A = (x: string, number) => void
 ### Printed
 
 ```javascript
-
 type A = (x: string, number) => void
-
 ```
 
 ### Diagnostics

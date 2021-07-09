@@ -34,6 +34,7 @@ async => {}`foo`
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -41,6 +42,7 @@ async => {}`foo`
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -51,18 +53,22 @@ async => {}`foo`
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         },
@@ -73,10 +79,12 @@ async => {}`foo`
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 16
         }
@@ -85,6 +93,7 @@ async => {}`foo`
     "source": "async => {}`foo`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

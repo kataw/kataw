@@ -30,12 +30,14 @@ let: x
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -46,14 +48,17 @@ let: x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 4,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -62,6 +67,7 @@ let: x
     "source": "let: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }
@@ -70,9 +76,7 @@ let: x
 ### Printed
 
 ```javascript
-
-let: x;
-
+let:  x;
 ```
 
 ### Diagnostics

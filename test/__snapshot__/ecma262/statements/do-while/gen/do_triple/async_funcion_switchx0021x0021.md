@@ -28,6 +28,7 @@ do do do async funcion switch!! while while while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,6 +37,7 @@ do do do async funcion switch!! while while while
                 "doKeyword": {
                     "kind": 4202580,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -44,6 +46,7 @@ do do do async funcion switch!! while while while
                     "doKeyword": {
                         "kind": 4202580,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
@@ -54,6 +57,7 @@ do do do async funcion switch!! while while while
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 14
                             },
@@ -63,6 +67,7 @@ do do do async funcion switch!! while while while
                                 "text": "funcion",
                                 "rawText": "funcion",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             },
@@ -73,14 +78,17 @@ do do do async funcion switch!! while while while
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 22
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 8,
                         "end": 22
                     },
@@ -90,10 +98,12 @@ do do do async funcion switch!! while while while
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 22
                 },
@@ -103,10 +113,12 @@ do do do async funcion switch!! while while while
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 22
             },
@@ -116,10 +128,12 @@ do do do async funcion switch!! while while while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -128,6 +142,7 @@ do do do async funcion switch!! while while while
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 29
             },
@@ -136,6 +151,7 @@ do do do async funcion switch!! while while while
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 30
                 },
@@ -144,6 +160,7 @@ do do do async funcion switch!! while while while
                     "operandToken": {
                         "kind": 65584,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 31
                     },
@@ -152,14 +169,17 @@ do do do async funcion switch!! while while while
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 31
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 30,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 29,
                 "end": 31
             },
@@ -167,10 +187,12 @@ do do do async funcion switch!! while while while
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 31
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 22,
             "end": 31
         },
@@ -179,6 +201,7 @@ do do do async funcion switch!! while while while
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 37
             },
@@ -187,6 +210,7 @@ do do do async funcion switch!! while while while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 37
             },
@@ -195,6 +219,7 @@ do do do async funcion switch!! while while while
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 43
                 },
@@ -203,6 +228,7 @@ do do do async funcion switch!! while while while
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 43
                 },
@@ -211,6 +237,7 @@ do do do async funcion switch!! while while while
                     "whileKeyword": {
                         "kind": 37757028,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 43,
                         "end": 49
                     },
@@ -219,6 +246,7 @@ do do do async funcion switch!! while while while
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 49,
                         "end": 49
                     },
@@ -229,22 +257,27 @@ do do do async funcion switch!! while while while
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 49
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 49,
                         "end": 49
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 49
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 49
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 31,
             "end": 49
         }
@@ -253,6 +286,7 @@ do do do async funcion switch!! while while while
     "source": "do do do async funcion switch!! while while while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }

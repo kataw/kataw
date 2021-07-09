@@ -25,6 +25,7 @@ for ({x = y} ;;) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ for ({x = y} ;;) {}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
@@ -48,20 +50,24 @@ for ({x = y} ;;) {}
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 10
             },
@@ -70,10 +76,12 @@ for ({x = y} ;;) {}
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -82,6 +90,7 @@ for ({x = y} ;;) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 19
             },
@@ -97,6 +106,7 @@ for ({x = y} ;;) {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 23
                             },
@@ -105,20 +115,24 @@ for ({x = y} ;;) {}
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 27
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 27
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 21,
                 "end": 28
             },
@@ -127,6 +141,7 @@ for ({x = y} ;;) {}
                 "text": 1,
                 "rawText": "1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 34
             },
@@ -135,6 +150,7 @@ for ({x = y} ;;) {}
                 "text": 1,
                 "rawText": "1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 31
             },
@@ -144,14 +160,17 @@ for ({x = y} ;;) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 37
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 38
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 14,
             "end": 38
         },
@@ -160,6 +179,7 @@ for ({x = y} ;;) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 43
             },
@@ -175,6 +195,7 @@ for ({x = y} ;;) {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 47
                             },
@@ -183,20 +204,24 @@ for ({x = y} ;;) {}
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 51
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 51
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 51
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 45,
                 "end": 52
             },
@@ -208,14 +233,17 @@ for ({x = y} ;;) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 58,
                     "end": 58
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 59
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 38,
             "end": 59
         }
@@ -224,6 +252,7 @@ for ({x = y} ;;) {}
     "source": "for ({a=b};;);\n\nfor ({x = y} ;1 ;1) {}\n\nfor ({x = y} ;;) {}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }

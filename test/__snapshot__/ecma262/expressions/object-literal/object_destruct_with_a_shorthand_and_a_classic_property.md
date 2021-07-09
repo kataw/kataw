@@ -24,12 +24,14 @@ x = {a, c:d}=obj;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,6 +47,7 @@ x = {a, c:d}=obj;
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 6
                                 },
@@ -56,6 +59,7 @@ x = {a, c:d}=obj;
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 9
                                     },
@@ -64,26 +68,31 @@ x = {a, c:d}=obj;
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 11
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 7,
                                     "end": 11
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 13
                     },
@@ -92,18 +101,22 @@ x = {a, c:d}=obj;
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -112,6 +125,7 @@ x = {a, c:d}=obj;
     "source": "x = {a, c:d}=obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -120,9 +134,7 @@ x = {a, c:d}=obj;
 ### Printed
 
 ```javascript
-
-x = { a, c : d } = obj;
-
+x = { a, c: d } = obj;
 ```
 
 ### Diagnostics

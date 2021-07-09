@@ -39,9 +39,11 @@ export function transformES2020(transform: Transform): (node: any) => any {
                     right,
                     createToken(SyntaxKind.Assign, NodeFlags.NoChildren, -1, -1),
                     visitNode(node.left, visitor),
+                    NodeFlags.ExpressionNode,
                     -1,
                     -1
                   ),
+                  NodeFlags.ExpressionNode,
                   -1,
                   -1
                 ),

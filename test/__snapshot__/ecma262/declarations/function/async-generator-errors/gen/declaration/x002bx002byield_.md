@@ -30,18 +30,21 @@ async function * gen() {++yield;}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -50,6 +53,7 @@ async function * gen() {++yield;}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -59,6 +63,7 @@ async function * gen() {++yield;}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -75,6 +80,7 @@ async function * gen() {++yield;}
                                 "operandToken": {
                                     "kind": 196635,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -83,6 +89,7 @@ async function * gen() {++yield;}
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 31
                                     },
@@ -90,28 +97,34 @@ async function * gen() {++yield;}
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 26,
                                     "end": 31
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 31
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 33
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -120,6 +133,7 @@ async function * gen() {++yield;}
     "source": "async function * gen() {++yield;}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

@@ -26,6 +26,7 @@ new 0x2.__proto__.constructor
                         "newKeyword": {
                             "kind": 138477661,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 3
                         },
@@ -34,11 +35,13 @@ new 0x2.__proto__.constructor
                             "text": 2,
                             "rawText": "0x2",
                             "flags": 1048672,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
                         "argumentList": null,
                         "flags": 96,
+                        "transformFlags": 2048,
                         "start": 0,
                         "end": 7
                     },
@@ -47,10 +50,12 @@ new 0x2.__proto__.constructor
                         "text": "__proto__",
                         "rawText": "__proto__",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 17
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 17
                 },
@@ -59,14 +64,17 @@ new 0x2.__proto__.constructor
                     "text": "constructor",
                     "rawText": "constructor",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 29
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }
@@ -75,6 +83,7 @@ new 0x2.__proto__.constructor
     "source": "new 0x2.__proto__.constructor",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -83,9 +92,7 @@ new 0x2.__proto__.constructor
 ### Printed
 
 ```javascript
-
 new 0x2.__proto__.constructor;
-
 ```
 
 ### Diagnostics

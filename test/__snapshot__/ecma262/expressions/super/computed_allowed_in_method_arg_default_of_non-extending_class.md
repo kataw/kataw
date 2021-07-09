@@ -22,6 +22,7 @@ class x { foo(x=super[foo]){ }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x { foo(x=super[foo]){ }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x { foo(x=super[foo]){ }}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 13
                                 },
@@ -71,6 +74,7 @@ class x { foo(x=super[foo]){ }}
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 15
                                             },
@@ -81,6 +85,7 @@ class x { foo(x=super[foo]){ }}
                                                 "member": {
                                                     "kind": 4259935,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 21
                                                 },
@@ -89,20 +94,24 @@ class x { foo(x=super[foo]){ }}
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 25
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 4,
                                                 "start": 16,
                                                 "end": 26
                                             },
                                             "flags": 34,
+                                            "transformFlags": 4096,
                                             "start": 14,
                                             "end": 26
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 27
                                 },
@@ -114,31 +123,38 @@ class x { foo(x=super[foo]){ }}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 30
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 30
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 30
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 30
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -147,6 +163,7 @@ class x { foo(x=super[foo]){ }}
     "source": "class x { foo(x=super[foo]){ }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -155,11 +172,9 @@ class x { foo(x=super[foo]){ }}
 ### Printed
 
 ```javascript
-
 class x {
   foo(x = super[foo]) {}
 }
-
 ```
 
 ### Diagnostics

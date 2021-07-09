@@ -37,12 +37,14 @@ x
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 7
                                 },
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 7,
                                     "end": 14
                                 },
@@ -55,6 +57,7 @@ x
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 22
                                     },
@@ -64,6 +67,7 @@ x
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 416,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 40
                                     },
@@ -75,36 +79,44 @@ x
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 41
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 42
                                     },
                                     "flags": 416,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 42
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 42
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 42
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 43
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 44
         }
@@ -113,6 +125,7 @@ x
     "source": "({async/*1*/ *\n/*2*/\nx\n/*3*/\n\n\n\n\n(/*4*/){}})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -121,12 +134,7 @@ x
 ### Printed
 
 ```javascript
-
-({ async/*1*/ * 
-   /*3*/
-   /*2*/
-  x(/*4*/) {} });
-
+({ async *x() {} });
 ```
 
 ### Diagnostics

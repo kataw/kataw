@@ -29,6 +29,7 @@
     "source": "/*\n  */ /* optional SingleLineDelimitedCommentSequence */-->the comment extends to these characters",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 99
 }
@@ -37,8 +38,6 @@
 ### Printed
 
 ```javascript
-/*
-  */ /* optional SingleLineDelimitedCommentSequence */
 
 ```
 

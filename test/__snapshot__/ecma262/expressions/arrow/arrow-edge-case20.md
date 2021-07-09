@@ -30,6 +30,7 @@
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -43,6 +44,7 @@
                             "text": "icecream",
                             "rawText": "icecream",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 13
                         },
@@ -56,12 +58,14 @@
                                     "text": "what",
                                     "rawText": "what",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 20
                                 },
                                 "operatorToken": {
                                     "kind": 34622,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 20,
                                     "end": 23
                                 },
@@ -70,16 +74,19 @@
                                     "text": "cone",
                                     "rawText": "\"cone\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 30
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 15,
                                 "end": 30
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 35
                             },
@@ -92,6 +99,7 @@
                                     "text": "p",
                                     "rawText": "p",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
@@ -99,6 +107,7 @@
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 40
                                 },
@@ -111,6 +120,7 @@
                                             "operandToken": {
                                                 "kind": 65584,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 43
                                             },
@@ -119,6 +129,7 @@
                                                 "operandToken": {
                                                     "kind": 65584,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 43,
                                                     "end": 44
                                                 },
@@ -127,20 +138,24 @@
                                                     "text": "p",
                                                     "rawText": "p",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 44,
                                                     "end": 45
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 1024,
                                                 "start": 43,
                                                 "end": 45
                                             },
                                             "flags": 32,
+                                            "transformFlags": 1024,
                                             "start": 42,
                                             "end": 45
                                         },
                                         "questionToken": {
                                             "kind": 134217750,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 45,
                                             "end": 47
                                         },
@@ -156,10 +171,12 @@
                                                         "text": "p",
                                                         "rawText": "p",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 63,
                                                         "end": 64
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 47,
                                                     "end": 64
                                                 }
@@ -169,16 +186,19 @@
                                                 "text": " cone",
                                                 "rawText": " cone",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 64,
                                                 "end": 71
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 47,
                                             "end": 71
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 71,
                                             "end": 73
                                         },
@@ -187,24 +207,29 @@
                                             "text": "just the empty cone for you",
                                             "rawText": "just the empty cone for you",
                                             "flags": 134217824,
+                                            "transformFlags": 0,
                                             "start": 73,
                                             "end": 103
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 42,
                                         "end": 103
                                     },
-                                    "flags": 32,
-                                    "start": 40,
+                                    "flags": 40,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 104
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 104
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 104,
                                 "end": 109
                             },
@@ -217,6 +242,7 @@
                                     "text": "p",
                                     "rawText": "p",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 109,
                                     "end": 111
                                 },
@@ -224,6 +250,7 @@
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 111,
                                     "end": 114
                                 },
@@ -239,10 +266,12 @@
                                                 "text": "p",
                                                 "rawText": "p",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 130,
                                                 "end": 131
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 114,
                                             "end": 131
                                         },
@@ -255,10 +284,12 @@
                                                 "text": "what",
                                                 "rawText": "what",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 135,
                                                 "end": 139
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 131,
                                             "end": 139
                                         }
@@ -268,31 +299,38 @@
                                         "text": "",
                                         "rawText": "",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 139,
                                         "end": 141
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 114,
                                     "end": 141
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 109,
                                 "end": 141
                             },
                             "flags": 96,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 141
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 4,
                         "end": 141
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 141
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 142
         }
@@ -301,6 +339,7 @@
     "source": " let icecream = what == \"cone\"\n   ? p => (!!p ? `here's your ${p} cone` : `just the empty cone for you`)\n   : p => `here's your ${p} ${what}`;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 142
 }
@@ -309,9 +348,10 @@
 ### Printed
 
 ```javascript
-
-let icecream = what == '"cone"' ? p => (!!p ? `here's your ${p} cone` : `just the empty cone for you`) : p => `here's your ${p} ${what}`;
-
+let icecream =
+    what == "\"cone\""
+      ? p => (!!p ? `here's your ${p} cone` : `just the empty cone for you`)
+      : p => `here's your ${p},  ${what}`;
 ```
 
 ### Diagnostics

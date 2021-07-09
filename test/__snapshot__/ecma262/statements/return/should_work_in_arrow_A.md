@@ -25,7 +25,8 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -33,6 +34,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -47,28 +49,34 @@
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 13
                                 },
                                 "expression": null,
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 7,
                                 "end": 13
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 13
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -77,6 +85,7 @@
     "source": "() => {return}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -85,11 +94,9 @@
 ### Printed
 
 ```javascript
-
 () => {
   return;
 };
-
 ```
 
 ### Diagnostics

@@ -35,10 +35,12 @@
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 15
                     },
@@ -53,12 +55,14 @@
                                     "text": "arguments",
                                     "rawText": "arguments",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 26
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -67,27 +71,33 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 15,
                                 "end": 30
                             },
-                            "flags": 32,
-                            "start": 15,
+                            "flags": 15,
+                            "transformFlags": 0,
+                            "start": 34,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 15,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -96,6 +106,7 @@
     "source": "{ \"use strict\"; (arguments = a) }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -104,12 +115,10 @@
 ### Printed
 
 ```javascript
-
 {
-  '"use strict"';
+  "\"use strict\"";
   (arguments = a);
 }
-
 ```
 
 ### Diagnostics

@@ -30,6 +30,7 @@ async () => {  implem\u0065nts = x  }
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -39,6 +40,7 @@ async () => {  implem\u0065nts = x  }
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -46,6 +48,7 @@ async () => {  implem\u0065nts = x  }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -64,12 +67,14 @@ async () => {  implem\u0065nts = x  }
                                         "text": "implements",
                                         "rawText": "implem\\u0065nts",
                                         "flags": 16480,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 30
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 32
                                     },
@@ -78,31 +83,38 @@ async () => {  implem\u0065nts = x  }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 34
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 13,
                                     "end": 34
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 13,
                                 "end": 34
                             }
                         ],
                         "flags": 16416,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 34
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 37
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 37
         }
@@ -111,6 +123,7 @@ async () => {  implem\u0065nts = x  }
     "source": "async () => {  implem\\u0065nts = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -119,11 +132,9 @@ async () => {  implem\u0065nts = x  }
 ### Printed
 
 ```javascript
-
 async () => {
   implem\u0065nts = x;
 };
-
 ```
 
 ### Diagnostics

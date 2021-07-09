@@ -46,14 +46,17 @@
                                                         "kind": 132,
                                                         "expressions": [],
                                                         "flags": 32,
+                                                        "transformFlags": 1024,
                                                         "start": 5,
                                                         "end": 8
                                                     },
-                                                    "flags": 32,
-                                                    "start": 5,
+                                                    "flags": 5,
+                                                    "transformFlags": 0,
+                                                    "start": 32,
                                                     "end": 8
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 5,
                                                 "end": 8
                                             },
@@ -67,6 +70,7 @@
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 8,
                                                             "end": 10
                                                         },
@@ -77,12 +81,14 @@
                                                                 "text": "c",
                                                                 "rawText": "c",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 11,
                                                                 "end": 13
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 13,
                                                                 "end": 15
                                                             },
@@ -91,46 +97,56 @@
                                                                 "text": "b",
                                                                 "rawText": "b",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 15,
                                                                 "end": 17
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 0,
+                                                            "transformFlags": 128,
                                                             "start": 11,
                                                             "end": 17
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 1024,
                                                     "start": 8,
                                                     "end": 17
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 8,
                                                 "end": 17
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 17
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 17
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -141,10 +157,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 19,
             "end": 26
         }
@@ -153,6 +171,7 @@
     "source": "{ { { (a b, c = b : string)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

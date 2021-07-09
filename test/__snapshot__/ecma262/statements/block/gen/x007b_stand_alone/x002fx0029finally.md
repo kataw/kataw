@@ -34,19 +34,23 @@
                             "kind": 371,
                             "text": "/)finally",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -55,6 +59,7 @@
     "source": "{ /)finally",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

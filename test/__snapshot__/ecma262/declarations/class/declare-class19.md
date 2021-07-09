@@ -30,6 +30,7 @@ declare class x {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -37,6 +38,7 @@ declare class x {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -45,6 +47,7 @@ declare class x {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -61,6 +64,7 @@ declare class x {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 26
                             },
@@ -71,6 +75,7 @@ declare class x {
                                 "text": "string",
                                 "rawText": "\"string\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 35
                             },
@@ -82,6 +87,7 @@ declare class x {
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 37
                                 },
@@ -94,33 +100,40 @@ declare class x {
                                         "properties": [],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 42
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 42
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 42
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 43
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 45
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -129,6 +142,7 @@ declare class x {
     "source": "declare class x {\n  static \"string\" (): {};\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -137,9 +151,7 @@ declare class x {
 ### Printed
 
 ```javascript
-
-declare class x { static '"string"'(): {} }
-
+declare class x { static "\"string\""(): {} }
 ```
 
 ### Diagnostics

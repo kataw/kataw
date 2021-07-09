@@ -77,16 +77,19 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 3
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -95,6 +98,7 @@ a = b => { let b; };
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             },
@@ -103,6 +107,7 @@ a = b => { let b; };
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -110,12 +115,14 @@ a = b => { let b; };
                             "type": null,
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 4096,
                             "start": 5,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 10
                 },
@@ -123,6 +130,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -131,14 +139,17 @@ a = b => { let b; };
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         },
@@ -156,12 +167,14 @@ a = b => { let b; };
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -169,6 +182,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
@@ -183,6 +197,7 @@ a = b => { let b; };
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 29
                                 },
@@ -196,38 +211,46 @@ a = b => { let b; };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 31
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 29,
                                             "end": 31
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 31
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 31
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 33,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 33
         },
@@ -245,12 +268,14 @@ a = b => { let b; };
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 37
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 38
                 },
@@ -258,6 +283,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 41
                 },
@@ -272,6 +298,7 @@ a = b => { let b; };
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 49
                                 },
@@ -285,6 +312,7 @@ a = b => { let b; };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 51
                                             },
@@ -294,36 +322,44 @@ a = b => { let b; };
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 53,
                                                 "end": 55
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 49,
                                             "end": 55
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 55
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 55
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 43,
                         "end": 55
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 57
                 },
-                "flags": 32,
+                "flags": 33,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 57
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 33,
             "end": 57
         },
@@ -341,6 +377,7 @@ a = b => { let b; };
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 60,
                             "end": 61
                         },
@@ -349,6 +386,7 @@ a = b => { let b; };
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 62,
                             "end": 64
                         },
@@ -357,12 +395,14 @@ a = b => { let b; };
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 67
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 68
                 },
@@ -370,6 +410,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 71
                 },
@@ -380,18 +421,22 @@ a = b => { let b; };
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 73,
                         "end": 73
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 71,
                     "end": 74
                 },
-                "flags": 32,
+                "flags": 33,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 74
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 57,
             "end": 75
         },
@@ -406,6 +451,7 @@ a = b => { let b; };
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 75,
                     "end": 78
                 },
@@ -413,6 +459,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 78,
                     "end": 81
                 },
@@ -421,14 +468,17 @@ a = b => { let b; };
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 81,
                     "end": 81
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 75,
                 "end": 81
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 75,
             "end": 81
         },
@@ -437,6 +487,7 @@ a = b => { let b; };
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 81,
                 "end": 87
             },
@@ -455,31 +506,37 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 89,
                                         "end": 90
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 89,
                                 "end": 90
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 87,
                             "end": 91
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 87,
                         "end": 91
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 87,
                 "end": 91
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 81,
             "end": 92
         },
@@ -494,6 +551,7 @@ a = b => { let b; };
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 92,
                     "end": 99
                 },
@@ -501,6 +559,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 99,
                     "end": 102
                 },
@@ -509,14 +568,17 @@ a = b => { let b; };
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 102,
                     "end": 106
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 92,
                 "end": 106
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 92,
             "end": 106
         },
@@ -527,10 +589,12 @@ a = b => { let b; };
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 106,
                 "end": 112
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 106,
             "end": 113
         },
@@ -545,6 +609,7 @@ a = b => { let b; };
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 113,
                     "end": 116
                 },
@@ -552,6 +617,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 116,
                     "end": 119
                 },
@@ -566,6 +632,7 @@ a = b => { let b; };
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 121,
                                     "end": 127
                                 },
@@ -579,38 +646,46 @@ a = b => { let b; };
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 127,
                                                 "end": 129
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 127,
                                             "end": 129
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 127,
                                     "end": 129
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 121,
                                 "end": 129
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 121,
                         "end": 129
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 119,
                     "end": 131
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 113,
                 "end": 131
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 113,
             "end": 131
         },
@@ -621,6 +696,7 @@ a = b => { let b; };
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 131,
                     "end": 138
                 },
@@ -630,6 +706,7 @@ a = b => { let b; };
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 138,
                     "end": 140
                 },
@@ -637,6 +714,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 140,
                     "end": 143
                 },
@@ -651,6 +729,7 @@ a = b => { let b; };
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 145,
                                     "end": 151
                                 },
@@ -664,38 +743,46 @@ a = b => { let b; };
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 151,
                                                 "end": 153
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 151,
                                             "end": 153
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 151,
                                     "end": 153
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 145,
                                 "end": 153
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 145,
                         "end": 153
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 143,
                     "end": 155
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 131,
                 "end": 155
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 131,
             "end": 155
         },
@@ -710,6 +797,7 @@ a = b => { let b; };
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 155,
                     "end": 158
                 },
@@ -717,6 +805,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 158,
                     "end": 161
                 },
@@ -731,6 +820,7 @@ a = b => { let b; };
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 163,
                                     "end": 167
                                 },
@@ -749,16 +839,19 @@ a = b => { let b; };
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 169,
                                                             "end": 170
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 169,
                                                     "end": 170
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 167,
                                                 "end": 171
                                             },
@@ -768,36 +861,44 @@ a = b => { let b; };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 173,
                                                 "end": 175
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 167,
                                             "end": 175
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 167,
                                     "end": 175
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 163,
                                 "end": 176
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 163,
                         "end": 176
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 161,
                     "end": 178
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 155,
                 "end": 178
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 155,
             "end": 178
         },
@@ -812,6 +913,7 @@ a = b => { let b; };
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 178,
                     "end": 181
                 },
@@ -819,6 +921,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 181,
                     "end": 184
                 },
@@ -833,6 +936,7 @@ a = b => { let b; };
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 186,
                                     "end": 190
                                 },
@@ -851,16 +955,19 @@ a = b => { let b; };
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 192,
                                                             "end": 193
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 192,
                                                     "end": 193
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 190,
                                                 "end": 194
                                             },
@@ -870,36 +977,44 @@ a = b => { let b; };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 196,
                                                 "end": 198
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 190,
                                             "end": 198
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 190,
                                     "end": 198
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 186,
                                 "end": 198
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 186,
                         "end": 198
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 184,
                     "end": 200
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 178,
                 "end": 200
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 178,
             "end": 200
         },
@@ -914,6 +1029,7 @@ a = b => { let b; };
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 200,
                     "end": 203
                 },
@@ -921,6 +1037,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 203,
                     "end": 206
                 },
@@ -935,6 +1052,7 @@ a = b => { let b; };
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 208,
                                     "end": 212
                                 },
@@ -953,16 +1071,19 @@ a = b => { let b; };
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 214,
                                                             "end": 215
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 214,
                                                     "end": 215
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 212,
                                                 "end": 216
                                             },
@@ -972,36 +1093,44 @@ a = b => { let b; };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 218,
                                                 "end": 220
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 212,
                                             "end": 220
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 212,
                                     "end": 220
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 208,
                                 "end": 221
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 208,
                         "end": 221
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 206,
                     "end": 223
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 200,
                 "end": 223
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 200,
             "end": 223
         },
@@ -1024,16 +1153,19 @@ a = b => { let b; };
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 227,
                                         "end": 228
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 227,
                                 "end": 228
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 226,
                             "end": 229
                         },
@@ -1042,12 +1174,14 @@ a = b => { let b; };
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 230,
                             "end": 232
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 226,
                     "end": 233
                 },
@@ -1055,6 +1189,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 233,
                     "end": 236
                 },
@@ -1065,18 +1200,22 @@ a = b => { let b; };
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 238,
                         "end": 238
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 236,
                     "end": 239
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 223,
                 "end": 239
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 223,
             "end": 240
         },
@@ -1099,16 +1238,19 @@ a = b => { let b; };
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 244,
                                         "end": 247
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 244,
                                 "end": 247
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 243,
                             "end": 248
                         },
@@ -1122,22 +1264,26 @@ a = b => { let b; };
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 251,
                                         "end": 254
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 251,
                                 "end": 254
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 249,
                             "end": 255
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 243,
                     "end": 256
                 },
@@ -1145,6 +1291,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 256,
                     "end": 259
                 },
@@ -1155,18 +1302,22 @@ a = b => { let b; };
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 261,
                         "end": 261
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 259,
                     "end": 262
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 240,
                 "end": 262
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 240,
             "end": 263
         },
@@ -1189,6 +1340,7 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 267,
                                         "end": 268
                                     },
@@ -1197,22 +1349,26 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 269,
                                         "end": 271
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 267,
                                 "end": 271
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 266,
                             "end": 272
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 266,
                     "end": 273
                 },
@@ -1220,6 +1376,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 273,
                     "end": 276
                 },
@@ -1230,18 +1387,22 @@ a = b => { let b; };
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 278,
                         "end": 278
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 276,
                     "end": 279
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 263,
                 "end": 279
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 263,
             "end": 280
         },
@@ -1264,6 +1425,7 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 284,
                                         "end": 285
                                     },
@@ -1272,6 +1434,7 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 286,
                                         "end": 288
                                     },
@@ -1280,22 +1443,26 @@ a = b => { let b; };
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 289,
                                         "end": 291
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 284,
                                 "end": 291
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 283,
                             "end": 292
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 283,
                     "end": 293
                 },
@@ -1303,6 +1470,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 293,
                     "end": 296
                 },
@@ -1313,18 +1481,22 @@ a = b => { let b; };
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 298,
                         "end": 298
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 296,
                     "end": 299
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 280,
                 "end": 299
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 280,
             "end": 300
         },
@@ -1347,6 +1519,7 @@ a = b => { let b; };
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 304,
                                         "end": 305
                                     },
@@ -1355,16 +1528,19 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 306,
                                         "end": 308
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 304,
                                 "end": 308
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 303,
                             "end": 309
                         },
@@ -1373,12 +1549,14 @@ a = b => { let b; };
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 310,
                             "end": 312
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 303,
                     "end": 313
                 },
@@ -1386,6 +1564,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 313,
                     "end": 316
                 },
@@ -1396,18 +1575,22 @@ a = b => { let b; };
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 318,
                         "end": 318
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 316,
                     "end": 319
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 300,
                 "end": 319
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 300,
             "end": 320
         },
@@ -1430,6 +1613,7 @@ a = b => { let b; };
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 324,
                                         "end": 325
                                     },
@@ -1438,6 +1622,7 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 326,
                                         "end": 328
                                     },
@@ -1446,6 +1631,7 @@ a = b => { let b; };
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 329,
                                         "end": 331
                                     },
@@ -1454,22 +1640,26 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 332,
                                         "end": 334
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 324,
                                 "end": 334
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 323,
                             "end": 335
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 323,
                     "end": 336
                 },
@@ -1477,6 +1667,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 336,
                     "end": 339
                 },
@@ -1487,18 +1678,22 @@ a = b => { let b; };
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 341,
                         "end": 341
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 339,
                     "end": 342
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 320,
                 "end": 342
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 320,
             "end": 343
         },
@@ -1516,6 +1711,7 @@ a = b => { let b; };
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 346,
                             "end": 347
                         },
@@ -1531,6 +1727,7 @@ a = b => { let b; };
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 350,
                                             "end": 351
                                         },
@@ -1539,27 +1736,32 @@ a = b => { let b; };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 352,
                                             "end": 354
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 350,
                                         "end": 354
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 350,
                                 "end": 354
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 348,
                             "end": 355
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 346,
                     "end": 356
                 },
@@ -1567,6 +1769,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 356,
                     "end": 359
                 },
@@ -1575,14 +1778,17 @@ a = b => { let b; };
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 359,
                     "end": 361
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 343,
                 "end": 361
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 343,
             "end": 362
         },
@@ -1605,6 +1811,7 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 366,
                                         "end": 367
                                     },
@@ -1613,6 +1820,7 @@ a = b => { let b; };
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 368,
                                         "end": 369
                                     },
@@ -1621,22 +1829,26 @@ a = b => { let b; };
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 370,
                                         "end": 371
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 366,
                                 "end": 371
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 365,
                             "end": 372
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 365,
                     "end": 373
                 },
@@ -1644,6 +1856,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 373,
                     "end": 376
                 },
@@ -1658,6 +1871,7 @@ a = b => { let b; };
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 378,
                                     "end": 384
                                 },
@@ -1671,6 +1885,7 @@ a = b => { let b; };
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 384,
                                                 "end": 386
                                             },
@@ -1680,36 +1895,44 @@ a = b => { let b; };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 388,
                                                 "end": 390
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 384,
                                             "end": 390
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 384,
                                     "end": 390
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 378,
                                 "end": 391
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 378,
                         "end": 391
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 376,
                     "end": 393
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 362,
                 "end": 393
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 362,
             "end": 394
         },
@@ -1722,12 +1945,14 @@ a = b => { let b; };
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 394,
                     "end": 397
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 397,
                     "end": 399
                 },
@@ -1740,6 +1965,7 @@ a = b => { let b; };
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 399,
                         "end": 401
                     },
@@ -1747,6 +1973,7 @@ a = b => { let b; };
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 401,
                         "end": 404
                     },
@@ -1761,6 +1988,7 @@ a = b => { let b; };
                                     "lexicalKeyword": {
                                         "kind": 41951307,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 406,
                                         "end": 410
                                     },
@@ -1774,42 +2002,51 @@ a = b => { let b; };
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 410,
                                                     "end": 412
                                                 },
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
+                                                "transformFlags": 4224,
                                                 "start": 410,
                                                 "end": 412
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 410,
                                         "end": 412
                                     },
                                     "flags": 33554448,
+                                    "transformFlags": 0,
                                     "start": 406,
                                     "end": 413
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 406,
                             "end": 413
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 404,
                         "end": 415
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 399,
                     "end": 415
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 394,
                 "end": 415
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 394,
             "end": 416
         },
@@ -1834,6 +2071,7 @@ a = b => { let b; };
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 420,
                                             "end": 421
                                         },
@@ -1842,21 +2080,25 @@ a = b => { let b; };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 422,
                                             "end": 424
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 420,
                                         "end": 424
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 420,
                                 "end": 424
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 419,
                             "end": 425
                         },
@@ -1865,6 +2107,7 @@ a = b => { let b; };
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 426,
                                 "end": 430
                             },
@@ -1873,6 +2116,7 @@ a = b => { let b; };
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 430,
                                 "end": 431
                             },
@@ -1880,12 +2124,14 @@ a = b => { let b; };
                             "type": null,
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 4096,
                             "start": 426,
                             "end": 431
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 419,
                     "end": 432
                 },
@@ -1893,6 +2139,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 432,
                     "end": 435
                 },
@@ -1901,14 +2148,17 @@ a = b => { let b; };
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 435,
                     "end": 437
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 416,
                 "end": 437
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 416,
             "end": 438
         },
@@ -1933,6 +2183,7 @@ a = b => { let b; };
                                             "text": "x",
                                             "rawText": "\"x\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 442,
                                             "end": 445
                                         },
@@ -1941,11 +2192,13 @@ a = b => { let b; };
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 446,
                                             "end": 448
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 442,
                                         "end": 448
                                     },
@@ -1956,6 +2209,7 @@ a = b => { let b; };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 449,
                                             "end": 451
                                         },
@@ -1966,12 +2220,14 @@ a = b => { let b; };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 452,
                                                 "end": 454
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 454,
                                                 "end": 456
                                             },
@@ -1980,31 +2236,37 @@ a = b => { let b; };
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 456,
                                                 "end": 458
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
+                                            "transformFlags": 128,
                                             "start": 449,
                                             "end": 458
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 449,
                                         "end": 458
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 442,
                                 "end": 458
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 441,
                             "end": 459
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 441,
                     "end": 460
                 },
@@ -2012,6 +2274,7 @@ a = b => { let b; };
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 460,
                     "end": 463
                 },
@@ -2026,6 +2289,7 @@ a = b => { let b; };
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 465,
                                     "end": 469
                                 },
@@ -2039,38 +2303,46 @@ a = b => { let b; };
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 469,
                                                 "end": 471
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 469,
                                             "end": 471
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 469,
                                     "end": 471
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 465,
                                 "end": 472
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 465,
                         "end": 472
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 463,
                     "end": 474
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 438,
                 "end": 474
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 438,
             "end": 474
         }
@@ -2079,6 +2351,7 @@ a = b => { let b; };
     "source": "([a],...a)=> 0;\n\n(x) => { let x }\n\n(x) => { const x = y }\n\n(a, b, a) => {};\n\na => const {a};\n\nyield => let yield;\n\na => { const a }\n\nasync a => { const a }\n\na => { let [a] = x; }\n\na => { let {a} = x }\n\na => { let [a] = x; }\n\n([x], x) => {};\n\n([foo], [foo]) => {};\n\n([a, a]) => {};\n\n([a, a, b]) => {};\n\n([b, a], b) => {};\n\n([b, a, b, a]) => {};\n\n(x, {y: x}) => 1;\n\n([a,b,c]) => { const c = x; };\n\na = b => { let b; };\n\n({y: x}, ...x) => 1;\n\n({\"x\": y, x: x = y}) => { let y; }\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 475
 }

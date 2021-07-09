@@ -30,6 +30,7 @@ gen = function*() {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,12 +44,14 @@ gen = function*() {};
                             "text": "xGen",
                             "rawText": "xGen",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 8
                     },
@@ -59,21 +62,25 @@ gen = function*() {};
                             "text": "gen",
                             "rawText": "gen",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -86,12 +93,14 @@ gen = function*() {};
                     "text": "xGen",
                     "rawText": "xGen",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
@@ -101,12 +110,14 @@ gen = function*() {};
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 31
                     },
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
+                        "transformFlags": 32,
                         "start": 31,
                         "end": 32
                     },
@@ -115,6 +126,7 @@ gen = function*() {};
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
@@ -124,6 +136,7 @@ gen = function*() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 35
                     },
@@ -134,23 +147,28 @@ gen = function*() {};
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 38
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 39
                     },
                     "returnType": null,
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 39
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 14,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 40
         },
@@ -163,12 +181,14 @@ gen = function*() {};
                     "text": "gen",
                     "rawText": "gen",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 44
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 46
                 },
@@ -178,12 +198,14 @@ gen = function*() {};
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 46,
                         "end": 55
                     },
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
+                        "transformFlags": 32,
                         "start": 55,
                         "end": 56
                     },
@@ -194,6 +216,7 @@ gen = function*() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 57,
                         "end": 57
                     },
@@ -204,23 +227,28 @@ gen = function*() {};
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 60,
                             "end": 60
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 58,
                         "end": 61
                     },
                     "returnType": null,
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 61
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 40,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 40,
             "end": 62
         }
@@ -229,6 +257,7 @@ gen = function*() {};
     "source": "var xGen, gen;\n\nxGen = function* x() {};\ngen = function*() {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }
@@ -237,10 +266,10 @@ gen = function*() {};
 ### Printed
 
 ```javascript
-
 var xGen, gen;
-xGen = function * x() {};
-gen = function * () {};
+xGen = function *x() {};
+
+gen = function *() {};
 
 ```
 

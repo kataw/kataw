@@ -26,6 +26,7 @@
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 11
                     },
@@ -34,18 +35,22 @@
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 1
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 1,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -54,6 +59,7 @@
     "source": "(\\u0061sync ())",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -62,9 +68,7 @@
 ### Printed
 
 ```javascript
-
 (async());
-
 ```
 
 ### Diagnostics

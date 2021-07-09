@@ -28,6 +28,7 @@ try {} catch([a,b,...rest]) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,10 +38,12 @@ try {} catch([a,b,...rest]) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -49,6 +52,7 @@ try {} catch([a,b,...rest]) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -62,6 +66,7 @@ try {} catch([a,b,...rest]) {}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 15
                             },
@@ -70,6 +75,7 @@ try {} catch([a,b,...rest]) {}
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             },
@@ -78,6 +84,7 @@ try {} catch([a,b,...rest]) {}
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 21
                                 },
@@ -86,6 +93,7 @@ try {} catch([a,b,...rest]) {}
                                     "text": "rest",
                                     "rawText": "rest",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 25
                                 },
@@ -93,16 +101,19 @@ try {} catch([a,b,...rest]) {}
                                 "type": null,
                                 "right": null,
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 18,
                                 "end": 25
                             }
                         ],
                         "trailingComma": false,
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 26
                 },
@@ -112,20 +123,24 @@ try {} catch([a,b,...rest]) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 29
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 30
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 30
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -134,6 +149,7 @@ try {} catch([a,b,...rest]) {}
     "source": "try {} catch([a,b,...rest]) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -142,10 +158,7 @@ try {} catch([a,b,...rest]) {}
 ### Printed
 
 ```javascript
-
-try { }
-catch ([a, b, ...rest]){ }
-
+try {} catch ([a, b, ...rest]) {}
 ```
 
 ### Diagnostics

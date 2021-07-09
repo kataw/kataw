@@ -30,6 +30,7 @@ class x {static get instanceof(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {static get instanceof(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -55,6 +57,7 @@ class x {static get instanceof(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -62,6 +65,7 @@ class x {static get instanceof(){}}
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
@@ -74,6 +78,7 @@ class x {static get instanceof(){}}
                                     "text": "instanceof",
                                     "rawText": "instanceof",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 30
                                 },
@@ -83,6 +88,7 @@ class x {static get instanceof(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -94,31 +100,38 @@ class x {static get instanceof(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 34
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 34
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 34
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -127,6 +140,7 @@ class x {static get instanceof(){}}
     "source": "class x {static get instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -135,11 +149,9 @@ class x {static get instanceof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get instanceof() {}
 }
-
 ```
 
 ### Diagnostics

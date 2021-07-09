@@ -30,6 +30,7 @@ async (x = (protected) = f) => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -45,6 +46,7 @@ async (x = (protected) = f) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -59,16 +61,19 @@ async (x = (protected) = f) => {}
                                         "text": "protected",
                                         "rawText": "protected",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 21
                                     },
-                                    "flags": 32,
-                                    "start": 10,
+                                    "flags": 10,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 22
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
@@ -77,20 +82,24 @@ async (x = (protected) = f) => {}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 10,
                                 "end": 26
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 27
                 },
@@ -98,6 +107,7 @@ async (x = (protected) = f) => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 30
                 },
@@ -108,18 +118,22 @@ async (x = (protected) = f) => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 32
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 33
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 33
         }
@@ -128,6 +142,7 @@ async (x = (protected) = f) => {}
     "source": "async (x = (protected) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -136,9 +151,7 @@ async (x = (protected) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (protected) = f) => {};
-
 ```
 
 ### Diagnostics

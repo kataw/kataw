@@ -24,6 +24,7 @@
                     "operandToken": {
                         "kind": 4259886,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 7
                     },
@@ -33,6 +34,7 @@
                             "kind": 371,
                             "text": "/a/g",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 12
                         },
@@ -41,22 +43,27 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 7,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 1,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -65,6 +72,7 @@
     "source": "(delete /a/g.x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -73,9 +81,7 @@
 ### Printed
 
 ```javascript
-
 (delete /a/g.x);
-
 ```
 
 ### Diagnostics

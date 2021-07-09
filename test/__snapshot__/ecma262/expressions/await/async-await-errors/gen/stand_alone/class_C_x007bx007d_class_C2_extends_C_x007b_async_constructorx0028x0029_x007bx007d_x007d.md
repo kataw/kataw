@@ -30,6 +30,7 @@ class C {}; class C2 extends C { async constructor() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C {}; class C2 extends C { async constructor() {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,20 +51,24 @@ class C {}; class C2 extends C { async constructor() {} }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 11
         },
@@ -73,6 +79,7 @@ class C {}; class C2 extends C { async constructor() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -81,6 +88,7 @@ class C {}; class C2 extends C { async constructor() {} }
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 20
             },
@@ -92,6 +100,7 @@ class C {}; class C2 extends C { async constructor() {} }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 28
                     },
@@ -100,11 +109,13 @@ class C {}; class C2 extends C { async constructor() {} }
                         "text": "C",
                         "rawText": "C",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 30
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
@@ -119,6 +130,7 @@ class C {}; class C2 extends C { async constructor() {} }
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 38
                             },
@@ -132,6 +144,7 @@ class C {}; class C2 extends C { async constructor() {} }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 50
                                 },
@@ -141,6 +154,7 @@ class C {}; class C2 extends C { async constructor() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2304,
+                                    "transformFlags": 0,
                                     "start": 51,
                                     "end": 52
                                 },
@@ -152,31 +166,38 @@ class C {}; class C2 extends C { async constructor() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 54,
                                         "end": 54
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 55
                                 },
                                 "flags": 2304,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 55
                             },
                             "flags": 2304,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 55
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 55
                 },
                 "flags": 20,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 57
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 57
         }
@@ -185,6 +206,7 @@ class C {}; class C2 extends C { async constructor() {} }
     "source": "class C {}; class C2 extends C { async constructor() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

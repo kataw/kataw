@@ -30,6 +30,7 @@ class implements {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class implements {}
                 "text": "implements",
                 "rawText": "implements",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 16
             },
@@ -49,14 +51,17 @@ class implements {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -65,6 +70,7 @@ class implements {}
     "source": "class implements {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

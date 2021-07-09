@@ -30,6 +30,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -48,6 +50,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -61,6 +64,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 28
                         }
@@ -73,12 +77,14 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 38
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 38,
                                 "end": 39
                             },
@@ -87,6 +93,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 41
                             },
@@ -99,6 +106,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 43
                                     },
@@ -107,6 +115,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 44,
                                         "end": 45
                                     },
@@ -115,12 +124,14 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 47
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 48
                             },
@@ -131,29 +142,35 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 51,
                                     "end": 51
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 52
                             },
                             "returnType": null,
                             "flags": 272,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 52
                         }
                     ],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 52
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 54
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 54
         }
@@ -162,6 +179,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
     "source": "function foo() {'use strict'; function* a(b,c,d,) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }
@@ -170,12 +188,11 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
 ### Printed
 
 ```javascript
-
 function foo() {
-'\'use strict\'';
-  function * a(b, c, d,) {}
-}
 
+  "'use strict'";
+  function *a(b, c, d) {}
+}
 ```
 
 ### Diagnostics

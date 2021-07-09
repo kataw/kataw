@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { ExpressionNode } from '.';
 import { SpreadElement } from './spread-element';
 
@@ -16,6 +16,7 @@ export interface ArgumentList extends SyntaxNode {
 export function createArgumentList(
   elements: ArgumentListElement[],
   trailingComma: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ArgumentList {
@@ -23,7 +24,8 @@ export function createArgumentList(
     kind: SyntaxKind.ArgumentList,
     elements,
     trailingComma,
-    flags: NodeFlags.ExpressionNode,
+    flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

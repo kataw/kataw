@@ -28,6 +28,7 @@ let { ...await f } = {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,6 +47,7 @@ let { ...await f } = {};
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 9
                                         },
@@ -54,6 +56,7 @@ let { ...await f } = {};
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 14
                                         },
@@ -61,6 +64,7 @@ let { ...await f } = {};
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 14
                                     },
@@ -69,16 +73,19 @@ let { ...await f } = {};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 18
                         },
@@ -90,23 +97,28 @@ let { ...await f } = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 22
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 20,
                             "end": 23
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 23
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 23
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -115,6 +127,7 @@ let { ...await f } = {};
     "source": "let { ...await f } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

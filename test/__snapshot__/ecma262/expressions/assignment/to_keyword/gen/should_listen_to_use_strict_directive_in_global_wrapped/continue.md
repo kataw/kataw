@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -41,14 +42,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 15
         },
@@ -57,6 +61,7 @@
             "continueKeyword": {
                 "kind": 37757009,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 23
             },
@@ -65,10 +70,12 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 23
         },
@@ -79,16 +86,19 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 27
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 29
         }
@@ -97,6 +107,7 @@
     "source": "\"use strict\"; (continue = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

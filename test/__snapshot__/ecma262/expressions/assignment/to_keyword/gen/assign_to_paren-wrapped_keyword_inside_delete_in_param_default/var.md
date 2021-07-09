@@ -32,6 +32,7 @@ async (x = delete ((var) = f)) => {}
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -45,12 +46,14 @@ async (x = delete ((var) = f)) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
@@ -59,6 +62,7 @@ async (x = delete ((var) = f)) => {}
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -71,36 +75,44 @@ async (x = delete ((var) = f)) => {}
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 20
                                         },
-                                        "flags": 32,
-                                        "start": 19,
+                                        "flags": 19,
+                                        "transformFlags": 0,
+                                        "start": 32,
                                         "end": 20
                                     },
-                                    "flags": 32,
-                                    "start": 17,
+                                    "flags": 17,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 10,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 7,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "flags": 268435490,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         },
@@ -110,6 +122,7 @@ async (x = delete ((var) = f)) => {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 23
             },
@@ -117,10 +130,12 @@ async (x = delete ((var) = f)) => {}
                 "kind": 156,
                 "declarations": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 23
         },
@@ -131,10 +146,12 @@ async (x = delete ((var) = f)) => {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 26,
             "end": 28
         },
@@ -144,10 +161,12 @@ async (x = delete ((var) = f)) => {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 33,
             "end": 36
         }
@@ -156,6 +175,7 @@ async (x = delete ((var) = f)) => {}
     "source": "async (x = delete ((var) = f)) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

@@ -45,10 +45,12 @@
                                                     "text": "interface",
                                                     "rawText": "interface",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 5,
                                                     "end": 15
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 5,
                                                 "end": 15
                                             },
@@ -59,10 +61,12 @@
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 17
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 15,
                                                 "end": 17
                                             },
@@ -72,37 +76,45 @@
                                                     "kind": 249,
                                                     "statements": [],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 19
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 19
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 19
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 19
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -111,6 +123,7 @@
     "source": "{ { { interface x {",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

@@ -31,12 +31,14 @@ async function wrap() {
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -46,6 +48,7 @@ async function wrap() {
                 "text": "wrap",
                 "rawText": "wrap",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 19
             },
@@ -55,6 +58,7 @@ async function wrap() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
@@ -82,6 +86,7 @@ async function wrap() {
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 31
                                                     },
@@ -90,6 +95,7 @@ async function wrap() {
                                                         "awaitKeyword": {
                                                             "kind": 82196,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 39
                                                         },
@@ -98,30 +104,36 @@ async function wrap() {
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 39,
                                                             "end": 41
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 4096,
                                                         "start": 33,
                                                         "end": 41
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 41
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 41
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 29,
                                         "end": 42
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 44
                                     },
@@ -130,38 +142,46 @@ async function wrap() {
                                         "text": "obj",
                                         "rawText": "obj",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 44,
                                         "end": 48
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 29,
                                     "end": 48
                                 },
-                                "flags": 32,
-                                "start": 23,
+                                "flags": 23,
+                                "transformFlags": 0,
+                                "start": 35,
                                 "end": 49
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 23,
                             "end": 49
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 49
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 51
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 51,
             "end": 52
         }
@@ -170,6 +190,7 @@ async function wrap() {
     "source": "async function wrap() {\n    ({a = await b} = obj)\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }
@@ -178,12 +199,9 @@ async function wrap() {
 ### Printed
 
 ```javascript
-
 async function wrap() {
   ({ a = await b } = obj);
 }
-;
-
 ```
 
 ### Diagnostics

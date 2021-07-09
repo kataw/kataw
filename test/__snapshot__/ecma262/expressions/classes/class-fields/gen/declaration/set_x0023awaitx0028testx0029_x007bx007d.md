@@ -30,6 +30,7 @@ class C { set #await(test) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C { set #await(test) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -58,6 +60,7 @@ class C { set #await(test) {} }
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -69,6 +72,7 @@ class C { set #await(test) {} }
                                     "text": "#await",
                                     "rawText": "#await",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 20
                                 },
@@ -81,12 +85,14 @@ class C { set #await(test) {} }
                                             "text": "test",
                                             "rawText": "test",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 25
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 26
                                 },
@@ -98,31 +104,38 @@ class C { set #await(test) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 29
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 29
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 29
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -131,6 +144,7 @@ class C { set #await(test) {} }
     "source": "class C { set #await(test) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -139,11 +153,9 @@ class C { set #await(test) {} }
 ### Printed
 
 ```javascript
-
 class C {
   set #await(test) {}
 }
-
 ```
 
 ### Diagnostics

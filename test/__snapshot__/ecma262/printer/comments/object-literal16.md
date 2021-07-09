@@ -35,6 +35,7 @@ x/*2*/
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 7
                                 },
@@ -48,6 +49,7 @@ x/*2*/
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 17
                                     },
@@ -57,6 +59,7 @@ x/*2*/
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 31
                                     },
@@ -68,36 +71,44 @@ x/*2*/
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 32
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 33
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 33
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 35
         }
@@ -106,6 +117,7 @@ x/*2*/
     "source": "({async\n\n/*1*/\n\nx/*2*/\n\n(/*3*/){}})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -114,11 +126,7 @@ x/*2*/
 ### Printed
 
 ```javascript
-
-({ async 
-   /*1*/
-  x/*2*/(/*3*/) {} });
-
+({ async x() {} });
 ```
 
 ### Diagnostics

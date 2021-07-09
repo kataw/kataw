@@ -35,10 +35,12 @@
                             "text": 0,
                             "rawText": "0B0i",
                             "flags": 524384,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 6
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 6
                     },
@@ -49,19 +51,23 @@
                             "text": "n",
                             "rawText": "n",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 6,
                         "end": 7
                     }
                 ],
                 "flags": 524304,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -70,6 +76,7 @@
     "source": "{ 0B0in }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

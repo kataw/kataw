@@ -41,6 +41,7 @@ function processArgs<A1: {}, A2: {}>(
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -50,6 +51,7 @@ function processArgs<A1: {}, A2: {}>(
                 "text": "processArgs",
                 "rawText": "processArgs",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 20
             },
@@ -65,6 +67,7 @@ function processArgs<A1: {}, A2: {}>(
                                 "text": "A1",
                                 "rawText": "A1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
@@ -77,16 +80,19 @@ function processArgs<A1: {}, A2: {}>(
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 27
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 27
                         },
@@ -97,6 +103,7 @@ function processArgs<A1: {}, A2: {}>(
                                 "text": "A2",
                                 "rawText": "A2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 31
                             },
@@ -109,26 +116,31 @@ function processArgs<A1: {}, A2: {}>(
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 35
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 35
                             },
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 35
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 35
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 20,
                 "end": 36
             },
@@ -143,6 +155,7 @@ function processArgs<A1: {}, A2: {}>(
                             "text": "process",
                             "rawText": "process",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 47
                         },
@@ -165,6 +178,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "text": "args",
                                                 "rawText": "args",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 54
                                             },
@@ -180,31 +194,37 @@ function processArgs<A1: {}, A2: {}>(
                                                         "text": "A1",
                                                         "rawText": "A1",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 58
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 55,
                                                     "end": 58
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 58
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 48,
                                             "end": 58
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 58
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 59,
                                     "end": 62
                                 },
@@ -219,34 +239,41 @@ function processArgs<A1: {}, A2: {}>(
                                             "text": "A2",
                                             "rawText": "A2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 62,
                                             "end": 65
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 62,
                                         "end": 65
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 62,
                                     "end": 65
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 65
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 65
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 37,
                         "end": 65
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 65
             },
@@ -261,6 +288,7 @@ function processArgs<A1: {}, A2: {}>(
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 151,
                                 "end": 160
                             },
@@ -279,6 +307,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "S",
                                                     "rawText": "S",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 162,
                                                     "end": 163
                                                 },
@@ -286,6 +315,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 162,
                                                 "end": 163
                                             },
@@ -296,6 +326,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "C",
                                                     "rawText": "C",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 164,
                                                     "end": 166
                                                 },
@@ -303,6 +334,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 164,
                                                 "end": 166
                                             },
@@ -313,6 +345,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "I",
                                                     "rawText": "I",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 167,
                                                     "end": 169
                                                 },
@@ -320,6 +353,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 167,
                                                 "end": 169
                                             },
@@ -330,6 +364,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "R",
                                                     "rawText": "R",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 170,
                                                     "end": 172
                                                 },
@@ -337,16 +372,19 @@ function processArgs<A1: {}, A2: {}>(
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 170,
                                                 "end": 172
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 162,
                                         "end": 172
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 512,
                                     "start": 160,
                                     "end": 173
                                 },
@@ -361,6 +399,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "text": "resolver",
                                                 "rawText": "resolver",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 174,
                                                 "end": 187
                                             },
@@ -376,6 +415,7 @@ function processArgs<A1: {}, A2: {}>(
                                                         "text": "Resolver",
                                                         "rawText": "Resolver",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 188,
                                                         "end": 197
                                                     },
@@ -395,15 +435,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                             "text": "S",
                                                                             "rawText": "S",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 198,
                                                                             "end": 199
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 198,
                                                                         "end": 199
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 198,
                                                                     "end": 199
                                                                 },
@@ -418,15 +461,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                             "text": "A2",
                                                                             "rawText": "A2",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 200,
                                                                             "end": 203
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 200,
                                                                         "end": 203
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 200,
                                                                     "end": 203
                                                                 },
@@ -441,15 +487,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                             "text": "C",
                                                                             "rawText": "C",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 204,
                                                                             "end": 206
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 204,
                                                                         "end": 206
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 204,
                                                                     "end": 206
                                                                 },
@@ -464,15 +513,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                             "text": "I",
                                                                             "rawText": "I",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 207,
                                                                             "end": 209
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 207,
                                                                         "end": 209
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 207,
                                                                     "end": 209
                                                                 },
@@ -487,44 +539,53 @@ function processArgs<A1: {}, A2: {}>(
                                                                             "text": "R",
                                                                             "rawText": "R",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 210,
                                                                             "end": 212
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 210,
                                                                         "end": 212
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 210,
                                                                     "end": 212
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 198,
                                                             "end": 212
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 512,
                                                         "start": 197,
                                                         "end": 213
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 188,
                                                     "end": 213
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 188,
                                                 "end": 213
                                             },
                                             "right": null,
-                                            "flags": 32,
+                                            "flags": 33,
+                                            "transformFlags": 4096,
                                             "start": 160,
                                             "end": 213
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 174,
                                     "end": 243
                                 },
@@ -539,6 +600,7 @@ function processArgs<A1: {}, A2: {}>(
                                             "text": "Resolver",
                                             "rawText": "Resolver",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 218,
                                             "end": 227
                                         },
@@ -558,15 +620,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "S",
                                                                 "rawText": "S",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 228,
                                                                 "end": 229
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 228,
                                                             "end": 229
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 228,
                                                         "end": 229
                                                     },
@@ -581,15 +646,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "A1",
                                                                 "rawText": "A1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 230,
                                                                 "end": 233
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 230,
                                                             "end": 233
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 230,
                                                         "end": 233
                                                     },
@@ -604,15 +672,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "C",
                                                                 "rawText": "C",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 234,
                                                                 "end": 236
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 234,
                                                             "end": 236
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 234,
                                                         "end": 236
                                                     },
@@ -627,15 +698,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "I",
                                                                 "rawText": "I",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 237,
                                                                 "end": 239
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 237,
                                                             "end": 239
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 237,
                                                         "end": 239
                                                     },
@@ -650,39 +724,47 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "R",
                                                                 "rawText": "R",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 240,
                                                                 "end": 242
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 240,
                                                             "end": 242
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 240,
                                                         "end": 242
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 228,
                                                 "end": 242
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 512,
                                             "start": 227,
                                             "end": 243
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 218,
                                         "end": 243
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 218,
                                     "end": 243
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 243,
                                     "end": 246
                                 },
@@ -701,6 +783,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "src",
                                                     "rawText": "src",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 248,
                                                     "end": 256
                                                 },
@@ -716,20 +799,24 @@ function processArgs<A1: {}, A2: {}>(
                                                             "text": "S",
                                                             "rawText": "S",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 257,
                                                             "end": 259
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 257,
                                                         "end": 259
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 257,
                                                     "end": 259
                                                 },
                                                 "right": null,
-                                                "flags": 32,
+                                                "flags": 33,
+                                                "transformFlags": 4096,
                                                 "start": 246,
                                                 "end": 259
                                             },
@@ -741,6 +828,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "args",
                                                     "rawText": "args",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 260,
                                                     "end": 269
                                                 },
@@ -756,20 +844,24 @@ function processArgs<A1: {}, A2: {}>(
                                                             "text": "A1",
                                                             "rawText": "A1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 270,
                                                             "end": 273
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 270,
                                                         "end": 273
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 270,
                                                     "end": 273
                                                 },
                                                 "right": null,
-                                                "flags": 32,
+                                                "flags": 33,
+                                                "transformFlags": 4096,
                                                 "start": 246,
                                                 "end": 273
                                             },
@@ -781,6 +873,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "appContext",
                                                     "rawText": "appContext",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 274,
                                                     "end": 289
                                                 },
@@ -796,20 +889,24 @@ function processArgs<A1: {}, A2: {}>(
                                                             "text": "C",
                                                             "rawText": "C",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 290,
                                                             "end": 292
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 290,
                                                         "end": 292
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 290,
                                                     "end": 292
                                                 },
                                                 "right": null,
-                                                "flags": 32,
+                                                "flags": 33,
+                                                "transformFlags": 4096,
                                                 "start": 246,
                                                 "end": 292
                                             },
@@ -821,6 +918,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "info",
                                                     "rawText": "info",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 293,
                                                     "end": 302
                                                 },
@@ -836,26 +934,31 @@ function processArgs<A1: {}, A2: {}>(
                                                             "text": "I",
                                                             "rawText": "I",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 303,
                                                             "end": 305
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 303,
                                                         "end": 305
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 303,
                                                     "end": 305
                                                 },
                                                 "right": null,
-                                                "flags": 32,
+                                                "flags": 33,
+                                                "transformFlags": 4096,
                                                 "start": 246,
                                                 "end": 305
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 248,
                                         "end": 321
                                     },
@@ -870,6 +973,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "text": "Promise",
                                                 "rawText": "Promise",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 310,
                                                 "end": 318
                                             },
@@ -889,39 +993,47 @@ function processArgs<A1: {}, A2: {}>(
                                                                     "text": "R",
                                                                     "rawText": "R",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 319,
                                                                     "end": 320
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 319,
                                                                 "end": 320
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 319,
                                                             "end": 320
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 319,
                                                     "end": 320
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 512,
                                                 "start": 318,
                                                 "end": 321
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 310,
                                             "end": 321
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 310,
                                         "end": 321
                                     },
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 321,
                                         "end": 324
                                     },
@@ -932,6 +1044,7 @@ function processArgs<A1: {}, A2: {}>(
                                             "text": "resolver",
                                             "rawText": "resolver",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 324,
                                             "end": 333
                                         },
@@ -943,6 +1056,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "src",
                                                     "rawText": "src",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 334,
                                                     "end": 337
                                                 },
@@ -953,6 +1067,7 @@ function processArgs<A1: {}, A2: {}>(
                                                         "text": "process",
                                                         "rawText": "process",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 338,
                                                         "end": 346
                                                     },
@@ -964,16 +1079,19 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "args",
                                                                 "rawText": "args",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 347,
                                                                 "end": 351
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 347,
                                                         "end": 351
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 338,
                                                     "end": 352
                                                 },
@@ -982,6 +1100,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "appContext",
                                                     "rawText": "appContext",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 353,
                                                     "end": 364
                                                 },
@@ -990,37 +1109,45 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "info",
                                                     "rawText": "info",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 365,
                                                     "end": 370
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 334,
                                             "end": 370
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 324,
                                         "end": 371
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 246,
                                     "end": 371
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 160,
                                 "end": 371
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 151,
                             "end": 371
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 151,
                     "end": 371
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 149,
                 "end": 373
             },
@@ -1042,6 +1169,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "text": "S",
                                         "rawText": "S",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 71
                                     },
@@ -1049,6 +1177,7 @@ function processArgs<A1: {}, A2: {}>(
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 71
                                 },
@@ -1059,6 +1188,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "text": "C",
                                         "rawText": "C",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 74
                                     },
@@ -1066,6 +1196,7 @@ function processArgs<A1: {}, A2: {}>(
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 74
                                 },
@@ -1076,6 +1207,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "text": "I",
                                         "rawText": "I",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 75,
                                         "end": 77
                                     },
@@ -1083,6 +1215,7 @@ function processArgs<A1: {}, A2: {}>(
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 75,
                                     "end": 77
                                 },
@@ -1093,6 +1226,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "text": "R",
                                         "rawText": "R",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 78,
                                         "end": 80
                                     },
@@ -1100,16 +1234,19 @@ function processArgs<A1: {}, A2: {}>(
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 78,
                                     "end": 80
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 70,
                             "end": 80
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 68,
                         "end": 81
                     },
@@ -1124,6 +1261,7 @@ function processArgs<A1: {}, A2: {}>(
                                     "text": "resolver",
                                     "rawText": "resolver",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 82,
                                     "end": 93
                                 },
@@ -1139,6 +1277,7 @@ function processArgs<A1: {}, A2: {}>(
                                             "text": "Resolver",
                                             "rawText": "Resolver",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 94,
                                             "end": 103
                                         },
@@ -1158,15 +1297,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "S",
                                                                 "rawText": "S",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 104,
                                                                 "end": 105
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 104,
                                                             "end": 105
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 104,
                                                         "end": 105
                                                     },
@@ -1181,15 +1323,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "A2",
                                                                 "rawText": "A2",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 106,
                                                                 "end": 109
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 106,
                                                             "end": 109
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 106,
                                                         "end": 109
                                                     },
@@ -1204,15 +1349,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "C",
                                                                 "rawText": "C",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 110,
                                                                 "end": 112
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 110,
                                                             "end": 112
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 110,
                                                         "end": 112
                                                     },
@@ -1227,15 +1375,18 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "I",
                                                                 "rawText": "I",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 113,
                                                                 "end": 115
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 113,
                                                             "end": 115
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 113,
                                                         "end": 115
                                                     },
@@ -1250,49 +1401,59 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "text": "R",
                                                                 "rawText": "R",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 116,
                                                                 "end": 118
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 116,
                                                             "end": 118
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 116,
                                                         "end": 118
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 104,
                                                 "end": 118
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 512,
                                             "start": 103,
                                             "end": 119
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 94,
                                         "end": 119
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 94,
                                     "end": 119
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 82,
                                 "end": 119
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 82,
                         "end": 119
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 121,
                         "end": 124
                     },
@@ -1307,6 +1468,7 @@ function processArgs<A1: {}, A2: {}>(
                                 "text": "Resolver",
                                 "rawText": "Resolver",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 124,
                                 "end": 133
                             },
@@ -1326,15 +1488,18 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "S",
                                                     "rawText": "S",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 134,
                                                     "end": 135
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 134,
                                                 "end": 135
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 134,
                                             "end": 135
                                         },
@@ -1349,15 +1514,18 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "A1",
                                                     "rawText": "A1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 136,
                                                     "end": 139
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 136,
                                                 "end": 139
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 136,
                                             "end": 139
                                         },
@@ -1372,15 +1540,18 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "C",
                                                     "rawText": "C",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 140,
                                                     "end": 142
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 140,
                                                 "end": 142
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 140,
                                             "end": 142
                                         },
@@ -1395,15 +1566,18 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "I",
                                                     "rawText": "I",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 143,
                                                     "end": 145
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 143,
                                                 "end": 145
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 143,
                                             "end": 145
                                         },
@@ -1418,45 +1592,55 @@ function processArgs<A1: {}, A2: {}>(
                                                     "text": "R",
                                                     "rawText": "R",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 146,
                                                     "end": 148
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 146,
                                                 "end": 148
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 146,
                                             "end": 148
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 134,
                                     "end": 148
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 512,
                                 "start": 133,
                                 "end": 149
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 124,
                             "end": 149
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 124,
                         "end": 149
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 149
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 149
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 373
         }
@@ -1465,6 +1649,7 @@ function processArgs<A1: {}, A2: {}>(
     "source": "function processArgs<A1: {}, A2: {}>(\n  process: (args: A1) => A2\n): <S, C, I, R>(\n  resolver: Resolver<S, A2, C, I, R>\n) => Resolver<S, A1, C, I, R> {\n  return <S, C, I, R>(\n    resolver: Resolver<S, A2, C, I, R>\n  ): Resolver<S, A1, C, I, R> => (\n    src: S,\n    args: A1,\n    appContext: C,\n    info: I\n  ): Promise<R> => resolver(src, process(args), appContext, info)\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 373
 }
@@ -1473,11 +1658,16 @@ function processArgs<A1: {}, A2: {}>(
 ### Printed
 
 ```javascript
-
-function processArgs<A1: {}, A2: {}> (process: (args: A1) => A2): <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => Resolver<S, A1, C, I, R> {
-  return <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => (src: S, args: A1, appContext: C, info: I) => resolver(src, process(args), appContext, info);
+function processArgs<A1: {}, A2: {}>(process: (args: A1) => A2): <
+  S,
+  C,
+  I,
+  R>(resolver: Resolver<S, A2, C, I, R>) => Resolver<S, A1, C, I, R> {
+  return <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => (src: S,
+  args: A1,
+  appContext: C,
+  info: I) => resolver(src, process(args), appContext, info);
 }
-
 ```
 
 ### Diagnostics

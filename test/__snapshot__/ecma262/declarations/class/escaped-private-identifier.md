@@ -35,6 +35,7 @@ class z { #\u0020oo }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -43,6 +44,7 @@ class z { #\u0020oo }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -64,6 +66,7 @@ class z { #\u0020oo }
                                 "text": "#fofoo",
                                 "rawText": "#fo",
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -71,6 +74,7 @@ class z { #\u0020oo }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 13
                         },
@@ -85,6 +89,7 @@ class z { #\u0020oo }
                                 "text": "o",
                                 "rawText": "\\u006f",
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
                             },
@@ -92,12 +97,14 @@ class z { #\u0020oo }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 13,
                             "end": 19
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 20
                         },
@@ -112,6 +119,7 @@ class z { #\u0020oo }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
@@ -122,6 +130,7 @@ class z { #\u0020oo }
                                 "member": {
                                     "kind": 4276321,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 31
                                 },
@@ -130,27 +139,33 @@ class z { #\u0020oo }
                                     "text": "#foo",
                                     "rawText": "#foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 36
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 26,
                                 "end": 36
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 20,
                             "end": 36
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 36
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         },
@@ -161,6 +176,7 @@ class z { #\u0020oo }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 45
             },
@@ -169,6 +185,7 @@ class z { #\u0020oo }
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 47
             },
@@ -190,6 +207,7 @@ class z { #\u0020oo }
                                 "text": "#fofo ",
                                 "rawText": "#fo",
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 53
                             },
@@ -197,6 +215,7 @@ class z { #\u0020oo }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 49,
                             "end": 53
                         },
@@ -211,6 +230,7 @@ class z { #\u0020oo }
                                 "text": " ",
                                 "rawText": "\\u0020",
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 53,
                                 "end": 59
                             },
@@ -218,19 +238,23 @@ class z { #\u0020oo }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 53,
                             "end": 59
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 59
                 },
                 "flags": 47,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 61
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 38,
             "end": 61
         },
@@ -241,6 +265,7 @@ class z { #\u0020oo }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 68
             },
@@ -249,6 +274,7 @@ class z { #\u0020oo }
                 "text": "z",
                 "rawText": "z",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 70
             },
@@ -270,6 +296,7 @@ class z { #\u0020oo }
                                 "text": "# oo",
                                 "rawText": "#",
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 74
                             },
@@ -277,6 +304,7 @@ class z { #\u0020oo }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 72,
                             "end": 74
                         },
@@ -291,6 +319,7 @@ class z { #\u0020oo }
                                 "text": " oo",
                                 "rawText": "\\u0020oo",
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 74,
                                 "end": 82
                             },
@@ -298,19 +327,23 @@ class z { #\u0020oo }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 74,
                             "end": 82
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 72,
                     "end": 82
                 },
                 "flags": 70,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 84
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 61,
             "end": 84
         }
@@ -319,6 +352,7 @@ class z { #\u0020oo }
     "source": "class x { #fo\\u006f; foo = this.#foo }\n\nclass y { #fo\\u0020 }\n\nclass z { #\\u0020oo }\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 85
 }

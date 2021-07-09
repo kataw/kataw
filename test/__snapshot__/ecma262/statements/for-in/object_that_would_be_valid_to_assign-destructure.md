@@ -39,6 +39,7 @@ for ({x: a.b} in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -55,6 +56,7 @@ for ({x: a.b} in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
@@ -65,6 +67,7 @@ for ({x: a.b} in obj);
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -73,30 +76,36 @@ for ({x: a.b} in obj);
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 6,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 6,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 13
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
@@ -105,16 +114,19 @@ for ({x: a.b} in obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -123,6 +135,7 @@ for ({x: a.b} in obj);
     "source": "for ({x: a.b} in obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -131,10 +144,7 @@ for ({x: a.b} in obj);
 ### Printed
 
 ```javascript
-
-for ({ x : a.b } in obj)
-  ;
-
+for ({ x: a.b } in obj);
 ```
 
 ### Diagnostics

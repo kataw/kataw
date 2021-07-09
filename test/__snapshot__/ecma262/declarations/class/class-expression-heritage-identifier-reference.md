@@ -23,6 +23,7 @@ var B = class extends A {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -31,6 +32,7 @@ var B = class extends A {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -42,14 +44,17 @@ var B = class extends A {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -59,6 +64,7 @@ var B = class extends A {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -72,6 +78,7 @@ var B = class extends A {}
                             "text": "B",
                             "rawText": "B",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
@@ -82,6 +89,7 @@ var B = class extends A {}
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 24
                             },
@@ -94,6 +102,7 @@ var B = class extends A {}
                                     "extendsKeyword": {
                                         "kind": 4194391,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 32
                                     },
@@ -102,11 +111,13 @@ var B = class extends A {}
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 34
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
                                 },
@@ -114,27 +125,33 @@ var B = class extends A {}
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 36
                                 },
                                 "flags": 24,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 37
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 37
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 37
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 37
         }
@@ -143,6 +160,7 @@ var B = class extends A {}
     "source": "class A {}\nvar B = class extends A {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -151,11 +169,8 @@ var B = class extends A {}
 ### Printed
 
 ```javascript
-
-class A {
-}
-var B = class  extends A {
-};
+class A {}
+var B = class extends A {};
 
 ```
 

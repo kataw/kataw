@@ -26,6 +26,7 @@ import {a: b} from "bar";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -39,10 +40,12 @@ import {a: b} from "bar";
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 9
             },
@@ -67,27 +70,33 @@ import {a: b} from "bar";
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -98,10 +107,12 @@ import {a: b} from "bar";
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 10,
             "end": 12
         },
@@ -112,10 +123,12 @@ import {a: b} from "bar";
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 18
         },
@@ -126,10 +139,12 @@ import {a: b} from "bar";
                 "text": "bar",
                 "rawText": "\"bar\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 18,
             "end": 25
         }
@@ -138,6 +153,7 @@ import {a: b} from "bar";
     "source": "import {a: b} from \"bar\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

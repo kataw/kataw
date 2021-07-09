@@ -30,6 +30,7 @@ new void x
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -38,6 +39,7 @@ new void x
                     "operandToken": {
                         "kind": 138477615,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 8
                     },
@@ -46,19 +48,23 @@ new void x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 3,
                     "end": 10
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -67,6 +73,7 @@ new void x
     "source": "new void x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -75,9 +82,7 @@ new void x
 ### Printed
 
 ```javascript
-
 new void x;
-
 ```
 
 ### Diagnostics

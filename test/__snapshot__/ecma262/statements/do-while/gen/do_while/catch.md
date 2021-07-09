@@ -28,6 +28,7 @@ do catch while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -40,10 +41,12 @@ do catch while
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 2
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 2
                 },
@@ -52,6 +55,7 @@ do catch while
                     "catchKeyword": {
                         "kind": 4202575,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 8
                     },
@@ -62,26 +66,31 @@ do catch while
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 8
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 8
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
                 "finallyKeyword": null,
                 "finallyBlock": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 8
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 14
             },
@@ -90,10 +99,12 @@ do catch while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -102,6 +113,7 @@ do catch while
     "source": "do catch while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

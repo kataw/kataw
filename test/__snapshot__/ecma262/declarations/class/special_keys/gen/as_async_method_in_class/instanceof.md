@@ -30,6 +30,7 @@ class x {async instanceof(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {async instanceof(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x {async instanceof(){}}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -69,6 +72,7 @@ class x {async instanceof(){}}
                                     "text": "instanceof",
                                     "rawText": "instanceof",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 25
                                 },
@@ -78,6 +82,7 @@ class x {async instanceof(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 27
                                 },
@@ -89,31 +94,38 @@ class x {async instanceof(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 29
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 29
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -122,6 +134,7 @@ class x {async instanceof(){}}
     "source": "class x {async instanceof(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -130,11 +143,9 @@ class x {async instanceof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async instanceof() {}
 }
-
 ```
 
 ### Diagnostics

@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -43,12 +44,14 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -57,18 +60,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 13,
                     "end": 22
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 24
         }
@@ -77,6 +84,7 @@
     "source": "\"use strict\"; (foo = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -86,9 +94,8 @@
 
 ```javascript
 
-'"use strict"';
+"\"use strict\"";
 (foo = x);
-
 ```
 
 ### Diagnostics

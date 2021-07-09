@@ -25,6 +25,7 @@ default /* comment 5 */ : /* comment 6 */ foo;
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -33,6 +34,7 @@ default /* comment 5 */ : /* comment 6 */ foo;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 25
             },
@@ -44,6 +46,7 @@ default /* comment 5 */ : /* comment 6 */ foo;
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 52
                         },
@@ -52,12 +55,14 @@ default /* comment 5 */ : /* comment 6 */ foo;
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 52,
                             "end": 70
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 70,
                             "end": 71
                         },
@@ -69,15 +74,18 @@ default /* comment 5 */ : /* comment 6 */ foo;
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 92
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 71,
                                 "end": 93
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 46,
                         "end": 93
                     },
@@ -86,12 +94,14 @@ default /* comment 5 */ : /* comment 6 */ foo;
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 93,
                             "end": 101
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 101,
                             "end": 119
                         },
@@ -103,24 +113,29 @@ default /* comment 5 */ : /* comment 6 */ foo;
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 119,
                                     "end": 139
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 119,
                                 "end": 140
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 93,
                         "end": 140
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 140
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 143
         }
@@ -129,6 +144,7 @@ default /* comment 5 */ : /* comment 6 */ foo;
     "source": "switch /* comment 1 */ (x) /* comment 2 */   {\n\ncase /* comment 3 */ y:  /* comment 4 */ foo;\ndefault /* comment 5 */ : /* comment 6 */ foo;\n\n} /* comment 7 */",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 159
 }
@@ -137,14 +153,12 @@ default /* comment 5 */ : /* comment 6 */ foo;
 ### Printed
 
 ```javascript
-
-switch/* comment 1 */ (x)/* comment 2 */ {
-  case/* comment 3 */ y:/* comment 4 */ 
+switch (x) {
+  case y:
     foo;
-  default/* comment 5 */:/* comment 6 */ 
+  default:
     foo;
-}/* comment 7 */
-
+}
 ```
 
 ### Diagnostics

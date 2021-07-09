@@ -38,6 +38,7 @@ type ten = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -46,6 +47,7 @@ type ten = {
                 "text": "six",
                 "rawText": "six",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -53,6 +55,7 @@ type ten = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -74,6 +77,7 @@ type ten = {
                                     "text": "this",
                                     "rawText": "this",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 16
                                 },
@@ -85,26 +89,31 @@ type ten = {
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 24
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 24
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 24
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 24
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 28
                     },
@@ -115,22 +124,27 @@ type ten = {
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 33
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 33
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 33
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 33
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         },
@@ -140,6 +154,7 @@ type ten = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 39
             },
@@ -148,6 +163,7 @@ type ten = {
                 "text": "seven",
                 "rawText": "seven",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 45
             },
@@ -155,6 +171,7 @@ type ten = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 47
             },
@@ -176,6 +193,7 @@ type ten = {
                                     "text": "this",
                                     "rawText": "this",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 53
                                 },
@@ -187,14 +205,17 @@ type ten = {
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 54,
                                         "end": 61
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 61
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 61
                             },
@@ -206,6 +227,7 @@ type ten = {
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 62,
                                     "end": 64
                                 },
@@ -217,26 +239,31 @@ type ten = {
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 65,
                                         "end": 72
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 65,
                                     "end": 72
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 62,
                                 "end": 72
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 72
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 73,
                         "end": 76
                     },
@@ -247,22 +274,27 @@ type ten = {
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 76,
                             "end": 81
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 76,
                         "end": 81
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 81
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 81
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 34,
             "end": 82
         },
@@ -272,6 +304,7 @@ type ten = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 82,
                 "end": 87
             },
@@ -280,6 +313,7 @@ type ten = {
                 "text": "eight",
                 "rawText": "eight",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 87,
                 "end": 93
             },
@@ -287,6 +321,7 @@ type ten = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 93,
                 "end": 95
             },
@@ -308,6 +343,7 @@ type ten = {
                                     "text": "this",
                                     "rawText": "this",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 97,
                                     "end": 101
                                 },
@@ -319,14 +355,17 @@ type ten = {
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 102,
                                         "end": 109
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 102,
                                     "end": 109
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 95,
                                 "end": 109
                             },
@@ -335,6 +374,7 @@ type ten = {
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 110,
                                     "end": 114
                                 },
@@ -343,6 +383,7 @@ type ten = {
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 114,
                                     "end": 115
                                 },
@@ -354,26 +395,31 @@ type ten = {
                                     "type": {
                                         "kind": 134234252,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 116,
                                         "end": 120
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 116,
                                     "end": 120
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 110,
                                 "end": 120
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 95,
                         "end": 120
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 121,
                         "end": 124
                     },
@@ -384,22 +430,27 @@ type ten = {
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 124,
                             "end": 129
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 124,
                         "end": 129
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 95,
                     "end": 129
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 95,
                 "end": 129
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 82,
             "end": 130
         },
@@ -409,6 +460,7 @@ type ten = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 130,
                 "end": 135
             },
@@ -417,6 +469,7 @@ type ten = {
                 "text": "nine",
                 "rawText": "nine",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 135,
                 "end": 140
             },
@@ -424,6 +477,7 @@ type ten = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 140,
                 "end": 142
             },
@@ -445,6 +499,7 @@ type ten = {
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 144,
                                         "end": 145
                                     },
@@ -452,16 +507,19 @@ type ten = {
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 144,
                                     "end": 145
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 144,
                             "end": 145
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 142,
                         "end": 146
                     },
@@ -476,6 +534,7 @@ type ten = {
                                     "text": "this",
                                     "rawText": "this",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 147,
                                     "end": 151
                                 },
@@ -491,31 +550,37 @@ type ten = {
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 152,
                                             "end": 154
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 152,
                                         "end": 154
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 152,
                                     "end": 154
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 147,
                                 "end": 154
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 147,
                         "end": 154
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 155,
                         "end": 158
                     },
@@ -526,22 +591,27 @@ type ten = {
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 158,
                             "end": 163
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 158,
                         "end": 163
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 142,
                     "end": 163
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 142,
                 "end": 163
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 130,
             "end": 164
         },
@@ -551,6 +621,7 @@ type ten = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 164,
                 "end": 169
             },
@@ -559,6 +630,7 @@ type ten = {
                 "text": "ten",
                 "rawText": "ten",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 169,
                 "end": 173
             },
@@ -566,6 +638,7 @@ type ten = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 173,
                 "end": 175
             },
@@ -587,6 +660,7 @@ type ten = {
                                 "text": "m1",
                                 "rawText": "m1",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 177,
                                 "end": 182
                             },
@@ -604,6 +678,7 @@ type ten = {
                                                 "text": "this",
                                                 "rawText": "this",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 183,
                                                 "end": 187
                                             },
@@ -615,20 +690,24 @@ type ten = {
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 188,
                                                     "end": 195
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 188,
                                                 "end": 195
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 183,
                                             "end": 195
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 183,
                                     "end": 195
                                 },
@@ -639,19 +718,23 @@ type ten = {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 197,
                                         "end": 202
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 197,
                                     "end": 202
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 182,
                                 "end": 202
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 177,
                             "end": 203
                         },
@@ -666,6 +749,7 @@ type ten = {
                                 "text": "m2",
                                 "rawText": "m2",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 203,
                                 "end": 208
                             },
@@ -683,6 +767,7 @@ type ten = {
                                                 "text": "this",
                                                 "rawText": "this",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 209,
                                                 "end": 213
                                             },
@@ -694,14 +779,17 @@ type ten = {
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 214,
                                                     "end": 221
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 214,
                                                 "end": 221
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 209,
                                             "end": 221
                                         },
@@ -713,6 +801,7 @@ type ten = {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 222,
                                                 "end": 224
                                             },
@@ -724,20 +813,24 @@ type ten = {
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 225,
                                                     "end": 232
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 225,
                                                 "end": 232
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 222,
                                             "end": 232
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 209,
                                     "end": 232
                                 },
@@ -748,19 +841,23 @@ type ten = {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 234,
                                         "end": 239
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 234,
                                     "end": 239
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 208,
                                 "end": 239
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 203,
                             "end": 240
                         },
@@ -775,6 +872,7 @@ type ten = {
                                 "text": "m3",
                                 "rawText": "m3",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 240,
                                 "end": 245
                             },
@@ -792,6 +890,7 @@ type ten = {
                                                 "text": "this",
                                                 "rawText": "this",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 246,
                                                 "end": 250
                                             },
@@ -803,14 +902,17 @@ type ten = {
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 251,
                                                     "end": 258
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 251,
                                                 "end": 258
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 246,
                                             "end": 258
                                         },
@@ -819,6 +921,7 @@ type ten = {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 259,
                                                 "end": 263
                                             },
@@ -827,6 +930,7 @@ type ten = {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 263,
                                                 "end": 264
                                             },
@@ -838,20 +942,24 @@ type ten = {
                                                 "type": {
                                                     "kind": 134234252,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 265,
                                                     "end": 269
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 265,
                                                 "end": 269
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 259,
                                             "end": 269
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 246,
                                     "end": 269
                                 },
@@ -862,19 +970,23 @@ type ten = {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 271,
                                         "end": 276
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 271,
                                     "end": 276
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 245,
                                 "end": 276
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 240,
                             "end": 277
                         },
@@ -889,6 +1001,7 @@ type ten = {
                                 "text": "m4",
                                 "rawText": "m4",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 277,
                                 "end": 282
                             },
@@ -906,6 +1019,7 @@ type ten = {
                                                 "text": "this",
                                                 "rawText": "this",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 286,
                                                 "end": 290
                                             },
@@ -921,25 +1035,30 @@ type ten = {
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 291,
                                                         "end": 293
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 291,
                                                     "end": 293
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 291,
                                                 "end": 293
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 286,
                                             "end": 293
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 286,
                                     "end": 293
                                 },
@@ -950,10 +1069,12 @@ type ten = {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 295,
                                         "end": 300
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 295,
                                     "end": 300
                                 },
@@ -969,6 +1090,7 @@ type ten = {
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 283,
                                                     "end": 284
                                                 },
@@ -976,38 +1098,46 @@ type ten = {
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 283,
                                                 "end": 284
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 283,
                                         "end": 284
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 512,
                                     "start": 282,
                                     "end": 285
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 282,
                                 "end": 300
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 277,
                             "end": 301
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 175,
                     "end": 303
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 175,
                 "end": 303
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 164,
             "end": 304
         }
@@ -1016,6 +1146,7 @@ type ten = {
     "source": "type six = (this: number) => void;\ntype seven = (this: number, a: number) => void;\ntype eight = (this: number, ...a: any) => void;\ntype nine = <T>(this: T) => void;\ntype ten = {\n  m1(this: string): void,\n  m2(this: string, a: number): void,\n  m3(this: string, ...a: any): void,\n  m4<T>(this: T): void,\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 304
 }
@@ -1024,15 +1155,19 @@ type ten = {
 ### Printed
 
 ```javascript
-
 type six = (this: number) => void
 type seven = (this: number, a: number) => void
+
 type eight = (this: number, ...a: any) => void
+
 type nine = <T>(this: T) => void
+
 type ten = {
   m1(this: string): void,
-  m2(this: string, a: number): void,
-  m3(this: string, ...a: any): void,
+  m2(this: string,
+  a: number): void,
+  m3(this: string,
+  ...a: any): void,
   m4<T> (this: T): void
 }
 

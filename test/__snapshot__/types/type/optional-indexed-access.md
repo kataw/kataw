@@ -29,6 +29,7 @@ type x = a?.[b]
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type x = a?.[b]
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type x = a?.[b]
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -60,17 +63,20 @@ type x = a?.[b]
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
                         "typeParameters": null,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
                     "optionalIndexedToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
@@ -85,27 +91,33 @@ type x = a?.[b]
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 14
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 15
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -114,6 +126,7 @@ type x = a?.[b]
     "source": "type x = a?.[b]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -122,9 +135,7 @@ type x = a?.[b]
 ### Printed
 
 ```javascript
-
-type x = a?.[b]
-
+type x = a?. [b]
 ```
 
 ### Diagnostics

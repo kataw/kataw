@@ -21,12 +21,14 @@ if (false) let // ASI
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 9
             },
@@ -37,16 +39,19 @@ if (false) let // ASI
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 10,
                 "end": 14
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -56,10 +61,12 @@ if (false) let // ASI
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 14,
             "end": 24
         }
@@ -68,6 +75,7 @@ if (false) let // ASI
     "source": "if (false) let // ASI\n{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -76,10 +84,8 @@ if (false) let // ASI
 ### Printed
 
 ```javascript
-
-if (false)
-  let;// ASI
-{ }
+if (false) let;
+{}
 
 ```
 

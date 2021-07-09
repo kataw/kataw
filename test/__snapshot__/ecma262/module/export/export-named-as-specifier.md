@@ -26,6 +26,7 @@ export {foo as bar};
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -43,12 +44,14 @@ export {foo as bar};
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
                             "asKeyword": {
                                 "kind": 16494,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
@@ -57,19 +60,23 @@ export {foo as bar};
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 18
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 18
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 19
             },
@@ -77,6 +84,7 @@ export {foo as bar};
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -85,6 +93,7 @@ export {foo as bar};
     "source": "export {foo as bar};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -93,9 +102,7 @@ export {foo as bar};
 ### Printed
 
 ```javascript
-
-export { foo as  bar, };
-
+export { foo as  bar };
 ```
 
 ### Diagnostics

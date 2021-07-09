@@ -22,6 +22,7 @@ class X { \u0061sync x() { await x } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class X { \u0061sync x() { await x } }
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class X { \u0061sync x() { await x } }
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 16448,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 20
                             },
@@ -61,6 +64,7 @@ class X { \u0061sync x() { await x } }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
@@ -70,6 +74,7 @@ class X { \u0061sync x() { await x } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 24
                                 },
@@ -87,6 +92,7 @@ class X { \u0061sync x() { await x } }
                                                     "awaitKeyword": {
                                                         "kind": 82196,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 26,
                                                         "end": 32
                                                     },
@@ -95,44 +101,54 @@ class X { \u0061sync x() { await x } }
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 34
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 4096,
                                                     "start": 26,
                                                     "end": 34
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 26,
                                                 "end": 34
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 34
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 36
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 36
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 36
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 36
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -141,6 +157,7 @@ class X { \u0061sync x() { await x } }
     "source": "class X { \\u0061sync x() { await x } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

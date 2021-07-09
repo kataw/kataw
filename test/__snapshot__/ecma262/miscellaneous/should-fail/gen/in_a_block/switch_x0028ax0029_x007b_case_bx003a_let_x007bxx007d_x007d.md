@@ -33,6 +33,7 @@
                         "switchKeyword": {
                             "kind": 37757024,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 8
                         },
@@ -41,6 +42,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         },
@@ -52,6 +54,7 @@
                                     "caseKeyword": {
                                         "kind": 4194382,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 19
                                     },
@@ -60,12 +63,14 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     },
                                     "colonToken": {
                                         "kind": 21,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 22
                                     },
@@ -75,6 +80,7 @@
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 26
                                             },
@@ -93,54 +99,65 @@
                                                                         "text": "x",
                                                                         "rawText": "x",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 28,
                                                                         "end": 29
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 28,
                                                                 "end": 29
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 26,
                                                             "end": 30
                                                         },
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
+                                                        "transformFlags": 4224,
                                                         "start": 26,
                                                         "end": 30
                                                     }
                                                 ],
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 30
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 30
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 30
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 30
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -149,6 +166,7 @@
     "source": "{ switch (a) { case b: let {x} } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

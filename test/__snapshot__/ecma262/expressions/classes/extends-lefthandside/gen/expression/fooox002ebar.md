@@ -33,6 +33,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -41,6 +42,7 @@
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -52,6 +54,7 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 16
                             },
@@ -62,6 +65,7 @@
                                     "text": "fooo",
                                     "rawText": "fooo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 21
                                 },
@@ -70,15 +74,18 @@
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 25
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 16,
                                 "end": 25
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 25
                         },
@@ -86,22 +93,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 27
                         },
                         "flags": 8,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 28
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 28
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }
@@ -110,6 +122,7 @@
     "source": "(class B extends fooo.bar {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -118,10 +131,7 @@
 ### Printed
 
 ```javascript
-
-(class B extends fooo.bar {
-});
-
+(class B extends fooo.bar {});
 ```
 
 ### Diagnostics

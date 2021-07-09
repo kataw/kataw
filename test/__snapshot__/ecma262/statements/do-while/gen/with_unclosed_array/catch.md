@@ -28,6 +28,7 @@ do[ catch
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -40,14 +41,17 @@ do[ catch
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 3
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 3
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 3
             },
@@ -57,10 +61,12 @@ do[ catch
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -73,10 +79,12 @@ do[ catch
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 3
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
@@ -85,6 +93,7 @@ do[ catch
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
@@ -95,20 +104,24 @@ do[ catch
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 3,
             "end": 9
         }
@@ -117,6 +130,7 @@ do[ catch
     "source": "do[ catch",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

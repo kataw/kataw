@@ -30,12 +30,14 @@ left|right
                     "text": "left",
                     "rawText": "left",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
                 "operatorToken": {
                     "kind": 134251592,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 5
                 },
@@ -44,14 +46,17 @@ left|right
                     "text": "right",
                     "rawText": "right",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -60,6 +65,7 @@ left|right
     "source": "left|right",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -68,9 +74,7 @@ left|right
 ### Printed
 
 ```javascript
-
 left | right;
-
 ```
 
 ### Diagnostics

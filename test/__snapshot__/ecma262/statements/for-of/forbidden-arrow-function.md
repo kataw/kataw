@@ -20,6 +20,7 @@ for (async of => {} of x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,6 +30,7 @@ for (async of => {} of x);
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -38,6 +40,7 @@ for (async of => {} of x);
                     "text": "of",
                     "rawText": "of",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
@@ -45,6 +48,7 @@ for (async of => {} of x);
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
@@ -55,20 +59,24 @@ for (async of => {} of x);
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 19
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 19
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -77,16 +85,19 @@ for (async of => {} of x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 24
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -95,6 +106,7 @@ for (async of => {} of x);
     "source": "for (async of => {} of x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

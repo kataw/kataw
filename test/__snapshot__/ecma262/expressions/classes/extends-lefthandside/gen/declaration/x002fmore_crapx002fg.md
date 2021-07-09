@@ -30,6 +30,7 @@ class A extends /more crap/g {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class A extends /more crap/g {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class A extends /more crap/g {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,11 +59,13 @@ class A extends /more crap/g {}
                         "kind": 371,
                         "text": "/more crap/g",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 28
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 28
                 },
@@ -68,14 +73,17 @@ class A extends /more crap/g {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -84,6 +92,7 @@ class A extends /more crap/g {}
     "source": "class A extends /more crap/g {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -92,10 +101,7 @@ class A extends /more crap/g {}
 ### Printed
 
 ```javascript
-
-class A extends /more crap/g {
-}
-
+class A extends /more crap/g {}
 ```
 
 ### Diagnostics

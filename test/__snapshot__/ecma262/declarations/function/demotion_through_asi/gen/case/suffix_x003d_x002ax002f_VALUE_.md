@@ -33,6 +33,7 @@ function f(){
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -42,6 +43,7 @@ function f(){
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -51,6 +53,7 @@ function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -67,10 +70,12 @@ function f(){
                                 "text": "use strict",
                                 "rawText": "\"use strict\"",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 13,
                             "end": 28
                         },
@@ -83,12 +88,14 @@ function f(){
                                     "text": "suffix",
                                     "rawText": "suffix",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 37
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 39
                                 },
@@ -99,12 +106,14 @@ function f(){
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 39
                                     },
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 39,
                                         "end": 41
                                     },
@@ -112,32 +121,39 @@ function f(){
                                         "kind": 371,
                                         "text": "/ VALUE;",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 49
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 39,
                                     "end": 49
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 28,
                                 "end": 49
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 28,
                             "end": 49
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 49
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 51
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         }
@@ -146,6 +162,7 @@ function f(){
     "source": "function f(){\n  \"use strict\"\n  suffix = */ VALUE;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

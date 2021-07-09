@@ -29,10 +29,12 @@
                 "text": "",
                 "rawText": "\"\\\n\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         }
@@ -41,6 +43,7 @@
     "source": "\"\\\n\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }
@@ -49,10 +52,8 @@
 ### Printed
 
 ```javascript
-
-'"\
-"';
-
+"\"\
+\"";
 ```
 
 ### Diagnostics

@@ -32,17 +32,20 @@ new super.foo
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
                     "expression": {
                         "kind": 4259935,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
                     "argumentList": null,
                     "flags": 96,
+                    "transformFlags": 2048,
                     "start": 0,
                     "end": 9
                 },
@@ -51,14 +54,17 @@ new super.foo
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -67,6 +73,7 @@ new super.foo
     "source": "new super.foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

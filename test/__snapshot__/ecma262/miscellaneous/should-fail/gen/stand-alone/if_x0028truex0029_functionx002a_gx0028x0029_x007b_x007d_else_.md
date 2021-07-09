@@ -28,12 +28,14 @@ if (true) function* g() {  } else ;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -44,12 +46,14 @@ if (true) function* g() {  } else ;
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 18
                 },
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 18,
                     "end": 19
                 },
@@ -58,6 +62,7 @@ if (true) function* g() {  } else ;
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
@@ -67,6 +72,7 @@ if (true) function* g() {  } else ;
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
@@ -77,31 +83,37 @@ if (true) function* g() {  } else ;
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 28
                 },
                 "returnType": null,
                 "flags": 272,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 28
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 33
             },
             "alternate": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 35
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -110,6 +122,7 @@ if (true) function* g() {  } else ;
     "source": "if (true) function* g() {  } else ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

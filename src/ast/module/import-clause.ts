@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { NamedImports } from './named-imports';
 import { NameSpaceImport } from './namespace-import';
 import { Identifier } from '../expressions/identifier-expr';
@@ -22,6 +22,7 @@ export function createImportClause(
     nameSpaceImport,
     namedImports,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

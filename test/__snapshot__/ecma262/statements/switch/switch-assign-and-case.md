@@ -20,6 +20,7 @@ switch([x = y]) { case y: foo }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,12 +36,14 @@ switch([x = y]) { case y: foo }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -49,20 +52,24 @@ switch([x = y]) { case y: foo }
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 13
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 7,
                 "end": 14
             },
@@ -74,6 +81,7 @@ switch([x = y]) { case y: foo }
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 22
                         },
@@ -82,12 +90,14 @@ switch([x = y]) { case y: foo }
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 24
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 25
                         },
@@ -99,24 +109,29 @@ switch([x = y]) { case y: foo }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 29
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 25,
                                 "end": 29
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 29
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -125,6 +140,7 @@ switch([x = y]) { case y: foo }
     "source": "switch([x = y]) { case y: foo }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -133,12 +149,10 @@ switch([x = y]) { case y: foo }
 ### Printed
 
 ```javascript
-
-switch ([x = y,]) {
-  case y: 
+switch ([x = y]) {
+  case y:
     foo;
 }
-
 ```
 
 ### Diagnostics

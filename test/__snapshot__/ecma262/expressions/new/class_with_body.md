@@ -22,6 +22,7 @@ new class{}
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -31,6 +32,7 @@ new class{}
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -43,23 +45,28 @@ new class{}
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 9,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 11
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -68,6 +75,7 @@ new class{}
     "source": "new class{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -76,10 +84,7 @@ new class{}
 ### Printed
 
 ```javascript
-
-new class  {
-};
-
+new class {};
 ```
 
 ### Diagnostics

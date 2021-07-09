@@ -24,6 +24,7 @@ const obsever = mockReducersAndSomething(
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ const obsever = mockReducersAndSomething(
                             "text": "obsever",
                             "rawText": "obsever",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 13
                         },
@@ -48,6 +50,7 @@ const obsever = mockReducersAndSomething(
                                 "text": "mockReducersAndSomething",
                                 "rawText": "mockReducersAndSomething",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 40
                             },
@@ -57,12 +60,14 @@ const obsever = mockReducersAndSomething(
                                     {
                                         "kind": 24752947,
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 48
                                     },
                                     {
                                         "kind": 24752947,
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 49,
                                         "end": 80
                                     },
@@ -76,39 +81,47 @@ const obsever = mockReducersAndSomething(
                                                     "text": "reducer",
                                                     "rawText": "'reducer'",
                                                     "flags": 4194400,
+                                                    "transformFlags": 0,
                                                     "start": 108,
                                                     "end": 117
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 4194336,
+                                            "transformFlags": 0,
                                             "start": 108,
                                             "end": 117
                                         },
                                         "flags": 33,
+                                        "transformFlags": 8,
                                         "start": 81,
                                         "end": 118
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 119
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 15,
                             "end": 121
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 121
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 121
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 122
         }
@@ -117,6 +130,7 @@ const obsever = mockReducersAndSomething(
     "source": "const obsever = mockReducersAndSomething(\n  true, // should call reducers\n  true, // should mutate state\n  ['reducer'],\n);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 122
 }
@@ -125,11 +139,7 @@ const obsever = mockReducersAndSomething(
 ### Printed
 
 ```javascript
-
-const obsever = mockReducersAndSomething(true, // should call reducers
-true, // should mutate state
-['\'reducer\'',],);
-
+const obsever = mockReducersAndSomething(true, true, ["'reducer'"]);
 ```
 
 ### Diagnostics

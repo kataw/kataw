@@ -40,6 +40,7 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
@@ -54,6 +55,7 @@
                                         "operandToken": {
                                             "kind": 138477615,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 10
                                         },
@@ -62,20 +64,24 @@
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 10
                                         },
                                         "flags": 32,
+                                        "transformFlags": 1024,
                                         "start": 6,
                                         "end": 10
                                     },
-                                    "flags": 32,
-                                    "start": 4,
+                                    "flags": 4,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 11
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 13
                                 },
@@ -84,20 +90,24 @@
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 4,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 0,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 16
                 },
@@ -105,6 +115,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 19
                 },
@@ -115,18 +126,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 21
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 22
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }
@@ -135,6 +150,7 @@
     "source": "(x = (void) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

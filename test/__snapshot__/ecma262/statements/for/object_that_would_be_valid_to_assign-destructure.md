@@ -20,6 +20,7 @@ for ({x: a.b};;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for ({x: a.b};;);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
@@ -46,6 +48,7 @@ for ({x: a.b};;);
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -54,24 +57,29 @@ for ({x: a.b};;);
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 6,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 6,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 13
             },
@@ -80,10 +88,12 @@ for ({x: a.b};;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -92,6 +102,7 @@ for ({x: a.b};;);
     "source": "for ({x: a.b};;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -100,10 +111,7 @@ for ({x: a.b};;);
 ### Printed
 
 ```javascript
-
-for ({ x : a.b };;)
-  ;
-
+for ({ x: a.b }; ; );
 ```
 
 ### Diagnostics

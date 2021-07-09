@@ -36,12 +36,14 @@ a= 0b0101n;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -50,14 +52,17 @@ a= 0b0101n;
                     "text": "1",
                     "rawText": "1n",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -70,12 +75,14 @@ a= 0b0101n;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
@@ -84,14 +91,17 @@ a= 0b0101n;
                     "text": 128,
                     "rawText": "0x80n",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 6,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 17
         },
@@ -104,12 +114,14 @@ a= 0b0101n;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 21
                 },
@@ -118,14 +130,17 @@ a= 0b0101n;
                     "text": 493,
                     "rawText": "0o755n",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 17,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 29
         },
@@ -138,12 +153,14 @@ a= 0b0101n;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 32
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 33
                 },
@@ -152,14 +169,17 @@ a= 0b0101n;
                     "text": 5,
                     "rawText": "0b0101n",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 41
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 29,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 29,
             "end": 42
         }
@@ -168,6 +188,7 @@ a= 0b0101n;
     "source": "a= 1n;\n\na= 0x80n;\n\na= 0o755n;\n\na= 0b0101n;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -176,10 +197,11 @@ a= 0b0101n;
 ### Printed
 
 ```javascript
-
 a = 1n;
 a = 0x80n;
+
 a = 0o755n;
+
 a = 0b0101n;
 
 ```

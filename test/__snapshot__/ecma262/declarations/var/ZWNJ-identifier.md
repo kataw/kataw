@@ -24,6 +24,7 @@ var $\u200C = 3;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,6 +38,7 @@ var $\u200C = 3;
                             "text": "$",
                             "rawText": "$",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -46,19 +48,23 @@ var $\u200C = 3;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -68,6 +74,7 @@ var $\u200C = 3;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -81,6 +88,7 @@ var $\u200C = 3;
                             "text": "$‍",
                             "rawText": "$\\u200D",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 22
                         },
@@ -90,19 +98,23 @@ var $\u200C = 3;
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 27
         },
@@ -112,6 +124,7 @@ var $\u200C = 3;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 31
             },
@@ -125,6 +138,7 @@ var $\u200C = 3;
                             "text": "$‌",
                             "rawText": "$\\u200C",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 39
                         },
@@ -134,19 +148,23 @@ var $\u200C = 3;
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 43
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 31,
                         "end": 43
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 44
         }
@@ -155,6 +173,7 @@ var $\u200C = 3;
     "source": "var $ = 1;\nvar $\\u200D = 2;\nvar $\\u200C = 3;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -163,9 +182,9 @@ var $\u200C = 3;
 ### Printed
 
 ```javascript
-
 var $ = 1;
 var $\u200D = 2;
+
 var $\u200C = 3;
 
 ```

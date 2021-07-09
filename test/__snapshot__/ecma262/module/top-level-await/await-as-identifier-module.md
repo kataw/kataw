@@ -34,6 +34,7 @@ await(x);
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 26
                 },
@@ -42,14 +43,17 @@ await(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         },
@@ -62,6 +66,7 @@ await(x);
                     "awaitKeyword": {
                         "kind": 82196,
                         "flags": 65,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 34
                     },
@@ -70,16 +75,19 @@ await(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 34
                     },
                     "flags": 32,
+                    "transformFlags": 4096,
                     "start": 27,
                     "end": 34
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 36
                 },
@@ -88,14 +96,17 @@ await(x);
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 42
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 27,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 43
         },
@@ -106,6 +117,7 @@ await(x);
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 50
                 },
@@ -116,18 +128,22 @@ await(x);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 51,
                         "end": 52
                     },
-                    "flags": 32,
-                    "start": 50,
+                    "flags": 50,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 53
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 43,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 43,
             "end": 54
         }
@@ -136,6 +152,7 @@ await(x);
     "source": "// this should fail\n\nawait;\n\nawait = yield;\n\nawait(x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }

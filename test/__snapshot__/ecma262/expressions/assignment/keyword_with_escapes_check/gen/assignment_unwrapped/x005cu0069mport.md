@@ -28,6 +28,7 @@
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -37,6 +38,7 @@
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -47,10 +49,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 16
         }
@@ -59,6 +63,7 @@
     "source": "\\u0069mport = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

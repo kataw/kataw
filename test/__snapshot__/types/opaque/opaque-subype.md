@@ -28,12 +28,14 @@ opaque type Counter: Box<T> = Container<T>;
             "opaqueToken": {
                 "kind": 24822,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -42,6 +44,7 @@ opaque type Counter: Box<T> = Container<T>;
                 "text": "Counter",
                 "rawText": "Counter",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 19
             },
@@ -57,6 +60,7 @@ opaque type Counter: Box<T> = Container<T>;
                         "text": "Box",
                         "rawText": "Box",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 24
                     },
@@ -76,33 +80,40 @@ opaque type Counter: Box<T> = Container<T>;
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 26
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 26
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 26
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 24,
                         "end": 27
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 27
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 27
             },
@@ -117,6 +128,7 @@ opaque type Counter: Box<T> = Container<T>;
                         "text": "Container",
                         "rawText": "Container",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 39
                     },
@@ -136,43 +148,52 @@ opaque type Counter: Box<T> = Container<T>;
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 41
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 41
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 41
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 41
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 39,
                         "end": 42
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 42
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 42
             },
             "flags": 2097152,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 42,
             "end": 43
         }
@@ -181,6 +202,7 @@ opaque type Counter: Box<T> = Container<T>;
     "source": "opaque type Counter: Box<T> = Container<T>;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -189,10 +211,7 @@ opaque type Counter: Box<T> = Container<T>;
 ### Printed
 
 ```javascript
-
-opaque type Counter: Box<T> = Container<T>
-;
-
+opaque type Counter: Box<T> = Container<T>;
 ```
 
 ### Diagnostics

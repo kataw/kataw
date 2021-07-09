@@ -24,6 +24,7 @@ async(0,...a)
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -35,6 +36,7 @@ async(0,...a)
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         },
@@ -43,6 +45,7 @@ async(0,...a)
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
@@ -51,24 +54,29 @@ async(0,...a)
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 12
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -77,6 +85,7 @@ async(0,...a)
     "source": "async(0,...a)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -85,9 +94,7 @@ async(0,...a)
 ### Printed
 
 ```javascript
-
 async(0, ...a);
-
 ```
 
 ### Diagnostics

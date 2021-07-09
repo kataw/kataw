@@ -32,6 +32,7 @@ call(await.foo)
                     "text": "call",
                     "rawText": "call",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -45,6 +46,7 @@ call(await.foo)
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 10
                             },
@@ -53,24 +55,29 @@ call(await.foo)
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 5,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 14
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -79,6 +86,7 @@ call(await.foo)
     "source": "call(await.foo)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -87,9 +95,7 @@ call(await.foo)
 ### Printed
 
 ```javascript
-
 call(await.foo);
-
 ```
 
 ### Diagnostics

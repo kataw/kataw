@@ -22,6 +22,7 @@ class C { static async*#aaa(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class C { static async*#aaa(){} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -47,12 +49,14 @@ class C { static async*#aaa(){} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 22
                             },
@@ -61,6 +65,7 @@ class C { static async*#aaa(){} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 22,
                                 "end": 23
                             },
@@ -71,6 +76,7 @@ class C { static async*#aaa(){} }
                                     "text": "#aaa",
                                     "rawText": "#aaa",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 27
                                 },
@@ -80,6 +86,7 @@ class C { static async*#aaa(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -91,31 +98,38 @@ class C { static async*#aaa(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 30
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "flags": 384,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 31
                             },
                             "flags": 384,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 31
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -124,6 +138,7 @@ class C { static async*#aaa(){} }
     "source": "class C { static async*#aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -132,11 +147,9 @@ class C { static async*#aaa(){} }
 ### Printed
 
 ```javascript
-
 class C {
-  static async * #aaa() {}
+  static async *#aaa() {}
 }
-
 ```
 
 ### Diagnostics

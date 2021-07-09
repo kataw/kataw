@@ -33,6 +33,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -45,6 +46,7 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 14
                             },
@@ -53,11 +55,13 @@
                                 "text": "Base",
                                 "rawText": "Base",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 19
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 19
                         },
@@ -72,6 +76,7 @@
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 27
                                     },
@@ -80,6 +85,7 @@
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
+                                        "transformFlags": 32,
                                         "start": 27,
                                         "end": 29
                                     },
@@ -90,6 +96,7 @@
                                             "text": "#arguments",
                                             "rawText": "#arguments",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 39
                                         },
@@ -99,6 +106,7 @@
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 41
                                         },
@@ -110,39 +118,48 @@
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 43
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 44
                                         },
                                         "flags": 384,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 44
                                     },
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 44
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 44
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 46
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 46
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 48
         }
@@ -151,6 +168,7 @@
     "source": "(class extends Base { async *#arguments() {} });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }
@@ -159,11 +177,9 @@
 ### Printed
 
 ```javascript
-
-(class  extends Base {
-  async * #arguments() {}
-});
-
+(class extends Base {
+    async *#arguments() {}
+  });
 ```
 
 ### Diagnostics

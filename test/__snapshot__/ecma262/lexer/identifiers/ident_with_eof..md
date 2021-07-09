@@ -22,10 +22,12 @@ foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 3
         }
@@ -34,6 +36,7 @@ foo
     "source": "foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3
 }
@@ -42,9 +45,7 @@ foo
 ### Printed
 
 ```javascript
-
 foo;
-
 ```
 
 ### Diagnostics

@@ -31,12 +31,14 @@ function* f() { class C { aaa = yield } }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -45,6 +47,7 @@ function* f() { class C { aaa = yield } }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -54,6 +57,7 @@ function* f() { class C { aaa = yield } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -70,6 +74,7 @@ function* f() { class C { aaa = yield } }
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -78,6 +83,7 @@ function* f() { class C { aaa = yield } }
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
@@ -99,6 +105,7 @@ function* f() { class C { aaa = yield } }
                                                 "text": "aaa",
                                                 "rawText": "aaa",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 29
                                             },
@@ -109,6 +116,7 @@ function* f() { class C { aaa = yield } }
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 37
                                                 },
@@ -116,37 +124,45 @@ function* f() { class C { aaa = yield } }
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 31,
                                                 "end": 37
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 25,
                                             "end": 37
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 37
                                 },
                                 "flags": 23,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 39
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 39
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 41
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -155,6 +171,7 @@ function* f() { class C { aaa = yield } }
     "source": "function* f() { class C { aaa = yield } }\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -163,13 +180,11 @@ function* f() { class C { aaa = yield } }
 ### Printed
 
 ```javascript
-
-function * f() {
+function *f() {
   class C {
-    aaa = yield 
+    aaa = yield ;
   }
 }
-
 ```
 
 ### Diagnostics

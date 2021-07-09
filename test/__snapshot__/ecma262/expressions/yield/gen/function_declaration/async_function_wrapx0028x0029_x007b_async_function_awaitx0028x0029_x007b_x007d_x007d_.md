@@ -30,6 +30,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -48,6 +50,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,12 +66,14 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 35
                             },
@@ -78,6 +83,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                 "text": "wrap",
                                 "rawText": "wrap",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 40
                             },
@@ -87,6 +93,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 41
                             },
@@ -102,12 +109,14 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 50
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 59
                                             },
@@ -117,6 +126,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                 "text": "await",
                                                 "rawText": "await",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 59,
                                                 "end": 65
                                             },
@@ -126,6 +136,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 66,
                                                 "end": 66
                                             },
@@ -136,49 +147,59 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 69,
                                                     "end": 69
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 67,
                                                 "end": 71
                                             },
                                             "returnType": null,
                                             "flags": 144,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 71
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 71
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 73
                             },
                             "returnType": null,
                             "flags": 144,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 73
                         },
                         {
                             "kind": 168,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 73,
                             "end": 74
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 74
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 76
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 76
         }
@@ -187,6 +208,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
     "source": "function not_gen() { async function wrap() { async function await() { } }; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 77
 }

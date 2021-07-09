@@ -36,6 +36,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 14
                         },
@@ -44,6 +45,7 @@
                             "text": "b",
                             "rawText": "b",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 36
                         },
@@ -52,19 +54,23 @@
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 48
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 54
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 54
         }
@@ -73,6 +79,7 @@
     "source": "(\n  /*1*/\n\n  a\n\n  /*2*/,/*3*/\n\n\n\n  b/*4*/,/*5*/c/*6*/)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }
@@ -81,12 +88,7 @@
 ### Printed
 
 ```javascript
-
-(
- /*1*/
-a
- /*2*/, /*3*/b/*4*/, /*5*/c/*6*/);
-
+(a, b, c);
 ```
 
 ### Diagnostics

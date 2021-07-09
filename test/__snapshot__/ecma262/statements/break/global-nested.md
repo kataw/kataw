@@ -25,7 +25,8 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -33,6 +34,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -41,14 +43,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -57,11 +62,13 @@
             "breakKeyword": {
                 "kind": 37757005,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
             "label": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 15
         }
@@ -70,6 +77,7 @@
     "source": "() =>     break",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

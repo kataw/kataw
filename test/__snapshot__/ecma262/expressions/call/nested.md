@@ -24,6 +24,7 @@ z(z(z()));
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -37,6 +38,7 @@ z(z(z()));
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
@@ -50,6 +52,7 @@ z(z(z()));
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 5
                                         },
@@ -58,34 +61,41 @@ z(z(z()));
                                             "elements": [],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 6
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 4,
                                         "end": 7
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 7
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 2,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -94,6 +104,7 @@ z(z(z()));
     "source": "z(z(z()));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -102,9 +113,7 @@ z(z(z()));
 ### Printed
 
 ```javascript
-
 z(z(z()));
-
 ```
 
 ### Diagnostics

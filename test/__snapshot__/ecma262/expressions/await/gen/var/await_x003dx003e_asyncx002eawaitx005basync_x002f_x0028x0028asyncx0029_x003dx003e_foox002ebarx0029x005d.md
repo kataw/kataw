@@ -29,6 +29,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,21 +43,25 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -66,6 +71,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -79,6 +85,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
@@ -89,23 +96,28 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 18,
                                 "end": 44
                             },
-                            "flags": 32,
-                            "start": 18,
+                            "flags": 18,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 44
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 44
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 44
         },
@@ -120,6 +132,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 53
                     },
@@ -128,10 +141,12 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 54,
                         "end": 59
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 47,
                     "end": 59
                 },
@@ -142,12 +157,14 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 60,
                         "end": 65
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 65,
                         "end": 67
                     },
@@ -165,12 +182,14 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 75
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 76
                             },
@@ -178,6 +197,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 76,
                                 "end": 79
                             },
@@ -188,6 +208,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 79,
                                     "end": 83
                                 },
@@ -196,36 +217,44 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 84,
                                     "end": 87
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 79,
                                 "end": 87
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 69,
                             "end": 87
                         },
-                        "flags": 32,
-                        "start": 67,
+                        "flags": 67,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 88
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 60,
                     "end": 88
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 47,
                 "end": 89
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 47,
             "end": 89
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 92,
             "end": 93
         }
@@ -234,6 +263,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
     "source": "var await; var f = (async function() { await => async.await[async / ((async) => foo.bar)] });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 93
 }

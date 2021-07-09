@@ -27,6 +27,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -50,6 +52,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "text": "S",
                                 "rawText": "S",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -57,6 +60,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
@@ -67,6 +71,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -74,6 +79,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
@@ -84,6 +90,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
@@ -91,6 +98,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
@@ -101,6 +109,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "text": "I",
                                 "rawText": "I",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
@@ -108,6 +117,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
@@ -118,6 +128,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "text": "R",
                                 "rawText": "R",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
@@ -125,22 +136,26 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 20
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 6,
                 "end": 21
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
@@ -170,17 +185,20 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                                     "text": "S",
                                                     "rawText": "S",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 25,
                                                     "end": 26
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 26
                                             },
                                             "optionalToken": null,
                                             "types": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 26
                                         },
@@ -196,15 +214,18 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                                     "text": "A",
                                                     "rawText": "A",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 29
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 29
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 29
                                         },
@@ -220,15 +241,18 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                                     "text": "C",
                                                     "rawText": "C",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 32
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 32
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 32
                                         },
@@ -244,39 +268,46 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                                     "text": "I",
                                                     "rawText": "I",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 35
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 35
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 35
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 35
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 36
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 36
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 39
                     },
@@ -291,6 +322,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "text": "Promise",
                                 "rawText": "Promise",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 47
                             },
@@ -310,45 +342,55 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                                     "text": "R",
                                                     "rawText": "R",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 48,
                                                     "end": 49
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 49
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 48,
                                             "end": 49
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 49
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 512,
                                 "start": 47,
                                 "end": 50
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 50
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 50
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 50
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 50
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -357,6 +399,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
     "source": "type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }
@@ -365,9 +408,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
 ### Printed
 
 ```javascript
-
 type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
-
 ```
 
 ### Diagnostics

@@ -30,6 +30,7 @@ class x {new(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {new(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -64,6 +66,7 @@ class x {new(){}}
                                     "text": "new",
                                     "rawText": "new",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -73,6 +76,7 @@ class x {new(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 14
                                 },
@@ -84,31 +88,38 @@ class x {new(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 15
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 16
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 16
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 16
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 16
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -117,6 +128,7 @@ class x {new(){}}
     "source": "class x {new(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -125,11 +137,9 @@ class x {new(){}}
 ### Printed
 
 ```javascript
-
 class x {
   new() {}
 }
-
 ```
 
 ### Diagnostics

@@ -33,6 +33,7 @@ const array = [
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -46,6 +47,7 @@ const array = [
                             "text": "array",
                             "rawText": "array",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         },
@@ -60,29 +62,35 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 41
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 42
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 13,
                             "end": 95
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 95
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 95
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 96
         }
@@ -91,6 +99,7 @@ const array = [
     "source": "const array = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 96
 }
@@ -99,14 +108,7 @@ const array = [
 ### Printed
 
 ```javascript
-
-const array = [
-   /* element 1 */
-  1,
-   /* end of element 1 */
-  /* extra comment */
-];
-
+const array = [1,];
 ```
 
 ### Diagnostics

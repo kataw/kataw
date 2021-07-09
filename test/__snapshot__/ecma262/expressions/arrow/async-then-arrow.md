@@ -23,10 +23,12 @@ a => a;
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -41,6 +43,7 @@ a => a;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -48,6 +51,7 @@ a => a;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -56,14 +60,17 @@ a => a;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 13
         }
@@ -72,6 +79,7 @@ a => a;
     "source": "async\na => a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -80,7 +88,6 @@ a => a;
 ### Printed
 
 ```javascript
-
 async;
 a => a;
 

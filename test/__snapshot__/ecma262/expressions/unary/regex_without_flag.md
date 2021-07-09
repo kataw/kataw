@@ -22,6 +22,7 @@ delete /foo/.bar;
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -31,6 +32,7 @@ delete /foo/.bar;
                         "kind": 371,
                         "text": "/foo/",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -39,18 +41,22 @@ delete /foo/.bar;
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 6,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -59,6 +65,7 @@ delete /foo/.bar;
     "source": "delete /foo/.bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -67,9 +74,7 @@ delete /foo/.bar;
 ### Printed
 
 ```javascript
-
 delete /foo/.bar;
-
 ```
 
 ### Diagnostics

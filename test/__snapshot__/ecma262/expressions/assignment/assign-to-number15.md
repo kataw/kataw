@@ -30,12 +30,14 @@ x = 0o101_0n
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -44,14 +46,17 @@ x = 0o101_0n
                     "text": 520,
                     "rawText": "0o101_0n",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -60,6 +65,7 @@ x = 0o101_0n
     "source": "x = 0o101_0n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -68,9 +74,7 @@ x = 0o101_0n
 ### Printed
 
 ```javascript
-
 x = 0o101_0n;
-
 ```
 
 ### Diagnostics

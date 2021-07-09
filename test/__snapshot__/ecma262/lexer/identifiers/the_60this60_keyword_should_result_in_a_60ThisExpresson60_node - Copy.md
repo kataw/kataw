@@ -26,10 +26,12 @@ this
             "expression": {
                 "kind": 4276321,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         }
@@ -38,6 +40,7 @@ this
     "source": "this",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }
@@ -46,9 +49,7 @@ this
 ### Printed
 
 ```javascript
-
 this;
-
 ```
 
 ### Diagnostics

@@ -30,6 +30,7 @@ let y: [.../*1*/x/*2*/];
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ let y: [.../*1*/x/*2*/];
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -62,6 +64,7 @@ let y: [.../*1*/x/*2*/];
                                             "nullableToken": {
                                                 "kind": 134217750,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 9
                                             },
@@ -72,43 +75,52 @@ let y: [.../*1*/x/*2*/];
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 9,
                                                     "end": 15
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 15
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 15
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 21
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 21
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 21
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 21
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -117,6 +129,7 @@ let y: [.../*1*/x/*2*/];
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 27
             },
@@ -130,6 +143,7 @@ let y: [.../*1*/x/*2*/];
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 29
                         },
@@ -145,6 +159,7 @@ let y: [.../*1*/x/*2*/];
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 35
                                         },
@@ -159,43 +174,52 @@ let y: [.../*1*/x/*2*/];
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 41
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 41
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 35,
                                             "end": 41
                                         },
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 41
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 47
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 47
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 27,
                         "end": 47
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 47
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 22,
             "end": 48
         }
@@ -204,6 +228,7 @@ let y: [.../*1*/x/*2*/];
     "source": "let x: [?/*1*/x/*2*/];\n\nlet y: [.../*1*/x/*2*/];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }
@@ -212,9 +237,8 @@ let y: [.../*1*/x/*2*/];
 ### Printed
 
 ```javascript
-
-let x: [[?/*1*/x/*2*/]];
-let y: [[.../*1*/x/*2*/]];
+let x: [? x];
+let y: [...x];
 
 ```
 

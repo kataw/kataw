@@ -27,6 +27,7 @@ var foo; export {[foo]}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,21 +41,25 @@ var foo; export {[foo]}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 7
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -63,6 +68,7 @@ var foo; export {[foo]}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
@@ -73,10 +79,12 @@ var foo; export {[foo]}
                     "kind": 289,
                     "specifiers": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
@@ -84,6 +92,7 @@ var foo; export {[foo]}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 8,
             "end": 17
         },
@@ -99,20 +108,24 @@ var foo; export {[foo]}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 17,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 22
         }
@@ -121,6 +134,7 @@ var foo; export {[foo]}
     "source": "var foo; export {[foo]}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

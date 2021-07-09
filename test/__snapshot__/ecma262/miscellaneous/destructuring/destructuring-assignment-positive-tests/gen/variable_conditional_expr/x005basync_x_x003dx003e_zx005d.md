@@ -29,6 +29,7 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,12 +43,14 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -58,12 +61,14 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -74,21 +79,25 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -103,6 +112,7 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                         "text": "m",
                         "rawText": "m",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -119,32 +129,38 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                                             "text": "b",
                                             "rawText": "'b'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 19
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 4194336,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 15,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 12,
                     "end": 21
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -153,12 +169,14 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                     "text": "lhs",
                     "rawText": "lhs",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 27
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
@@ -174,6 +192,7 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 36
                                     },
@@ -183,6 +202,7 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 38
                                     },
@@ -190,6 +210,7 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 41
                                     },
@@ -198,26 +219,31 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 43
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 43
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 43
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 29,
                         "end": 44
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 46
                     },
@@ -228,22 +254,27 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 48
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 46,
                         "end": 49
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 29,
                     "end": 49
                 },
                 "flags": 268435488,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 49
         }
@@ -252,6 +283,7 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
     "source": "var x, y, z; m(['b']) ? lhs : [async x => z] = {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }

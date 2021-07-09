@@ -29,6 +29,7 @@
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -36,6 +37,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 65,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 10
                     },
@@ -44,18 +46,22 @@
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -64,6 +70,7 @@
     "source": "(async\n => async)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

@@ -30,12 +30,14 @@ function * gen() { (yield) ? yield : yield }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -44,6 +46,7 @@ function * gen() { (yield) ? yield : yield }
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -53,6 +56,7 @@ function * gen() { (yield) ? yield : yield }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -73,6 +77,7 @@ function * gen() { (yield) ? yield : yield }
                                         "yieldKeyword": {
                                             "kind": 8454253,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 25
                                         },
@@ -80,16 +85,19 @@ function * gen() { (yield) ? yield : yield }
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 20,
                                         "end": 25
                                     },
-                                    "flags": 32,
-                                    "start": 18,
+                                    "flags": 18,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 26
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -98,6 +106,7 @@ function * gen() { (yield) ? yield : yield }
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 34
                                     },
@@ -105,12 +114,14 @@ function * gen() { (yield) ? yield : yield }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 28,
                                     "end": 34
                                 },
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
                                 },
@@ -119,6 +130,7 @@ function * gen() { (yield) ? yield : yield }
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 42
                                     },
@@ -126,28 +138,34 @@ function * gen() { (yield) ? yield : yield }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 36,
                                     "end": 42
                                 },
-                                "flags": 32,
+                                "flags": 50,
+                                "transformFlags": 4096,
                                 "start": 18,
                                 "end": 42
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 18,
                             "end": 42
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 42
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 44
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -156,6 +174,7 @@ function * gen() { (yield) ? yield : yield }
     "source": "function * gen() { (yield) ? yield : yield }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -164,11 +183,9 @@ function * gen() { (yield) ? yield : yield }
 ### Printed
 
 ```javascript
-
-function * gen() {
+function *gen() {
   (yield ) ? yield  : yield ;
 }
-
 ```
 
 ### Diagnostics

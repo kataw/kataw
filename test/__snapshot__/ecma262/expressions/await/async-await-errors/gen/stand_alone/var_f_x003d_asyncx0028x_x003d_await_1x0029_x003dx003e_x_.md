@@ -29,6 +29,7 @@ var f = async(x = await 1) => x;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var f = async(x = await 1) => x;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -53,6 +55,7 @@ var f = async(x = await 1) => x;
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
@@ -66,12 +69,14 @@ var f = async(x = await 1) => x;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
@@ -80,10 +85,12 @@ var f = async(x = await 1) => x;
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 23
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 14,
                                         "end": 23
                                     },
@@ -92,29 +99,35 @@ var f = async(x = await 1) => x;
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 25
                             },
                             "flags": 268435490,
+                            "transformFlags": 1,
                             "start": 7,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -125,10 +138,12 @@ var f = async(x = await 1) => x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 29,
             "end": 32
         }
@@ -137,6 +152,7 @@ var f = async(x = await 1) => x;
     "source": "var f = async(x = await 1) => x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

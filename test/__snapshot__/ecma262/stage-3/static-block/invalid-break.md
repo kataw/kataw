@@ -35,6 +35,7 @@ switch (0) {
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -43,6 +44,7 @@ switch (0) {
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -54,12 +56,14 @@ switch (0) {
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 22
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 23
                         },
@@ -76,6 +80,7 @@ switch (0) {
                                             "classKeyword": {
                                                 "kind": 37822544,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 35
                                             },
@@ -84,6 +89,7 @@ switch (0) {
                                                 "text": "C",
                                                 "rawText": "C",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 37
                                             },
@@ -101,6 +107,7 @@ switch (0) {
                                                             "staticKeyword": {
                                                                 "kind": 8388716,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 39,
                                                                 "end": 52
                                                             },
@@ -115,6 +122,7 @@ switch (0) {
                                                                     "text": "foo",
                                                                     "rawText": "foo",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 52,
                                                                     "end": 56
                                                                 },
@@ -124,6 +132,7 @@ switch (0) {
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 0,
+                                                                    "transformFlags": 0,
                                                                     "start": 57,
                                                                     "end": 58
                                                                 },
@@ -135,18 +144,22 @@ switch (0) {
                                                                         "directives": [],
                                                                         "statements": [],
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 60,
                                                                         "end": 60
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 58,
                                                                     "end": 61
                                                                 },
                                                                 "flags": 0,
+                                                                "transformFlags": 0,
                                                                 "start": 56,
                                                                 "end": 61
                                                             },
                                                             "flags": 0,
+                                                            "transformFlags": 0,
                                                             "start": 52,
                                                             "end": 61
                                                         },
@@ -157,6 +170,7 @@ switch (0) {
                                                             "staticKeyword": {
                                                                 "kind": 8388716,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 61,
                                                                 "end": 74
                                                             },
@@ -170,60 +184,73 @@ switch (0) {
                                                                             "breakKeyword": {
                                                                                 "kind": 37757005,
                                                                                 "flags": 81,
+                                                                                "transformFlags": 0,
                                                                                 "start": 76,
                                                                                 "end": 90
                                                                             },
                                                                             "label": null,
                                                                             "flags": 16,
+                                                                            "transformFlags": 0,
                                                                             "start": 76,
                                                                             "end": 91
                                                                         }
                                                                     ],
                                                                     "flags": 17,
+                                                                    "transformFlags": 0,
                                                                     "start": 76,
                                                                     "end": 91
                                                                 },
                                                                 "flags": 61,
+                                                                "transformFlags": 0,
                                                                 "start": 0,
                                                                 "end": 99
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 61,
                                                             "end": 99
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 99
                                                 },
                                                 "flags": 37,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 105
                                             },
                                             "flags": 17,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 105
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 105
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 109
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 109
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 109
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 111
         }
@@ -232,6 +259,7 @@ switch (0) {
     "source": "switch (0) {\n  default: {\n    class C {\n      static foo() {}\n      static {\n        break;\n      }\n    }\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 111
 }

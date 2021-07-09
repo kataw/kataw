@@ -28,6 +28,7 @@ do[ /**/ /x do while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -42,20 +43,24 @@ do[ /**/ /x do while
                                 "kind": 371,
                                 "text": "/x do while",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 20
             },
@@ -65,10 +70,12 @@ do[ /**/ /x do while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -77,6 +84,7 @@ do[ /**/ /x do while
     "source": "do[ /**/ /x do while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

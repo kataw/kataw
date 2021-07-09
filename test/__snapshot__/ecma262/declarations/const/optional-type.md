@@ -20,6 +20,7 @@ const f = (...x?) => {}
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,6 +34,7 @@ const f = (...x?) => {}
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -49,6 +51,7 @@ const f = (...x?) => {}
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 14
                                         },
@@ -57,24 +60,28 @@ const f = (...x?) => {}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 16
                                         },
                                         "type": null,
                                         "right": null,
                                         "flags": 34,
+                                        "transformFlags": 4096,
                                         "start": 11,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 17
                             },
@@ -82,6 +89,7 @@ const f = (...x?) => {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 20
                             },
@@ -92,27 +100,33 @@ const f = (...x?) => {}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 22
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 23
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 23
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 23
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -121,6 +135,7 @@ const f = (...x?) => {}
     "source": "const f = (...x?) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -129,9 +144,7 @@ const f = (...x?) => {}
 ### Printed
 
 ```javascript
-
-const f = (...x?) => {};
-
+const f = (...x? ) => {};
 ```
 
 ### Diagnostics

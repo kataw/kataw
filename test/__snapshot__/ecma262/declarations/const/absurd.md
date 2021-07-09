@@ -26,6 +26,7 @@ const absurd = <T>(x: empty): T => {};
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -39,6 +40,7 @@ const absurd = <T>(x: empty): T => {};
                             "text": "absurd",
                             "rawText": "absurd",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 12
                         },
@@ -58,6 +60,7 @@ const absurd = <T>(x: empty): T => {};
                                                 "text": "T",
                                                 "rawText": "T",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 17
                                             },
@@ -65,16 +68,19 @@ const absurd = <T>(x: empty): T => {};
                                             "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 17
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 512,
                                 "start": 14,
                                 "end": 18
                             },
@@ -89,6 +95,7 @@ const absurd = <T>(x: empty): T => {};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 20
                                         },
@@ -104,26 +111,31 @@ const absurd = <T>(x: empty): T => {};
                                                     "text": "empty",
                                                     "rawText": "empty",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 27
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 27
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 27
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 14,
                                         "end": 27
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 31
                             },
@@ -138,21 +150,25 @@ const absurd = <T>(x: empty): T => {};
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 31
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 34
                             },
@@ -163,27 +179,33 @@ const absurd = <T>(x: empty): T => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 36
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 37
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 37
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 37
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 37
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -192,6 +214,7 @@ const absurd = <T>(x: empty): T => {};
     "source": "const absurd = <T>(x: empty): T => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -200,9 +223,7 @@ const absurd = <T>(x: empty): T => {};
 ### Printed
 
 ```javascript
-
 const absurd = <T>(x: empty) => {};
-
 ```
 
 ### Diagnostics

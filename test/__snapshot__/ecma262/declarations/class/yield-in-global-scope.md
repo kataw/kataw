@@ -22,10 +22,12 @@ yield 10
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -36,10 +38,12 @@ yield 10
                 "text": 10,
                 "rawText": "10",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 8
         }
@@ -48,6 +52,7 @@ yield 10
     "source": "yield 10",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

@@ -30,6 +30,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -42,6 +43,7 @@
                                         "text": "g1",
                                         "rawText": "g1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 6
                                     },
@@ -51,6 +53,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 8
                                     },
@@ -73,6 +76,7 @@
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 14,
                                                                         "end": 19
                                                                     },
@@ -80,55 +84,67 @@
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
+                                                                    "transformFlags": 4096,
                                                                     "start": 14,
                                                                     "end": 19
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 14,
                                                             "end": 19
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 8,
                                                         "start": 10,
                                                         "end": 20
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 4096,
                                                     "start": 10,
                                                     "end": 20
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 23
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 23
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 23
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 23
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 24
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -137,6 +153,7 @@
     "source": "({ *g1() {   [yield]  }})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -145,11 +162,9 @@
 ### Printed
 
 ```javascript
-
-({ * g1() {
-    [yield ,];
-  } });
-
+({ *g1() {
+      [yield ];
+    } });
 ```
 
 ### Diagnostics

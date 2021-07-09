@@ -34,10 +34,12 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 9
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 9
                                 },
@@ -50,10 +52,12 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 18
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 18
                                 },
@@ -66,10 +70,12 @@
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 27
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 27
                                 }
@@ -79,23 +85,28 @@
                                 "text": " baz",
                                 "rawText": " baz",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 33
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 33
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 33
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -104,6 +115,7 @@
     "source": "{`foo ${a} and ${b} and ${c} baz`}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -112,11 +124,11 @@
 ### Printed
 
 ```javascript
-
 {
-  `foo ${a} and ${b} and ${c} baz`;
+  `foo ${a},
+   and ${b},
+   and ${c} baz`;
 }
-
 ```
 
 ### Diagnostics

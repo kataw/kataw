@@ -29,6 +29,7 @@ var f = ({ __proto__: x, __proto__: y}) => {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var f = ({ __proto__: x, __proto__: y}) => {};
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -65,6 +67,7 @@ var f = ({ __proto__: x, __proto__: y}) => {};
                                                         "text": "__proto__",
                                                         "rawText": "__proto__",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 20
                                                     },
@@ -73,11 +76,13 @@ var f = ({ __proto__: x, __proto__: y}) => {};
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 23
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 23
                                                 },
@@ -88,6 +93,7 @@ var f = ({ __proto__: x, __proto__: y}) => {};
                                                         "text": "__proto__",
                                                         "rawText": "__proto__",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 34
                                                     },
@@ -96,27 +102,32 @@ var f = ({ __proto__: x, __proto__: y}) => {};
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 35,
                                                         "end": 37
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 37
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 37
                                         },
                                         "flags": 52,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 38
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 39
                             },
@@ -124,6 +135,7 @@ var f = ({ __proto__: x, __proto__: y}) => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 42
                             },
@@ -134,27 +146,33 @@ var f = ({ __proto__: x, __proto__: y}) => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 44
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 45
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 45
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 45
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -163,6 +181,7 @@ var f = ({ __proto__: x, __proto__: y}) => {};
     "source": "var f = ({ __proto__: x, __proto__: y}) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

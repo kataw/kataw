@@ -37,6 +37,7 @@
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 5
                                     },
@@ -45,26 +46,31 @@
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     },
                                     "flags": 1073741856,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 10
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 10
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
@@ -73,18 +79,22 @@
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 17
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -93,6 +103,7 @@
     "source": "({...yield} = obj)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -101,9 +112,7 @@
 ### Printed
 
 ```javascript
-
 ({ ...yield } = obj);
-
 ```
 
 ### Diagnostics

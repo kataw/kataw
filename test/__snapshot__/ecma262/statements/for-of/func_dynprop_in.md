@@ -20,6 +20,7 @@ for (function(){ }[x in y] of x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -32,6 +33,7 @@ for (function(){ }[x in y] of x);
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 13
                     },
@@ -43,6 +45,7 @@ for (function(){ }[x in y] of x);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
@@ -53,15 +56,18 @@ for (function(){ }[x in y] of x);
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 16
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 18
                 },
@@ -72,12 +78,14 @@ for (function(){ }[x in y] of x);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 20
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 23
                     },
@@ -86,20 +94,24 @@ for (function(){ }[x in y] of x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 25
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 19,
                     "end": 25
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 5,
                 "end": 26
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 29
             },
@@ -108,16 +120,19 @@ for (function(){ }[x in y] of x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 33
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -126,6 +141,7 @@ for (function(){ }[x in y] of x);
     "source": "for (function(){ }[x in y] of x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -134,10 +150,7 @@ for (function(){ }[x in y] of x);
 ### Printed
 
 ```javascript
-
-for (function () {}[x in y] of x)
-  ;
-
+for (function () {}[x in y] of x);
 ```
 
 ### Diagnostics

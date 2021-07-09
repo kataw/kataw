@@ -22,12 +22,14 @@ x /* comment 1 */ : /* comment 2 */  y;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 1
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 19
             },
@@ -38,14 +40,17 @@ x /* comment 1 */ : /* comment 2 */  y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 38
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 19,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -54,6 +59,7 @@ x /* comment 1 */ : /* comment 2 */  y;
     "source": "x /* comment 1 */ : /* comment 2 */  y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }
@@ -62,9 +68,7 @@ x /* comment 1 */ : /* comment 2 */  y;
 ### Printed
 
 ```javascript
-
-x/* comment 1 */:/* comment 2 */ y;
-
+x:  y;
 ```
 
 ### Diagnostics

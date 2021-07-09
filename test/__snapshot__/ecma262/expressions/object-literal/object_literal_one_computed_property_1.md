@@ -24,6 +24,7 @@ x({[a]:b}=obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -47,10 +48,12 @@ x({[a]:b}=obj);
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 4,
                                                     "end": 5
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 3,
                                                 "end": 6
                                             },
@@ -59,26 +62,31 @@ x({[a]:b}=obj);
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 8
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 3,
                                             "end": 8
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 8
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 2,
                                 "end": 9
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 10
                             },
@@ -87,24 +95,29 @@ x({[a]:b}=obj);
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 2,
                             "end": 13
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 13
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -113,6 +126,7 @@ x({[a]:b}=obj);
     "source": "x({[a]:b}=obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -121,9 +135,7 @@ x({[a]:b}=obj);
 ### Printed
 
 ```javascript
-
-x({ [a] : b } = obj);
-
+x({ [a]: b } = obj);
 ```
 
 ### Diagnostics

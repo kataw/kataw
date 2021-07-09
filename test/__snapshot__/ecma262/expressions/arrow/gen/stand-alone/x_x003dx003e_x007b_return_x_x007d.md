@@ -34,6 +34,7 @@ x => { return x; } ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -41,6 +42,7 @@ x => { return x; } ;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -55,6 +57,7 @@ x => { return x; } ;
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 13
                                 },
@@ -63,27 +66,33 @@ x => { return x; } ;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 6,
                                 "end": 16
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -92,6 +101,7 @@ x => { return x; } ;
     "source": "x => { return x; } ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -100,11 +110,9 @@ x => { return x; } ;
 ### Printed
 
 ```javascript
-
 x => {
   return x;
 };
-
 ```
 
 ### Diagnostics

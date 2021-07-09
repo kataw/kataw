@@ -32,6 +32,7 @@ s.map(// do something
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
@@ -45,6 +46,7 @@ s.map(// do something
                             "text": "s",
                             "rawText": "s",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
@@ -57,28 +59,34 @@ s.map(// do something
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 29
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 31
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 31
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 19,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         },
@@ -93,6 +101,7 @@ s.map(// do something
                         "text": "s",
                         "rawText": "s",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
@@ -101,10 +110,12 @@ s.map(// do something
                         "text": "map",
                         "rawText": "map",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 38
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 32,
                     "end": 38
                 },
@@ -117,6 +128,7 @@ s.map(// do something
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 67
                             },
@@ -128,6 +140,7 @@ s.map(// do something
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 69,
                                 "end": 69
                             },
@@ -138,29 +151,35 @@ s.map(// do something
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 72
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 74
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 74
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 74
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 32,
                 "end": 75
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 32,
             "end": 76
         }
@@ -169,6 +188,7 @@ s.map(// do something
     "source": "//commment here\nvar s: string[];\ns.map(// do something\n    function () { });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 76
 }
@@ -177,10 +197,8 @@ s.map(// do something
 ### Printed
 
 ```javascript
-//commment here
 var s: string[];
-s.map(// do something
-function () {});
+s.map(function () {});
 
 ```
 

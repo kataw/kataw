@@ -39,6 +39,7 @@ const [a=[...b], ...c] = obj;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -60,6 +61,7 @@ const [a=[...b], ...c] = obj;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -75,6 +77,7 @@ const [a=[...b], ...c] = obj;
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 10,
                                                             "end": 13
                                                         },
@@ -83,24 +86,29 @@ const [a=[...b], ...c] = obj;
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 13,
                                                             "end": 14
                                                         },
                                                         "flags": 1073741856,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 14
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 14
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 9,
                                             "end": 15
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 15
                                     },
@@ -109,6 +117,7 @@ const [a=[...b], ...c] = obj;
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 20
                                         },
@@ -117,6 +126,7 @@ const [a=[...b], ...c] = obj;
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 21
                                         },
@@ -124,16 +134,19 @@ const [a=[...b], ...c] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 16,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 21
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 22
                         },
@@ -143,19 +156,23 @@ const [a=[...b], ...c] = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 28
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 28
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -164,6 +181,7 @@ const [a=[...b], ...c] = obj;
     "source": "const [a=[...b], ...c] = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -172,9 +190,7 @@ const [a=[...b], ...c] = obj;
 ### Printed
 
 ```javascript
-
 const [a = [...b], ...c] = obj;
-
 ```
 
 ### Diagnostics

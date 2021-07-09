@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from './';
 import { BinaryExpression } from './binary-expr';
@@ -32,6 +32,7 @@ export function createConditionalExpression(
     colonToken,
     alternate,
     flags,
+    transformFlags: TransformFlags.ArrowFolding,
     start,
     end
   };

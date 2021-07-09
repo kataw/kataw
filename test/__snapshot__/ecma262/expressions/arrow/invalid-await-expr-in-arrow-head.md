@@ -26,14 +26,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 12
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         },
@@ -44,10 +47,12 @@
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 16
         },
@@ -57,16 +62,19 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 23
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 24
         },
@@ -78,14 +86,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 24,
                     "end": 38
                 },
-                "flags": 32,
-                "start": 24,
+                "flags": 24,
+                "transformFlags": 0,
+                "start": 35,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 24,
             "end": 38
         },
@@ -96,10 +107,12 @@
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 38,
             "end": 42
         },
@@ -109,16 +122,19 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 46,
             "end": 49
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 49,
             "end": 50
         }
@@ -127,6 +143,7 @@
     "source": "({x} = await bar) => {};\n\n([x] = await bar) => {};\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

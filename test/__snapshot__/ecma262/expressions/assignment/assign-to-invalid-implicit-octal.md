@@ -39,12 +39,14 @@ x = 01124n;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -53,14 +55,17 @@ x = 01124n;
                     "text": 1124,
                     "rawText": "01124__________________",
                     "flags": 65632,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 28
         },
@@ -73,12 +78,14 @@ x = 01124n;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 31
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 33
                 },
@@ -87,14 +94,17 @@ x = 01124n;
                     "text": 1124,
                     "rawText": "01____124__________________",
                     "flags": 65632,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 61
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 28,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 28,
             "end": 62
         },
@@ -107,12 +117,14 @@ x = 01124n;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 62,
                     "end": 65
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 67
                 },
@@ -121,14 +133,17 @@ x = 01124n;
                     "text": 1124,
                     "rawText": "01____124",
                     "flags": 65632,
+                    "transformFlags": 0,
                     "start": 67,
                     "end": 77
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 62,
                 "end": 77
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 62,
             "end": 78
         },
@@ -141,12 +156,14 @@ x = 01124n;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 78,
                     "end": 81
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 81,
                     "end": 83
                 },
@@ -154,15 +171,18 @@ x = 01124n;
                     "kind": 201392400,
                     "text": "01____124",
                     "rawText": "01____124n",
-                    "flags": 96,
+                    "flags": 65632,
+                    "transformFlags": 0,
                     "start": 83,
                     "end": 94
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 78,
                 "end": 94
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 78,
             "end": 95
         },
@@ -175,12 +195,14 @@ x = 01124n;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 95,
                     "end": 98
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 98,
                     "end": 100
                 },
@@ -189,14 +211,17 @@ x = 01124n;
                     "text": "01124",
                     "rawText": "01124n",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 100,
                     "end": 107
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 95,
                 "end": 107
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 95,
             "end": 108
         }
@@ -205,6 +230,7 @@ x = 01124n;
     "source": "x = 01124__________________;\n\nx = 01____124__________________;\n\nx = 01____124;\n\nx = 01____124n;\n\nx = 01124n;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 109
 }

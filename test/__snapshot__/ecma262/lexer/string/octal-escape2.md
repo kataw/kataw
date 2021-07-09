@@ -28,10 +28,12 @@
                 "text": "115",
                 "rawText": "\"\\115\"",
                 "flags": 262240,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         }
@@ -40,6 +42,7 @@
     "source": "\"\\115\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }
@@ -48,9 +51,7 @@
 ### Printed
 
 ```javascript
-
-'"\115"';
-
+"\"\115\"";
 ```
 
 ### Diagnostics

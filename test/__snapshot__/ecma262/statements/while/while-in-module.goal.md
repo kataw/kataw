@@ -26,6 +26,7 @@ while (i-- > 0) {}
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ while (i-- > 0) {}
                     "operandToken": {
                         "kind": 196636,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
@@ -44,16 +46,19 @@ while (i-- > 0) {}
                         "text": "i",
                         "rawText": "i",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -62,10 +67,12 @@ while (i-- > 0) {}
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 7,
                 "end": 14
             },
@@ -75,14 +82,17 @@ while (i-- > 0) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -91,6 +101,7 @@ while (i-- > 0) {}
     "source": "while (i-- > 0) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -99,9 +110,7 @@ while (i-- > 0) {}
 ### Printed
 
 ```javascript
-
-while (i-- > 0) { }
-
+while (i-- > 0) {}
 ```
 
 ### Diagnostics

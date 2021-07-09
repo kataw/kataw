@@ -30,6 +30,7 @@ typeof new x()
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -38,6 +39,7 @@ typeof new x()
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 10
                     },
@@ -46,6 +48,7 @@ typeof new x()
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
@@ -54,18 +57,22 @@ typeof new x()
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
                     "flags": 96,
+                    "transformFlags": 2048,
                     "start": 6,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -74,6 +81,7 @@ typeof new x()
     "source": "typeof new x()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -82,9 +90,7 @@ typeof new x()
 ### Printed
 
 ```javascript
-
 typeof new x();
-
 ```
 
 ### Diagnostics

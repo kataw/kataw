@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { ExpressionNode } from '../expressions';
 
 export interface ExpressionStatement extends SyntaxNode {
@@ -10,6 +10,7 @@ export function createExpressionStatement(expression: ExpressionNode, start: num
     kind: SyntaxKind.ExpressionStatement,
     expression,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.ArrowFolding,
     start,
     end
   };

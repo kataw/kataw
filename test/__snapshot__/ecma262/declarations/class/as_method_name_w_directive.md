@@ -22,6 +22,7 @@ class c {eval(){ "use strict"; }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class c {eval(){ "use strict"; }}
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class c {eval(){ "use strict"; }}
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 13
                                 },
@@ -65,6 +68,7 @@ class c {eval(){ "use strict"; }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -79,37 +83,45 @@ class c {eval(){ "use strict"; }}
                                                 "text": "use strict",
                                                 "rawText": "\"use strict\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 29
                                             }
                                         ],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 30
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 32
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 32
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 32
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -118,6 +130,7 @@ class c {eval(){ "use strict"; }}
     "source": "class c {eval(){ \"use strict\"; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -126,13 +139,9 @@ class c {eval(){ "use strict"; }}
 ### Printed
 
 ```javascript
-
 class c {
-  eval() {
-  '"use strict"';
-  }
+  eval() {}
 }
-
 ```
 
 ### Diagnostics

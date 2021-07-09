@@ -30,6 +30,7 @@ new /more crap/g
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,15 +38,18 @@ new /more crap/g
                     "kind": 371,
                     "text": "/more crap/g",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 16
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -54,6 +58,7 @@ new /more crap/g
     "source": "new /more crap/g",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -62,9 +67,7 @@ new /more crap/g
 ### Printed
 
 ```javascript
-
 new /more crap/g;
-
 ```
 
 ### Diagnostics

@@ -39,6 +39,7 @@ for ([a.b] of c) d
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -55,6 +56,7 @@ for ([a.b] of c) d
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
@@ -63,26 +65,31 @@ for ([a.b] of c) d
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 6,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 10
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -91,6 +98,7 @@ for ([a.b] of c) d
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -101,14 +109,17 @@ for ([a.b] of c) d
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 16,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -117,6 +128,7 @@ for ([a.b] of c) d
     "source": "for ([a.b] of c) d",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -125,10 +137,7 @@ for ([a.b] of c) d
 ### Printed
 
 ```javascript
-
-for ([a.b,] of c)
-  d;
-
+for ([a.b] of c) d;
 ```
 
 ### Diagnostics

@@ -28,6 +28,7 @@ while (a) let [x] = y;
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ while (a) let [x] = y;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -50,6 +52,7 @@ while (a) let [x] = y;
                             "text": "let",
                             "rawText": "let",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
@@ -58,16 +61,19 @@ while (a) let [x] = y;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 16
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 9,
                         "end": 17
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
@@ -76,18 +82,22 @@ while (a) let [x] = y;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 9,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 9,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -96,6 +106,7 @@ while (a) let [x] = y;
     "source": "while (a) let [x] = y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

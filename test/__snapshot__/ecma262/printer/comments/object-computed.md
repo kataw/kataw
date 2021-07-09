@@ -24,6 +24,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
@@ -48,23 +50,28 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 13
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 11,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 14
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -79,6 +86,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
@@ -87,30 +95,36 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "text": "bar",
                         "rawText": "\"bar\"",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 26
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 15,
                     "end": 27
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
                 "right": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 15,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 35
         },
@@ -125,6 +139,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 39
                     },
@@ -133,30 +148,36 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "text": "foo-bar",
                         "rawText": "\"foo-bar\"",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 40,
                         "end": 49
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 35,
                     "end": 50
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 52
                 },
                 "right": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 57
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 35,
                 "end": 57
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 35,
             "end": 58
         },
@@ -179,6 +200,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 58,
                                         "end": 62
                                     },
@@ -187,10 +209,12 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 63,
                                         "end": 66
                                     },
                                     "flags": 97,
+                                    "transformFlags": 2,
                                     "start": 58,
                                     "end": 66
                                 },
@@ -199,10 +223,12 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                                     "text": "bar",
                                     "rawText": "\"bar\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 67,
                                     "end": 72
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 4,
                                 "start": 58,
                                 "end": 73
                             },
@@ -211,10 +237,12 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                                 "text": "lorem_ispsum",
                                 "rawText": "\"lorem_ispsum\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 74,
                                 "end": 88
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 58,
                             "end": 89
                         },
@@ -223,10 +251,12 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 90,
                             "end": 93
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 58,
                         "end": 93
                     },
@@ -235,30 +265,36 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "text": "lorem-ipsum",
                         "rawText": "\"lorem-ipsum\"",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 94,
                         "end": 107
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 58,
                     "end": 108
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 108,
                     "end": 110
                 },
                 "right": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 110,
                     "end": 115
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 58,
                 "end": 115
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 58,
             "end": 116
         }
@@ -267,6 +303,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
     "source": "const foo = {};\n\nfoo[\"bar\"] = true;\nfoo[\"foo-bar\"] = true;\nfoo.bar[\"bar\"][\"lorem_ispsum\"].foo[\"lorem-ipsum\"] = true;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 116
 }
@@ -275,11 +312,12 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
 ### Printed
 
 ```javascript
-
 const foo = {};
-foo['"bar"'] = true;
-foo['"foo-bar"'] = true;
-foo.bar['"bar"']['"lorem_ispsum"'].foo['"lorem-ipsum"'] = true;
+foo["\"bar\""] = true;
+
+foo["\"foo-bar\""] = true;
+
+foo.bar["\"bar\""]["\"lorem_ispsum\""].foo["\"lorem-ipsum\""] = true;
 
 ```
 

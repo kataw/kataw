@@ -28,6 +28,7 @@ const {x} = v
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -46,16 +47,19 @@ const {x} = v
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
@@ -65,19 +69,23 @@ const {x} = v
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 13
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 13
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -86,6 +94,7 @@ const {x} = v
     "source": "const {x} = v",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -94,11 +103,7 @@ const {x} = v
 ### Printed
 
 ```javascript
-
-const {
-  x
-} = v;
-
+const { x } = v;
 ```
 
 ### Diagnostics

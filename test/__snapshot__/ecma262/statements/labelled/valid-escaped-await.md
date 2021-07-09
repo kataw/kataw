@@ -28,12 +28,14 @@ aw\u0061it: 1;
                 "text": "await",
                 "rawText": "aw\\u0061it",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -44,14 +46,17 @@ aw\u0061it: 1;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 11,
                 "end": 14
             },
             "flags": 16400,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -60,6 +65,7 @@ aw\u0061it: 1;
     "source": "aw\\u0061it: 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -68,9 +74,7 @@ aw\u0061it: 1;
 ### Printed
 
 ```javascript
-
-aw\u0061it: 1;
-
+aw\u0061it:  1;
 ```
 
 ### Diagnostics

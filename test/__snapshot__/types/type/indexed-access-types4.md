@@ -29,6 +29,7 @@ type E = Obj['bar'][];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type E = Obj['bar'][];
                 "text": "E",
                 "rawText": "E",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type E = Obj['bar'][];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,11 +65,13 @@ type E = Obj['bar'][];
                                 "text": "Obj",
                                 "rawText": "Obj",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 12
                         },
@@ -79,26 +84,32 @@ type E = Obj['bar'][];
                                 "text": "bar",
                                 "rawText": "'bar'",
                                 "flags": 6291520,
+                                "transformFlags": 1024,
                                 "start": 13,
                                 "end": 18
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 18
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 20
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 21
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 21
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -107,6 +118,7 @@ type E = Obj['bar'][];
     "source": "type E = Obj['bar'][];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -115,9 +127,7 @@ type E = Obj['bar'][];
 ### Printed
 
 ```javascript
-
-type E = Obj[ '\'bar\''][]
-
+type E = Obj["'bar'"][]
 ```
 
 ### Diagnostics

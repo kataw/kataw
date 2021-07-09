@@ -38,6 +38,7 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 3
                                 },
@@ -55,12 +56,14 @@
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 9
                                                     },
                                                     "operatorToken": {
                                                         "kind": 99634,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 9,
                                                         "end": 11
                                                     },
@@ -69,10 +72,12 @@
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 13
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 5120,
                                                     "start": 6,
                                                     "end": 13
                                                 },
@@ -81,22 +86,26 @@
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 18
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 18
                                         },
                                         "flags": 32,
+                                        "transformFlags": 8,
                                         "start": 4,
                                         "end": 19
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     },
@@ -105,28 +114,34 @@
                                         "text": "zoo",
                                         "rawText": "zoo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 25
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 4,
                                     "end": 25
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 1024,
                             "start": 1,
                             "end": 25
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -135,6 +150,7 @@
     "source": "{ x, [foo + y, bar] = zoo; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { BlockStatement } from './block-stmt';
 import { ArrayBindingPattern } from '../expressions/array-binding-pattern';
@@ -29,6 +29,7 @@ export function createCatch(
     catchParameter,
     block,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

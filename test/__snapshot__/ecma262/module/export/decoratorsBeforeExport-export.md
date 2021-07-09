@@ -33,6 +33,7 @@ export class Foo {}
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -41,15 +42,18 @@ export class Foo {}
                             "text": "decorator",
                             "rawText": "decorator",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 10
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 10
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -59,6 +63,7 @@ export class Foo {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 10
             },
@@ -70,14 +75,17 @@ export class Foo {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 10
                 },
                 "flags": 10,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 10
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -86,6 +94,7 @@ export class Foo {}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 17
             },
@@ -96,6 +105,7 @@ export class Foo {}
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 23
                 },
@@ -104,6 +114,7 @@ export class Foo {}
                     "text": "Foo",
                     "rawText": "Foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 27
                 },
@@ -115,14 +126,17 @@ export class Foo {}
                         "kind": 303,
                         "elements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 29
                     },
                     "flags": 27,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 30
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 30
             },
@@ -131,6 +145,7 @@ export class Foo {}
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 10,
             "end": 30
         }
@@ -139,6 +154,7 @@ export class Foo {}
     "source": "@decorator\nexport class Foo {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

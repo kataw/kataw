@@ -32,12 +32,14 @@ a = [[x]] = value;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -58,32 +60,38 @@ a = [[x]] = value;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 7
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 7
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 5,
                                     "end": 8
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
@@ -92,18 +100,22 @@ a = [[x]] = value;
                         "text": "value",
                         "rawText": "value",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -112,6 +124,7 @@ a = [[x]] = value;
     "source": "a = [[x]] = value;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -120,9 +133,7 @@ a = [[x]] = value;
 ### Printed
 
 ```javascript
-
-a = [[x,],] = value;
-
+a = [[x]] = value;
 ```
 
 ### Diagnostics

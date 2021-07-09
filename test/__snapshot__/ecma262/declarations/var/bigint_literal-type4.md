@@ -27,6 +27,7 @@ var a: 0x5E1719E3Bn
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ var a: 0x5E1719E3Bn
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -52,24 +54,29 @@ var a: 0x5E1719E3Bn
                                 "text": 25257156155,
                                 "rawText": "0x5E1719E3Bn",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 19
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 19
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -78,6 +85,7 @@ var a: 0x5E1719E3Bn
     "source": "var a: 0x5E1719E3Bn",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -86,9 +94,7 @@ var a: 0x5E1719E3Bn
 ### Printed
 
 ```javascript
-
 var a: 0x5e1719e3bn;
-
 ```
 
 ### Diagnostics

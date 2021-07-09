@@ -24,12 +24,14 @@ a&&b
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 33594,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -38,14 +40,17 @@ a&&b
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 4
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         }
@@ -54,6 +59,7 @@ a&&b
     "source": "a&&b",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }
@@ -62,9 +68,7 @@ a&&b
 ### Printed
 
 ```javascript
-
 a && b;
-
 ```
 
 ### Diagnostics

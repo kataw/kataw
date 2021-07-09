@@ -42,6 +42,7 @@ export const [destructuredArrNumber2] = [1]
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -55,6 +56,7 @@ export const [destructuredArrNumber2] = [1]
                             "text": "specifierNumber4",
                             "rawText": "specifierNumber4",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 22
                         },
@@ -64,19 +66,23 @@ export const [destructuredArrNumber2] = [1]
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 26
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         },
@@ -85,6 +91,7 @@ export const [destructuredArrNumber2] = [1]
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 33
             },
@@ -98,6 +105,7 @@ export const [destructuredArrNumber2] = [1]
                             "text": "specifierNumber5",
                             "rawText": "specifierNumber5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 50
                         },
@@ -107,19 +115,23 @@ export const [destructuredArrNumber2] = [1]
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 52,
                             "end": 54
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 33,
                         "end": 54
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 54
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 27,
             "end": 55
         },
@@ -128,6 +140,7 @@ export const [destructuredArrNumber2] = [1]
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 61
             },
@@ -141,6 +154,7 @@ export const [destructuredArrNumber2] = [1]
                             "text": "groupedSpecifierNumber3",
                             "rawText": "groupedSpecifierNumber3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 61,
                             "end": 85
                         },
@@ -150,19 +164,23 @@ export const [destructuredArrNumber2] = [1]
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 87,
                             "end": 89
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 61,
                         "end": 89
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 89
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 55,
             "end": 90
         },
@@ -171,6 +189,7 @@ export const [destructuredArrNumber2] = [1]
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 96
             },
@@ -184,6 +203,7 @@ export const [destructuredArrNumber2] = [1]
                             "text": "groupedSpecifierNumber4",
                             "rawText": "groupedSpecifierNumber4",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 96,
                             "end": 120
                         },
@@ -193,19 +213,23 @@ export const [destructuredArrNumber2] = [1]
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 122,
                             "end": 124
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 96,
                         "end": 124
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 124
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 90,
             "end": 125
         },
@@ -214,6 +238,7 @@ export const [destructuredArrNumber2] = [1]
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 125,
                 "end": 133
             },
@@ -231,21 +256,25 @@ export const [destructuredArrNumber2] = [1]
                                 "text": "specifierNumber4",
                                 "rawText": "specifierNumber4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 135,
                                 "end": 151
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 135,
                             "end": 151
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 135,
                     "end": 151
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 133,
                 "end": 152
             },
@@ -253,6 +282,7 @@ export const [destructuredArrNumber2] = [1]
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 125,
             "end": 153
         },
@@ -261,6 +291,7 @@ export const [destructuredArrNumber2] = [1]
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 160
             },
@@ -278,12 +309,14 @@ export const [destructuredArrNumber2] = [1]
                                 "text": "specifierNumber5",
                                 "rawText": "specifierNumber5",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 162,
                                 "end": 178
                             },
                             "asKeyword": {
                                 "kind": 16494,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 178,
                                 "end": 181
                             },
@@ -292,19 +325,23 @@ export const [destructuredArrNumber2] = [1]
                                 "text": "specifierNumber5Renamed",
                                 "rawText": "specifierNumber5Renamed",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 181,
                                 "end": 205
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 162,
                             "end": 205
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 162,
                     "end": 205
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 160,
                 "end": 206
             },
@@ -312,6 +349,7 @@ export const [destructuredArrNumber2] = [1]
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 153,
             "end": 207
         },
@@ -320,6 +358,7 @@ export const [destructuredArrNumber2] = [1]
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 207,
                 "end": 214
             },
@@ -337,12 +376,14 @@ export const [destructuredArrNumber2] = [1]
                                 "text": "groupedSpecifierNumber3",
                                 "rawText": "groupedSpecifierNumber3",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 216,
                                 "end": 239
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 216,
                             "end": 239
                         },
@@ -354,21 +395,25 @@ export const [destructuredArrNumber2] = [1]
                                 "text": "groupedSpecifierNumber4",
                                 "rawText": "groupedSpecifierNumber4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 240,
                                 "end": 264
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 240,
                             "end": 264
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 216,
                     "end": 264
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 214,
                 "end": 265
             },
@@ -376,6 +421,7 @@ export const [destructuredArrNumber2] = [1]
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 207,
             "end": 266
         },
@@ -384,6 +430,7 @@ export const [destructuredArrNumber2] = [1]
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 266,
                 "end": 274
             },
@@ -394,6 +441,7 @@ export const [destructuredArrNumber2] = [1]
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 274,
                     "end": 283
                 },
@@ -403,6 +451,7 @@ export const [destructuredArrNumber2] = [1]
                     "text": "givesANumber2",
                     "rawText": "givesANumber2",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 283,
                     "end": 297
                 },
@@ -412,6 +461,7 @@ export const [destructuredArrNumber2] = [1]
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 298,
                     "end": 298
                 },
@@ -426,6 +476,7 @@ export const [destructuredArrNumber2] = [1]
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 309,
                                     "end": 316
                                 },
@@ -434,19 +485,23 @@ export const [destructuredArrNumber2] = [1]
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 316,
                                     "end": 319
                                 },
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 309,
                                 "end": 320
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 309,
                         "end": 320
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 307,
                     "end": 322
                 },
@@ -457,14 +512,17 @@ export const [destructuredArrNumber2] = [1]
                     "type": {
                         "kind": 134234345,
                         "flags": 2097216,
+                        "transformFlags": 0,
                         "start": 300,
                         "end": 307
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 300,
                     "end": 307
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 274,
                 "end": 322
             },
@@ -473,12 +531,14 @@ export const [destructuredArrNumber2] = [1]
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 266,
             "end": 322
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 322,
             "end": 323
         },
@@ -487,6 +547,7 @@ export const [destructuredArrNumber2] = [1]
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 323,
                 "end": 330
             },
@@ -497,6 +558,7 @@ export const [destructuredArrNumber2] = [1]
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 330,
                     "end": 336
                 },
@@ -505,6 +567,7 @@ export const [destructuredArrNumber2] = [1]
                     "text": "NumberGenerator2",
                     "rawText": "NumberGenerator2",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 336,
                     "end": 353
                 },
@@ -531,6 +594,7 @@ export const [destructuredArrNumber2] = [1]
                                         "text": "givesANumber",
                                         "rawText": "givesANumber",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 355,
                                         "end": 368
                                     },
@@ -540,6 +604,7 @@ export const [destructuredArrNumber2] = [1]
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 369,
                                         "end": 370
                                     },
@@ -550,10 +615,12 @@ export const [destructuredArrNumber2] = [1]
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 371,
                                             "end": 378
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 371,
                                         "end": 378
                                     },
@@ -568,6 +635,7 @@ export const [destructuredArrNumber2] = [1]
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 380,
                                                         "end": 387
                                                     },
@@ -576,40 +644,49 @@ export const [destructuredArrNumber2] = [1]
                                                         "text": 42,
                                                         "rawText": "42",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 387,
                                                         "end": 390
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 256,
                                                     "start": 380,
                                                     "end": 391
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 380,
                                             "end": 391
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 378,
                                         "end": 393
                                     },
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 368,
                                     "end": 393
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 355,
                                 "end": 393
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 355,
                         "end": 393
                     },
                     "flags": 353,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 394
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 330,
                 "end": 394
             },
@@ -618,12 +695,14 @@ export const [destructuredArrNumber2] = [1]
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 323,
             "end": 394
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 394,
             "end": 395
         },
@@ -632,6 +711,7 @@ export const [destructuredArrNumber2] = [1]
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 395,
                 "end": 403
             },
@@ -640,6 +720,7 @@ export const [destructuredArrNumber2] = [1]
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 403,
                     "end": 409
                 },
@@ -653,6 +734,7 @@ export const [destructuredArrNumber2] = [1]
                                 "text": "varDeclNumber3",
                                 "rawText": "varDeclNumber3",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 409,
                                 "end": 424
                             },
@@ -662,10 +744,12 @@ export const [destructuredArrNumber2] = [1]
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 426,
                                 "end": 428
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 409,
                             "end": 428
                         },
@@ -676,6 +760,7 @@ export const [destructuredArrNumber2] = [1]
                                 "text": "varDeclNumber4",
                                 "rawText": "varDeclNumber4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 429,
                                 "end": 444
                             },
@@ -685,19 +770,23 @@ export const [destructuredArrNumber2] = [1]
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 446,
                                 "end": 448
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 429,
                             "end": 448
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 409,
                     "end": 448
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 403,
                 "end": 449
             },
@@ -706,6 +795,7 @@ export const [destructuredArrNumber2] = [1]
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 395,
             "end": 449
         },
@@ -714,6 +804,7 @@ export const [destructuredArrNumber2] = [1]
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 449,
                 "end": 456
             },
@@ -722,6 +813,7 @@ export const [destructuredArrNumber2] = [1]
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 456,
                     "end": 462
                 },
@@ -740,16 +832,19 @@ export const [destructuredArrNumber2] = [1]
                                             "text": "destructuredObjNumber2",
                                             "rawText": "destructuredObjNumber2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 464,
                                             "end": 486
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 464,
                                     "end": 486
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 462,
                                 "end": 487
                             },
@@ -767,6 +862,7 @@ export const [destructuredArrNumber2] = [1]
                                                 "text": "destructuredObjNumber2",
                                                 "rawText": "destructuredObjNumber2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 491,
                                                 "end": 513
                                             },
@@ -775,33 +871,40 @@ export const [destructuredArrNumber2] = [1]
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 514,
                                                 "end": 516
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 491,
                                             "end": 516
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 491,
                                     "end": 516
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 489,
                                 "end": 517
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 462,
                             "end": 517
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 462,
                     "end": 517
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 456,
                 "end": 518
             },
@@ -810,6 +913,7 @@ export const [destructuredArrNumber2] = [1]
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 449,
             "end": 518
         },
@@ -818,6 +922,7 @@ export const [destructuredArrNumber2] = [1]
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 518,
                 "end": 525
             },
@@ -826,6 +931,7 @@ export const [destructuredArrNumber2] = [1]
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 525,
                     "end": 531
                 },
@@ -844,16 +950,19 @@ export const [destructuredArrNumber2] = [1]
                                             "text": "destructuredArrNumber2",
                                             "rawText": "destructuredArrNumber2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 533,
                                             "end": 555
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 533,
                                     "end": 555
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 531,
                                 "end": 556
                             },
@@ -868,29 +977,35 @@ export const [destructuredArrNumber2] = [1]
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 560,
                                             "end": 561
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 560,
                                     "end": 561
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 558,
                                 "end": 562
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 531,
                             "end": 562
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 531,
                     "end": 562
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 525,
                 "end": 562
             },
@@ -899,6 +1014,7 @@ export const [destructuredArrNumber2] = [1]
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 518,
             "end": 562
         }
@@ -907,6 +1023,7 @@ export const [destructuredArrNumber2] = [1]
     "source": "const specifierNumber4 = 1;\nconst specifierNumber5 = 2;\nconst groupedSpecifierNumber3 = 1;\nconst groupedSpecifierNumber4 = 2;\n\nexport {specifierNumber4};\nexport {specifierNumber5 as specifierNumber5Renamed};\nexport {groupedSpecifierNumber3, groupedSpecifierNumber4};\n\nexport function givesANumber2(): number { return 42; };\nexport class NumberGenerator2 { givesANumber(): number { return 42; }};\n\nexport const varDeclNumber3 = 1, varDeclNumber4 = 2;\nexport const {destructuredObjNumber2} = {destructuredObjNumber2: 1};\nexport const [destructuredArrNumber2] = [1]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 562
 }
@@ -915,29 +1032,34 @@ export const [destructuredArrNumber2] = [1]
 ### Printed
 
 ```javascript
-
 const specifierNumber4 = 1;
 const specifierNumber5 = 2;
+
 const groupedSpecifierNumber3 = 1;
+
 const groupedSpecifierNumber4 = 2;
-export { specifierNumber4, };
-export { specifierNumber5 as  specifierNumber5Renamed, };
-export { groupedSpecifierNumber3, groupedSpecifierNumber4, };
+
+export { specifierNumber4  };
+
+export { specifierNumber5 as  specifierNumber5Renamed };
+
+export { groupedSpecifierNumber3 , groupedSpecifierNumber4  };
+
 export function givesANumber2(): number {
   return 42;
 }
-;
+
 export class NumberGenerator2 {
   givesANumber(): number {
     return 42;
   }
 }
-;
+
 export const varDeclNumber3 = 1, varDeclNumber4 = 2;
-export const {
-  destructuredObjNumber2
-} = { destructuredObjNumber2 : 1 };
-export const [destructuredArrNumber2] = [1,];
+
+export const { destructuredObjNumber2 } = { destructuredObjNumber2: 1 };
+
+export const [destructuredArrNumber2] = [1];
 
 ```
 

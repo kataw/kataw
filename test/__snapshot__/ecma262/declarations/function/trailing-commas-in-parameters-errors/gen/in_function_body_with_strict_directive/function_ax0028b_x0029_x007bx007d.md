@@ -30,6 +30,7 @@ function foo() {'use strict'; function  a(b,,) {} }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function foo() {'use strict'; function  a(b,,) {} }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -48,6 +50,7 @@ function foo() {'use strict'; function  a(b,,) {} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -61,6 +64,7 @@ function foo() {'use strict'; function  a(b,,) {} }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 28
                         }
@@ -73,6 +77,7 @@ function foo() {'use strict'; function  a(b,,) {} }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 38
                             },
@@ -82,6 +87,7 @@ function foo() {'use strict'; function  a(b,,) {} }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 41
                             },
@@ -94,12 +100,14 @@ function foo() {'use strict'; function  a(b,,) {} }
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 43
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 44
                             },
@@ -110,29 +118,35 @@ function foo() {'use strict'; function  a(b,,) {} }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 44
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 44
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 44
                         }
                     ],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 44
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         },
@@ -142,10 +156,12 @@ function foo() {'use strict'; function  a(b,,) {} }
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 46,
             "end": 49
         }
@@ -154,6 +170,7 @@ function foo() {'use strict'; function  a(b,,) {} }
     "source": "function foo() {'use strict'; function  a(b,,) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -43,12 +44,14 @@
                         "text": "localVar",
                         "rawText": "localVar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 23
                     },
                     "operatorToken": {
                         "kind": 4136,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 26
                     },
@@ -57,18 +60,22 @@
                         "text": "defaultValue",
                         "rawText": "defaultValue",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 39
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 13,
                     "end": 39
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 40
         },
@@ -78,10 +85,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 43,
             "end": 46
         }
@@ -90,6 +99,7 @@
     "source": "\"use strict\"; (localVar |= defaultValue) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

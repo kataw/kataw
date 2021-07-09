@@ -26,12 +26,14 @@ export default "foo";
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -40,10 +42,12 @@ export default "foo";
                 "text": "foo",
                 "rawText": "\"foo\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -52,6 +56,7 @@ export default "foo";
     "source": "export default \"foo\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -60,9 +65,7 @@ export default "foo";
 ### Printed
 
 ```javascript
-
-export default '"foo"';
-
+export default "\"foo\"";
 ```
 
 ### Diagnostics

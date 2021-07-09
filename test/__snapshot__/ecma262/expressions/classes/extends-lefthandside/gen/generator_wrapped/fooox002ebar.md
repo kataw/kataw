@@ -32,12 +32,14 @@ function *P(){
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -46,6 +48,7 @@ function *P(){
                 "text": "P",
                 "rawText": "P",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -55,6 +58,7 @@ function *P(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -71,6 +75,7 @@ function *P(){
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             },
@@ -79,6 +84,7 @@ function *P(){
                                 "text": "D",
                                 "rawText": "D",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
@@ -90,6 +96,7 @@ function *P(){
                                     "extendsKeyword": {
                                         "kind": 4194391,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 32
                                     },
@@ -100,6 +107,7 @@ function *P(){
                                             "text": "fooo",
                                             "rawText": "fooo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 37
                                         },
@@ -108,15 +116,18 @@ function *P(){
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 41
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 32,
                                         "end": 41
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 41
                                 },
@@ -124,28 +135,34 @@ function *P(){
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 43
                                 },
                                 "flags": 24,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 44
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 44
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 46
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -154,6 +171,7 @@ function *P(){
     "source": "function *P(){\n  class D extends fooo.bar {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }
@@ -162,12 +180,9 @@ function *P(){
 ### Printed
 
 ```javascript
-
-function * P() {
-  class D extends fooo.bar {
-  }
+function *P() {
+  class D extends fooo.bar {}
 }
-
 ```
 
 ### Diagnostics

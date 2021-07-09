@@ -24,6 +24,7 @@ while-statement6# Kataw parser test case
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -32,6 +33,7 @@ while-statement6# Kataw parser test case
                 "text": "Something",
                 "rawText": "Something",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 16
             },
@@ -43,14 +45,17 @@ while-statement6# Kataw parser test case
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -59,6 +64,7 @@ while-statement6# Kataw parser test case
     "source": " class Something {\n // comment\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -67,11 +73,7 @@ while-statement6# Kataw parser test case
 ### Printed
 
 ```javascript
-
-class Something {
- // comment
-}
-
+class Something {}
 ```
 
 ### Diagnostics

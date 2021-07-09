@@ -35,10 +35,12 @@
                             "text": "type",
                             "rawText": "type",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 6
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 6
                     },
@@ -48,19 +50,23 @@
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 8
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -69,6 +75,7 @@
     "source": "{ type {",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

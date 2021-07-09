@@ -26,12 +26,14 @@ a === b ? c : d % e;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
+                        "transformFlags": 16,
                         "start": 1,
                         "end": 5
                     },
@@ -40,16 +42,19 @@ a === b ? c : d % e;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 7
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -58,12 +63,14 @@ a === b ? c : d % e;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -74,12 +81,14 @@ a === b ? c : d % e;
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 35639,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 15,
                         "end": 17
                     },
@@ -88,18 +97,22 @@ a === b ? c : d % e;
                         "text": "e",
                         "rawText": "e",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 13,
                     "end": 19
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -108,6 +121,7 @@ a === b ? c : d % e;
     "source": "a === b ? c : d % e;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -116,9 +130,7 @@ a === b ? c : d % e;
 ### Printed
 
 ```javascript
-
 a === b ? c : d % e;
-
 ```
 
 ### Diagnostics

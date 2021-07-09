@@ -28,6 +28,7 @@ export async function await() {}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -37,12 +38,14 @@ export async function await() {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 21
                 },
@@ -52,6 +55,7 @@ export async function await() {}
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 27
                 },
@@ -61,6 +65,7 @@ export async function await() {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 28
                 },
@@ -71,15 +76,18 @@ export async function await() {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 31
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 32
                 },
                 "returnType": null,
                 "flags": 144,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 32
             },
@@ -88,6 +96,7 @@ export async function await() {}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -96,6 +105,7 @@ export async function await() {}
     "source": "export async function await() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

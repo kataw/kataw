@@ -30,6 +30,7 @@ async (x = (null) = f) => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -45,6 +46,7 @@ async (x = (null) = f) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -57,16 +59,19 @@ async (x = (null) = f) => {}
                                     "expression": {
                                         "kind": 138477575,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 16
                                     },
-                                    "flags": 32,
-                                    "start": 10,
+                                    "flags": 10,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 17
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -75,20 +80,24 @@ async (x = (null) = f) => {}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 10,
                                 "end": 21
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 22
                 },
@@ -96,6 +105,7 @@ async (x = (null) = f) => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 25
                 },
@@ -106,18 +116,22 @@ async (x = (null) = f) => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 28
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 28
         }
@@ -126,6 +140,7 @@ async (x = (null) = f) => {}
     "source": "async (x = (null) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -134,9 +149,7 @@ async (x = (null) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (null) = f) => {};
-
 ```
 
 ### Diagnostics

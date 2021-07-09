@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '.';
 import { ArrayBindingPattern } from './array-binding-pattern';
@@ -38,6 +38,7 @@ export function createBindingElement(
     type,
     right,
     flags,
+    transformFlags: TransformFlags.ArrowFolding,
     start,
     end
   };

@@ -22,6 +22,7 @@ function call(foo=await bar=10){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function call(foo=await bar=10){}
                 "text": "call",
                 "rawText": "call",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
@@ -46,6 +48,7 @@ function call(foo=await bar=10){}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
@@ -56,10 +59,12 @@ function call(foo=await bar=10){}
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 23
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 23
                     },
@@ -71,6 +76,7 @@ function call(foo=await bar=10){}
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 27
                         },
@@ -81,16 +87,19 @@ function call(foo=await bar=10){}
                             "text": 10,
                             "rawText": "10",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 30
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 23,
                         "end": 30
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 30
             },
@@ -101,15 +110,18 @@ function call(foo=await bar=10){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -118,6 +130,7 @@ function call(foo=await bar=10){}
     "source": "function call(foo=await bar=10){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

@@ -33,6 +33,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -52,6 +53,7 @@
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 14
                                     },
@@ -65,6 +67,7 @@
                                             "text": "method",
                                             "rawText": "method",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 21
                                         },
@@ -77,12 +80,14 @@
                                                     "text": "await",
                                                     "rawText": "await",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 27
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 352,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -94,39 +99,48 @@
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 30
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 31
                                         },
                                         "flags": 256,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 31
                                     },
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 31
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 31
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 33
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }
@@ -135,6 +149,7 @@
     "source": "(class { async method(await) {} })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

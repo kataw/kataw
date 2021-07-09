@@ -33,6 +33,7 @@
                         "ifKeyword": {
                             "kind": 37757019,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -41,6 +42,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         },
@@ -50,16 +52,19 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 10
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         },
                         "elseKeyword": {
                             "kind": 4194389,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 16
                         },
@@ -70,23 +75,28 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 19
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -95,6 +105,7 @@
     "source": "{ if (a) {} else x; else }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

@@ -34,12 +34,14 @@ test
                     "text": "test",
                     "rawText": "test",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 8
                 },
@@ -58,6 +60,7 @@ test
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -73,26 +76,31 @@ test
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 14
                                 },
                                 "right": null,
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 8,
                                 "end": 14
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 18
                     },
@@ -107,21 +115,25 @@ test
                                 "text": "U",
                                 "rawText": "U",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 21
                     },
@@ -130,16 +142,19 @@ test
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 23
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 23
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 27
                 },
@@ -148,14 +163,17 @@ test
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }
@@ -164,6 +182,7 @@ test
     "source": "test\n  ? (x: T): U => y\n  : z",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -172,9 +191,7 @@ test
 ### Printed
 
 ```javascript
-
 test ? (x: T) => y : z;
-
 ```
 
 ### Diagnostics

@@ -28,6 +28,7 @@ try {} finally a()
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,10 +38,12 @@ try {} finally a()
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -48,6 +51,7 @@ try {} finally a()
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 14
             },
@@ -57,14 +61,17 @@ try {} finally a()
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -77,6 +84,7 @@ try {} finally a()
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -85,14 +93,17 @@ try {} finally a()
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 14,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 18
         }
@@ -101,6 +112,7 @@ try {} finally a()
     "source": "try {} finally a()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -109,9 +121,7 @@ try {} finally a()
 ### Printed
 
 ```javascript
-
-try { }
-finally { }
+try {} finally {}
 a();
 
 ```

@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,12 +39,14 @@
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 28
             },
@@ -53,6 +56,7 @@
                 "text": "af",
                 "rawText": "af",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 31
             },
@@ -65,6 +69,7 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 33
                     },
@@ -76,6 +81,7 @@
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 36
                         },
@@ -86,6 +92,7 @@
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 44
                             },
@@ -94,20 +101,24 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 46
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 38,
                             "end": 46
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 34,
                         "end": 46
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 46
             },
@@ -118,15 +129,18 @@
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 49
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 51
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 13,
             "end": 51
         }
@@ -135,6 +149,7 @@
     "source": "'use strict'; async function af(a, b = await a) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

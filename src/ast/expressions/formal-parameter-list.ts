@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { BindingElement } from './binding-element';
 import { Identifier } from './identifier-expr';
 import { ArrayBindingPattern } from './array-binding-pattern';
@@ -29,6 +29,7 @@ export function createFormalParameterList(
     formalParameters,
     trailingComma,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

@@ -33,6 +33,7 @@ function f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -42,6 +43,7 @@ function f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -51,6 +53,7 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -64,6 +67,7 @@ function f() {
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 29
                         }
@@ -78,10 +82,12 @@ function f() {
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 30
                                 },
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 30
                             },
@@ -90,6 +96,7 @@ function f() {
                                 "catchKeyword": {
                                     "kind": 4202575,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 38
                                 },
@@ -100,34 +107,41 @@ function f() {
                                         "kind": 249,
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 38
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 38
                                 },
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 38
                             },
                             "finallyKeyword": null,
                             "finallyBlock": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 38
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 38
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 38
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         },
@@ -138,10 +152,12 @@ function f() {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 40,
             "end": 42
         }
@@ -150,6 +166,7 @@ function f() {
     "source": "function f() {\n  \"use strict\";\n  catch = x\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

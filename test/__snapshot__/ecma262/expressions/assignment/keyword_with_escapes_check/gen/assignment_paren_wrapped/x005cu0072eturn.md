@@ -32,14 +32,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 1
         },
@@ -48,6 +51,7 @@
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 12
             },
@@ -58,12 +62,14 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
@@ -72,20 +78,24 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 12,
                 "end": 16
             },
             "flags": 16464,
+            "transformFlags": 256,
             "start": 1,
             "end": 16
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 18
         }
@@ -94,6 +104,7 @@
     "source": "(\\u0072eturn = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

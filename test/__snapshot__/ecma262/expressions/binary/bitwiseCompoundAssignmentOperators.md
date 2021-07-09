@@ -50,6 +50,7 @@ f |= f;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -63,6 +64,7 @@ f |= f;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -70,19 +72,23 @@ f |= f;
                         "initializer": {
                             "kind": 24752947,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -92,6 +98,7 @@ f |= f;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -105,6 +112,7 @@ f |= f;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -114,19 +122,23 @@ f |= f;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 23
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 23
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 24
         },
@@ -139,12 +151,14 @@ f |= f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
                 "operatorToken": {
                     "kind": 4135,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 29
                 },
@@ -153,14 +167,17 @@ f |= f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 24,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 24,
             "end": 32
         },
@@ -173,26 +190,31 @@ f |= f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 36
                 },
                 "right": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 41
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 32,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 32,
             "end": 42
         },
@@ -205,12 +227,14 @@ f |= f;
                     "text": "b",
                     "rawText": "b",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 44
                 },
                 "operatorToken": {
                     "kind": 4135,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 47
                 },
@@ -219,14 +243,17 @@ f |= f;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 49
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 42,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 42,
             "end": 50
         },
@@ -239,12 +266,14 @@ f |= f;
                     "text": "b",
                     "rawText": "b",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 52
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 54
                 },
@@ -253,14 +282,17 @@ f |= f;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 56
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 50,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 50,
             "end": 57
         },
@@ -273,12 +305,14 @@ f |= f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 57,
                     "end": 59
                 },
                 "operatorToken": {
                     "kind": 4135,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 59,
                     "end": 62
                 },
@@ -287,14 +321,17 @@ f |= f;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 62,
                     "end": 64
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 57,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 57,
             "end": 65
         },
@@ -307,26 +344,31 @@ f |= f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 67
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 67,
                     "end": 69
                 },
                 "right": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 69,
                     "end": 74
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 65,
                 "end": 74
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 65,
             "end": 75
         },
@@ -339,12 +381,14 @@ f |= f;
                     "text": "b",
                     "rawText": "b",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 75,
                     "end": 77
                 },
                 "operatorToken": {
                     "kind": 4135,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 80
                 },
@@ -353,14 +397,17 @@ f |= f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 80,
                     "end": 82
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 75,
                 "end": 82
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 75,
             "end": 83
         },
@@ -373,12 +420,14 @@ f |= f;
                     "text": "b",
                     "rawText": "b",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 83,
                     "end": 85
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 85,
                     "end": 87
                 },
@@ -387,14 +436,17 @@ f |= f;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 87,
                     "end": 89
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 83,
                 "end": 89
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 83,
             "end": 90
         },
@@ -404,6 +456,7 @@ f |= f;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 95
             },
@@ -417,6 +470,7 @@ f |= f;
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 95,
                             "end": 97
                         },
@@ -424,19 +478,23 @@ f |= f;
                         "initializer": {
                             "kind": 205586437,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 99,
                             "end": 105
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 95,
                         "end": 105
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 95,
                 "end": 105
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 90,
             "end": 106
         },
@@ -446,6 +504,7 @@ f |= f;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 106,
                 "end": 110
             },
@@ -459,6 +518,7 @@ f |= f;
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 110,
                             "end": 112
                         },
@@ -468,19 +528,23 @@ f |= f;
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 114,
                             "end": 116
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 110,
                         "end": 116
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 110,
                 "end": 116
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 106,
             "end": 117
         },
@@ -493,12 +557,14 @@ f |= f;
                     "text": "c",
                     "rawText": "c",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 117,
                     "end": 119
                 },
                 "operatorToken": {
                     "kind": 4137,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 119,
                     "end": 122
                 },
@@ -507,14 +573,17 @@ f |= f;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 122,
                     "end": 124
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 117,
                 "end": 124
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 117,
             "end": 125
         },
@@ -527,26 +596,31 @@ f |= f;
                     "text": "c",
                     "rawText": "c",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 125,
                     "end": 127
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 127,
                     "end": 129
                 },
                 "right": {
                     "kind": 205586437,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 129,
                     "end": 135
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 125,
                 "end": 135
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 125,
             "end": 136
         },
@@ -559,12 +633,14 @@ f |= f;
                     "text": "d",
                     "rawText": "d",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 136,
                     "end": 138
                 },
                 "operatorToken": {
                     "kind": 4137,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 138,
                     "end": 141
                 },
@@ -573,14 +649,17 @@ f |= f;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 141,
                     "end": 143
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 136,
                 "end": 143
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 136,
             "end": 144
         },
@@ -593,12 +672,14 @@ f |= f;
                     "text": "d",
                     "rawText": "d",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 144,
                     "end": 146
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 146,
                     "end": 148
                 },
@@ -607,14 +688,17 @@ f |= f;
                     "text": 2,
                     "rawText": "2",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 148,
                     "end": 150
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 144,
                 "end": 150
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 144,
             "end": 151
         },
@@ -627,12 +711,14 @@ f |= f;
                     "text": "c",
                     "rawText": "c",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 151,
                     "end": 153
                 },
                 "operatorToken": {
                     "kind": 4137,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 153,
                     "end": 156
                 },
@@ -641,14 +727,17 @@ f |= f;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 156,
                     "end": 158
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 151,
                 "end": 158
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 151,
             "end": 159
         },
@@ -661,26 +750,31 @@ f |= f;
                     "text": "c",
                     "rawText": "c",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 159,
                     "end": 161
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 161,
                     "end": 163
                 },
                 "right": {
                     "kind": 205586437,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 163,
                     "end": 169
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 159,
                 "end": 169
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 159,
             "end": 170
         },
@@ -693,12 +787,14 @@ f |= f;
                     "text": "d",
                     "rawText": "d",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 170,
                     "end": 172
                 },
                 "operatorToken": {
                     "kind": 4137,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 172,
                     "end": 175
                 },
@@ -707,14 +803,17 @@ f |= f;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 175,
                     "end": 177
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 170,
                 "end": 177
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 170,
             "end": 178
         },
@@ -724,6 +823,7 @@ f |= f;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 178,
                 "end": 183
             },
@@ -737,6 +837,7 @@ f |= f;
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 183,
                             "end": 185
                         },
@@ -744,19 +845,23 @@ f |= f;
                         "initializer": {
                             "kind": 24752947,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 187,
                             "end": 192
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 183,
                         "end": 192
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 183,
                 "end": 192
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 178,
             "end": 193
         },
@@ -766,6 +871,7 @@ f |= f;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 193,
                 "end": 197
             },
@@ -779,6 +885,7 @@ f |= f;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 197,
                             "end": 199
                         },
@@ -788,19 +895,23 @@ f |= f;
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 201,
                             "end": 203
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 197,
                         "end": 203
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 197,
                 "end": 203
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 193,
             "end": 204
         },
@@ -813,12 +924,14 @@ f |= f;
                     "text": "e",
                     "rawText": "e",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 204,
                     "end": 206
                 },
                 "operatorToken": {
                     "kind": 4136,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 206,
                     "end": 209
                 },
@@ -827,14 +940,17 @@ f |= f;
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 209,
                     "end": 211
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 204,
                 "end": 211
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 204,
             "end": 212
         },
@@ -847,26 +963,31 @@ f |= f;
                     "text": "e",
                     "rawText": "e",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 212,
                     "end": 214
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 214,
                     "end": 216
                 },
                 "right": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 216,
                     "end": 221
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 212,
                 "end": 221
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 212,
             "end": 222
         },
@@ -879,12 +1000,14 @@ f |= f;
                     "text": "f",
                     "rawText": "f",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 222,
                     "end": 224
                 },
                 "operatorToken": {
                     "kind": 4136,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 224,
                     "end": 227
                 },
@@ -893,14 +1016,17 @@ f |= f;
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 227,
                     "end": 229
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 222,
                 "end": 229
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 222,
             "end": 230
         },
@@ -913,12 +1039,14 @@ f |= f;
                     "text": "f",
                     "rawText": "f",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 230,
                     "end": 232
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 232,
                     "end": 234
                 },
@@ -927,14 +1055,17 @@ f |= f;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 234,
                     "end": 236
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 230,
                 "end": 236
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 230,
             "end": 237
         },
@@ -947,12 +1078,14 @@ f |= f;
                     "text": "e",
                     "rawText": "e",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 237,
                     "end": 239
                 },
                 "operatorToken": {
                     "kind": 4136,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 239,
                     "end": 242
                 },
@@ -961,14 +1094,17 @@ f |= f;
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 242,
                     "end": 244
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 237,
                 "end": 244
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 237,
             "end": 245
         },
@@ -981,26 +1117,31 @@ f |= f;
                     "text": "e",
                     "rawText": "e",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 245,
                     "end": 247
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 247,
                     "end": 249
                 },
                 "right": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 249,
                     "end": 254
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 245,
                 "end": 254
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 245,
             "end": 255
         },
@@ -1013,12 +1154,14 @@ f |= f;
                     "text": "f",
                     "rawText": "f",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 255,
                     "end": 257
                 },
                 "operatorToken": {
                     "kind": 4136,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 257,
                     "end": 260
                 },
@@ -1027,14 +1170,17 @@ f |= f;
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 260,
                     "end": 262
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 255,
                 "end": 262
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 255,
             "end": 263
         }
@@ -1043,6 +1189,7 @@ f |= f;
     "source": "var a = true;\nvar b = 1;\na ^= a;\na = true;\nb ^= b;\nb = 1;\na ^= b;\na = true;\nb ^= a;\nb = 1;\n\nvar c = false;\nvar d = 2;\nc &= c;\nc = false;\nd &= d;\nd = 2;\nc &= d;\nc = false;\nd &= c;\n\nvar e = true;\nvar f = 0;\ne |= e;\ne = true;\nf |= f;\nf = 0;\ne |= f;\ne = true;\nf |= f;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 263
 }
@@ -1051,34 +1198,59 @@ f |= f;
 ### Printed
 
 ```javascript
-
 var a = true;
 var b = 1;
+
 a ^= a;
+
 a = true;
+
 b ^= b;
+
 b = 1;
+
 a ^= b;
+
 a = true;
+
 b ^= a;
+
 b = 1;
+
 var c = false;
+
 var d = 2;
+
 c &= c;
+
 c = false;
+
 d &= d;
+
 d = 2;
+
 c &= d;
+
 c = false;
+
 d &= c;
+
 var e = true;
+
 var f = 0;
+
 e |= e;
+
 e = true;
+
 f |= f;
+
 f = 0;
+
 e |= f;
+
 e = true;
+
 f |= f;
 
 ```

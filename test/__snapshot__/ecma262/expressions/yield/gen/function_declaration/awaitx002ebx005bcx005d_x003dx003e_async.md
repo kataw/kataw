@@ -30,6 +30,7 @@ function not_gen() { await.b[c] => async }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function not_gen() { await.b[c] => async }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -48,6 +50,7 @@ function not_gen() { await.b[c] => async }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -68,6 +71,7 @@ function not_gen() { await.b[c] => async }}
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 26
                                     },
@@ -76,10 +80,12 @@ function not_gen() { await.b[c] => async }}
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 28
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 20,
                                     "end": 28
                                 },
@@ -88,28 +94,34 @@ function not_gen() { await.b[c] => async }}
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 30
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 4,
                                 "start": 20,
                                 "end": 31
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 31
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         },
@@ -120,10 +132,12 @@ function not_gen() { await.b[c] => async }}
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 34,
             "end": 40
         }
@@ -132,6 +146,7 @@ function not_gen() { await.b[c] => async }}
     "source": "function not_gen() { await.b[c] => async }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

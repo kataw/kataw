@@ -29,6 +29,7 @@ type x = [-1];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type x = [-1];
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type x = [-1];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -63,30 +66,36 @@ type x = [-1];
                                 "subtractionToken": {
                                     "kind": 134318643,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 13
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -95,6 +104,7 @@ type x = [-1];
     "source": "type x = [-1];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -103,9 +113,7 @@ type x = [-1];
 ### Printed
 
 ```javascript
-
-type x = [[-1]]
-
+type x = [-1]
 ```
 
 ### Diagnostics

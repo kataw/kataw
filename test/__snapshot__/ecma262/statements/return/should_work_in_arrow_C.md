@@ -29,6 +29,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -37,12 +38,14 @@
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 6
                 },
@@ -50,6 +53,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
@@ -64,28 +68,34 @@
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 17
                                 },
                                 "expression": null,
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 11,
                                 "end": 17
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -94,6 +104,7 @@
     "source": "(a, b) => {return}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -102,11 +113,9 @@
 ### Printed
 
 ```javascript
-
 (a, b) => {
   return;
 };
-
 ```
 
 ### Diagnostics

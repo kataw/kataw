@@ -29,6 +29,7 @@ for (let x = 0; x < 10;) {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ for (let x = 0; x < 10;) {
                             "text": "count",
                             "rawText": "count",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
@@ -51,19 +53,23 @@ for (let x = 0; x < 10;) {
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -72,6 +78,7 @@ for (let x = 0; x < 10;) {
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -80,6 +87,7 @@ for (let x = 0; x < 10;) {
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 23
                 },
@@ -93,6 +101,7 @@ for (let x = 0; x < 10;) {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
@@ -102,19 +111,23 @@ for (let x = 0; x < 10;) {
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 29
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 23,
                             "end": 29
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 29
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 29
             },
@@ -126,12 +139,14 @@ for (let x = 0; x < 10;) {
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 32
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
@@ -140,10 +155,12 @@ for (let x = 0; x < 10;) {
                     "text": 10,
                     "rawText": "10",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 37
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 30,
                 "end": 37
             },
@@ -159,6 +176,7 @@ for (let x = 0; x < 10;) {
                                 "operandToken": {
                                     "kind": 196635,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 47
                                 },
@@ -167,14 +185,17 @@ for (let x = 0; x < 10;) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 45
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 47
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 41,
                             "end": 48
                         },
@@ -183,6 +204,7 @@ for (let x = 0; x < 10;) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 54
                             },
@@ -191,6 +213,7 @@ for (let x = 0; x < 10;) {
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 59
                                 },
@@ -204,6 +227,7 @@ for (let x = 0; x < 10;) {
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 59,
                                                 "end": 61
                                             },
@@ -213,19 +237,23 @@ for (let x = 0; x < 10;) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 63,
                                                 "end": 65
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 59,
                                             "end": 65
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 59,
                                     "end": 65
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 65
                             },
@@ -237,12 +265,14 @@ for (let x = 0; x < 10;) {
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 68
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 68,
                                     "end": 70
                                 },
@@ -251,10 +281,12 @@ for (let x = 0; x < 10;) {
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 72
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 66,
                                 "end": 72
                             },
@@ -270,6 +302,7 @@ for (let x = 0; x < 10;) {
                                                 "operandToken": {
                                                     "kind": 196635,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 82,
                                                     "end": 84
                                                 },
@@ -278,14 +311,17 @@ for (let x = 0; x < 10;) {
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 76,
                                                     "end": 82
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 76,
                                                 "end": 84
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 76,
                                             "end": 85
                                         },
@@ -296,6 +332,7 @@ for (let x = 0; x < 10;) {
                                                 "operandToken": {
                                                     "kind": 196635,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 95,
                                                     "end": 97
                                                 },
@@ -304,27 +341,33 @@ for (let x = 0; x < 10;) {
                                                     "text": "count",
                                                     "rawText": "count",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 85,
                                                     "end": 95
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 85,
                                                 "end": 97
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 85,
                                             "end": 98
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 76,
                                     "end": 98
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 74,
                                 "end": 102
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 102
                         },
@@ -333,24 +376,29 @@ for (let x = 0; x < 10;) {
                             "continueKeyword": {
                                 "kind": 37757009,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 102,
                                 "end": 113
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 102,
                             "end": 114
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 114
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 116
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 14,
             "end": 116
         }
@@ -359,6 +407,7 @@ for (let x = 0; x < 10;) {
     "source": "var count = 0;\nfor (let x = 0; x < 10;) {\n  x++;\n  for (let y = 0; y < 2;) {\n    y++;\n    count++;\n  }\n  continue;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 116
 }
@@ -367,16 +416,15 @@ for (let x = 0; x < 10;) {
 ### Printed
 
 ```javascript
-
 var count = 0;
-for (let x = 0;; x  < 10) {
-  x++;
-  for (let y = 0;; y  < 2) {
-    y++;
-    count++;
+for (let x = 0; ; x  < 10) {
+    x++;
+    for (let y = 0; ; y  < 2) {
+        y++;
+        count++;
+      }
+    continue;
   }
-  continue;
-}
 
 ```
 

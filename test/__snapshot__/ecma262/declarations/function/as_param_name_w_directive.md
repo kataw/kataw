@@ -22,6 +22,7 @@ function d(public){ "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function d(public){ "use strict"; }
                 "text": "d",
                 "rawText": "d",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,12 +45,14 @@ function d(public){ "use strict"; }
                         "text": "public",
                         "rawText": "public",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -62,21 +66,25 @@ function d(public){ "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 32
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 35
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -85,6 +93,7 @@ function d(public){ "use strict"; }
     "source": "function d(public){ \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -93,11 +102,7 @@ function d(public){ "use strict"; }
 ### Printed
 
 ```javascript
-
-function d(public) {
-'"use strict"';
-}
-
+function d(public) {}
 ```
 
 ### Diagnostics

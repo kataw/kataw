@@ -29,6 +29,7 @@ type a = ((1 |-1)) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = ((1 |-1)) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = ((1 |-1)) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -69,6 +72,7 @@ type a = ((1 |-1)) => T;
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         },
@@ -77,33 +81,39 @@ type a = ((1 |-1)) => T;
                                             "subtractionToken": {
                                                 "kind": 134318643,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 15
                                             },
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 16
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 16
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 16
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 18
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 21
                     },
@@ -118,27 +128,33 @@ type a = ((1 |-1)) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 23
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 23
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 23
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -147,6 +163,7 @@ type a = ((1 |-1)) => T;
     "source": "type a = ((1 |-1)) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -155,9 +172,7 @@ type a = ((1 |-1)) => T;
 ### Printed
 
 ```javascript
-
 type a = (1 | -1) => T
-
 ```
 
 ### Diagnostics

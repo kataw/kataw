@@ -28,6 +28,7 @@ do while try this and !foo
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,6 +37,7 @@ do while try this and !foo
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
@@ -44,6 +46,7 @@ do while try this and !foo
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
@@ -52,6 +55,7 @@ do while try this and !foo
                     "tryKeyword": {
                         "kind": 37757027,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
@@ -61,10 +65,12 @@ do while try this and !foo
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
@@ -76,18 +82,22 @@ do while try this and !foo
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 12
             },
@@ -95,10 +105,12 @@ do while try this and !foo
             "expression": {
                 "kind": 4276321,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -109,10 +121,12 @@ do while try this and !foo
                 "text": "and",
                 "rawText": "and",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 21
         },
@@ -123,6 +137,7 @@ do while try this and !foo
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -131,14 +146,17 @@ do while try this and !foo
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 21,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 21,
             "end": 26
         }
@@ -147,6 +165,7 @@ do while try this and !foo
     "source": "do while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

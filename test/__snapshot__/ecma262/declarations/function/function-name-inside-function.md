@@ -24,6 +24,7 @@ function fn() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function fn() {
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -42,6 +44,7 @@ function fn() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -58,6 +61,7 @@ function fn() {
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 26
                             },
@@ -67,6 +71,7 @@ function fn() {
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 32
                             },
@@ -76,6 +81,7 @@ function fn() {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 33
                             },
@@ -86,29 +92,35 @@ function fn() {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 36
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 37
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 37
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 37
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 39
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -117,6 +129,7 @@ function fn() {
     "source": "function fn() {\n  function yield() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }
@@ -125,11 +138,9 @@ function fn() {
 ### Printed
 
 ```javascript
-
 function fn() {
   function yield() {}
 }
-
 ```
 
 ### Diagnostics

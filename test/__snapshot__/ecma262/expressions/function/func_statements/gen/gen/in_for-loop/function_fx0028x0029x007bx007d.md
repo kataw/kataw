@@ -28,6 +28,7 @@ for (;;) function f(){}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ for (;;) function f(){}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 17
                 },
@@ -50,6 +52,7 @@ for (;;) function f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -59,6 +62,7 @@ for (;;) function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
@@ -69,19 +73,23 @@ for (;;) function f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -90,6 +98,7 @@ for (;;) function f(){}
     "source": "for (;;) function f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

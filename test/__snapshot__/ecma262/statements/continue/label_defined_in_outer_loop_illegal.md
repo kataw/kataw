@@ -20,12 +20,14 @@ while (true) x: while (true) continue x;
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -36,12 +38,14 @@ while (true) x: while (true) continue x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 15
                 },
@@ -50,12 +54,14 @@ while (true) x: while (true) continue x;
                     "whileKeyword": {
                         "kind": 37757028,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 21
                     },
                     "expression": {
                         "kind": 24752947,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 27
                     },
@@ -64,6 +70,7 @@ while (true) x: while (true) continue x;
                         "continueKeyword": {
                             "kind": 37757009,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 37
                         },
@@ -72,22 +79,27 @@ while (true) x: while (true) continue x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 39
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 40
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 40
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 40
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -96,6 +108,7 @@ while (true) x: while (true) continue x;
     "source": "while (true) x: while (true) continue x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -104,11 +117,7 @@ while (true) x: while (true) continue x;
 ### Printed
 
 ```javascript
-
-while (true)
-  x: while (true)
-    continue x;
-
+while (true) x:  while (true) continue x;
 ```
 
 ### Diagnostics

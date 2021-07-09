@@ -26,6 +26,7 @@ export {try};
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -43,21 +44,25 @@ export {try};
                                 "text": "try",
                                 "rawText": "try",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 12
             },
@@ -65,6 +70,7 @@ export {try};
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -73,6 +79,7 @@ export {try};
     "source": "export {try};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -81,9 +88,7 @@ export {try};
 ### Printed
 
 ```javascript
-
-export { try, };
-
+export { try  };
 ```
 
 ### Diagnostics

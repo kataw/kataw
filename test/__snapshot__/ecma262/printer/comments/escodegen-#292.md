@@ -27,6 +27,7 @@ while-statement6# Kataw parser test case
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 13
                         },
@@ -38,6 +39,7 @@ while-statement6# Kataw parser test case
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 14
                         },
@@ -48,15 +50,18 @@ while-statement6# Kataw parser test case
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 17
                     },
@@ -65,18 +70,22 @@ while-statement6# Kataw parser test case
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 1,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -85,6 +94,7 @@ while-statement6# Kataw parser test case
     "source": "(/**/function(){}())",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -93,9 +103,7 @@ while-statement6# Kataw parser test case
 ### Printed
 
 ```javascript
-
-(/**/function () {}());
-
+(function () {}());
 ```
 
 ### Diagnostics

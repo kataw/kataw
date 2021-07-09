@@ -24,6 +24,7 @@ async (x = (yield x))
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -37,12 +38,14 @@ async (x = (yield x))
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
@@ -52,14 +55,17 @@ async (x = (yield x))
                                     "kind": 132,
                                     "expressions": [],
                                     "flags": 32,
+                                    "transformFlags": 1024,
                                     "start": 10,
                                     "end": 17
                                 },
-                                "flags": 32,
-                                "start": 10,
+                                "flags": 10,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 7,
                             "end": 17
                         },
@@ -68,20 +74,24 @@ async (x = (yield x))
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "flags": 268435490,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -90,6 +100,7 @@ async (x = (yield x))
     "source": "async (x = (yield x))",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

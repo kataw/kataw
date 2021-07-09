@@ -29,6 +29,7 @@ type X = x & {[x]:string}
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type X = x & {[x]:string}
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type X = x & {[x]:string}
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -61,11 +64,13 @@ type X = x & {[x]:string}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -84,11 +89,13 @@ type X = x & {[x]:string}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 16
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 16
                                     },
@@ -99,33 +106,40 @@ type X = x & {[x]:string}
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 24
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 24
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 24
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 25
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 25
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 25
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -134,6 +148,7 @@ type X = x & {[x]:string}
     "source": "type X = x & {[x]:string}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -142,9 +157,7 @@ type X = x & {[x]:string}
 ### Printed
 
 ```javascript
-
-type X = x & { [x]:  string }
-
+type X = x & { [x]: string }
 ```
 
 ### Diagnostics

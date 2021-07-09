@@ -26,6 +26,7 @@ class D extends B {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ class D extends B {
                 "text": "D",
                 "rawText": "D",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -45,6 +47,7 @@ class D extends B {
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -53,11 +56,13 @@ class D extends B {
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -80,6 +85,7 @@ class D extends B {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 33
                                 },
@@ -92,12 +98,14 @@ class D extends B {
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 37
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2144,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 38
                                 },
@@ -115,6 +123,7 @@ class D extends B {
                                                     "expression": {
                                                         "kind": 4259935,
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 40,
                                                         "end": 50
                                                     },
@@ -126,50 +135,61 @@ class D extends B {
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 51,
                                                                 "end": 54
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 51,
                                                         "end": 54
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 40,
                                                     "end": 55
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 40,
                                                 "end": 56
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 56
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 60
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 60
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 60
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 60
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 62
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 62
         }
@@ -178,6 +198,7 @@ class D extends B {
     "source": "class D extends B {\n  constructor(foo) {\n    super(foo);\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }
@@ -186,13 +207,11 @@ class D extends B {
 ### Printed
 
 ```javascript
-
 class D extends B {
   constructor(foo) {
     super(foo);
   }
 }
-
 ```
 
 ### Diagnostics

@@ -22,20 +22,24 @@ new.t\u0061rget
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "targetIdentifier": {
                     "kind": 16594,
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 15
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -44,6 +48,7 @@ new.t\u0061rget
     "source": "new.t\\u0061rget",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

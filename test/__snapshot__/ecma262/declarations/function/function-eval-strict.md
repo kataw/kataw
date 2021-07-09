@@ -24,6 +24,7 @@ function arguments() { "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function arguments() { "use strict"; }
                 "text": "eval",
                 "rawText": "eval",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
@@ -42,6 +44,7 @@ function arguments() { "use strict"; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -55,21 +58,25 @@ function arguments() { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 30
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         },
@@ -80,6 +87,7 @@ function arguments() { "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 43
             },
@@ -89,6 +97,7 @@ function arguments() { "use strict"; }
                 "text": "arguments",
                 "rawText": "arguments",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 53
             },
@@ -98,6 +107,7 @@ function arguments() { "use strict"; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 54
             },
@@ -111,21 +121,25 @@ function arguments() { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 57,
                             "end": 70
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 57,
                     "end": 71
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 73
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 33,
             "end": 73
         }
@@ -134,6 +148,7 @@ function arguments() { "use strict"; }
     "source": "function eval() { \"use strict\"; }\n\nfunction arguments() { \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 73
 }

@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,10 +40,12 @@
                 "text": "await;",
                 "rawText": "'use strict'",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 21
         }
@@ -51,6 +54,7 @@
     "source": "'use strict'; `await;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

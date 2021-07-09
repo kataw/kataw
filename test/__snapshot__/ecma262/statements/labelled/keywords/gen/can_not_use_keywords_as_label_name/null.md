@@ -28,10 +28,12 @@ null: x
             "expression": {
                 "kind": 138477575,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -42,10 +44,12 @@ null: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 7
         }
@@ -54,6 +58,7 @@ null: x
     "source": "null: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

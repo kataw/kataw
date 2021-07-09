@@ -29,6 +29,7 @@ var asyncArrow = async(await) => 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var asyncArrow = async(await) => 1;
                             "text": "asyncArrow",
                             "rawText": "asyncArrow",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 14
                         },
@@ -51,6 +53,7 @@ var asyncArrow = async(await) => 1;
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 22
                             },
@@ -63,12 +66,14 @@ var asyncArrow = async(await) => 1;
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 29
                             },
@@ -76,6 +81,7 @@ var asyncArrow = async(await) => 1;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
@@ -84,23 +90,28 @@ var asyncArrow = async(await) => 1;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 34
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 34
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 34
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -109,6 +120,7 @@ var asyncArrow = async(await) => 1;
     "source": "var asyncArrow = async(await) => 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -117,9 +129,7 @@ var asyncArrow = async(await) => 1;
 ### Printed
 
 ```javascript
-
 var asyncArrow = async (await) => 1;
-
 ```
 
 ### Diagnostics

@@ -22,6 +22,7 @@ delete super[foo]
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -30,6 +31,7 @@ delete super[foo]
                     "member": {
                         "kind": 4259935,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -38,18 +40,22 @@ delete super[foo]
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 6,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -58,6 +64,7 @@ delete super[foo]
     "source": "delete super[foo]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

@@ -29,12 +29,14 @@ async function wrap() { async function await() { } };
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -44,6 +46,7 @@ async function wrap() { async function await() { } };
                 "text": "wrap",
                 "rawText": "wrap",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 19
             },
@@ -53,6 +56,7 @@ async function wrap() { async function await() { } };
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
@@ -68,12 +72,14 @@ async function wrap() { async function await() { } };
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 29
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 38
                             },
@@ -83,6 +89,7 @@ async function wrap() { async function await() { } };
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 44
                             },
@@ -92,6 +99,7 @@ async function wrap() { async function await() { } };
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 45
                             },
@@ -102,35 +110,42 @@ async function wrap() { async function await() { } };
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 48
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 50
                             },
                             "returnType": null,
                             "flags": 144,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 50
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 50
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 52
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 52,
             "end": 53
         }
@@ -139,6 +154,7 @@ async function wrap() { async function await() { } };
     "source": "async function wrap() { async function await() { } };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }

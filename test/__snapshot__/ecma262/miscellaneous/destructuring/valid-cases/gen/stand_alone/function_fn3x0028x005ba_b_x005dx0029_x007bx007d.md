@@ -30,6 +30,7 @@ function fn3([a,, b,]) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function fn3([a,, b,]) {}
                 "text": "fn3",
                 "rawText": "fn3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -56,12 +58,14 @@ function fn3([a,, b,]) {}
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
                                 {
                                     "kind": 230,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 16
                                 },
@@ -70,22 +74,26 @@ function fn3([a,, b,]) {}
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 }
                             ],
                             "trailingComma": true,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 21
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 21
             },
@@ -96,15 +104,18 @@ function fn3([a,, b,]) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 25
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -113,6 +124,7 @@ function fn3([a,, b,]) {}
     "source": "function fn3([a,, b,]) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -121,9 +133,7 @@ function fn3([a,, b,]) {}
 ### Printed
 
 ```javascript
-
 function fn3([a, , b,]) {}
-
 ```
 
 ### Diagnostics

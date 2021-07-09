@@ -29,6 +29,7 @@ type A = Obj['a'];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type A = Obj['a'];
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type A = Obj['a'];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -60,11 +63,13 @@ type A = Obj['a'];
                             "text": "Obj",
                             "rawText": "Obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 12
                         },
                         "typeParameters": null,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
@@ -77,22 +82,27 @@ type A = Obj['a'];
                             "text": "a",
                             "rawText": "'a'",
                             "flags": 6291520,
+                            "transformFlags": 1024,
                             "start": 13,
                             "end": 16
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 18
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 17
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -101,6 +111,7 @@ type A = Obj['a'];
     "source": "type A = Obj['a'];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -109,9 +120,7 @@ type A = Obj['a'];
 ### Printed
 
 ```javascript
-
-type A = Obj[ '\'a\'']
-
+type A = Obj["'a'"]
 ```
 
 ### Diagnostics

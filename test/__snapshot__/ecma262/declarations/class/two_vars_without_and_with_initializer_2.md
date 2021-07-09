@@ -28,6 +28,7 @@ let [foo=a, bar=b] = arr;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ let [foo=a, bar=b] = arr;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -59,10 +61,12 @@ let [foo=a, bar=b] = arr;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -74,6 +78,7 @@ let [foo=a, bar=b] = arr;
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 15
                                         },
@@ -84,20 +89,24 @@ let [foo=a, bar=b] = arr;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 11,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 18
                         },
@@ -107,19 +116,23 @@ let [foo=a, bar=b] = arr;
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -128,6 +141,7 @@ let [foo=a, bar=b] = arr;
     "source": "let [foo=a, bar=b] = arr;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -136,9 +150,7 @@ let [foo=a, bar=b] = arr;
 ### Printed
 
 ```javascript
-
 let [foo = a, bar = b] = arr;
-
 ```
 
 ### Diagnostics

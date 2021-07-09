@@ -24,6 +24,7 @@ foo`x${a}y${b}z`
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -39,10 +40,12 @@ foo`x${a}y${b}z`
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
@@ -55,10 +58,12 @@ foo`x${a}y${b}z`
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 13
                         }
@@ -68,18 +73,22 @@ foo`x${a}y${b}z`
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -88,6 +97,7 @@ foo`x${a}y${b}z`
     "source": "foo`x${a}y${b}z`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -96,9 +106,8 @@ foo`x${a}y${b}z`
 ### Printed
 
 ```javascript
-
-foo`x${a}y${b}z`;
-
+foo`x${a},
+y${b}z`;
 ```
 
 ### Diagnostics

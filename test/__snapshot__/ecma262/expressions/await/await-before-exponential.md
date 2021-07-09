@@ -22,6 +22,7 @@ async () => await 5 ** 6;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -31,6 +32,7 @@ async () => await 5 ** 6;
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -38,6 +40,7 @@ async () => await 5 ** 6;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -48,6 +51,7 @@ async () => await 5 ** 6;
                         "awaitKeyword": {
                             "kind": 82196,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 17
                         },
@@ -56,16 +60,19 @@ async () => await 5 ** 6;
                             "text": 5,
                             "rawText": "5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 19
                     },
                     "operatorToken": {
                         "kind": 35897,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 22
                     },
@@ -74,18 +81,22 @@ async () => await 5 ** 6;
                         "text": 6,
                         "rawText": "6",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 24
                     },
                     "flags": 32,
+                    "transformFlags": 5120,
                     "start": 11,
                     "end": 24
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -94,6 +105,7 @@ async () => await 5 ** 6;
     "source": "async () => await 5 ** 6;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

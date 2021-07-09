@@ -33,6 +33,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -41,6 +42,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -48,6 +50,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -72,6 +75,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -83,39 +87,47 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 25
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 25
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 25
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 27
                         },
                         {
                             "kind": 134234347,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 46
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 46
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 46
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 62
         },
@@ -125,6 +137,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 62,
                 "end": 68
             },
@@ -133,6 +146,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 70
             },
@@ -140,6 +154,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 70,
                 "end": 72
             },
@@ -161,6 +176,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 92,
                                 "end": 94
                             },
@@ -172,28 +188,34 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 95,
                                     "end": 102
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 95,
                                 "end": 102
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 92,
                             "end": 102
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 72,
                     "end": 104
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 104
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 62,
             "end": 125
         },
@@ -203,6 +225,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 125,
                 "end": 131
             },
@@ -211,6 +234,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 131,
                 "end": 133
             },
@@ -218,6 +242,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 133,
                 "end": 135
             },
@@ -242,6 +267,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 142,
                                         "end": 144
                                     },
@@ -253,39 +279,47 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 145,
                                             "end": 152
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 145,
                                         "end": 152
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 142,
                                     "end": 152
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 135,
                             "end": 154
                         },
                         {
                             "kind": 134234347,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 168,
                             "end": 175
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 154,
                     "end": 175
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 135,
                 "end": 175
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 125,
             "end": 175
         }
@@ -294,6 +328,7 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
     "source": "type a = /*a*/{ x: string } /* foo */ | string /* bar *//*b*/;\n\ntype b = /*c*//* leading */{ x: string } /* trailing *//*d*/;\n\ntype c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 191
 }
@@ -302,10 +337,10 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
 ### Printed
 
 ```javascript
+type a = { x: string } | string
+type b = { x: string }
 
-type a =/*a*/ /*a*/{ x: string }/* foo */ | string/* bar */ /*b*/
-type b =/*c*/ /* leading */ { x: string }/* trailing */ /*d*/
-type c =/*e*/ /*e*/{ x: string }/* inner */ | string// trailing/*f*/
+type c = { x: string } | string
 
 ```
 

@@ -29,6 +29,7 @@ else let [x];
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,6 +38,7 @@ else let [x];
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -47,16 +49,19 @@ else let [x];
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 9
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 14
             },
@@ -69,6 +74,7 @@ else let [x];
                         "text": "let",
                         "rawText": "let",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 18
                     },
@@ -77,18 +83,22 @@ else let [x];
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 21
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 14,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -97,6 +107,7 @@ else let [x];
     "source": "if (a) b;\nelse let [x];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

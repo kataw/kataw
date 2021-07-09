@@ -27,6 +27,7 @@
     "source": "<!--the comment extends to these characters",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -35,7 +36,6 @@
 ### Printed
 
 ```javascript
-
 
 ```
 

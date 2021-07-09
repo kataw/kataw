@@ -33,6 +33,7 @@
                         "tryKeyword": {
                             "kind": 37757027,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 5
                         },
@@ -42,10 +43,12 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
@@ -53,6 +56,7 @@
                         "finallyKeyword": {
                             "kind": 37757016,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 16
                         },
@@ -62,14 +66,17 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 18
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 19
                     },
@@ -82,10 +89,12 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 19
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 19
                         },
@@ -94,6 +103,7 @@
                             "catchKeyword": {
                                 "kind": 4202575,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 25
                             },
@@ -102,6 +112,7 @@
                                 "text": "e",
                                 "rawText": "e",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 27
                             },
@@ -111,29 +122,35 @@
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 30
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 31
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 31
                         },
                         "finallyKeyword": null,
                         "finallyBlock": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -142,6 +159,7 @@
     "source": "{ try {} finally {} catch(e) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

@@ -34,12 +34,14 @@ x = 0o0011___________;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -48,14 +50,17 @@ x = 0o0011___________;
                     "text": 0,
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         },
@@ -66,10 +71,12 @@ x = 0o0011___________;
                 "text": "__11",
                 "rawText": "__11",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 9,
             "end": 14
         },
@@ -82,12 +89,14 @@ x = 0o0011___________;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -96,14 +105,17 @@ x = 0o0011___________;
                     "text": 0,
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 14,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 25
         },
@@ -114,10 +126,12 @@ x = 0o0011___________;
                 "text": "__11___________",
                 "rawText": "__11___________",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 41
         },
@@ -130,12 +144,14 @@ x = 0o0011___________;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 44
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 46
                 },
@@ -144,14 +160,17 @@ x = 0o0011___________;
                     "text": 9,
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 52
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 41,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 41,
             "end": 52
         },
@@ -162,10 +181,12 @@ x = 0o0011___________;
                 "text": 1,
                 "rawText": "1___________",
                 "flags": 65632,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 52,
             "end": 65
         }
@@ -174,6 +195,7 @@ x = 0o0011___________;
     "source": "x = 0b00___11;\n\nx = 0b00___11___________;\n\nx = 0o0011___________;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 65
 }

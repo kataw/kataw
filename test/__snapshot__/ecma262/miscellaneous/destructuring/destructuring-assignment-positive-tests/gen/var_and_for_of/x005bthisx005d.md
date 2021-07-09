@@ -29,6 +29,7 @@ var x, y, z; for (x of x = [this] = z = {});
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,12 +43,14 @@ var x, y, z; for (x of x = [this] = z = {});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -58,12 +61,14 @@ var x, y, z; for (x of x = [this] = z = {});
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -74,21 +79,25 @@ var x, y, z; for (x of x = [this] = z = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -97,6 +106,7 @@ var x, y, z; for (x of x = [this] = z = {});
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
@@ -106,12 +116,14 @@ var x, y, z; for (x of x = [this] = z = {});
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -122,12 +134,14 @@ var x, y, z; for (x of x = [this] = z = {});
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
@@ -141,22 +155,26 @@ var x, y, z; for (x of x = [this] = z = {});
                                 {
                                     "kind": 4276321,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 32
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 32
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 26,
                         "end": 33
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 35
                     },
@@ -167,12 +185,14 @@ var x, y, z; for (x of x = [this] = z = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 37
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 39
                         },
@@ -183,32 +203,39 @@ var x, y, z; for (x of x = [this] = z = {});
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 41
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 39,
                             "end": 42
                         },
-                        "flags": 32,
+                        "flags": 0,
+                        "transformFlags": 128,
                         "start": 35,
                         "end": 42
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 26,
                     "end": 42
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 22,
                 "end": 42
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 44
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 44
         }
@@ -217,6 +244,7 @@ var x, y, z; for (x of x = [this] = z = {});
     "source": "var x, y, z; for (x of x = [this] = z = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

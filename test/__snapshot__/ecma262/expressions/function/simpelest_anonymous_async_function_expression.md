@@ -30,6 +30,7 @@ foo(async function(){})
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -41,12 +42,14 @@ foo(async function(){})
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 9
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
@@ -58,6 +61,7 @@ foo(async function(){})
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 19
                             },
@@ -68,29 +72,35 @@ foo(async function(){})
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
                             "returnType": null,
                             "flags": 160,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 22
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 22
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         }
@@ -99,6 +109,7 @@ foo(async function(){})
     "source": "foo(async function(){})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -107,9 +118,7 @@ foo(async function(){})
 ### Printed
 
 ```javascript
-
 foo(async function () {});
-
 ```
 
 ### Diagnostics

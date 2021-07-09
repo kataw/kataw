@@ -32,12 +32,14 @@ st\u0061tic = x;
                     "text": "static",
                     "rawText": "st\\u0061tic",
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -46,14 +48,17 @@ st\u0061tic = x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -62,6 +67,7 @@ st\u0061tic = x;
     "source": "st\\u0061tic = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -70,9 +76,7 @@ st\u0061tic = x;
 ### Printed
 
 ```javascript
-
 st\u0061tic = x;
-
 ```
 
 ### Diagnostics

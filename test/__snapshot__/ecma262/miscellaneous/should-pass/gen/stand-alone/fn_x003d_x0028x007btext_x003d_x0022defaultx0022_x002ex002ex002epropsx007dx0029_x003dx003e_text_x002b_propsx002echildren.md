@@ -32,12 +32,14 @@ fn = ({text = "default", ...props}) => text + props.children
                     "text": "fn",
                     "rawText": "fn",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 4
                 },
@@ -61,6 +63,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                                 "text": "text",
                                                 "rawText": "text",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 11
                                             },
@@ -71,10 +74,12 @@ fn = ({text = "default", ...props}) => text + props.children
                                                 "text": "default",
                                                 "rawText": "\"default\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 23
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 7,
                                             "end": 23
                                         },
@@ -83,6 +88,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 28
                                             },
@@ -91,6 +97,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                                 "text": "props",
                                                 "rawText": "props",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 33
                                             },
@@ -98,22 +105,26 @@ fn = ({text = "default", ...props}) => text + props.children
                                             "type": null,
                                             "right": null,
                                             "flags": 1073741856,
+                                            "transformFlags": 4096,
                                             "start": 24,
                                             "end": 33
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 33
                                 },
                                 "flags": 48,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 34
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 35
                     },
@@ -121,6 +132,7 @@ fn = ({text = "default", ...props}) => text + props.children
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 38
                     },
@@ -131,12 +143,14 @@ fn = ({text = "default", ...props}) => text + props.children
                             "text": "text",
                             "rawText": "text",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 43
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 43,
                             "end": 45
                         },
@@ -147,6 +161,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                 "text": "props",
                                 "rawText": "props",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 51
                             },
@@ -155,26 +170,32 @@ fn = ({text = "default", ...props}) => text + props.children
                                 "text": "children",
                                 "rawText": "children",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 60
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 45,
                             "end": 60
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 38,
                         "end": 60
                     },
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 60
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 60
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 60
         }
@@ -183,6 +204,7 @@ fn = ({text = "default", ...props}) => text + props.children
     "source": "fn = ({text = \"default\", ...props}) => text + props.children",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }
@@ -191,12 +213,7 @@ fn = ({text = "default", ...props}) => text + props.children
 ### Printed
 
 ```javascript
-
-fn = ({
-    text = '"default"',
-    ...props
-  }) => text + props.children;
-
+fn = ({ text = "\"default\"", ...props }) => text + props.children;
 ```
 
 ### Diagnostics

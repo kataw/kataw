@@ -40,6 +40,7 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -49,6 +50,7 @@
                                     "classKeyword": {
                                         "kind": 37822544,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -71,6 +73,7 @@
                                                         "text": "#a",
                                                         "rawText": "#a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 13,
                                                         "end": 16
                                                     },
@@ -78,41 +81,50 @@
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 13,
                                                     "end": 16
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 16
                                         },
                                         "flags": 11,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 18
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 18
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 2,
                                 "end": 18
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 18
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 20
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -121,6 +133,7 @@
     "source": "({ a: class { #a } })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -129,11 +142,9 @@
 ### Printed
 
 ```javascript
-
-({ a : class  {
-    #a
-  } });
-
+({ a: class {
+      #a;
+    } });
 ```
 
 ### Diagnostics

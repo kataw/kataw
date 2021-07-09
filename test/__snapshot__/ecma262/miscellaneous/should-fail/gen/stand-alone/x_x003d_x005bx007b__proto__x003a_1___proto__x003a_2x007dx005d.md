@@ -32,12 +32,14 @@ x = [{__proto__: 1, __proto__: 2}]
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -59,6 +61,7 @@ x = [{__proto__: 1, __proto__: 2}]
                                                 "text": "__proto__",
                                                 "rawText": "__proto__",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 15
                                             },
@@ -67,10 +70,12 @@ x = [{__proto__: 1, __proto__: 2}]
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 18
                                             },
                                             "flags": 36,
+                                            "transformFlags": 128,
                                             "start": 6,
                                             "end": 18
                                         },
@@ -82,6 +87,7 @@ x = [{__proto__: 1, __proto__: 2}]
                                                 "text": "__proto__",
                                                 "rawText": "__proto__",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 29
                                             },
@@ -90,38 +96,46 @@ x = [{__proto__: 1, __proto__: 2}]
                                                 "text": 2,
                                                 "rawText": "2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 32
                                             },
                                             "flags": 36,
+                                            "transformFlags": 128,
                                             "start": 19,
                                             "end": 32
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 20,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 32
                                 },
                                 "flags": 52,
+                                "transformFlags": 8,
                                 "start": 5,
                                 "end": 33
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }
@@ -130,6 +144,7 @@ x = [{__proto__: 1, __proto__: 2}]
     "source": "x = [{__proto__: 1, __proto__: 2}]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -138,9 +153,7 @@ x = [{__proto__: 1, __proto__: 2}]
 ### Printed
 
 ```javascript
-
-x = [{ __proto__ : 1, __proto__ : 2 },];
-
+x = [{ __proto__: 1, __proto__: 2 }];
 ```
 
 ### Diagnostics

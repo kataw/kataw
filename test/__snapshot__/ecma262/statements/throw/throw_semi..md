@@ -20,6 +20,7 @@ throw foo;
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -28,10 +29,12 @@ throw foo;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -40,6 +43,7 @@ throw foo;
     "source": "throw foo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -48,9 +52,7 @@ throw foo;
 ### Printed
 
 ```javascript
-
 throw foo;
-
 ```
 
 ### Diagnostics

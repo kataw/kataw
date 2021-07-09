@@ -39,6 +39,7 @@ for (/x/g + b in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,12 +49,14 @@ for (/x/g + b in obj);
                     "kind": 371,
                     "text": "/x/g",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -64,12 +67,14 @@ for (/x/g + b in obj);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
@@ -78,14 +83,17 @@ for (/x/g + b in obj);
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 20
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 13,
                     "end": 20
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 20
             },
@@ -95,16 +103,19 @@ for (/x/g + b in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -113,6 +124,7 @@ for (/x/g + b in obj);
     "source": "for (/x/g + b in obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

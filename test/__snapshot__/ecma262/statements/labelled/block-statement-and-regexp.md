@@ -22,12 +22,14 @@ a : { b : 1 }/2/;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 1
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 3
             },
@@ -43,12 +45,14 @@ a : { b : 1 }/2/;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 7
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
@@ -59,27 +63,33 @@ a : { b : 1 }/2/;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 11
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 9,
                                 "end": 11
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 11
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -89,10 +99,12 @@ a : { b : 1 }/2/;
                 "kind": 371,
                 "text": "/2/",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 17
         }
@@ -101,6 +113,7 @@ a : { b : 1 }/2/;
     "source": "a : { b : 1 }/2/;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -109,12 +122,9 @@ a : { b : 1 }/2/;
 ### Printed
 
 ```javascript
-
-a: {
-  b: 1;
-}
-/2/;
-
+a:  {
+  b:  1;
+}/2/;
 ```
 
 ### Diagnostics

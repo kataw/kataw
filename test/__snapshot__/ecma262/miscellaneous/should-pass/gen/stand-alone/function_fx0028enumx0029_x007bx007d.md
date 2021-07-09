@@ -30,6 +30,7 @@ function f(enum) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function f(enum) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -51,12 +53,14 @@ function f(enum) {}
                         "text": "enum",
                         "rawText": "enum",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
@@ -67,15 +71,18 @@ function f(enum) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -84,6 +91,7 @@ function f(enum) {}
     "source": "function f(enum) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -92,9 +100,7 @@ function f(enum) {}
 ### Printed
 
 ```javascript
-
 function f(enum) {}
-
 ```
 
 ### Diagnostics

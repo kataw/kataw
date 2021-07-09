@@ -29,6 +29,7 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
@@ -47,10 +48,12 @@
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 6,
                                                     "end": 7
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 8
                                             },
@@ -59,20 +62,24 @@
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 10
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 5,
                                             "end": 10
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 10
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 3,
                                 "end": 11
                             },
@@ -81,22 +88,26 @@
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -105,14 +116,17 @@
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -121,6 +135,7 @@
     "source": "[a, {[b]:d}, c] = obj",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -129,9 +144,7 @@
 ### Printed
 
 ```javascript
-
-[a, { [b] : d }, c,] = obj;
-
+[a, { [b]: d }, c] = obj;
 ```
 
 ### Diagnostics

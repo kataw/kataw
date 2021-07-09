@@ -41,12 +41,14 @@ function *f(){   for (yield x in y);   }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -55,6 +57,7 @@ function *f(){   for (yield x in y);   }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -64,6 +67,7 @@ function *f(){   for (yield x in y);   }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -78,6 +82,7 @@ function *f(){   for (yield x in y);   }
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 20
                             },
@@ -86,6 +91,7 @@ function *f(){   for (yield x in y);   }
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 27
                                 },
@@ -96,16 +102,19 @@ function *f(){   for (yield x in y);   }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 22,
                                 "end": 29
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
@@ -114,30 +123,36 @@ function *f(){   for (yield x in y);   }
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 34
                             },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 36
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 36
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 40
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -146,6 +161,7 @@ function *f(){   for (yield x in y);   }
     "source": "function *f(){   for (yield x in y);   }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

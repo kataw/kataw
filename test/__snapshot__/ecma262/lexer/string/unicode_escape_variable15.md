@@ -34,10 +34,12 @@
                 "text": "",
                 "rawText": "\"\\u{a",
                 "flags": 8288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         }
@@ -46,6 +48,7 @@
     "source": "\"\\u{a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

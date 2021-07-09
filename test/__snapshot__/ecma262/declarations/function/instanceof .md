@@ -32,6 +32,7 @@ function foo(value: AOrString) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ function foo(value: AOrString) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -56,6 +58,7 @@ function foo(value: AOrString) {
                             "text": "value",
                             "rawText": "value",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 18
                         },
@@ -71,26 +74,31 @@ function foo(value: AOrString) {
                                     "text": "AOrString",
                                     "rawText": "AOrString",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 29
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 29
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 29
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 29
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 29
             },
@@ -109,6 +117,7 @@ function foo(value: AOrString) {
                                     "text": "invariant",
                                     "rawText": "invariant",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 44
                                 },
@@ -122,12 +131,14 @@ function foo(value: AOrString) {
                                                 "text": "value",
                                                 "rawText": "value",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 45,
                                                 "end": 50
                                             },
                                             "operatorToken": {
                                                 "kind": 4229173,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 61
                                             },
@@ -136,38 +147,46 @@ function foo(value: AOrString) {
                                                 "text": "B",
                                                 "rawText": "B",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 63
                                             },
                                             "flags": 96,
+                                            "transformFlags": 5120,
                                             "start": 45,
                                             "end": 63
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 63
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 32,
                                 "end": 64
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 32,
                             "end": 65
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 65
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 67
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 67
         }
@@ -176,6 +195,7 @@ function foo(value: AOrString) {
     "source": "function foo(value: AOrString) {\n  invariant(value instanceof B);\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 67
 }
@@ -184,11 +204,9 @@ function foo(value: AOrString) {
 ### Printed
 
 ```javascript
-
 function foo(value: AOrString) {
   invariant(value instanceof B);
 }
-
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ type a = ("string") => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = ("string") => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = ("string") => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -66,22 +69,26 @@ type a = ("string") => T;
                                     "text": "string",
                                     "rawText": "\"string\"",
                                     "flags": 2097216,
+                                    "transformFlags": 1024,
                                     "start": 10,
                                     "end": 18
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 18
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 19
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 22
                     },
@@ -96,27 +103,33 @@ type a = ("string") => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 24
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 24
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 24
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 24
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -125,6 +138,7 @@ type a = ("string") => T;
     "source": "type a = (\"string\") => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -133,9 +147,7 @@ type a = ("string") => T;
 ### Printed
 
 ```javascript
-
-type a = ('"string"') => T
-
+type a = ("\"string\"") => T
 ```
 
 ### Diagnostics

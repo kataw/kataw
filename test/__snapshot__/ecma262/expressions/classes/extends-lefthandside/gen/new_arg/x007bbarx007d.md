@@ -30,6 +30,7 @@ new {bar}
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -43,25 +44,30 @@ new {bar}
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 9
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -70,6 +76,7 @@ new {bar}
     "source": "new {bar}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -78,9 +85,7 @@ new {bar}
 ### Printed
 
 ```javascript
-
 new { bar };
-
 ```
 
 ### Diagnostics

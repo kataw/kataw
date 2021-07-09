@@ -26,12 +26,14 @@ import type foo24 from "bar";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "typeKeyword": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -41,6 +43,7 @@ import type foo24 from "bar";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 22
                 },
@@ -49,10 +52,12 @@ import type foo24 from "bar";
                     "text": "bar",
                     "rawText": "\"bar\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 28
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 28
             },
@@ -64,16 +69,19 @@ import type foo24 from "bar";
                     "text": "foo24",
                     "rawText": "foo24",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 17
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -82,6 +90,7 @@ import type foo24 from "bar";
     "source": "import type foo24 from \"bar\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -90,9 +99,7 @@ import type foo24 from "bar";
 ### Printed
 
 ```javascript
-
-import type foo24 from '"bar"';
-
+import type foo24 from "\"bar\"";
 ```
 
 ### Diagnostics

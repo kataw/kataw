@@ -20,6 +20,7 @@ for (obj?.foo.bar in {}) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (obj?.foo.bar in {}) ;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -36,6 +38,7 @@ for (obj?.foo.bar in {}) ;
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -51,14 +54,17 @@ for (obj?.foo.bar in {}) ;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 10,
                             "end": 13
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 13
                     },
@@ -67,20 +73,24 @@ for (obj?.foo.bar in {}) ;
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
                     "flags": 536870944,
+                    "transformFlags": 2,
                     "start": 13,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 17
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 20
             },
@@ -91,20 +101,24 @@ for (obj?.foo.bar in {}) ;
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 20,
                 "end": 23
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -113,6 +127,7 @@ for (obj?.foo.bar in {}) ;
     "source": "for (obj?.foo.bar in {}) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

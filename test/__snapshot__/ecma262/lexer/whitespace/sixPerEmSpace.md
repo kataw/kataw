@@ -28,10 +28,12 @@ left@{x2006}@right
                 "text": "left",
                 "rawText": "left",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -46,6 +48,7 @@ left@{x2006}@right
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 5
                         },
@@ -54,15 +57,18 @@ left@{x2006}@right
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 5
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 5
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -86,6 +92,7 @@ left@{x2006}@right
                                 "text": "x2006",
                                 "rawText": "x2006",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 11
                             },
@@ -93,19 +100,23 @@ left@{x2006}@right
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 6,
                             "end": 11
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 4,
             "end": 12
         },
@@ -120,6 +131,7 @@ left@{x2006}@right
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -128,15 +140,18 @@ left@{x2006}@right
                             "text": "right",
                             "rawText": "right",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 18
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 18
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 18
             },
@@ -146,6 +161,7 @@ left@{x2006}@right
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
@@ -157,14 +173,17 @@ left@{x2006}@right
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 18,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 18
         }
@@ -173,6 +192,7 @@ left@{x2006}@right
     "source": "left@{x2006}@right",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

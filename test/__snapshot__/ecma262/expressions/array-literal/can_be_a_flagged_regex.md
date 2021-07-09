@@ -49,6 +49,7 @@
                                     "kind": 371,
                                     "text": "/x/g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 5
                                 },
@@ -57,26 +58,31 @@
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 12
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 1,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 13
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
@@ -85,14 +91,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -101,6 +110,7 @@
     "source": "[/x/g.length] = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -109,9 +119,7 @@
 ### Printed
 
 ```javascript
-
-[/x/g.length,] = x;
-
+[/x/g.length] = x;
 ```
 
 ### Diagnostics

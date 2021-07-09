@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,6 +40,7 @@
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -47,6 +49,7 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
@@ -58,6 +61,7 @@
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 29
                     },
@@ -69,7 +73,8 @@
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 31
                         },
@@ -77,6 +82,7 @@
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 34
                         },
@@ -87,19 +93,23 @@
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 35
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 36
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 36
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 36
                 },
@@ -107,14 +117,17 @@
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 38
                 },
                 "flags": 21,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 39
         }
@@ -123,6 +136,7 @@
     "source": "\"use strict\"; class x extends ()=>{} {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

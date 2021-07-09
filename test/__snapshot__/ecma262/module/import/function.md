@@ -28,6 +28,7 @@ function f(){import {x} from "y";}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -37,6 +38,7 @@ function f(){import {x} from "y";}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -46,6 +48,7 @@ function f(){import {x} from "y";}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -60,6 +63,7 @@ function f(){import {x} from "y";}
                             "importKeyword": {
                                 "kind": 37814364,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
                             },
@@ -70,6 +74,7 @@ function f(){import {x} from "y";}
                                 "fromKeyword": {
                                     "kind": 16500,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 28
                                 },
@@ -78,10 +83,12 @@ function f(){import {x} from "y";}
                                     "text": "y",
                                     "rawText": "\"y\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 32
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 32
                             },
@@ -106,41 +113,50 @@ function f(){import {x} from "y";}
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 22
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 22
                                             }
                                         ],
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 22
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 23
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 23
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 34
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -149,6 +165,7 @@ function f(){import {x} from "y";}
     "source": "function f(){import {x} from \"y\";}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

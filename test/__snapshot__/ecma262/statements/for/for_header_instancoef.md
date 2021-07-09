@@ -20,6 +20,7 @@ for ((2935) instanceof ((2e308));;) debugger
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -32,16 +33,19 @@ for ((2935) instanceof ((2e308));;) debugger
                         "text": 2935,
                         "rawText": "2935",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 10
                     },
-                    "flags": 32,
-                    "start": 5,
+                    "flags": 5,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 22
                 },
@@ -54,18 +58,22 @@ for ((2935) instanceof ((2e308));;) debugger
                             "text": null,
                             "rawText": "2e308",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 30
                         },
-                        "flags": 32,
-                        "start": 24,
+                        "flags": 24,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 31
                     },
-                    "flags": 32,
-                    "start": 22,
+                    "flags": 22,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 32
                 },
-                "flags": 32,
+                "flags": 37,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 32
             },
@@ -76,14 +84,17 @@ for ((2935) instanceof ((2e308));;) debugger
                 "debuggerKeyword": {
                     "kind": 37757010,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 44
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 44
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -92,6 +103,7 @@ for ((2935) instanceof ((2e308));;) debugger
     "source": "for ((2935) instanceof ((2e308));;) debugger",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -100,10 +112,7 @@ for ((2935) instanceof ((2e308));;) debugger
 ### Printed
 
 ```javascript
-
-for ((2935) instanceof ((2e308));;)
-  debugger;
-
+for ((2935) instanceof ((2e308)); ; ) debugger;
 ```
 
 ### Diagnostics

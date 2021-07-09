@@ -30,12 +30,14 @@ function *f(x = delete ((new) = f)) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -44,6 +46,7 @@ function *f(x = delete ((new) = f)) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -59,6 +62,7 @@ function *f(x = delete ((new) = f)) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -69,6 +73,7 @@ function *f(x = delete ((new) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 22
                             },
@@ -83,6 +88,7 @@ function *f(x = delete ((new) = f)) {}
                                             "newKeyword": {
                                                 "kind": 138477661,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 28
                                             },
@@ -91,21 +97,25 @@ function *f(x = delete ((new) = f)) {}
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 28
                                             },
                                             "argumentList": null,
                                             "flags": 96,
+                                            "transformFlags": 2048,
                                             "start": 25,
                                             "end": 28
                                         },
-                                        "flags": 32,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "transformFlags": 0,
+                                        "start": 32,
                                         "end": 29
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     },
@@ -114,28 +124,34 @@ function *f(x = delete ((new) = f)) {}
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 24,
                                     "end": 33
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 34
                             },
                             "flags": 32,
+                            "transformFlags": 1024,
                             "start": 15,
                             "end": 34
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 34
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 34
             },
@@ -146,15 +162,18 @@ function *f(x = delete ((new) = f)) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 37
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 38
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -163,6 +182,7 @@ function *f(x = delete ((new) = f)) {}
     "source": "function *f(x = delete ((new) = f)) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

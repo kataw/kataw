@@ -32,12 +32,14 @@
                     "text": "interface",
                     "rawText": "\\u0069nterface",
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -46,14 +48,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -62,6 +67,7 @@
     "source": "\\u0069nterface = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -70,9 +76,7 @@
 ### Printed
 
 ```javascript
-
 \u0069nterface = x;
-
 ```
 
 ### Diagnostics

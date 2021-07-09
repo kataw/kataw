@@ -22,12 +22,14 @@ function *g(){ async (x = {[yield y]: 1}) }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *g(){ async (x = {[yield y]: 1}) }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *g(){ async (x = {[yield y]: 1}) }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -63,6 +67,7 @@ function *g(){ async (x = {[yield y]: 1}) }
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 20
                                 },
@@ -76,12 +81,14 @@ function *g(){ async (x = {[yield y]: 1}) }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 23
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
@@ -100,6 +107,7 @@ function *g(){ async (x = {[yield y]: 1}) }
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 28,
                                                                         "end": 33
                                                                     },
@@ -110,14 +118,17 @@ function *g(){ async (x = {[yield y]: 1}) }
                                                                         "text": "y",
                                                                         "rawText": "y",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 33,
                                                                         "end": 35
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 4096,
                                                                     "start": 28,
                                                                     "end": 35
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 27,
                                                                 "end": 36
                                                             },
@@ -126,52 +137,63 @@ function *g(){ async (x = {[yield y]: 1}) }
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 37,
                                                                 "end": 39
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 128,
                                                             "start": 27,
                                                             "end": 39
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 39
                                                 },
                                                 "flags": 48,
+                                                "transformFlags": 8,
                                                 "start": 25,
                                                 "end": 40
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 22,
                                             "end": 40
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 14
                                 },
                                 "flags": 268435490,
+                                "transformFlags": 1,
                                 "start": 14,
                                 "end": 41
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 41
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 43
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -180,6 +202,7 @@ function *g(){ async (x = {[yield y]: 1}) }
     "source": "function *g(){ async (x = {[yield y]: 1}) }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -188,11 +211,9 @@ function *g(){ async (x = {[yield y]: 1}) }
 ### Printed
 
 ```javascript
-
-function * g() {
-  async(x = { [yield  y] : 1 });
+function *g() {
+  async(x = { [yield y]: 1 });
 }
-
 ```
 
 ### Diagnostics

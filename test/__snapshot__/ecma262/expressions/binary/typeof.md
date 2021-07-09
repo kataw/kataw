@@ -22,6 +22,7 @@ typeof x
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -30,14 +31,17 @@ typeof x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -46,6 +50,7 @@ typeof x
     "source": "typeof x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -54,9 +59,7 @@ typeof x
 ### Printed
 
 ```javascript
-
 typeof x;
-
 ```
 
 ### Diagnostics

@@ -30,6 +30,7 @@ class x {async f(foo = await bar){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class x {async f(foo = await bar){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x {async f(foo = await bar){}}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -69,6 +72,7 @@ class x {async f(foo = await bar){}}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 16
                                 },
@@ -84,6 +88,7 @@ class x {async f(foo = await bar){}}
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 20
                                             },
@@ -94,6 +99,7 @@ class x {async f(foo = await bar){}}
                                                 "awaitKeyword": {
                                                     "kind": 82196,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 28
                                                 },
@@ -102,20 +108,24 @@ class x {async f(foo = await bar){}}
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 32
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 22,
                                                 "end": 32
                                             },
                                             "flags": 34,
+                                            "transformFlags": 4096,
                                             "start": 17,
                                             "end": 32
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 290,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 33
                                 },
@@ -127,31 +137,38 @@ class x {async f(foo = await bar){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 34
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 35
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 35
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 35
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 35
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -160,6 +177,7 @@ class x {async f(foo = await bar){}}
     "source": "class x {async f(foo = await bar){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

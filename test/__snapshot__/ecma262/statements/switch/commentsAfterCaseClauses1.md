@@ -35,6 +35,7 @@ function getSecurity(level) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -44,6 +45,7 @@ function getSecurity(level) {
                 "text": "getSecurity",
                 "rawText": "getSecurity",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 20
             },
@@ -56,12 +58,14 @@ function getSecurity(level) {
                         "text": "level",
                         "rawText": "level",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 26
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 26
             },
@@ -76,6 +80,7 @@ function getSecurity(level) {
                             "switchKeyword": {
                                 "kind": 37757024,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 40
                             },
@@ -84,6 +89,7 @@ function getSecurity(level) {
                                 "text": "level",
                                 "rawText": "level",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 46
                             },
@@ -95,6 +101,7 @@ function getSecurity(level) {
                                         "caseKeyword": {
                                             "kind": 4194382,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 48,
                                             "end": 61
                                         },
@@ -103,17 +110,20 @@ function getSecurity(level) {
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 61,
                                             "end": 63
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 63,
                                             "end": 64
                                         },
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 64
                                     },
@@ -122,6 +132,7 @@ function getSecurity(level) {
                                         "caseKeyword": {
                                             "kind": 4194382,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 64,
                                             "end": 85
                                         },
@@ -130,17 +141,20 @@ function getSecurity(level) {
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 85,
                                             "end": 87
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 87,
                                             "end": 88
                                         },
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 64,
                                         "end": 88
                                     },
@@ -149,6 +163,7 @@ function getSecurity(level) {
                                         "caseKeyword": {
                                             "kind": 4194382,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 88,
                                             "end": 108
                                         },
@@ -157,12 +172,14 @@ function getSecurity(level) {
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 108,
                                             "end": 110
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 110,
                                             "end": 111
                                         },
@@ -172,6 +189,7 @@ function getSecurity(level) {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 111,
                                                     "end": 137
                                                 },
@@ -180,15 +198,18 @@ function getSecurity(level) {
                                                     "text": "Hi",
                                                     "rawText": "\"Hi\"",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 137,
                                                     "end": 142
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 111,
                                                 "end": 143
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 88,
                                         "end": 143
                                     },
@@ -197,6 +218,7 @@ function getSecurity(level) {
                                         "caseKeyword": {
                                             "kind": 4194382,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 143,
                                             "end": 156
                                         },
@@ -205,17 +227,20 @@ function getSecurity(level) {
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 156,
                                             "end": 158
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 158,
                                             "end": 159
                                         },
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 143,
                                         "end": 159
                                     },
@@ -224,6 +249,7 @@ function getSecurity(level) {
                                         "caseKeyword": {
                                             "kind": 4194382,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 159,
                                             "end": 181
                                         },
@@ -232,12 +258,14 @@ function getSecurity(level) {
                                             "text": 4,
                                             "rawText": "4",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 181,
                                             "end": 183
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 183,
                                             "end": 187
                                         },
@@ -247,6 +275,7 @@ function getSecurity(level) {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 187,
                                                     "end": 214
                                                 },
@@ -255,15 +284,18 @@ function getSecurity(level) {
                                                     "text": "hello",
                                                     "rawText": "\"hello\"",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 214,
                                                     "end": 222
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 187,
                                                 "end": 223
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 159,
                                         "end": 223
                                     },
@@ -272,6 +304,7 @@ function getSecurity(level) {
                                         "caseKeyword": {
                                             "kind": 4194382,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 223,
                                             "end": 236
                                         },
@@ -280,17 +313,20 @@ function getSecurity(level) {
                                             "text": 5,
                                             "rawText": "5",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 236,
                                             "end": 238
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 238,
                                             "end": 239
                                         },
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 223,
                                         "end": 239
                                     },
@@ -299,12 +335,14 @@ function getSecurity(level) {
                                         "defaultKeyword": {
                                             "kind": 4194387,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 239,
                                             "end": 263
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 263,
                                             "end": 264
                                         },
@@ -314,6 +352,7 @@ function getSecurity(level) {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 264,
                                                     "end": 295
                                                 },
@@ -322,38 +361,46 @@ function getSecurity(level) {
                                                     "text": "world",
                                                     "rawText": "\"world\"",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 295,
                                                     "end": 303
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 264,
                                                 "end": 304
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 239,
                                         "end": 304
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 304
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 310
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 310
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 312
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 312
         }
@@ -362,6 +409,7 @@ function getSecurity(level) {
     "source": "function getSecurity(level) {\n    switch(level){\n        case 0: // Zero\n        case 1: // one\n        case 2: // two\n            return \"Hi\";\n        case 3: // three\n        case 4   : // four\n            return \"hello\";\n        case 5: // five\n        default:  // default\n            return \"world\";\n    }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 312
 }
@@ -370,29 +418,24 @@ function getSecurity(level) {
 ### Printed
 
 ```javascript
-
 function getSecurity(level) {
   switch (level) {
-    case 0: 
-    // Zero
-    case 1: 
-    // one
-    case 2:// two
-     
-      return '"Hi"';
-    case 3: 
-    // three
-    case 4:// four
-     
-      return '"hello"';
-    case 5: 
-    // five
-    default:// default
-     
-      return '"world"';
+    case 0:
+
+    case 1:
+
+    case 2:
+      return "\"Hi\"";
+    case 3:
+
+    case 4:
+      return "\"hello\"";
+    case 5:
+
+    default:
+      return "\"world\"";
   }
 }
-
 ```
 
 ### Diagnostics

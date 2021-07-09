@@ -31,14 +31,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 2
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -52,6 +55,7 @@
                         "text": "string",
                         "rawText": "string",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 10
                     },
@@ -65,25 +69,30 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 14
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 11,
                         "end": 14
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 3,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 3,
             "end": 14
         },
@@ -94,10 +103,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 22
         },
@@ -108,10 +119,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 24,
             "end": 31
         },
@@ -121,16 +134,19 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 39
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 40
         }
@@ -139,6 +155,7 @@
     "source": "(x: string, [x: string]: string) =>  {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

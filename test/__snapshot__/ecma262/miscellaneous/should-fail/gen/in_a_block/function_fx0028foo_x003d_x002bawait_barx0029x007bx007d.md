@@ -35,6 +35,7 @@
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 10
                         },
@@ -44,6 +45,7 @@
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
@@ -59,6 +61,7 @@
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 16
                                     },
@@ -69,6 +72,7 @@
                                         "operandToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 20
                                         },
@@ -77,14 +81,17 @@
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 25
                                         },
                                         "flags": 32,
+                                        "transformFlags": 1024,
                                         "start": 18,
                                         "end": 25
                                     },
                                     "flags": 34,
+                                    "transformFlags": 4096,
                                     "start": 13,
                                     "end": 25
                                 },
@@ -93,12 +100,14 @@
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 29
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 29
                         },
@@ -109,24 +118,29 @@
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 31
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 32
                         },
                         "returnType": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -135,6 +149,7 @@
     "source": "{ function f(foo = +await bar){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

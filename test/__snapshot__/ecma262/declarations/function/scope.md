@@ -67,6 +67,7 @@ function for_scope_var() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -76,6 +77,7 @@ function for_scope_var() {
                 "text": "block_scope",
                 "rawText": "block_scope",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 20
             },
@@ -85,6 +87,7 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -99,6 +102,7 @@ function for_scope_var() {
                             "lexicalKeyword": {
                                 "kind": 41951307,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 30
                             },
@@ -112,6 +116,7 @@ function for_scope_var() {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 32
                                         },
@@ -122,10 +127,12 @@ function for_scope_var() {
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 40
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 40
                                         },
@@ -134,19 +141,23 @@ function for_scope_var() {
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 44
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 30,
                                         "end": 44
                                     }
                                 ],
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 44
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 45
                         },
@@ -156,6 +167,7 @@ function for_scope_var() {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 51
                             },
@@ -169,6 +181,7 @@ function for_scope_var() {
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 51,
                                             "end": 53
                                         },
@@ -179,10 +192,12 @@ function for_scope_var() {
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 61
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 54,
                                             "end": 61
                                         },
@@ -191,19 +206,23 @@ function for_scope_var() {
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 63,
                                             "end": 65
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 51,
                                         "end": 65
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 65
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 66
                         },
@@ -217,6 +236,7 @@ function for_scope_var() {
                                         "lexicalKeyword": {
                                             "kind": 41951307,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 70,
                                             "end": 78
                                         },
@@ -230,6 +250,7 @@ function for_scope_var() {
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 78,
                                                         "end": 80
                                                     },
@@ -239,19 +260,23 @@ function for_scope_var() {
                                                         "text": "",
                                                         "rawText": "\"\"",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 82,
                                                         "end": 85
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 4224,
                                                     "start": 78,
                                                     "end": 85
                                                 }
                                             ],
                                             "flags": 17,
+                                            "transformFlags": 0,
                                             "start": 78,
                                             "end": 85
                                         },
                                         "flags": 33554448,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 86
                                     },
@@ -261,6 +286,7 @@ function for_scope_var() {
                                         "varKeyword": {
                                             "kind": 37757002,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 86,
                                             "end": 94
                                         },
@@ -274,6 +300,7 @@ function for_scope_var() {
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 94,
                                                         "end": 96
                                                     },
@@ -283,42 +310,51 @@ function for_scope_var() {
                                                         "text": "",
                                                         "rawText": "\"\"",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 98,
                                                         "end": 101
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 4224,
                                                     "start": 94,
                                                     "end": 101
                                                 }
                                             ],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 94,
                                             "end": 101
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 86,
                                         "end": 102
                                     }
                                 ],
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 102
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 66,
                             "end": 106
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 106
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 108
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 108
         },
@@ -329,6 +365,7 @@ function for_scope_var() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 108,
                 "end": 117
             },
@@ -338,6 +375,7 @@ function for_scope_var() {
                 "text": "default_param_1",
                 "rawText": "default_param_1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 117,
                 "end": 133
             },
@@ -347,6 +385,7 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 134,
                 "end": 134
             },
@@ -363,6 +402,7 @@ function for_scope_var() {
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 137,
                                 "end": 195
                             },
@@ -372,6 +412,7 @@ function for_scope_var() {
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 195,
                                 "end": 197
                             },
@@ -387,6 +428,7 @@ function for_scope_var() {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 198,
                                             "end": 204
                                         },
@@ -403,12 +445,14 @@ function for_scope_var() {
                                                     "parameters": [],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 207,
                                                     "end": 207
                                                 },
                                                 "arrowToken": {
                                                     "kind": 10,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 208,
                                                     "end": 211
                                                 },
@@ -419,18 +463,22 @@ function for_scope_var() {
                                                     "type": {
                                                         "kind": 134234347,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 211,
                                                         "end": 218
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 211,
                                                     "end": 218
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 205,
                                                 "end": 218
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 205,
                                             "end": 218
                                         },
@@ -439,16 +487,19 @@ function for_scope_var() {
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 220,
                                             "end": 222
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 198,
                                         "end": 222
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 198,
                                 "end": 222
                             },
@@ -463,6 +514,7 @@ function for_scope_var() {
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 263,
                                                 "end": 274
                                             },
@@ -471,19 +523,23 @@ function for_scope_var() {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 274,
                                                 "end": 276
                                             },
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 263,
                                             "end": 277
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 263,
                                     "end": 277
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 261,
                                 "end": 281
                             },
@@ -494,28 +550,34 @@ function for_scope_var() {
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 254,
                                     "end": 261
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 254,
                                 "end": 261
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 137,
                             "end": 281
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 137,
                     "end": 281
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 135,
                 "end": 283
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 108,
             "end": 283
         },
@@ -526,6 +588,7 @@ function for_scope_var() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 283,
                 "end": 293
             },
@@ -535,6 +598,7 @@ function for_scope_var() {
                 "text": "default_param_2",
                 "rawText": "default_param_2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 293,
                 "end": 309
             },
@@ -544,6 +608,7 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 310,
                 "end": 310
             },
@@ -558,6 +623,7 @@ function for_scope_var() {
                             "lexicalKeyword": {
                                 "kind": 41951307,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 313,
                                 "end": 370
                             },
@@ -571,6 +637,7 @@ function for_scope_var() {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 370,
                                             "end": 372
                                         },
@@ -580,19 +647,23 @@ function for_scope_var() {
                                             "text": "",
                                             "rawText": "\"\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 374,
                                             "end": 377
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 370,
                                         "end": 377
                                     }
                                 ],
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 370,
                                 "end": 377
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 313,
                             "end": 378
                         },
@@ -603,6 +674,7 @@ function for_scope_var() {
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 378,
                                 "end": 389
                             },
@@ -612,6 +684,7 @@ function for_scope_var() {
                                 "text": "f0",
                                 "rawText": "f0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 389,
                                 "end": 392
                             },
@@ -627,6 +700,7 @@ function for_scope_var() {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 393,
                                             "end": 394
                                         },
@@ -640,7 +714,8 @@ function for_scope_var() {
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 398,
                                                 "end": 398
                                             },
@@ -648,6 +723,7 @@ function for_scope_var() {
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 399,
                                                 "end": 402
                                             },
@@ -656,20 +732,24 @@ function for_scope_var() {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 402,
                                                 "end": 404
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 396,
                                             "end": 404
                                         },
                                         "flags": 34,
+                                        "transformFlags": 4096,
                                         "start": 393,
                                         "end": 404
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 393,
                                 "end": 404
                             },
@@ -684,6 +764,7 @@ function for_scope_var() {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 415,
                                                 "end": 423
                                             },
@@ -697,6 +778,7 @@ function for_scope_var() {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 423,
                                                             "end": 425
                                                         },
@@ -706,19 +788,23 @@ function for_scope_var() {
                                                             "text": 0,
                                                             "rawText": "0",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 427,
                                                             "end": 429
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 4224,
                                                         "start": 423,
                                                         "end": 429
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 423,
                                                 "end": 429
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 415,
                                             "end": 430
                                         },
@@ -727,6 +813,7 @@ function for_scope_var() {
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 430,
                                                 "end": 441
                                             },
@@ -737,6 +824,7 @@ function for_scope_var() {
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 441,
                                                     "end": 443
                                                 },
@@ -745,23 +833,28 @@ function for_scope_var() {
                                                     "elements": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 444,
                                                     "end": 444
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 441,
                                                 "end": 445
                                             },
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 430,
                                             "end": 446
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 415,
                                     "end": 446
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 413,
                                 "end": 477
                             },
@@ -772,14 +865,17 @@ function for_scope_var() {
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 406,
                                     "end": 413
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 406,
                                 "end": 413
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 378,
                             "end": 477
                         },
@@ -790,6 +886,7 @@ function for_scope_var() {
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 477,
                                 "end": 488
                             },
@@ -799,6 +896,7 @@ function for_scope_var() {
                                 "text": "f1",
                                 "rawText": "f1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 488,
                                 "end": 491
                             },
@@ -814,6 +912,7 @@ function for_scope_var() {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 492,
                                             "end": 493
                                         },
@@ -824,16 +923,19 @@ function for_scope_var() {
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 495,
                                             "end": 497
                                         },
                                         "flags": 34,
+                                        "transformFlags": 4096,
                                         "start": 492,
                                         "end": 497
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 492,
                                 "end": 497
                             },
@@ -848,6 +950,7 @@ function for_scope_var() {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 538,
                                                 "end": 546
                                             },
@@ -861,6 +964,7 @@ function for_scope_var() {
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 546,
                                                             "end": 548
                                                         },
@@ -870,19 +974,23 @@ function for_scope_var() {
                                                             "text": 0,
                                                             "rawText": "0",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 550,
                                                             "end": 552
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 4224,
                                                         "start": 546,
                                                         "end": 552
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 546,
                                                 "end": 552
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 538,
                                             "end": 553
                                         },
@@ -891,6 +999,7 @@ function for_scope_var() {
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 553,
                                                 "end": 564
                                             },
@@ -899,19 +1008,23 @@ function for_scope_var() {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 564,
                                                 "end": 566
                                             },
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 553,
                                             "end": 567
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 538,
                                     "end": 567
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 536,
                                 "end": 571
                             },
@@ -922,28 +1035,34 @@ function for_scope_var() {
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 529,
                                     "end": 536
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 529,
                                 "end": 536
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 477,
                             "end": 571
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 313,
                     "end": 571
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 311,
                 "end": 573
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 283,
             "end": 573
         },
@@ -954,6 +1073,7 @@ function for_scope_var() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 573,
                 "end": 583
             },
@@ -963,6 +1083,7 @@ function for_scope_var() {
                 "text": "for_scope_let",
                 "rawText": "for_scope_let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 583,
                 "end": 597
             },
@@ -972,6 +1093,7 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 598,
                 "end": 598
             },
@@ -986,6 +1108,7 @@ function for_scope_var() {
                             "lexicalKeyword": {
                                 "kind": 41951307,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 601,
                                 "end": 607
                             },
@@ -999,6 +1122,7 @@ function for_scope_var() {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 607,
                                             "end": 609
                                         },
@@ -1009,10 +1133,12 @@ function for_scope_var() {
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 610,
                                                 "end": 617
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 610,
                                             "end": 617
                                         },
@@ -1021,19 +1147,23 @@ function for_scope_var() {
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 619,
                                             "end": 621
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 607,
                                         "end": 621
                                     }
                                 ],
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 607,
                                 "end": 621
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 601,
                             "end": 622
                         },
@@ -1042,6 +1172,7 @@ function for_scope_var() {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 622,
                                 "end": 628
                             },
@@ -1050,6 +1181,7 @@ function for_scope_var() {
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 622,
                                     "end": 633
                                 },
@@ -1063,6 +1195,7 @@ function for_scope_var() {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 633,
                                                 "end": 635
                                             },
@@ -1072,19 +1205,23 @@ function for_scope_var() {
                                                 "text": "",
                                                 "rawText": "\"\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 637,
                                                 "end": 640
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 633,
                                             "end": 640
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 633,
                                     "end": 640
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 622,
                                 "end": 640
                             },
@@ -1096,28 +1233,34 @@ function for_scope_var() {
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 669,
                                     "end": 669
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 667,
                                 "end": 670
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 622,
                             "end": 670
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 601,
                     "end": 670
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 599,
                 "end": 672
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 573,
             "end": 672
         },
@@ -1128,6 +1271,7 @@ function for_scope_var() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 672,
                 "end": 682
             },
@@ -1137,6 +1281,7 @@ function for_scope_var() {
                 "text": "for_scope_var",
                 "rawText": "for_scope_var",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 682,
                 "end": 696
             },
@@ -1146,6 +1291,7 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 697,
                 "end": 697
             },
@@ -1161,6 +1307,7 @@ function for_scope_var() {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 700,
                                 "end": 706
                             },
@@ -1174,6 +1321,7 @@ function for_scope_var() {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 706,
                                             "end": 708
                                         },
@@ -1184,10 +1332,12 @@ function for_scope_var() {
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 709,
                                                 "end": 716
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 709,
                                             "end": 716
                                         },
@@ -1196,19 +1346,23 @@ function for_scope_var() {
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 718,
                                             "end": 720
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 706,
                                         "end": 720
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 706,
                                 "end": 720
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 700,
                             "end": 721
                         },
@@ -1217,6 +1371,7 @@ function for_scope_var() {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 721,
                                 "end": 727
                             },
@@ -1225,6 +1380,7 @@ function for_scope_var() {
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 729,
                                     "end": 732
                                 },
@@ -1238,6 +1394,7 @@ function for_scope_var() {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 732,
                                                 "end": 734
                                             },
@@ -1247,19 +1404,23 @@ function for_scope_var() {
                                                 "text": "",
                                                 "rawText": "\"\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 736,
                                                 "end": 739
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 732,
                                             "end": 739
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 732,
                                     "end": 739
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 721,
                                 "end": 770
                             },
@@ -1271,28 +1432,34 @@ function for_scope_var() {
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 774,
                                     "end": 774
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 772,
                                 "end": 775
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 721,
                             "end": 775
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 700,
                     "end": 775
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 698,
                 "end": 777
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 672,
             "end": 777
         }
@@ -1301,6 +1468,7 @@ function for_scope_var() {
     "source": "function block_scope() {\n  let a: number = 0;\n  var b: number = 0;\n  {\n    let a = \"\";\n    var b = \"\";\n  }\n}\nfunction default_param_1() {\n  // function binding in scope in default expr\n  function f(\n    x: () => string = f // error: number ~> string\n  ): number {\n    return 0;\n  }\n}\n\nfunction default_param_2() {\n  // fn body bindings not visible from param scope\n  let a = \"\";\n  function f0(x = () => a): number {\n    let a = 0;\n    return x(); // error: string ~> number\n  }\n  function f1(x = b /* error: cannot resolve b */): number {\n    let b = 0;\n    return x;\n  }\n}\n\nfunction for_scope_let() {\n  let a: number = 0;\n  for (let a = \"\" /* ok: local to init */;;) {}\n}\n\nfunction for_scope_var() {\n  var a: number = 0;\n  for (var a = \"\" /* error: string ~> number */;;) {}\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 778
 }
@@ -1309,41 +1477,40 @@ function for_scope_var() {
 ### Printed
 
 ```javascript
-
 function block_scope() {
   let a: number = 0;
   var b: number = 0;
   {
-    let a = '""';
-    var b = '""';
+    let a = "\"\"";
+    var b = "\"\"";
   }
 }
 function default_param_1() {
-   // function binding in scope in default expr
-  function f(x: () => string = f// error: number ~> string
-  ): number {
+  function f(x: () => string = f): number {
     return 0;
   }
 }
+
 function default_param_2() {
-   // fn body bindings not visible from param scope
-  let a = '""';
+  let a = "\"\"";
   function f0(x = () => a): number {
     let a = 0;
-    return x();// error: string ~> number
+    return x();
   }
-  function f1(x = b/* error: cannot resolve b */): number {
+  function f1(x = b): number {
     let b = 0;
     return x;
   }
 }
+
 function for_scope_let() {
   let a: number = 0;
-  for (let a = '""'/* ok: local to init */;;) { }
+  for (let a = "\"\""; ; ) {}
 }
+
 function for_scope_var() {
   var a: number = 0;
-  for (var a = '""'/* error: string ~> number */;;) { }
+  for (var a = "\"\""; ; ) {}
 }
 
 ```

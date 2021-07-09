@@ -25,6 +25,7 @@ function bar(a = console.log) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -34,6 +35,7 @@ function bar(a = console.log) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -49,6 +51,7 @@ function bar(a = console.log) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -61,6 +64,7 @@ function bar(a = console.log) {
                                 "text": "console",
                                 "rawText": "console",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 24
                             },
@@ -69,20 +73,24 @@ function bar(a = console.log) {
                                 "text": "log",
                                 "rawText": "log",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 28
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 16,
                             "end": 28
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 28
             },
@@ -93,15 +101,18 @@ function bar(a = console.log) {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         },
@@ -112,6 +123,7 @@ function bar(a = console.log) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 43
             },
@@ -121,6 +133,7 @@ function bar(a = console.log) {
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 47
             },
@@ -136,6 +149,7 @@ function bar(a = console.log) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 49
                         },
@@ -148,6 +162,7 @@ function bar(a = console.log) {
                                 "text": "console",
                                 "rawText": "console",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 59
                             },
@@ -156,20 +171,24 @@ function bar(a = console.log) {
                                 "text": "log",
                                 "rawText": "log",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 63
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 51,
                             "end": 63
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 48,
                         "end": 63
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 63
             },
@@ -180,15 +199,18 @@ function bar(a = console.log) {
                     "directives": [],
                     "statements": [],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 66,
                     "end": 66
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 68
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 33,
             "end": 68
         }
@@ -197,6 +219,7 @@ function bar(a = console.log) {
     "source": "function foo(a = console.log) { }\n\nfunction bar(a = console.log) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }
@@ -205,10 +228,8 @@ function bar(a = console.log) {
 ### Printed
 
 ```javascript
-
 function foo(a = console.log) {}
-function bar(a = console.log) {
-}
+function bar(a = console.log) {}
 
 ```
 

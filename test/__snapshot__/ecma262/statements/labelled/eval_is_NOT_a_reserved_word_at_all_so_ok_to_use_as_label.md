@@ -22,12 +22,14 @@ eval: x;
                 "text": "eval",
                 "rawText": "eval",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -38,14 +40,17 @@ eval: x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 5,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -54,6 +59,7 @@ eval: x;
     "source": "eval: x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -62,9 +68,7 @@ eval: x;
 ### Printed
 
 ```javascript
-
-eval: x;
-
+eval:  x;
 ```
 
 ### Diagnostics

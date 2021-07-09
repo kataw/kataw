@@ -30,6 +30,7 @@ new fooo[bar]
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -40,6 +41,7 @@ new fooo[bar]
                         "text": "fooo",
                         "rawText": "fooo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 8
                     },
@@ -48,19 +50,23 @@ new fooo[bar]
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 12
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 0,
                     "end": 13
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -69,6 +75,7 @@ new fooo[bar]
     "source": "new fooo[bar]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -77,9 +84,7 @@ new fooo[bar]
 ### Printed
 
 ```javascript
-
 new fooo[bar];
-
 ```
 
 ### Diagnostics

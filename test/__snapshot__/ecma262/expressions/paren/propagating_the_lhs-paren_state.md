@@ -28,12 +28,14 @@
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
@@ -46,12 +48,14 @@
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 11
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 13
                                 },
@@ -60,24 +64,29 @@
                                     "text": "boo",
                                     "rawText": "boo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 17
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 6,
                                 "end": 17
                             },
-                            "flags": 32,
-                            "start": 6,
+                            "flags": 6,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 18
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 0,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -86,18 +95,22 @@
                         "text": "ding",
                         "rawText": "ding",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 25
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -106,6 +119,7 @@
     "source": "(foo + (bar + boo) + ding)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -114,9 +128,7 @@
 ### Printed
 
 ```javascript
-
 (foo + (bar + boo) + ding);
-
 ```
 
 ### Diagnostics

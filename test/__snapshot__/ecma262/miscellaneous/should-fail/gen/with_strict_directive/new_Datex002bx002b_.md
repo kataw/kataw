@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,6 +40,7 @@
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
@@ -47,6 +49,7 @@
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 17
                     },
@@ -55,19 +58,23 @@
                         "text": "Date",
                         "rawText": "Date",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 22
                     },
                     "argumentList": null,
                     "flags": 96,
+                    "transformFlags": 2048,
                     "start": 13,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 25
         }
@@ -76,6 +83,7 @@
     "source": "\"use strict\"; new Date++;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

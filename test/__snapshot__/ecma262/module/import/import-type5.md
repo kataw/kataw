@@ -26,12 +26,14 @@ import type a * from "b";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "typeKeyword": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -44,10 +46,12 @@ import type a * from "b";
                     "text": "b",
                     "rawText": "\"b\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 24
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 24
             },
@@ -59,6 +63,7 @@ import type a * from "b";
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -67,6 +72,7 @@ import type a * from "b";
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
+                        "transformFlags": 32,
                         "start": 13,
                         "end": 15
                     },
@@ -76,19 +82,23 @@ import type a * from "b";
                         "text": "from",
                         "rawText": "from",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 20
                 },
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -97,6 +107,7 @@ import type a * from "b";
     "source": "import type a * from \"b\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -105,9 +116,7 @@ import type a * from "b";
 ### Printed
 
 ```javascript
-
-import type a * from '"b"';
-
+import type a from "\"b\"";
 ```
 
 ### Diagnostics

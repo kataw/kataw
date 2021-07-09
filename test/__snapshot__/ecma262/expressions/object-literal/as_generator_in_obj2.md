@@ -37,6 +37,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 3,
                                     "end": 4
                                 },
@@ -49,6 +50,7 @@
                                         "text": "type",
                                         "rawText": "type",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 9
                                     },
@@ -58,6 +60,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 11
                                     },
@@ -69,36 +72,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 12
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 13
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 13
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 13
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 13
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 35,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         },
@@ -117,6 +128,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 20,
                                     "end": 21
                                 },
@@ -129,6 +141,7 @@
                                         "text": "interface",
                                         "rawText": "interface",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 31
                                     },
@@ -138,6 +151,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 33
                                     },
@@ -149,36 +163,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 34
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 35
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 35
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 35
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 35
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 19,
                     "end": 36
                 },
-                "flags": 32,
-                "start": 16,
+                "flags": 16,
+                "transformFlags": 0,
+                "start": 35,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 16,
             "end": 38
         },
@@ -197,6 +219,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 42,
                                     "end": 43
                                 },
@@ -209,6 +232,7 @@
                                         "text": "in",
                                         "rawText": "in",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 46
                                     },
@@ -218,6 +242,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 48
                                     },
@@ -229,36 +254,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 49,
                                             "end": 49
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 50
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 50
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 50
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 50
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 41,
                     "end": 51
                 },
-                "flags": 32,
-                "start": 38,
+                "flags": 38,
+                "transformFlags": 0,
+                "start": 35,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 38,
             "end": 53
         },
@@ -277,6 +310,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 57,
                                     "end": 58
                                 },
@@ -289,6 +323,7 @@
                                         "text": "of",
                                         "rawText": "of",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 58,
                                         "end": 61
                                     },
@@ -298,6 +333,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 62,
                                         "end": 63
                                     },
@@ -309,36 +345,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 64,
                                             "end": 64
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 63,
                                         "end": 65
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 61,
                                     "end": 65
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 57,
                                 "end": 65
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 57,
                         "end": 65
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 56,
                     "end": 66
                 },
-                "flags": 32,
-                "start": 53,
+                "flags": 53,
+                "transformFlags": 0,
+                "start": 35,
                 "end": 67
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 53,
             "end": 68
         }
@@ -347,6 +391,7 @@
     "source": "\n({* type(){}});\n\n({* interface(){}});\n\n({* in(){}});\n\n({* of(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }
@@ -355,11 +400,12 @@
 ### Printed
 
 ```javascript
+({ *type() {} });
+({ *interface() {} });
 
-({ * type() {} });
-({ * interface() {} });
-({ * in() {} });
-({ * of() {} });
+({ *in() {} });
+
+({ *of() {} });
 
 ```
 

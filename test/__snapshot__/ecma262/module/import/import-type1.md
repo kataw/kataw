@@ -27,12 +27,14 @@ import type { foo25, bar1 } from "baz";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "typeKeyword": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -42,6 +44,7 @@ import type { foo25, bar1 } from "baz";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 32
                 },
@@ -50,10 +53,12 @@ import type { foo25, bar1 } from "baz";
                     "text": "baz",
                     "rawText": "\"baz\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 38
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 38
             },
@@ -65,6 +70,7 @@ import type { foo25, bar1 } from "baz";
                     "text": "type",
                     "rawText": "type",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
@@ -85,10 +91,12 @@ import type { foo25, bar1 } from "baz";
                                     "text": "foo25",
                                     "rawText": "foo25",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 19
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
                             },
@@ -103,27 +111,33 @@ import type { foo25, bar1 } from "baz";
                                     "text": "bar1",
                                     "rawText": "bar1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 25
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 25
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 25
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 27
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 27
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -132,6 +146,7 @@ import type { foo25, bar1 } from "baz";
     "source": "import type { foo25, bar1 } from \"baz\";\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -140,9 +155,7 @@ import type { foo25, bar1 } from "baz";
 ### Printed
 
 ```javascript
-
-import type type{  foo25,  bar1, } from '"baz"';
-
+import type type{  foo25,  bar1 } from "\"baz\"";
 ```
 
 ### Diagnostics

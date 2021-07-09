@@ -29,6 +29,7 @@ const protected = x, function arguments(){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ const protected = x, function arguments(){}
                 "text": "protected",
                 "rawText": "protected",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 18
             },
@@ -47,6 +49,7 @@ const protected = x, function arguments(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
@@ -61,6 +64,7 @@ const protected = x, function arguments(){}
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 27
                             },
@@ -72,6 +76,7 @@ const protected = x, function arguments(){}
                                 "switchKeyword": {
                                     "kind": 37757024,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 42
                                 },
@@ -80,6 +85,7 @@ const protected = x, function arguments(){}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 44
                                 },
@@ -91,44 +97,53 @@ const protected = x, function arguments(){}
                                             "defaultKeyword": {
                                                 "kind": 4194387,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 60
                                             },
                                             "colonToken": {
                                                 "kind": 21,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 60,
                                                 "end": 61
                                             },
                                             "statements": [],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 61
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 61
                                 },
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 67
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 67
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 67
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 69
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 69
         },
@@ -137,6 +152,7 @@ const protected = x, function arguments(){}
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 69,
                 "end": 76
             },
@@ -150,6 +166,7 @@ const protected = x, function arguments(){}
                             "text": "protected",
                             "rawText": "protected",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 76,
                             "end": 86
                         },
@@ -159,19 +176,23 @@ const protected = x, function arguments(){}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 88,
                             "end": 90
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 76,
                         "end": 90
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 76,
                 "end": 91
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 69,
             "end": 91
         },
@@ -182,6 +203,7 @@ const protected = x, function arguments(){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 91,
                 "end": 100
             },
@@ -191,6 +213,7 @@ const protected = x, function arguments(){}
                 "text": "arguments",
                 "rawText": "arguments",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 100,
                 "end": 110
             },
@@ -200,6 +223,7 @@ const protected = x, function arguments(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 111,
                 "end": 111
             },
@@ -210,15 +234,18 @@ const protected = x, function arguments(){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 113,
                     "end": 113
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 112,
                 "end": 114
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 91,
             "end": 114
         }
@@ -227,6 +254,7 @@ const protected = x, function arguments(){}
     "source": "function protected(){\n  for(;;)\n    switch(x){\n      default:\n    }\n}\n\nconst protected = x, function arguments(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 114
 }

@@ -27,6 +27,7 @@ type x<y> = z<<q>(r) => s>
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ type x<y> = z<<q>(r) => s>
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -50,6 +52,7 @@ type x<y> = z<<q>(r) => s>
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -57,22 +60,26 @@ type x<y> = z<<q>(r) => s>
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 6,
                 "end": 9
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -87,6 +94,7 @@ type x<y> = z<<q>(r) => s>
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
@@ -113,6 +121,7 @@ type x<y> = z<<q>(r) => s>
                                                             "text": "q",
                                                             "rawText": "q",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 15,
                                                             "end": 16
                                                         },
@@ -120,16 +129,19 @@ type x<y> = z<<q>(r) => s>
                                                         "assignToken": null,
                                                         "defaultType": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 16
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 16
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 512,
                                             "start": 14,
                                             "end": 17
                                         },
@@ -148,27 +160,32 @@ type x<y> = z<<q>(r) => s>
                                                             "text": "r",
                                                             "rawText": "r",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 18,
                                                             "end": 19
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 19
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 19
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 23
                                         },
@@ -183,45 +200,55 @@ type x<y> = z<<q>(r) => s>
                                                     "text": "s",
                                                     "rawText": "s",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 25
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 25
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 25
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 25
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 25
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 13,
                         "end": 26
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 26
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 26
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -230,6 +257,7 @@ type x<y> = z<<q>(r) => s>
     "source": "type x<y> = z<<q>(r) => s>",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -238,9 +266,7 @@ type x<y> = z<<q>(r) => s>
 ### Printed
 
 ```javascript
-
 type x<y> = z<<q>(r) => s>
-
 ```
 
 ### Diagnostics

@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from '../expressions/identifier-expr';
 import { FunctionBody } from '../expressions/function-body';
@@ -55,6 +55,7 @@ export function createFunctionDeclaration(
     contents,
     returnType,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

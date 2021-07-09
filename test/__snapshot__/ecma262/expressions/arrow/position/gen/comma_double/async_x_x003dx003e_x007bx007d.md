@@ -33,6 +33,7 @@ async x => {}, async x => {}
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
@@ -42,6 +43,7 @@ async x => {}, async x => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -49,6 +51,7 @@ async x => {}, async x => {}
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
@@ -59,14 +62,17 @@ async x => {}, async x => {}
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 13
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 13
                     },
@@ -75,6 +81,7 @@ async x => {}, async x => {}
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 20
                         },
@@ -84,6 +91,7 @@ async x => {}, async x => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
@@ -91,6 +99,7 @@ async x => {}, async x => {}
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 25
                         },
@@ -101,23 +110,28 @@ async x => {}, async x => {}
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 28
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 28
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 28
         }
@@ -126,6 +140,7 @@ async x => {}, async x => {}
     "source": "async x => {}, async x => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -134,9 +149,7 @@ async x => {}, async x => {}
 ### Printed
 
 ```javascript
-
 async x => {}, async x => {};
-
 ```
 
 ### Diagnostics

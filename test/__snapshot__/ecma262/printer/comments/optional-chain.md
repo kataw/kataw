@@ -32,6 +32,7 @@ a?.(/*1*/x/*2*/)/*3*/
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 8
                 },
@@ -40,6 +41,7 @@ a?.(/*1*/x/*2*/)/*3*/
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -53,22 +55,27 @@ a?.(/*1*/x/*2*/)/*3*/
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 14
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 8,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         },
@@ -79,6 +86,7 @@ a?.(/*1*/x/*2*/)/*3*/
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 26
                 },
@@ -87,6 +95,7 @@ a?.(/*1*/x/*2*/)/*3*/
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 19
                 },
@@ -100,22 +109,27 @@ a?.(/*1*/x/*2*/)/*3*/
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 33
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 26,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 35
         },
@@ -126,6 +140,7 @@ a?.(/*1*/x/*2*/)/*3*/
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 45
                 },
@@ -134,6 +149,7 @@ a?.(/*1*/x/*2*/)/*3*/
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 38
                 },
@@ -147,22 +163,27 @@ a?.(/*1*/x/*2*/)/*3*/
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 51,
                             "end": 57
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 45,
                         "end": 57
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 63
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 35,
             "end": 64
         },
@@ -173,6 +194,7 @@ a?.(/*1*/x/*2*/)/*3*/
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 67,
                     "end": 69
                 },
@@ -181,6 +203,7 @@ a?.(/*1*/x/*2*/)/*3*/
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 67
                 },
@@ -198,28 +221,34 @@ a?.(/*1*/x/*2*/)/*3*/
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 76
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 70,
                             "end": 76
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 69,
                         "end": 82
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 69,
                     "end": 82
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 82
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 64,
             "end": 82
         }
@@ -228,6 +257,7 @@ a?.(/*1*/x/*2*/)/*3*/
     "source": "a/*1*/?./*2*/b;\n\n\na/*1*/?./*2*/[b];\n\na/*1*/?./*2*/[/*3*/b/*4*/];\n\na?.(/*1*/x/*2*/)/*3*/\n\n\n      /*4*/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 101
 }
@@ -236,12 +266,12 @@ a?.(/*1*/x/*2*/)/*3*/
 ### Printed
 
 ```javascript
+a?.b;
+a?.[b];
 
-a/*1*/?./*2*/b;
-a/*1*/?./*2*/[b];
-a/*1*/?./*2*/[/*3*/b]/*4*/;
-a?.(/*1*/x/*2*/);/*3*/
- /*4*/
+a?.[b];
+
+a?.(x);
 
 ```
 

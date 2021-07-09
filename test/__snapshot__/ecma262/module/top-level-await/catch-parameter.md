@@ -28,6 +28,7 @@ try {} catch ([ x = await 42 ]) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,10 +38,12 @@ try {} catch ([ x = await 42 ]) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -49,6 +52,7 @@ try {} catch ([ x = await 42 ]) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -65,6 +69,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
@@ -75,6 +80,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 25
                                     },
@@ -83,24 +89,29 @@ try {} catch ([ x = await 42 ]) {}
                                         "text": 42,
                                         "rawText": "42",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 19,
                                     "end": 28
                                 },
                                 "flags": 0,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 28
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 28
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 30
                 },
@@ -110,20 +121,24 @@ try {} catch ([ x = await 42 ]) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 33
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 34
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 34
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         },
@@ -132,6 +147,7 @@ try {} catch ([ x = await 42 ]) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 53
             },
@@ -141,10 +157,12 @@ try {} catch ([ x = await 42 ]) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 55,
                     "end": 55
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 56
             },
@@ -153,6 +171,7 @@ try {} catch ([ x = await 42 ]) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 56,
                     "end": 62
                 },
@@ -168,6 +187,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 65,
                                     "end": 67
                                 },
@@ -176,6 +196,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 68,
                                     "end": 70
                                 },
@@ -184,6 +205,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 78
                                     },
@@ -192,24 +214,29 @@ try {} catch ([ x = await 42 ]) {}
                                         "text": 42,
                                         "rawText": "42",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 78,
                                         "end": 81
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 72,
                                     "end": 81
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 65,
                                 "end": 81
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 65,
                         "end": 81
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 83
                 },
@@ -219,20 +246,24 @@ try {} catch ([ x = await 42 ]) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 86,
                         "end": 86
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 84,
                     "end": 87
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 87
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 34,
             "end": 87
         },
@@ -241,6 +272,7 @@ try {} catch ([ x = await 42 ]) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 87,
                 "end": 121
             },
@@ -250,10 +282,12 @@ try {} catch ([ x = await 42 ]) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 123,
                     "end": 123
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 121,
                 "end": 124
             },
@@ -262,6 +296,7 @@ try {} catch ([ x = await 42 ]) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 124,
                     "end": 130
                 },
@@ -278,6 +313,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 133,
                                     "end": 135
                                 },
@@ -288,6 +324,7 @@ try {} catch ([ x = await 42 ]) {}
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 137,
                                         "end": 143
                                     },
@@ -296,24 +333,29 @@ try {} catch ([ x = await 42 ]) {}
                                         "text": 42,
                                         "rawText": "42",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 143,
                                         "end": 146
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 137,
                                     "end": 146
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 133,
                                 "end": 146
                             }
                         ],
                         "trailingComma": false,
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 133,
                         "end": 146
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 132,
                     "end": 148
                 },
@@ -323,20 +365,24 @@ try {} catch ([ x = await 42 ]) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 151,
                         "end": 151
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 149,
                     "end": 152
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 124,
                 "end": 152
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 87,
             "end": 152
         }
@@ -345,6 +391,7 @@ try {} catch ([ x = await 42 ]) {}
     "source": "try {} catch ({ x = await 42 }) {} // Initializer\ntry {} catch ({ x: y = await 42 }) {} // BindingElement Initializer\ntry {} catch ([ x = await 42 ]) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 152
 }
@@ -353,17 +400,10 @@ try {} catch ([ x = await 42 ]) {}
 ### Printed
 
 ```javascript
+try {} catch ({ x = await 42 }) {}
+try {} catch ({ x: y = await 42 }) {}
 
-try { }
-catch ({
-  x = await 42
-}){ }// Initializer
-try { }
-catch ({
-  x: y = await 42
-}){ }// BindingElement Initializer
-try { }
-catch ([x = await 42]){ }
+try {} catch ([x = await 42]) {}
 
 ```
 

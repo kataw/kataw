@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,10 +40,12 @@
                 "text": 0,
                 "rawText": "0B0i",
                 "flags": 524384,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 18
         },
@@ -53,10 +56,12 @@
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 18,
             "end": 19
         }
@@ -65,6 +70,7 @@
     "source": "\"use strict\"; 0B0in",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

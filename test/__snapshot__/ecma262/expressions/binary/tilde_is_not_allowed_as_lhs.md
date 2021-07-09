@@ -26,6 +26,7 @@
                         "operandToken": {
                             "kind": 65585,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -34,16 +35,19 @@
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 3
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 1,
                         "end": 3
                     },
                     "operatorToken": {
                         "kind": 35897,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 6
                     },
@@ -52,18 +56,22 @@
                         "text": 2,
                         "rawText": "2",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 5120,
                     "start": 1,
                     "end": 8
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -72,6 +80,7 @@
     "source": "(~3 ** 2)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

@@ -22,10 +22,12 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 3
         }
@@ -34,6 +36,7 @@
     "source": "();",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3
 }

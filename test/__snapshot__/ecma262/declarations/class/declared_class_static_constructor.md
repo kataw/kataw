@@ -30,6 +30,7 @@ declare class A {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -37,6 +38,7 @@ declare class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -45,6 +47,7 @@ declare class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -61,6 +64,7 @@ declare class A {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 26
                             },
@@ -71,6 +75,7 @@ declare class A {
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 38
                             },
@@ -86,33 +91,40 @@ declare class A {
                                         "text": "Object",
                                         "rawText": "Object",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 46
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 46
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 46
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 47
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 58
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 58
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 58
         }
@@ -121,6 +133,7 @@ declare class A {
     "source": "declare class A {\n  static constructor: Object; // error\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }
@@ -129,10 +142,7 @@ declare class A {
 ### Printed
 
 ```javascript
-
-declare class A { static constructor: Object// error
- }
-
+declare class A { static constructor: Object }
 ```
 
 ### Diagnostics

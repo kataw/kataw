@@ -30,12 +30,14 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -44,6 +46,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -53,6 +56,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -69,6 +73,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 27
                             },
@@ -78,6 +83,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 35
                             },
@@ -87,6 +93,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
@@ -102,6 +109,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                             "varKeyword": {
                                                 "kind": 37757002,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 43
                                             },
@@ -115,6 +123,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 43,
                                                             "end": 47
                                                         },
@@ -126,12 +135,14 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 49,
                                                                 "end": 55
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 55,
                                                                 "end": 57
                                                             },
@@ -140,51 +151,62 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 57,
                                                                 "end": 59
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 0,
+                                                            "transformFlags": 128,
                                                             "start": 49,
                                                             "end": 59
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 4224,
                                                         "start": 43,
                                                         "end": 59
                                                     }
                                                 ],
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 59
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 60
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 60
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 62
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 62
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 62
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 63
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 63
         }
@@ -193,6 +215,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
     "source": "function * gen() { function not_gen() { var foo = yield = 1; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 63
 }
@@ -201,13 +224,11 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
 ### Printed
 
 ```javascript
-
-function * gen() {
+function *gen() {
   function not_gen() {
     var foo = yield = 1;
   }
 }
-
 ```
 
 ### Diagnostics

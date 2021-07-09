@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 
 export interface Identifier extends SyntaxNode {
   readonly text: string;
@@ -17,6 +17,7 @@ export function createIdentifier(
     text,
     rawText,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

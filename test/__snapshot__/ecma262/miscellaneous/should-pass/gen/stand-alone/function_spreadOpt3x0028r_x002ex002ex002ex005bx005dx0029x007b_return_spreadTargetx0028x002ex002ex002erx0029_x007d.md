@@ -30,6 +30,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                 "text": "spreadOpt3",
                 "rawText": "spreadOpt3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 19
             },
@@ -51,6 +53,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                         "text": "r",
                         "rawText": "r",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 21
                     },
@@ -59,6 +62,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 26
                         },
@@ -69,10 +73,12 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 28
                         },
@@ -80,12 +86,14 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 22,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 28
             },
@@ -100,6 +108,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 37
                             },
@@ -110,6 +119,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                                     "text": "spreadTarget",
                                     "rawText": "spreadTarget",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 50
                                 },
@@ -121,6 +131,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 54
                                             },
@@ -129,38 +140,46 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                                                 "text": "r",
                                                 "rawText": "r",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 55
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 51,
                                             "end": 55
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 51,
                                     "end": 55
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 37,
                                 "end": 56
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 30,
                             "end": 57
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 57
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 59
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -169,6 +188,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
     "source": "function spreadOpt3(r, ...[]){ return spreadTarget(...r); }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }
@@ -177,11 +197,9 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
 ### Printed
 
 ```javascript
-
 function spreadOpt3(r, ...[]) {
   return spreadTarget(...r);
 }
-
 ```
 
 ### Diagnostics

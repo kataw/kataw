@@ -28,6 +28,7 @@ for ([a.b][foo] of c) d
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,6 +47,7 @@ for ([a.b][foo] of c) d
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 7
                                 },
@@ -54,20 +56,24 @@ for ([a.b][foo] of c) d
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 6,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 10
                 },
@@ -76,16 +82,19 @@ for ([a.b][foo] of c) d
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 0,
                 "end": 15
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
@@ -94,6 +103,7 @@ for ([a.b][foo] of c) d
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
@@ -104,14 +114,17 @@ for ([a.b][foo] of c) d
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 21,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -120,6 +133,7 @@ for ([a.b][foo] of c) d
     "source": "for ([a.b][foo] of c) d",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -128,10 +142,7 @@ for ([a.b][foo] of c) d
 ### Printed
 
 ```javascript
-
-for ([a.b,][foo] of c)
-  d;
-
+for ([a.b][foo] of c) d;
 ```
 
 ### Diagnostics

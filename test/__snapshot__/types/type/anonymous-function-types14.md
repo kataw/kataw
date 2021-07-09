@@ -29,6 +29,7 @@ type T = Array<(string) => number>
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type T = Array<(string) => number>
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type T = Array<(string) => number>
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -58,6 +61,7 @@ type T = Array<(string) => number>
                         "text": "Array",
                         "rawText": "Array",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
@@ -82,24 +86,28 @@ type T = Array<(string) => number>
                                                     "name": {
                                                         "kind": 134234347,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 22
                                                     },
                                                     "optionalToken": null,
                                                     "types": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 23
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 23
                                         },
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 26
                                         },
@@ -110,40 +118,49 @@ type T = Array<(string) => number>
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 33
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 33
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 33
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 33
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 33
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 14,
                         "end": 34
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 34
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 34
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -152,6 +169,7 @@ type T = Array<(string) => number>
     "source": "type T = Array<(string) => number>",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -160,9 +178,7 @@ type T = Array<(string) => number>
 ### Printed
 
 ```javascript
-
 type T = Array<(string) => number>
-
 ```
 
 ### Diagnostics

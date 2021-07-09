@@ -30,6 +30,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -48,6 +50,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -62,12 +65,14 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 35
                             },
                             "expression": {
                                 "kind": 24752947,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 41
                             },
@@ -77,14 +82,17 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 44
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 46
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 46
                         },
@@ -94,6 +102,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 60
                             },
@@ -107,35 +116,42 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                                             "text": "each",
                                             "rawText": "each",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 65
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 60,
                                         "end": 65
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 65
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 66
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 66
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 68
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 68
         }
@@ -144,6 +160,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
     "source": "function f() { /* infinite */ while (true) { } /* bar */ var each; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }
@@ -152,12 +169,10 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
 ### Printed
 
 ```javascript
-
-function f() {/* infinite */
-  while (true) { }/* bar */
+function f() {
+  while (true) {}
   var each;
 }
-
 ```
 
 ### Diagnostics

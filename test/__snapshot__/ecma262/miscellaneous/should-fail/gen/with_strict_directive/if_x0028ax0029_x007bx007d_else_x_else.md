@@ -27,6 +27,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -37,6 +38,7 @@
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
@@ -45,6 +47,7 @@
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
@@ -54,16 +57,19 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 23
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 28
             },
@@ -74,14 +80,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 28,
                 "end": 31
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 13,
             "end": 31
         }
@@ -90,6 +99,7 @@
     "source": "\"use strict\"; if (a) {} else x; else",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

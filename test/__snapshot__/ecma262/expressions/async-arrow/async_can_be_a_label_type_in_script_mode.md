@@ -22,12 +22,14 @@ async: foo
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
@@ -38,14 +40,17 @@ async: foo
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -54,6 +59,7 @@ async: foo
     "source": "async: foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -62,9 +68,7 @@ async: foo
 ### Printed
 
 ```javascript
-
-async: foo;
-
+async:  foo;
 ```
 
 ### Diagnostics

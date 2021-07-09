@@ -22,6 +22,7 @@ function f(){ do        if (x) continue y   ; while(true);}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(){ do        if (x) continue y   ; while(true);}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f(){ do        if (x) continue y   ; while(true);}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -54,6 +57,7 @@ function f(){ do        if (x) continue y   ; while(true);}
                             "doKeyword": {
                                 "kind": 4202580,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 16
                             },
@@ -62,6 +66,7 @@ function f(){ do        if (x) continue y   ; while(true);}
                                 "ifKeyword": {
                                     "kind": 37757019,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 26
                                 },
@@ -70,6 +75,7 @@ function f(){ do        if (x) continue y   ; while(true);}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -78,6 +84,7 @@ function f(){ do        if (x) continue y   ; while(true);}
                                     "continueKeyword": {
                                         "kind": 37757009,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 39
                                     },
@@ -86,46 +93,55 @@ function f(){ do        if (x) continue y   ; while(true);}
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 41
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 45
                                 },
                                 "elseKeyword": null,
                                 "alternate": null,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 45
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 64,
+                                "flags": 80,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 51
                             },
                             "expression": {
                                 "kind": 24752947,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 56
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 58
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 58
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 59
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -134,6 +150,7 @@ function f(){ do        if (x) continue y   ; while(true);}
     "source": "function f(){ do        if (x) continue y   ; while(true);}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }

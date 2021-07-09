@@ -28,6 +28,7 @@ declare class C { static [[foo]]: T }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare class C { static [[foo]]: T }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -43,6 +45,7 @@ declare class C { static [[foo]]: T }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -59,6 +62,7 @@ declare class C { static [[foo]]: T }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 24
                             },
@@ -67,6 +71,7 @@ declare class C { static [[foo]]: T }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 30
                             },
@@ -82,33 +87,40 @@ declare class C { static [[foo]]: T }
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 35
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 35
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 35
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 35
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 37
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -117,6 +129,7 @@ declare class C { static [[foo]]: T }
     "source": "declare class C { static [[foo]]: T }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -125,9 +138,7 @@ declare class C { static [[foo]]: T }
 ### Printed
 
 ```javascript
-
-declare class C { static [ [foo]]T }
-
+declare class C { static [[foo]]: T }
 ```
 
 ### Diagnostics

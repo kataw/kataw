@@ -22,6 +22,7 @@ function fn(x = async function () { await 1 }) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function fn(x = async function () { await 1 }) {}
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -46,6 +48,7 @@ function fn(x = async function () { await 1 }) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -56,12 +59,14 @@ function fn(x = async function () { await 1 }) {}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 30
                             },
@@ -73,6 +78,7 @@ function fn(x = async function () { await 1 }) {}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 32
                             },
@@ -89,6 +95,7 @@ function fn(x = async function () { await 1 }) {}
                                                 "awaitKeyword": {
                                                     "kind": 82196,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 41
                                                 },
@@ -97,38 +104,46 @@ function fn(x = async function () { await 1 }) {}
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 41,
                                                     "end": 43
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 35,
                                                 "end": 43
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 35,
                                             "end": 43
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 43
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 45
                             },
                             "returnType": null,
                             "flags": 160,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 45
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 45
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 45
             },
@@ -139,15 +154,18 @@ function fn(x = async function () { await 1 }) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 48,
                     "end": 48
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 49
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 49
         }
@@ -156,6 +174,7 @@ function fn(x = async function () { await 1 }) {}
     "source": "function fn(x = async function () { await 1 }) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }
@@ -164,11 +183,9 @@ function fn(x = async function () { await 1 }) {}
 ### Printed
 
 ```javascript
-
 function fn(x = async function () {
-    await 1;
-  }) {}
-
+  await 1;
+}) {}
 ```
 
 ### Diagnostics

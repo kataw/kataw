@@ -24,6 +24,7 @@ wrap({foo(a,b,c){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -48,6 +49,7 @@ wrap({foo(a,b,c){}});
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 9
                                             },
@@ -60,6 +62,7 @@ wrap({foo(a,b,c){}});
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 11
                                                     },
@@ -68,6 +71,7 @@ wrap({foo(a,b,c){}});
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 13
                                                     },
@@ -76,12 +80,14 @@ wrap({foo(a,b,c){}});
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 15
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 16
                                             },
@@ -93,42 +99,51 @@ wrap({foo(a,b,c){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 17
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 18
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 18
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 18
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 19
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -137,6 +152,7 @@ wrap({foo(a,b,c){}});
     "source": "wrap({foo(a,b,c){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -145,9 +161,7 @@ wrap({foo(a,b,c){}});
 ### Printed
 
 ```javascript
-
 wrap({ foo(a, b, c) {} });
-
 ```
 
 ### Diagnostics

@@ -22,12 +22,14 @@ function *g() {yield {     ...yield yield    };}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *g() {yield {     ...yield yield    };}
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *g() {yield {     ...yield yield    };}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -61,6 +65,7 @@ function *g() {yield {     ...yield yield    };}
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 20
                                 },
@@ -76,6 +81,7 @@ function *g() {yield {     ...yield yield    };}
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 30
                                                 },
@@ -84,6 +90,7 @@ function *g() {yield {     ...yield yield    };}
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 35
                                                     },
@@ -94,6 +101,7 @@ function *g() {yield {     ...yield yield    };}
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 35,
                                                             "end": 41
                                                         },
@@ -101,46 +109,56 @@ function *g() {yield {     ...yield yield    };}
                                                         "asteriskToken": null,
                                                         "expression": null,
                                                         "flags": 32,
+                                                        "transformFlags": 4096,
                                                         "start": 35,
                                                         "end": 41
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 4096,
                                                     "start": 30,
                                                     "end": 41
                                                 },
                                                 "flags": 1073741856,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 41
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 41
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 20,
                                     "end": 46
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 46
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 47
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 48
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         }
@@ -149,6 +167,7 @@ function *g() {yield {     ...yield yield    };}
     "source": "function *g() {yield {     ...yield yield    };}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }
@@ -157,11 +176,9 @@ function *g() {yield {     ...yield yield    };}
 ### Printed
 
 ```javascript
-
-function * g() {
-  yield  { ...yield  yield  };
+function *g() {
+  yield { ...yield yield  };
 }
-
 ```
 
 ### Diagnostics

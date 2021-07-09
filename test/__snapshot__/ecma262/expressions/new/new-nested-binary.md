@@ -32,6 +32,7 @@ new C<T>(e)
                         "newKeyword": {
                             "kind": 138477661,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 3
                         },
@@ -40,17 +41,20 @@ new C<T>(e)
                             "text": "C",
                             "rawText": "C",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "argumentList": null,
                         "flags": 96,
+                        "transformFlags": 2048,
                         "start": 0,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
@@ -59,16 +63,19 @@ new C<T>(e)
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 7
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
@@ -79,18 +86,22 @@ new C<T>(e)
                         "text": "e",
                         "rawText": "e",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 10
                     },
-                    "flags": 32,
-                    "start": 8,
+                    "flags": 8,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 11
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -99,6 +110,7 @@ new C<T>(e)
     "source": "new C<T>(e)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -107,9 +119,7 @@ new C<T>(e)
 ### Printed
 
 ```javascript
-
 new C  < T > (e);
-
 ```
 
 ### Diagnostics

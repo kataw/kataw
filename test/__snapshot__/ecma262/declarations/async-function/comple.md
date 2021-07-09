@@ -27,12 +27,14 @@ await 0 }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -41,6 +43,7 @@ await 0 }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -50,6 +53,7 @@ await 0 }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -64,6 +68,7 @@ await 0 }
                             "ifKeyword": {
                                 "kind": 37757019,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 20
                             },
@@ -72,6 +77,7 @@ await 0 }
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 23
                             },
@@ -82,16 +88,19 @@ await 0 }
                                     "text": "let",
                                     "rawText": "let",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 28
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 24,
                                 "end": 28
                             },
                             "elseKeyword": null,
                             "alternate": null,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 28
                         },
@@ -102,6 +111,7 @@ await 0 }
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 34
                                 },
@@ -112,28 +122,34 @@ await 0 }
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 28,
                                 "end": 36
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 28,
                             "end": 36
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 38
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         },
@@ -143,12 +159,14 @@ await 0 }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 46
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 55
             },
@@ -158,6 +176,7 @@ await 0 }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 59
             },
@@ -167,6 +186,7 @@ await 0 }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 60,
                 "end": 60
             },
@@ -181,6 +201,7 @@ await 0 }
                             "ifKeyword": {
                                 "kind": 37757019,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 66
                             },
@@ -189,6 +210,7 @@ await 0 }
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 69
                             },
@@ -199,16 +221,19 @@ await 0 }
                                     "text": "let",
                                     "rawText": "let",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 74
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 70,
                                 "end": 74
                             },
                             "elseKeyword": null,
                             "alternate": null,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 63,
                             "end": 74
                         },
@@ -219,6 +244,7 @@ await 0 }
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 74,
                                     "end": 80
                                 },
@@ -227,28 +253,34 @@ await 0 }
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 80,
                                     "end": 82
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 74,
                                 "end": 82
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 74,
                             "end": 82
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 82
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 84
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 38,
             "end": 84
         }
@@ -257,6 +289,7 @@ await 0 }
     "source": "function *foo() { if (0) let\nyield 0 }\n\n\nasync function foo() { if (0) let\nawait 0 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 84
 }
@@ -265,15 +298,12 @@ await 0 }
 ### Printed
 
 ```javascript
-
-function * foo() {
-  if (0)
-    let;
-  yield  0;
+function *foo() {
+  if (0) let;
+  yield 0;
 }
 async function foo() {
-  if (0)
-    let;
+  if (0) let;
   await 0;
 }
 

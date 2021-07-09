@@ -32,12 +32,14 @@ p\u0072otected = x;
                     "text": "protected",
                     "rawText": "p\\u0072otected",
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -46,14 +48,17 @@ p\u0072otected = x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -62,6 +67,7 @@ p\u0072otected = x;
     "source": "p\\u0072otected = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -70,9 +76,7 @@ p\u0072otected = x;
 ### Printed
 
 ```javascript
-
 p\u0072otected = x;
-
 ```
 
 ### Diagnostics

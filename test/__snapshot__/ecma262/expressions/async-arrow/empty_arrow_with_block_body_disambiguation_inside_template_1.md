@@ -29,6 +29,7 @@
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 10
                             },
@@ -38,6 +39,7 @@
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
@@ -45,6 +47,7 @@
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -55,18 +58,22 @@
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 16
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 17
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 17
                     }
@@ -76,14 +83,17 @@
                     "text": " b",
                     "rawText": " b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -92,6 +102,7 @@
     "source": "`a ${async ()=>{}} b`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -100,9 +111,7 @@
 ### Printed
 
 ```javascript
-
 `a ${async () => {}} b`;
-
 ```
 
 ### Diagnostics

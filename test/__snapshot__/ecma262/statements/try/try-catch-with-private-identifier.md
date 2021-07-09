@@ -26,6 +26,7 @@ try {} catch(#private){}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,10 +36,12 @@ try {} catch(#private){}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -47,6 +50,7 @@ try {} catch(#private){}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -55,6 +59,7 @@ try {} catch(#private){}
                     "text": "#private",
                     "rawText": "#private",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 21
                 },
@@ -64,20 +69,24 @@ try {} catch(#private){}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 24
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -86,6 +95,7 @@ try {} catch(#private){}
     "source": "try {} catch(#private){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

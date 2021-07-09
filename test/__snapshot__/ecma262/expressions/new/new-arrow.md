@@ -22,6 +22,7 @@ new (x)=>{}
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,12 +38,14 @@ new (x)=>{}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
@@ -50,6 +53,7 @@ new (x)=>{}
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -60,23 +64,28 @@ new (x)=>{}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 11
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -85,6 +94,7 @@ new (x)=>{}
     "source": "new (x)=>{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -93,9 +103,7 @@ new (x)=>{}
 ### Printed
 
 ```javascript
-
 new (x) => {};
-
 ```
 
 ### Diagnostics

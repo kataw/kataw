@@ -30,6 +30,7 @@ delete async => ok
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -42,6 +43,7 @@ delete async => ok
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -49,6 +51,7 @@ delete async => ok
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 15
                     },
@@ -57,18 +60,22 @@ delete async => ok
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -77,6 +84,7 @@ delete async => ok
     "source": "delete async => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -85,9 +93,7 @@ delete async => ok
 ### Printed
 
 ```javascript
-
 delete async => ok;
-
 ```
 
 ### Diagnostics

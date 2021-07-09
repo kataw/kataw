@@ -31,14 +31,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 2
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 2
         },
@@ -52,6 +55,7 @@
                         "text": "string",
                         "rawText": "string",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 10
                     },
@@ -62,19 +66,23 @@
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 13
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 11,
                         "end": 14
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 3,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 3,
             "end": 14
         },
@@ -88,6 +96,7 @@
                         "text": "object",
                         "rawText": "object",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 22
                     },
@@ -96,15 +105,18 @@
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 15,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 23
         },
@@ -120,20 +132,24 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 29
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 27,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 29
         },
@@ -144,10 +160,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 30,
             "end": 37
         },
@@ -158,10 +176,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 39,
             "end": 46
         },
@@ -176,6 +196,7 @@
                     "text": "number",
                     "rawText": "number",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 48,
                     "end": 54
                 },
@@ -183,6 +204,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 57
                 },
@@ -193,18 +215,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 60,
                         "end": 60
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 57,
                     "end": 61
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 48,
             "end": 62
         }
@@ -213,6 +239,7 @@
     "source": "(x: string, {}: object, ...[y: string]: string):number =>  {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }

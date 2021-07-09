@@ -21,6 +21,7 @@ for (a?.b of c);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,6 +30,7 @@ for (a?.b of c);
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -37,6 +39,7 @@ for (a?.b of c);
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
@@ -52,14 +55,17 @@ for (a?.b of c);
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 8,
                             "end": 9
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
@@ -68,14 +74,17 @@ for (a?.b of c);
                         "text": "of",
                         "rawText": "of",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 12
                     },
                     "flags": 536870944,
+                    "transformFlags": 2,
                     "start": 9,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 12
             },
@@ -85,16 +94,19 @@ for (a?.b of c);
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -103,6 +115,7 @@ for (a?.b of c);
     "source": "for (a?.b of c);\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -111,10 +124,7 @@ for (a?.b of c);
 ### Printed
 
 ```javascript
-
-for (a?.bof;; c)
-  ;
-
+for (a?.b.of; ; c);
 ```
 
 ### Diagnostics

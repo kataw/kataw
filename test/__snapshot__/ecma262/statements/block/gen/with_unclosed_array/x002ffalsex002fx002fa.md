@@ -41,12 +41,14 @@
                                             "kind": 371,
                                             "text": "/false/",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 2,
                                             "end": 10
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
+                                            "transformFlags": 32,
                                             "start": 10,
                                             "end": 11
                                         },
@@ -55,33 +57,40 @@
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         },
                                         "flags": 96,
+                                        "transformFlags": 5120,
                                         "start": 2,
                                         "end": 12
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 1,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -90,6 +99,7 @@
     "source": "{[ /false//a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

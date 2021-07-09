@@ -33,12 +33,14 @@ declare var union: Foo | null | void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -52,6 +54,7 @@ declare var union: Foo | null | void;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -66,29 +69,35 @@ declare var union: Foo | null | void;
                                     "text": "Foo",
                                     "rawText": "Foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 18
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 18
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 11,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 18
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 19
         },
@@ -97,12 +106,14 @@ declare var union: Foo | null | void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 27
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 31
             },
@@ -116,6 +127,7 @@ declare var union: Foo | null | void;
                             "text": "mixed",
                             "rawText": "mixed",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 37
                         },
@@ -130,29 +142,35 @@ declare var union: Foo | null | void;
                                     "text": "mixed",
                                     "rawText": "mixed",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 44
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 44
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 44
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 31,
                         "end": 44
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 44
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 27,
             "end": 45
         },
@@ -161,12 +179,14 @@ declare var union: Foo | null | void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 53
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 57
             },
@@ -180,6 +200,7 @@ declare var union: Foo | null | void;
                             "text": "any",
                             "rawText": "any",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 57,
                             "end": 61
                         },
@@ -190,24 +211,29 @@ declare var union: Foo | null | void;
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 62,
                                 "end": 66
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 62,
                             "end": 66
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 57,
                         "end": 66
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 66
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 53,
             "end": 67
         },
@@ -216,12 +242,14 @@ declare var union: Foo | null | void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 67,
                 "end": 75
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 75,
                 "end": 79
             },
@@ -235,6 +263,7 @@ declare var union: Foo | null | void;
                             "text": "empty",
                             "rawText": "empty",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 79,
                             "end": 85
                         },
@@ -249,29 +278,35 @@ declare var union: Foo | null | void;
                                     "text": "empty",
                                     "rawText": "empty",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 86,
                                     "end": 92
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 86,
                                 "end": 92
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 86,
                             "end": 92
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 79,
                         "end": 92
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 79,
                 "end": 92
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 75,
             "end": 93
         },
@@ -280,12 +315,14 @@ declare var union: Foo | null | void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 93,
                 "end": 101
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 101,
                 "end": 105
             },
@@ -299,6 +336,7 @@ declare var union: Foo | null | void;
                             "text": "maybe",
                             "rawText": "maybe",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 105,
                             "end": 111
                         },
@@ -311,6 +349,7 @@ declare var union: Foo | null | void;
                                 "nullableToken": {
                                     "kind": 134217750,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 112,
                                     "end": 114
                                 },
@@ -321,33 +360,40 @@ declare var union: Foo | null | void;
                                         "text": "Foo",
                                         "rawText": "Foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 114,
                                         "end": 117
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 114,
                                     "end": 117
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 112,
                                 "end": 117
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 112,
                             "end": 117
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 105,
                         "end": 117
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 105,
                 "end": 117
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 101,
             "end": 118
         },
@@ -356,12 +402,14 @@ declare var union: Foo | null | void;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 118,
                 "end": 126
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 130
             },
@@ -375,6 +423,7 @@ declare var union: Foo | null | void;
                             "text": "union",
                             "rawText": "union",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 130,
                             "end": 136
                         },
@@ -392,46 +441,55 @@ declare var union: Foo | null | void;
                                             "text": "Foo",
                                             "rawText": "Foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 137,
                                             "end": 141
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 137,
                                         "end": 141
                                     },
                                     {
                                         "kind": 138477575,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 143,
                                         "end": 148
                                     },
                                     {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 150,
                                         "end": 155
                                     }
                                 ],
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 141,
                                 "end": 155
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 137,
                             "end": 155
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 130,
                         "end": 155
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 130,
                 "end": 155
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 126,
             "end": 156
         }
@@ -440,6 +498,7 @@ declare var union: Foo | null | void;
     "source": "declare var x: Foo;\ndeclare var mixed: mixed;\ndeclare var any: any;\ndeclare var empty: empty;\ndeclare var maybe: ?Foo;\ndeclare var union: Foo | null | void;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 156
 }
@@ -448,13 +507,16 @@ declare var union: Foo | null | void;
 ### Printed
 
 ```javascript
+declare var x: Foo;
+declare var mixed: mixed;
 
-var x: Foo;
-var mixed: mixed;
-var any: any;
-var empty: empty;
-var maybe: ?Foo;
-var union: Foo | null | void;
+declare var any: any;
+
+declare var empty: empty;
+
+declare var maybe: ? Foo;
+
+declare var union: Foo | null | void;
 
 ```
 

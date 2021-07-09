@@ -29,6 +29,7 @@ var { __proto__: x, __proto__: y, ...z} = {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ var { __proto__: x, __proto__: y, ...z} = {};
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 15
                                         },
@@ -57,11 +59,13 @@ var { __proto__: x, __proto__: y, ...z} = {};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 18
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 18
                                     },
@@ -72,6 +76,7 @@ var { __proto__: x, __proto__: y, ...z} = {};
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 29
                                         },
@@ -80,11 +85,13 @@ var { __proto__: x, __proto__: y, ...z} = {};
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 32
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 32
                                     },
@@ -93,6 +100,7 @@ var { __proto__: x, __proto__: y, ...z} = {};
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 37
                                         },
@@ -101,6 +109,7 @@ var { __proto__: x, __proto__: y, ...z} = {};
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 38
                                         },
@@ -108,16 +117,19 @@ var { __proto__: x, __proto__: y, ...z} = {};
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 33,
                                         "end": 38
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 38
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 39
                         },
@@ -129,23 +141,28 @@ var { __proto__: x, __proto__: y, ...z} = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 43
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 41,
                             "end": 44
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 44
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -154,6 +171,7 @@ var { __proto__: x, __proto__: y, ...z} = {};
     "source": "var { __proto__: x, __proto__: y, ...z} = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -162,9 +180,7 @@ var { __proto__: x, __proto__: y, ...z} = {};
 ### Printed
 
 ```javascript
-
 var { __proto__: x, __proto__: y, ...z } = {};
-
 ```
 
 ### Diagnostics
