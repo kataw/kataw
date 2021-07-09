@@ -214,7 +214,7 @@ export const nodeLookupMap: any = {
 export function printSource(root: RootNode, options?: PrinterOptions) {
   let flags = PrinterFlags.ObjectCurlySpacing | PrinterFlags.UseSemicolon;
   let printWidth = 80;
-  let useTabs: boolean = false;
+  let useTabs = false;
   let tabWidth = 2;
   let space = ' ';
   let lineEnd = '\n';
@@ -389,7 +389,7 @@ function printBinaryExpressionRest(
   isInsideParenthesis: boolean
 ) {
   if (node.kind === SyntaxKind.BinaryExpression) {
-    let parts: any = shouldFlatten(node)
+    const parts: any = shouldFlatten(node)
       ? printBinaryExpressionRest(printer, node.left, lineMap, node, isInsideParenthesis)
       : [printStatement(printer, node.left, lineMap, node)];
 
@@ -1765,7 +1765,7 @@ function printVariableDeclarationList(printer: Printer, node: any, lineMap: numb
 }
 
 function printVariableStatement(printer: Printer, node: any, lineMap: number[]): any {
-  let printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
+  const printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
 
   const hasValue = node.declarationList.declarations.some((decl: any) => decl.init);
   let firstVariable;
@@ -2416,7 +2416,7 @@ function adjustClause(node: any, printer: Printer, clause: any, forceSpace?: any
 function printForBinding(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node) {
     if (node.kind === SyntaxKind.ForBinding) {
-      let printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
+      const printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
 
       let firstVariable;
       if (printed.length === 1) {

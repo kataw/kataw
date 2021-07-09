@@ -130,9 +130,9 @@ function fits(next: any, restCommands: any, width: any): any {
 
 export function toString(width: number, tabWidth: number, useTabs: boolean, newLine: string, space: string, doc: any) {
   let pos = 0;
-  let indent = 0;
-  let spaces = '';
-  let tabs = '';
+  const indent = 0;
+  const spaces = '';
+  const tabs = '';
   const cmds: any = [[indent, MODE_BREAK, doc]];
   const out: any = [];
   let shouldRemeasure = false;
@@ -146,7 +146,7 @@ export function toString(width: number, tabWidth: number, useTabs: boolean, newL
     } else {
       switch (doc.kind) {
         case DocumentKind.Concat:
-          for (var i = doc.parts.length - 1; i >= 0; i--) {
+          for (let i = doc.parts.length - 1; i >= 0; i--) {
             cmds.push([indent, mode, doc.parts[i]]);
           }
 
@@ -182,7 +182,7 @@ export function toString(width: number, tabWidth: number, useTabs: boolean, newL
 
                     break;
                   } else {
-                    for (var i = 1; i < doc.expandedStates.length + 1; i++) {
+                    for (let i = 1; i < doc.expandedStates.length + 1; i++) {
                       if (i >= doc.expandedStates.length) {
                         cmds.push([indent, MODE_BREAK, mostExpanded]);
 
