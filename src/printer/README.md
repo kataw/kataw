@@ -22,4 +22,5 @@
 | `quoteProps`    | Change when properties in objects are quoted |
 | `coerceQuoteProps` | Coerce string literal to identifier when printing object properties and remove quotes |
 | `insertPragma`    | Inserts a special `@kataw` marker at the top of file |
+| `arrayBracketNewline`    | Enforces line breaks after opening and before closing array brackets |
 | `endOfLine`    | Change line endings in the source. `lf`, `crlf`, and `cr`. |

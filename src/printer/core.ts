@@ -16,7 +16,9 @@ export const enum PrinterFlags {
   UnParenthezisedNew = 1 << 9,
   NoWhiteSpace = 1 << 10,
   QuoteProps = 1 << 11,
-  CoerceQuoteProps = 1 << 12
+  CoerceQuoteProps = 1 << 12,
+  ArrayBracketNewline = 1 << 13,
+  EnforceLineBreaksBetweenArray = 1 << 14
 }
 
 export interface Printer {

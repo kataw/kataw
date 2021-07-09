@@ -174,6 +174,8 @@ export interface PrinterOptions {
   coerceQuoteProps?: boolean;
   insertPragma?: boolean;
   endOfLine?: string;
+  arrayBracketNewline?: boolean;
+  enforceLineBreaksBetweenArray?: boolean;
 }
 
 export const nodeLookupMap: any = {
@@ -363,7 +365,10 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
     if (options.quoteProps) flags |= PrinterFlags.QuoteProps;
     if (options.coerceQuoteProps) flags |= PrinterFlags.CoerceQuoteProps;
     if (options.disallowStringEscape) flags |= PrinterFlags.DisallowStringEscape;
+    if (options.arrayBracketNewline) flags |= PrinterFlags.ArrayBracketNewline;
     if (options.allowArrowParens) flags |= PrinterFlags.ArrowParens;
+    if (options.enforceLineBreaksBetweenArray) flags |= PrinterFlags.EnforceLineBreaksBetweenArray;
+
     if (options.noWhitespace) {
       space = '';
       flags |= PrinterFlags.NoWhiteSpace;
@@ -696,11 +701,12 @@ export function printElementList(printer: Printer, node: any, lineMap: number[],
 
   let previousSibling!: SyntaxNode;
   let child!: SyntaxNode;
+  let lineBreaksBetweenArray = printer.flags & PrinterFlags.EnforceLineBreaksBetweenArray ? hardline : softline
 
   for (let i = 0; i < children.length; i++) {
     child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', printer.space, softline]));
+      elements.push(concat([',', printer.space, lineBreaksBetweenArray]));
     }
 
     elements.push(printStatement(printer, child, lineMap, parentNode));
@@ -710,10 +716,10 @@ export function printElementList(printer: Printer, node: any, lineMap: number[],
   return group(
     concat([
       '[',
-      indent(concat([printer.flags & PrinterFlags.ArrayBracketSpacing ? line : softline, concat([concat(elements)])])),
+      indent(concat([printer.flags & PrinterFlags.ArrayBracketSpacing ? line : printer.flags & PrinterFlags.ArrayBracketNewline ? hardline : softline, concat([concat(elements)])])),
       node.trailingComma ? ',' : '',
       ifBreak(node.trailingComma ? ',' : ''),
-      printer.flags & PrinterFlags.ArrayBracketSpacing ? line : softline,
+      printer.flags & PrinterFlags.ArrayBracketSpacing ? line : printer.flags & PrinterFlags.ArrayBracketNewline ? hardline : softline,
       ']'
     ]),
     { shouldBreak: false }
@@ -1094,12 +1100,10 @@ function printTypeInstantiations(printer: Printer, node: any, lineMap: number[],
   let previousSibling!: SyntaxNode;
   let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
-
   for (let i = 0; i < children.length; i++) {
     child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', printer.space, lineBreak]));
+      elements.push(concat([',', printer.space, softline]));
     }
 
     elements.push(printStatement(printer, child, lineMap, parentNode));
@@ -1462,14 +1466,14 @@ function printImportMeta(printer: Printer, node: any, lineMap: number[], parentN
   ]);
 }
 
-function printTaggedTemplate(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
+function printTaggedTemplate(printer: Printer, node: TaggedTemplate, lineMap: number[], parentNode: SyntaxNode): any {
   return concat([
     printStatement(printer, node.member, lineMap, node),
     printStatement(printer, node.template, lineMap, node)
   ]);
 }
 
-function printTemplateExpression(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
+function printTemplateExpression(printer: Printer, node: TemplateExpression, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.spans.length === 0) {
     return '``';
   }
@@ -1480,12 +1484,10 @@ function printTemplateExpression(printer: Printer, node: any, lineMap: number[],
   let previousSibling!: SyntaxNode;
   let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
-
   for (let i = 0; i < children.length; i++) {
     child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', printer.space, lineBreak]));
+      elements.push(concat([',', printer.space, softline]));
     }
 
     elements.push(printStatement(printer, child, lineMap, parentNode));
@@ -1495,9 +1497,7 @@ function printTemplateExpression(printer: Printer, node: any, lineMap: number[],
 }
 
 function printTemplateSpan(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  return group(concat([node.rawText, '$', '{', printStatement(printer, node.expression, lineMap, node), '}']), {
-    shouldBreak: false
-  });
+  return concat([node.rawText, '$', '{', printStatement(printer, node.expression, lineMap, node), '}']);
 }
 
 function printTemplateTail(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
