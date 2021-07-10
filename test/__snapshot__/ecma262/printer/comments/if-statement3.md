@@ -74,6 +74,8 @@ if /* comment 2 */ (x) /* comment 3 */ {}
 ### Printed
 
 ```javascript
+
+/* comment 1 */
 if (x) {}
 ```
 

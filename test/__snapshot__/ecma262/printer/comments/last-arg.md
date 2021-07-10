@@ -693,8 +693,20 @@ class Foo {
   b(lol) {}
   d(lol, lol2, lol3, lol4) {}
   d(lol, lol2, lol3, lol4) {}
+
+  // kataw-ignore
+
+  // kataw-ignore
   c(lol) {}
+
+  // kataw-ignore
+
+  // kataw-ignore
   d(lol, lol2, lol3, lol4) {}
+
+  // kataw-ignore
+
+  // kataw-ignore
   e(lol, lol2, lol3, lol4) {}
 }
 ```

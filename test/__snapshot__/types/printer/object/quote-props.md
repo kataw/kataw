@@ -2017,6 +2017,8 @@ const b = {
   };
 
 const b2 = {
+
+    // Escapes should stay as escapes and not be unquoted.
     "'\u0062'": "\"b\"",
     "'\u0031'": "\"1\""
   };
@@ -2031,6 +2033,8 @@ const d = {
     "'d-2'": "\"d2\""
   };
 
+
+// None of these should become quoted, regardless of the quoteProps value.
 const e = {
     NaN: null,
     1: null,
@@ -2049,9 +2053,18 @@ const e = {
   };
 
 const f = {
+
+    // This should be unquoted for quoteProps=as-needed.
     "\"NaN\"": null,
+
+    // Flow does parses number keys, but errors on them during type checking so
+    // don’t unquote them:
     "\"1\"": null,
     "\"1.5\"": null,
+
+    // These should never be unquoted. `1e+100` technically could (it’s the only
+    // one where `String(Number(key)) === key`), but we came to the conclusion
+    // that it is unexpected.
     "\".1\"": null,
     "\"1.\"": null,
     "\"1.0\"": null,
@@ -2067,12 +2080,23 @@ const f = {
   };
 
 Object.entries({
+
+  // To force quotes for quoteProps=consistent.
   "'a-'": "'a-'",
+
+  // These can be quoted:
   NaN: "'NaN'",
   1: "'1'",
   1.5: "'1.5'",
+
+  // Prettier will normalize these to `0.1` and `1` – then they can be quoted.
   0.1: "'.1'",
   1: "'1.'",
+
+  // These should never be quoted. The _actual_ keys are shown as comments.
+  // Copy-paste this into the console to verify. If we were to convert these
+  // numbers into decimal (which completely valid), “information/intent” is
+  // lost. Either way, writing code like this is super confusing.
   1.0: "'1.0'",
   999999999999999999999: "'999999999999999999999'",
   0.99999999999999999: "'0.99999999999999999'",
@@ -2082,9 +2106,14 @@ Object.entries({
   0b10: "'0b10'",
   0o10: "'0o10'",
   0xf: "'0xf'",
+
+  // Commented out because Flow does not parse BigInt as object keys.
+  // 2n: '2n', // 2
   0xb_b: "'0xb_b'",
 });
 
+
+// Negative numbers cannot be unquoted.
 !{
   "\"-1\"": null,
   "\"-1.5\"": null,

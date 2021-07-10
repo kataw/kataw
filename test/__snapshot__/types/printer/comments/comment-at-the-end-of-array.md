@@ -1216,18 +1216,34 @@ const yuid = [1];
 
 const yiyv = [1];
 
-const yig = [1, 2,];
+const yig = [
+    // comment start
+    1, 2,];
 
-const yius = [1,];
+const yius = [
+    /* element 1 */
+    1,];
 
-const yuh = [1,];
+const yuh = [
+    /* element 1 */
+    1,];
 
 const hsy = [1,];
 
-const aiya = [1, 2,];
+const aiya = [
+    // comment start
+    1, 2,];
 
-const hj = [1,];
-const ig = [1,];const yj = [1,];const ka = [1,];
+const hj = [
+    /* element 1 */
+    1,];
+const ig = [
+    /* element 1 */
+    1,];const yj = [
+    /* element 1 */
+    1,];const ka = [
+    /* element 1 */
+    1,];
 ```
 
 ### Diagnostics

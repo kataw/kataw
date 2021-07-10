@@ -134,7 +134,8 @@
 ### Printed
 
 ```javascript
-class A extends class B {} {}
+
+/* before */class A extends class B {} {}
 ```
 
 ### Diagnostics

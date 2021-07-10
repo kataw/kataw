@@ -302,7 +302,10 @@ function * foo2() {
 ### Printed
 
 ```javascript
-function *foo2() {
+
+// @target: es6
+function *foo2()
+/*comment1*/{
   yield 1;
   yield 2;
   yield 3;

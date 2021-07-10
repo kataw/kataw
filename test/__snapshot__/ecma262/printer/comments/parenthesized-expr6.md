@@ -94,7 +94,9 @@ c/*6*/)
 ### Printed
 
 ```javascript
-(a, b, c);
+(
+  /*1*/
+  a, b, c);
 ```
 
 ### Diagnostics

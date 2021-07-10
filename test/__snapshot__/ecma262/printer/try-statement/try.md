@@ -93,7 +93,9 @@ finally {}
 ### Printed
 
 ```javascript
-try {
+try
+/* missing comment */
+{
 
 } finally {}
 ```

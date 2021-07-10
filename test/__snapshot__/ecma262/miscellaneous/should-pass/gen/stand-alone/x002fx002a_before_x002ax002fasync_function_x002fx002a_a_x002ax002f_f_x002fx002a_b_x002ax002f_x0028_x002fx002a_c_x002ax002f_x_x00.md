@@ -130,7 +130,8 @@
 ### Printed
 
 ```javascript
-async function f(x, y) {
+
+/* before */async function f(x, y) {
 
 
 }

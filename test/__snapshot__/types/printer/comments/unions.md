@@ -150,7 +150,9 @@ type Foo = /*1*/
 ### Printed
 
 ```javascript
-type Foo = | Type1 | Type2 | TypeN
+type Foo =
+/*2*/
+/*4*/| Type1 | Type2 | TypeN
 ```
 
 ### Diagnostics

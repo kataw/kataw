@@ -248,7 +248,9 @@ const test = (names: string[]) =>
 ### Printed
 
 ```javascript
-const test = (names: string[]) => names?.filter(x => x);
+const test = (names: string[]) =>
+    // single-line comment
+    names?.filter(x => x);
 ```
 
 ### Diagnostics

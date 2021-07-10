@@ -99,8 +99,10 @@
 ### Printed
 
 ```javascript
-Array["\"toString\""];
-Array["\"toString\""];
+
+/*0*/Array["\"toString\""];
+
+/*0*/Array["\"toString\""];
 
 ```
 

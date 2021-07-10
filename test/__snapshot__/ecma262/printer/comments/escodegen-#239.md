@@ -214,6 +214,10 @@ function test() {
 ```javascript
 function test() {
   var x = "\"a\"";
+
+  /*
+    * test3
+    */
   var y = "'a'" + "'b'";
 }
 ```

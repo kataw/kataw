@@ -451,7 +451,9 @@ x
 
 async  < T, U > (x) >> y - z;
 
-(async  < T > (x));
+(async  < T > (
+      /*1*/
+      x));
 
 ```
 

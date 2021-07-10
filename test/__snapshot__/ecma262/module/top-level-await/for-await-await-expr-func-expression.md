@@ -784,16 +784,22 @@ for await (let binding of [await function() {}]) {
 
 ```javascript
 var binding;
+
+// [+Await]for await ( [lookahead ≠ let] LeftHandSideExpression[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
 for await (binding of [await function () {}]) {
     await function () {};
     break;
   }
 
+
+// [+Await]for await ( var ForBinding[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
 for await (var binding of [await function () {}]) {
     await function () {};
     break;
   }
 
+
+// [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
 for await (let binding of [await function () {}]) {
     await function () {};
     break;

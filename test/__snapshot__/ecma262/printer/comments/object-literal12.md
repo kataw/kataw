@@ -134,8 +134,11 @@
 ### Printed
 
 ```javascript
-({
-    async *x() {}
+(
+  /*1*/
+  {
+    async *
+    /*4*/x() {}
   });
 ```
 

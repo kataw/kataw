@@ -281,10 +281,14 @@ for /*2*/ await /*3*/(x /*4*/of /*5*/ y/*6*/) /*7*/ {}
 ### Printed
 
 ```javascript
-async function x() {
+async function x()
+/*1*/
+{
   for await (x of y) {}
 }
-async function x() {
+async function x()
+/*1*/
+{
   for await (x of y) {}
 }
 

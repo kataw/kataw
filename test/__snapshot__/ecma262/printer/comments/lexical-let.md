@@ -585,16 +585,32 @@ let /* 1*/ {
 ### Printed
 
 ```javascript
-let { a1: b1 } = y;
-let { a = addd } = y1;
+let {
+    /*1*/
+    a1: b1 } = y;
+let {
+    /*1*/
+    a = addd } = y1;
 
-let { ...h1 } = y;
+let {
+    /*1*/
+    ...h1 } = y;
 
-let { ...ja } = y2;
+let {
+    /*1*/
+    ...ja } = y2;
 
-let { ...aaa } = yd;
+let {
+    /*2*/
+    /*3*/
+    ...aaa } = yd;
 
-let { ...a3 } = ady;
+
+// detached!
+let {
+    /*2*/
+    /*3*/
+    ...a3 } = ady;
 
 ```
 

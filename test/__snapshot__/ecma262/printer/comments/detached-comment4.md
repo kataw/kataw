@@ -57,6 +57,8 @@
 ### Printed
 
 ```javascript
+
+/* detached */
 [];
 ```
 

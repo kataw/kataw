@@ -1255,6 +1255,8 @@ let obj3 = {
   };
 
 let obj4 = {
+
+    // Comment
     key: "'val'"
   };
 
@@ -1264,7 +1266,9 @@ let obj6 = ["'val'"];
 
 let obj7 = ["'val'"];
 
-let obj8 = ["'val'"];
+let obj8 = [
+    // Comment
+    "'val'"];
 
 let obj9 = `val`;
 

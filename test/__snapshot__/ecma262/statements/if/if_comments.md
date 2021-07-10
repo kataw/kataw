@@ -2221,28 +2221,34 @@ async function f3() {
 }
 
 async function f4() {
-  if (untrackedChoice === 0) {
+  if (untrackedChoice === 0)
+    /* Cancel */{
       return null;
     }
-  else  if (untrackedChoice === 1) {
+  else  if (untrackedChoice === 1)
+    /* Add */{
       await repository.addAll(Array.from(untrackedChanges.keys()));
       shouldAmend = true;
     }
-  else  if (untrackedChoice === 2) {
+  else  if (untrackedChoice === 2)
+    /* Allow Untracked */{
       allowUntracked = true;
     }
 }
 
 async function f5() {
   if (untrackedChoice === 0) {
-      return null;
+
+      /* Cancel */return null;
     }
   else  if (untrackedChoice === 1) {
-      await repository.addAll(Array.from(untrackedChanges.keys()));
+
+      /* Add */await repository.addAll(Array.from(untrackedChanges.keys()));
       shouldAmend = true;
     }
   else  if (untrackedChoice === 2) {
-      allowUntracked = true;
+
+      /* Allow Untracked */allowUntracked = true;
     }
 }
 

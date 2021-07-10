@@ -148,8 +148,10 @@
 ### Printed
 
 ```javascript
-try {
-  throw "\"no\"";
+
+/*1*/try {
+
+  /*4*/throw "\"no\"";
 } catch (e) {} finally {}
 ```
 

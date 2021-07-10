@@ -1596,7 +1596,9 @@ const response = {
 ### Printed
 
 ```javascript
-function a() {
+function a()
+// kataw-ignore
+{
   var fnString =
     "'\"'" +
     this.USE +
@@ -1610,13 +1612,20 @@ function a() {
     this.watchFns() +
     "'return fn;'"
   ;
+
+  // kataw-ignore
   const identity = Matrix.create(1, 0, 0, 0, 1, 0, 0, 0, 0);
+
+  // Let's make sure that this comment doesn't interfere
+  // kataw-ignore
   const commentsWithPrettierIgnore = {
       "\"ewww\"": "\"gross-formatting\"",
     };
   function giveMeSome() {
     a(a);
   }
+
+  // kataw-ignore
   
 
   // kataw-ignore
@@ -1650,6 +1659,8 @@ function a() {
   );
 }
 const response = {
+
+    // prettier-ignore
     "'_text'": "'Turn on the lights'",
     intent: "'lights'",
   };

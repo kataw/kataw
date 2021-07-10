@@ -398,10 +398,13 @@ catch(
 ### Printed
 
 ```javascript
-try {} catch (foo) {}
+try {} catch (
+// comment
+foo) {}
 try {} catch (foo) {}
 
-try {} catch (foo) {}
+try {} catch (
+/* comment */foo) {}
 
 try {} catch (foo) {}
 

@@ -43,7 +43,8 @@
 ### Printed
 
 ```javascript
-debugger;
+
+/* comment 1 */debugger;
 ```
 
 ### Diagnostics

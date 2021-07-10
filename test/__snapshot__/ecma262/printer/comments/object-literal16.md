@@ -126,7 +126,9 @@ x/*2*/
 ### Printed
 
 ```javascript
-({ async x() {} });
+({ async
+    /*1*/
+    x() {} });
 ```
 
 ### Diagnostics

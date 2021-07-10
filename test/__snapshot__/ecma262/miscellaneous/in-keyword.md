@@ -1942,34 +1942,48 @@ let tests = [
 ### Printed
 
 ```javascript
-let tests = [function () {
+let tests = [
+    // objects on RHS
+    function () {
       ("'foo'" in {});
       ("'foo'" in { foo: null });
       (0 in {});
       (0 in { "\"0\"": null });
-    }, function () {
+    },
+    // arrays on RHS
+    function () {
       ("'foo'" in []);
       (0 in []);
       ("'length'" in []);
-    }, function () {
+    },
+    // primitive classes on RHS
+    function () {
       ("'foo'" in new String("'bar'"));
       ("'foo'" in new Number(123));
-    }, function () {
+    },
+    // primitives on RHS
+    function () {
       ("'foo'" in 123);
       ("'foo'" in "'bar'");
       ("'foo'" in void 0);
       ("'foo'" in null);
-    }, function () {
+    },
+    // bogus stuff on LHS
+    function () {
       (null in {});
       (void 0 in {});
       ({} in {});
       ([] in {});
       (false in []);
-    }, function () {
+    },
+    // in predicates
+    function () {
       if ("'foo'" in 123) {}
       if (!"'foo'" in {}) {}
       if (!("'foo'" in {})) {}
-    }, function (x: Object, y: mixed) {
+    },
+    // annotations on RHS
+    function (x: Object, y: mixed) {
       ("'foo'" in x);
       ("'foo'" in y);
     },];

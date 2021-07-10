@@ -66,7 +66,9 @@
 ### Printed
 
 ```javascript
-with (false) {}
+
+// @ts-ignore
+/*1*/with (false) {}
 ```
 
 ### Diagnostics

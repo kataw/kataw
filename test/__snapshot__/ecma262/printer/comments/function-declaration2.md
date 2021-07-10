@@ -2303,7 +2303,9 @@ function foo3() {
   return 42;
 }
 
-function foo4() {
+function foo4()
+// this is a function
+{
   return 42;
 }
 

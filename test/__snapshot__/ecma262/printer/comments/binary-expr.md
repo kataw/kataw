@@ -93,7 +93,9 @@
 ### Printed
 
 ```javascript
-a + b / d;
+a + b /
+    /*3*/
+    d;
 ```
 
 ### Diagnostics

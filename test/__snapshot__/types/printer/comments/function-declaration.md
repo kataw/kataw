@@ -1229,10 +1229,13 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
 ### Printed
 
 ```javascript
+
+/*1*/
 function identity(value: string): string {
   return value;
 }
-function identity<T>(value: T): T {
+function identity<T>(value: T): T
+/*1*/{
   return value;
 }
 
@@ -1242,7 +1245,8 @@ function method<T>(param: T): T {}
 
 function method(func: <T>(param: T) => T) {}
 
-function constant<T>(value: T): () => T {
+function constant<T>(value: T): () => T
+/*5*/{
   return function (): T {
     return value;
   };

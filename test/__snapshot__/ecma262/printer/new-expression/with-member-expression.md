@@ -292,7 +292,9 @@ function functionName() {
 ### Printed
 
 ```javascript
-function functionName() {
+function functionName()
+// indent to make the line break
+{
   if (true) {
       this._aVeryLongVariableNameToForceLineBreak = new this.Promise((resolve,
       reject) => {});

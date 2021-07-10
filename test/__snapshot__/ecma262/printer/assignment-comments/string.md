@@ -1948,45 +1948,73 @@ var fnString = // Comment
 ### Printed
 
 ```javascript
-fnString = "'some'" + "'long'" + "'string'";
-fnString = "'some'" + "'long'" + "'string'";
+fnString =
+// Comment
+"'some'" + "'long'" + "'string'";
+fnString =
+// Comment
+"'some'" + "'long'" + "'string'";
 
-fnString = "'some'" + "'long'" + "'string'";
+fnString =
+// Comment
+"'some'" + "'long'" + "'string'";
 
-fnString = "'some'" + "'long'" + "'string'";
+fnString =
+/* comment */
+"'some'" + "'long'" + "'string'";
+
+fnString =
+/**
+   * multi-line
+   */
+"'some'" + "'long'" + "'string'";
+
+fnString =
+/* inline */
+  "'some'" +
+  "'long'" +
+  "'string'" +
+  "'some'" +
+  "'long'" +
+  "'string'" +
+  "'some'" +
+  "'long'" +
+  "'string'" +
+  "'some'" +
+  "'long'" +
+  "'string'"
+;
+
+fnString =
+// Comment1
+"'some'" + "'long'" + "'string'";
 
 fnString = "'some'" + "'long'" + "'string'";
 
 fnString =
-  "'some'" +
-  "'long'" +
-  "'string'" +
-  "'some'" +
-  "'long'" +
-  "'string'" +
-  "'some'" +
-  "'long'" +
-  "'string'" +
-  "'some'" +
-  "'long'" +
-  "'string'"
-;
-
-fnString = "'some'" + "'long'" + "'string'";
-
-fnString = "'some'" + "'long'" + "'string'";
-
-fnString = "'some'" + "'long'" + "'string'";
-
-var fnString = "'some'" + "'long'" + "'string'";
-
-var fnString = "'some'" + "'long'" + "'string'";
-
-var fnString = "'some'" + "'long'" + "'string'";
-
-var fnString = "'some'" + "'long'" + "'string'";
+// Comment
+"'some'" + "'long'" + "'string'";
 
 var fnString =
+// Comment
+"'some'" + "'long'" + "'string'";
+
+var fnString =
+// Comment
+"'some'" + "'long'" + "'string'";
+
+var fnString =
+/* comment */
+"'some'" + "'long'" + "'string'";
+
+var fnString =
+/**
+   * multi-line
+   */
+"'some'" + "'long'" + "'string'";
+
+var fnString =
+/* inline */
   "'some'" +
   "'long'" +
   "'string'" +
@@ -2001,7 +2029,9 @@ var fnString =
   "'string'"
 ;
 
-var fnString = "'some'" + "'long'" + "'string'";
+var fnString =
+// Comment1
+"'some'" + "'long'" + "'string'";
 
 var fnString = "'some'" + "'long'" + "'string'";
 

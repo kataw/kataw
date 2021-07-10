@@ -29,6 +29,8 @@
 
 ```javascript
 
+// detached comment
+
 ```
 
 ### Diagnostics

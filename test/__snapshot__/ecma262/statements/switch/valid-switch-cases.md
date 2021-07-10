@@ -6500,6 +6500,8 @@ switch (x) {
     foo;
 }
 
+
+// should be ignored - switch(x) { case y: foo };
 switch (x / a) {
   case y:
     foo;

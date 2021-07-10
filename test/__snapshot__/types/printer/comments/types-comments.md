@@ -1617,6 +1617,8 @@ type x = {get x (/*1*/): string }
 ### Printed
 
 ```javascript
+
+/*1*/
 type a = (Array<string>) => void
 type A = (Array<string>, ...Array<string>) => void
 
@@ -1630,7 +1632,9 @@ type E = Obj["'bar'"][]
 
 type O1 = { ...{ p: T } | { q: U } }
 
-type a = { "\"string\"": y.z }
+type a = { "\"string\"": y.
+  /*7*/
+  z }
 
 type C = { ...A & B }
 

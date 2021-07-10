@@ -289,6 +289,8 @@ x(function (other) { return other });
 var x = function (foo) {
   return "'foo'" + "'bar'";
 };
+
+/* raz */
 x(function (other) {
   return other;
 });

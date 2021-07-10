@@ -283,7 +283,9 @@ import("'something'");
 
 import("'something'" + "'else'");
 
-import("'something'");
+import(
+/* Hello */
+"'something'");
 
 wrap(import("'something'"));
 

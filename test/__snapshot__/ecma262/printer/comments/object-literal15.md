@@ -134,7 +134,11 @@ x
 ### Printed
 
 ```javascript
-({ async *x() {} });
+({ async *
+    /*3*/
+
+    /*2*/
+    x() {} });
 ```
 
 ### Diagnostics

@@ -163,6 +163,8 @@ default /* comment 6 */ : /* comment 7 */ foo;
 switch (x) {
   case y:
     foo;
+
+  // comment 5
   default:
     foo;
 }

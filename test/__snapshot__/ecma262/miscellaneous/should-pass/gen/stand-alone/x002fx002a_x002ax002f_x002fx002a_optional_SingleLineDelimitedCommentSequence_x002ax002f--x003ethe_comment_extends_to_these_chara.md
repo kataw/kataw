@@ -39,6 +39,9 @@
 
 ```javascript
 
+/*
+  */
+/* optional SingleLineDelimitedCommentSequence */
 ```
 
 ### Diagnostics

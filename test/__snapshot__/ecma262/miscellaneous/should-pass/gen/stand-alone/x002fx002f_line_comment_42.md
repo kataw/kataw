@@ -55,6 +55,8 @@
 ### Printed
 
 ```javascript
+
+// line comment
 42;
 ```
 

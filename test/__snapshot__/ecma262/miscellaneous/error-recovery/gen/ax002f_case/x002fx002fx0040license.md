@@ -37,6 +37,8 @@
 
 ```javascript
 
+//@license
+
 ```
 
 ### Diagnostics

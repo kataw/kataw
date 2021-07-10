@@ -184,7 +184,9 @@
     {}
 }
 {
-  inf_leave:  for (;;)
+  inf_leave:
+  // goto emulation
+  for (;;)
     {}
 }
 

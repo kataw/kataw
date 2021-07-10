@@ -151,6 +151,8 @@
 ```javascript
 const foo = {
     a: "'a'",
+
+    /* Section B */
     b: "'b'",
   };
 ```

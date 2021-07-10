@@ -37,6 +37,7 @@
 
 ```javascript
 
+/*!\r     * Re-indent test\r     */
 ```
 
 ### Diagnostics

@@ -544,6 +544,10 @@ class Item <T>{
   constructor(param: T) {
     this.prop = param;
   }
+
+  /*8*/
+
+  /*8*/
   method(): T {
     return this.prop;
   }

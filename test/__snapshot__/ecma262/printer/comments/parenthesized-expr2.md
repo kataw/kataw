@@ -62,7 +62,10 @@ a
 ### Printed
 
 ```javascript
-(a);
+
+/*2*/(
+  /*1*/
+  a);
 ```
 
 ### Diagnostics

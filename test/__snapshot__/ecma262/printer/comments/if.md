@@ -925,11 +925,15 @@ true
 ### Printed
 
 ```javascript
-if (1) {
+if (1)
+  // comment
+  {
     false;
   }
 else  if (2) true;
-else  if (3) true;
+else  if (3)
+  // existing comment
+  true;
 else  if (4) {}
 else  {}
 if (5) true;
@@ -942,11 +946,17 @@ else  {
     true;
   }
 
-if (8) {
+if (8)
+  // comment
+  {
     true;
   }
-else  if (9) true;
-else  {
+else  if (9)
+  // comment
+  true;
+else
+  // comment
+  {
     true;
   }
 
@@ -960,10 +970,17 @@ else  {
     true;
   }
 
-if (14) {
+if (14)
+  /* comment */
+  // comment
+  {
     true;
   }
-else  if (15) true;
+else  if (15)
+  /* comment */
+  /* comment */
+  // comment
+  true;
 
 ```
 

@@ -226,7 +226,13 @@ type Foo = {
 ### Printed
 
 ```javascript
-type Foo = { alpha: "'hello'", [string]: void, beta: 10 }
+type Foo = {
+  // a
+  alpha: "'hello'",
+  // b
+  [string]: void,
+  // c
+  beta: 10 }
 ```
 
 ### Diagnostics

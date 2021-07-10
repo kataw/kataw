@@ -428,6 +428,8 @@ function getSecurity(level) {
     case 1:
 
     case 2:
+
+      // Leading comments
       return "\"Hi\"";
     case 3:
 

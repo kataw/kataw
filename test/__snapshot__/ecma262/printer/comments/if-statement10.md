@@ -507,23 +507,33 @@ while (/*1*/x/*2*/) {}
 ### Printed
 
 ```javascript
-if (x) {}
-if (x) {}
 
-if (x) {}
+/*1*/if (x) {}
 
-if (x) {}
+/*2*/if (x) {}
+
+
+/*2*/if (x) {}
+
+
+/*2*/if (x) {}
 else  {}
 
 if (x) {}
 
-if (x) {}
+if (x)
+  /*1*/
+  {}
 
-if (x) {}
+if (x)
+  /*1*/
+  {}
 else  {}
 
 if (x) {}
 
+
+// Hello!
 if (x) {
     while (x) {}
   }

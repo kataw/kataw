@@ -190,8 +190,11 @@
 ### Printed
 
 ```javascript
-({ async *x() {} });
+({ async *
+    /*4*/x() {} });
 ({
+
+    /*1*/
     x: 0
   });
 
