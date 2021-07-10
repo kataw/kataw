@@ -21,6 +21,7 @@ export const enum PrinterFlags {
   ArrayBracketNewline = 1 << 13,
   EnforceLineBreaksBetweenArray = 1 << 14,
   ComputedPropertySpacing = 1 << 15,
+  PrintComments = 1 << 16,
 }
 
 export interface Printer {

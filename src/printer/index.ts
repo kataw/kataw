@@ -163,6 +163,7 @@ export interface PrinterOptions {
   tabWidth?: number;
   useTabs?: boolean;
   noSemicolon?: boolean;
+  noComments?: boolean;
   singleQuote?: boolean;
   noWhitespace?: boolean;
   compact?: boolean;
@@ -346,7 +347,7 @@ export const nodeLookupMap: any = {
 };
 
 export function printSource(root: RootNode, options?: PrinterOptions) {
-  let flags = PrinterFlags.ObjectCurlySpacing | PrinterFlags.UseSemicolon;
+  let flags = PrinterFlags.ObjectCurlySpacing | PrinterFlags.UseSemicolon | PrinterFlags.PrintComments;
   let printWidth = 80;
   let useTabs: boolean = false;
   let tabWidth = 2;
@@ -360,6 +361,7 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
     if (options.useTabs) useTabs = true;
     if (options.insertPragma) insertPragma = true;
     if (options.noSemicolon) flags &= ~PrinterFlags.UseSemicolon;
+    if (options.noComments) flags &= ~PrinterFlags.PrintComments;
     if (options.singleQuote) flags |= PrinterFlags.SingleQuote;
     if (options.arrayBracketSpacing) flags |= PrinterFlags.ArrayBracketSpacing;
     if (options.noObjectCurlySpacing) flags &= ~PrinterFlags.ObjectCurlySpacing;
@@ -409,7 +411,9 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
 }
 
 export function printStatement(printer: Printer, node: SyntaxNode, lineMap: number[], parentNode: SyntaxNode) {
-  return printWithComments(printer, node, lineMap, parentNode, printStatementRest);
+  return printer.flags & PrinterFlags.PrintComments ?
+  printWithComments(printer, node, lineMap, parentNode, printStatementRest) :
+  printStatementRest(printer, node, lineMap, parentNode)
 }
 
 export function printStatementRest(printer: Printer, node: SyntaxNode, lineMap: number[], parentNode: SyntaxNode) {

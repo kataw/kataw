@@ -11,6 +11,7 @@
 | `tabWidth`    | Specify the number of spaces per indentation-level |
 | `useTabs`    | Indent lines with tabs instead of spaces |
 | `noSemicolon`    | Doesn't print semicolons at the ends of statements |
+| `noComments`    | Doesn't print comments |
 | `singleQuote`    | Use single quotes instead of double quotes |
 | `noWhitespace`    | Doesn't print whitespace |
 | `compact`    | Doesn't print whitespace or line breaks |
