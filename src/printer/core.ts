@@ -52,6 +52,7 @@ export function printAssignmentRight(left: any, right: any, printedRight: any): 
         (right.right.kind === SyntaxKind.ArrayLiteral && right.right.elementList.elements.length > 0) ||
         (right.right.kind === SyntaxKind.ObjectLiteral && right.right.propertyList.properties.length > 0))) ||
     right.kind === SyntaxKind.CommaOperator ||
+    right.kind === SyntaxKind.ParenthesizedExpression ||
     left.kind === SyntaxKind.StringLiteral
     ? group(indent(concat([line, printedRight])), {})
     : concat([' ', printedRight]);

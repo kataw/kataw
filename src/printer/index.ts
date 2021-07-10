@@ -623,13 +623,21 @@ export function printIndexExpression(printer: Printer, node: any, lineMap: numbe
 }
 
 function printMemberAccessExpression(printer: Printer, node: any, lineMap: number[]): any {
-  return group(
+  const separator = printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : softline;
+  return node.member === SyntaxKind.NumericLiteral || node.member === SyntaxKind.BigIntLiteral ?
     concat([
       printStatement(printer, node.member, lineMap, node),
       '[',
-      printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '',
-      indent(concat([softline, printStatement(printer, node.expression, lineMap, node)])),
-      printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '',
+      indent(concat([separator, printStatement(printer, node.expression, lineMap, node)])),
+      separator,
+      ']'
+    ]
+  ) : group(
+    concat([
+      printStatement(printer, node.member, lineMap, node),
+      '[',
+      indent(concat([separator, printStatement(printer, node.expression, lineMap, node)])),
+      separator,
       ']'
     ]),
     { shouldBreak: false }
@@ -719,10 +727,10 @@ export function printElementList(printer: Printer, node: any, lineMap: number[],
   return group(
     concat([
       '[',
-      indent(concat([printer.flags & PrinterFlags.ArrayBracketSpacing ? line : printer.flags & PrinterFlags.ArrayBracketNewline ? hardline : softline, concat([concat(elements)])])),
+      indent(concat([printer.flags & PrinterFlags.ArrayBracketSpacing ? line : printer.flags & (PrinterFlags.ArrayBracketNewline | PrinterFlags.EnforceLineBreaksBetweenArray) ? hardline : softline, concat([concat(elements)])])),
       node.trailingComma ? ',' : '',
       ifBreak(node.trailingComma ? ',' : ''),
-      printer.flags & PrinterFlags.ArrayBracketSpacing ? line : printer.flags & PrinterFlags.ArrayBracketNewline ? hardline : softline,
+      printer.flags & PrinterFlags.ArrayBracketSpacing ? line : printer.flags & (PrinterFlags.ArrayBracketNewline | PrinterFlags.EnforceLineBreaksBetweenArray) ? hardline : softline,
       ']'
     ]),
     { shouldBreak: false }
@@ -802,11 +810,14 @@ function printBlock(printer: Printer, node: any, lineMap: number[], parentNode: 
 }
 
 function printTypeAnnotation(printer: Printer, node: any, lineMap: number[]): any {
-  return concat([
+
+  return node.type.kind !== SyntaxKind.UnionType && node.type.kind !== SyntaxKind.IntersectionType ?
+  concat([
     printKeyword(printer, node.bitwiseAndToken, node, true),
     printKeyword(printer, node.bitwiseOrToken, node, true),
     printStatement(printer, node.type, lineMap, node)
-  ]);
+  ])
+  : printStatement(printer, node.type, lineMap, node);
 }
 
 function printArrayType(printer: Printer, node: any, lineMap: number[]): any {
@@ -875,21 +886,30 @@ function printNullableType(printer: Printer, node: any, lineMap: number[]): any 
 }
 
 function printIntersectionType(printer: Printer, node: any, lineMap: number[], parentNode: any): any {
-  const printed = node.types.map((type: any) => printStatement(printer, type, lineMap, parentNode));
 
-  const result = [];
-  for (let i = 0; i < printed.length; ++i) {
+  const result: any = [];
+
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
+
+  for (let i = 0; i < node.types.length; i++) {
+    child = node.types[i];
     if (i === 0) {
-      result.push(printed[i]);
-    } else if (node.types[i - 1].kind !== SyntaxKind.ObjectType && node.types[i].kind !== SyntaxKind.ObjectType) {
+      result.push(printStatement(printer, child, lineMap, parentNode));
+    }else if (node.types[i - 1].kind !== SyntaxKind.ObjectType && node.types[i].kind !== SyntaxKind.ObjectType) {
       // If no object is involved, go to the next line if it breaks
-      result.push(indent(concat([' &', line, printed[i]])));
+      result.push(indent(concat([' &', line, printStatement(printer, child, lineMap, parentNode)])));
     } else {
       // If you go from object to non-object or vis-versa, then inline it
-      result.push(' & ', i > 1 ? indent(printed[i]) : printed[i]);
+      result.push(' & ', i > 1 ? indent(printStatement(printer, child, lineMap, parentNode)) : printStatement(printer, child, lineMap, parentNode));
     }
+    previousSibling = child;
   }
-  return group(concat(result), {});
+
+  return group(concat([parentNode.kind === SyntaxKind.TypeAnnotation && (
+    parentNode.bitwiseOrToken ? concat(['|', printer.space]) : '' ||
+    parentNode.bitwiseAndToken ? concat(['&', printer.space]) : ''
+  ), concat(result)]), {});
 }
 
 function printIndexedAccessType(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
@@ -1186,19 +1206,58 @@ function printTypeofType(printer: Printer, node: any, lineMap: number[]): any {
       ]);
 }
 
-function printUnionType(printer: Printer, node: UnionType, lineMap: number[], parentNode: any): any {
-  const printed = concat([
-    //ifBreak(concat([shouldIndent ? hardline : '', '|', printer.space])),
-    join(
-      concat([line, '|', printer.space]),
-      node.types.map((type: any) => indent(printStatement(printer, type, lineMap, parentNode)))
-    )
-  ]);
+function printUnionType(
+  printer: Printer,
+  node: UnionType,
+  lineMap: number[],
+  parentNode: any,
+): any {
+  const result: any = [];
 
-  return group(parentNode.transformFlags & TransformFlags.TypeParameter ? indent(printed) : printed, {
-    shouldBreak: false
-  });
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
+
+  for (let i = 0; i < node.types.length; i++) {
+    child = node.types[i];
+    if (i === 0) {
+      result.push(printStatement(printer, child, lineMap, parentNode));
+    } else if (
+      node.types[i - 1].kind !== SyntaxKind.ObjectType &&
+      node.types[i].kind !== SyntaxKind.ObjectType
+    ) {
+      // If no object is involved, go to the next line if it breaks
+      result.push(
+        indent(
+          concat([
+            ' |',
+            line,
+            printStatement(printer, child, lineMap, parentNode),
+          ]),
+        ),
+      );
+    } else {
+      // If you go from object to non-object or vis-versa, then inline it
+      result.push(
+        ' | ',
+        i > 1
+          ? indent(printStatement(printer, child, lineMap, parentNode))
+          : printStatement(printer, child, lineMap, parentNode),
+      );
+    }
+    previousSibling = child;
+  }
+
+  return group(
+    concat([
+      parentNode.kind === SyntaxKind.TypeAnnotation && parentNode.bitwiseOrToken
+        ? concat(['|', printer.space])
+        : '',
+      concat(result),
+    ]),
+    {},
+  );
 }
+
 
 function printArrowTypeParameterList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   const children = node.parameters;
@@ -2067,16 +2126,17 @@ function printIndexExpressionChain(printer: Printer, node: any, lineMap: number[
 }
 
 function printMemberAccessChain(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  return concat([
+  const separator = printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '';
+  return group(concat([
     node.chain ? printStatement(printer, node.chain, lineMap, node) : '',
     '[',
-    printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '',
+    separator,
     group(concat([indent(concat([softline, printStatement(printer, node.expression, lineMap, node)])), softline]), {
       shouldBreak: false
     }),
-    printer.flags & PrinterFlags.ComputedPropertySpacing ? printer.space : '',
+    separator,
     ']'
-  ]);
+  ]), {});
 }
 
 function printExportSpecifier(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {

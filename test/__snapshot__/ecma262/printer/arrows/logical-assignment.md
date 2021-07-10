@@ -266,14 +266,15 @@ a ||= ((
 ### Printed
 
 ```javascript
-a ||= (
-  (greeting = "\"hello\"",
-  greeted = "'\"World\"'",
-  silent = false,
-  onMouseOver) => new Foo({
-      key: value,
-    })
-);
+a ||=
+  (
+    (greeting = "\"hello\"",
+    greeted = "'\"World\"'",
+    silent = false,
+    onMouseOver) => new Foo({
+        key: value,
+      })
+  );
 ```
 
 ### Diagnostics

@@ -1929,7 +1929,8 @@ window.FooClient.something.setVars({
 
 ```javascript
 const veryVeryVeryVeryVeryVeryVeryLong = doc.expandedStates[
-    doc.expandedStates.length - 1];
+    doc.expandedStates.length - 1
+  ];
 const small = doc.expandedStates[doc.expandedStates.length - 1];
 
 const promises = [promise.resolve().then(console.log).catch(err => {

@@ -408,13 +408,13 @@ function aPrettyLongFunctionE(aRatherLongParameterName: Array<{
 ### Printed
 
 ```javascript
-function aPrettyLongFunctionD(aRatherLongParameterName: MyType
-| null): string[] {}
+function aPrettyLongFunctionD(aRatherLongParameterName: MyType |
+  null): string[] {}
 function aPrettyLongFunctionE(aRatherLongParameterName: Array<
-    { __id: string } | null
-  >
-| null
-| void): string[] {}
+  { __id: string } | null
+> |
+  null |
+  void): string[] {}
 
 ```
 

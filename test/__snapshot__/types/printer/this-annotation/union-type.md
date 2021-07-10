@@ -428,11 +428,11 @@ type B = (
 ### Printed
 
 ```javascript
-type A = (this: | SupperLongLongLongLongLongLongLongLongLongLongLongType
-| FooBarBazLorem12345,
+type A = (this: | SupperLongLongLongLongLongLongLongLongLongLongLongType |
+  FooBarBazLorem12345,
 b: number) => boolean
-type B = (_this: | SupperLongLongLongLongLongLongLongLongLongLongLongType
-| FooBarBazLorem12345,
+type B = (_this: | SupperLongLongLongLongLongLongLongLongLongLongLongType |
+  FooBarBazLorem12345,
 b: number) => boolean
 
 ```
