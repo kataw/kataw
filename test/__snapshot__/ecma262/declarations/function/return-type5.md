@@ -197,7 +197,9 @@ function x(y: | /* comment 1 */ z):
 ### Printed
 
 ```javascript
-function x(y: | z): | () => number {}
+function x(y: | z): |
+/* comment 2 */
+() => number {}
 ```
 
 ### Diagnostics

@@ -2762,6 +2762,8 @@ class Outer {
 }
 
 class Annotations {
+
+  // Private class fields must either be annotated or have an initializer
   #p: number;;
   #q = 0;;
   #r;;

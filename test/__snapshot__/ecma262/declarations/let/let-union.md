@@ -101,7 +101,8 @@
 ### Printed
 
 ```javascript
-let x: | string;
+let x: |
+  /* detached comment */string;
 ```
 
 ### Diagnostics

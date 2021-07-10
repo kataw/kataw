@@ -9295,6 +9295,8 @@ function foo8(x) {
     }
 }
 
+
+///=======const
 function foo0_c(x) {
   for (const x of []) {
       const a = arguments.length;

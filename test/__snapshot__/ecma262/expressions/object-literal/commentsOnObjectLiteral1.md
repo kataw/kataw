@@ -119,7 +119,13 @@ var Person = makeClass(
 ### Printed
 
 ```javascript
-var Person = makeClass({});
+
+// @removeComments: false
+var Person = makeClass(
+/**
+     @scope Person
+   */
+{});
 ```
 
 ### Diagnostics

@@ -1025,7 +1025,13 @@ foo ?? (bar ?? baz);
 
 (foo ?? bar) ?? baz;
 
-(foo ?? baz) || baz;
+
+// Mixing ?? and (&& or ||) requires parens
+// It's a syntax error without it.
+(
+  // Mixing ?? and (&& or ||) requires parens
+  // It's a syntax error without it.
+  foo ?? baz) || baz;
 
 foo ?? (baz || baz);
 

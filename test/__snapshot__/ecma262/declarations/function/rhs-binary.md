@@ -794,12 +794,16 @@ function x() {
   (0 in {});
   (0 in { "\"0\"": null });
 }
+
+// arrays on RHS
 function y() {
   ("'foo'" in []);
   (0 in []);
   ("'length'" in []);
 }
 
+
+// primitive classes on RHS
 function z() {
   ("'foo'" in new String("'bar'"));
   ("'foo'" in new Number(123));

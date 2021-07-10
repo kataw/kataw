@@ -204,6 +204,8 @@ class MyComponent {
 ### Printed
 
 ```javascript
+
+// https://github.com/prettier/prettier/issues/6747
 @foo
 class MyComponent {
   @task *foo() {}

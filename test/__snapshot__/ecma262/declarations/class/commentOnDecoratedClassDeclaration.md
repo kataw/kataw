@@ -307,8 +307,16 @@ class AnotherRomote {
 ### Printed
 
 ```javascript
+
+/**
+ * Leading trivia
+ */
 @decorator("\"hello\"")
 class Remote {}
+
+/**
+ * Floating Comment
+ */
 @decorator("\"hi\"")
 class AnotherRomote {
   constructor() {}

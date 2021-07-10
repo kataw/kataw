@@ -197,6 +197,8 @@ s.map(// do something
 ### Printed
 
 ```javascript
+
+//commment here
 var s: string[];
 s.map(function () {});
 

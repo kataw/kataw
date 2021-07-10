@@ -2242,7 +2242,11 @@ foo || bar && baz;
 ### Printed
 
 ```javascript
-(foo && bar) && baz;
+
+// Same operators do not require parens
+(
+  // Same operators do not require parens
+  foo && bar) && baz;
 foo && (bar && baz);
 
 foo && ((bar && baz) && qux);
@@ -2277,7 +2281,11 @@ foo ?? (bar ?? ((baz ?? qux) ?? xyz));
 
 foo ?? (bar ?? (baz ?? (qux ?? xyz)));
 
-(foo && bar) || baz;
+
+// Explicitly parenthesized && and || requires parens
+(
+  // Explicitly parenthesized && and || requires parens
+  foo && bar) || baz;
 
 (foo || bar) && baz;
 
@@ -2285,6 +2293,8 @@ foo && (bar || baz);
 
 foo || (bar && baz);
 
+
+// Implicitly parenthesized && and || requires parens
 foo && bar || baz;
 
 foo || bar && baz;

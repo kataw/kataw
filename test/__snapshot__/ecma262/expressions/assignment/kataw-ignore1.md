@@ -69,6 +69,8 @@ foo = bar;
 ### Printed
 
 ```javascript
+
+// kataw-ignore-block
 foo = bar;
 ```
 

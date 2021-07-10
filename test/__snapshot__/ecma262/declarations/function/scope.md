@@ -1485,13 +1485,17 @@ function block_scope() {
     var b = "\"\"";
   }
 }
-function default_param_1() {
+function default_param_1()
+// function binding in scope in default expr
+{
   function f(x: () => string = f): number {
     return 0;
   }
 }
 
-function default_param_2() {
+function default_param_2()
+// fn body bindings not visible from param scope
+{
   let a = "\"\"";
   function f0(x = () => a): number {
     let a = 0;

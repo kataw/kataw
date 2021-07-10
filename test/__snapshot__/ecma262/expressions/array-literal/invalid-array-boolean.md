@@ -50,6 +50,9 @@
 
 ```javascript
 
+//[false] = x;
+//[true] = x;
+
 ```
 
 ### Diagnostics

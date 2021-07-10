@@ -1,5 +1,6 @@
 import { SyntaxKind, TransformFlags, tokenToString } from '../ast/syntax-node';
-import { concat, group, indent, line } from '../formatter/index';
+import { hardline, concat, group, indent, line } from '../formatter/index';
+import { collectLeadingComments, collectTrailingComments } from '../parser/scanner/comments';
 
 export const enum PrinterFlags {
   None,
@@ -26,13 +27,25 @@ export interface Printer {
   source: string;
   space: string;
   flags: PrinterFlags;
+  containerPos: number;
+  containerEnd: number;
+  nextListElementPos: number;
+  declarationListContainerEnd: number;
+  lastSingleLinePos: number;
+  detachedCommentsInfo: any;
 }
 
 export function createPrinter(source: string, flags: PrinterFlags, space: string): Printer {
   return {
     source,
     flags,
-    space
+    space,
+    containerPos: -1,
+    containerEnd: -1,
+    nextListElementPos: 0,
+    lastSingleLinePos: -1,
+    declarationListContainerEnd: -1,
+    detachedCommentsInfo: undefined
   };
 }
 
@@ -56,6 +69,10 @@ export function printAssignmentRight(left: any, right: any, printedRight: any): 
     left.kind === SyntaxKind.StringLiteral
     ? group(indent(concat([line, printedRight])), {})
     : concat([' ', printedRight]);
+}
+
+export function lastOrUndefined<T>(array: readonly T[]): any {
+  return array.length === 0 ? undefined : array[array.length - 1];
 }
 
 export function printKeywordNoSpace(printer: any, keyword: any): any {
@@ -137,4 +154,115 @@ export function toggleSemicolon(printer: Printer): string {
     printer.flags & PrinterFlags.DisallowSemicolon
     ? ''
     : ';';
+}
+
+export function printWithComments(
+  printer: Printer,
+  node: any,
+  lineMap: number[],
+  parentNode: any,
+  printCallback: any,
+): any {
+  if (node) {
+    const { start, end } = node;
+
+    if ((start < 0 && end < 0) || start === end) {
+      return printCallback(printer, node, lineMap, parentNode);
+    }
+
+    let leadingComments: any = [];
+
+    if (start >= 0) {
+      leadingComments = printLeadingComments(printer, start);
+    }
+
+    const { containerPos, containerEnd, declarationListContainerEnd } = printer;
+
+    if (start >= 0) {
+      printer.containerPos = start;
+    }
+
+    if (end >= 0) {
+      printer.containerEnd = end;
+
+      if (node.kind === SyntaxKind.VariableDeclarationList) {
+        printer.declarationListContainerEnd = end;
+      }
+    }
+
+    const printed = printCallback(printer, node, lineMap, parentNode);
+
+    // Restore previous container state.
+    printer.containerPos = containerPos;
+    printer.containerEnd = containerEnd;
+    printer.declarationListContainerEnd = declarationListContainerEnd;
+
+    if (end >= 0) {
+      // printTrailingComments(printer, end);
+    }
+
+    if (leadingComments && leadingComments.length > 0) {
+      return concat([
+        printComments(printer, leadingComments, true),
+        printed
+      ])
+    }
+
+    return printed;
+  }
+  return '';
+}
+
+function printComments(printer: Printer, comments: any, printLeadingSpace: boolean = false) {
+  let parts: any = []
+for (const comment of comments) {
+  if (printLeadingSpace) {
+    parts.push(hardline);
+    printLeadingSpace = false;
+  }
+
+  if (comment.kind === SyntaxKind.MultiLineComment) {
+    parts.push(printer.source.substring(comment.pos, comment.end))
+    if (comment.hasTrailingNewLine) {
+      parts.push(hardline);
+    } else {
+      printLeadingSpace = true;
+    }
+  } else {
+    parts.push(concat([printer.source.substring(comment.pos, comment.end), hardline]))
+  }
+  }
+  return concat(parts);
+}
+
+function hasDetachedComments(printer: Printer, pos: number) {
+  return printer.detachedCommentsInfo !== undefined && lastOrUndefined(printer.detachedCommentsInfo).nodePos === pos;
+}
+
+export function printLeadingComments(printer: Printer, pos: number) {
+  let leadingComments!: any[] | undefined;
+   if (printer.containerPos === -1 || pos !== printer.containerPos) {
+    leadingComments = hasDetachedComments(printer, pos)
+      ? getLeadingCommentsWithoutDetachedComments(printer)
+      : getLeadingCommentRanges(printer.source, pos);
+  }
+  return leadingComments;
+}
+
+function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
+  const pos = lastOrUndefined(printer.detachedCommentsInfo).detachedCommentEndPos;
+  const leadingComments = getLeadingCommentRanges(printer.source, pos);
+  if (printer.detachedCommentsInfo.length - 1) {
+    printer.detachedCommentsInfo.pop();
+  } else {
+    printer.detachedCommentsInfo = undefined;
+  }
+
+  return leadingComments;
+}
+
+export function getLeadingCommentRanges(text: string, pos: number): any {
+  if (pos !== undefined) {
+    return collectLeadingComments(text, pos);
+  }
 }

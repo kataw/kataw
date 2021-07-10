@@ -64,6 +64,8 @@
 
 ```javascript
 "\"foo\"";
+
+// stuff here
 "\"bar\"";
 
 ```

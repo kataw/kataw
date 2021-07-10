@@ -140,6 +140,7 @@ import {
   shouldprintWhitespaceBeforeOperand,
   PrinterFlags,
   makeString,
+  printWithComments,
   printAssignmentRight,
   toggleSemicolon
 } from './core';
@@ -408,6 +409,10 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
 }
 
 export function printStatement(printer: Printer, node: SyntaxNode, lineMap: number[], parentNode: SyntaxNode) {
+  return printWithComments(printer, node, lineMap, parentNode, printStatementRest);
+}
+
+export function printStatementRest(printer: Printer, node: SyntaxNode, lineMap: number[], parentNode: SyntaxNode) {
   const map = nodeLookupMap[node.kind];
   return map ? map(printer, node, lineMap, parentNode) : '';
 }
@@ -903,8 +908,10 @@ function printIntersectionType(printer: Printer, node: any, lineMap: number[], p
       // If you go from object to non-object or vis-versa, then inline it
       result.push(' & ', i > 1 ? indent(printStatement(printer, child, lineMap, parentNode)) : printStatement(printer, child, lineMap, parentNode));
     }
+
     previousSibling = child;
   }
+
 
   return group(concat([parentNode.kind === SyntaxKind.TypeAnnotation && (
     parentNode.bitwiseOrToken ? concat(['|', printer.space]) : '' ||
@@ -1205,59 +1212,41 @@ function printTypeofType(printer: Printer, node: any, lineMap: number[]): any {
         printStatement(printer, node.type, lineMap, node)
       ]);
 }
+//printKeyword(printer, node.bitwiseOrToken, node, true),
 
-function printUnionType(
-  printer: Printer,
-  node: UnionType,
-  lineMap: number[],
-  parentNode: any,
-): any {
-  const result: any = [];
+
+function printUnionType(printer: Printer, node: UnionType, lineMap: number[], parentNode: any): any {
+
+  const printed: any = [];
 
   let previousSibling!: SyntaxNode;
   let child!: SyntaxNode;
 
   for (let i = 0; i < node.types.length; i++) {
     child = node.types[i];
-    if (i === 0) {
-      result.push(printStatement(printer, child, lineMap, parentNode));
-    } else if (
-      node.types[i - 1].kind !== SyntaxKind.ObjectType &&
-      node.types[i].kind !== SyntaxKind.ObjectType
-    ) {
-      // If no object is involved, go to the next line if it breaks
-      result.push(
-        indent(
-          concat([
-            ' |',
-            line,
-            printStatement(printer, child, lineMap, parentNode),
-          ]),
-        ),
-      );
-    } else {
-      // If you go from object to non-object or vis-versa, then inline it
-      result.push(
-        ' | ',
-        i > 1
-          ? indent(printStatement(printer, child, lineMap, parentNode))
-          : printStatement(printer, child, lineMap, parentNode),
-      );
-    }
+    printed.push(printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
-  return group(
-    concat([
-      parentNode.kind === SyntaxKind.TypeAnnotation && parentNode.bitwiseOrToken
-        ? concat(['|', printer.space])
-        : '',
-      concat(result),
-    ]),
-    {},
-  );
-}
+  const result = [];
+  for (let i = 0; i < printed.length; ++i) {
+    if (i === 0) {
+      result.push(printed[i]);
+    } else if (node.types[i - 1].kind !== SyntaxKind.ObjectType && node.types[i].kind !== SyntaxKind.ObjectType) {
+      // If no object is involved, go to the next line if it breaks
+      result.push(indent(concat([' |', line, printed[i]])));
+    } else {
+      // If you go from object to non-object or vis-versa, then inline it
+      result.push(' | ', i > 1 ? indent(printed[i]) : printed[i]);
+    }
+  }
 
+  return group(concat([parentNode.kind === SyntaxKind.TypeAnnotation && (
+    parentNode.bitwiseOrToken ? concat(['|', printer.space]) : '' ||
+    parentNode.bitwiseAndToken ? concat(['&', printer.space]) : ''
+  ), concat(result)]), {});
+
+}
 
 function printArrowTypeParameterList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   const children = node.parameters;

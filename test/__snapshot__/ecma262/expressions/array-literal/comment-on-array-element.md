@@ -116,7 +116,9 @@ const array = [
 ### Printed
 
 ```javascript
-const array = [1, 2];
+const array = [
+    /* element 1*/
+    1, 2];
 ```
 
 ### Diagnostics
