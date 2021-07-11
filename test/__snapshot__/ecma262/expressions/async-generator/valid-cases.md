@@ -3343,12 +3343,12 @@ for (;;) {}});
 (function * gen() {
   yield  1;
   return 37;
-  yield  '\'dead\'';
+  yield  "'dead'";
 });
 (function * gen() {
   yield *  1;
   return 37;
-  yield *  '\'dead\'';
+  yield *  "'dead'";
 });
 (function * gen() {
   yield ;

@@ -125,7 +125,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let {
   eval: x
 } = {};

@@ -229,9 +229,9 @@ for (;;) {
 }
 loop: for (;;) {
   break/* comment */ loop;
-  break loop/* comment */;
+  break loop /* comment */;
   continue/* comment */ loop;
-  continue loop/* comment */;
+  continue loop /* comment */;
 }
 
 ```

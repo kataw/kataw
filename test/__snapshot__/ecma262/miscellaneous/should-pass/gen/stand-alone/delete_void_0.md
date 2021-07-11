@@ -75,7 +75,7 @@ delete void 0
 
 ```javascript
 
-delete void 0;
+delete  void  0;
 
 ```
 

@@ -131,7 +131,7 @@ function *g() { yield void x }
 ```javascript
 
 function * g() {
-  yield  void x;
+  yield  void  x;
 }
 
 ```

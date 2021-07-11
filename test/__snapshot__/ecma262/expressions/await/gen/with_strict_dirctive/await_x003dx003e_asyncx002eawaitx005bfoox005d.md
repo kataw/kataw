@@ -111,7 +111,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 await => async.await[foo];
 
 ```

@@ -506,7 +506,7 @@ function f<X, Y: X, Z: Y, W> (y: Y, z: X, w: W): X {
     return y;
   if (n === 1)
     return z;
-  return w;// nope
+  return w; // nope
 }
 
 ```

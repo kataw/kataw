@@ -193,7 +193,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 var x, y, z;
 for ([x, y, z,] of {})
   ;

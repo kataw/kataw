@@ -5625,7 +5625,7 @@ switch (x) {
 ;
 switch ([/a/,]) {
   case y: 
-    !x;
+    ! x;
 }
 ;
 switch (x) {
@@ -5701,13 +5701,13 @@ switch (x) {
 ;
 switch (x) {
   case y: 
-    (foo) = (foo)/* comment */ - b;
+    (foo) = (foo) /* comment */ - b;
 }
 ;
 switch (x) {
   case y: 
     foo;
-}// comment;
+} // comment;
  // should be ignored - switch(x) { case y: foo };
 switch (x / a) {
   case y: 
@@ -5808,7 +5808,7 @@ switch (x) {
     function * f() {}
 }
 ;
-'"use strict"';
+"\"use strict\"";
 switch (x) {
   case 1: 
   default: 
@@ -5819,7 +5819,7 @@ switch (x) {
 switch (x) {
 }
 /foo/;
-'"use strict"';
+"\"use strict\"";
 switch (x) {
   case 1: 
   default: 
@@ -5829,7 +5829,7 @@ switch (x) {
     }
 }
 ;
-'"use strict"';
+"\"use strict\"";
 switch (x) {
   case 1: 
   default: 
@@ -5839,7 +5839,7 @@ switch (x) {
     function f() {}
 }
 ;
-'"use strict"';
+"\"use strict\"";
 switch (x) {
   case 1: 
   default: 
@@ -5847,7 +5847,7 @@ switch (x) {
     }
 }
 ;
-'"use strict"';
+"\"use strict\"";
 switch (x) {
   case 1: 
   default: 
@@ -5856,7 +5856,7 @@ switch (x) {
     }
 }
 ;
-'"use strict"';
+"\"use strict\"";
 switch (x) {
   case 1: 
   default: 

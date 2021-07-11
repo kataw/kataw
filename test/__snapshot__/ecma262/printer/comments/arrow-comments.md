@@ -440,11 +440,11 @@ element =>
      * @returns {String}
      */
 modifier => [
-  '"."',
+  "\".\"",
   css(block),
-  element ? `__${css(element)}` : '""',
-  modifier ? `--${css(modifier)}` : '""',
-].join('""');
+  element ? `__${css(element)}` : "\"\"",
+  modifier ? `--${css(modifier)}` : "\"\"",
+].join("\"\"");
 
 ```
 

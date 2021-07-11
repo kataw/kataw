@@ -91,7 +91,7 @@ async function f() { "use strict"; }
 ```javascript
 
 async function f() {
-'"use strict"';
+"\"use strict\"";
 }
 
 ```

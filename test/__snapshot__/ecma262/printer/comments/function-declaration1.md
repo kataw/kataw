@@ -314,8 +314,8 @@ function x (
 
 function x(/*1*/) {}
 function x(/*1*/) {/*2*/}
-function x(/*1*/a, b/*2*/) {}
-function x(/*1*/a, b/*2*/) {}
+function x(/*1*/a, b /*2*/) {}
+function x(/*1*/a, b /*2*/) {}
 function x(
  /*2*/) {}
 

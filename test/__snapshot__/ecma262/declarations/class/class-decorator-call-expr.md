@@ -117,7 +117,7 @@ class Foo {}
 
 ```javascript
 
-@foo('\'bar\'')
+@foo("'bar'")
 class Foo {
 }
 

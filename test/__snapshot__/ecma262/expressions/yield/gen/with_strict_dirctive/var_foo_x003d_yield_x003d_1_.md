@@ -110,7 +110,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 var foo = yield = 1;
 
 ```

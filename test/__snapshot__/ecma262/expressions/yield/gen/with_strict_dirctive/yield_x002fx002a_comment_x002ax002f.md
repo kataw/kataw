@@ -60,8 +60,8 @@
 
 ```javascript
 
-'\'use strict\'';
-yield;/* comment */
+"'use strict'";
+yield; /* comment */
 
 ```
 

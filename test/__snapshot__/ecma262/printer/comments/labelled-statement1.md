@@ -63,7 +63,7 @@ x /* comment 1 */ : /* comment 2 */  y;
 
 ```javascript
 
-x/* comment 1 */:/* comment 2 */ y;
+x /* comment 1 */:/* comment 2 */ y;
 
 ```
 

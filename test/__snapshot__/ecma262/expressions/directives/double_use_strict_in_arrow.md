@@ -123,8 +123,8 @@
 ```javascript
 
 (w, o, e, m) => {
-'"use strict"'
-'"use strict"';
+"\"use strict\""
+"\"use strict\"";
 };
 
 ```

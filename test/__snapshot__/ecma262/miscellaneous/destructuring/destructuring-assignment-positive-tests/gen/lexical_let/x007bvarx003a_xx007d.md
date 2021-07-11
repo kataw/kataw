@@ -190,7 +190,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let x, y, z;
 ({ var : x } = {});
 

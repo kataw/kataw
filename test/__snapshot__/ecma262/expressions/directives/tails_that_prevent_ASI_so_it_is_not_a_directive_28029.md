@@ -141,7 +141,7 @@ function f(){ "use strict"
 ```javascript
 
 function f() {
-  '"use strict"'
+  "\"use strict\""
    /* suffix = */.foo;
   eval = 1;
 }

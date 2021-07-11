@@ -227,7 +227,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 var o = { * gf() {
     switch (1) {
       case yield : 

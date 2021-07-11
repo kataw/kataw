@@ -59,7 +59,7 @@ import "foo";
 
 ```javascript
 
-import '"foo"';
+import "\"foo\"";
 
 ```
 

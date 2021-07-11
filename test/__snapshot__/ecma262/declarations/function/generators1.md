@@ -688,17 +688,17 @@ function *infer_stmt() {
 
 function * stmt_yield(): Generator<number, void, void> {
   yield  0;
-  yield  '""';
+  yield  "\"\"";
 }
 function * stmt_return_ok(): Generator<void, number, void> {
   return 0;
 }
 function * stmt_return_err(): Generator<void, number, void> {
-  return '""';
+  return "\"\"";
 }
 function * infer_stmt() {
   var x: boolean = yield  0;
-  return '""';
+  return "\"\"";
 }
 
 ```

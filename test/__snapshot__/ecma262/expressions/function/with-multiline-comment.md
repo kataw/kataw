@@ -187,7 +187,7 @@ x; })
   return/* Multiline\nComment */ x;
 });
 (function () {
-  return;// Comment
+  return; // Comment
   x;
 });
 

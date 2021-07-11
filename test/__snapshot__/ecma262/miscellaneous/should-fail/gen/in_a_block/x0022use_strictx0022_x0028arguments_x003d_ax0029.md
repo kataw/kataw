@@ -106,7 +106,7 @@
 ```javascript
 
 {
-  '"use strict"';
+  "\"use strict\"";
   (arguments = a);
 }
 

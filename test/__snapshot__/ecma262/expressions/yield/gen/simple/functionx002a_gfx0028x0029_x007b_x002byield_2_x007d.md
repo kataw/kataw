@@ -131,7 +131,7 @@ function* gf() { +yield 2; }
 ```javascript
 
 function * gf() {
-  +yield  2;
+  + yield  2;
 }
 
 ```

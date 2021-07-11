@@ -528,13 +528,13 @@
 
 ```javascript
 
-({ set ['"a"'](x) {} });
+({ set ["\"a\""](x) {} });
 ({ set [0](x) {} });
 ({ set [0](x) {
-    super.m('"b"', v);
+    super.m("\"b\"", v);
   } });
 ({ set [0](x) {
-    super.m('"1"', v);
+    super.m("\"1\"", v);
   } });
 
 ```

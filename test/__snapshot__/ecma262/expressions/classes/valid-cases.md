@@ -813,27 +813,27 @@ x = class {y = 1; 'z' = 2}
 x = class  {
   y = 1
   ;
-  '\'z\'' = 2
+  "'z'" = 2
 };
 x = class  {
   y() {}
   ;
-  '\'z\''() {}
+  "'z'"() {}
 };
 x = class  {
   get y() {}
   ;
-  set '\'z\''(z) {}
+  set "'z'"(z) {}
 };
 x = class  {
   get y() {}
   ;
-  set '\'z\''(z) {}
+  set "'z'"(z) {}
 };
 x = class  {
   y = 1
   ;
-  '\'z\'' = 2
+  "'z'" = 2
 };
 
 ```

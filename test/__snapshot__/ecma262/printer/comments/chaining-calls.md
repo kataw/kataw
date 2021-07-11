@@ -240,8 +240,8 @@ request
 
 ```javascript
 
-request.post('\'/version\'')// comment 1
-.set('\'Prefer\'', '\'plurality=singular\'')/* comment 2 */.send().end((error, response) => {});
+request.post("'/version'") // comment 1
+.set("'Prefer'", "'plurality=singular'") /* comment 2 */.send().end((error, response) => {});
 
 ```
 

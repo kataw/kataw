@@ -86,7 +86,7 @@
 
 ```javascript
 
-'"use strict"';
+"\"use strict\"";
 (interface = x);
 
 ```

@@ -199,7 +199,7 @@ var C = class { static async *gen() {
 
 var C = class  {
   static async * gen() {
-    void yield ;
+    void  yield ;
   }
 };
 

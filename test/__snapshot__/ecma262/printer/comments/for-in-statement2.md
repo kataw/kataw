@@ -109,7 +109,7 @@ in
  /* comment 4 */
 b
  /* comment 5 */)
-   /* comment 6 */;/* comment 7 */
+   /* comment 6 */; /* comment 7 */
 
 ```
 

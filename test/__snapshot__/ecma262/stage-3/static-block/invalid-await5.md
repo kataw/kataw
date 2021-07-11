@@ -177,7 +177,7 @@ class C {
 let await;
 class C {
   static  {
-    await (1);// illegal
+    await (1); // illegal
   }
 }
 

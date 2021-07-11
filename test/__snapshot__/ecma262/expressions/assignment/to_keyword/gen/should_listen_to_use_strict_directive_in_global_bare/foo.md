@@ -80,7 +80,7 @@
 
 ```javascript
 
-'"use strict"';
+"\"use strict\"";
 foo = x;
 
 ```

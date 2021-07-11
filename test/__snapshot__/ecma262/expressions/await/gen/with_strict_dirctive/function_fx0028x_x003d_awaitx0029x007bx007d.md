@@ -119,7 +119,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function f(x = await) {}
 
 ```

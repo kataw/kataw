@@ -114,7 +114,7 @@ if (x) { "use strict"; with (x) y; }
 ```javascript
 
 if (x) {
-  '"use strict"';
+  "\"use strict\"";
   with (x)
     y;
 }

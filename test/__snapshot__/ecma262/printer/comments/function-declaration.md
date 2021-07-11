@@ -1841,29 +1841,29 @@ function foo4() {
 
 ```javascript
 
-function a(/* comment */) {}// comment
-function b() {}// comment
-function c(/* comment */argA, argB, argC) {}// comment
+function a(/* comment */) {} // comment
+function b() {} // comment
+function c(/* comment */argA, argB, argC) {} // comment
 call((/*object*/row) => {});
-function f1/* f */() {}
+function f1 /* f */() {}
 function f2(/* args */) {}
 function f3() {}
-function f4/* f */(/* args */) {}
-function f5/* f */(/* a */a) {}
-function f6/* f */(a/* a */) {}
-function f7/* f */(/* a */a) {}
+function f4 /* f */(/* args */) {}
+function f5 /* f */(/* a */a) {}
+function f6 /* f */(a /* a */) {}
+function f7 /* f */(/* a */a) {}
 const obj = {
-  f1/* f */() {},
+  f1 /* f */() {},
   f2(/* args */) {},
   f3() {},
-  f4/* f */(/* args */) {},
+  f4 /* f */(/* args */) {},
 };
-(function f/* f */() {})();
+(function f /* f */() {})();
 (function f(/* args */) {})();
 (function f() {})();
-(function f/* f */(/* args */) {})();
+(function f /* f */(/* args */) {})();
 class C1 {
-  f/* f */() {}
+  f /* f */() {}
 }
 class C2 {
   f(/* args */) {}
@@ -1872,7 +1872,7 @@ class C3 {
   f() {}
 }
 class C4 {
-  f/* f */(/* args */) {}
+  f /* f */(/* args */) {}
 }
 function foo1() 
  // this is a function

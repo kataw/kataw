@@ -2434,11 +2434,11 @@ class C {
   #p: number
   #q: number
   constructor() {
-    this.#p = 0;// in scope
-    this.#q;// in scope
+    this.#p = 0; // in scope
+    this.#q; // in scope
   }
   test(other: C) {
-    other.#q;// in lexical scope, object has the property.
+    other.#q; // in lexical scope, object has the property.
   }
 }
 class Outer {
@@ -2449,8 +2449,8 @@ class Outer {
       constructor() {
         this.#inner = new Outer();
         var x = new Outer();
-        x.#outer = 0;// Both inner and outer should be visible here!
-        x.#inner = new Outer();// Error, #inner is not a private field of Outer
+        x.#outer = 0; // Both inner and outer should be visible here!
+        x.#inner = new Outer(); // Error, #inner is not a private field of Outer
       }
     };
   }
@@ -2464,8 +2464,8 @@ class Annotations {
   #r
   ;
   #s: string = 0
-  ;// Error, number ~> string
-  #t: string = '"yay!"'
+  ; // Error, number ~> string
+  #t: string = "\"yay!\""
   ;
   static #sp: number
   ;
@@ -2474,26 +2474,26 @@ class Annotations {
   static #sr
   ;
   static #ss: string = 0
-  ;// Error, number ~> string
-  static #st: string = '"yay!"'
+  ; // Error, number ~> string
+  static #st: string = "\"yay!\""
   ;
   test1(): number {
     return this.#p;
   }
   test2(): number {
-    return this.#t;// Error, string ~> number
+    return this.#t; // Error, string ~> number
   }
   test3(): number {
     return Annotations.#sp;
   }
   test4(): number {
-    return Annotations.#st;// Error, string ~> number
+    return Annotations.#st; // Error, string ~> number
   }
   test5(): number {
     return this.#r;
   }
   test6(): string {
-    return this.#r;// Error, number ~> string
+    return this.#r; // Error, number ~> string
   }
   test5And6Helper() {
     this.#r = 3;
@@ -2502,7 +2502,7 @@ class Annotations {
     return Annotations.#sr;
   }
   test8(): string {
-    return Annotations.#sr;// Error, number ~> string
+    return Annotations.#sr; // Error, number ~> string
   }
   test7And9Helper() {
     Annotations.#sr = 3;

@@ -585,15 +585,15 @@ Object.defineProperty(this, "x", {
 
 var count = 0;
 var global = this;
-Object.defineProperty(this, '"x"', {
+Object.defineProperty(this, "\"x\"", {
   configurable : true,
   value : 1
 });
 (function () {
-'"use strict"';
+"\"use strict\"";
   assert.throws(ReferenceError, () => {
     count++;
-    x = (delete global.x, 2);
+    x = (delete  global.x, 2);
     count++;
   });
   count++;

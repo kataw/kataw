@@ -319,11 +319,11 @@ class D {
 ```javascript
 // #8718
 class C {
-  ma() {}/* D */ /* E */
+  ma() {} /* D */ /* E */
   mb() {}
 }
 class D {
-  ma() {}/* D */ /* E */ /* F */
+  ma() {} /* D */ /* E */ /* F */
   mb() {}
 }
 

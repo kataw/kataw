@@ -1314,36 +1314,36 @@ function block_scope() {
   let a: number = 0;
   var b: number = 0;
   {
-    let a = '""';
-    var b = '""';
+    let a = "\"\"";
+    var b = "\"\"";
   }
 }
 function default_param_1() {
    // function binding in scope in default expr
-  function f(x: () => string = f// error: number ~> string
+  function f(x: () => string = f // error: number ~> string
   ): number {
     return 0;
   }
 }
 function default_param_2() {
    // fn body bindings not visible from param scope
-  let a = '""';
+  let a = "\"\"";
   function f0(x = () => a): number {
     let a = 0;
-    return x();// error: string ~> number
+    return x(); // error: string ~> number
   }
-  function f1(x = b/* error: cannot resolve b */): number {
+  function f1(x = b /* error: cannot resolve b */): number {
     let b = 0;
     return x;
   }
 }
 function for_scope_let() {
   let a: number = 0;
-  for (let a = '""'/* ok: local to init */;;) { }
+  for (let a = "\"\"" /* ok: local to init */;;) { }
 }
 function for_scope_var() {
   var a: number = 0;
-  for (var a = '""'/* error: string ~> number */;;) { }
+  for (var a = "\"\"" /* error: string ~> number */;;) { }
 }
 
 ```

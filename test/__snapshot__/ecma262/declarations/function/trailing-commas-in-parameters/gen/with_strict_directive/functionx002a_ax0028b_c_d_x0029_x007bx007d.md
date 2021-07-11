@@ -123,7 +123,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function * a(b, c, d,) {}
 
 ```

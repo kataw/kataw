@@ -1740,10 +1740,10 @@
 
 ```javascript
 
-(x = { '"a"' : x = y }) / y.z;
-(x = { '"a"' : (x) = y }) / y.z;
-(x = { '"a"' : x = (y) }) / y.z;
-(x = { '"a"' : (x = (y)) }) / y.z;
+(x = { "\"a\"" : x = y }) / y.z;
+(x = { "\"a\"" : (x) = y }) / y.z;
+(x = { "\"a\"" : x = (y) }) / y.z;
+(x = { "\"a\"" : (x = (y)) }) / y.z;
 (x = { [a] : { x } = y }) / y.z;
 (x = { [a] : x = y }) / y.z;
 (x = { [a] : (x) = y }) / y.z;
@@ -1752,7 +1752,7 @@
 ({ ...1 in {} });
 ({ set foo(b) {}, set bar(d) {} });
 ({ set foo(c) {}, bar() {} });
-({ foo : typeof x });
+({ foo : typeof  x });
 ({ foo : true / false });
 
 ```

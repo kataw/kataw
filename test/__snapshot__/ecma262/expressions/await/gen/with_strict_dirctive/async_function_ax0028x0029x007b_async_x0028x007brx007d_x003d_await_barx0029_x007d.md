@@ -183,7 +183,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 async function a() {
   async({ r } = await bar);
 }

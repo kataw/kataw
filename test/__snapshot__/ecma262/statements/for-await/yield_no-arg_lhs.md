@@ -249,7 +249,7 @@ async function f() {
     ;
 }
 async function f() {
-'"use strict"';
+"\"use strict\"";
   for await (yield of x)
     ;
 }

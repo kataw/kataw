@@ -181,7 +181,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function * gf() {
   var fe = function yield() {};
 }

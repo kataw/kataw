@@ -105,7 +105,7 @@ eval => { 'use strict'; 0 } ;
 ```javascript
 
 eval => {
-'\'use strict\'';
+"'use strict'";
   0;
 };
 

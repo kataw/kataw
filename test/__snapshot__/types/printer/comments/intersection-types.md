@@ -366,9 +366,9 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
 
 ```javascript
 
-function method(value:/*1*/ /*1*/A & B & /*2*/C/*3*/) {
+function method(value:/*1*/ /*1*/A & B & /*2*/C /*3*/) {
   var a: A = value;
-  var b: B = value;/*4*/
+  var b: B = value; /*4*/
   var c: C = value;
 }
 

@@ -51,7 +51,7 @@ yield /* comment */
 
 ```javascript
 
-yield;/* comment */
+yield; /* comment */
 
 ```
 

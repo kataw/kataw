@@ -2508,13 +2508,13 @@ var foo = async () => bar;
 var foo = async (foo: bar, bar: foo) => {};
 var foo = () => bar;
 var a: { param1: number, param2?: string };
-var [x]: Array<string> = ['"hello"',];
+var [x]: Array<string> = ["\"hello\"",];
 var {
   x
-}: { x: string } = { x : '"hello"' };
+}: { x: string } = { x : "\"hello\"" };
 var {
   x
-}: { x: string } = { x : '"hello"' };
+}: { x: string } = { x : "\"hello\"" };
 var a: ?{ numVal: number };
 var x: typeof Y | number = Y;
 var a: { subObj: { strVal: string } };

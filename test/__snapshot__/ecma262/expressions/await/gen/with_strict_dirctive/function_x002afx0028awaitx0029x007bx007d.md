@@ -107,7 +107,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function * f(await) {}
 
 ```

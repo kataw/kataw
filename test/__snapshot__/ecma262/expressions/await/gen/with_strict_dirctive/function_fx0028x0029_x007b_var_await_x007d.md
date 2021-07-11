@@ -131,7 +131,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function f() {
   var await;
 }

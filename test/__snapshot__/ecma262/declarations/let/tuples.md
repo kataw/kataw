@@ -785,18 +785,18 @@ let tests = [
 
 let tests = [
   function (t: [[number]]) {
-    t[1];// error, out of bounds
-    t[-1];// error, out of bounds
+    t[1]; // error, out of bounds
+    t[- 1]; // error, out of bounds
   },
    // toString's to an invalid index
   function (t: [[number, string]]) {
-    t[0.5];// error: index out of bounds
-    t[0.0000000000000000000001];// error: index ("1e-22") out of bounds
+    t[0.5]; // error: index out of bounds
+    t[0.0000000000000000000001]; // error: index ("1e-22") out of bounds
   },
    // through a variable
   function (t: [[number]]) {
     const x = 0.5;
-    t[x];// error, not an integer
+    t[x]; // error, not an integer
   },
    // Return length from a function with mismatched return type.
   function () {

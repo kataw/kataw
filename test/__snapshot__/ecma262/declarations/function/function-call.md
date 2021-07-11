@@ -123,7 +123,7 @@ function foo():any{return ""};
 ```javascript
 
 function foo(): any {
-  return '""';
+  return "\"\"";
 }
 ;
 

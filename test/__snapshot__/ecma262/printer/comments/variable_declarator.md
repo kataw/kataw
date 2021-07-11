@@ -1106,33 +1106,33 @@ const foo3 = 123
 
 let obj1 =// Comment
  {
-  key : '\'val\''
+  key : "'val'"
 };
-let obj2// Comment
+let obj2 // Comment
  = {
-  key : '\'val\''
+  key : "'val'"
 };
 let obj3 = {
-  key : '\'val\''
+  key : "'val'"
 };
 let obj4 = {
    // Comment
-  key : '\'val\''
+  key : "'val'"
 };
 let obj5 =// Comment
  [
-  '\'val\'',
+  "'val'",
 ];
-let obj6// Comment
+let obj6 // Comment
  = [
-  '\'val\'',
+  "'val'",
 ];
 let obj7 = [
-  '\'val\'',
+  "'val'",
 ];
 let obj8 = [
    // Comment
-  '\'val\'',
+  "'val'",
 ];
 let obj9 =// Comment
  `val`;
@@ -1149,11 +1149,11 @@ val
 val
 `;
 let // Comment
-foo1 = '\'val\'';
+foo1 = "'val'";
 let // Comment
-foo2 = '\'val\'', bar = '\'val\'';
+foo2 = "'val'", bar = "'val'";
 const foo3 = 123;
-['"2"', '"3"',].forEach(x => console.log(x));
+["\"2\"", "\"3\"",].forEach(x => console.log(x));
 
 ```
 

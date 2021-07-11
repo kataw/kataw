@@ -175,7 +175,7 @@ export interface PrinterOptions {
 /** @internal */
 export function printCST(node: RootNode, options?: PrinterOptions): string {
   let indent = 0;
-  let context = PrinterContext.SingleQuote;
+  let context = PrinterContext.None;
 
   if (options != null) {
     if (options.indent) indent = options.indent;

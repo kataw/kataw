@@ -116,7 +116,7 @@
 
 ```javascript
 
-'"use strict"';
+"\"use strict\"";
 for (a + b; c; of)
   d;
 

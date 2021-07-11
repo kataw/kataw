@@ -92,7 +92,7 @@
 
 ```javascript
 
-[delete x.y,];
+[delete  x.y,];
 
 ```
 

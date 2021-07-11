@@ -173,7 +173,7 @@ class C {
 ```javascript
 
 class C {
-  ma() {}/* D */ /* E */
+  ma() {} /* D */ /* E */
   mb() {}
 }
 

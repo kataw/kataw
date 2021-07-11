@@ -148,7 +148,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let {
   arguments: x,
   ...z

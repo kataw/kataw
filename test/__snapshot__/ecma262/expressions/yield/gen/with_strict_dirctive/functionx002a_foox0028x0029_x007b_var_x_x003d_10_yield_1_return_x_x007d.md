@@ -191,7 +191,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function * foo() {
   var x = 10;
   yield  1;

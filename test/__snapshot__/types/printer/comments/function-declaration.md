@@ -1096,24 +1096,24 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
 
 ```javascript
 /*1*/
-function/*2*/ identity/*3*/(value/*4*/: string/*5*/): string/*6*/ {
-  return value;/*7*/
+function/*2*/ identity /*3*/(value /*4*/: string /*5*/): string /*6*/ {
+  return value; /*7*/
  /*8*/
 /*9*/
 }
 function identity<T> (value: T): T {
-   /*1*/return value;/*2*/
+   /*1*/return value; /*2*/
 }
-type IdentityWrapper =/*5*/ { func</*1*/T>/*2*/ (/*3*/T/*4*/): T }
+type IdentityWrapper =/*5*/ { func</*1*/T> /*2*/ (/*3*/T /*4*/): T }
 function method<T> (param:/*1*/ T): T {
  // ...
 }
-function/*1*/ method/*2*/(func: </*3*/T>/*4*/(/*5*/param/*6*/: T/*7*/)/*1*/ =>/*1*/ T) {
+function/*1*/ method /*2*/(func: </*3*/T> /*4*/(/*5*/param /*6*/: T /*7*/)/*1*/ =>/*1*/ T) {
 }
-function/*1*/ constant/*2*/<T> (value/*3*/: T/*4*/): () => T {
-   /*5*/return/*6*/ function (/*7*/): T/*9*/ {/*10*/
-    return/*11*/ value;/*12*/
-  };/*13*/
+function/*1*/ constant /*2*/<T> (value /*3*/: T /*4*/): () => T {
+   /*5*/return/*6*/ function (/*7*/): T /*9*/ {/*10*/
+    return/*11*/ value; /*12*/
+  }; /*13*/
 }
 
 ```

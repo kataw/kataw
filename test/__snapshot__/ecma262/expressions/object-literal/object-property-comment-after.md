@@ -228,10 +228,10 @@ let b = {
 ```javascript
 
 let a = {
-  a/* comment */ : () => 1
+  a /* comment */ : () => 1
 };
 let b = {
-  '"a"'/* comment */ : () => 1
+  "\"a\"" /* comment */ : () => 1
 };
 
 ```

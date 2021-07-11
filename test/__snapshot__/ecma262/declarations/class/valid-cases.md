@@ -3059,13 +3059,13 @@ class TwentySix {
   arguments = 1
 }
 class TwentySeven {
-  static get '\'constructor\''() {}
+  static get "'constructor'"() {}
 }
 class TwentyEigth {
-  * ['\'constructor\'']() {}
+  * ["'constructor'"]() {}
 }
 class TwentyNine {
-  async '\'prototype\''() {}
+  async "'prototype'"() {}
 }
 
 ```

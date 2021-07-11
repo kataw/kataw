@@ -128,7 +128,7 @@ const obsever = mockReducersAndSomething(
 
 const obsever = mockReducersAndSomething(true, // should call reducers
 true, // should mutate state
-['\'reducer\'',],);
+["'reducer'",],);
 
 ```
 

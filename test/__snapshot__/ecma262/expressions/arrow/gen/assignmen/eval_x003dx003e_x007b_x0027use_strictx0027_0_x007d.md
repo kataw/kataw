@@ -125,7 +125,7 @@ x = eval => { 'use strict'; 0 } ;
 ```javascript
 
 x = eval => {
-'\'use strict\'';
+"'use strict'";
   0;
 };
 

@@ -110,9 +110,9 @@ typeof x;
 
 ```javascript
 
-!a;
-+b;
-typeof x;
+! a;
++ b;
+typeof  x;
 
 ```
 

@@ -135,7 +135,7 @@ import a { b, c } from 'm.js'
 
 ```javascript
 
-import a{  b,  c, } from '\'m.js\'';
+import a{  b,  c, } from "'m.js'";
 
 ```
 

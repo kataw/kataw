@@ -222,7 +222,7 @@ async function f() { 'use strict'; for await ({[Symbol.iterator]: a = 1} of []) 
 ```javascript
 
 async function f() {
-'\'use strict\'';
+"'use strict'";
   for await ({ [Symbol.iterator] : a = 1 } of [])
     ;
 }

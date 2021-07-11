@@ -141,7 +141,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 if (true) {
   function my_var() {}
 }

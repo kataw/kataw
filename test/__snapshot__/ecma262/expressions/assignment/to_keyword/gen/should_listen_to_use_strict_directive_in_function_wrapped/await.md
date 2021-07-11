@@ -138,7 +138,7 @@ function f() {
 ```javascript
 
 function f() {
-'"use strict"';
+"\"use strict\"";
   (await = x);
 }
 

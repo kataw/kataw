@@ -150,7 +150,7 @@
 
 ```javascript
 
-(x = delete ((static) = f)) => {};
+(x = delete  ((static) = f)) => {};
 
 ```
 

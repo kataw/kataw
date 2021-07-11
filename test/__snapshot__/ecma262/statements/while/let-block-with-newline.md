@@ -76,7 +76,7 @@ while (false) let // ASI
 ```javascript
 
 while (false)
-  let;// ASI
+  let; // ASI
 { }
 
 ```

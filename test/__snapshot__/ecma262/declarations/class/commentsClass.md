@@ -1653,15 +1653,15 @@ class c9 {
 ```javascript
 /** This is class c2 without constuctor*/
 class c2 {
-}// trailing comment1
+} // trailing comment1
 var i2 = new c2();
 var i2_c = c2;
 class c3 {
    /** Constructor comment*/
    /** Constructor comment*/
   constructor() {
-  }// trailing comment of constructor
-}/* trailing comment 2 */
+  } // trailing comment of constructor
+} /* trailing comment 2 */
 var i3 = new c3();
 var i3_c = c3;
  /** Class comment*/
@@ -1669,7 +1669,7 @@ class c4 {
    /** Constructor comment*/
    /** Constructor comment*/
   constructor() {
-  }/* trailing comment of constructor 2*/
+  } /* trailing comment of constructor 2*/
 }
 var i4 = new c4();
 var i4_c = c4;
@@ -1684,7 +1684,7 @@ var i5_c = c5;
 class c6 {
    /// s1 comment
   static s1: number
-  ;/// s1 comment2
+  ; /// s1 comment2
    /// constructor comment
    /// constructor comment
   constructor() {/// constructor comment2
@@ -1709,7 +1709,7 @@ var i7_c = c7;
 class c8 {
    /** s1 comment */
   static s1: number
-  ;/** s1 comment2 */
+  ; /** s1 comment2 */
    /** constructor comment
     */
    /** constructor comment

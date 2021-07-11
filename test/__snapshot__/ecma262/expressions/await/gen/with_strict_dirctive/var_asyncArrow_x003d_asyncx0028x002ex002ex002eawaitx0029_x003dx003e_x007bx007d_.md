@@ -148,7 +148,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 var asyncArrow = async (...await) => {};
 
 ```

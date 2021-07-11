@@ -171,7 +171,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let { __proto__: x, __proto__: y, ...z } = {};
 
 ```

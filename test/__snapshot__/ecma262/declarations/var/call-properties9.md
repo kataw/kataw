@@ -203,8 +203,8 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
 ```javascript
 
 var f: { (): mixed } = function (): string {
-  return '"hi"';
-};// return types
+  return "\"hi\"";
+}; // return types
 
 ```
 

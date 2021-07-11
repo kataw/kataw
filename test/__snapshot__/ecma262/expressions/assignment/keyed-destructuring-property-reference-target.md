@@ -1241,36 +1241,36 @@ function targetKey() {
 
 var log = [];
 function source() {
-  log.push('"source"');
+  log.push("\"source\"");
   return {
     get p() {
-      log.push('"get"');
+      log.push("\"get\"");
     }
   };
 }
 function target() {
-  log.push('"target"');
+  log.push("\"target\"");
   return {
     set q(v) {
-      log.push('"set"');
+      log.push("\"set\"");
     }
   };
 }
 function sourceKey() {
-  log.push('"source-key"');
+  log.push("\"source-key\"");
   return {
     toString : function () {
-      log.push('"source-key-tostring"');
-      return '"p"';
+      log.push("\"source-key-tostring\"");
+      return "\"p\"";
     }
   };
 }
 function targetKey() {
-  log.push('"target-key"');
+  log.push("\"target-key\"");
   return {
     toString : function () {
-      log.push('"target-key-tostring"');
-      return '"q"';
+      log.push("\"target-key-tostring\"");
+      return "\"q\"";
     }
   };
 }

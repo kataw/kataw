@@ -97,7 +97,7 @@ x = 1;
 ```javascript
 
 while (false)
-  let;// ASI
+  let; // ASI
 x = 1;
 
 ```

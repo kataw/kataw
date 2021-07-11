@@ -4708,68 +4708,68 @@ g = b + -+-a++;
 ```javascript
 
 var a, b, c, d, e, f, g, x, y, z;
-a = 1 + 2/*1*/ * 3 / 5;
-b = (1 + 2/*2*/) * 3 / 5;
+a = 1 + 2 /*1*/ * 3 / 5;
+b = (1 + 2 /*2*/) * 3 / 5;
 c = (1 + 2) * (3 - 5);
-d = x | y/*3*/ ^/*4*/ z;
+d = x | y /*3*/ ^/*4*/ z;
 e = (x | y) ^ z;
-f = '"a"' + (1 + 2) +/*5*/ '"b"';
-g = '"a"' + (1 - 2) + '"b"';
-a = true/*6*/ ||/*7*/ false && null;
+f = "\"a\"" + (1 + 2) +/*5*/ "\"b\"";
+g = "\"a\"" + (1 - 2) + "\"b\"";
+a = true /*6*/ ||/*7*/ false && null;
 b = c == d || e != f;
 c = x instanceof y || x instanceof z;
 d = x == y && y != z;
-a = !false;/*8*/
-b = !x instanceof Number;
-c = !(x instanceof/*9*/ Number);
-d = typeof a === '\'boolean\'';
-e = !typeof a === '\'boolean\'';
-f = !(typeof a === '\'boolean\'');
-f = typeof ((/*10*/) => {/*11*/});
+a = ! false; /*8*/
+b = ! x instanceof Number;
+c = ! (x instanceof/*9*/ Number);
+d = typeof  a === "'boolean'";
+e = ! typeof  a === "'boolean'";
+f = ! (typeof  a === "'boolean'");
+f = typeof  ((/*10*/) => {/*11*/});
 a = (1.1).toString();
-b = new A/*12*/(/*13*/).toString();
+b = new A /*12*/(/*13*/).toString();
 c = new x.A().toString();
 d = new x.y().z(/*14*/);
-var r = (/ab+c/i).exec('\'abc\'');
+var r = (/ab+c/i).exec("'abc'");
 a = b ** 2 */*15*/ 3;
 c = (d ** 2) ** 3;
 e = f ** 2 ** 3;
-e = (+2) ** 3;
-e = 2 ** +3;
+e = (+ 2) ** 3;
+e = 2 ** + 3;
 f = a + (b = 3);
 g = 1 && (() => {});
 g = (() => {}) && 1;
-g = (1, /*16*/+/*17*/ +2);
-g = (1, + +(2 + 3));
+g = (1, /*16*/+/*17*/ + 2);
+g = (1, + + (2 + 3));
 a = -/*18*/ --i;
 b = - - --i;
-c = + + ++j;/*19*/
-d = !!a;
-e = !+-+!a;
-f = -+-a++;
-g = b + -+-a++;
+c = + + ++j; /*19*/
+d = ! ! a;
+e = ! + - + ! a;
+f = - + - a++;
+g = b + - + - a++;
 (async function * () {/*20*/
   await a + b;
   await a + await b;
   await (a =/*21*/ b);
   (await f(/*22*/)).a;
   await f(/*23*/).a;
-  yield  1;/*24*/
+  yield  1; /*24*/
   yield  1 + 2;
   (yield  1) +/*25*/ (yield  2);
   yield  a = b;
   const c = yield  3;
 });
 (function * () {
-  !(yield  1);
-});/*27*/
-!(() => {});
+  ! (yield  1);
+}); /*27*/
+! (() => {});
 (() => {}) ? a : b;
-({}) ?/*28*/ a/*29*/ :/*30*/ b;
+({}) ?/*28*/ a /*29*/ :/*30*/ b;
 (({}) ? a : b) ? c : d;
 (function () {/*32*/}) ? a : b;
 (class  {
-}) ? a :/*32*/ b;/*33*/
+}) ? a :/*32*/ b; /*33*/
  /*34*/
 
 ```

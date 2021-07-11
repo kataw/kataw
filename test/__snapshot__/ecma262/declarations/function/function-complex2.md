@@ -1053,13 +1053,13 @@ function a<X: $ReadOnlyArray<number>> (x: X): X {
   return [...x];
 }
 function b<X: $ReadOnlyArray<number>> (x: X): X {
-  return [...x, ...x];// nope, because X could be a tuple
+  return [...x, ...x]; // nope, because X could be a tuple
 }
 function c<X: $ReadOnlyArray<number>> (x: X): X {
-  return [42, ...x];// error
+  return [42, ...x]; // error
 }
 function d<X: [[number, number]]> (x: X): X {
-  return [...x, ...x];// error
+  return [...x, ...x]; // error
 }
 
 ```

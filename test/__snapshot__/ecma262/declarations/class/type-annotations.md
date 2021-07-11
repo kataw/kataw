@@ -1254,7 +1254,7 @@ class Foo3 {
   get fooProp(): number {}
 }
 class Foo8 {
-  '"bar"'<T>() {}
+  "\"bar\""<T>() {}
 }
 class Foo10 {
   static prop1: string

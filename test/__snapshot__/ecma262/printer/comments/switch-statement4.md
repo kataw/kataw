@@ -151,7 +151,7 @@ switch/* comment 1 */ (x)/* comment 2 */ {
    // comment 5
   default/* comment 6 */:/* comment 7 */ 
     foo;
-}/* comment 8 */
+} /* comment 8 */
 
 ```
 

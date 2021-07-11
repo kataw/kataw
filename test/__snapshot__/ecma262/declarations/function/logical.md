@@ -12496,81 +12496,81 @@ function logical19b(x: { y: string, z: boolean }): boolean {
  */
 function logical1a(): number {// expected `: boolean`
   var x = false;
-  return x && '\'123\'';
+  return x && "'123'";
 }
  /**
  * A truthy variable on the left side of &&
  */
 function logical1b(): string {
   var x = true;
-  return x && '\'123\'';
+  return x && "'123'";
 }
  /**
  * A literal on the left side of &&
  */
 function logical2a(): number {// expected `: boolean`
-  return false && '\'123\'';
+  return false && "'123'";
 }
  /**
  * A literal on the left side of &&
  */
 function logical2b(): number {
-  return 0 && '\'123\'';
+  return 0 && "'123'";
 }
  /**
  * A literal on the left side of &&
  */
 function logical2c(): string {
-  return '""' && 123;
+  return "\"\"" && 123;
 }
  /**
  * A literal on the left side of &&
  */
 function logical2d(): string {
   return;
-  true && '\'123\'';
+  true && "'123'";
 }
  /**
  * A literal on the left side of &&
  */
 function logical2e(): number {
-  return '\'foo\'' && 123;
+  return "'foo'" && 123;
 }
  /**
  * A literal on the left side of &&
  */
 function logical2f(): string {
-  return 123 && '\'foo\'';
+  return 123 && "'foo'";
 }
  /**
  * A literal on the left side of &&
  */
 function logical2g(): string {
-  return [1, 2, 3,] && '\'foo\'';
+  return [1, 2, 3,] && "'foo'";
 }
  /**
  * A literal on the left side of &&
  */
 function logical2h(x: { a: number }): string {
-  return x && '\'foo\'';
+  return x && "'foo'";
 }
  /**
  * A literal on the left side of &&
  */
 function logical2i(x: Object): string {
-  return x && '\'foo\'';
+  return x && "'foo'";
 }
  /**
  * A literal on the left side of &&
  */
 function logical2j(x: (a: number) => number): string {
-  return x && '\'foo\'';
+  return x && "'foo'";
 }
  /**
  * A literal on the left side of &&
  */
 function logical2k(x: Function): string {
-  return x && '\'foo\'';
+  return x && "'foo'";
 }
  /**
  * An expression on the left side of &&
@@ -12597,7 +12597,7 @@ function logical3c(): ?number {// expected `: boolean | ?number`
  * Maybe truthy returns both types
  */
 function logical4(x: boolean): string {// expected `: boolean | string`
-  return x && '\'123\'';
+  return x && "'123'";
 }
  /**
  * A falsy variable on the left side of ||
@@ -12624,38 +12624,38 @@ function logical5c(): string {// expected `: boolean`
  * A literal on the left side of ||
  */
 function logical6a(): string {
-  return false || '\'123\'';
+  return false || "'123'";
 }
  /**
  * A literal on the left side of ||
  */
 function logical6b(): string {
-  return 0 || '\'123\'';
+  return 0 || "'123'";
 }
  /**
  * A literal on the left side of ||
  */
 function logical6c(): number {
-  return '""' || 123;
+  return "\"\"" || 123;
 }
  /**
  * A literal on the left side of ||
  */
 function logical6d(): number {// expected `: boolean`
   return;
-  true || '\'123\'';
+  true || "'123'";
 }
  /**
  * A literal on the left side of ||
  */
 function logical6e(): string {
-  return '\'foo\'' || 123;
+  return "'foo'" || 123;
 }
  /**
  * A literal on the left side of ||
  */
 function logical6f(): number {
-  return 123 || '\'foo\'';
+  return 123 || "'foo'";
 }
  /**
  * A composite && and ||
@@ -12680,13 +12680,13 @@ function logical7c(x: string): number {
  * A composite && and ||
  */
 function logical7d(x: number): string {
-  return x && '\'foo\'' || '\'bar\'';
+  return x && "'foo'" || "'bar'";
 }
  /**
  * A composite && and ||
  */
 function logical7e(x: number): string {
-  return false && x || '\'bar\'';
+  return false && x || "'bar'";
 }
  /**
  * A composite || and &&
@@ -12696,7 +12696,7 @@ function logical7e(x: number): string {
  */
 function logical8a(): number {
   var x = false;
-  return (x || 0) && '\'foo\'';
+  return (x || 0) && "'foo'";
 }
  /**
  * A composite || and &&
@@ -12705,7 +12705,7 @@ function logical8a(): number {
  */
 function logical8b(): string {
   var x = false;
-  return (x || 1) && '\'foo\'';
+  return (x || 1) && "'foo'";
 }
  /**
  * A composite || and &&
@@ -12714,28 +12714,28 @@ function logical8b(): string {
  */
 function logical8c(): string {
   var x = true;
-  return (x || 1) && '\'foo\'';
+  return (x || 1) && "'foo'";
 }
  /**
  * A composite || and &&
  */
 function logical8d(): number {
   var x = false;
-  return x || (0 && '\'foo\'');
+  return x || (0 && "'foo'");
 }
  /**
  * A composite || and &&
  */
 function logical8e(): string {
   var x = false;
-  return x || (1 && '\'foo\'');
+  return x || (1 && "'foo'");
 }
  /**
  * A composite || and &&
  */
 function logical8f(): string {// expected `: boolean`
   var x = true;
-  return x || (1 && '\'foo\'');
+  return x || (1 && "'foo'");
 }
  /**
  * A composite || and ||
@@ -12753,7 +12753,7 @@ function logical9b(x: number, y: string): number | string {
  * A composite || and ||
  */
 function logical9c(x: number, y: boolean): string {
-  return '\'a\'' || x || y;
+  return "'a'" || x || y;
 }
  /**
  * A composite && and &&
@@ -12788,7 +12788,7 @@ function logical11a(): number {
  */
 function logical11b(y: number): number {
   for (var x = 0; x++; x  < 5) {
-    y = y || true;// expected a number
+    y = y || true; // expected a number
   }
   return y;
 }
@@ -12809,7 +12809,7 @@ function logical12a(): number {
  */
 function logical12b(y: number): number {
   for (var x = 0; x++; x  < 5) {
-    y = y && true;// expected a number
+    y = y && true; // expected a number
   }
   return y;
 }
@@ -12818,14 +12818,14 @@ function logical12b(y: number): number {
  */
 function logical13(x: number): Array<{ x: string }> {
   return [
-    { x : x && '"bar"' },
-    { x : true && '"bar"' },
+    { x : x && "\"bar\"" },
+    { x : true && "\"bar\"" },
     { x : true && false },
     { x : false && false },
-    { x : 1 && '"bar"' },
-    { x : '"foo"' && '"bar"' },
-    { x : '"foo"' && '"bar"' },
-    { x : '"foo"' && '"bar"' },
+    { x : 1 && "\"bar\"" },
+    { x : "\"foo\"" && "\"bar\"" },
+    { x : "\"foo\"" && "\"bar\"" },
+    { x : "\"foo\"" && "\"bar\"" },
   ];
 }
  /**
@@ -12833,14 +12833,14 @@ function logical13(x: number): Array<{ x: string }> {
  */
 function logical14(x: number): Array<{ x: string }> {
   return [
-    { x : x || '"bar"' },
-    { x : false || '"bar"' },
+    { x : x || "\"bar\"" },
+    { x : false || "\"bar\"" },
     { x : false || true },
     { x : true || false },
-    { x : 0 || '"bar"' },
-    { x : '"foo"' || '"bar"' },
-    { x : '"foo"' || '"bar"' },
-    { x : '"foo"' || '"bar"' },
+    { x : 0 || "\"bar\"" },
+    { x : "\"foo\"" || "\"bar\"" },
+    { x : "\"foo\"" || "\"bar\"" },
+    { x : "\"foo\"" || "\"bar\"" },
   ];
 }
  /**
@@ -12931,10 +12931,10 @@ function logical18b(x: { a: number }, y: { b: number }): number {
  * Layer of indirection in the LHS (get prop)
  */
 function logical19a(x: { y: string, z: boolean }): boolean {
-  return (x.y && x.z);// error: x.y is a string
+  return (x.y && x.z); // error: x.y is a string
 }
 function logical19b(x: { y: string, z: boolean }): boolean {
-  return (x.y || x.z);// error: x.y is a string
+  return (x.y || x.z); // error: x.y is a string
 }
 
 ```

@@ -134,7 +134,7 @@ x = (interface) => { 'use strict'; 0 } ;
 ```javascript
 
 x = (interface) => {
-'\'use strict\'';
+"'use strict'";
   0;
 };
 

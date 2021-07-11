@@ -257,9 +257,9 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 var x, y, z;
-m(['\'a\'',]) ? { var : x } = {} : rhs;
+m(["'a'",]) ? { var : x } = {} : rhs;
 
 ```
 

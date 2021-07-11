@@ -232,7 +232,7 @@ var Person = makeClass({
         */
   initialize : function (name) {
     this.name = name;
-  }/* trailing comment 1*/,
+  } /* trailing comment 1*/,
 });
 
 ```

@@ -61,7 +61,7 @@ await ''
 
 ```javascript
 
-await '\'\'';
+await "''";
 
 ```
 

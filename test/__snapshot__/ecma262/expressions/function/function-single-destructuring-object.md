@@ -1026,7 +1026,7 @@ function StatelessFunctionalComponent2({
     onSubmitAndDeselect = () => null,
     onCancel = () => null,
     searchFilters = null,
-    title = '\'\'',
+    title = "''",
     items = [],
   } = {}) {
   return x;
@@ -1038,7 +1038,7 @@ function StatelessFunctionalComponent3({
     onSubmitAndDeselect = () => null,
     onCancel = () => null,
     searchFilters = null,
-    title = '\'\'',
+    title = "''",
     items = [],
   } = {
     isActive : true

@@ -202,7 +202,7 @@ f2`hello world`?.a;
 
 ```javascript
 
-'"hello"'?.a;
+"\"hello\""?.a;
 obj.a?.b;
 f2`hello world`?.a;
 

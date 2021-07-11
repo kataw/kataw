@@ -154,7 +154,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
 ```javascript
 
 bar ? baz : ((interface) => {
-'\'use strict\'';
+"'use strict'";
   0;
 });
 

@@ -159,7 +159,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 x = class  extends (a ? null : yield) {
 };
 

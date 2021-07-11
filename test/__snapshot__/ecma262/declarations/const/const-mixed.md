@@ -139,7 +139,7 @@ const map = {
 ```javascript
 
 const map = {
-  [age <= 17] : '\'Too young\''
+  [age <= 17] : "'Too young'"
 };
 
 ```

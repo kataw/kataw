@@ -187,10 +187,10 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function * gf() {
   switch (1) {
-    case yield *  '\'foo\'': 
+    case yield *  "'foo'": 
       break;
   }
 }

@@ -183,7 +183,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function f() {
   class C {
     yield() {}

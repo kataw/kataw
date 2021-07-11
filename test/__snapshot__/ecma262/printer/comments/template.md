@@ -591,8 +591,8 @@ lines`;
 let d = f`template with function`;
 let e = f`template with ${some}/*2*//*2*/ $/*2*/{variables}`;
 let f = f`template with ${some}${variables}${attached}`;
-let g/*3*/ =/*4*/ f/*5*/(/*6*/)`template with function call before`;
-let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
+let g /*3*/ =/*4*/ f /*5*/(/*6*/)`template with function call before`;
+let h = f() /*7*/./*8*/g`template with more complex function call`; /*9*/
 
 ```
 

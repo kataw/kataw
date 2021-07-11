@@ -130,7 +130,7 @@
 ```javascript
 
 (interface) => {
-'\'use strict\'';
+"'use strict'";
   0;
 }, bar;
 

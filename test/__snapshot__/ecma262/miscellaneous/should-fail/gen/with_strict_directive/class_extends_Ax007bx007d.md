@@ -96,7 +96,7 @@
 
 ```javascript
 
-'"use strict"';
+"\"use strict\"";
 class  extends A {
 }
 

@@ -139,7 +139,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 ({ a : class  {
     #a
   } });

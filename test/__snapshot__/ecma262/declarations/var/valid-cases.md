@@ -1750,7 +1750,7 @@ var {
   x
 } = { x : 4, b : (x = 5) };
 var x = { a : 4, b : (x = 5) };
-'\'use strict\'';
+"'use strict'";
 var x = 0;
 {
   let x = 6;

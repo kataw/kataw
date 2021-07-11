@@ -4092,7 +4092,7 @@ function f(arg) {
 }
 function f(arg) {
   g(arg);
-  eval('\'arg = 42\'');
+  eval("'arg = 42'");
   g(arg);
 }
 function f(arg) {
@@ -4116,7 +4116,7 @@ function f(arg = 1) {
   g(arg);
 }
 function f(arg) {
-'\'use strict\'';
+"'use strict'";
   g(arg);
   arg = 42;
   g(arg);
@@ -4140,12 +4140,12 @@ function f(arg) {
 }
 function f(arg) {
   g(arg);
-  g(() => eval('\'arg = 42\''));
+  g(() => eval("'arg = 42'"));
   g(arg);
 }
 function f(...arg) {
   g(arg);
-  eval('\'arg = 42\'');
+  eval("'arg = 42'");
   g(arg);
 }
 function f(arg) {
@@ -4160,7 +4160,7 @@ function f(arg) {
 }
 function f(arg) {
   g(arg);
-  eval('\'arguments[0] = 42\'');
+  eval("'arguments[0] = 42'");
   g(arg);
 }
 function f(arg) {

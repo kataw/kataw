@@ -211,7 +211,7 @@ class C {
   static  {
     let {
       await
-    } = {};// illegal, cannot declare a new binding for await
+    } = {}; // illegal, cannot declare a new binding for await
   }
 }
 

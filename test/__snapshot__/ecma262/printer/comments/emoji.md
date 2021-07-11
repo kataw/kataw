@@ -76,7 +76,7 @@ const test = '💖'
 
 ```javascript
 /* #2091 */
-const test = '\'💖\'';
+const test = "'💖'";
  // This comment
 // should not get collapsed
 

@@ -115,7 +115,7 @@ a in b instanceof delete -c
 
 ```javascript
 
-a in b instanceof delete -c;
+a in b instanceof delete  - c;
 
 ```
 

@@ -148,7 +148,7 @@
 
 ```javascript
 
-'"use strict"';
+"\"use strict\"";
 x = [{ __proto__ : 1, __proto__ : 2 },];
 
 ```

@@ -108,8 +108,8 @@
 ```javascript
 
 (function () {
-'"use strict"';
-  '"asterisk: \052"';
+"\"use strict\"";
+  "\"asterisk: \052\"";
 });
 
 ```

@@ -143,7 +143,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 ({ * continue(x, y) {} });
 
 ```

@@ -892,7 +892,7 @@ foo && (baz ?? baz);
 
 ```javascript
 
-obj.foo ?? '"default"';
+obj.foo ?? "\"default\"";
 const x = (foo, bar = foo ?? bar) => {};
 foo ? bar ?? foo : baz;
 foo ?? (bar ?? baz);
