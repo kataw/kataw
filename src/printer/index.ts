@@ -176,7 +176,7 @@ export interface PrinterOptions {
 /** @internal */
 export function printCST(node: RootNode, options?: PrinterOptions): string {
   let indent = 0;
-  let flags = PrinterFlags.SingleQuote | PrinterFlags.NoComments;
+  let flags = PrinterFlags.SingleQuote;
 
   if (options != null) {
     if (options.indent) indent = options.indent;
@@ -266,7 +266,7 @@ function printStatements(node: SyntaxNode, printer: Printer, parentNode: SyntaxN
     case SyntaxKind.BindingProperty:
       return printBindingProperty(<BindingProperty>node, printer);
     case SyntaxKind.ClassDeclaration:
-      return printClassExpressionOrDeclaration(<ClassDeclaration>node, printer);
+      return printClassExpressionOrDeclaration(<ClassDeclaration>node, printer, parentNode);
     case SyntaxKind.TypeAlias:
       return printTypeAlias(<TypeAlias>node, printer);
     case SyntaxKind.BindingElement:
@@ -440,7 +440,7 @@ function printExpressions(node: SyntaxNode, printer: Printer, parentNode: Syntax
     case SyntaxKind.SuperKeyword:
       return printKeyword(<any>node, printer, node, /* addSpace */ false);
     case SyntaxKind.ClassExpression:
-      return printClassExpressionOrDeclaration(<ClassExpression>node, printer);
+      return printClassExpressionOrDeclaration(<ClassExpression>node, printer, parentNode);
     case SyntaxKind.IndexExpression:
       return printIndexExpression(<IndexExpression>node, printer);
     case SyntaxKind.MemberAccessExpression:
@@ -1432,10 +1432,14 @@ function printArrowFunction(node: any, printer: Printer): void {
   }
 }
 
-function printClassExpressionOrDeclaration(node: any, printer: Printer): void {
+function printClassExpressionOrDeclaration(node: any, printer: Printer, parentNode: any): void {
   printKeyword(node.declareKeyword, printer, node, /* addSpace */ true);
   if (node.decorators) {
+    if (parentNode.kind === SyntaxKind.ExportDeclaration || parentNode.kind === SyntaxKind.ExportDeclaration) {
+      printLine(printer);
+    }
     printDecoratorList(node.decorators, printer, node);
+    printLine(printer);
   }
 
   printKeyword(node.classKeyword, printer, node, /* addSpace */ true);

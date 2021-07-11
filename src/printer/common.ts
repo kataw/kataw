@@ -147,6 +147,10 @@ export function printWithComments(
   printCallback: (node: any, printer: Printer, parentNode: any) => void
 ) {
   if (node) {
+    if (node.flags & NodeFlags.IgnoreNextNode) {
+      print(printer, printer.source.slice(node.start, node.end))
+      return;
+    }
 
     printer.hasWrittenComment = false;
 
