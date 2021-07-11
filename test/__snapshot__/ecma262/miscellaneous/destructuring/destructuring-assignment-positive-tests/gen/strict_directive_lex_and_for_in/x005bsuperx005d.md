@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/strict_directive_lex_and_for_in
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/strict_directive_lex_and_for_in
 > :: test: strict directive lex and for in
 > :: case: [super]
 ## Options

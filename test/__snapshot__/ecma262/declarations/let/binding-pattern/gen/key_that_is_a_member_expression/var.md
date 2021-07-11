@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/key_that_is_a_member_expression
+- From: kataw/test/__snapshot__/ecma262/declarations/let/binding-pattern/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/declarations/let/binding-pattern/gen/key_that_is_a_member_expression
 > :: test: key that is a member expression
 > :: case: var
 ## Options

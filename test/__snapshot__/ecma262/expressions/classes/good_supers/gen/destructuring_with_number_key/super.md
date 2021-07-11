@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/good_supers/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/good_supers/gen/destructuring_with_number_key
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/good_supers/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/good_supers/gen/destructuring_with_number_key
 > :: test: destructuring with number key
 > :: case: super
 ## Options

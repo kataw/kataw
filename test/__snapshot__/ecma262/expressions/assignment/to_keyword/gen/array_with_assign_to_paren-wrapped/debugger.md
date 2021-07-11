@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/array_with_assign_to_paren-wrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/array_with_assign_to_paren-wrapped
 > :: test: array with assign to paren-wrapped
 > :: case: debugger
 ## Options

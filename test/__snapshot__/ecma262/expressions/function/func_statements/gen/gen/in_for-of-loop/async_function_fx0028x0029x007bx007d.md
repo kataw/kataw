@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_for-of-loop
+- From: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/gen/in_for-of-loop
 > :: test: in for-of-loop
 > :: case: async function f(){}
 ## Options

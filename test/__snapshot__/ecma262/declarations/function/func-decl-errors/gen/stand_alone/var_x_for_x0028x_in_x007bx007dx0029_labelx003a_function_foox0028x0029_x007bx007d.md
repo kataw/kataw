@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/gen/stand_alone
+- From: kataw/test/__snapshot__/ecma262/declarations/function/func-decl-errors/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/declarations/function/func-decl-errors/gen/stand_alone
 > :: test: stand alone
 > :: case: var x; for (x in {}) label: function foo() {}
 ## Options

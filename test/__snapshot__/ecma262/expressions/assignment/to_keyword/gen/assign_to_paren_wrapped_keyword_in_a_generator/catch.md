@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren_wrapped_keyword_in_a_generator
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/assign_to_paren_wrapped_keyword_in_a_generator
 > :: test: assign to paren wrapped keyword in a generator
 > :: case: catch
 ## Options

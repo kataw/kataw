@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/super/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/super/gen/obj-expr-method-gen
+- From: kataw/test/__snapshot__/ecma262/expressions/super/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/super/gen/obj-expr-method-gen
 > :: test: obj-expr-method-gen
 > :: case: var f = function() { super(); }
 ## Options

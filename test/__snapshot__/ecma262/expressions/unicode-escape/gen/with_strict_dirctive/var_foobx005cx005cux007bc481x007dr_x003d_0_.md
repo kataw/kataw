@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/unicode-escape/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/unicode-escape/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/unicode-escape/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/unicode-escape/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: var foob\\u{c481}r = 0;
 ## Options

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/labelled/keywords/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/labelled/keywords/gen/can_not_use_keywords_as_label_name
+- From: kataw/test/__snapshot__/ecma262/statements/labelled/keywords/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/labelled/keywords/gen/can_not_use_keywords_as_label_name
 > :: test: can not use keywords as label name
 > :: case: default
 ## Options

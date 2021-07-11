@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/gen/strict_mode
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/escaped-keywords/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/escaped-keywords/gen/strict_mode
 > :: test: strict mode
 > :: case: \u0069mport blah from './foo.js';
 ## Options

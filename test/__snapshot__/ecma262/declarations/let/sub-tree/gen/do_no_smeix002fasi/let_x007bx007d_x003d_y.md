@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/do_no_smeix002fasi
+- From: kataw/test/__snapshot__/ecma262/declarations/let/sub-tree/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/declarations/let/sub-tree/gen/do_no_smeix002fasi
 > :: test: do no smei/asi
 > :: case: let
 >          {} = y
