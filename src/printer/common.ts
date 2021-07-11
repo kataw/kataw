@@ -9,6 +9,7 @@ export interface Printer {
   source: string;
   output: string;
   indent: number;
+  flags: PrinterFlags;
   lineStart: boolean;
   lineCount: number;
   linePos: number;
@@ -20,6 +21,18 @@ export interface Printer {
   lastSingleLinePos: number;
   detachedCommentsInfo: any;
   lineMap: any;
+}
+
+export const enum PrinterFlags {
+  SingleQuote = 1 << 0,
+  NoSemicolon = 1 << 1,
+  NoObjectCurlySpacing = 1 << 3,
+  ArrayBracketSpacing = 1 << 4,
+  ComputedPropertySpacing = 1 << 5,
+  AllowArrowParens = 1 << 6,
+  CoerceQuoteProps = 1 << 7,
+  QuoteProps = 1 << 8,
+  NoComments = 1 << 12,
 }
 
 export const enum PrinterContext {
@@ -44,23 +57,16 @@ export const enum PrinterContext {
   PreferNewLine = 1 << 15,
   NoTrailingNewLine = 1 << 16,
   NoInterveningComments = 1 << 17,
-  NoSpaceIfEmpty = 1 << 18,
-  SingleQuote = 1 << 19,
-  NoSemicolon = 1 << 20,
-  NoComments = 1 << 21,
-  SpaceBetweenBrackets = 1 << 23,
-  ComputedPropertySpacing = 1 << 24,
-  AllowArrowParens = 1 << 25,
-  CoerceQuoteProps = 1 << 26,
-  QuoteProps = 1 << 27
+  NoSpaceIfEmpty = 1 << 18
 }
 
 /* create a new printer instance */
-export function createPrinter(source: string, indent: number): Printer {
+export function createPrinter(source: string, flags: PrinterFlags, indent: number): Printer {
   return {
     source,
     output: '',
     indent,
+    flags,
     lineStart: false,
     lineCount: 0,
     linePos: 0,
@@ -90,14 +96,14 @@ function stringRepeat(str: string, num: number): string {
   return result;
 }
 
-export function writeLine(printer: Printer): void {
+export function printLine(printer: Printer): void {
   if (!printer.lineStart) {
     printer.output += '\n';
     printer.lineStart = true;
   }
 }
 
-export function write(printer: Printer, value: string): void {
+export function print(printer: Printer, value: string): void {
   if (printer.lineStart) {
     printer.output += stringRepeat(' ', printer.indent * 2);
     printer.lineStart = false;
@@ -121,12 +127,12 @@ export function writeComments(
     let printInterveningSeparator = false;
     for (const comment of comments) {
       if (printInterveningSeparator) {
-        write(printer, ' ');
+        print(printer, ' ');
         printInterveningSeparator = false;
       }
-      write(printer, printer.source.substring(comment.pos, comment.end));
+      print(printer, printer.source.substring(comment.pos, comment.end));
       if (comment.hasTrailingNewLine) {
-        writeLine(printer);
+        printLine(printer);
       } else {
         printInterveningSeparator = true;
       }
@@ -137,17 +143,17 @@ export function writeComments(
 export function printWithComments(
   node: any,
   printer: Printer,
-  context: PrinterContext,
   parentNode: any,
-  printCallback: (node: any, printer: Printer, context: PrinterContext, parentNode: any) => void
+  printCallback: (node: any, printer: Printer, parentNode: any) => void
 ) {
   if (node) {
+
     printer.hasWrittenComment = false;
 
     const { start, end } = node;
 
-    if (context & PrinterContext.NoComments || (start < 0 && end < 0) || start === end) {
-      printCallback(node, printer, context, parentNode);
+    if ((start < 0 && end < 0) || start === end) {
+      printCallback(node, printer, parentNode);
     } else {
       if (start >= 0) printLeadingComments(printer, start);
 
@@ -165,7 +171,7 @@ export function printWithComments(
         }
       }
 
-      printCallback(node, printer, context, parentNode);
+      printCallback(node, printer, parentNode);
 
       printer.containerPos = containerPos;
       printer.containerEnd = containerEnd;
@@ -180,24 +186,24 @@ export function printWithComments(
 
 function printTrailingComments(printer: Printer, pos: number): void {
   if (printer.containerEnd === -1 || (pos !== printer.containerEnd && pos !== printer.declarationListContainerEnd)) {
-    const trailingComments = collectTrailingComments(printer.source, pos);
-    if (trailingComments && trailingComments.length > 0) {
-      write(printer, ' ');
-      let printInterveningSeparator = false;
-      for (const comment of trailingComments) {
-        if (printInterveningSeparator) {
-          write(printer, ' ');
-          printInterveningSeparator = false;
-        }
-        write(printer, printer.source.substring(comment.pos, comment.end));
-        if (comment.hasTrailingNewLine) {
-          writeLine(printer);
-        } else {
-          printInterveningSeparator = true;
-        }
+  const trailingComments = collectTrailingComments(printer.source, pos);
+  if (trailingComments && trailingComments.length > 0) {
+    print(printer, ' ');
+    let printInterveningSeparator = false;
+    for (const comment of trailingComments) {
+      if (printInterveningSeparator) {
+        print(printer, ' ');
+        printInterveningSeparator = false;
+      }
+      print(printer, printer.source.substring(comment.pos, comment.end));
+      if (comment.hasTrailingNewLine) {
+        printLine(printer);
+      } else {
+        printInterveningSeparator = true;
       }
     }
   }
+}
 }
 
 function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
@@ -223,6 +229,7 @@ function hasDetachedComments(printer: Printer, pos: number) {
 }
 
 export function printLeadingComments(printer: Printer, pos: number) {
+  //if(printer.flags & PrinterFlags.NoComments ) return;
   let leadingComments!: any[] | undefined;
   printer.hasWrittenComment = false;
   if (printer.containerPos === -1 || pos !== printer.containerPos) {
@@ -236,28 +243,28 @@ export function printLeadingComments(printer: Printer, pos: number) {
   if (leadingComments && leadingComments.length > 0) {
     let printLeadingSpace = !trailingSeparator;
     if (!printer.hasWrittenComment) {
-      writeLine(printer);
+      printLine(printer);
       printer.hasWrittenComment = true;
     }
 
     for (const comment of leadingComments) {
       if (printLeadingSpace) {
-        write(printer, ' ');
+        print(printer, ' ');
         printLeadingSpace = false;
       }
 
       if (comment.kind === SyntaxKind.MultiLineComment) {
-        write(printer, printer.source.substring(comment.pos, comment.end));
+        print(printer, printer.source.substring(comment.pos, comment.end));
         if (comment.hasTrailingNewLine) {
-          writeLine(printer);
+          printLine(printer);
         } else if (trailingSeparator) {
-          write(printer, ' ');
+          print(printer, ' ');
         } else {
           printLeadingSpace = true;
         }
       } else {
-        write(printer, printer.source.substring(comment.pos, comment.end));
-        writeLine(printer);
+        print(printer, printer.source.substring(comment.pos, comment.end));
+        printLine(printer);
       }
     }
   }
@@ -293,12 +300,12 @@ export function printDetachedComments(printer: Printer, node: any, _newLine: str
         let printInterveningSeparator = false;
         for (const comment of detachedComments) {
           if (printInterveningSeparator) {
-            write(printer, ' ');
+            print(printer, ' ');
             printInterveningSeparator = false;
           }
-          write(printer, printer.source.substring(comment.pos, comment.end));
+          print(printer, printer.source.substring(comment.pos, comment.end));
           if (comment.hasTrailingNewLine) {
-            writeLine(printer);
+            printLine(printer);
           } else {
             printInterveningSeparator = true;
           }
@@ -322,7 +329,7 @@ function printNewLineBeforeLeadingCommentsOfPosition(pos: number, printer: Print
     getLineOfLocalPositionFromLineMap(printer, pos) !==
       getLineOfLocalPositionFromLineMap(printer, leadingComments[0].pos)
   ) {
-    writeLine(printer);
+    printLine(printer);
   }
 }
 export function getLineOfLocalPositionFromLineMap(printer: Printer, pos: number) {
@@ -494,6 +501,7 @@ export function shouldWriteSeparatingLineTerminator(
 }
 
 export function printTrailingCommentsOfPosition(printer: Printer, pos: number): void {
+  //if (printer.flags & PrinterFlags.NoComments ) return;
   if (printer.containerEnd === -1 || (pos !== printer.containerEnd && pos !== printer.declarationListContainerEnd)) {
     const trailingComments = collectTrailingComments(printer.source, pos);
     writeComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
@@ -536,14 +544,14 @@ export function printKeyword(keyword: any, printer: any, parent: any, addSpace: 
     if (keyword.start !== -1 && parent.start !== keyword.start) {
       printLeadingComments(printer, keyword.start);
     }
-    write(printer, tokenToString(keyword));
+    print(printer, tokenToString(keyword));
 
     if (parent.end !== keyword.end) {
       printTrailingCommentsOfPosition(printer, keyword.end);
     }
 
     if (addSpace) {
-      write(printer, ' ');
+      print(printer, ' ');
     }
   }
 }
@@ -556,14 +564,14 @@ export function printPunctuator(punctuator: string, printer: any, pos: number, p
   if (startPos !== 1 && parent.start !== pos) {
     printLeadingComments(printer, startPos);
   }
-  write(printer, punctuator);
+  print(printer, punctuator);
 
   if (parent.end !== pos + 1) {
     printTrailingCommentsOfPosition(printer, pos + 1);
   }
 
   if (addSpace) {
-    write(printer, ' ');
+    print(printer, ' ');
   }
   return pos + 1;
 }
@@ -613,6 +621,7 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, node: any
   if (body.flags & NodeFlags.NewLine) return false;
 
   if (body.start !== body.end) {
+
     return false;
   }
 
@@ -640,15 +649,15 @@ export function writeDelimiter(printer: Printer, context: PrinterContext) {
     case PrinterContext.None:
       break;
     case PrinterContext.CommaDelimited:
-      write(printer, ',');
+      print(printer, ',');
       break;
     case PrinterContext.BarDelimited:
-      write(printer, ' ');
-      write(printer, '|');
+      print(printer, ' ');
+      print(printer, '|');
       break;
     case PrinterContext.AmpersandDelimited:
-      write(printer, ' ');
-      write(printer, '&');
+      print(printer, ' ');
+      print(printer, '&');
   }
 }
 
@@ -673,82 +682,3 @@ export function makeString(rawContent: any, enclosingQuote: any): any {
   return enclosingQuote + newContent + enclosingQuote;
 }
 
-export const PRECEDENCE: any = {
-  '||': 2,
-  '&&': 3,
-  '??': 1,
-  '|': 4,
-  '^': 5,
-  '&': 6,
-  '==': 5,
-  '===': 7,
-  '!=': 7,
-  '!==': 7,
-  '<': 8,
-  '>': 8,
-  '<=': 8,
-  '>=': 8,
-  in: 8,
-  instanceof: 8,
-  '>>': 9,
-  '<<': 9,
-  '>>>': 9,
-  '+': 10,
-  '-': 10,
-  '*': 11,
-  '/': 11,
-  '%': 11,
-  '**': 12
-};
-
-const equalityOperators: any = {
-  '==': true,
-  '!=': true,
-  '===': true,
-  '!==': true
-};
-const multiplicativeOperators: any = {
-  '*': true,
-  '/': true,
-  '%': true
-};
-const bitshiftOperators: any = {
-  '>>': true,
-  '>>>': true,
-  '<<': true
-};
-
-export function shouldFlatten(parentOp: any, nodeOp: any) {
-  if (PRECEDENCE[nodeOp] !== PRECEDENCE[parentOp]) {
-    return false;
-  }
-
-  // ** is right-associative
-  // x ** y ** z --> x ** (y ** z)
-  if (parentOp === '**') {
-    return false;
-  }
-
-  // x == y == z --> (x == y) == z
-  if (equalityOperators[parentOp] && equalityOperators[nodeOp]) {
-    return false;
-  }
-
-  // x * y % z --> (x * y) % z
-  if ((nodeOp === '%' && multiplicativeOperators[parentOp]) || (parentOp === '%' && multiplicativeOperators[nodeOp])) {
-    return false;
-  }
-
-  // x * y / z --> (x * y) / z
-  // x / y * z --> (x / y) * z
-  if (nodeOp !== parentOp && multiplicativeOperators[nodeOp] && multiplicativeOperators[parentOp]) {
-    return false;
-  }
-
-  // x << y << z --> (x << y) << z
-  if (bitshiftOperators[parentOp] && bitshiftOperators[nodeOp]) {
-    return false;
-  }
-
-  return true;
-}
