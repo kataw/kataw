@@ -2,14 +2,13 @@ import { SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
 import { Char } from '../parser/scanner/char';
 import { collectLeadingComments, collectTrailingComments } from '../parser/scanner/comments';
 import { skipWhitespace } from '../parser/scanner/common';
-import { containsInvalidEscape, lastOrUndefined } from '../parser/common';
+import { lastOrUndefined } from '../parser/common';
 
 /* The printer interface */
 export interface Printer {
   source: string;
   output: string;
   indent: number;
-  singleQuote: boolean;
   lineStart: boolean;
   lineCount: number;
   linePos: number;
@@ -45,16 +44,24 @@ export const enum PrinterContext {
   PreferNewLine = 1 << 15,
   NoTrailingNewLine = 1 << 16,
   NoInterveningComments = 1 << 17,
-  NoSpaceIfEmpty = 1 << 18
+  NoSpaceIfEmpty = 1 << 18,
+  SingleQuote = 1 << 19,
+  NoSemicolon = 1 << 20,
+  NoComments = 1 << 21,
+  NoObjectCurlySpacing = 1 << 22,
+  ArrayBracketSpacing = 1 << 23,
+  ComputedPropertySpacing = 1 << 24,
+  AllowArrowParens = 1 << 25,
+  CoerceQuoteProps = 1 << 26,
+  QuoteProps = 1 << 27
 }
 
 /* create a new printer instance */
-export function createPrinter(source: string, indent: number, singleQuote: boolean): Printer {
+export function createPrinter(source: string, indent: number): Printer {
   return {
     source,
     output: '',
     indent,
-    singleQuote,
     lineStart: false,
     lineCount: 0,
     linePos: 0,
@@ -131,14 +138,17 @@ export function writeComments(
 export function printWithComments(
   node: any,
   printer: Printer,
+  context: PrinterContext,
   parentNode: any,
-  printCallback: (node: any, printer: Printer, parentNode: any) => void
+  printCallback: (node: any, printer: Printer, context: PrinterContext, parentNode: any) => void
 ) {
   if (node) {
+    printer.hasWrittenComment = false;
+
     const { start, end } = node;
 
-    if ((start < 0 && end < 0) || start === end) {
-      printCallback(node, printer, parentNode);
+    if (context & PrinterContext.NoComments || (start < 0 && end < 0) || start === end) {
+      printCallback(node, printer, context, parentNode);
     } else {
       if (start >= 0) printLeadingComments(printer, start);
 
@@ -156,7 +166,7 @@ export function printWithComments(
         }
       }
 
-      printCallback(node, printer, parentNode);
+      printCallback(node, printer, context, parentNode);
 
       printer.containerPos = containerPos;
       printer.containerEnd = containerEnd;
@@ -169,30 +179,26 @@ export function printWithComments(
   }
 }
 
-function getTrailingCommentsToPrint(printer: Printer, end: number): any {
-  if (printer.containerEnd === -1 || (end !== printer.containerEnd && end !== printer.declarationListContainerEnd)) {
-    return collectTrailingComments(printer.source, end);
-  }
-}
-
-function printTrailingComments(printer: Printer, pos: number) {
-  const trailingComments = getTrailingCommentsToPrint(printer, pos);
-  if (trailingComments && trailingComments.length > 0) {
-    let printInterveningSeparator = false;
-    for (const comment of trailingComments) {
-      if (printInterveningSeparator) {
-        write(printer, ' ');
-        printInterveningSeparator = false;
-      }
-      write(printer, printer.source.substring(comment.pos, comment.end));
-      if (comment.hasTrailingNewLine) {
-        writeLine(printer);
-      } else {
-        printInterveningSeparator = true;
+function printTrailingComments(printer: Printer, pos: number): void {
+  if (printer.containerEnd === -1 || (pos !== printer.containerEnd && pos !== printer.declarationListContainerEnd)) {
+    const trailingComments = collectTrailingComments(printer.source, pos);
+    if (trailingComments && trailingComments.length > 0) {
+      write(printer, ' ');
+      let printInterveningSeparator = false;
+      for (const comment of trailingComments) {
+        if (printInterveningSeparator) {
+          write(printer, ' ');
+          printInterveningSeparator = false;
+        }
+        write(printer, printer.source.substring(comment.pos, comment.end));
+        if (comment.hasTrailingNewLine) {
+          writeLine(printer);
+        } else {
+          printInterveningSeparator = true;
+        }
       }
     }
   }
-  return '';
 }
 
 function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
@@ -488,9 +494,11 @@ export function shouldWriteSeparatingLineTerminator(
   return context & PrinterContext.MultiLine ? true : false;
 }
 
-export function printTrailingCommentsOfPosition(printer: Printer, pos: number) {
-  const trailingComments = getTrailingCommentsToPrint(printer, pos);
-  return writeComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
+export function printTrailingCommentsOfPosition(printer: Printer, pos: number): void {
+  if (printer.containerEnd === -1 || (pos !== printer.containerEnd && pos !== printer.declarationListContainerEnd)) {
+    const trailingComments = collectTrailingComments(printer.source, pos);
+    writeComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
+  }
 }
 
 export function shouldWriteClosingLineTerminator(
@@ -664,4 +672,84 @@ export function makeString(rawContent: any, enclosingQuote: any): any {
   });
 
   return enclosingQuote + newContent + enclosingQuote;
+}
+
+export const PRECEDENCE: any = {
+  '||': 2,
+  '&&': 3,
+  '??': 1,
+  '|': 4,
+  '^': 5,
+  '&': 6,
+  '==': 5,
+  '===': 7,
+  '!=': 7,
+  '!==': 7,
+  '<': 8,
+  '>': 8,
+  '<=': 8,
+  '>=': 8,
+  in: 8,
+  instanceof: 8,
+  '>>': 9,
+  '<<': 9,
+  '>>>': 9,
+  '+': 10,
+  '-': 10,
+  '*': 11,
+  '/': 11,
+  '%': 11,
+  '**': 12
+};
+
+const equalityOperators: any = {
+  '==': true,
+  '!=': true,
+  '===': true,
+  '!==': true
+};
+const multiplicativeOperators: any = {
+  '*': true,
+  '/': true,
+  '%': true
+};
+const bitshiftOperators: any = {
+  '>>': true,
+  '>>>': true,
+  '<<': true
+};
+
+export function shouldFlatten(parentOp: any, nodeOp: any) {
+  if (PRECEDENCE[nodeOp] !== PRECEDENCE[parentOp]) {
+    return false;
+  }
+
+  // ** is right-associative
+  // x ** y ** z --> x ** (y ** z)
+  if (parentOp === '**') {
+    return false;
+  }
+
+  // x == y == z --> (x == y) == z
+  if (equalityOperators[parentOp] && equalityOperators[nodeOp]) {
+    return false;
+  }
+
+  // x * y % z --> (x * y) % z
+  if ((nodeOp === '%' && multiplicativeOperators[parentOp]) || (parentOp === '%' && multiplicativeOperators[nodeOp])) {
+    return false;
+  }
+
+  // x * y / z --> (x * y) / z
+  // x / y * z --> (x / y) * z
+  if (nodeOp !== parentOp && multiplicativeOperators[nodeOp] && multiplicativeOperators[parentOp]) {
+    return false;
+  }
+
+  // x << y << z --> (x << y) << z
+  if (bitshiftOperators[parentOp] && bitshiftOperators[nodeOp]) {
+    return false;
+  }
+
+  return true;
 }
