@@ -264,10 +264,10 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
 ```javascript
 
 async function f() {
-  let a;
-  for await (const {
+  let  a ;
+  for await (const  {
     [Symbol.iterator]: a = 1
-  } of [])
+  }  of [])
     ;
 }
 

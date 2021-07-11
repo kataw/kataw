@@ -521,11 +521,11 @@ function e(x: { (): string; (x: number): string }): () => number {
 
 ```javascript
 // Only one call property needs to match the function
-function d(x: { (): string, (x: number): string }): () => string {
+function d( x: { (): string, ( x: number ): string } ): () => string {
   return x;
 }
  // ...but you need at least one
-function e(x: { (): string, (x: number): string }): () => number {
+function e( x: { (): string, ( x: number ): string } ): () => number {
   return x;
 }
 

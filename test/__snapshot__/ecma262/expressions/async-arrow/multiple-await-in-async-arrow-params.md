@@ -173,10 +173,10 @@ async ({ x = [ await ], y = { await } }) => {}
 
 ```javascript
 
-async ({
-    x = [await,],
+async ( {
+    x = [ await, ],
     y = { await }
-  }) => {};
+  } ) => {};
 
 ```
 

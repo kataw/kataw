@@ -240,12 +240,12 @@ var await; var f = (async function() { async function f() { await 3; } });
 
 ```javascript
 
-var await;
-var f = (async function () {
+var  await ;
+var  f = (async function () {
   async function f() {
     await 3;
   }
-});
+}) ;
 
 ```
 

@@ -182,8 +182,8 @@ var x, y, z; ({var: x} = {});
 
 ```javascript
 
-var x, y, z;
-({ var : x } = {});
+var  x, y, z ;
+({ var: x } = {});
 
 ```
 

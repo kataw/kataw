@@ -216,7 +216,7 @@ function isUnusedDiagnostic(code) {
 
 ```javascript
 
-function isUnusedDiagnostic(code) {
+function isUnusedDiagnostic( code ) {
   return [
     6133,
     6138,
@@ -225,7 +225,7 @@ function isUnusedDiagnostic(code) {
     6198,
     6199,
     6205,// All type parameters are unused.
-  ].includes(code);
+  ].includes( code );
 }
 
 ```

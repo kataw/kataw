@@ -152,7 +152,7 @@ function *g(){ (x = [yield y]) }
 ```javascript
 
 function * g() {
-  (x = [yield  y,]);
+  (x = [ yield  y, ]);
 }
 
 ```

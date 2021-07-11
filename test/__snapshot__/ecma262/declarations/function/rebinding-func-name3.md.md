@@ -157,7 +157,7 @@ x={f(){ var f }}
 ```javascript
 
 x = { f() {
-    var f;
+    var  f ;
   } };
 
 ```

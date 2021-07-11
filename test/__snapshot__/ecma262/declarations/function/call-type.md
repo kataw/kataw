@@ -300,10 +300,10 @@ function bar(x: X): B { return x; }
 
 ```javascript
 
-function foo(x: X): A {
+function foo( x: X ): A {
   return x;
 }
-function bar(x: X): B {
+function bar( x: X ): B {
   return x;
 }
 

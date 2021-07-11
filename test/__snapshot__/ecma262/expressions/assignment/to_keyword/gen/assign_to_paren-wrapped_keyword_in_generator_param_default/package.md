@@ -141,7 +141,7 @@ function *f(x = (package) = f) {}
 
 ```javascript
 
-function * f(x = (package) = f) {}
+function * f( x = (package) = f ) {}
 
 ```
 

@@ -145,7 +145,7 @@ let tuple2: [number, boolean] = [1, true];
 
 ```javascript
 
-let tuple2: [[number, boolean]] = [1, true,];
+let  tuple2: [[ number, boolean ]] = [ 1, true, ] ;
 
 ```
 

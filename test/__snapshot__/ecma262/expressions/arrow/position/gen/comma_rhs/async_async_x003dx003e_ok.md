@@ -95,7 +95,7 @@ a, async async => ok
 
 ```javascript
 
-a, async async => ok;
+ a, async async => ok ;
 
 ```
 

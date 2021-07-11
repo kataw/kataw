@@ -132,7 +132,7 @@ for ({x: a.b} in obj);
 
 ```javascript
 
-for ({ x : a.b } in obj)
+for ({ x: a.b } in obj)
   ;
 
 ```

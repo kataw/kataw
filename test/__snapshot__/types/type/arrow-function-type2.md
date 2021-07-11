@@ -157,7 +157,7 @@ type X = (x: y) => T;
 
 ```javascript
 
-type X = (x: y) => T
+type X = ( x: y ) => T
 
 ```
 

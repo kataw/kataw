@@ -137,7 +137,7 @@ async (x = (private) = f) => {}
 
 ```javascript
 
-async (x = (private) = f) => {};
+async ( x = (private) = f ) => {};
 
 ```
 

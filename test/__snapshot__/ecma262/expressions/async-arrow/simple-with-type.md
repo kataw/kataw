@@ -111,7 +111,7 @@ async (s: any) => x
 
 ```javascript
 
-async (s: any) => x;
+async ( s: any ) => x;
 
 ```
 

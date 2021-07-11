@@ -121,9 +121,9 @@ let {...x} = y
 
 ```javascript
 
-let {
+let  {
   ...x
-} = y;
+} = y ;
 
 ```
 

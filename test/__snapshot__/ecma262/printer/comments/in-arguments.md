@@ -94,7 +94,7 @@ function f1(a, /* my comment */ c) {
 
 ```javascript
 
-function f1(a, /* my comment */c) {
+function f1( a, /* my comment */c ) {
 }
 
 ```

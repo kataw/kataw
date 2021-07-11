@@ -84,7 +84,7 @@
 ```javascript
 
 "'use strict'";
-async(await);
+async( await );
 
 ```
 

@@ -102,7 +102,7 @@
 ```javascript
 
 {
-  let x;
+  let  x ;
   strubg;
 }
 

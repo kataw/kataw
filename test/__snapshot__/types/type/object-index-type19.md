@@ -163,7 +163,7 @@ function method(obj: { [key: string]: any }) {}
 
 ```javascript
 
-function method(obj: { [keystring]:  any }) {}
+function method( obj: { [keystring]:  any } ) {}
 
 ```
 

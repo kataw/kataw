@@ -111,7 +111,7 @@ for (var a=1;;);
 
 ```javascript
 
-for (var a = 1;;)
+for (var  a = 1 ;;)
   ;
 
 ```

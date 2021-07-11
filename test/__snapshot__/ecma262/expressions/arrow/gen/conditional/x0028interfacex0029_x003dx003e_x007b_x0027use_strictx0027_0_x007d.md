@@ -129,10 +129,10 @@
 
 ```javascript
 
-(interface) => {
+ ( interface ) => {
 "'use strict'";
   0;
-}, bar;
+}, bar ;
 
 ```
 

@@ -169,7 +169,7 @@ function foo() {
 function foo() {
   return {
      // this comment causes the problem
-    bar : baz() + 1
+    bar: baz() + 1
   };
 }
 

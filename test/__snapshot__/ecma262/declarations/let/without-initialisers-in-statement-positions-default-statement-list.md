@@ -113,7 +113,7 @@ switch (true) { default: let x; }
 
 switch (true) {
   default: 
-    let x;
+    let  x ; 
 }
 
 ```

@@ -159,7 +159,7 @@ function *f(x = delete ((let) = f)) {}
 
 ```javascript
 
-function * f(x = delete  ((let) = f)) {}
+function * f( x = delete  ((let) = f) ) {}
 
 ```
 

@@ -133,7 +133,7 @@
 
 "'use strict'";
 function f() {
-  var await;
+  var  await ;
 }
 
 ```

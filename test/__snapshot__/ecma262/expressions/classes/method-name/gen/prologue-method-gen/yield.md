@@ -144,7 +144,7 @@
 ```javascript
 
 "'use strict'";
-({ * yield(x, y) {} });
+({ * yield( x, y ) {} });
 
 ```
 

@@ -133,7 +133,7 @@ function f(x) { function x() {} }
 
 ```javascript
 
-function f(x) {
+function f( x ) {
   function x() {}
 }
 

@@ -150,7 +150,7 @@ async function f() { for await ("foo".x of y) {} }
 ```javascript
 
 async function f() {
-  for await ("\"foo\"".x of y) { }
+  for await ("\"foo\"".x of y) {}
 }
 
 ```

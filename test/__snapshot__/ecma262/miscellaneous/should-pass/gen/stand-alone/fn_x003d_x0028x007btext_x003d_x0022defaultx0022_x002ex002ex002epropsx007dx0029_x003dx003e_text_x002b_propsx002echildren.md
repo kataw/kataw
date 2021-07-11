@@ -192,10 +192,10 @@ fn = ({text = "default", ...props}) => text + props.children
 
 ```javascript
 
-fn = ({
+fn = ( {
     text = "\"default\"",
     ...props
-  }) => text + props.children;
+  } ) => text + props.children;
 
 ```
 

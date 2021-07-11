@@ -154,7 +154,7 @@ a = [arguments = 4, eval = 5] = value;
 
 ```javascript
 
-a = [arguments = 4, eval = 5,] = value;
+a = [ arguments = 4, eval = 5, ] = value;
 
 ```
 

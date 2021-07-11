@@ -124,9 +124,9 @@ export let {...x} = y
 
 ```javascript
 
-export let {
+export let  {
   ...x
-} = y;
+} = y ;
 
 ```
 

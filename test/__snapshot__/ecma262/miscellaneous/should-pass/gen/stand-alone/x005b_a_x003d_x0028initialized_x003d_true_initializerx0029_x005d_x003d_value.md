@@ -146,7 +146,7 @@
 
 ```javascript
 
-[a = (initialized = true, initializer),] = value;
+[ a = ( initialized = true, initializer ), ] = value;
 
 ```
 

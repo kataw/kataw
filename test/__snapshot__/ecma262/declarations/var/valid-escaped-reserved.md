@@ -253,14 +253,14 @@ var int\u0065rface = 1;
 
 ```javascript
 
-var impl\u0065ments = 1;
-var {
+var  impl\u0065ments = 1 ;
+var  {
   impl\u0065ments
-} = {};
-var {
+} = {} ;
+var  {
   int\u0065rface
-} = {};
-var int\u0065rface = 1;
+} = {} ;
+var  int\u0065rface = 1 ;
 
 ```
 

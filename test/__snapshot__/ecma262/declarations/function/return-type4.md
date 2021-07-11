@@ -180,7 +180,7 @@ function x(y: | z):
 
 ```javascript
 
-function x(y: | z): | 
+function x( y: | z ): | 
  /* comment */
 () => number {}
 

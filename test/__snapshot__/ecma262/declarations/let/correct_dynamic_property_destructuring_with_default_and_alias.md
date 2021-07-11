@@ -134,9 +134,9 @@ let {[x]: y = z} = a;
 
 ```javascript
 
-let {
+let  {
   [x]: y = z
-} = a;
+} = a ;
 
 ```
 

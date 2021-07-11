@@ -144,10 +144,10 @@ let {x : y, z : a} = obj;
 
 ```javascript
 
-let {
+let  {
   x: y,
   z: a
-} = obj;
+} = obj ;
 
 ```
 

@@ -248,8 +248,8 @@ class C {
 ```javascript
 
 class C {
-  set X(v = 0) {}
-  static set X(v2 = 0) {}
+  set X( v = 0 ) {}
+  static set X( v2 = 0 ) {}
 }
 
 ```

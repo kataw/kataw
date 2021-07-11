@@ -115,7 +115,7 @@
 
 ```javascript
 
-[[x[yield],],] = value;
+[ [ x[yield], ], ] = value;
 
 ```
 

@@ -1780,22 +1780,22 @@ type T27 = ArgumentType<never>;  // any
 
 ```javascript
 
-type T10 = ReturnType<() => string> // string
-type T11 = ReturnType<(s: string) => void> // void
-type T12 = ReturnType<(<T>() => T)> // {}
-type T14 = ReturnType<typeof f1> // { a: number, b: string }
-type T15 = ReturnType<typeof C> // C
-type T16 = ReturnType<any> // any
-type T17 = ReturnType<never> // any
-type T18 = ReturnType<string> // Error
-type T19 = ReturnType<Function> // any
-type T20 = ArgumentType<() => void> // never
-type T21 = ArgumentType<(x: string) => number> // string
-type T22 = ArgumentType<(x?: string) => number> // string | undefined
-type T23 = ArgumentType<(...args: string[]) => number> // string
-type T25 = ArgumentType<Function> // Error
-type T26 = ArgumentType<any> // any
-type T27 = ArgumentType<never> // any
+type T10 = ReturnType< () => string > // string
+type T11 = ReturnType< ( s: string ) => void > // void
+type T12 = ReturnType< (< T >() => T) > // {}
+type T14 = ReturnType< typeof f1 > // { a: number, b: string }
+type T15 = ReturnType< typeof C > // C
+type T16 = ReturnType< any > // any
+type T17 = ReturnType< never > // any
+type T18 = ReturnType< string > // Error
+type T19 = ReturnType< Function > // any
+type T20 = ArgumentType< () => void > // never
+type T21 = ArgumentType< ( x: string ) => number > // string
+type T22 = ArgumentType< ( x?: string ) => number > // string | undefined
+type T23 = ArgumentType< ( ...args: string[] ) => number > // string
+type T25 = ArgumentType< Function > // Error
+type T26 = ArgumentType< any > // any
+type T27 = ArgumentType< never > // any
 
 ```
 

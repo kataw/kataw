@@ -225,8 +225,8 @@ class Foo7<T> {
 
 ```javascript
 
-class Foo7<T> {
-  bar<U>(): number {
+class Foo7< T > {
+  bar< U >(): number {
     return 42;
   }
 }

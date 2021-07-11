@@ -228,8 +228,8 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
 ```javascript
 
 function * g() {
-  function f(yield) {
-    yield(yield + yield(0));
+  function f( yield ) {
+    yield( yield + yield( 0 ) );
   }
 }
 

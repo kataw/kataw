@@ -2437,22 +2437,22 @@ class C {
     this.#p = 0; // in scope
     this.#q; // in scope
   }
-  test(other: C) {
+  test( other: C ) {
     other.#q; // in lexical scope, object has the property.
   }
 }
 class Outer {
   #outer: number
   constructor() {
-    var Inner = class A {
+    var  Inner = class A {
       #inner: Outer
       constructor() {
         this.#inner = new Outer();
-        var x = new Outer();
+        var  x = new Outer() ;
         x.#outer = 0; // Both inner and outer should be visible here!
         x.#inner = new Outer(); // Error, #inner is not a private field of Outer
       }
-    };
+    } ;
   }
 }
 class Annotations {

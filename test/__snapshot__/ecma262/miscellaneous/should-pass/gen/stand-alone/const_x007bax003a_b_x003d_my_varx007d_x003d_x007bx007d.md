@@ -123,9 +123,9 @@ const {a: b = my_var} = {}
 
 ```javascript
 
-const {
+const  {
   a: b = my_var
-} = {};
+} = {} ;
 
 ```
 

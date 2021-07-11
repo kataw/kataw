@@ -148,7 +148,7 @@
 
 ```javascript
 
-(x = delete  ((null) = f)) => {};
+( x = delete  ((null) = f) ) => {};
 
 ```
 

@@ -192,8 +192,8 @@
 ```javascript
 
 "'use strict'";
-var x, y, z;
-for ({ var : x } in {})
+var  x, y, z ;
+for ({ var: x } in {})
   ;
 
 ```

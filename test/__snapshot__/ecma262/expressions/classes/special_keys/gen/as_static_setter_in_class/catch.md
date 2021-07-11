@@ -146,7 +146,7 @@ class x {static set catch(x){}}
 ```javascript
 
 class x {
-  static set catch(x) {}
+  static set catch( x ) {}
 }
 
 ```

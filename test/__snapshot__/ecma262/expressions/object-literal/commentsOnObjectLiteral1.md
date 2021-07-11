@@ -109,11 +109,11 @@ var Person = makeClass(
 
 ```javascript
 // @removeComments: false
-var Person = makeClass(
+var  Person = makeClass( 
  /**
      @scope Person
    */
-{});
+{} ) ;
 
 ```
 

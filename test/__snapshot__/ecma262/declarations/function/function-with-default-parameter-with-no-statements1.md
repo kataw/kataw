@@ -190,8 +190,8 @@ function bar(a = (v)) {
 
 ```javascript
 
-function foo(a = (v)) {}
-function bar(a = (v)) {
+function foo( a = (v) ) {}
+function bar( a = (v) ) {
 }
 
 ```

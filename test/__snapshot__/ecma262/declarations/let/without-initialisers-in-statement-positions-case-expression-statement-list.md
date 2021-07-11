@@ -119,7 +119,7 @@ switch (true) { case true: let x; }
 
 switch (true) {
   case true: 
-    let x;
+    let  x ; 
 }
 
 ```

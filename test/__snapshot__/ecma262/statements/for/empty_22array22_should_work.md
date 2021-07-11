@@ -98,7 +98,7 @@ for (let [] = x;;);
 
 ```javascript
 
-for (let [] = x;;)
+for (let  [] = x ;;)
   ;
 
 ```

@@ -160,7 +160,7 @@ x = {arrow: async (x, y) => ok}.y
 
 ```javascript
 
-x = { arrow : async (x, y) => ok }.y;
+x = { arrow: async ( x, y ) => ok }.y;
 
 ```
 

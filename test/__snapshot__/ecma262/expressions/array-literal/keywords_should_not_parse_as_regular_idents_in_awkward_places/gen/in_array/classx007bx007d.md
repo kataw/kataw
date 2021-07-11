@@ -87,8 +87,8 @@
 
 ```javascript
 
-[class  {
-  },];
+[ class  {
+  }, ];
 
 ```
 

@@ -120,7 +120,7 @@
 
 ```javascript
 
-(class B extends [foo,] {
+(class B extends [ foo, ] {
 });
 
 ```

@@ -130,9 +130,9 @@ let {[a.b]: c} = v
 
 ```javascript
 
-let {
+let  {
   [a.b]: c
-} = v;
+} = v ;
 
 ```
 

@@ -296,7 +296,7 @@ class C {
 class C {
   static  {
     ({
-      method(x = fromParam = await) {
+      method( x = fromParam = await ) {
         fromBody = await;
       }
     }).method();

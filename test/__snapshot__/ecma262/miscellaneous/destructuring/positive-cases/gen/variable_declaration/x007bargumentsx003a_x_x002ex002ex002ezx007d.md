@@ -140,10 +140,10 @@ var {arguments: x, ...z} = {};
 
 ```javascript
 
-var {
+var  {
   arguments: x,
   ...z
-} = {};
+} = {} ;
 
 ```
 

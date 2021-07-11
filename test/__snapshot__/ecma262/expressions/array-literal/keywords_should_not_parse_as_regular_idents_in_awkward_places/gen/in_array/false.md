@@ -64,7 +64,7 @@
 
 ```javascript
 
-[false,];
+[ false, ];
 
 ```
 

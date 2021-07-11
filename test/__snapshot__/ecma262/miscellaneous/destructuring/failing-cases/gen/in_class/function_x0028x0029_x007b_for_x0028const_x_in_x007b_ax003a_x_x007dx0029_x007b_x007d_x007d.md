@@ -234,7 +234,7 @@ class x { function () { for (const x in { a: x }) { } } }
 
 class x {
   function() {
-    for (const x in { a : x }) { }
+    for (const  x  in { a: x }) {}
   }
 }
 

@@ -113,7 +113,7 @@
 ```javascript
 
 {
-  [...await] = obj;
+  [ ...await ] = obj;
 }
 
 ```

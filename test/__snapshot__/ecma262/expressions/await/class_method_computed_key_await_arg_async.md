@@ -309,11 +309,11 @@ async function f(){
 ```javascript
 
 async function f() {
-  (fail = class A {
+  ( fail = class A {
       [await x]() {}
       ;
       "\"x\""() {}
-    }) => {};
+    } ) => {};
 }
 
 ```

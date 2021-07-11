@@ -198,8 +198,8 @@ export default async x => y, z;
 
 ```javascript
 
-export default async (x) => y, z;;
-export default async x => y, z;;
+export default  async ( x ) => y, z ;;
+export default  async x => y, z ;;
 
 ```
 

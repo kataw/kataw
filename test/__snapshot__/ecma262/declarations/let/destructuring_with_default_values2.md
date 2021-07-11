@@ -121,9 +121,9 @@ let {x:y=z} = {}
 
 ```javascript
 
-let {
+let  {
   x: y = z
-} = {};
+} = {} ;
 
 ```
 

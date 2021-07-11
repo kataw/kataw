@@ -103,7 +103,7 @@
 
 ```javascript
 
-[arguments,] = [];
+[ arguments, ] = [];
 
 ```
 

@@ -153,7 +153,7 @@ function* g(x) { yield x = yield 3; }
 
 ```javascript
 
-function * g(x) {
+function * g( x ) {
   yield  x = yield  3;
 }
 

@@ -255,7 +255,7 @@ class C {
 
 class C {
   static  {
-    (function (x = fromParam = await) {
+    (function ( x = fromParam = await ) {
       fromBody = await;
     })();
   }

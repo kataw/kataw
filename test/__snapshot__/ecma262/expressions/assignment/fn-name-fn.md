@@ -222,7 +222,7 @@ fn = function() {};
 
 ```javascript
 
-var xFn, fn;
+var  xFn, fn ;
 xFn = function x() {};
 fn = function () {};
 

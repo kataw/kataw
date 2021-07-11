@@ -290,7 +290,7 @@
 
 "'use strict'";
 async function a() {
-  async ([y] = [{ m : 5 + t(await bar) },]) => {};
+  async ( [ y ] = [ { m: 5 + t( await bar ) }, ] ) => {};
 }
 
 ```

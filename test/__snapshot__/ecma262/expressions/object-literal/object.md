@@ -77,7 +77,7 @@
 
 ```javascript
 
-({ 790 : this });
+({ 790: this });
 
 ```
 

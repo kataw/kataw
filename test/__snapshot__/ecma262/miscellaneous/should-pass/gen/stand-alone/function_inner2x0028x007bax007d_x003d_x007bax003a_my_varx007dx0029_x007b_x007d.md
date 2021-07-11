@@ -155,9 +155,9 @@ function inner2({a} = {a: my_var}) { }
 
 ```javascript
 
-function inner2({
+function inner2( {
     a
-  } = { a : my_var }) {}
+  } = { a: my_var } ) {}
 
 ```
 

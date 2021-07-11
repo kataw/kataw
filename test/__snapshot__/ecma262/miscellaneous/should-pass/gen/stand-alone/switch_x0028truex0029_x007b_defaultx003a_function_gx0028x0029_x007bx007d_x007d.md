@@ -132,7 +132,7 @@ switch (true) { default: function g() {} }
 
 switch (true) {
   default: 
-    function g() {}
+    function g() {} 
 }
 
 ```

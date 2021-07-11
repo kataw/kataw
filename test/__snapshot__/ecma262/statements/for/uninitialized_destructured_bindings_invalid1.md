@@ -113,9 +113,9 @@ for (var { foo };;) {}
 
 ```javascript
 
-for (var {
+for (var  {
   foo
-};;) { }
+} ;;) {}
 
 ```
 

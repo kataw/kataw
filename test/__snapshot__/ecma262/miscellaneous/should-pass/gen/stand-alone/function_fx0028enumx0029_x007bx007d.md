@@ -93,7 +93,7 @@ function f(enum) {}
 
 ```javascript
 
-function f(enum) {}
+function f( enum ) {}
 
 ```
 

@@ -324,8 +324,8 @@
 ```javascript
 
 "'use strict'";
-let x, y, z;
-for (x in x = { z : { __proto__ : x, __proto__ : y } = z } = z = {})
+let  x, y, z ;
+for (x in x = { z: { __proto__: x, __proto__: y } = z } = z = {})
   ;
 
 ```

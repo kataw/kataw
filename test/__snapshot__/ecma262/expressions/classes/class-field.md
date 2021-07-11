@@ -4351,10 +4351,10 @@
 (class X {
   a
   ;
-})(class  {
+})( class  {
   a = 0
   ;
-});
+} );
 (class  {
   a = 0
   ;

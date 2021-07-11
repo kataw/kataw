@@ -153,7 +153,7 @@ async (x = delete ((true) = f)) => {}
 
 ```javascript
 
-async (x = delete  ((true) = f)) => {};
+async ( x = delete  ((true) = f) ) => {};
 
 ```
 

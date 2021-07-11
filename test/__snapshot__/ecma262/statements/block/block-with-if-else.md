@@ -87,7 +87,7 @@
 ```javascript
 
 {
-  if (false) { }
+  if (false) {}
   else
     ;
 }

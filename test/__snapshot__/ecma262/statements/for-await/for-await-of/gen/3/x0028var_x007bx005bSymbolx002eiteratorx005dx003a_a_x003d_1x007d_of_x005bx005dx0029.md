@@ -240,9 +240,9 @@ async function * f() { for await (var {[Symbol.iterator]: a = 1} of []) { } }
 ```javascript
 
 async function * f() {
-  for await (var {
+  for await (var  {
     [Symbol.iterator]: a = 1
-  } of []) { }
+  }  of []) {}
 }
 
 ```

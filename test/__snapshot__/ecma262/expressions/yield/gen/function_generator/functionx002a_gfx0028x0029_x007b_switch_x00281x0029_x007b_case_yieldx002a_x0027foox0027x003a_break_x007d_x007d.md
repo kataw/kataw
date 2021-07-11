@@ -284,7 +284,7 @@ function * gen() {
     function * gf() {
       switch (1) {
         case yield *  "'foo'": 
-          break;
+          break; 
       }
     }
   }

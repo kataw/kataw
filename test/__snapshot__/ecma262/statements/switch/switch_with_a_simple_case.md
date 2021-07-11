@@ -101,7 +101,7 @@ switch (A) {case B: C;}
 
 switch (A) {
   case B: 
-    C;
+    C; 
 }
 
 ```

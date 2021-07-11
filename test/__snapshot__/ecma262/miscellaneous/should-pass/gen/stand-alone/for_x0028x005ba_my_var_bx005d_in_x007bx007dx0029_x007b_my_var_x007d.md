@@ -136,7 +136,7 @@ for ([a, my_var, b] in {}) { my_var; }
 
 ```javascript
 
-for ([a, my_var, b,] in {}) {
+for ([ a, my_var, b, ] in {}) {
   my_var;
 }
 

@@ -123,7 +123,7 @@ x *
 
 ```javascript
 
-x * (async (x, y) => ok);
+x * (async ( x, y ) => ok);
 
 ```
 

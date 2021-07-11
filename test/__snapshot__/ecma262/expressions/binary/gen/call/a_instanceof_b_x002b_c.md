@@ -114,7 +114,7 @@ foo( a instanceof b + c )
 
 ```javascript
 
-foo(a instanceof b + c);
+foo( a instanceof b + c );
 
 ```
 

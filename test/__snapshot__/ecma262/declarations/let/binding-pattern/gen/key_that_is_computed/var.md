@@ -117,9 +117,9 @@ var {[a]: c} = v
 
 ```javascript
 
-var {
+var  {
   [a]: c
-} = v;
+} = v ;
 
 ```
 

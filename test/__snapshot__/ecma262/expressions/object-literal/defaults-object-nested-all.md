@@ -160,12 +160,12 @@ var {x = 10, y: { z = 10}} = a;
 
 ```javascript
 
-var {
+var  {
   x = 10,
   y: {
     z = 10
   }
-} = a;
+} = a ;
 
 ```
 

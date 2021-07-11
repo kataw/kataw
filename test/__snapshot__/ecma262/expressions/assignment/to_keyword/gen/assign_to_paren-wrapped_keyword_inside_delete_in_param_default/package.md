@@ -155,7 +155,7 @@ async (x = delete ((package) = f)) => {}
 
 ```javascript
 
-async (x = delete  ((package) = f)) => {};
+async ( x = delete  ((package) = f) ) => {};
 
 ```
 

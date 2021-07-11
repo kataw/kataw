@@ -204,7 +204,7 @@
 
 ```javascript
 
-(valid ? helper.responseBody(this.currentUser) : helper.responseBody(this.defaultUser)).prop;
+(valid ? helper.responseBody( this.currentUser ) : helper.responseBody( this.defaultUser )).prop;
 
 ```
 

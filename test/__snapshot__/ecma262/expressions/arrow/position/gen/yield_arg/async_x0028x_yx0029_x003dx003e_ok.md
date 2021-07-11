@@ -166,7 +166,7 @@ function *f() {
 ```javascript
 
 function * f() {
-  yield  async (x, y) => ok;
+  yield  async ( x, y ) => ok;
 }
 
 ```

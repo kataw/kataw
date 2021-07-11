@@ -114,7 +114,7 @@ function f(){ let f }
 ```javascript
 
 function f() {
-  let f;
+  let  f ;
 }
 
 ```

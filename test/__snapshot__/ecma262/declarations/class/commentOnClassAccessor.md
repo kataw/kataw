@@ -250,7 +250,7 @@ class C {
    /**
    * Setter.
    */
-  set bar(v) {}
+  set bar( v ) {}
 }
 
 ```

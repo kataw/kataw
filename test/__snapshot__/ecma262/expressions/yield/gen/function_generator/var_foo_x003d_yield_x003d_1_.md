@@ -204,7 +204,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
 
 function * gen() {
   function not_gen() {
-    var foo = yield = 1;
+    var  foo = yield = 1 ;
   }
 }
 

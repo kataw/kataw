@@ -86,7 +86,7 @@
 
 ```javascript
 
-[x = yield,];
+[ x = yield, ];
 
 ```
 

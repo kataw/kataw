@@ -119,7 +119,7 @@
 
 ```javascript
 /* before */
-async function/* a */ f /* b */(/* c */x /* d */, /* e */y /* f */) {/* h */
+async function/* a */ f /* b */( /* c */x /* d */, /* e */y /* f */ ) {/* h */
   ; /* i */
   ; /* j */
 } /* after */

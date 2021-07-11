@@ -124,7 +124,7 @@ let x: T[K];
 
 ```javascript
 
-let x: T[ K];
+let  x: T[ K] ;
 
 ```
 

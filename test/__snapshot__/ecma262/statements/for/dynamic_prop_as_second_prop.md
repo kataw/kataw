@@ -136,10 +136,10 @@ for (let {a, [x]: y} = a;;);
 
 ```javascript
 
-for (let {
+for (let  {
   a,
   [x]: y
-} = a;;)
+} = a ;;)
   ;
 
 ```

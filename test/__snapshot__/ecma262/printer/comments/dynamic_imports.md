@@ -255,7 +255,7 @@ import(
 "'something'"
  /* Hello */
 );
-wrap(import(/* Hello */"'something'"));
+wrap( import(/* Hello */"'something'") );
 
 ```
 

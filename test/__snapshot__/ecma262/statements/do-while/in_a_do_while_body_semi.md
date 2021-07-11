@@ -86,7 +86,7 @@ do x, y; while (z)
 ```javascript
 
 do
-  x, y; while (z)
+   x, y ; while (z)
 
 ```
 

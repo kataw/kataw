@@ -95,9 +95,9 @@ let {x} = v
 
 ```javascript
 
-let {
+let  {
   x
-} = v;
+} = v ;
 
 ```
 

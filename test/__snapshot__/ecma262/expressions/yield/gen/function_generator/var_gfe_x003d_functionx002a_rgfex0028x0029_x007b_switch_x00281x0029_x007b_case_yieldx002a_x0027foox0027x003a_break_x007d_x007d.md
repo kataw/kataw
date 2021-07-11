@@ -316,12 +316,12 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
 
 function * gen() {
   function not_gen() {
-    var gfe = function * rgfe() {
+    var  gfe = function * rgfe() {
       switch (1) {
         case yield *  "'foo'": 
-          break;
+          break; 
       }
-    };
+    } ;
   }
 }
 

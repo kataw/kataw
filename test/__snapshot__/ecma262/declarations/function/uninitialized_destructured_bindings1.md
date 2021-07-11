@@ -106,9 +106,9 @@ function x({ foo }) {}
 
 ```javascript
 
-function x({
+function x( {
     foo
-  }) {}
+  } ) {}
 
 ```
 

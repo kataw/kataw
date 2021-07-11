@@ -123,7 +123,7 @@ async (x = z = yield) => {}
 
 ```javascript
 
-async (x = z = yield) => {};
+async ( x = z = yield ) => {};
 
 ```
 

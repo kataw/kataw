@@ -83,7 +83,7 @@
 
 ```javascript
 
-(private) => x;
+( private ) => x;
 
 ```
 

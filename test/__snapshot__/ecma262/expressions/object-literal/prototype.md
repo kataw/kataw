@@ -498,9 +498,9 @@
 
 ```javascript
 
-({ prototype : 1 });
+({ prototype: 1 });
 ({ get prototype() {} });
-({ set prototype(x) {} });
+({ set prototype( x ) {} });
 ({ * prototype() {} });
 ({ async prototype() {} });
 ({ async * prototype() {} });

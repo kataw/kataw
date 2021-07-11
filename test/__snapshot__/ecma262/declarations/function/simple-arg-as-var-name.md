@@ -123,8 +123,8 @@ function f(x) { var x; }
 
 ```javascript
 
-function f(x) {
-  var x;
+function f( x ) {
+  var  x ;
 }
 
 ```

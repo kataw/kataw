@@ -409,7 +409,7 @@ class C {
   ;
   #method() {}
   get #getter() {}
-  static isC(obj) {
+  static isC( obj ) {
     return #brand in obj && #method in obj && #getter in obj;
   }
 }

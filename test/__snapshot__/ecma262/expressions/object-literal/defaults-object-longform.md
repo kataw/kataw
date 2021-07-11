@@ -110,9 +110,9 @@ var { x: x = 10 } = x;
 
 ```javascript
 
-var {
+var  {
   x: x = 10
-} = x;
+} = x ;
 
 ```
 

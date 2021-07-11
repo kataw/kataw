@@ -96,7 +96,7 @@ new (a,b) => x
 
 ```javascript
 
-new (a, b) => x;
+new ( a, b ) => x;
 
 ```
 

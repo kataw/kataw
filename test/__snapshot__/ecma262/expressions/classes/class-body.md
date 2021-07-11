@@ -6423,13 +6423,13 @@
 (class  {
   m() {}
   ;
-  n(x) {}
+  n( x ) {}
 });
 (class  {
   get x() {}
 });
 (class  {
-  set x(v) {}
+  set x( v ) {}
 });
 (class  {
   get() {}
@@ -6451,7 +6451,7 @@
 (class  {
   * g() {}
   ;
-  * h(x) {}
+  * h( x ) {}
 });
 (class  {
   async * x() {}
@@ -6463,7 +6463,7 @@
   get static() {}
 });
 (class  {
-  set static(v) {}
+  set static( v ) {}
 });
 (class  {
   static m() {}
@@ -6472,7 +6472,7 @@
   static get x() {}
 });
 (class  {
-  static set x(v) {}
+  static set x( v ) {}
 });
 (class  {
   static get() {}
@@ -6487,7 +6487,7 @@
   static get static() {}
 });
 (class  {
-  static set static(v) {}
+  static set static( v ) {}
 });
 (class  {
   * static() {}
@@ -6556,7 +6556,7 @@
   get 42.5() {}
 });
 (class  {
-  set static(v) {}
+  set static( v ) {}
 });
 (class  {
   static this() {}
@@ -6565,7 +6565,7 @@
   static get class() {}
 });
 (class  {
-  static set 42.5(v) {}
+  static set 42.5( v ) {}
 });
 (class  {
   * const() {}
@@ -6580,7 +6580,7 @@
   get false() {}
 });
 (class C {
-  set function(v) {}
+  set function( v ) {}
 });
 (class C {
   static if() {}
@@ -6589,7 +6589,7 @@
   static get let() {}
 });
 (class C {
-  static set get(v) {}
+  static set get( v ) {}
 });
 (class C {
   * set() {}

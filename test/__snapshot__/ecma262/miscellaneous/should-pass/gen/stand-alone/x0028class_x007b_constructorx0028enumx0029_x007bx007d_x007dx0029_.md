@@ -140,7 +140,7 @@
 ```javascript
 
 (class  {
-  constructor(enum) {}
+  constructor( enum ) {}
 });
 
 ```

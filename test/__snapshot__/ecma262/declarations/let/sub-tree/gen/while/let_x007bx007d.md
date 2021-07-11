@@ -94,7 +94,7 @@ while (a) let
 
 while (a)
   let;
-{ }
+{}
 ;
 
 ```

@@ -241,9 +241,9 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
 
 ```javascript
 
-var g: { (x: Date): void } = (x) => {
+var  g: { ( x: Date ): void } = ( x ) => {
   x * 2;
-}; // param type (date < number)
+} ; // param type (date < number)
 
 ```
 

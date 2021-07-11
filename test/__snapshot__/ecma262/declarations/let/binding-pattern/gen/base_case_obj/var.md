@@ -96,9 +96,9 @@ var {x} = v
 
 ```javascript
 
-var {
+var  {
   x
-} = v;
+} = v ;
 
 ```
 

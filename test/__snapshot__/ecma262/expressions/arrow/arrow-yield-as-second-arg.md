@@ -89,7 +89,7 @@
 
 ```javascript
 
-(bar, yield) => {};
+( bar, yield ) => {};
 
 ```
 

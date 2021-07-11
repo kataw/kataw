@@ -569,26 +569,26 @@ function g() {
   switch (value) {
      // Line comment for case 1:
     case 1: 
-      break;
+      break; 
      // Line comment for case 2:
     case 2: 
        // Line comment for break:
-      break;
+      break; 
      // Line comment for default:
     default: 
-      break;
+      break; 
   }
    // Comment above object
-  var point = {
+  var  point = {
      // More line comments
     // Line comment for property x:
-    x : 0,
+    x: 0,
      // Line comment for property y:
-    y : 1
-  };
+    y: 1
+  } ;
    // Comment after object
   // Comments before empty object
-  var object = {};
+  var  object = {} ;
   instruction6;
    // Several line comments
   // …for…

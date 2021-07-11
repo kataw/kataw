@@ -1843,21 +1843,21 @@ function foo4() {
 
 function a(/* comment */) {} // comment
 function b() {} // comment
-function c(/* comment */argA, argB, argC) {} // comment
-call((/*object*/row) => {});
+function c( /* comment */argA, argB, argC ) {} // comment
+call( ( /*object*/row ) => {} );
 function f1 /* f */() {}
 function f2(/* args */) {}
 function f3() {}
 function f4 /* f */(/* args */) {}
-function f5 /* f */(/* a */a) {}
-function f6 /* f */(a /* a */) {}
-function f7 /* f */(/* a */a) {}
-const obj = {
+function f5 /* f */( /* a */a ) {}
+function f6 /* f */( a /* a */ ) {}
+function f7 /* f */( /* a */a ) {}
+const  obj = {
   f1 /* f */() {},
   f2(/* args */) {},
   f3() {},
   f4 /* f */(/* args */) {},
-};
+} ;
 (function f /* f */() {})();
 (function f(/* args */) {})();
 (function f() {})();

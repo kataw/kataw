@@ -205,9 +205,9 @@ var {x: x, y: y, z: { a: a = 10} } = b;
 
 ```javascript
 
-var { x: x, y: y, z: {
+var  { x: x, y: y, z: {
   a: a = 10
-} } = b;
+} } = b ;
 
 ```
 

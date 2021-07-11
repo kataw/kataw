@@ -153,7 +153,7 @@ var y = { \u0066inally: x } = { finally: 42 };
 
 ```javascript
 
-var y = { \u0066inally : x } = { finally : 42 };
+var  y = { \u0066inally: x } = { finally: 42 } ;
 
 ```
 

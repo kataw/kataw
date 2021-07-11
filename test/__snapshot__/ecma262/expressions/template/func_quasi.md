@@ -98,7 +98,7 @@
 
 ```javascript
 
-`${function () {}}`;
+` ${function () {}} `;
 
 ```
 

@@ -87,7 +87,7 @@ var e = (await);
 
 ```javascript
 
-var e = (await);
+var  e = (await) ;
 
 ```
 

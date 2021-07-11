@@ -140,7 +140,7 @@ x=function f(){ var f }
 ```javascript
 
 x = function f() {
-  var f;
+  var  f ;
 };
 
 ```

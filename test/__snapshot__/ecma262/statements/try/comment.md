@@ -387,11 +387,11 @@ function f() {
    // comment
   .bar());
 }
-fn(function f() {
+fn( function f() {
   throw (foo
    // comment
   .bar());
-});
+} );
 
 ```
 

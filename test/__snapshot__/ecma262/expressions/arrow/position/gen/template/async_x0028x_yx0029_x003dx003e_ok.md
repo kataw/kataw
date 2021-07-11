@@ -120,7 +120,7 @@
 
 ```javascript
 
-`a ${async (x, y) => ok} b`;
+` a ${async ( x, y ) => ok}  b`;
 
 ```
 

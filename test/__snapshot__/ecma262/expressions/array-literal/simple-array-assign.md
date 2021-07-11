@@ -97,7 +97,7 @@
 
 ```javascript
 
-[x,] = obj;
+[ x, ] = obj;
 
 ```
 

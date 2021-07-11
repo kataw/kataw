@@ -145,7 +145,7 @@
 
 ```javascript
 
-[foo.foo, foo.bar,] = [1, 2,];
+[ foo.foo, foo.bar, ] = [ 1, 2, ];
 
 ```
 

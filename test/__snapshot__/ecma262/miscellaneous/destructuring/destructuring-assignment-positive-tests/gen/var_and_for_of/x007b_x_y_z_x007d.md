@@ -244,7 +244,7 @@ var x, y, z; for (x of x = { x, y, z } = z = {});
 
 ```javascript
 
-var x, y, z;
+var  x, y, z ;
 for (x of x = { x, y, z } = z = {})
   ;
 

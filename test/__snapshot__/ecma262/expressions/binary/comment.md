@@ -1083,8 +1083,8 @@ a && longLongLongLongLongLongLongLongLong && longLongLongLongLongLongLongLongLon
  longLongLongLongLongLongLongLongLong && longLongLongLongLongLongLongLongLong;
 a || longLongLongLongLongLongLongLongLong || longLongLongLongLongLongLongLongLong ||// comment
  longLongLongLongLongLongLongLongLong || longLongLongLongLongLongLongLongLong;
-var a = x(abifornCringerMoshedPerplexSawder + kochabCooieGameOnOboleUnweave // f
- + glimseGlyphsHazardNoopsTieTie + bifornCringerMoshedPerplexSawder);
+var  a = x( abifornCringerMoshedPerplexSawder + kochabCooieGameOnOboleUnweave // f
+ + glimseGlyphsHazardNoopsTieTie + bifornCringerMoshedPerplexSawder ) ;
 foo[a + a +// comment
  a + bar[b + b + b +// comment
  b + b]];

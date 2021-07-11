@@ -174,7 +174,7 @@ class C {
 
 ```javascript
 
-let await;
+let  await ;
 class C {
   static  {
     await (1); // illegal

@@ -185,8 +185,8 @@ for (a in expr) {
 
 ```javascript
 
-var a: any;
-var expr: any;
+var  a: any ;
+var  expr: any ;
 for (a in expr) {
 }
 

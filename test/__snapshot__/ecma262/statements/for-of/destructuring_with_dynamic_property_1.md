@@ -129,7 +129,7 @@ for ([a.b][foo] of c) d
 
 ```javascript
 
-for ([a.b,][foo] of c)
+for ([ a.b, ][foo] of c)
   d;
 
 ```

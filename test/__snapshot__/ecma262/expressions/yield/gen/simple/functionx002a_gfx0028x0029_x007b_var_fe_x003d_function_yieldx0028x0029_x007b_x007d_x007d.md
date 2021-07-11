@@ -173,7 +173,7 @@ function* gf() { var fe = function yield() { } }
 ```javascript
 
 function * gf() {
-  var fe = function yield() {};
+  var  fe = function yield() {} ;
 }
 
 ```

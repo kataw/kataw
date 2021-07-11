@@ -229,8 +229,8 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
 ```javascript
 
 async function f() {
-  let a;
-  for await ({ [Symbol.iterator] : a } of [])
+  let  a ;
+  for await ({ [Symbol.iterator]: a } of [])
     ;
 }
 

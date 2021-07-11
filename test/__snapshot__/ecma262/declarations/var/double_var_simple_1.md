@@ -115,10 +115,10 @@ var {x, y} = obj;
 
 ```javascript
 
-var {
+var  {
   x,
   y
-} = obj;
+} = obj ;
 
 ```
 

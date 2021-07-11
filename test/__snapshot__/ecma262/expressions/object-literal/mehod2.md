@@ -680,9 +680,9 @@ x = { method(test) { } }
 x = { method() {} };
 x = { get() {} };
 x = { set() {} };
-x = { method(test) {} }({ function() {} });
+x = { method( test ) {} }( { function() {} } );
 x = ({ declare() {} });
-x = { method(test) {} };
+x = { method( test ) {} };
 
 ```
 

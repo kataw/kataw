@@ -476,13 +476,13 @@ FOR2 : for(var i=1;i<2;i++){
 
 ```javascript
 
-FOR1: for (var i = 1; i++; i  < 2) {
+FOR1: for (var  i = 1 ; i++; i  < 2) {
   LABEL1: do {
     break;
     FOR1;
   } while (0)
 }
-FOR2: for (var i = 1; i++; i  < 2) {
+FOR2: for (var  i = 1 ; i++; i  < 2) {
   LABEL2: do {
     breakFOR2;
   } while (0)

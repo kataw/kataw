@@ -160,9 +160,9 @@ const resolver = options.resolver
 
 ```javascript
 
-const resolver = options.resolver 
+const  resolver = options.resolver 
  /* $FlowFixMe */
-? require(options.resolver) : defaultResolver;
+? require( options.resolver ) : defaultResolver ;
 
 ```
 

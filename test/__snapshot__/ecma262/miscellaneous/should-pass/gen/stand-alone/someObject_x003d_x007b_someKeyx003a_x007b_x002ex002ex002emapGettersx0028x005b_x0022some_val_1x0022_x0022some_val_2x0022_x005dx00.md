@@ -174,7 +174,7 @@ someObject = { someKey: { ...mapGetters([ "some_val_1", "some_val_2" ]) } }
 
 ```javascript
 
-someObject = { someKey : { ...mapGetters(["\"some_val_1\"", "\"some_val_2\"",]) } };
+someObject = { someKey: { ...mapGetters( [ "\"some_val_1\"", "\"some_val_2\"", ] ) } };
 
 ```
 

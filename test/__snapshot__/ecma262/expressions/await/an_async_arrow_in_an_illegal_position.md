@@ -124,7 +124,7 @@ let y = typeof async x => await x
 
 ```javascript
 
-let y = typeof  async x => await x;
+let  y = typeof  async x => await x ;
 
 ```
 

@@ -102,9 +102,9 @@
 ```javascript
 
 {
-  let {
+  let  {
     x
-  } = y;
+  } = y ;
 }
 
 ```

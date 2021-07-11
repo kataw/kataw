@@ -823,12 +823,12 @@ x = class  {
 x = class  {
   get y() {}
   ;
-  set "'z'"(z) {}
+  set "'z'"( z ) {}
 };
 x = class  {
   get y() {}
   ;
-  set "'z'"(z) {}
+  set "'z'"( z ) {}
 };
 x = class  {
   y = 1

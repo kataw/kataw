@@ -131,9 +131,9 @@ var {[a.b]: c} = v
 
 ```javascript
 
-var {
+var  {
   [a.b]: c
-} = v;
+} = v ;
 
 ```
 

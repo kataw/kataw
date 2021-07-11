@@ -107,7 +107,7 @@ x, a + b instanceof c
 
 ```javascript
 
-x, a + b instanceof c;
+ x, a + b instanceof c ;
 
 ```
 

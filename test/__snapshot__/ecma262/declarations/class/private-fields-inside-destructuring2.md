@@ -1382,28 +1382,28 @@ class Foo {
   #f
   foo() {
     [
-      { x : this.#a },
-      [[, this.#b, ,],],
-      { y : this.#c = 3 },
-      { x : this.x, y : this.y, ...this.#d },
-      [, , ...this.#e],
-      [{ x : [{ y : [this.#f,] },] },],
+      { x: this.#a },
+      [ [ , this.#b, , ], ],
+      { y: this.#c = 3 },
+      { x: this.x, y: this.y, ...this.#d },
+      [ , , ...this.#e ],
+      [ { x: [ { y: [ this.#f, ] }, ] }, ],
     ] = [
-      { x : 1 },
-      [[1, 2, 3,],],
+      { x: 1 },
+      [ [ 1, 2, 3, ], ],
       {},
-      { x : 2, y : 3, z : 4, w : 5 },
-      [4, 5, 6, 7, 8,],
-      [{ x : [{ y : [9,] },] },],
+      { x: 2, y: 3, z: 4, w: 5 },
+      [ 4, 5, 6, 7, 8, ],
+      [ { x: [ { y: [ 9, ] }, ] }, ],
     ];
-    return JSON.stringify([
+    return JSON.stringify( [
       this.#a,
       this.#b,
       this.#c,
       this.#d,
       this.#e,
       this.#f,
-    ]);
+    ] );
   }
 }
 

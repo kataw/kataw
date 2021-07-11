@@ -283,7 +283,7 @@ function foo(a, b, c) {
 
 ```javascript
 
-function foo(a, b, c) {
+function foo( a, b, c ) {
   return ((a >= b && a <= c) 
    // lorem
   // ipsum

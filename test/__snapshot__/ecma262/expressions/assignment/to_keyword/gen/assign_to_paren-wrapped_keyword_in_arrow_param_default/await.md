@@ -132,7 +132,7 @@
 
 ```javascript
 
-(x = (await) = f) => {};
+( x = (await) = f ) => {};
 
 ```
 

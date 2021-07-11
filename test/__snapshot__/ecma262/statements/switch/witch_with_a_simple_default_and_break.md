@@ -107,7 +107,7 @@ switch (A) {default: B; break;}
 switch (A) {
   default: 
     B;
-    break;
+    break; 
 }
 
 ```

@@ -118,7 +118,7 @@ let a, b = 42, c;b;
 
 ```javascript
 
-let a, b = 42, c;
+let  a, b = 42, c ;
 b;
 
 ```

@@ -131,9 +131,9 @@ function f([b, a], {b}) {}
 
 ```javascript
 
-function f([b, a], {
+function f( [ b, a ], {
     b
-  }) {}
+  } ) {}
 
 ```
 

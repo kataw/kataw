@@ -88,7 +88,7 @@ let
 
 ```javascript
 
-let [] = y;
+let  [] = y ;
 
 ```
 

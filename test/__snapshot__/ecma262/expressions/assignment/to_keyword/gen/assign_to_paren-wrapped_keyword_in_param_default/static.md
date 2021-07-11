@@ -137,7 +137,7 @@ async (x = (static) = f) => {}
 
 ```javascript
 
-async (x = (static) = f) => {};
+async ( x = (static) = f ) => {};
 
 ```
 

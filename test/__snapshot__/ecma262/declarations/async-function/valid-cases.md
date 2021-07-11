@@ -996,15 +996,15 @@ new async function() { await 0 }.x
 };
 1 - async function () {
   await 0;
-}(async function foo() {
+}( async function foo() {
   await 0;
-})(async function () {
+} )( async function () {
   await 0;
-})(x, async function foo() {
+} )( x, async function foo() {
   await 0;
-})(x, async function () {
+} )( x, async function () {
   await 0;
-});
+} );
 new async function () {
   await 0;
 };

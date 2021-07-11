@@ -112,9 +112,9 @@ async ({await = x}) => x
 
 ```javascript
 
-async ({
+async ( {
     await = x
-  }) => x;
+  } ) => x;
 
 ```
 

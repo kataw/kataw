@@ -434,13 +434,13 @@ function* g() {
 
 ```javascript
 
-var yieldSet, C, iter;
+var  yieldSet, C, iter ;
 function * g() {
   class C_ {
     get [yield ]() {
       return "'get yield'";
     }
-    set [yield ](param) {
+    set [yield ]( param ) {
       yieldSet = param;
     }
   }

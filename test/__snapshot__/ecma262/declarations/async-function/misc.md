@@ -410,9 +410,9 @@ function test1() {
     return 42;
   }
   async function bar() {
-    var a = await foo();
-    var b: number = a; // valid
-    var c: string = a; // Error: number ~> string
+    var  a = await foo() ;
+    var  b: number = a ; // valid
+    var  c: string = a ; // Error: number ~> string
   }
 }
 

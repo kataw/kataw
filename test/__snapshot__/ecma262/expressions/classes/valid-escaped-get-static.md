@@ -661,7 +661,7 @@
   get st\u0061tic() {}
 });
 (class  {
-  set st\u0061tic(x) {}
+  set st\u0061tic( x ) {}
 });
 (class  {
   * st\u0061tic() {}
@@ -673,7 +673,7 @@
   static get st\u0061tic() {}
 });
 (class  {
-  static set st\u0061tic(x) {}
+  static set st\u0061tic( x ) {}
 });
 
 ```

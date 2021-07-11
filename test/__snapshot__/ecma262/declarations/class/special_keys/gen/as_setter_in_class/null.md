@@ -141,7 +141,7 @@ class x {set null(x){}}
 ```javascript
 
 class x {
-  set null(x) {}
+  set null( x ) {}
 }
 
 ```

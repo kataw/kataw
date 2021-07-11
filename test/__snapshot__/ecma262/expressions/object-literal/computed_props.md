@@ -642,24 +642,24 @@ module.exports = {
 
 ```javascript
 
-const ColorId = {
-  RED : "'R'",
-  GREEN : "'G'",
-  BLUE : "'B'",
-};
-const ColorNumber = {
-  RED : "'ff0000'",
-  GREEN : "'00ff00'",
-  BLUE : "'0000ff'",
-};
-const ColorIdToNumber = {
-  [ColorId.RED] : ColorNumber.RED,
-  [ColorId.GREEN] : ColorNumber.GREEN,
-  [ColorId.BLUE] : ColorNumber.BLUE,
-};
+const  ColorId = {
+  RED: "'R'",
+  GREEN: "'G'",
+  BLUE: "'B'",
+} ;
+const  ColorNumber = {
+  RED: "'ff0000'",
+  GREEN: "'00ff00'",
+  BLUE: "'0000ff'",
+} ;
+const  ColorIdToNumber = {
+  [ColorId.RED]: ColorNumber.RED,
+  [ColorId.GREEN]: ColorNumber.GREEN,
+  [ColorId.BLUE]: ColorNumber.BLUE,
+} ;
 module.exports = {
   ...dummy,
-  [hello] : "'world'",
+  [hello]: "'world'",
   ...dummy
 };
 

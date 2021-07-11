@@ -137,7 +137,7 @@ class c {foo(eval){ "use strict"; }}
 ```javascript
 
 class c {
-  foo(eval) {
+  foo( eval ) {
   "\"use strict\"";
   }
 }

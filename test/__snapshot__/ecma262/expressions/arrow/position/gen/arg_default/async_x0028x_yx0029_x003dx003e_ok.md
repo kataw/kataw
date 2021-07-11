@@ -155,7 +155,7 @@ function f(a = async (x, y) => ok) {}
 
 ```javascript
 
-function f(a = async (x, y) => ok) {}
+function f( a = async ( x, y ) => ok ) {}
 
 ```
 

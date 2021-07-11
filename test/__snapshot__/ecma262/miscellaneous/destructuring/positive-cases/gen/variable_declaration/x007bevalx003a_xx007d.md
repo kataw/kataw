@@ -117,9 +117,9 @@ var {eval: x} = {};
 
 ```javascript
 
-var {
+var  {
   eval: x
-} = {};
+} = {} ;
 
 ```
 

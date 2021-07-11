@@ -103,7 +103,7 @@ for (a of b) let
 
 for (a of b)
   let;
-{ }
+{}
 
 ```
 

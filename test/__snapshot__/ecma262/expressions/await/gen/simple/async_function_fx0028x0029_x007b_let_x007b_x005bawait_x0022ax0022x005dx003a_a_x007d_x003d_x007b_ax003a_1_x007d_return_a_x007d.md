@@ -238,9 +238,9 @@ async function f() {
 ```javascript
 
 async function f() {
-  let {
+  let  {
     [await "\"a\""]: a
-  } = { a : 1 };
+  } = { a: 1 } ;
   return a;
 }
 

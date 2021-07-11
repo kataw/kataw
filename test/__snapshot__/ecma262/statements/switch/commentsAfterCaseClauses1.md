@@ -371,7 +371,7 @@ function getSecurity(level) {
 
 ```javascript
 
-function getSecurity(level) {
+function getSecurity( level ) {
   switch (level) {
     case 0: 
      // Zero
@@ -379,17 +379,17 @@ function getSecurity(level) {
      // one
     case 2:// two
      
-      return "\"Hi\"";
+      return "\"Hi\""; 
     case 3: 
      // three
     case 4:// four
      
-      return "\"hello\"";
+      return "\"hello\""; 
     case 5: 
      // five
     default:// default
      
-      return "\"world\"";
+      return "\"world\""; 
   }
 }
 

@@ -127,7 +127,7 @@ class A<T: Foo> {}
 
 ```javascript
 
-class A<T: Foo> {
+class A< T: Foo > {
 }
 
 ```

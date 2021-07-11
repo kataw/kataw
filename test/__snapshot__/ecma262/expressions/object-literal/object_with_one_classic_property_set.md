@@ -96,7 +96,7 @@ wrap({set:b});
 
 ```javascript
 
-wrap({ set : b });
+wrap( { set: b } );
 
 ```
 

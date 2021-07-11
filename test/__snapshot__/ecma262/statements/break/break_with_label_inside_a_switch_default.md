@@ -119,7 +119,7 @@ foo: switch (x) { default: break foo; }
 
 foo: switch (x) {
   default: 
-    break foo;
+    break foo; 
 }
 
 ```

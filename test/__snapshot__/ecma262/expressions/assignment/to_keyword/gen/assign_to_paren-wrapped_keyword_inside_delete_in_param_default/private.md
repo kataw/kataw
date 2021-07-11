@@ -155,7 +155,7 @@ async (x = delete ((private) = f)) => {}
 
 ```javascript
 
-async (x = delete  ((private) = f)) => {};
+async ( x = delete  ((private) = f) ) => {};
 
 ```
 

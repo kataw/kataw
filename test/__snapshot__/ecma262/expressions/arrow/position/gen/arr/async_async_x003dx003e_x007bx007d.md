@@ -100,7 +100,7 @@
 
 ```javascript
 
-[async async => {},];
+[ async async => {}, ];
 
 ```
 

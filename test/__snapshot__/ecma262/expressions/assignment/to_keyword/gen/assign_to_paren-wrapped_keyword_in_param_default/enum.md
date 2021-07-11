@@ -137,7 +137,7 @@ async (x = (enum) = f) => {}
 
 ```javascript
 
-async (x = (enum) = f) => {};
+async ( x = (enum) = f ) => {};
 
 ```
 

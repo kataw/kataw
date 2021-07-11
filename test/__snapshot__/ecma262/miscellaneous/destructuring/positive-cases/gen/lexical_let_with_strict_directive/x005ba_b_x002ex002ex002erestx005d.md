@@ -142,7 +142,7 @@
 ```javascript
 
 "'use strict'";
-let [a, b, ...rest] = {};
+let  [ a, b, ...rest ] = {} ;
 
 ```
 

@@ -120,7 +120,7 @@ async <T>() => await null;
 
 ```javascript
 
-async <T>() => await null;
+async < T >() => await null;
 
 ```
 

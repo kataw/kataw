@@ -246,9 +246,9 @@ await (var {[Symbol.iterator]: a = 1} of []) { } }
 
 async function f() {
 "'use strict'";
-  for await (var {
+  for await (var  {
     [Symbol.iterator]: a = 1
-  } of []) { }
+  }  of []) {}
 }
 
 ```

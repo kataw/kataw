@@ -95,7 +95,7 @@
 ```javascript
 
 {
-  var foo;
+  var  foo ;
 }
 ;
 

@@ -147,10 +147,10 @@ try {} catch (e) { { let e = x; } }
 
 ```javascript
 
-try { }
+try {}
 catch (e){
   {
-    let e = x;
+    let  e = x ;
   }
 }
 

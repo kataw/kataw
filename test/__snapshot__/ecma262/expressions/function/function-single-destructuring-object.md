@@ -1007,7 +1007,7 @@ function StatelessFunctionalComponent3(
 
 ```javascript
 
-function StatelessFunctionalComponent({
+function StatelessFunctionalComponent( {
     isActive,
     onFiltersUpdated,
     onSelect,
@@ -1016,10 +1016,10 @@ function StatelessFunctionalComponent({
     searchFilters,
     title,
     items,
-  }) {
+  } ) {
   x;
 }
-function StatelessFunctionalComponent2({
+function StatelessFunctionalComponent2( {
     isActive = true,
     onFiltersUpdated = () => null,
     onSelect = () => null,
@@ -1028,10 +1028,10 @@ function StatelessFunctionalComponent2({
     searchFilters = null,
     title = "''",
     items = [],
-  } = {}) {
+  } = {} ) {
   return x;
 }
-function StatelessFunctionalComponent3({
+function StatelessFunctionalComponent3( {
     isActive,
     onFiltersUpdated = () => null,
     onSelect = () => null,
@@ -1041,8 +1041,8 @@ function StatelessFunctionalComponent3({
     title = "''",
     items = [],
   } = {
-    isActive : true
-  }) {
+    isActive: true
+  } ) {
   return x;
 }
 

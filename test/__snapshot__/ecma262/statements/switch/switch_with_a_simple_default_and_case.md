@@ -135,9 +135,9 @@ switch (A) {default: D; case B: C; }
 
 switch (A) {
   default: 
-    D;
+    D; 
   case B: 
-    C;
+    C; 
 }
 
 ```

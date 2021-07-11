@@ -122,9 +122,9 @@ for (let {x : y} = obj;;);
 
 ```javascript
 
-for (let {
+for (let  {
   x: y
-} = obj;;)
+} = obj ;;)
   ;
 
 ```

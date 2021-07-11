@@ -173,7 +173,7 @@ function* wrap() {
 ```javascript
 
 function * wrap() {
-  async (a = yield  b) => a;
+  async ( a = yield  b ) => a;
 }
 ;
 

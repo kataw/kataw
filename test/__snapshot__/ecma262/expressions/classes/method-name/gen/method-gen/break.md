@@ -134,7 +134,7 @@
 
 ```javascript
 
-({ * break(x, y) {} });
+({ * break( x, y ) {} });
 
 ```
 

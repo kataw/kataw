@@ -177,7 +177,7 @@ function f() { { var x } function x() {} }
 
 function f() {
   {
-    var x;
+    var  x ;
   }
   function x() {}
 }

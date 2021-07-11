@@ -135,7 +135,7 @@ a = [{ x = yield }] = value;
 
 ```javascript
 
-a = [{ x = yield },] = value;
+a = [ { x = yield }, ] = value;
 
 ```
 

@@ -599,7 +599,7 @@
   static get constructor() {}
 });
 (class C {
-  static set constructor(_) {}
+  static set constructor( _ ) {}
 });
 (class C {
   static * constructor() {}

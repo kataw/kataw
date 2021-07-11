@@ -103,7 +103,7 @@ function foo(x = 0) {
 
 ```javascript
 
-function foo(x = 0) {
+function foo( x = 0 ) {
 }
 
 ```

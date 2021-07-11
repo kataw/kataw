@@ -131,9 +131,9 @@ function f(argument1, {eval: x}) {}
 
 ```javascript
 
-function f(argument1, {
+function f( argument1, {
     eval: x
-  }) {}
+  } ) {}
 
 ```
 

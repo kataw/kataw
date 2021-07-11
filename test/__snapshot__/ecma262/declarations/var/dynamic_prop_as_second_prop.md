@@ -136,10 +136,10 @@ var {a, [x]: y} = a;
 
 ```javascript
 
-var {
+var  {
   a,
   [x]: y
-} = a;
+} = a ;
 
 ```
 

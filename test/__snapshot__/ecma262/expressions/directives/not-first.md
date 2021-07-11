@@ -114,7 +114,7 @@ var x; "use strict"; with (x) y;
 
 ```javascript
 
-var x;
+var  x ;
 "\"use strict\"";
 with (x)
   y;

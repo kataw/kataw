@@ -286,7 +286,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
 function * gen() {
   function not_gen() {
     function * foo() {
-      var x = 10;
+      var  x = 10 ;
       yield  1;
       return x;
     }

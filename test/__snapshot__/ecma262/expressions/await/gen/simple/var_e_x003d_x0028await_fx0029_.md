@@ -103,7 +103,7 @@ var e = (await, f);
 
 ```javascript
 
-var e = (await, f);
+var  e = ( await, f ) ;
 
 ```
 

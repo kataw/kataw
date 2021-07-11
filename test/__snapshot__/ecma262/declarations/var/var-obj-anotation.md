@@ -175,9 +175,9 @@ var {x}: {x: string; } = { x: "hello" };
 
 ```javascript
 
-var {
+var  {
   x
-}: { x: string } = { x : "\"hello\"" };
+}: { x: string } = { x: "\"hello\"" } ;
 
 ```
 

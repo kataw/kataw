@@ -153,7 +153,7 @@ async ([(a.b) = [] ] = []);
 
 ```javascript
 
-async([(a.b) = [],] = []);
+async( [ (a.b) = [], ] = [] );
 
 ```
 

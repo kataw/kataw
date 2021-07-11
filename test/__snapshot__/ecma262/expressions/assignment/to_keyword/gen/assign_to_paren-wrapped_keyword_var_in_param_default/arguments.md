@@ -132,7 +132,7 @@
 
 ```javascript
 
-(x = (arguments) = f) => {};
+( x = (arguments) = f ) => {};
 
 ```
 

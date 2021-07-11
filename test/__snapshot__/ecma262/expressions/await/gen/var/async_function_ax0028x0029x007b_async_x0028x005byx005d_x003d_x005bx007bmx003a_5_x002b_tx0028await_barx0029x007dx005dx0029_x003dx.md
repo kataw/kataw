@@ -403,12 +403,12 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 
 ```javascript
 
-var await;
-var f = (async function () {
+var  await ;
+var  f = (async function () {
   async function a() {
-    async ([y] = [{ m : 5 + t(await bar) },]) => {};
+    async ( [ y ] = [ { m: 5 + t( await bar ) }, ] ) => {};
   }
-});
+}) ;
 
 ```
 

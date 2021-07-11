@@ -117,7 +117,7 @@ for (var a of b);
 
 ```javascript
 
-for (var a of b)
+for (var  a  of b)
   ;
 
 ```

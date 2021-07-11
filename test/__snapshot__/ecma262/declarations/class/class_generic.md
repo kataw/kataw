@@ -508,12 +508,12 @@ class C<T> {
 
 ```javascript
 
-class C<T> {
-  arr: Array<{ value: T }>
+class C< T > {
+  arr: Array< { value: T } >
   ;
-  foo(value: T) {
-    var entry: { value: T } = { value };
-    this.arr.push(entry);
+  foo( value: T ) {
+    var  entry: { value: T } = { value } ;
+    this.arr.push( entry );
   }
 }
 

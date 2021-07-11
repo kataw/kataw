@@ -117,9 +117,9 @@ x => { return x; } , bar;
 
 ```javascript
 
-x => {
+ x => {
   return x;
-}, bar;
+}, bar ;
 
 ```
 

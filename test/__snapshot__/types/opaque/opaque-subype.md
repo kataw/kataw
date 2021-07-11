@@ -190,7 +190,7 @@ opaque type Counter: Box<T> = Container<T>;
 
 ```javascript
 
-opaque type Counter: Box<T> = Container<T>
+opaque type Counter: Box< T > = Container< T >
 ;
 
 ```

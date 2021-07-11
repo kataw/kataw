@@ -119,9 +119,9 @@ var {a = my_var} = {}
 
 ```javascript
 
-var {
+var  {
   a = my_var
-} = {};
+} = {} ;
 
 ```
 

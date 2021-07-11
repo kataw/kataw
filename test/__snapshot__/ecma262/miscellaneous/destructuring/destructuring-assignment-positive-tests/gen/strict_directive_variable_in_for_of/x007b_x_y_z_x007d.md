@@ -194,7 +194,7 @@
 ```javascript
 
 "'use strict'";
-var x, y, z;
+var  x, y, z ;
 for ({ x, y, z } of {})
   ;
 

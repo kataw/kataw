@@ -185,8 +185,8 @@ function foo(value: AOrString) {
 
 ```javascript
 
-function foo(value: AOrString) {
-  invariant(value instanceof B);
+function foo( value: AOrString ) {
+  invariant( value instanceof B );
 }
 
 ```

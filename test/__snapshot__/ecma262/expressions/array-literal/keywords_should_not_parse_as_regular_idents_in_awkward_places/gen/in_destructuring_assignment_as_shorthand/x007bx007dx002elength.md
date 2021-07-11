@@ -106,7 +106,7 @@
 
 ```javascript
 
-[{}.length,] = x;
+[ {}.length, ] = x;
 
 ```
 

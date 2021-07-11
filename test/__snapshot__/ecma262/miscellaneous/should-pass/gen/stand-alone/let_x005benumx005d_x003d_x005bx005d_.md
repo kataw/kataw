@@ -101,7 +101,7 @@ let [enum] = [];
 
 ```javascript
 
-let [enum] = [];
+let  [ enum ] = [] ;
 
 ```
 

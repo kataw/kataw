@@ -134,9 +134,9 @@ try {} catch (e) { var e = x; }
 
 ```javascript
 
-try { }
+try {}
 catch (e){
-  var e = x;
+  var  e = x ;
 }
 
 ```

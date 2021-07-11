@@ -104,7 +104,7 @@
 
 ```javascript
 
-[x = true,] = y;
+[ x = true, ] = y;
 
 ```
 

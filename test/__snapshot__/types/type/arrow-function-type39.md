@@ -153,7 +153,7 @@ type a = (...x: string) => T;
 
 ```javascript
 
-type a = (...x: string) => T
+type a = ( ...x: string ) => T
 
 ```
 

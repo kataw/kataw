@@ -117,7 +117,7 @@ export let x = 10, y = 20
 
 ```javascript
 
-export let x = 10, y = 20;
+export let  x = 10, y = 20 ;
 
 ```
 

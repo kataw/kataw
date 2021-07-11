@@ -103,7 +103,7 @@
 
 ```javascript
 
-`a ${async async => ok} b`;
+` a ${async async => ok}  b`;
 
 ```
 

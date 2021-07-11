@@ -138,7 +138,7 @@ x = {arrow: x => ok}.y
 
 ```javascript
 
-x = { arrow : x => ok }.y;
+x = { arrow: x => ok }.y;
 
 ```
 

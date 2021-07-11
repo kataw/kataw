@@ -169,7 +169,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
 
 ```javascript
 
-function f({ __proto__: x, __proto__: y, ...z }) {}
+function f( { __proto__: x, __proto__: y, ...z } ) {}
 
 ```
 

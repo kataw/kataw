@@ -254,16 +254,16 @@ try {} catch (x) { { var x } }
 
 ```javascript
 
-try { }
+try {}
 catch (x){
   {
-    let x;
+    let  x ;
   }
 }
-try { }
+try {}
 catch (x){
   {
-    var x;
+    var  x ;
   }
 }
 

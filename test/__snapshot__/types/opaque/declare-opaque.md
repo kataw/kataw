@@ -189,7 +189,7 @@ declare opaque
 ;
 declare opaque
 ;
-var a: A;
+var  a: A ;
 
 ```
 

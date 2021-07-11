@@ -146,7 +146,7 @@ class x {static set arguments(x){}}
 ```javascript
 
 class x {
-  static set arguments(x) {}
+  static set arguments( x ) {}
 }
 
 ```

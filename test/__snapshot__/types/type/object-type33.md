@@ -148,7 +148,7 @@ type X = (await:string) => T;
 
 ```javascript
 
-type X = (await: string) => T
+type X = ( await: string ) => T
 
 ```
 

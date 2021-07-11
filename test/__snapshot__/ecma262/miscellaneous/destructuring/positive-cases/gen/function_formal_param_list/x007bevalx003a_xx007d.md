@@ -123,9 +123,9 @@ function f({eval: x}) {}
 
 ```javascript
 
-function f({
+function f( {
     eval: x
-  }) {}
+  } ) {}
 
 ```
 

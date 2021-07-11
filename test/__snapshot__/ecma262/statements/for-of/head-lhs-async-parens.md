@@ -91,7 +91,7 @@ for ((async) of [7]);
 
 ```javascript
 
-for ((async) of [7,])
+for ((async) of [ 7, ])
   ;
 
 ```

@@ -140,9 +140,9 @@ default /* comment 5 */ : /* comment 6 */ foo;
 
 switch/* comment 1 */ (x)/* comment 2 */ {
   case/* comment 3 */ y:/* comment 4 */ 
-    foo;
+    foo; 
   default/* comment 5 */:/* comment 6 */ 
-    foo;
+    foo; 
 } /* comment 7 */
 
 ```

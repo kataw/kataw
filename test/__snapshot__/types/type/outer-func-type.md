@@ -206,7 +206,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
 
 ```javascript
 
-type x = (Record<string, any> | null)[] & { length: 2 }
+type x =  ( Record< string, any > | null )[] & { length: 2 } 
 
 ```
 

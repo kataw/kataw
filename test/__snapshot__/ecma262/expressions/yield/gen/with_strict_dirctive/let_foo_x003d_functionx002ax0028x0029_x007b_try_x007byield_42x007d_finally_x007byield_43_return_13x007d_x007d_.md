@@ -250,7 +250,7 @@
 ```javascript
 
 "'use strict'";
-let foo = function * () {
+let  foo = function * () {
   try {
     yield  42;
   }
@@ -258,7 +258,7 @@ let foo = function * () {
     yield  43;
     return 13;
   }
-};
+} ;
 
 ```
 

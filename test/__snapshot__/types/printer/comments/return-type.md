@@ -173,9 +173,9 @@ function f(
 
 ```javascript
 
-function f(a: number,
+function f( a: number,
    // some comment here
-)
+ )
  // some comment here
 : number {
   return a + 1;

@@ -684,10 +684,10 @@ class Test {
     return this.#y;
   }
   world() {
-    return [1, [2, 3,], 4,];
+    return [ 1, [ 2, 3, ], 4, ];
   }
   hello() {
-    [this.#x, this.#y, this.z,] = this.world();
+    [ this.#x, this.#y, this.z, ] = this.world();
   }
 }
 

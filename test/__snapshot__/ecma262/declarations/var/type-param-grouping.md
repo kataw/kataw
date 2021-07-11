@@ -128,7 +128,7 @@ var a: Array<(number)>
 
 ```javascript
 
-var a: Array<(number)>;
+var  a: Array< (number) > ;
 
 ```
 

@@ -200,7 +200,7 @@ type a = (b[()=> c]) => c;
 
 ```javascript
 
-type a = (b[ () => c]) => c
+type a = ( b[ () => c] ) => c
 
 ```
 

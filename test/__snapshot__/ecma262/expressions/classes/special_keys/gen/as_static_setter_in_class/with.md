@@ -146,7 +146,7 @@ class x {static set with(x){}}
 ```javascript
 
 class x {
-  static set with(x) {}
+  static set with( x ) {}
 }
 
 ```

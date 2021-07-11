@@ -85,7 +85,7 @@ function f(f) { }
 
 ```javascript
 
-function f(f) {}
+function f( f ) {}
 
 ```
 

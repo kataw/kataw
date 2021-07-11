@@ -112,7 +112,7 @@ async (x, y) => ok, a
 
 ```javascript
 
-async (x, y) => ok, a;
+ async ( x, y ) => ok, a ;
 
 ```
 

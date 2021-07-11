@@ -135,7 +135,7 @@ a = [[x[async]]] = value;
 
 ```javascript
 
-a = [[x[async],],] = value;
+a = [ [ x[async], ], ] = value;
 
 ```
 

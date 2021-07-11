@@ -108,8 +108,8 @@ do;while(j)try{}finally{}
 
 do
   ; while (j)
-try { }
-finally { }
+try {}
+finally {}
 
 ```
 

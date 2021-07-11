@@ -121,7 +121,7 @@ let [...foo] = obj;
 
 ```javascript
 
-let [...foo] = obj;
+let  [ ...foo ] = obj ;
 
 ```
 

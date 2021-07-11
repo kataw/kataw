@@ -1236,7 +1236,7 @@ class Four {
   get ["'prototype'"]() {}
 }
 class Five {
-  set ["'prototype'"](x) {}
+  set ["'prototype'"]( x ) {}
 }
 class Six {
   async ["'prototype'"]() {}
@@ -1254,7 +1254,7 @@ class Ten {
   static get ["'prototype'"]() {}
 }
 class Eleven {
-  static set ["'prototype'"](x) {}
+  static set ["'prototype'"]( x ) {}
 }
 class Twelve {
   static async ["'prototype'"]() {}

@@ -123,7 +123,7 @@ for (var a=1, b=2;;);
 
 ```javascript
 
-for (var a = 1, b = 2;;)
+for (var  a = 1, b = 2 ;;)
   ;
 
 ```

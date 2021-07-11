@@ -75,7 +75,7 @@
 
 ```javascript
 
-[this,];
+[ this, ];
 
 ```
 

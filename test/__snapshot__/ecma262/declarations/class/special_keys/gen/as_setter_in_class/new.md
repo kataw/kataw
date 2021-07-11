@@ -141,7 +141,7 @@ class x {set new(x){}}
 ```javascript
 
 class x {
-  set new(x) {}
+  set new( x ) {}
 }
 
 ```

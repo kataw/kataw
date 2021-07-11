@@ -152,7 +152,7 @@ const [x, ...[foo, bar]] = obj;
 
 ```javascript
 
-const [x, ...[foo, bar]] = obj;
+const  [ x, ...[ foo, bar ] ] = obj ;
 
 ```
 

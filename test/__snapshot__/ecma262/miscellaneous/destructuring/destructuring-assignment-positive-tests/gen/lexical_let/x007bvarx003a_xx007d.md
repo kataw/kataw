@@ -191,8 +191,8 @@
 ```javascript
 
 "'use strict'";
-let x, y, z;
-({ var : x } = {});
+let  x, y, z ;
+({ var: x } = {});
 
 ```
 

@@ -158,7 +158,7 @@ declare function foo(x: number, y: string): void;
 
 ```javascript
 
-declare function foo(x: number, y: string): void 
+declare function foo( x: number, y: string ): void 
 ;
 
 ```

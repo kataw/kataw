@@ -131,7 +131,7 @@ var x; export {x as a,}
 
 ```javascript
 
-var x;
+var  x ;
 export { x as  a, };
 
 ```

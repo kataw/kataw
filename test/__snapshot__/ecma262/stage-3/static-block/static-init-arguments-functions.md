@@ -665,21 +665,21 @@ class C {
 
 class C {
   static  {
-    (function ({
+    (function ( {
         test262 = fnParam = arguments
-      }) {
+      } ) {
       fn = arguments;
-    })("'function'");
-    (function * ({
+    })( "'function'" );
+    (function * ( {
         test262 = genParam = arguments
-      }) {
+      } ) {
       gen = arguments;
-    })("'generator function'").next();
-    (async function ({
+    })( "'generator function'" ).next();
+    (async function ( {
         test262 = asyncFnParam = arguments
-      }) {
+      } ) {
       asyncFn = arguments;
-    })("'async function'");
+    })( "'async function'" );
   }
 }
 

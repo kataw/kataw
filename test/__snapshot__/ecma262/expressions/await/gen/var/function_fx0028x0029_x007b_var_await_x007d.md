@@ -246,12 +246,12 @@ var await; var f = (async function() { function f() { var await; } });
 
 ```javascript
 
-var await;
-var f = (async function () {
+var  await ;
+var  f = (async function () {
   function f() {
-    var await;
+    var  await ;
   }
-});
+}) ;
 
 ```
 

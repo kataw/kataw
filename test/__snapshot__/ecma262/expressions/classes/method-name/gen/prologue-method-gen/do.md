@@ -144,7 +144,7 @@
 ```javascript
 
 "'use strict'";
-({ * do(x, y) {} });
+({ * do( x, y ) {} });
 
 ```
 

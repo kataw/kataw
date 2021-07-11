@@ -100,7 +100,7 @@
 
 ```javascript
 
-[a, , b,] = array;
+[ a, , b, ] = array;
 
 ```
 

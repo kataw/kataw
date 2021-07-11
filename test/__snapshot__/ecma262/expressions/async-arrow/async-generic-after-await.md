@@ -186,7 +186,7 @@ async () => {
 
 async () => {
   await null;
-  async <T>() => null;
+  async < T >() => null;
 };
 
 ```

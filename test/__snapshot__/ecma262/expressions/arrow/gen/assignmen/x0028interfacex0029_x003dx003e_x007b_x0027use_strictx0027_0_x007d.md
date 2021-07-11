@@ -133,7 +133,7 @@ x = (interface) => { 'use strict'; 0 } ;
 
 ```javascript
 
-x = (interface) => {
+x = ( interface ) => {
 "'use strict'";
   0;
 };

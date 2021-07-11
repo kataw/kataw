@@ -144,11 +144,11 @@ const obj = {
 
 ```javascript
 
-const obj = {
+const  obj = {
   async,
   * generator() {
   }
-};
+} ;
 
 ```
 

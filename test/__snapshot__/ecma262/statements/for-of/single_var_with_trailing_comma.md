@@ -113,9 +113,9 @@ for (let {x,} of obj);
 
 ```javascript
 
-for (let {
+for (let  {
   x,
-} of obj)
+}  of obj)
   ;
 
 ```

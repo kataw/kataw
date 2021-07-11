@@ -125,9 +125,9 @@
 ```javascript
 
 {
-  let x;
+  let  x ;
 }
-var x;
+var  x ;
 
 ```
 

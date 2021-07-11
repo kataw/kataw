@@ -1068,67 +1068,67 @@ const hj = [
 
 ```javascript
 
-[/* element 1*/1 /* end of element 1 */, 2 /* end of element 2 */,];
-const ix = [, ,/* comment */];
-var iq = [, ,/* comment */];
-[,/* comment */];
-var aryuray = [
+[ /* element 1*/1 /* end of element 1 */, 2 /* end of element 2 */, ];
+const  ix = [ , ,/* comment */ ] ;
+var  iq = [ , ,/* comment */ ] ;
+[ ,/* comment */ ];
+var  aryuray = [
   ,
   ,/* comment */
-];
-var ayiu = [/* comment */];
-const yuid = [1 /* comment */,];
-const yiyv = [/* comment */1 /* comment */,];
-const yig = [
+] ;
+var  ayiu = [/* comment */] ;
+const  yuid = [ 1 /* comment */, ] ;
+const  yiyv = [ /* comment */1 /* comment */, ] ;
+const  yig = [
    // comment start
   1,
   2,
    // comment end
-];
-const yius = [
+] ;
+const  yius = [
    /* element 1 */
   1,
    /* end of element 1 */
-];
-const yuh = [
+] ;
+const  yuh = [
    /* element 1 */
   1,
    /* end of element 1 */
   /* extra comment */
-];
-const hsy = [
+] ;
+const  hsy = [
   1,/* comment */
-];
-const aiya = [
+] ;
+const  aiya = [
    // comment start
   1,
   2,
    // comment end
-];
-const hj = [
+] ;
+const  hj = [
    /* element 1 */
   1,
    /* end of element 1 */
   /* extra comment */
-];
-const ig = [
+] ;
+const  ig = [
    /* element 1 */
   1,
    /* end of element 1 */
   /* extra comment */
-];
-const yj = [
+] ;
+const  yj = [
    /* element 1 */
   1,
    /* end of element 1 */
   /* extra comment */
-];
-const ka = [
+] ;
+const  ka = [
    /* element 1 */
   1,
    /* end of element 1 */
   /* extra comment */
-];
+] ;
 
 ```
 

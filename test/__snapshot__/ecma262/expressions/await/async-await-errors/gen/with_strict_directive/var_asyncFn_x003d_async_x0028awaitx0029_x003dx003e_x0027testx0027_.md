@@ -128,7 +128,7 @@
 ```javascript
 
 "'use strict'";
-var asyncFn = async (await) => "'test'";
+var  asyncFn = async ( await ) => "'test'" ;
 
 ```
 

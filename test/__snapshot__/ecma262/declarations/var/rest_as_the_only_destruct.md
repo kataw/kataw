@@ -122,7 +122,7 @@ var [...foo] = obj;
 
 ```javascript
 
-var [...foo] = obj;
+var  [ ...foo ] = obj ;
 
 ```
 

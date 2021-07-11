@@ -129,7 +129,7 @@
 
 ```javascript
 
-({ class(x, y) {} });
+({ class( x, y ) {} });
 
 ```
 

@@ -175,7 +175,7 @@ async function a(){     async ({r} = await bar);     }
 ```javascript
 
 async function a() {
-  async({ r } = await bar);
+  async( { r } = await bar );
 }
 
 ```

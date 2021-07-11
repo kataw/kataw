@@ -146,10 +146,10 @@ function f({arguments: x, ...z}) {}
 
 ```javascript
 
-function f({
+function f( {
     arguments: x,
     ...z
-  }) {}
+  } ) {}
 
 ```
 

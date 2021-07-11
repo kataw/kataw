@@ -132,7 +132,7 @@
 
 ```javascript
 
-({ a : { x } = true } = y);
+({ a: { x } = true } = y);
 
 ```
 

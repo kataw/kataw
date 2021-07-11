@@ -114,7 +114,7 @@
 
 ```javascript
 
-[async async => {},].x;
+[ async async => {}, ].x;
 
 ```
 

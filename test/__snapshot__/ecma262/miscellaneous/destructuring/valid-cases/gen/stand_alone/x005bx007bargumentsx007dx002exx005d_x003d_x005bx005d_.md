@@ -121,7 +121,7 @@
 
 ```javascript
 
-[{ arguments }.x,] = [];
+[ { arguments }.x, ] = [];
 
 ```
 

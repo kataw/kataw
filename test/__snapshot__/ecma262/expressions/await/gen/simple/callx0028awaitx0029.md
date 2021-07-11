@@ -74,7 +74,7 @@ call(await)
 
 ```javascript
 
-call(await);
+call( await );
 
 ```
 

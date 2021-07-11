@@ -103,9 +103,9 @@ async ({await}) => 1;
 
 ```javascript
 
-async ({
+async ( {
     await
-  }) => 1;
+  } ) => 1;
 
 ```
 

@@ -155,7 +155,7 @@ async (x = delete ((interface) = f)) => {}
 
 ```javascript
 
-async (x = delete  ((interface) = f)) => {};
+async ( x = delete  ((interface) = f) ) => {};
 
 ```
 

@@ -104,7 +104,7 @@ let [foo=a] = arr;
 
 ```javascript
 
-let [foo = a] = arr;
+let  [ foo = a ] = arr ;
 
 ```
 

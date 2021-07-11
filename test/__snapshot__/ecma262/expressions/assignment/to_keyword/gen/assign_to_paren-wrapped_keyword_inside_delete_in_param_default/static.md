@@ -155,7 +155,7 @@ async (x = delete ((static) = f)) => {}
 
 ```javascript
 
-async (x = delete  ((static) = f)) => {};
+async ( x = delete  ((static) = f) ) => {};
 
 ```
 

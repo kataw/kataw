@@ -239,8 +239,8 @@ async function f() { 'use strict'; let a; for await ({[Symbol.iterator]: a} of [
 
 async function f() {
 "'use strict'";
-  let a;
-  for await ({ [Symbol.iterator] : a } of [])
+  let  a ;
+  for await ({ [Symbol.iterator]: a } of [])
     ;
 }
 

@@ -77,7 +77,7 @@
 
 ```javascript
 
-({ x : false });
+({ x: false });
 
 ```
 

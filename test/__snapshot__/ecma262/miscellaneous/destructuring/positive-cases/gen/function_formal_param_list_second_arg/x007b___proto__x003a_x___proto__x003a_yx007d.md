@@ -154,10 +154,10 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
 
 ```javascript
 
-function f(argument1, {
+function f( argument1, {
     __proto__: x,
     __proto__: y
-  }) {}
+  } ) {}
 
 ```
 

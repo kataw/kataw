@@ -118,7 +118,7 @@
 ```javascript
 
 {
-  for (a, b; c; of)
+  for ( a, b ; c; of)
     d;
 }
 

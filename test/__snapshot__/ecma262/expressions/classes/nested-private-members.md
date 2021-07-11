@@ -1349,7 +1349,7 @@
 });
 (class  {
   a = class  {
-    set #a(foo) {}
+    set #a( foo ) {}
   }
 });
 (class  {

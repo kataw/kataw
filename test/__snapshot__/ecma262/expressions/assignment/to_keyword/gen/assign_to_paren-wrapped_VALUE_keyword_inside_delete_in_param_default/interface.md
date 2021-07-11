@@ -159,7 +159,7 @@ function *f(x = delete ((interface) = f)) {}
 
 ```javascript
 
-function * f(x = delete  ((interface) = f)) {}
+function * f( x = delete  ((interface) = f) ) {}
 
 ```
 

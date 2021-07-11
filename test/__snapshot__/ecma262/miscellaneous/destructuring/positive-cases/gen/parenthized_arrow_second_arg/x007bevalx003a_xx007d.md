@@ -157,9 +157,9 @@ var f = (argument1,{eval: x}) => {};
 
 ```javascript
 
-var f = (argument1, {
+var  f = ( argument1, {
     eval: x
-  }) => {};
+  } ) => {} ;
 
 ```
 

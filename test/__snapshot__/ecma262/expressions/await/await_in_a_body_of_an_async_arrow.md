@@ -133,9 +133,9 @@ let y = async x => { await x; }
 
 ```javascript
 
-let y = async x => {
+let  y = async x => {
   await x;
-};
+} ;
 
 ```
 

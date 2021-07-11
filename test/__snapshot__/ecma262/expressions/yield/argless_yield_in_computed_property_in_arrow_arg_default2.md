@@ -143,7 +143,7 @@
 ```javascript
 
 {
-  (x = { [yield] : 1 }) => z;
+  ( x = { [yield]: 1 } ) => z;
 }
 
 ```

@@ -114,7 +114,7 @@
 
 ```javascript
 
-[1, 2, ...target = source];
+[ 1, 2, ...target = source ];
 
 ```
 

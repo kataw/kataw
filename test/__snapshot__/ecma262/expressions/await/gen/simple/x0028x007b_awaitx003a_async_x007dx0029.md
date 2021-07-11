@@ -87,7 +87,7 @@
 
 ```javascript
 
-({ await : async });
+({ await: async });
 
 ```
 

@@ -180,10 +180,10 @@ var f = (argument1,{arguments: x, ...z}) => {};
 
 ```javascript
 
-var f = (argument1, {
+var  f = ( argument1, {
     arguments: x,
     ...z
-  }) => {};
+  } ) => {} ;
 
 ```
 

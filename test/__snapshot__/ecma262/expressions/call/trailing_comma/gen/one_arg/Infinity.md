@@ -74,7 +74,7 @@ foo(x,);
 
 ```javascript
 
-foo(x,);
+foo( x, );
 
 ```
 

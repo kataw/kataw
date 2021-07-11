@@ -179,7 +179,7 @@ type A = (Array<string>,) => void
 
 ```javascript
 
-type A = (Array<string>,) => void
+type A = (  Array< string >,  ) => void
 
 ```
 

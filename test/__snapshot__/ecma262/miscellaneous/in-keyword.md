@@ -1707,13 +1707,13 @@ let tests = [
 
 ```javascript
 
-let tests = [
+let  tests = [
    // objects on RHS
   function () {
     ("'foo'" in {});
-    ("'foo'" in { foo : null });
+    ("'foo'" in { foo: null });
     (0 in {});
-    (0 in { "\"0\"" : null });
+    (0 in { "\"0\"": null });
   },
    // arrays on RHS
   function () {
@@ -1723,8 +1723,8 @@ let tests = [
   },
    // primitive classes on RHS
   function () {
-    ("'foo'" in new String("'bar'"));
-    ("'foo'" in new Number(123));
+    ("'foo'" in new String( "'bar'" ));
+    ("'foo'" in new Number( 123 ));
   },
    // primitives on RHS
   function () {
@@ -1743,16 +1743,16 @@ let tests = [
   },
    // in predicates
   function () {
-    if ("'foo'" in 123) { } // error
-    if (! "'foo'" in {}) { } // error, !'foo' is a boolean
-    if (! ("'foo'" in {})) { }
+    if ("'foo'" in 123) {} // error
+    if (! "'foo'" in {}) {} // error, !'foo' is a boolean
+    if (! ("'foo'" in {})) {}
   },
    // annotations on RHS
-  function (x: Object, y: mixed) {
+  function ( x: Object, y: mixed ) {
     ("'foo'" in x); // ok
     ("'foo'" in y); // error
   },
-];
+] ;
 
 ```
 

@@ -10455,7 +10455,7 @@ class x {
   get #a() {}
 });
 (class  {
-  set #a(foo) {}
+  set #a( foo ) {}
 });
 (class  {
   * #a() {}
@@ -10472,22 +10472,22 @@ class x {
 });
 (class  {
   get #a() {}
-  set #a(foo) {}
+  set #a( foo ) {}
 });
 (class  {
   get #a() {}
   get #b() {}
-  set #a(foo) {}
+  set #a( foo ) {}
 });
 (class  {
   get #a() {}
   get #b() {}
-  set #a(foo) {}
-  set #b(foo) {}
+  set #a( foo ) {}
+  set #b( foo ) {}
 });
 (class  {
-  set #a(foo) {}
-  set #b(foo) {}
+  set #a( foo ) {}
+  set #b( foo ) {}
 });
 (class  {
   get #a() {}
@@ -10512,9 +10512,9 @@ class x {
   static get a() {}
 });
 (class  {
-  set #a(foo) {}
-  set a(foo) {}
-  static set a(foo) {}
+  set #a( foo ) {}
+  set a( foo ) {}
+  static set a( foo ) {}
 });
 (class  {
   #a() {}
@@ -10568,22 +10568,22 @@ class x {
   get #arguments() {}
 });
 (class  {
-  set #yield(test) {}
+  set #yield( test ) {}
 });
 (class  {
-  set #async(test) {}
+  set #async( test ) {}
 });
 (class  {
-  set #await(test) {}
+  set #await( test ) {}
 });
 (class  {
-  set #set(test) {}
+  set #set( test ) {}
 });
 (class  {
-  set #static(test) {}
+  set #static( test ) {}
 });
 (class  {
-  set #arguments(test) {}
+  set #arguments( test ) {}
 });
 (class  {
   async #yield() {}
@@ -10661,7 +10661,7 @@ class x {
 (class  {
   #b
   ;
-  set #a(foo) {}
+  set #a( foo ) {}
 });
 (class  {
   #b
@@ -10691,7 +10691,7 @@ class x {
 (class  {
   #b = 1
   ;
-  set #a(foo) {}
+  set #a( foo ) {}
 });
 (class  {
   #b = 1
@@ -10721,7 +10721,7 @@ class x {
 (class  {
   a
   ;
-  set #a(foo) {}
+  set #a( foo ) {}
 });
 (class  {
   a
@@ -10751,7 +10751,7 @@ class x {
 (class  {
   a = 1
   ;
-  set #a(foo) {}
+  set #a( foo ) {}
 });
 (class  {
   a = 1

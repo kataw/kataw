@@ -146,9 +146,9 @@ foo({bar(){ new.target }})
 
 ```javascript
 
-foo({ bar() {
+foo( { bar() {
     new.target;
-  } });
+  } } );
 
 ```
 

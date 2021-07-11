@@ -138,7 +138,7 @@ switch (x) { case x: const y = x }
 
 switch (x) {
   case x: 
-    const y = x;
+    const  y = x ; 
 }
 
 ```

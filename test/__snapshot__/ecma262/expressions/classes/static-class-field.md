@@ -4779,7 +4779,7 @@ class x {
   a
 });
 (class C {
-  static c = [c,] = c
+  static c = [ c, ] = c
 });
 (class  {
   static a = 0

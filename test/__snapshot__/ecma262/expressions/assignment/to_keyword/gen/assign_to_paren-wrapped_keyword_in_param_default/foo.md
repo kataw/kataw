@@ -137,7 +137,7 @@ async (x = (foo) = f) => {}
 
 ```javascript
 
-async (x = (foo) = f) => {};
+async ( x = (foo) = f ) => {};
 
 ```
 

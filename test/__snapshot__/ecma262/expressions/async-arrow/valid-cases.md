@@ -2128,39 +2128,39 @@ async a => await 1;
 
 ```javascript
 
-(async, x) => {};
+( async, x ) => {};
 async();
-async(x);
-async(...x);
-async(...x, ...y);
+async( x );
+async( ...x );
+async( ...x, ...y );
 async () => {};
 async x => {};
-async (x) => {};
-async (...x) => {};
+async ( x ) => {};
+async ( ...x ) => {};
 async x => await 0;
 async () => await 0;
-(async x => y, z);
-(async x => (y, z));
-(async (x) => y), z;
-(async (x) => y, z);
-(async (x) => (y, z));
-async x => y, z;
-async x => (y, z);
-async (x) => (y, z);
-async (x) => y, z;
-foo = async ({
+( async x => y, z );
+(async x => ( y, z ));
+ (async ( x ) => y), z ;
+( async ( x ) => y, z );
+(async ( x ) => ( y, z ));
+ async x => y, z ;
+async x => ( y, z );
+async ( x ) => ( y, z );
+ async ( x ) => y, z ;
+foo = async ( {
     async: bar
-  }) => {
+  } ) => {
   await baz;
 };
 ;
-var x = async (a, b) => await a + b;
-var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
-f(a, async b => await b);
+var  x = async ( a, b ) => await a + b ;
+var  x = async ( a, b, c, d, e, f, g ) => await a + await b + c + d + e + f + g ;
+f( a, async b => await b );
 async a => {
   await a;
 };
-async function foo(a = async () => await b) {}
+async function foo( a = async () => await b ) {}
 ;
 async a => await 1;
 

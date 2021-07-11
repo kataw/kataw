@@ -131,7 +131,7 @@ switch (a) { case b: let x }
 
 switch (a) {
   case b: 
-    let x;
+    let  x ; 
 }
 
 ```

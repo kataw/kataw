@@ -158,7 +158,7 @@ z(z(z(a ? b : c++)));
 
 ```javascript
 
-z(z(z(a ? b : c++)));
+z( z( z( a ? b : c++ ) ) );
 
 ```
 

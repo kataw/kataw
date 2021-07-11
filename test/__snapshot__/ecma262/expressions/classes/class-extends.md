@@ -1189,9 +1189,9 @@
 });
 (class name extends F {
 });
-(class  extends (F, G) {
+(class  extends ( F, G ) {
 });
-(class name extends (F, G) {
+(class name extends ( F, G ) {
 });
 (class  extends class  {
 } {
@@ -1213,7 +1213,7 @@
 ;
 "'use strict'";
 {
-  class name extends (F, G) {
+  class name extends ( F, G ) {
   }
 }
 ;

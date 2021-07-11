@@ -288,9 +288,9 @@ var c: { (): string; (x: number): string } =
 
 ```javascript
 
-var c: { (): string, (x: number): string } = function (x: number): string {
+var  c: { (): string, ( x: number ): string } = function ( x: number ): string {
   return "\"hi\"";
-};
+} ;
 
 ```
 

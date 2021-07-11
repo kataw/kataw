@@ -185,7 +185,7 @@
 
 "'use strict'";
 async function a() {
-  async([v,] = await bar);
+  async( [ v, ] = await bar );
 }
 
 ```

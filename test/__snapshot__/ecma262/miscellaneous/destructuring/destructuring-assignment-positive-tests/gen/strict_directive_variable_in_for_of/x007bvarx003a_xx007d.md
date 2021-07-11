@@ -193,8 +193,8 @@
 ```javascript
 
 "'use strict'";
-var x, y, z;
-for ({ var : x } of {})
+var  x, y, z ;
+for ({ var: x } of {})
   ;
 
 ```

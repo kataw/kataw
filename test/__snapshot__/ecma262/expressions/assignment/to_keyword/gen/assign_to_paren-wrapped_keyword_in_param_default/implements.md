@@ -137,7 +137,7 @@ async (x = (implements) = f) => {}
 
 ```javascript
 
-async (x = (implements) = f) => {};
+async ( x = (implements) = f ) => {};
 
 ```
 

@@ -167,8 +167,8 @@
 
 function x() {
   {
-    var f;
-    var f;
+    var  f ;
+    var  f ;
   }
 }
 

@@ -175,23 +175,23 @@ export interface PrinterOptions {
 /** @internal */
 export function printCST(node: RootNode, options?: PrinterOptions): string {
   let indent = 0;
-  let context = PrinterContext.None;
+  let context = PrinterContext.SpaceBetweenBraces;
 
   if (options != null) {
     if (options.indent) indent = options.indent;
     if (options.singleQuote) context |= PrinterContext.SingleQuote;
-    if (options.singleQuote) context |= PrinterContext.NoSemicolon;
-    if (options.singleQuote) context |= PrinterContext.NoComments;
-    if (options.singleQuote) context |= PrinterContext.NoObjectCurlySpacing;
-    if (options.singleQuote) context |= PrinterContext.ArrayBracketSpacing;
-    if (options.singleQuote) context |= PrinterContext.ComputedPropertySpacing;
-    if (options.singleQuote) context |= PrinterContext.AllowArrowParens;
-    if (options.singleQuote) context |= PrinterContext.CoerceQuoteProps;
-    if (options.singleQuote) context |= PrinterContext.QuoteProps;
+    if (options.noSemicolon) context |= PrinterContext.NoSemicolon;
+    if (options.noComments) context |= PrinterContext.NoComments;
+    if (options.noObjectCurlySpacing) context &= ~PrinterContext.SpaceBetweenBraces;
+    if (options.arrayBracketSpacing) context |= PrinterContext.SpaceBetweenBrackets;
+    if (options.computedPropertySpacing) context |= PrinterContext.ComputedPropertySpacing;
+    if (options.allowArrowParens) context |= PrinterContext.AllowArrowParens;
+    if (options.coerceQuoteProps) context |= PrinterContext.CoerceQuoteProps;
+    if (options.quoteProps) context |= PrinterContext.QuoteProps;
   }
 
   const printer = createPrinter(node.source, indent);
-  printRootNode(node, printer, PrinterContext.None);
+  printRootNode(node, printer, context);
   return printer.output;
 }
 
@@ -612,7 +612,10 @@ function printList(
   if (0 >= children.length) {
     if (context & PrinterContext.MultiLine) {
       writeLine(printer);
-    } else if (context & PrinterContext.SpaceBetweenBraces && !(context & PrinterContext.NoSpaceIfEmpty)) {
+    } else if (
+      context & (PrinterContext.SpaceBetweenBrackets | PrinterContext.SpaceBetweenBraces) &&
+      !(context & PrinterContext.NoSpaceIfEmpty)
+    ) {
       write(printer, ' ');
     }
   } else {
@@ -621,7 +624,7 @@ function printList(
     if (shouldWriteLeadingLineTerminator(parentNode, printer, children, context)) {
       writeLine(printer);
       shouldEmitInterveningComments = false;
-    } else if (context & PrinterContext.SpaceBetweenBraces) {
+    } else if (PrinterContext.SpaceBetweenBrackets | PrinterContext.SpaceBetweenBraces) {
       write(printer, ' ');
     }
 
@@ -714,7 +717,7 @@ function printList(
 
     if (shouldWriteClosingLineTerminator(parentNode, printer, children, context)) {
       writeLine(printer);
-    } else if (context & PrinterContext.SpaceBetweenBraces) {
+    } else if (PrinterContext.SpaceBetweenBrackets | PrinterContext.SpaceBetweenBraces) {
       write(printer, ' ');
     }
   }
@@ -920,10 +923,7 @@ function printBlock(node: Block, printer: Printer, parentNode: BlockStatement): 
     parentNode,
     node.statements,
     (node.flags & NodeFlags.NewLine) === 0 && isEmptyBlock(node, parentNode, printer)
-      ? PrinterContext.SpaceBetweenBraces |
-          PrinterContext.SpaceBetweenSiblings |
-          PrinterContext.SingleLine |
-          PrinterContext.Braces
+      ? PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Braces
       : PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.NoSpaceIfEmpty | PrinterContext.Braces
   );
 }
@@ -1265,10 +1265,7 @@ function printFunctioBody(node: any, printer: Printer, parentNode: any): void {
       node,
       parentNode,
       statements,
-      PrinterContext.SingleLine |
-        PrinterContext.SpaceBetweenSiblings |
-        PrinterContext.SpaceBetweenBraces |
-        PrinterContext.NoSpaceIfEmpty
+      PrinterContext.SingleLine | PrinterContext.SpaceBetweenSiblings | PrinterContext.NoSpaceIfEmpty
     );
     printer.indent++;
   } else {
@@ -1337,7 +1334,6 @@ function printPropertyDefinitionList(node: any, printer: Printer, parentNode: an
     PrinterContext.PreserveLines |
       PrinterContext.CommaDelimited |
       PrinterContext.SpaceBetweenSiblings |
-      PrinterContext.SpaceBetweenBraces |
       PrinterContext.Indented |
       PrinterContext.Braces |
       PrinterContext.NoSpaceIfEmpty |
@@ -1347,8 +1343,15 @@ function printPropertyDefinitionList(node: any, printer: Printer, parentNode: an
 }
 
 function printPropertyDefinition(node: any, printer: Printer, context: PrinterContext): void {
-  printExpression(node.left, printer, context, node);
-  write(printer, ' ');
+  if (context & PrinterContext.QuoteProps && node.left.kind === SyntaxKind.Identifier) {
+    write(printer, context & PrinterContext.SingleQuote ? "'" : '"');
+    printExpression(node.left, printer, context, node);
+    write(printer, context & PrinterContext.SingleQuote ? "'" : '"');
+  } else if (context & PrinterContext.CoerceQuoteProps) {
+    write(printer, node.left.text);
+  } else {
+    printExpression(node.left, printer, context, node);
+  }
   printPunctuator(':', printer, node.left.end, node, /* addSpace */ true);
   printExpression(node.right, printer, context, node);
 }
@@ -1412,17 +1415,22 @@ function printBindingPropertyList(node: any, printer: Printer, parentNode: any):
     node.properties,
     (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None) |
       ((node.flags & NodeFlags.NewLine) === 0 && isEmptyProperties(node, printer)
-        ? PrinterContext.SingleLine |
-          PrinterContext.SpaceBetweenBraces |
-          PrinterContext.CommaDelimited |
-          PrinterContext.SpaceBetweenSiblings
+        ? PrinterContext.SingleLine | PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings
         : PrinterContext.CommaDelimited | PrinterContext.MultiLine | PrinterContext.Indented)
   );
 }
 
 function printBindingProperty(node: any, printer: Printer, context: PrinterContext): void {
   printKeyword(node.ellipsisToken, printer, node, /* addSpace */ false);
-  printExpression(node.key, printer, context, node);
+  if (context & PrinterContext.QuoteProps && node.key.kind === SyntaxKind.Identifier) {
+    write(printer, context & PrinterContext.SingleQuote ? "'" : '"');
+    printExpression(node.key, printer, context, node);
+    write(printer, context & PrinterContext.SingleQuote ? "'" : '"');
+  } else if (context & PrinterContext.CoerceQuoteProps) {
+    write(printer, node.key.text);
+  } else {
+    printExpression(node.key, printer, context, node);
+  }
   printPunctuator(':', printer, node.key.end, node, /* addSpace */ true);
   printStatement(node.value, printer, context, node);
   printInitializer(node.initializer as any, printer, context, node.value.end, node);
@@ -1445,9 +1453,18 @@ function printArrowParameterList(node: any, printer: Printer, parentNode: any): 
 function printArrowFunction(node: any, printer: Printer, context: PrinterContext): void {
   printKeyword(node.asyncKeyword, printer, node, /* addSpace */ true);
   if (node.typeParameters) printStatement(node.typeParameters, printer, context, node);
-  node.arrowPatameterList.kind === SyntaxKind.ArrowPatameterList
-    ? printArrowParameterList(node.arrowPatameterList, printer, node)
-    : printStatement(node.arrowPatameterList, printer, context, node);
+
+  if (node.arrowPatameterList.kind === SyntaxKind.ArrowPatameterList) {
+    printArrowParameterList(node.arrowPatameterList, printer, node);
+  } else {
+    if (context & PrinterContext.AllowArrowParens) {
+      write(printer, '(');
+    }
+    printStatement(node.arrowPatameterList, printer, context, node);
+    if (context & PrinterContext.AllowArrowParens) {
+      write(printer, '(');
+    }
+  }
 
   write(printer, ' ');
   printKeyword(node.arrowToken, printer, node, /* addSpace */ true);
@@ -1786,7 +1803,6 @@ function printObjectType(node: ObjectType, printer: Printer, parentNode: SyntaxN
         PrinterContext.CommaDelimited |
         PrinterContext.Braces
       : PrinterContext.SingleLine |
-        PrinterContext.SpaceBetweenBraces |
         PrinterContext.SpaceBetweenSiblings |
         PrinterContext.NoSpaceIfEmpty |
         PrinterContext.CommaDelimited |
@@ -2141,7 +2157,6 @@ function printExportsImportsList(node: any, printer: Printer, context: PrinterCo
       PrinterContext.SpaceBetweenSiblings |
       PrinterContext.AllowTrailingComma |
       PrinterContext.SingleLine |
-      PrinterContext.SpaceBetweenBraces |
       PrinterContext.Braces
   );
 }

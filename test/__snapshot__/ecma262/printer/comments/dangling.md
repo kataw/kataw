@@ -298,11 +298,11 @@ Thing(/* dangling */);
 
 ```javascript
 
-var a = {/* dangling */};
-var b = {
+var  a = {/* dangling */} ;
+var  b = {
  // dangling
-};
-var b = [/* dangling */];
+} ;
+var  b = [/* dangling */] ;
 function d() {
  /* dangling */
 }

@@ -223,9 +223,9 @@ const test = (names: string[]) =>
 
 ```javascript
 
-const test = (names: string[]) => 
+const  test = ( names: string[] ) => 
  // single-line comment
-names?.filter(x => x);
+names?.filter( x => x ) ;
 
 ```
 

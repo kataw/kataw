@@ -101,7 +101,7 @@ function log(n, op, val,) { }
 
 ```javascript
 
-function log(n, op, val,) {}
+function log( n, op, val, ) {}
 
 ```
 

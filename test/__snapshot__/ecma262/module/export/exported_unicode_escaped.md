@@ -127,7 +127,7 @@ export { \u0061bc }
 
 ```javascript
 
-var abc = 5;
+var  abc = 5 ;
 export { \u0061bc, };
 
 ```

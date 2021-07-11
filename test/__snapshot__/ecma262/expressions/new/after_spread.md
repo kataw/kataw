@@ -90,7 +90,7 @@
 
 ```javascript
 
-[...new A()];
+[ ...new A() ];
 
 ```
 

@@ -132,10 +132,10 @@ for (let {x, y = z} = obj;;);
 
 ```javascript
 
-for (let {
+for (let  {
   x,
   y = z
-} = obj;;)
+} = obj ;;)
   ;
 
 ```

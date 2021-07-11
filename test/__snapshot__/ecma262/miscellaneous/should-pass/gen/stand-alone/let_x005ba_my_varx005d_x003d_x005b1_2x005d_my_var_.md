@@ -140,7 +140,7 @@ let [a, my_var] = [1, 2]; my_var;
 
 ```javascript
 
-let [a, my_var] = [1, 2,];
+let  [ a, my_var ] = [ 1, 2, ] ;
 my_var;
 
 ```

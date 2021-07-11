@@ -150,7 +150,7 @@
 
 ```javascript
 
-(x = delete  ((interface) = f)) => {};
+( x = delete  ((interface) = f) ) => {};
 
 ```
 

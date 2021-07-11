@@ -134,7 +134,7 @@ fro\u006D
 
 ```javascript
 
-let x;
+let  x ;
 export { x, };
 fro\u006D;
 

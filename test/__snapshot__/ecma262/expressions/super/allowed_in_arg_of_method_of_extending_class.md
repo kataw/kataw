@@ -222,7 +222,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
 
 class x extends y {
   dsda() {
-    return (a = super[bar]) => a;
+    return ( a = super[bar] ) => a;
   }
 }
 

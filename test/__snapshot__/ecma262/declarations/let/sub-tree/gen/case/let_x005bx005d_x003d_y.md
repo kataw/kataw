@@ -146,7 +146,7 @@ switch (a) { case b: let
 
 switch (a) {
   case b: 
-    let [] = y;
+    let  [] = y ; 
 }
 
 ```

@@ -140,10 +140,10 @@ var { __proto__: x, __proto__: y} = {};
 
 ```javascript
 
-var {
+var  {
   __proto__: x,
   __proto__: y
-} = {};
+} = {} ;
 
 ```
 

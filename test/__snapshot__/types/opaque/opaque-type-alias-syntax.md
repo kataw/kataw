@@ -464,7 +464,7 @@ opaque type StringAlias = string
 ;
 opaque type ObjectAlias = { property: string, method(): number }
 ;
-opaque type UnionAlias = 1 | 2 | 3
+opaque type UnionAlias =  1 | 2 | 3 
 ;
 opaque type AliasAlias: ObjectAlias = ObjectAlias
 ;

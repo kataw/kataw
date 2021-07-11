@@ -238,7 +238,7 @@ gen = function*() {};
 
 ```javascript
 
-var xGen, gen;
+var  xGen, gen ;
 xGen = function * x() {};
 gen = function * () {};
 

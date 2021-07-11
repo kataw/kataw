@@ -78,7 +78,7 @@
 
 ```javascript
 
-[void  x,];
+[ void  x, ];
 
 ```
 

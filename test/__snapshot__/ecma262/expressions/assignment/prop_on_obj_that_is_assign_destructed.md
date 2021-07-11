@@ -155,7 +155,7 @@
 
 ```javascript
 
-[...[{ prop : 1 }.prop,]] = [];
+[ ...[ { prop: 1 }.prop, ] ] = [];
 
 ```
 

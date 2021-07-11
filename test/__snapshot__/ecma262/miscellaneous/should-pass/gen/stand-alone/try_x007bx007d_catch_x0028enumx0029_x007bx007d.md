@@ -97,8 +97,8 @@ try {} catch (enum) {}
 
 ```javascript
 
-try { }
-catch (enum){ }
+try {}
+catch (enum){}
 
 ```
 

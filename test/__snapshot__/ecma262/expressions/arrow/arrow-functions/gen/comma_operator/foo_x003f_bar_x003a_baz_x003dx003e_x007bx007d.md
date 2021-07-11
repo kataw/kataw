@@ -130,7 +130,7 @@ bar, foo ? bar : baz => {}
 
 ```javascript
 
-bar, foo ? bar : baz => {};
+ bar, foo ? bar : baz => {} ;
 
 ```
 

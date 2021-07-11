@@ -165,7 +165,7 @@ async function f() { for await (var x of xs); }
 ```javascript
 
 async function f() {
-  for await (var x of xs)
+  for await (var  x  of xs)
     ;
 }
 

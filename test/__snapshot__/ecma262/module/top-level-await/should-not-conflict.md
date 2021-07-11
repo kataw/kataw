@@ -121,7 +121,7 @@ await x;
 
 ```javascript
 
-export const x = 1;
+export const  x = 1 ;
 await x;
 
 ```

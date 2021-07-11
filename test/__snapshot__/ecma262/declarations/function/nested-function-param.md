@@ -501,7 +501,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
 
 ```javascript
 
-function f<X, Y: X, Z: Y, W> (y: Y, z: X, w: W): X {
+function f< X, Y: X, Z: Y, W > ( y: Y, z: X, w: W ): X {
   if (n === 0)
     return y;
   if (n === 1)

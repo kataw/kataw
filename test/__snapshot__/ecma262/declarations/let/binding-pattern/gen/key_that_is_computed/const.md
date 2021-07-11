@@ -116,9 +116,9 @@ const {[a]: c} = v
 
 ```javascript
 
-const {
+const  {
   [a]: c
-} = v;
+} = v ;
 
 ```
 

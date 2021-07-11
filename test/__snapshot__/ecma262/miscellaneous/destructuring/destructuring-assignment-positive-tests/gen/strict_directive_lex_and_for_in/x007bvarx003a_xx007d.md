@@ -251,8 +251,8 @@
 ```javascript
 
 "'use strict'";
-let x, y, z;
-for (x in x = { var : x } = z = {})
+let  x, y, z ;
+for (x in x = { var: x } = z = {})
   ;
 
 ```

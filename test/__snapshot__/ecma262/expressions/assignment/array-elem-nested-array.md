@@ -272,10 +272,10 @@ result = [[x]] = vals;
 
 ```javascript
 
-var x;
-var result;
-var vals = [[1,],];
-result = [[x,],] = vals;
+var  x ;
+var  result ;
+var  vals = [ [ 1, ], ] ;
+result = [ [ x, ], ] = vals;
 
 ```
 

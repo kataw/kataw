@@ -92,7 +92,7 @@ let x = import(x)
 
 ```javascript
 
-let x = import(x);
+let  x = import(x) ;
 
 ```
 

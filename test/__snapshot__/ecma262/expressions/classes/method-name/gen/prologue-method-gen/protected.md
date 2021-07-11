@@ -144,7 +144,7 @@
 ```javascript
 
 "'use strict'";
-({ * protected(x, y) {} });
+({ * protected( x, y ) {} });
 
 ```
 

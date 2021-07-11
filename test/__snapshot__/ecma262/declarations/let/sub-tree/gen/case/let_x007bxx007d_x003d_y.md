@@ -153,9 +153,9 @@ switch (a) { case b: let {x} = y }
 
 switch (a) {
   case b: 
-    let {
+    let  {
       x
-    } = y;
+    } = y ; 
 }
 
 ```

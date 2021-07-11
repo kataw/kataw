@@ -606,8 +606,8 @@ class x extends (/*7*/+ Bar /*8*/)  /*9*/{
 }
 class y extends (Bar /*10*/ ?? Baz) {
 }
-const foo =/*12*/ class  extends (Bar ?? Baz) {
-};
+const  foo =/*12*/ class  extends (Bar ?? Baz) {
+} ;
 
 ```
 

@@ -596,7 +596,7 @@ delete  --foo;
 "\"use strict\"";
 delete  new foo();
 "\"use strict\"";
-delete  new foo(bar);
+delete  new foo( bar );
 
 ```
 

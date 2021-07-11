@@ -159,9 +159,9 @@ try {} catch (e) { for (let e;;) {} }
 
 ```javascript
 
-try { }
+try {}
 catch (e){
-  for (let e;;) { }
+  for (let  e ;;) {}
 }
 
 ```

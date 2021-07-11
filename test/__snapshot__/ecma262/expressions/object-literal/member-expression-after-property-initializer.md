@@ -141,7 +141,7 @@
 
 ```javascript
 
-({ a = 42, b : test.d } = {});
+({ a = 42, b: test.d } = {});
 
 ```
 

@@ -164,7 +164,7 @@ function *g() { async (x = yield) => {}; }
 ```javascript
 
 function * g() {
-  async (x = yield ) => {};
+  async ( x = yield  ) => {};
 }
 
 ```

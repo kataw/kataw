@@ -104,10 +104,10 @@ try {} catch({e}){}
 
 ```javascript
 
-try { }
+try {}
 catch ({
   e
-}){ }
+}){}
 
 ```
 

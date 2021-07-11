@@ -215,7 +215,7 @@ class C {
 
 class C {
   static  {
-    let test262 = "'first block'";
+    let  test262 = "'first block'" ;
   }
   static  {
     probe = test262;

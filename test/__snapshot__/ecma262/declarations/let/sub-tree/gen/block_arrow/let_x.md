@@ -118,7 +118,7 @@
 ```javascript
 
 () => {
-  let x;
+  let  x ;
 };
 
 ```

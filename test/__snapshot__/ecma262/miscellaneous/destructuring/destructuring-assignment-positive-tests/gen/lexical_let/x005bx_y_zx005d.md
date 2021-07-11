@@ -192,8 +192,8 @@
 ```javascript
 
 "'use strict'";
-let x, y, z;
-([x, y, z,] = {});
+let  x, y, z ;
+([ x, y, z, ] = {});
 
 ```
 

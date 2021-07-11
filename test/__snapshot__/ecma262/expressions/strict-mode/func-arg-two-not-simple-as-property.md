@@ -136,7 +136,7 @@
 
 ```javascript
 
-({ x : function (x, y) {
+({ x: function ( x, y ) {
   "\"use strict\"";
   } });
 

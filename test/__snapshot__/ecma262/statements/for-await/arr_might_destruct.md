@@ -201,7 +201,7 @@ async function f(){
 ```javascript
 
 async function f() {
-  for await ([{ x, ...x },] = x of x)
+  for await ([ { x, ...x }, ] = x of x)
     ;
 }
 

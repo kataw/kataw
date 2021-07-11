@@ -141,7 +141,7 @@ function *f(x = (eval) = f) {}
 
 ```javascript
 
-function * f(x = (eval) = f) {}
+function * f( x = (eval) = f ) {}
 
 ```
 

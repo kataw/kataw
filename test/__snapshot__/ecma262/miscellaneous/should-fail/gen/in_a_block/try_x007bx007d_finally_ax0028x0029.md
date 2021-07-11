@@ -125,8 +125,8 @@
 ```javascript
 
 {
-  try { }
-  finally { }
+  try {}
+  finally {}
   a();
 }
 

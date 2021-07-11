@@ -151,7 +151,7 @@
 ```javascript
 
 "'use strict'";
-var O = { async method() {} };
+var  O = { async method() {} } ;
 
 ```
 

@@ -114,7 +114,7 @@ let foo = (async bar => bar);
 
 ```javascript
 
-let foo = (async bar => bar);
+let  foo = (async bar => bar) ;
 
 ```
 

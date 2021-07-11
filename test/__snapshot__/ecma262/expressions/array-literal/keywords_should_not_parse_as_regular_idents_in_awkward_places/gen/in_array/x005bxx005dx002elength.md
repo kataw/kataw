@@ -95,7 +95,7 @@
 
 ```javascript
 
-[[x,].length,];
+[ [ x, ].length, ];
 
 ```
 

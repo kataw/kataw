@@ -93,7 +93,7 @@
 ```javascript
 
 {
-  const enum = null;
+  const  enum = null ;
 }
 
 ```

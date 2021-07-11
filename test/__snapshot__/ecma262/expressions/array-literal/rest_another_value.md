@@ -106,7 +106,7 @@
 
 ```javascript
 
-[x, y, ...z] = obj;
+[ x, y, ...z ] = obj;
 
 ```
 

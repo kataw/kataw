@@ -156,7 +156,7 @@ a = [...{ 0: x, length }] = value;
 
 ```javascript
 
-a = [...{ 0 : x, length }] = value;
+a = [ ...{ 0: x, length } ] = value;
 
 ```
 

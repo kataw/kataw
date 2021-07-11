@@ -521,9 +521,9 @@
 
 ```javascript
 
-({ "\"__proto___\"" : "\"__proto___\"", "\"__proto___\"" : "\"__proto___\"" });
+({ "\"__proto___\"": "\"__proto___\"", "\"__proto___\"": "\"__proto___\"" });
 ({ get prototype() {} });
-({ set prototype(x) {} });
+({ set prototype( x ) {} });
 ({ * prototype() {} });
 ({ async prototype() {} });
 ({ async * prototype() {} });

@@ -132,7 +132,7 @@
 
 ```javascript
 
-(x = (protected) = f) => {};
+( x = (protected) = f ) => {};
 
 ```
 

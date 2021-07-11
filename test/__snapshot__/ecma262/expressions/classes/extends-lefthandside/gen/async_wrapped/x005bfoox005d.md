@@ -165,7 +165,7 @@ async function p(){
 ```javascript
 
 async function p() {
-  class C extends [foo,] {
+  class C extends [ foo, ] {
   }
 }
 

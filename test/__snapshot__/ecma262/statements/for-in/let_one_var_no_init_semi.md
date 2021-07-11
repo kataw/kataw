@@ -97,7 +97,7 @@ for (let foo in x);
 
 ```javascript
 
-for (let foo in x)
+for (let  foo  in x)
   ;
 
 ```

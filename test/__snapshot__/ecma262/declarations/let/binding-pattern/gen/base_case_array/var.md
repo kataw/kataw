@@ -96,7 +96,7 @@ var [x] = v
 
 ```javascript
 
-var [x] = v;
+var  [ x ] = v ;
 
 ```
 

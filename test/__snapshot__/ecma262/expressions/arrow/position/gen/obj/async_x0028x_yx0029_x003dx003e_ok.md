@@ -146,7 +146,7 @@ x = {arrow: async (x, y) => ok}
 
 ```javascript
 
-x = { arrow : async (x, y) => ok };
+x = { arrow: async ( x, y ) => ok };
 
 ```
 

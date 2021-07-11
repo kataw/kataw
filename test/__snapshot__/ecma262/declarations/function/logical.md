@@ -12495,14 +12495,14 @@ function logical19b(x: { y: string, z: boolean }): boolean {
  * A falsy variable on the left side of &&
  */
 function logical1a(): number {// expected `: boolean`
-  var x = false;
+  var  x = false ;
   return x && "'123'";
 }
  /**
  * A truthy variable on the left side of &&
  */
 function logical1b(): string {
-  var x = true;
+  var  x = true ;
   return x && "'123'";
 }
  /**
@@ -12546,78 +12546,78 @@ function logical2f(): string {
  * A literal on the left side of &&
  */
 function logical2g(): string {
-  return [1, 2, 3,] && "'foo'";
+  return [ 1, 2, 3, ] && "'foo'";
 }
  /**
  * A literal on the left side of &&
  */
-function logical2h(x: { a: number }): string {
+function logical2h( x: { a: number } ): string {
   return x && "'foo'";
 }
  /**
  * A literal on the left side of &&
  */
-function logical2i(x: Object): string {
+function logical2i( x: Object ): string {
   return x && "'foo'";
 }
  /**
  * A literal on the left side of &&
  */
-function logical2j(x: (a: number) => number): string {
+function logical2j( x: ( a: number ) => number ): string {
   return x && "'foo'";
 }
  /**
  * A literal on the left side of &&
  */
-function logical2k(x: Function): string {
+function logical2k( x: Function ): string {
   return x && "'foo'";
 }
  /**
  * An expression on the left side of &&
  */
 function logical3a(): string {// expected `: boolean`
-  var x: ?number = null;
+  var  x: ?number = null ;
   return x != null && x > 10;
 }
  /**
  * An expression on the left side of &&
  */
 function logical3b(): number {// expected `: boolean | number`
-  var x: ?number = null;
+  var  x: ?number = null ;
   return x != null && x;
 }
  /**
  * An expression on the left side of &&
  */
 function logical3c(): ?number {// expected `: boolean | ?number`
-  var x: ?number = null;
+  var  x: ?number = null ;
   return x != undefined && x;
 }
  /**
  * Maybe truthy returns both types
  */
-function logical4(x: boolean): string {// expected `: boolean | string`
+function logical4( x: boolean ): string {// expected `: boolean | string`
   return x && "'123'";
 }
  /**
  * A falsy variable on the left side of ||
  */
 function logical5a(): number {
-  var x = false;
+  var  x = false ;
   return x || 0;
 }
  /**
  * A maybe variable on the left side of ||
  */
 function logical5b(): number {
-  var x: ?number = null;
+  var  x: ?number = null ;
   return x || 0;
 }
  /**
  * A truthy variable on the left side of ||
  */
 function logical5c(): string {// expected `: boolean`
-  var x = true;
+  var  x = true ;
   return x || 0;
 }
  /**
@@ -12661,31 +12661,31 @@ function logical6f(): number {
  * A composite && and ||
  */
 function logical7a(): number {
-  var x: ?number = null;
+  var  x: ?number = null ;
   return x != null && x || 0;
 }
  /**
  * A composite && and || where the truthiness is unknown
  */
-function logical7b(x: boolean, y: number): number {
+function logical7b( x: boolean, y: number ): number {
   return x && y || 0;
 }
  /**
  * A composite && and ||
  */
-function logical7c(x: string): number {
+function logical7c( x: string ): number {
   return x && 1 || 0;
 }
  /**
  * A composite && and ||
  */
-function logical7d(x: number): string {
+function logical7d( x: number ): string {
   return x && "'foo'" || "'bar'";
 }
  /**
  * A composite && and ||
  */
-function logical7e(x: number): string {
+function logical7e( x: number ): string {
   return false && x || "'bar'";
 }
  /**
@@ -12695,7 +12695,7 @@ function logical7e(x: number): string {
  * circuits the && because 0 is falsy, so this should just return number.
  */
 function logical8a(): number {
-  var x = false;
+  var  x = false ;
   return (x || 0) && "'foo'";
 }
  /**
@@ -12704,7 +12704,7 @@ function logical8a(): number {
  * `x || 1` always returns something truthy, so this returns a string
  */
 function logical8b(): string {
-  var x = false;
+  var  x = false ;
   return (x || 1) && "'foo'";
 }
  /**
@@ -12713,72 +12713,72 @@ function logical8b(): string {
  * `x` is always truthy, so this returns a string
  */
 function logical8c(): string {
-  var x = true;
+  var  x = true ;
   return (x || 1) && "'foo'";
 }
  /**
  * A composite || and &&
  */
 function logical8d(): number {
-  var x = false;
+  var  x = false ;
   return x || (0 && "'foo'");
 }
  /**
  * A composite || and &&
  */
 function logical8e(): string {
-  var x = false;
+  var  x = false ;
   return x || (1 && "'foo'");
 }
  /**
  * A composite || and &&
  */
 function logical8f(): string {// expected `: boolean`
-  var x = true;
+  var  x = true ;
   return x || (1 && "'foo'");
 }
  /**
  * A composite || and ||
  */
-function logical9a(x: number, y: string): number | string {// expected `: number | string | boolean`
+function logical9a( x: number, y: string ):  number | string  {// expected `: number | string | boolean`
   return x || y || false;
 }
  /**
  * A composite || and ||
  */
-function logical9b(x: number, y: string): number | string {
+function logical9b( x: number, y: string ):  number | string  {
   return false || x || y;
 }
  /**
  * A composite || and ||
  */
-function logical9c(x: number, y: boolean): string {
+function logical9c( x: number, y: boolean ): string {
   return "'a'" || x || y;
 }
  /**
  * A composite && and &&
  */
-function logical10a(x: number, y: string): number | string {// expected `: number | string | boolean`
+function logical10a( x: number, y: string ):  number | string  {// expected `: number | string | boolean`
   return x && y && false;
 }
  /**
  * A composite && and &&
  */
-function logical10b(x: number, y: string): Array<any> {// expected `: boolean`
+function logical10b( x: number, y: string ): Array< any > {// expected `: boolean`
   return false && x && y;
 }
  /**
  * A composite && and &&
  */
-function logical10c(x: number, y: string): Array<any> {// expected `number | boolean`
+function logical10c( x: number, y: string ): Array< any > {// expected `number | boolean`
   return x && false && y;
 }
  /**
  * || in a loop
  */
 function logical11a(): number {
-  var y = 1;
-  for (var x = 0; x++; x  < 5) {
+  var  y = 1 ;
+  for (var  x = 0 ; x++; x  < 5) {
     y = y || true;
   }
   return y;
@@ -12786,8 +12786,8 @@ function logical11a(): number {
  /**
  * || in a loop
  */
-function logical11b(y: number): number {
-  for (var x = 0; x++; x  < 5) {
+function logical11b( y: number ): number {
+  for (var  x = 0 ; x++; x  < 5) {
     y = y || true; // expected a number
   }
   return y;
@@ -12796,9 +12796,9 @@ function logical11b(y: number): number {
  * && in a loop
  */
 function logical12a(): number {
-  var y = 1;
-  var z = true;
-  for (var x = 0; x++; x  < 5) {
+  var  y = 1 ;
+  var  z = true ;
+  for (var  x = 0 ; x++; x  < 5) {
     y = z && y;
     z = false;
   }
@@ -12807,8 +12807,8 @@ function logical12a(): number {
  /**
  * && in a loop
  */
-function logical12b(y: number): number {
-  for (var x = 0; x++; x  < 5) {
+function logical12b( y: number ): number {
+  for (var  x = 0 ; x++; x  < 5) {
     y = y && true; // expected a number
   }
   return y;
@@ -12816,124 +12816,124 @@ function logical12b(y: number): number {
  /**
  * Complex &&
  */
-function logical13(x: number): Array<{ x: string }> {
+function logical13( x: number ): Array< { x: string } > {
   return [
-    { x : x && "\"bar\"" },
-    { x : true && "\"bar\"" },
-    { x : true && false },
-    { x : false && false },
-    { x : 1 && "\"bar\"" },
-    { x : "\"foo\"" && "\"bar\"" },
-    { x : "\"foo\"" && "\"bar\"" },
-    { x : "\"foo\"" && "\"bar\"" },
+    { x: x && "\"bar\"" },
+    { x: true && "\"bar\"" },
+    { x: true && false },
+    { x: false && false },
+    { x: 1 && "\"bar\"" },
+    { x: "\"foo\"" && "\"bar\"" },
+    { x: "\"foo\"" && "\"bar\"" },
+    { x: "\"foo\"" && "\"bar\"" },
   ];
 }
  /**
  * Complex ||
  */
-function logical14(x: number): Array<{ x: string }> {
+function logical14( x: number ): Array< { x: string } > {
   return [
-    { x : x || "\"bar\"" },
-    { x : false || "\"bar\"" },
-    { x : false || true },
-    { x : true || false },
-    { x : 0 || "\"bar\"" },
-    { x : "\"foo\"" || "\"bar\"" },
-    { x : "\"foo\"" || "\"bar\"" },
-    { x : "\"foo\"" || "\"bar\"" },
+    { x: x || "\"bar\"" },
+    { x: false || "\"bar\"" },
+    { x: false || true },
+    { x: true || false },
+    { x: 0 || "\"bar\"" },
+    { x: "\"foo\"" || "\"bar\"" },
+    { x: "\"foo\"" || "\"bar\"" },
+    { x: "\"foo\"" || "\"bar\"" },
   ];
 }
  /**
  * || in an addition
  */
-function logical15a(x: number): number {
+function logical15a( x: number ): number {
   return 5 + (x || 7);
 }
  /**
  * || in an addition
  */
-function logical15b(x: number): number {
+function logical15b( x: number ): number {
   return (x || 7) + 5;
 }
  /**
  * && in an addition
  */
-function logical15c(x: number): number {
+function logical15c( x: number ): number {
   return 5 + (x && 7);
 }
  /**
  * && in an addition
  */
-function logical15d(x: number): number {
+function logical15d( x: number ): number {
   return (x && 7) + 5;
 }
  /**
  * || in a comparison
  */
-function logical16a(x: number): boolean {
+function logical16a( x: number ): boolean {
   return 5  < (x || 7);
 }
  /**
  * || in a comparison
  */
-function logical16b(x: number): boolean {
+function logical16b( x: number ): boolean {
   return (x || 7)  < 5;
 }
  /**
  * && in a comparison
  */
-function logical16c(x: number): boolean {
+function logical16c( x: number ): boolean {
   return 5  < (x && 7);
 }
  /**
  * && in a comparison
  */
-function logical16d(x: number): boolean {
+function logical16d( x: number ): boolean {
   return (x && 7)  < 5;
 }
  /**
  * || in an equality
  */
-function logical17a(x: number): boolean {
+function logical17a( x: number ): boolean {
   return 5 == (x || 7);
 }
  /**
  * || in an equality
  */
-function logical17b(x: number): boolean {
+function logical17b( x: number ): boolean {
   return (x || 7) == 5;
 }
  /**
  * && in an equality
  */
-function logical17c(x: number): boolean {
+function logical17c( x: number ): boolean {
   return 5 == (x && 7);
 }
  /**
  * && in an equality
  */
-function logical17d(x: number): boolean {
+function logical17d( x: number ): boolean {
   return (x && 7) == 5;
 }
  /**
  * Expressions on each side that return truthy things
  */
-function logical18a(x: number, y: number): number {
+function logical18a( x: number, y: number ): number {
   return x - 1 || y - 1;
 }
  /**
  * Sentinel properties should not interfere
  */
-function logical18b(x: { a: number }, y: { b: number }): number {
+function logical18b( x: { a: number }, y: { b: number } ): number {
   return x.a - 1 || y.b - 1;
 }
  /**
  * Layer of indirection in the LHS (get prop)
  */
-function logical19a(x: { y: string, z: boolean }): boolean {
+function logical19a( x: { y: string, z: boolean } ): boolean {
   return (x.y && x.z); // error: x.y is a string
 }
-function logical19b(x: { y: string, z: boolean }): boolean {
+function logical19b( x: { y: string, z: boolean } ): boolean {
   return (x.y || x.z); // error: x.y is a string
 }
 

@@ -120,8 +120,8 @@
 ```javascript
 
 "\"use strict\"";
-try { }
-finally { }
+try {}
+finally {}
 a();
 
 ```

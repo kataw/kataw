@@ -196,12 +196,12 @@ for (var {name: n, family: {father: f}} of people) {}
 
 ```javascript
 
-for (var {
+for (var  {
   name: n,
   family: {
     father: f
   }
-} of people) { }
+}  of people) {}
 
 ```
 

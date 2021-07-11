@@ -132,9 +132,9 @@
 ```javascript
 
 "\"use strict\"";
-const {
+const  {
   [eval]: []
-} = a;
+} = a ;
 
 ```
 

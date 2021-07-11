@@ -143,9 +143,9 @@ function f(x) { { const x = y } }
 
 ```javascript
 
-function f(x) {
+function f( x ) {
   {
-    const x = y;
+    const  x = y ;
   }
 }
 

@@ -159,7 +159,7 @@ function *f(x = delete ((eval) = f)) {}
 
 ```javascript
 
-function * f(x = delete  ((eval) = f)) {}
+function * f( x = delete  ((eval) = f) ) {}
 
 ```
 

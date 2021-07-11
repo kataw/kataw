@@ -114,7 +114,7 @@
 ```javascript
 
 function f() {}
-var f;
+var  f ;
 
 ```
 

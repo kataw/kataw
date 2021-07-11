@@ -130,10 +130,10 @@ var {x : y, z} = obj;
 
 ```javascript
 
-var {
+var  {
   x: y,
   z
-} = obj;
+} = obj ;
 
 ```
 

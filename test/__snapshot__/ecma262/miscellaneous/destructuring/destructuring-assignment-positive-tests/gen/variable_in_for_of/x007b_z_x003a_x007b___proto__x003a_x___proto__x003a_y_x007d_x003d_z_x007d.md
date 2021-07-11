@@ -276,8 +276,8 @@ var x, y, z; for (x of { z : { __proto__: x, __proto__: y } = z } = {});
 
 ```javascript
 
-var x, y, z;
-for (x of { z : { __proto__ : x, __proto__ : y } = z } = {})
+var  x, y, z ;
+for (x of { z: { __proto__: x, __proto__: y } = z } = {})
   ;
 
 ```

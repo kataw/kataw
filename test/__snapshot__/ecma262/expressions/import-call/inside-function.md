@@ -144,8 +144,8 @@ function loadImport(file) {
 
 ```javascript
 
-function loadImport(file) {
-  return import(`test/${file}.js`);
+function loadImport( file ) {
+  return import(` test/${file} .js`);
 }
 
 ```

@@ -163,7 +163,7 @@ class x { static set [y](z){}}
 ```javascript
 
 class x {
-  static set [y](z) {}
+  static set [y]( z ) {}
 }
 
 ```

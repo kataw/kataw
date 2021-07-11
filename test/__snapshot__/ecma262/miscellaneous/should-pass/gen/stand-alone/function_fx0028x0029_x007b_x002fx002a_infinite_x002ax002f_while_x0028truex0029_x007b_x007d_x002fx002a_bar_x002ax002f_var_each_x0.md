@@ -154,8 +154,8 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
 ```javascript
 
 function f() {/* infinite */
-  while (true) { } /* bar */
-  var each;
+  while (true) {} /* bar */
+  var  each ;
 }
 
 ```

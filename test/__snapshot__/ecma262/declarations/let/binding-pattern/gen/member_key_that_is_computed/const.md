@@ -130,9 +130,9 @@ const {[a.b]: c} = v
 
 ```javascript
 
-const {
+const  {
   [a.b]: c
-} = v;
+} = v ;
 
 ```
 

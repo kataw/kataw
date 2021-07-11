@@ -111,7 +111,7 @@ async <T, U>(x)
 
 ```javascript
 
-async  < T, U > (x);
+ async  < T, U > (x) ;
 
 ```
 

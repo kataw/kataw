@@ -149,10 +149,10 @@
 ```javascript
 
 "'use strict'";
-let {
+let  {
   __proto__: x,
   __proto__: y
-} = {};
+} = {} ;
 
 ```
 

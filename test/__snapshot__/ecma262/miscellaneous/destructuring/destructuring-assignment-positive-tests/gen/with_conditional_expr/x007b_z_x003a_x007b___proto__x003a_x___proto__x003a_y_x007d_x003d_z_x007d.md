@@ -331,8 +331,8 @@
 ```javascript
 
 "'use strict'";
-var x, y, z;
-m(["'a'",]) ? { z : { __proto__ : x, __proto__ : y } = z } = {} : rhs;
+var  x, y, z ;
+m( [ "'a'", ] ) ? { z: { __proto__: x, __proto__: y } = z } = {} : rhs;
 
 ```
 

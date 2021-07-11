@@ -110,8 +110,8 @@ try {} finally a()
 
 ```javascript
 
-try { }
-finally { }
+try {}
+finally {}
 a();
 
 ```

@@ -153,7 +153,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  for (let i = 0;; false)
+  for (let  i = 0 ;; false)
     ;
 }
 

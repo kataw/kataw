@@ -128,7 +128,7 @@
 ```javascript
 
 {
-  async (foo = yield, x) => foo;
+  async ( foo = yield, x ) => foo;
 }
 
 ```

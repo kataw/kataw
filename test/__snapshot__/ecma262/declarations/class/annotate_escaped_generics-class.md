@@ -356,7 +356,7 @@ class B<X> {
 
 ```javascript
 
-class B<X> {
+class B< X > {
   s: X
   ;
   f() {

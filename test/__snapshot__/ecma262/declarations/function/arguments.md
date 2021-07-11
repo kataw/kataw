@@ -138,7 +138,7 @@ function f() {
 ```javascript
 
 function f() {
-  var x = arguments[12];
+  var  x = arguments[12] ;
 }
 
 ```

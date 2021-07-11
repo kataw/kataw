@@ -89,9 +89,9 @@ const array = [
 
 ```javascript
 
-const array = [
+const  array = [
   1,/* comment */
-];
+] ;
 
 ```
 

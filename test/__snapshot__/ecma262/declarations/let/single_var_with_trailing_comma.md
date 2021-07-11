@@ -106,9 +106,9 @@ let {x,} = obj;
 
 ```javascript
 
-let {
+let  {
   x,
-} = obj;
+} = obj ;
 
 ```
 

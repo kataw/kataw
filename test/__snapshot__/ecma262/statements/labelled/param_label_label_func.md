@@ -173,7 +173,7 @@ function w(casecase){y:j:function casecase(){}}
 
 ```javascript
 
-function w(casecase) {
+function w( casecase ) {
   y: j: function casecase() {}
 }
 

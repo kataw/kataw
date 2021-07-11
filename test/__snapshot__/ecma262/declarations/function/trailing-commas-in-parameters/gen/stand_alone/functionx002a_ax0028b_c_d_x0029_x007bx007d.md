@@ -114,7 +114,7 @@ function* a(b,c,d,) {}
 
 ```javascript
 
-function * a(b, c, d,) {}
+function * a( b, c, d, ) {}
 
 ```
 

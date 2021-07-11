@@ -109,7 +109,7 @@ for await (const a of b);
 
 ```javascript
 
-for await (const a of b)
+for await (const  a  of b)
   ;
 
 ```

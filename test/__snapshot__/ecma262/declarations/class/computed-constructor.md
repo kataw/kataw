@@ -1236,7 +1236,7 @@ class four {
   get ["'constructor'"]() {}
 }
 class five {
-  set ["'constructor'"](x) {}
+  set ["'constructor'"]( x ) {}
 }
 class six {
   async ["'constructor'"]() {}
@@ -1254,7 +1254,7 @@ class ten {
   static get ["'constructor'"]() {}
 }
 class eleven {
-  static set ["'constructor'"](x) {}
+  static set ["'constructor'"]( x ) {}
 }
 class twelve {
   static async ["'constructor'"]() {}

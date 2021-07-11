@@ -3310,9 +3310,9 @@ for (;;) {}});
 
 (function * gen() {
   yield  2;
-})(function * gen() {
+})( function * gen() {
   yield *  2;
-});
+} );
 (function * gen() {
   yield *  2;
 });
@@ -3363,7 +3363,7 @@ for (;;) {}});
   (yield );
 });
 (function * gen() {
-  [yield ,];
+  [ yield , ];
 });
 (function * gen() {
   {
@@ -3371,7 +3371,7 @@ for (;;) {}});
   }
 });
 (function * gen() {
-  yield , yield ;
+   yield , yield  ;
 });
 (function * gen() {
   yield ;
@@ -3386,18 +3386,18 @@ for (;;) {}});
  // If there is a newline before the next token, we don't look for RHS.
 (function * gen() {
   yield ;
-  for (;;) { }
+  for (;;) {}
 });
 (function * gen() {
   x = class  extends (yield ) {
   };
 });
 (function * gen() {
-  x = class  extends f(yield ) {
+  x = class  extends f( yield  ) {
   };
 });
 (function * gen() {
-  x = class  extends (null, yield ) {
+  x = class  extends ( null, yield  ) {
   };
 });
 (function * gen() {

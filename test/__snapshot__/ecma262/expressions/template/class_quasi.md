@@ -95,8 +95,8 @@
 
 ```javascript
 
-`${class x {
-}}`;
+` ${class x {
+}} `;
 
 ```
 

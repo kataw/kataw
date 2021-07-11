@@ -245,10 +245,10 @@ var await; var f = (async function() { (function call(foo=await){}) });
 
 ```javascript
 
-var await;
-var f = (async function () {
-  (function call(foo = await) {});
-});
+var  await ;
+var  f = (async function () {
+  (function call( foo = await ) {});
+}) ;
 
 ```
 

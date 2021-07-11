@@ -214,7 +214,7 @@ function * gen() { function not_gen() { var [yield] = [42]; }}
 
 function * gen() {
   function not_gen() {
-    var [yield] = [42,];
+    var  [ yield ] = [ 42, ] ;
   }
 }
 

@@ -136,9 +136,9 @@ function f(x) { { let x } }
 
 ```javascript
 
-function f(x) {
+function f( x ) {
   {
-    let x;
+    let  x ;
   }
 }
 

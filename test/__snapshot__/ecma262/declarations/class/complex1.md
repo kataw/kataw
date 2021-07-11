@@ -913,10 +913,10 @@ class D<T> {
 
 ```javascript
 
-class C<X, Y> {
+class C< X, Y > {
   x: X
   ;
-  constructor(x: X) {
+  constructor( x: X ) {
     this.x = x;
   }
   get(): X {
@@ -926,10 +926,10 @@ class C<X, Y> {
     return this.x;
   }
 }
-class D<T> {
+class D< T > {
   x: T
   ;
-  m<S>(z: S, u: T): S {
+  m< S >( z: S, u: T ): S {
     this.x = u;
     return z;
   }

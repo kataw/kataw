@@ -218,12 +218,12 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 
 ```javascript
 
-var o = { * gf() {
+var  o = { * gf() {
     switch (1) {
       case yield : 
-        break;
+        break; 
     }
-  } };
+  } } ;
 
 ```
 

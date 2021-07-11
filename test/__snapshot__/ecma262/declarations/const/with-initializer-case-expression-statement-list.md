@@ -126,7 +126,7 @@ switch (true) { case true: const x = 1; }
 
 switch (true) {
   case true: 
-    const x = 1;
+    const  x = 1 ; 
 }
 
 ```

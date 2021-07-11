@@ -256,13 +256,13 @@ x(function (other) { return other });
 
 ```javascript
 
-var x = function (/* pre */foo /* post */) {
+var  x = function ( /* pre */foo /* post */ ) {
   return "'foo'" + "'bar'";
-};
+} ;
  /* raz */
-x(function (other) {
+x( function ( other ) {
   return other;
-});
+} );
 
 ```
 

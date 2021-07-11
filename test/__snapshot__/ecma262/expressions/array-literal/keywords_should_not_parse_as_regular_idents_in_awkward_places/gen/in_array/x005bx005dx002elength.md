@@ -86,7 +86,7 @@
 
 ```javascript
 
-[[].length,];
+[ [].length, ];
 
 ```
 

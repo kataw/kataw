@@ -135,10 +135,10 @@ let {a, [x]: y} = a;
 
 ```javascript
 
-let {
+let  {
   a,
   [x]: y
-} = a;
+} = a ;
 
 ```
 

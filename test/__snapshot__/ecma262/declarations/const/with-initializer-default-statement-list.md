@@ -120,7 +120,7 @@ switch (true) { default: const x = 1; }
 
 switch (true) {
   default: 
-    const x = 1;
+    const  x = 1 ; 
 }
 
 ```

@@ -194,7 +194,7 @@
 ```javascript
 
 "'use strict'";
-var f = async (x = function * await() {}) => {};
+var  f = async ( x = function * await() {} ) => {} ;
 
 ```
 

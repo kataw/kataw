@@ -188,7 +188,7 @@ var f = (x): (x: number) => 123 => 123;
 
 ```javascript
 
-var f = (x) => 123;
+var  f = ( x ) => 123 ;
 
 ```
 

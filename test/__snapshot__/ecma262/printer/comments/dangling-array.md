@@ -187,10 +187,10 @@ expect(() => {}).toTriggerReadyStateChanges([
 
 ```javascript
 
-expect(() => {}).toTriggerReadyStateChanges([
+expect( () => {} ).toTriggerReadyStateChanges( [
  // Nothing.
-]);
-[1 /* first comment */, 2 /* second comment */, 3,];
+] );
+[ 1 /* first comment */, 2 /* second comment */, 3, ];
 
 ```
 

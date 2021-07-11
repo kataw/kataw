@@ -151,10 +151,10 @@ for (let {x : y, z : a} of obj);
 
 ```javascript
 
-for (let {
+for (let  {
   x: y,
   z: a
-} of obj)
+}  of obj)
   ;
 
 ```

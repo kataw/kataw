@@ -291,7 +291,7 @@ function f() {}
 * JSDoc block comment.
 * @param {string} a - Some string to test
 */
-function g(a) {
+function g( a ) {
   return a;
 }
  /*

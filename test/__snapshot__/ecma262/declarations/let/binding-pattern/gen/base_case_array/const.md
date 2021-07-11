@@ -95,7 +95,7 @@ const [x] = v
 
 ```javascript
 
-const [x] = v;
+const  [ x ] = v ;
 
 ```
 

@@ -230,7 +230,7 @@ class A {
 ```javascript
 
 class A {
-  @a.b.c.d(e, f)
+  @a.b.c.d( e, f )
   m() {}
 }
 

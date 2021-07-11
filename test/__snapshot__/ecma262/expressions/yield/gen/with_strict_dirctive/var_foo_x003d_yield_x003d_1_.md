@@ -111,7 +111,7 @@
 ```javascript
 
 "'use strict'";
-var foo = yield = 1;
+var  foo = yield = 1 ;
 
 ```
 

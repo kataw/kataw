@@ -88,7 +88,7 @@ call(await.foo)
 
 ```javascript
 
-call(await.foo);
+call( await.foo );
 
 ```
 

@@ -117,7 +117,7 @@ for ([x.y] in obj);
 
 ```javascript
 
-for ([x.y,] in obj)
+for ([ x.y, ] in obj)
   ;
 
 ```

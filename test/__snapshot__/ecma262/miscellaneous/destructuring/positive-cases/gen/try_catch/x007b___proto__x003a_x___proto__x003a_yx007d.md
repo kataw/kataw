@@ -150,11 +150,11 @@ try {} catch({ __proto__: x, __proto__: y}) {}
 
 ```javascript
 
-try { }
+try {}
 catch ({
   __proto__: x,
   __proto__: y
-}){ }
+}){}
 
 ```
 

@@ -846,7 +846,7 @@
 ```javascript
 
 (class  {
-  set #b(val) {}
+  set #b( val ) {}
   fn() {
     return this.#b;
   }
@@ -859,8 +859,8 @@
 });
 (class  {
   get #b() {}
-  fn(obj) {
-    ({ y : this.#b } = obj);
+  fn( obj ) {
+    ({ y: this.#b } = obj);
   }
 });
 (class  {

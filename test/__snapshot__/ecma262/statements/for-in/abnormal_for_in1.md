@@ -722,22 +722,22 @@ function baz(x: boolean) {
 
 ```javascript
 
-function foo(x: boolean) {
-  var obj = { a : 1, b : 2 };
-  for (var prop in obj) {
+function foo( x: boolean ) {
+  var  obj = { a: 1, b: 2 } ;
+  for (var  prop  in obj) {
     if (x) {
       continue;
     }
     return;
   }
 }
-function bar(x: boolean) {
-  for (var prop in {}) {
+function bar( x: boolean ) {
+  for (var  prop  in {}) {
     return;
   }
 }
-function baz(x: boolean) {
-  for (var prop in {}) {
+function baz( x: boolean ) {
+  for (var  prop  in {}) {
     continue;
   }
 }

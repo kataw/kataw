@@ -88,9 +88,9 @@ var {x,} = obj;
 
 ```javascript
 
-var {
+var  {
   x,
-} = obj;
+} = obj ;
 
 ```
 

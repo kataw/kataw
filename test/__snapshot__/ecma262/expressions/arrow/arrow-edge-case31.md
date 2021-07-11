@@ -182,7 +182,7 @@ let x: (this: any) => void = () => {}
 
 ```javascript
 
-let x: (this: any) => void = () => {};
+let  x: ( this: any ) => void = () => {} ;
 
 ```
 

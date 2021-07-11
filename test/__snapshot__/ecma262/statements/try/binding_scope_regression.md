@@ -206,7 +206,7 @@
 ```javascript
 
 {
-  let AAAAAAAAAAAAAAAAAAAA;
+  let  AAAAAAAAAAAAAAAAAAAA ;
   try {
     AAAAAAAAAAAAAAAAAAAA = false;
   }

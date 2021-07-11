@@ -96,9 +96,9 @@
 
 ```javascript
 
-({
+( {
     interface
-  }) => null;
+  } ) => null;
 
 ```
 

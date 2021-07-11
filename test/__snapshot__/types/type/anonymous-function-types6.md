@@ -154,7 +154,7 @@ type A = (x: string, number) => void
 
 ```javascript
 
-type A = (x: string, number) => void
+type A = ( x: string, number ) => void
 
 ```
 

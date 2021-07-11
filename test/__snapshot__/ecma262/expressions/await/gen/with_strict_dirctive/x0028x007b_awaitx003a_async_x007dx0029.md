@@ -97,7 +97,7 @@
 ```javascript
 
 "'use strict'";
-({ await : async });
+({ await: async });
 
 ```
 

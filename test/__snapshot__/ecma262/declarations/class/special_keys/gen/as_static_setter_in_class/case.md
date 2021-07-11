@@ -146,7 +146,7 @@ class x {static set case(x){}}
 ```javascript
 
 class x {
-  static set case(x) {}
+  static set case( x ) {}
 }
 
 ```

@@ -354,16 +354,16 @@ try {} catch ([ x = await 42 ]) {}
 
 ```javascript
 
-try { }
+try {}
 catch ({
   x = await 42
-}){ } // Initializer
-try { }
+}){} // Initializer
+try {}
 catch ({
   x: y = await 42
-}){ } // BindingElement Initializer
-try { }
-catch ([x = await 42]){ }
+}){} // BindingElement Initializer
+try {}
+catch ([ x = await 42 ]){}
 
 ```
 

@@ -113,7 +113,7 @@ var [localVar = defaultValue] = obj
 
 ```javascript
 
-var [localVar = defaultValue] = obj;
+var  [ localVar = defaultValue ] = obj ;
 
 ```
 

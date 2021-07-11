@@ -109,7 +109,7 @@ switch(x) /* comment */ { case y: foo }
 
 switch (x)/* comment */ {
   case y: 
-    foo;
+    foo; 
 }
 
 ```

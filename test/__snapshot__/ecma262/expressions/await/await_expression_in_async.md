@@ -132,7 +132,7 @@ async function f(){ async(await x); }
 ```javascript
 
 async function f() {
-  async(await x);
+  async( await x );
 }
 
 ```

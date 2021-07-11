@@ -203,8 +203,8 @@ var x, y, z; for (x of {var: x} = {});
 
 ```javascript
 
-var x, y, z;
-for (x of { var : x } = {})
+var  x, y, z ;
+for (x of { var: x } = {})
   ;
 
 ```

@@ -98,7 +98,7 @@
 
 ```javascript
 
-[...target = source];
+[ ...target = source ];
 
 ```
 

@@ -115,7 +115,7 @@ for(t`${x in y}`;;);
 
 ```javascript
 
-for (t`${x in y}`;;)
+for (t` ${x in y} `;;)
   ;
 
 ```

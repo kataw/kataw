@@ -754,9 +754,9 @@
 ```javascript
 
 ({ async });
-({ async : await });
-({ async : (await) ? yield : foo });
-({ async : true });
+({ async: await });
+({ async: (await) ? yield : foo });
+({ async: true });
 ({ async() {} });
 ({ async foo() {} });
 ({ x, y, z() {} });

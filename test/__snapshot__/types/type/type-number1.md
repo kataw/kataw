@@ -110,7 +110,7 @@ type foo<number> = string;
 
 ```javascript
 
-type foo<number> = string
+type foo< number > = string
 
 ```
 

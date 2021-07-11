@@ -136,11 +136,11 @@
 
 ```javascript
 
-const foo = {
-  a : "'a'" /* comment for this line */,
+const  foo = {
+  a: "'a'" /* comment for this line */,
    /* Section B */
-  b : "'b'",
-};
+  b: "'b'",
+} ;
 
 ```
 

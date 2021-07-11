@@ -102,8 +102,8 @@ var x = cl\u0061ss {}
 
 ```javascript
 
-var x = class  {
-};
+var  x = class  {
+} ;
 
 ```
 

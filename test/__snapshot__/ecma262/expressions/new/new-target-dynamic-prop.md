@@ -161,7 +161,7 @@ function f(){ x({[new.target]:y}) }
 ```javascript
 
 function f() {
-  x({ [new.target] : y });
+  x( { [new.target]: y } );
 }
 
 ```

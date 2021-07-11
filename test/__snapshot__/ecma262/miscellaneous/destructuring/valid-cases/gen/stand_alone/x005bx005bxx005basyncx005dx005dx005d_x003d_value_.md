@@ -115,7 +115,7 @@
 
 ```javascript
 
-[[x[async],],] = value;
+[ [ x[async], ], ] = value;
 
 ```
 

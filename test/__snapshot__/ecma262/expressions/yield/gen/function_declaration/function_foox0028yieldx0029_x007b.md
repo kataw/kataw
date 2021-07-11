@@ -142,7 +142,7 @@ function not_gen() { function foo(yield) { }}
 ```javascript
 
 function not_gen() {
-  function foo(yield) {}
+  function foo( yield ) {}
 }
 
 ```

@@ -259,16 +259,16 @@ let {d //comment
 
 ```javascript
 
-const {
+const  {
   a /* comment */ = 1
-} = b;
-const {
+} = b ;
+const  {
   c = 1 /* comment */
-} = d;
-let {
+} = d ;
+let  {
   d //comment
    = b
-} = c;
+} = c ;
 
 ```
 

@@ -343,7 +343,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
 
 function * gen() {
   function not_gen() {
-    let foo = function * () {
+    let  foo = function * () {
       try {
         yield  42;
       }
@@ -351,7 +351,7 @@ function * gen() {
         yield  43;
         return 13;
       }
-    };
+    } ;
   }
 }
 

@@ -4459,175 +4459,175 @@ foo(
 
 ```javascript
 
-fooooooooooooooooooooooooooooooooooooooooooooooooooo(action => next => dispatch(action),);
-foo(({
+fooooooooooooooooooooooooooooooooooooooooooooooooooo( action => next => dispatch( action ), );
+foo( ( {
     a,
     b
-  }) => {});
-foo(({
+  } ) => {} );
+foo( ( {
     a,
     b
-  }) => {});
-foo(({
+  } ) => {} );
+foo( ( {
     a,
     b
-  }) => {});
-foo(a, ({
+  } ) => {} );
+foo( a, ( {
     a,
     b
-  }) => {});
-foo(({
+  } ) => {} );
+foo( ( {
     a,
     b
-  }) => a);
-foo(({
+  } ) => a );
+foo( ( {
     a,
     b
-  }) => a);
-foo(({
+  } ) => a );
+foo( ( {
     a,
     b
-  }) => a);
-foo(({
+  } ) => a );
+foo( ( {
     a: {
       a,
       b
     }
-  }) => {});
-foo(({
+  } ) => {} );
+foo( ( {
     a: {
-      b : {
+      b: {
         c,
         d
       }
     }
-  }) => {});
-foo(({
+  } ) => {} );
+foo( ( {
     a: {
-      b : {
-        c : {
+      b: {
+        c: {
           d,
           e
         }
       }
     }
-  }) => {});
-foo(({
+  } ) => {} );
+foo( ( {
     a: {
       a,
       b
     }
-  }) => a);
-foo(({
+  } ) => a );
+foo( ( {
     a: {
-      b : {
+      b: {
         c,
         d
       }
     }
-  }) => a);
-foo(({
+  } ) => a );
+foo( ( {
     a: {
-      b : {
-        c : {
+      b: {
+        c: {
           d,
           e
         }
       }
     }
-  }) => a);
-foo(([{
+  } ) => a );
+foo( ( [ {
     a: {
-      b : {
-        c : {
+      b: {
+        c: {
           d,
           e
         }
       }
     }
-  }]) => {});
-foo(([...{
-    a : {
-      b : {
-        c : {
+  } ] ) => {} );
+foo( ( [ ...{
+    a: {
+      b: {
+        c: {
           d,
           e
         }
       }
     }
-  }]) => {});
-foo((n = {
-    a : {
-      b : {
-        c : {
+  } ] ) => {} );
+foo( ( n = {
+    a: {
+      b: {
+        c: {
           d,
           e
         }
       }
     }
-  }) => {});
-foo(({
+  } ) => {} );
+foo( ( {
     x: [
       {
         a,
         b
       },
     ]
-  }) => {});
-foo((a = [
+  } ) => {} );
+foo( ( a = [
     {
       a,
       b
     },
-  ]) => a);
-foo(([[{
+  ] ) => a );
+foo( ( [ [ {
     a,
     b
-  }]]) => {});
-foo(([[[[{
+  } ] ] ) => {} );
+foo( ( [ [ [ [ {
     a,
     b: {
       c,
-      d : {
+      d: {
         e,
         f
       }
     }
-  }]]]]) => {});
-foo((...{
+  } ] ] ] ] ) => {} );
+foo( ( ...{
     a,
     b
-  }) => {});
-foo((...[{
+  } ) => {} );
+foo( ( ...[ {
     a,
     b
-  }]) => {});
-foo(([...[
+  } ] ) => {} );
+foo( ( [ ...[
     {
       a,
       b
     },
-  ]]) => {});
-foo((a = [{
+  ] ] ) => {} );
+foo( ( a = [ {
       a,
       b
-    },]) => {});
-foo((a = (({
+    }, ] ) => {} );
+foo( ( a = (( {
       a,
       b
-    }) => {})()) => {});
-foo((a = f({
+    } ) => {})() ) => {} );
+foo( ( a = f( {
     a,
     b
-  })) => {});
-foo((a = ({
+  } ) ) => {} );
+foo( ( a = ( {
       a,
       b
-    }) => {}) => {});
-foo((a = 1 + f({
+    } ) => {} ) => {} );
+foo( ( a = 1 + f( {
     a,
     b
-  })) => {});
+  } ) ) => {} );
 
 ```
 

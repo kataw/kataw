@@ -116,9 +116,9 @@ let {[a]: c} = v
 
 ```javascript
 
-let {
+let  {
   [a]: c
-} = v;
+} = v ;
 
 ```
 

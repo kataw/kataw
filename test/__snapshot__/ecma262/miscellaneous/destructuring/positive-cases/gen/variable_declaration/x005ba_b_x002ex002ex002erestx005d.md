@@ -133,7 +133,7 @@ var [a,b,...rest] = {};
 
 ```javascript
 
-var [a, b, ...rest] = {};
+var  [ a, b, ...rest ] = {} ;
 
 ```
 

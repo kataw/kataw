@@ -112,7 +112,7 @@ class C extends (
 
 ```javascript
 
-class C extends (a, c) {
+class C extends ( a, c ) {
 }
 
 ```

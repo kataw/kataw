@@ -75,7 +75,7 @@
 
 ```javascript
 
-(static) => y;
+( static ) => y;
 
 ```
 

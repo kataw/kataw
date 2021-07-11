@@ -106,9 +106,9 @@
 ```javascript
 
 "\"use strict\"";
-({
+( {
     interface
-  }) => null;
+  } ) => null;
 
 ```
 

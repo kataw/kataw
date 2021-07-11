@@ -483,10 +483,10 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
 
 ```javascript
 
-class/*1*/ Item<T> /*2*/ {
+class/*1*/ Item< T > /*2*/ {
   prop: T
   ; /*3*/
-  constructor /*4*/(param /*5*/: T) {
+  constructor /*4*/( param /*5*/: T ) {
     this /*6*/./*7*/prop = param;
   }
    /*8*/
@@ -496,7 +496,7 @@ class/*1*/ Item<T> /*2*/ {
   }
  /*15*/
 }
-class GenericClass /*1*/</*2*/T> /*3*/ /*4*/ {
+class GenericClass /*1*/< /*2*/T > /*3*/ /*4*/ {
 }
 
 ```

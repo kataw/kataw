@@ -123,7 +123,7 @@ switch (a) { default: let x }
 
 switch (a) {
   default: 
-    let x;
+    let  x ; 
 }
 
 ```

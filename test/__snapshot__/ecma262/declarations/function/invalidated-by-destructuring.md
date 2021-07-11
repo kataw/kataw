@@ -132,7 +132,7 @@ function f(b, a, b, a, [fine]) {}
 
 ```javascript
 
-function f(b, a, b, a, [fine]) {}
+function f( b, a, b, a, [ fine ] ) {}
 
 ```
 

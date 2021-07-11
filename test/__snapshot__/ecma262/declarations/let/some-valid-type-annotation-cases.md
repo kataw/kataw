@@ -2124,18 +2124,18 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
 
 ```javascript
 
-let one: { x: "'a'", y: false, z: null };
-let two: { foo(): void };
-let three: { ["'x'"]:  number };
-let five: { [keystring]:  number };
-let six: () => void = Foo;
-let seven: <T>() => Foo<T>;
-let eigth: A.B<X.Y>;
-let nine: A.B<X.Y> = 2;
-let ten: A.B<X.Y<Z>>;
-let eleven: A.B<X.Y<Z>> = 2;
-let thirteen: A.B<X.Y<Z<T>>>;
-let fourteen: A.B<X.Y<Z<T>>> = 2;
+let  one: { x: "'a'", y: false, z: null } ;
+let  two: { foo(): void } ;
+let  three: { ["'x'"]:  number } ;
+let  five: { [keystring]:  number } ;
+let  six: () => void = Foo ;
+let  seven: < T >() => Foo< T > ;
+let  eigth: A.B< X.Y > ;
+let  nine: A.B< X.Y > = 2 ;
+let  ten: A.B< X.Y< Z > > ;
+let  eleven: A.B< X.Y< Z > > = 2 ;
+let  thirteen: A.B< X.Y< Z< T > > > ;
+let  fourteen: A.B< X.Y< Z< T > > > = 2 ;
 () => 0;
 () => 0;
 () => 0;

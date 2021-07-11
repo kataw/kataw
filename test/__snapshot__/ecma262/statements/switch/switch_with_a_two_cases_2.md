@@ -170,10 +170,10 @@ switch (A) {case B: C; break; case D: E; break;}
 switch (A) {
   case B: 
     C;
-    break;
+    break; 
   case D: 
     E;
-    break;
+    break; 
 }
 
 ```

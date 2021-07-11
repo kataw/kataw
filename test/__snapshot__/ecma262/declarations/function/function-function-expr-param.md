@@ -179,9 +179,9 @@ function* foo(a = function* foo() { yield b }) {}
 
 ```javascript
 
-function * foo(a = function * foo() {
+function * foo( a = function * foo() {
     yield  b;
-  }) {}
+  } ) {}
 
 ```
 

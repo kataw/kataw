@@ -113,7 +113,7 @@ async => ok, async => ok
 
 ```javascript
 
-async => ok, async => ok;
+ async => ok, async => ok ;
 
 ```
 

@@ -121,7 +121,7 @@ a = [[x]] = value;
 
 ```javascript
 
-a = [[x,],] = value;
+a = [ [ x, ], ] = value;
 
 ```
 

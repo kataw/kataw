@@ -181,9 +181,9 @@ switch (0) { case 1: var f; default: var f }
 
 switch (0) {
   case 1: 
-    var f;
+    var  f ; 
   default: 
-    var f;
+    var  f ; 
 }
 
 ```

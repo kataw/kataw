@@ -142,7 +142,7 @@
 
 ```javascript
 
-(async <T, U>(x) => y);
+(async < T, U >( x ) => y);
 
 ```
 

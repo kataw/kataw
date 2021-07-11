@@ -141,7 +141,7 @@ class x {set eval(x){}}
 ```javascript
 
 class x {
-  set eval(x) {}
+  set eval( x ) {}
 }
 
 ```

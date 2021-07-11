@@ -134,9 +134,9 @@ for (const {...x} in y){}
 
 ```javascript
 
-for (const {
+for (const  {
   ...x
-} in y) { }
+}  in y) {}
 
 ```
 

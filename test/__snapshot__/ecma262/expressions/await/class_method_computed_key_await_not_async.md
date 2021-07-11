@@ -241,11 +241,11 @@
 
 ```javascript
 
-(fail = class A {
+( fail = class A {
     [await]() {}
     ;
     "\"x\""() {}
-  }) => {};
+  } ) => {};
 
 ```
 

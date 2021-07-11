@@ -90,7 +90,7 @@ async (a, async, c);
 
 ```javascript
 
-async(a, async, c);
+async( a, async, c );
 
 ```
 

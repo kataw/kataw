@@ -159,7 +159,7 @@ function *f(x = delete ((implements) = f)) {}
 
 ```javascript
 
-function * f(x = delete  ((implements) = f)) {}
+function * f( x = delete  ((implements) = f) ) {}
 
 ```
 

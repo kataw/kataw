@@ -416,11 +416,11 @@ var v = {
 
 ```javascript
 
-var v = {
+var  v = {
    //property
-  prop : 1 /* multiple trailing comments */ /*trailing comments*/,
+  prop: 1 /* multiple trailing comments */ /*trailing comments*/,
    //property
-  func : function () {
+  func: function () {
   },
    //PropertyName + CallSignature
    //PropertyName + CallSignature
@@ -430,10 +430,10 @@ var v = {
     return this.prop;
   } /*trailing 1*/,
    //setter
-  set a(value) {
+  set a( value ) {
     this.prop = value;
   } // trailing 2
-};
+} ;
 
 ```
 

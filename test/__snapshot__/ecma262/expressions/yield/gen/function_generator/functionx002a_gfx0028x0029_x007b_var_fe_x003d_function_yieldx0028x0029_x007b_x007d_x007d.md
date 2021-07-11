@@ -276,7 +276,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
 function * gen() {
   function not_gen() {
     function * gf() {
-      var fe = function yield() {};
+      var  fe = function yield() {} ;
     }
   }
 }

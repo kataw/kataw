@@ -93,7 +93,7 @@
 ```javascript
 
 {
-  let [] = y;
+  let  [] = y ;
 }
 
 ```

@@ -134,7 +134,7 @@
 
 ```javascript
 
-({ * continue(x, y) {} });
+({ * continue( x, y ) {} });
 
 ```
 

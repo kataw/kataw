@@ -109,7 +109,7 @@ class A extends [foo] {}
 
 ```javascript
 
-class A extends [foo,] {
+class A extends [ foo, ] {
 }
 
 ```

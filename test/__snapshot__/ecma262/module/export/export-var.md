@@ -88,7 +88,7 @@ export var bar;
 
 ```javascript
 
-export var bar;
+export var  bar ;
 
 ```
 

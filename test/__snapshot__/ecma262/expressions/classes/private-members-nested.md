@@ -957,18 +957,18 @@
   }
 });
 (class  {
-  set #a(val) {}
+  set #a( val ) {}
   get #a() {
     class C {
       get #a() {}
-      set #a(val) {}
+      set #a( val ) {}
     }
   }
 });
 (class  {
   #a() {
     class C {
-      set #a(val) {}
+      set #a( val ) {}
     }
   }
 });

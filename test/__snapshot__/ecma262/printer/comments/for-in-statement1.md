@@ -126,7 +126,7 @@ for /*2*/(x /*3*/in /*4*/ y) /*5*/ {}
 for/* comment 1 */ (/* comment 2 */a /* comment 3 */ in/* comment 4 */ b /* comment 5 */)/* comment 6 */
   ; /* comment 7 */
  /*1*/
-for/*2*/ (x /*3*/ in/*4*/ y)/*5*/ { }
+for/*2*/ (x /*3*/ in/*4*/ y)/*5*/ {}
 
 ```
 

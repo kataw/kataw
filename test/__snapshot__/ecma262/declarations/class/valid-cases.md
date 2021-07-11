@@ -2988,7 +2988,7 @@ class Three {
   get foo() {}
 }
 class Four {
-  set foo(x) {}
+  set foo( x ) {}
 }
 class Five {
   static foo() {}
@@ -3000,7 +3000,7 @@ class Seven {
   static get foo() {}
 }
 class Eigth {
-  static set foo(x) {}
+  static set foo( x ) {}
 }
 class Nine {
   async foo() {}
@@ -3021,7 +3021,7 @@ class Fourtin {
   get if() {}
 }
 class Fiveteen {
-  set if(x) {}
+  set if( x ) {}
 }
 class Sixteen {
   static if() {}
@@ -3042,7 +3042,7 @@ class Twenty {
 }
 class Twentyone {
   a() {}
-  set b(x) {}
+  set b( x ) {}
 }
 class Twentytwo {
   a() {}

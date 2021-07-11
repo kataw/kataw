@@ -137,7 +137,7 @@ for (const [x,y,z] of foo);
 
 ```javascript
 
-for (const [x, y, z] of foo)
+for (const  [ x, y, z ]  of foo)
   ;
 
 ```

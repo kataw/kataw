@@ -99,7 +99,7 @@
 ```javascript
 
 {
-  (x = [await,]);
+  (x = [ await, ]);
 }
 
 ```

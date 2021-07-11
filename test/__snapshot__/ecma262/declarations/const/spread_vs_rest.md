@@ -173,7 +173,7 @@ const [a=[...b], ...c] = obj;
 
 ```javascript
 
-const [a = [...b], ...c] = obj;
+const  [ a = [ ...b ], ...c ] = obj ;
 
 ```
 

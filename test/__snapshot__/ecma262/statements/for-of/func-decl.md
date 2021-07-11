@@ -127,7 +127,7 @@ function x(a, [x]) {}
 
 ```javascript
 
-function x(a, [x]) {}
+function x( a, [ x ] ) {}
 
 ```
 

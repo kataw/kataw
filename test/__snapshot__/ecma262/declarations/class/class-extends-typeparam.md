@@ -162,7 +162,7 @@ class Foo<T> extends Bar<T> { }
 
 ```javascript
 
-class Foo<T> extends Bar<T> {
+class Foo< T > extends Bar< T > {
 }
 
 ```

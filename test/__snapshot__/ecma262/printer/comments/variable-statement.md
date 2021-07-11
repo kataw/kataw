@@ -81,7 +81,7 @@ var foo = /* comment */ (
 
 ```javascript
 
-var foo =/* comment */ (42);
+var  foo =/* comment */ (42) ;
 
 ```
 

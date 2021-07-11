@@ -288,16 +288,16 @@ const bar =
 @deco
 class Foo {
 }
-const foo = 
+const  foo = 
 @deco
 class  {
  //
-};
-const bar = 
+} ;
+const  bar = 
 @deco
 class  {
  //
-};
+} ;
 
 ```
 

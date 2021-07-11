@@ -98,7 +98,7 @@
 
 ```javascript
 
-`a ${async => ok} b`;
+` a ${async => ok}  b`;
 
 ```
 

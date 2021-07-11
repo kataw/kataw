@@ -88,7 +88,7 @@ with (a) let
 
 with (a)
   let;
-{ }
+{}
 
 ```
 

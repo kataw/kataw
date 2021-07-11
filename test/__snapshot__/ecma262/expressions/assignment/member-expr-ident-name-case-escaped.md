@@ -136,7 +136,7 @@ obj.c\u0061se = 42;
 
 ```javascript
 
-var obj = {};
+var  obj = {} ;
 obj.c\u0061se = 42;
 
 ```

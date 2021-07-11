@@ -178,7 +178,7 @@ function x(y: | /* comment 1 */ z):
 
 ```javascript
 
-function x(y: |/* comment 1 */ z): | 
+function x( y: |/* comment 1 */ z ): | 
  /* comment 2 */
 () => number {}
 

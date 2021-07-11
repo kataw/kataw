@@ -108,7 +108,7 @@ a;
 
 ```javascript
 
-let x = () => --a;
+let  x = () => --a ;
 
 ```
 

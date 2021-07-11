@@ -185,7 +185,7 @@ var v = a
 
 ```javascript
 
-var v = a ? b ? d : e : c ? f : g;
+var  v = a ? b ? d : e : c ? f : g ;
 
 ```
 

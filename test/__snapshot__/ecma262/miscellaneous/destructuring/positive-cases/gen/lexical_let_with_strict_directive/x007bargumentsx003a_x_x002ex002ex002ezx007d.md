@@ -149,10 +149,10 @@
 ```javascript
 
 "'use strict'";
-let {
+let  {
   arguments: x,
   ...z
-} = {};
+} = {} ;
 
 ```
 

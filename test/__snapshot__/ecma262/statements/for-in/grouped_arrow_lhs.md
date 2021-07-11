@@ -132,7 +132,7 @@ for (((x)=>{}) in y);
 
 ```javascript
 
-for (((x) => {}) in y)
+for ((( x ) => {}) in y)
   ;
 
 ```

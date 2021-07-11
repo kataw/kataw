@@ -89,7 +89,7 @@
 
 ```javascript
 
-[x => ok,];
+[ x => ok, ];
 
 ```
 

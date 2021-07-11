@@ -149,10 +149,10 @@ var [{__proto__:a, __proto__:b}] = 0;
 
 ```javascript
 
-var [{
+var  [ {
   __proto__: a,
   __proto__: b
-}] = 0;
+} ] = 0 ;
 
 ```
 

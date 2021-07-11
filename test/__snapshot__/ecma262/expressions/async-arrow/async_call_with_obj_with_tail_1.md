@@ -92,7 +92,7 @@ async ({} + 1);
 
 ```javascript
 
-async({} + 1);
+async( {} + 1 );
 
 ```
 

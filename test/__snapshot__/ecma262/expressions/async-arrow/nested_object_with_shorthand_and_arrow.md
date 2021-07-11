@@ -125,9 +125,9 @@ async ({ident: {x}}) => x
 
 ```javascript
 
-async ({
+async ( {
     ident: { x }
-  }) => x;
+  } ) => x;
 
 ```
 

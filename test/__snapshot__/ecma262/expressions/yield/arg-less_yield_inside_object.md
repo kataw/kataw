@@ -168,7 +168,7 @@
 ```javascript
 
 ({ * g1() {
-    return { x : yield  };
+    return { x: yield  };
   } });
 
 ```

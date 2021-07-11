@@ -132,9 +132,9 @@ var x = ({ foo }) => {}
 
 ```javascript
 
-var x = ({
+var  x = ( {
     foo
-  }) => {};
+  } ) => {} ;
 
 ```
 

@@ -113,7 +113,7 @@
 ```javascript
 
 "'use strict'";
-var e = (await, f);
+var  e = ( await, f ) ;
 
 ```
 

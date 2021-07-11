@@ -373,7 +373,7 @@ function getSecurity(level) {
 
 ```javascript
 
-function getSecurity(level) {
+function getSecurity( level ) {
   switch (level) {
     case 0: 
      /*Zero*/
@@ -381,15 +381,15 @@ function getSecurity(level) {
      /*One*/
     case 2:/*two*/ 
        // Leading comments
-      return "\"Hi\"";
+      return "\"Hi\""; 
     case 3: 
      /*three*/
     case 4:/*four*/ 
-      return "\"hello\"";
+      return "\"hello\""; 
     case 5: 
      /*five*/
     default:/*six*/ 
-      return "\"world\"";
+      return "\"world\""; 
   }
 }
 

@@ -154,7 +154,7 @@ result = [ arrow = () => {} ] = vals;
 
 ```javascript
 
-result = [arrow = () => {},] = vals;
+result = [ arrow = () => {}, ] = vals;
 
 ```
 

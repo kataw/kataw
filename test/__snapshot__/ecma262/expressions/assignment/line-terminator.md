@@ -103,7 +103,7 @@ true;
 
 ```javascript
 
-var x;
+var  x ;
 x = true;
 
 ```

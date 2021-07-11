@@ -429,7 +429,7 @@ const bem = block =>
  * @param {String} block - the BEM Block you'd like to select.
  * @returns {Function}
  */
-const bem = block => 
+const  bem = block => 
  /**
    * @param {String} [element] - the BEM Element within that block; if undefined, selects the block itself.
    * @returns {Function}
@@ -441,10 +441,10 @@ element =>
      */
 modifier => [
   "\".\"",
-  css(block),
-  element ? `__${css(element)}` : "\"\"",
-  modifier ? `--${css(modifier)}` : "\"\"",
-].join("\"\"");
+  css( block ),
+  element ? ` __${css( element )} ` : "\"\"",
+  modifier ? ` --${css( modifier )} ` : "\"\"",
+].join( "\"\"" ) ;
 
 ```
 

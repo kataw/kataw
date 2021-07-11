@@ -3069,9 +3069,9 @@ a.foo.bar().baz &&= result.foo.bar().baz;
 b.foo.bar().baz ||= result.foo.bar().baz;
 b.baz ||= result.baz;
 c.baz ??= result.baz;
-(results ||= []).push(100);
-(results &&= []).push(100);
-(results ??= []).push(100);
+(results ||= []).push( 100 );
+(results &&= []).push( 100 );
+(results ??= []).push( 100 );
 if ((thing &&= thing.original)) {
 }
 if ((thing &&= defaultValue)) {
@@ -3080,15 +3080,15 @@ if ((thing ||= defaultValue)) {
 }
 if ((thing ??= defaultValue)) {
 }
-f ||= (a) => a;
-f &&= (a) => a;
-f ??= (a) => a;
-f ||= (f.toString(), (a) => a);
-f &&= (f.toString(), (a) => a);
-f ??= (f.toString(), (a) => a);
-(results ||= results1 ||= []).push(100);
-(results &&= results1 &&= []).push(100);
-(results ??= results1 ??= []).push(100);
+f ||= ( a ) => a;
+f &&= ( a ) => a;
+f ??= ( a ) => a;
+f ||= ( f.toString(), ( a ) => a );
+f &&= ( f.toString(), ( a ) => a );
+f ??= ( f.toString(), ( a ) => a );
+(results ||= results1 ||= []).push( 100 );
+(results &&= results1 &&= []).push( 100 );
+(results ??= results1 ??= []).push( 100 );
 obj[incr()] ||= incr();
 oobj["\"obj\""][incr()] ||= incr();
 obj[incr()] &&= incr();

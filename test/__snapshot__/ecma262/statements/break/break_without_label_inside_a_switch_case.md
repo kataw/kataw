@@ -100,7 +100,7 @@ switch (x) { case x: break; }
 
 switch (x) {
   case x: 
-    break;
+    break; 
 }
 
 ```

@@ -118,7 +118,7 @@
 
 ```javascript
 
-[...a instanceof b + c];
+[ ...a instanceof b + c ];
 
 ```
 

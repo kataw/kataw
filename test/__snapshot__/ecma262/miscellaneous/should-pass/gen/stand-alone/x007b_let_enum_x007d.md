@@ -88,7 +88,7 @@
 ```javascript
 
 {
-  let enum;
+  let  enum ;
 }
 
 ```

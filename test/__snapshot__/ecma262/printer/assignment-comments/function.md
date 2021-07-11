@@ -1056,13 +1056,13 @@ let f6 = /* comment */
 
 ```javascript
 
-f1 = (a = 
+f1 = ( a = 
    //comment
-  b) => {};
-f2 = (a =//comment
-   b) => {};
-f3 = (a = b //comment
-) => {};
+  b ) => {};
+f2 = ( a =//comment
+   b ) => {};
+f3 = ( a = b //comment
+ ) => {};
 f4 =// Comment
  () => {};
 f5 = 
@@ -1071,21 +1071,21 @@ f5 =
 f6 =/* comment */ 
  // Comment
 () => {};
-let f1 = (a = 
+let  f1 = ( a = 
    //comment
-  b) => {};
-let f2 = (a =//comment
-   b) => {};
-let f3 = (a = b //comment
-) => {};
-let f4 =// Comment
- () => {};
-let f5 = 
+  b ) => {} ;
+let  f2 = ( a =//comment
+   b ) => {} ;
+let  f3 = ( a = b //comment
+ ) => {} ;
+let  f4 =// Comment
+ () => {} ;
+let  f5 = 
  // Comment
-() => {};
-let f6 =/* comment */ 
+() => {} ;
+let  f6 =/* comment */ 
  // Comment
-() => {};
+() => {} ;
 
 ```
 

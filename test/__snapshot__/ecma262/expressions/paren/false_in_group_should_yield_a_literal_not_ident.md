@@ -82,7 +82,7 @@
 ```javascript
 
 (false);
-(false, true);
+( false, true );
 
 ```
 

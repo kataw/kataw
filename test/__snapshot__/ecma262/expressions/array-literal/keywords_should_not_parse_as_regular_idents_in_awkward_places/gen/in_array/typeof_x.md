@@ -78,7 +78,7 @@
 
 ```javascript
 
-[typeof  x,];
+[ typeof  x, ];
 
 ```
 

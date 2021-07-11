@@ -153,7 +153,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  for (let x in y)
+  for (let  x  in y)
     ;
 }
 

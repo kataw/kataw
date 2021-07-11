@@ -97,7 +97,7 @@
 ```javascript
 
 "'use strict'";
-var e = (await);
+var  e = (await) ;
 
 ```
 

@@ -171,7 +171,7 @@ async function foo(a, b) { await a + await b };
 
 ```javascript
 
-async function foo(a, b) {
+async function foo( a, b ) {
   await a + await b;
 }
 ;

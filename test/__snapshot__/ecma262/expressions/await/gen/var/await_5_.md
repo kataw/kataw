@@ -187,10 +187,10 @@ var await; var f = (async function() { await 5; });
 
 ```javascript
 
-var await;
-var f = (async function () {
+var  await ;
+var  f = (async function () {
   await 5;
-});
+}) ;
 
 ```
 

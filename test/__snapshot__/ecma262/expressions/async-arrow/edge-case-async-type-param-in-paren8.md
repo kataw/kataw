@@ -159,7 +159,7 @@
 
 ```javascript
 
-(async  < T, U > (x) >> y - z);
+( async  < T, U > (x) >> y - z );
 
 ```
 

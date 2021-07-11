@@ -179,7 +179,7 @@ class C2 {
 
 ```javascript
 
-@a(b)
+@a( b )
 class C2 {
   method() {}
 }

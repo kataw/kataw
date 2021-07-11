@@ -150,7 +150,7 @@
 
 ```javascript
 
-(x = delete  ((eval) = f)) => {};
+( x = delete  ((eval) = f) ) => {};
 
 ```
 

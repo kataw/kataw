@@ -87,7 +87,7 @@ let x; strubg
 
 ```javascript
 
-let x;
+let  x ;
 strubg;
 
 ```

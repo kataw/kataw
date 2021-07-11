@@ -172,7 +172,7 @@ function g(x: any): string {
 
 ```javascript
 
-function g(x: any): string {
+function g( x: any ): string {
   return x ?? 1;
 }
 

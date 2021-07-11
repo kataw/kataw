@@ -151,7 +151,7 @@ async  <T, U>(x) >> y - z;
 
 ```javascript
 
-async  < T, U > (x) >> y - z;
+ async  < T, U > (x) >> y - z ;
 
 ```
 

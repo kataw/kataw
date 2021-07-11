@@ -95,9 +95,9 @@ const array = [
 
 ```javascript
 
-const array = [
+const  array = [
   ,/* comment */
-];
+] ;
 
 ```
 

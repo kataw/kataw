@@ -111,9 +111,9 @@
 ```javascript
 
 {
-  ({
+  ( {
       interface
-    }) => null;
+    } ) => null;
 }
 
 ```

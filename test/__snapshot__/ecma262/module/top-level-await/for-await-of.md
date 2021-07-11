@@ -133,7 +133,7 @@ for await (const item of arr) {
 
 ```javascript
 
-for await (const item of arr) {
+for await (const  item  of arr) {
   item;
 }
 

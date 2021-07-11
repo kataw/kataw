@@ -137,7 +137,7 @@ var f = (): string | (number) => 123;
 
 ```javascript
 
-var f = () => 123;
+var  f = () => 123 ;
 
 ```
 

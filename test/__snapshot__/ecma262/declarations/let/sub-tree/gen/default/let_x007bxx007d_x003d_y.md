@@ -145,9 +145,9 @@ switch (a) { default: let {x} = y }
 
 switch (a) {
   default: 
-    let {
+    let  {
       x
-    } = y;
+    } = y ; 
 }
 
 ```

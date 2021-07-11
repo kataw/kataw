@@ -74,7 +74,7 @@ var yield;
 
 ```javascript
 
-var yield;
+var  yield ;
 
 ```
 

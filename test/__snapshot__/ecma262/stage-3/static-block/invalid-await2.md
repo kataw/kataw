@@ -206,12 +206,12 @@ class C {
 
 ```javascript
 
-let await;
+let  await ;
 class C {
   static  {
-    let {
+    let  {
       await
-    } = {}; // illegal, cannot declare a new binding for await
+    } = {} ; // illegal, cannot declare a new binding for await
   }
 }
 

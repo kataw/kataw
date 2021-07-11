@@ -113,7 +113,7 @@
 
 ```javascript
 
-({ x : y }.length) = z;
+({ x: y }.length) = z;
 
 ```
 

@@ -261,7 +261,7 @@ class C {
     return 1;
   }
   set
-  x(v) {}
+  x( v ) {}
 }
 
 ```

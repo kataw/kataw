@@ -94,7 +94,7 @@ function d(public){ "use strict"; }
 
 ```javascript
 
-function d(public) {
+function d( public ) {
 "\"use strict\"";
 }
 

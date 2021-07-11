@@ -102,7 +102,7 @@ var [let] = []
 
 ```javascript
 
-var [let] = [];
+var  [ let ] = [] ;
 
 ```
 

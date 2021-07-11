@@ -80,7 +80,7 @@ new oh,no
 
 ```javascript
 
-new oh, no;
+ new oh, no ;
 
 ```
 

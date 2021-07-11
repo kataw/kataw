@@ -106,7 +106,7 @@
 
 ```javascript
 
-[foo = A,] = arr;
+[ foo = A, ] = arr;
 
 ```
 

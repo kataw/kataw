@@ -117,7 +117,7 @@ for (let a of b);
 
 ```javascript
 
-for (let a of b)
+for (let  a  of b)
   ;
 
 ```

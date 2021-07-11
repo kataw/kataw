@@ -1931,7 +1931,7 @@ async function f1() {
     return null;
   }
   else if (untrackedChoice === 1)/* Add */ {
-    await repository.addAll(Array.from(untrackedChanges.keys()));
+    await repository.addAll( Array.from( untrackedChanges.keys() ) );
     shouldAmend = true;
   }
   else if (untrackedChoice === 2)/* Allow Untracked */ {
@@ -1959,7 +1959,7 @@ async function f4() {
     return null;
   }
   else if (untrackedChoice === 1) {
-    await repository.addAll(Array.from(untrackedChanges.keys()));
+    await repository.addAll( Array.from( untrackedChanges.keys() ) );
     shouldAmend = true;
   }
   else if (untrackedChoice === 2) {
@@ -1971,7 +1971,7 @@ async function f5() {
      /* Cancel */return null;
   }
   else if (untrackedChoice === 1) {
-     /* Add */await repository.addAll(Array.from(untrackedChanges.keys()));
+     /* Add */await repository.addAll( Array.from( untrackedChanges.keys() ) );
     shouldAmend = true;
   }
   else if (untrackedChoice === 2) {

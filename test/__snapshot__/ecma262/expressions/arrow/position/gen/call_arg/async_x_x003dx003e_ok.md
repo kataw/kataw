@@ -102,7 +102,7 @@ foo(async x => ok)
 
 ```javascript
 
-foo(async x => ok);
+foo( async x => ok );
 
 ```
 

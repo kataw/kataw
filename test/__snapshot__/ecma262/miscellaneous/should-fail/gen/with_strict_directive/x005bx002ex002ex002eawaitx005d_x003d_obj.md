@@ -108,7 +108,7 @@
 ```javascript
 
 "\"use strict\"";
-[...await] = obj;
+[ ...await ] = obj;
 
 ```
 
