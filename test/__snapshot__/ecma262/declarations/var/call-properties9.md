@@ -227,6 +227,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
 var f: { (): mixed } = function (): string {
   return "\"hi\"";
 }; // return types
+
 ```
 
 ### Diagnostics

@@ -225,9 +225,12 @@ else
 ### Printed
 
 ```javascript
-if (firstTrue()) // commentdoFirstThing();
-else  if (secondTrue()) // commentdoSecondThing();
-else  // this comment should not movedoThirdThing();
+if (firstTrue()) // comment
+  doFirstThing();
+else  if (secondTrue()) // comment
+  doSecondThing();
+else  // this comment should not move
+  doThirdThing();
 ```
 
 ### Diagnostics

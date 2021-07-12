@@ -1637,7 +1637,7 @@ type C = { ...A & B /*1*/ }
 
 type foo<number> /*1*/ = string
 
-type x = { x( /*1*/): string }
+type x = { x(): string }
 
 ```
 

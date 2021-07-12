@@ -5430,7 +5430,7 @@ e = !typeof a === "'boolean'";
 
 f = !(typeof a === "'boolean'");
 
-f = typeof (() => {} /*11*/);
+f = typeof (() => {});
 
 a = (1.1).toString();
 
@@ -5501,7 +5501,7 @@ g = b + -+-a++;
 
 (({}) ? a : b) ? c : d;
 
-(function () {} /*32*/) ? a : b;
+(function () {}) ? a : b;
 
 (class {}) ? a : b; /*33*/
 

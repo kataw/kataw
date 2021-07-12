@@ -211,6 +211,7 @@ var e: { (x: any): void } = function() { } // arity
 
 ```javascript
 var e: { (x: any): void } = function () {}; // arity
+
 ```
 
 ### Diagnostics

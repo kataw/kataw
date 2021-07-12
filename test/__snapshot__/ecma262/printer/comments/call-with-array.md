@@ -139,13 +139,9 @@ const obsever = mockReducersAndSomething(
 ### Printed
 
 ```javascript
-const obsever = mockReducersAndSomething(
-    true,
-    // should call reducers
-    true,
-    // should mutate state
-    ["'reducer'"],
-  );
+const obsever = mockReducersAndSomething(true, // should call reducers
+    true, // should mutate state
+    ["'reducer'"]);
 ```
 
 ### Diagnostics

@@ -36,7 +36,8 @@
 ### Printed
 
 ```javascript
-//preserve 
+//preserve
+
 ```
 
 ### Diagnostics

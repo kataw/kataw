@@ -1222,13 +1222,11 @@ foo[
 ### Printed
 
 ```javascript
-a =
-  (
-    // Comment 1
-    (Math.random() * (yRange * (1 - minVerticalFraction))) +
-    (minVerticalFraction * yRange)
-  ) - offset
-;
+a = (// Comment 1
+    (
+      Math.random() *
+      (yRange * (1 - minVerticalFraction))
+    ) + (minVerticalFraction * yRange)) - offset;
 a + a + a + a + a;
 
 a &&
@@ -1243,15 +1241,8 @@ a ||
   longLongLongLongLongLongLongLongLong ||
   longLongLongLongLongLongLongLongLong;
 
-var a = x(
-
-    abifornCringerMoshedPerplexSawder +
-    kochabCooieGameOnOboleUnweave // f
-     +
-    glimseGlyphsHazardNoopsTieTie +
-    bifornCringerMoshedPerplexSawder
-
-);
+var a = x(abifornCringerMoshedPerplexSawder + kochabCooieGameOnOboleUnweave // f
+     + glimseGlyphsHazardNoopsTieTie + bifornCringerMoshedPerplexSawder);
 
 foo[a + a + a + bar[b + b + b + b + b]];
 

@@ -159,7 +159,9 @@ const test = () => {
 const test = () => /**
      * Multiline comment
      **/{
-    return bar();
+    /**
+     * Multiline comment
+     **/return bar();
   };
 ```
 

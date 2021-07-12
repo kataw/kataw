@@ -1188,28 +1188,36 @@ let f6 = /* comment */
 ### Printed
 
 ```javascript
-f1 = (a = //commentb) => {};
+f1 = (a = //comment
+b) => {};
 f2 = (a = b) => {};
 
-f3 = (a = b //comment) => {};
+f3 = (a = b //comment
+) => {};
 
 f4 = () => {};
 
-f5 = // Comment() => {};
+f5 = // Comment
+() => {};
 
-f6 = // Comment() => {};
+f6 = // Comment
+() => {};
 
-let f1 = (a = //commentb) => {};
+let f1 = (a = //comment
+  b) => {};
 
 let f2 = (a = b) => {};
 
-let f3 = (a = b //comment) => {};
+let f3 = (a = b //comment
+  ) => {};
 
 let f4 = () => {};
 
-let f5 = // Comment() => {};
+let f5 = // Comment
+  () => {};
 
-let f6 = // Comment() => {};
+let f6 = // Comment
+  () => {};
 
 ```
 

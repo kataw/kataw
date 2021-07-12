@@ -142,7 +142,8 @@ declare class A {
 ### Printed
 
 ```javascript
-declare class A { static prototype: Object // error }
+declare class A { static prototype: Object // error
+   }
 ```
 
 ### Diagnostics

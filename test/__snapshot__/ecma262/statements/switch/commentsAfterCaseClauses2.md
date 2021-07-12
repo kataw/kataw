@@ -443,6 +443,7 @@ function getSecurity(level) {
     default:
       return "\"world\"";
   }
+// Comment After 2
 } /*Comment 1*/ // Comment After 1
 
 ```

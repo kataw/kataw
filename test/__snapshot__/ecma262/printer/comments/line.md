@@ -626,6 +626,7 @@ function f() {}
 // Line comment for function g:
 function g() // Line comment for instruction 1:
 {
+  // Line comment for instruction 1:
   instruction1;
   // Line comment for instruction 2:
   instruction2;
@@ -661,6 +662,8 @@ function g() // Line comment for instruction 1:
   // …for…
   // …instruction 7:
   instruction7;
+// Trailing line comment
+// Another comment
 }
 
 ```

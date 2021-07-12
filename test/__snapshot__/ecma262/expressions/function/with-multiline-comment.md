@@ -209,6 +209,7 @@ x; })
   });
 (function () {
     return; // Comment
+
     x;
   });
 

@@ -331,6 +331,9 @@ function h() /*
   Block comment inside of function h.
   */
 {
+  /*
+  Block comment inside of function h.
+  */
   instruction1;
   /*
   Block comment for instruction 2 with a quote:
@@ -342,6 +345,9 @@ function h() /*
   …with several indented lines.
   */
   instruction3;
+/*
+  Trailing block comment inside of function h.
+  */
 }
 
 ```

@@ -342,6 +342,7 @@ type b = { x: string } /* trailing */ /*d*/
 
 type c = { x: string } /* inner */ | string // trailing/*f*/
 
+
 ```
 
 ### Diagnostics

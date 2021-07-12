@@ -506,20 +506,28 @@ var fnNumber = /* comments0 */
 ### Printed
 
 ```javascript
-fnNumber = // Comment3;
-fnNumber = // Comment3;
+fnNumber = // Comment
+3;
+fnNumber = // Comment
+3;
 
-fnNumber = // Comment0// Comment13;
+fnNumber = // Comment0
+// Comment1
+3;
 
 fnNumber = 3;
 
 fnNumber = /* comments1 */3;
 
-fnNumber = // Comment3;
+fnNumber = // Comment
+3;
 
-var fnNumber = // Comment3;
+var fnNumber = // Comment
+3;
 
-var fnNumber = // Comment0// Comment13;
+var fnNumber = // Comment0
+// Comment1
+3;
 
 var fnNumber = 3;
 

@@ -1948,10 +1948,13 @@ var fnString = // Comment
 ### Printed
 
 ```javascript
-fnString = // Comment"'some'" + "'long'" + "'string'";
-fnString = // Comment"'some'" + "'long'" + "'string'";
+fnString = // Comment
+"'some'" + "'long'" + "'string'";
+fnString = // Comment
+"'some'" + "'long'" + "'string'";
 
-fnString = // Comment"'some'" + "'long'" + "'string'";
+fnString = // Comment
+"'some'" + "'long'" + "'string'";
 
 fnString = /* comment */"'some'" + "'long'" + "'string'";
 
@@ -1974,15 +1977,19 @@ fnString = /* inline */
   "'string'"
 ;
 
-fnString = // Comment1"'some'" + "'long'" + "'string'";
+fnString = // Comment1
+"'some'" + "'long'" + "'string'";
 
 fnString = "'some'" + "'long'" + "'string'";
 
-fnString = // Comment"'some'" + "'long'" + "'string'";
+fnString = // Comment
+"'some'" + "'long'" + "'string'";
 
-var fnString = // Comment"'some'" + "'long'" + "'string'";
+var fnString = // Comment
+"'some'" + "'long'" + "'string'";
 
-var fnString = // Comment"'some'" + "'long'" + "'string'";
+var fnString = // Comment
+"'some'" + "'long'" + "'string'";
 
 var fnString = /* comment */"'some'" + "'long'" + "'string'";
 
@@ -2005,7 +2012,8 @@ var fnString = /* inline */
   "'string'"
 ;
 
-var fnString = // Comment1"'some'" + "'long'" + "'string'";
+var fnString = // Comment1
+"'some'" + "'long'" + "'string'";
 
 var fnString = "'some'" + "'long'" + "'string'";
 

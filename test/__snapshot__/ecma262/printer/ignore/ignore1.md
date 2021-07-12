@@ -1596,7 +1596,8 @@ const response = {
 ### Printed
 
 ```javascript
-function a() 
+function a() // kataw-ignore
+
   // kataw-ignore
   var fnString =
     '"' + this.USE + ' ' + this.STRICT + '";\n' +

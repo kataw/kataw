@@ -2137,6 +2137,7 @@ function foo3() {
 
 function foo4() // this is a function
 {
+  // this is a function
   return 42;
 }
 

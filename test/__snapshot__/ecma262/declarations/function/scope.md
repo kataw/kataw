@@ -1487,13 +1487,16 @@ function block_scope() {
 }
 function default_param_1() // function binding in scope in default expr
 {
-  function f(x: () => string = f // error: number ~> string): number {
+  // function binding in scope in default expr
+  function f(x: () => string = f // error: number ~> string
+  ): number {
     return 0;
   }
 }
 
 function default_param_2() // fn body bindings not visible from param scope
 {
+  // fn body bindings not visible from param scope
   let a = "\"\"";
   function f0(x = () => a): number {
     let a = 0;

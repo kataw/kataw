@@ -1421,20 +1421,13 @@ const paymentMessage =
             : "'There was an issue with the payment.  Please contact support.'";
 
 const paymentMessage2 =
-    state == "'success'"
-      ? 1 //'Payment completed successfully'
-
-      : state == "'processing'"
-        ? 2 //'Payment processing'
-
-        : state == "'invalid_cvc'"
-          ? 3 //'There was an issue with your CVC number'
-
-          : true //state == 'invalid_expiry'
-
-            ? 4 //'Expiry must be sometime in the past.'
-
-            : 5; // 'There was an issue with the payment.  Please contact support.'
+    state == "'success'" ? 1 //'Payment completed successfully'
+         : state == "'processing'" ? 2 //'Payment processing'
+           : state ==
+          "'invalid_cvc'" ? 3 //'There was an issue with your CVC number'
+             : true //state == 'invalid_expiry'
+           ? 4 //'Expiry must be sometime in the past.'
+               : 5; // 'There was an issue with the payment.  Please contact support.'
 
 
 const result =

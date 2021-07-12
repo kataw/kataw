@@ -304,7 +304,7 @@ function * foo2() {
 ```javascript
 // @target: es6
 function *foo2() /*comment1*/ {
-  yield 1;
+  /*comment1*/ yield 1;
   yield 2;
   yield 3; /*comment3*/
   yield* [4];

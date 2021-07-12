@@ -14490,6 +14490,7 @@ function logical11a(): number {
 function logical11b(y: number): number {
   for (var x = 0; x++; x  < 5) {
       y = y || true; // expected a number
+
     }
   return y;
 }
@@ -14513,6 +14514,7 @@ function logical12a(): number {
 function logical12b(y: number): number {
   for (var x = 0; x++; x  < 5) {
       y = y && true; // expected a number
+
     }
   return y;
 }

@@ -694,14 +694,17 @@ class Foo {
   d(lol /*string*/, lol2 /*string*/, lol3 /*string*/, lol4 /*string*/) {}
   d(lol /*string*/, lol2 /*string*/, lol3 /*string*/, lol4 /*string*/) {}
   // kataw-ignore
+  
 
   // kataw-ignore
   c(lol /*string*/) {}
   // kataw-ignore
+  
 
   // kataw-ignore
   d(lol /*string*/, lol2 /*string*/, lol3 /*string*/, lol4 /*string*/) {}
   // kataw-ignore
+  
 
   // kataw-ignore
   e(lol /*string*/, lol2 /*string*/, lol3 /*string*/, lol4 /*string*/) {} /* string*/

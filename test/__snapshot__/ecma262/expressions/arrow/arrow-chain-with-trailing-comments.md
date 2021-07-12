@@ -419,7 +419,8 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
 x = (bifornCringerMoshedPerplexSawder) =>
   ((askTrovenaBeenaDependsRowans, glimseGlyphsHazardNoopsTieTie) => (f00) => {
       averredBathersBoxroomBuggyNurl();
-    } // BOOM);
+    } // BOOM
+    );
 x2 = (a) =>
   (
     (askTrovenaBeenaDependsRowans1,

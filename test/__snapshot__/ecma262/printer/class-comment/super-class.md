@@ -1164,9 +1164,11 @@ class A3 extends B  /* a */{}
 
 class A4 extends B {}
 
-(class A5 // comment 1 extends B {});
+(class A5 // comment 1
+   extends B {});
 
-(class A6 extends B  // comment1{});
+(class A6 extends B  // comment1
+  {});
 
 (class A7 /* a */ extends B {});
 

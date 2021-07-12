@@ -6048,18 +6048,12 @@ const promiseFromCallback = fn => new Promise((resolve, reject) =>
       return resolve(result);
     }));
 
-runtimeAgent.getProperties(
-  objectId,
-  false,
-  // ownProperties
-  false,
-  // accessorPropertiesOnly
-  false,
-  // generatePreview
+runtimeAgent.getProperties(objectId, false, // ownProperties
+  false, // accessorPropertiesOnly
+  false, // generatePreview
   (error, properties, internalProperties) => {
     return 1;
-  },
-);
+  });
 
 fooooooooooooooooooooooooooooooooooooooooooooooooooo(action => next =>
   dispatch(action));

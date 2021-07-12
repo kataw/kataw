@@ -219,6 +219,7 @@ let num2: typeof num1 = 3.14; // Works!
 
 let num3: typeof num1 = 3.14; // Works!
 
+
 ```
 
 ### Diagnostics

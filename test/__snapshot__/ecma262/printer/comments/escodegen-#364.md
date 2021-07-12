@@ -117,6 +117,7 @@ var bar; // another comment
 var foo; /* comment */
 var bar; // another comment
 
+
 ```
 
 ### Diagnostics

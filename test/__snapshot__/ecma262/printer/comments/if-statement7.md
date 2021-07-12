@@ -70,6 +70,7 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) {/* comment 4 */} // commen
 
 ```javascript
 if (x /* comment 3 */) {} // comment 5
+
 ```
 
 ### Diagnostics

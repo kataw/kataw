@@ -65,7 +65,8 @@
  * @property {Function} tickFormat
  */
 // comment
-// comment 
+// comment
+
 ```
 
 ### Diagnostics

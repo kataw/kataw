@@ -271,6 +271,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
 var g: { (x: Date): void } = (x) => {
   x * 2;
 }; // param type (date < number)
+
 ```
 
 ### Diagnostics

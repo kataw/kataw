@@ -1056,10 +1056,12 @@ var n = 30;
 var y = 20;
 
 /// var deckaration with comment on type as well
-var yy = /// value comment20;
+var yy = /// value comment
+20;
 
 /** comment2 */
-var z = (/** lambda comment */ x: number, y: number) => x + y;
+var z = (/** lambda comment */ x: number, /** lambda comment */ y: number) =>
+  x + y;
 
 var z2: (/** type comment*/ x: number) => string;
 

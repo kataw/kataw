@@ -70,6 +70,7 @@ if /* comment 1 */ (x) {} // comment 2
 
 ```javascript
 if (x) {} // comment 2
+
 ```
 
 ### Diagnostics
