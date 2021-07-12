@@ -300,7 +300,7 @@ export function printComments(
 	return '';
 }
 
-export function emitLeadingDetachedCommentsAndUpdateCommentsInfo(
+export function printLeadingDetachedCommentsAndUpdateCommentsInfo(
 	printer: Printer,
 	node: any,
 	removeComments: boolean,
@@ -356,7 +356,7 @@ function getTrailingCommentsToEmit(printer: Printer, end: number) {
 	return '';
 }
 
-export function emitTrailingCommentsOfPosition(printer: Printer, pos: number) {
+export function printTrailingCommentsOfPosition(printer: Printer, pos: number) {
 	const trailingComments = getTrailingCommentsToEmit(printer, pos);
 	// trailing comments of a position are emitted at /*trailing comment1 */space/*trailing comment*/space
 	return printComments(
@@ -365,4 +365,63 @@ export function emitTrailingCommentsOfPosition(printer: Printer, pos: number) {
 		/*leadingSeparator*/ false,
 		/*trailingSeparator*/ true,
 	);
+}
+
+export function printNodeWithComments(
+	printer: Printer,
+	node: any,
+	lineMap: number[],
+	parentNode: any, emitCallback: any) {
+
+  if (node) {
+      const { start, end } = node;
+      if ((start < 0 && end < 0) || (start === end)) {
+          // Both pos and end are synthesized, so just emit the node without comments.
+          return emitCallback(printer, node, lineMap, parentNode);
+      }
+          const skipLeadingComments = start < 0;
+          const skipTrailingComments = end < 0;
+
+          let parts = [];
+
+          // Emit leading comments if the position is not synthesized and the node
+          // has not opted out from emitting leading comments.
+          if (!skipLeadingComments) {
+            parts.push(emitLeadingComments(printer, start))
+          }
+
+          // Save current container state on the stack.
+          const savedContainerPos = printer.containerPos;
+          const savedContainerEnd = printer.containerEnd;
+          const savedDeclarationListContainerEnd = printer.declarationListContainerEnd;
+
+          if (!skipLeadingComments) {
+            printer.containerPos = start;
+          }
+
+          if (!skipTrailingComments) {
+            printer.containerEnd = end;
+
+              // To avoid invalid comment emit in a down-level binding pattern, we
+              // keep track of the last declaration list container's end
+              if (node.kind === SyntaxKind.VariableDeclarationList) {
+                printer.declarationListContainerEnd = end;
+              }
+          }
+
+          parts.push(emitCallback(printer, node, lineMap, parentNode));
+
+          // Restore previous container state.
+          printer.containerPos = savedContainerPos;
+          printer.containerEnd = savedContainerEnd;
+          printer.declarationListContainerEnd = savedDeclarationListContainerEnd;
+
+          // Emit trailing comments if the position is not synthesized and the node
+          // has not opted out from emitting leading comments and is an emitted node.
+          if (!skipTrailingComments) {
+              parts.push(emitTrailingComments(printer, end))
+          }
+
+          return concat(parts);
+      }
 }

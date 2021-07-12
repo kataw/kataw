@@ -144,9 +144,9 @@ import {
   printAssignmentRight,
   toggleSemicolon,
   emitLeadingComments,
-  emitTrailingComments,
-  emitTrailingCommentsOfPosition,
-  emitLeadingDetachedCommentsAndUpdateCommentsInfo,
+  printNodeWithComments,
+  printTrailingCommentsOfPosition,
+  printLeadingDetachedCommentsAndUpdateCommentsInfo,
 } from './core';
 import {
   toString,
@@ -154,7 +154,6 @@ import {
   DocumentFlags,
   concat,
   group,
-  join,
   softline,
   ifBreak,
   line,
@@ -414,73 +413,13 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
   );
 }
 
-
-export function emitNodeWithComments(
-	printer: Printer,
-	node: SyntaxNode,
-	lineMap: number[],
-	parentNode: SyntaxNode, emitCallback: any) {
-
-  if (node) {
-      const { start, end } = node;
-      if ((start < 0 && end < 0) || (start === end)) {
-          // Both pos and end are synthesized, so just emit the node without comments.
-          return emitCallback(printer, node, lineMap, parentNode);
-      }
-          const skipLeadingComments = start < 0;
-          const skipTrailingComments = end < 0;
-
-          let pussy = [];
-
-          // Emit leading comments if the position is not synthesized and the node
-          // has not opted out from emitting leading comments.
-          if (!skipLeadingComments) {
-            pussy.push(emitLeadingComments(printer, start))
-          }
-
-          // Save current container state on the stack.
-          const savedContainerPos = printer.containerPos;
-          const savedContainerEnd = printer.containerEnd;
-          const savedDeclarationListContainerEnd = printer.declarationListContainerEnd;
-
-          if (!skipLeadingComments) {
-            printer.containerPos = start;
-          }
-
-          if (!skipTrailingComments) {
-            printer.containerEnd = end;
-
-              // To avoid invalid comment emit in a down-level binding pattern, we
-              // keep track of the last declaration list container's end
-              if (node.kind === SyntaxKind.VariableDeclarationList) {
-                printer.declarationListContainerEnd = end;
-              }
-          }
-
-          pussy.push(emitCallback(printer, node, lineMap, parentNode));
-
-          // Restore previous container state.
-          printer.containerPos = savedContainerPos;
-          printer.containerEnd = savedContainerEnd;
-          printer.declarationListContainerEnd = savedDeclarationListContainerEnd;
-
-          // Emit trailing comments if the position is not synthesized and the node
-          // has not opted out from emitting leading comments and is an emitted node.
-          if (!skipTrailingComments) {
-              pussy.push(emitTrailingComments(printer, end))
-          }
-
-          return concat(pussy);
-      }
-}
-
 export function printStatement(
 	printer: Printer,
 	node: SyntaxNode,
 	lineMap: number[],
 	parentNode: SyntaxNode,
 ) {
-  return emitNodeWithComments(printer, node, lineMap, parentNode, printStatementWorker);
+  return printNodeWithComments(printer, node, lineMap, parentNode, printStatementWorker);
 }
 export function printStatementWorker(
 	printer: Printer,
@@ -779,7 +718,7 @@ export function printElementList(printer: Printer, node: any, lineMap: number[],
     if (previousSibling) {
       elements.push(concat([',', printer.space, lineBreaksBetweenArray]));
     }
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -818,7 +757,7 @@ export function printBindingElementList(printer: Printer, node: any, lineMap: nu
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1010,7 +949,7 @@ function printFunctionTypeParameterList(printer: Printer, node: any, lineMap: nu
       elements.push(concat([',', printer.space, lineBreak]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1135,7 +1074,7 @@ function printTupleType(printer: Printer, node: any, lineMap: number[], parentNo
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1167,7 +1106,7 @@ function printTypeInstantiations(printer: Printer, node: any, lineMap: number[],
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1203,7 +1142,7 @@ function printTypeParameterList(printer: Printer, node: any, lineMap: number[], 
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1311,7 +1250,7 @@ function printArrowTypeParameterList(printer: Printer, node: any, lineMap: numbe
       elements.push(concat([',', printer.space, lineBreak]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
   return concat(elements);
@@ -1331,7 +1270,7 @@ function printDecoratorList(printer: Printer, node: any, lineMap: number[], pare
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1401,7 +1340,7 @@ function printFunctionStatementList(printer: Printer, node: any, lineMap: number
   let child: any;
   let lastIdx = statements.length - 1;
 
-  tokens.push(emitLeadingDetachedCommentsAndUpdateCommentsInfo(printer, node, false));
+  tokens.push(printLeadingDetachedCommentsAndUpdateCommentsInfo(printer, node, false));
 
   if (directives && directives.length > 0) {
     lastIdx = directives.length - 1;
@@ -1496,7 +1435,7 @@ function printArgumentsList(printer: Printer, node: any, lineMap: number[], pare
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1580,7 +1519,7 @@ function printTemplateExpression(printer: Printer, node: TemplateExpression, lin
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
   return concat(['`', concat(elements), printStatement(printer, node.tail, lineMap, node), '`']);
@@ -1713,7 +1652,7 @@ function printObjectType(printer: Printer, node: any, lineMap: number[], parentN
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1806,7 +1745,7 @@ function printArrowParameterList(printer: Printer, node: any, lineMap: number[],
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
   return concat(['(', concat(elements), ')']);
@@ -1865,7 +1804,7 @@ function printBindingPropertyListOrPropertyDefinitionList(
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1904,7 +1843,7 @@ function printBindingPropertyListOrPropertyDefinitionList1(
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -1954,7 +1893,7 @@ function printBindingList(printer: Printer, node: any, lineMap: number[], parent
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
 
     previousSibling = child;
   }
@@ -2100,7 +2039,7 @@ function printFormalParameterList(printer: Printer, node: any, lineMap: number[]
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -2268,7 +2207,7 @@ function printExportsImportsList(printer: Printer, node: any, lineMap: number[],
       elements.push(concat([',', printer.space, softline]));
     }
 
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
     previousSibling = child;
   }
 
@@ -2758,7 +2697,7 @@ function printCommaOperator(printer: Printer, node: any, lineMap: number[], pare
     if (previousSibling) {
       elements.push(concat([',', printer.space, softline]));
     }
-    elements.push(emitTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
+    elements.push(printTrailingCommentsOfPosition(printer, child.start), printStatement(printer, child, lineMap, parentNode));
 
     previousSibling = child;
   }
