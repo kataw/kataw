@@ -155,7 +155,7 @@
 ### Printed
 
 ```javascript
-(x) => {};
+(/*1*/ x) => {};
 async (x) => {};
 
 ```

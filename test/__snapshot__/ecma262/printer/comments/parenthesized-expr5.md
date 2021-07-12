@@ -88,9 +88,7 @@
 ### Printed
 
 ```javascript
-(
-  /*1*/
-  a, b, c);
+(/*1*/a, /*3*/ b /*4*/, /*5*/ c /*6*/);
 ```
 
 ### Diagnostics

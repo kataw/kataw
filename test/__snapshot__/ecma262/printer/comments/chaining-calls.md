@@ -268,10 +268,10 @@ request
 ### Printed
 
 ```javascript
-request.post("'/version'").set(
+request.post("'/version'") // comment 1.set(
   "'Prefer'",
   "'plurality=singular'"
-).send().end((error, response) => {});
+) /* comment 2 */.send().end((error, response) => {});
 ```
 
 ### Diagnostics

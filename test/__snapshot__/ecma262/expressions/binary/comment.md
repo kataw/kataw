@@ -1222,11 +1222,13 @@ foo[
 ### Printed
 
 ```javascript
-a = (
+a =
+  (
     // Comment 1
-    (
-      // Comment 1
-      Math.random() * (yRange * (1 - minVerticalFraction))) + (minVerticalFraction * yRange)) - offset;
+    (Math.random() * (yRange * (1 - minVerticalFraction))) +
+    (minVerticalFraction * yRange)
+  ) - offset
+;
 a + a + a + a + a;
 
 a &&
@@ -1244,7 +1246,8 @@ a ||
 var a = x(
 
     abifornCringerMoshedPerplexSawder +
-    kochabCooieGameOnOboleUnweave +
+    kochabCooieGameOnOboleUnweave // f
+     +
     glimseGlyphsHazardNoopsTieTie +
     bifornCringerMoshedPerplexSawder
 

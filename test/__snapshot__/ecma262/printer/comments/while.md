@@ -397,13 +397,15 @@ while(1) // Comment
 while (true) {}
 while (true) {}
 
-while (true) {}
+while (true) {} // Comment
+
 
 while (true) {}
 
-while (true && true) {}
+while (true // Comment && true // Comment) {}
 
-while (true) {}
+while (true) {} // comment
+
 
 while (true) ++ x;
 

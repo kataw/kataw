@@ -5360,7 +5360,8 @@ class x {
 (class C {
     static async;
     a() {}
-  });
+  }); // a field named async, and a method named a.
+
 
 (class C {
     static async;

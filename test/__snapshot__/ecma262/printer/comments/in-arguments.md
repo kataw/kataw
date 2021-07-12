@@ -102,7 +102,7 @@ function f1(a, /* my comment */ c) {
 ### Printed
 
 ```javascript
-function f1(a, c) {}
+function f1(a, /* my comment */ c) {}
 ```
 
 ### Diagnostics

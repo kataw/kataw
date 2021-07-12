@@ -1201,7 +1201,7 @@ const hj = [
 ### Printed
 
 ```javascript
-[1, 2];
+[/* element 1*/ 1 /* end of element 1 */, 2 /* end of element 2 */];
 const ix = [, ,];
 
 var iq = [, ,];
@@ -1212,38 +1212,25 @@ var aryuray = [, ,];
 
 var ayiu = [];
 
-const yuid = [1];
+const yuid = [1 /* comment */];
 
-const yiyv = [1];
+const yiyv = [/* comment */ 1 /* comment */];
 
-const yig = [
-    // comment start
-    1, 2,];
+const yig = [// comment start1, 2,];
 
-const yius = [
-    /* element 1 */
-    1,];
+const yius = [/* element 1 */1,];
 
-const yuh = [
-    /* element 1 */
-    1,];
+const yuh = [/* element 1 */1,];
 
 const hsy = [1,];
 
-const aiya = [
-    // comment start
-    1, 2,];
+const aiya = [// comment start1, 2,];
 
-const hj = [
+const hj = [/* element 1 */1,];
+const ig = [/* element 1 */1,];const yj = [/* element 1 */1,];const ka = [
     /* element 1 */
-    1,];
-const ig = [
-    /* element 1 */
-    1,];const yj = [
-    /* element 1 */
-    1,];const ka = [
-    /* element 1 */
-    1,];
+    1,,
+  ];
 ```
 
 ### Diagnostics

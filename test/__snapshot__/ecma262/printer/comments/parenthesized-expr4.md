@@ -79,7 +79,7 @@
 ### Printed
 
 ```javascript
-(a, b, c);
+(/*1*/ a /*2*/, /*3*/ b /*4*/, /*5*/ c /*6*/);
 ```
 
 ### Diagnostics

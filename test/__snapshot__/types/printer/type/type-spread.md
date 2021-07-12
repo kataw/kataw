@@ -222,8 +222,8 @@ type X2 = {/**/...Y};
 ### Printed
 
 ```javascript
-type X1 = { ...Y }
-type X2 = { ...Y }
+type X1 = { ...Y /**/ }
+type X2 = { /**/ ...Y }
 
 ```
 

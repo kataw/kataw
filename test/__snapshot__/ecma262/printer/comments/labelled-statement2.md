@@ -77,10 +77,9 @@ x /* comment 3 */ : /* comment 4 */  y; /* comment 5 */
 ### Printed
 
 ```javascript
-
 /* comment 1 */
 /* comment 2 */
-x:  y;
+x /* comment 3 */:  y; /* comment 5 */
 ```
 
 ### Diagnostics

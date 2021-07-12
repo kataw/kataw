@@ -210,7 +210,7 @@ var e: { (x: any): void } = function() { } // arity
 ### Printed
 
 ```javascript
-var e: { (x: any): void } = function () {};
+var e: { (x: any): void } = function () {}; // arity
 ```
 
 ### Diagnostics

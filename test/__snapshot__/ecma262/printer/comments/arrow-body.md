@@ -156,11 +156,9 @@ const test = () => {
 ### Printed
 
 ```javascript
-const test = () =>
-  /**
+const test = () => /**
      * Multiline comment
-     **/
-  {
+     **/{
     return bar();
   };
 ```

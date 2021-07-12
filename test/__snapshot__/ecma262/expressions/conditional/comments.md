@@ -2685,16 +2685,22 @@ const extractTextPluginOptions2 = shouldUseRelativeAssetPaths
     ? { publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"") }
     : {};
 
-const extractTextPluginOptions3 = shouldUseRelativeAssetPaths
+const extractTextPluginOptions3 = shouldUseRelativeAssetPaths // Making sure that the publicPath goes back to to build folder.
+
     ? { publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"") }
     : {};
 
 const { configureStore } =
     process.env.NODE_ENV === "\"production\""
-      ? require("\"./configureProdStore\"")
-      : require("\"./configureDevStore\"");
+      ? require("\"./configureProdStore\"") // a
 
-test ? foo : bar;
+      : require("\"./configureDevStore\""); // b
+
+
+test /* comment
+  comment
+      comment
+*/ ? foo : bar;
 
 test ? foo : bar;
 
@@ -2708,7 +2714,8 @@ test ? foo : test ? foo : bar;
 
 test ? foo : bar;
 
-test ? test ? foo : bar : bar;
+test ? test /* c
+c */ ? foo : bar : bar;
 
 ```
 

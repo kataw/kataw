@@ -66,7 +66,7 @@
 ### Printed
 
 ```javascript
-(((x)));
+(((x) /*3*/) /*4*/);
 ```
 
 ### Diagnostics

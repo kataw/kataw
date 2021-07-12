@@ -38,10 +38,8 @@
 ### Printed
 
 ```javascript
-
 /*
-  */
-/* optional SingleLineDelimitedCommentSequence */
+  */ /* optional SingleLineDelimitedCommentSequence */ 
 ```
 
 ### Diagnostics

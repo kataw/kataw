@@ -5948,7 +5948,6 @@ async function *bar() {
   );
 }
 
-
 // #5733
 expect(() =>
   new GraphQLObjectType({

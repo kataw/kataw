@@ -856,25 +856,25 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
 
 ```javascript
 async () => x;
-async (a) => x;
+async (a /*1*/) => x;
 
-async (a) => x;
+async (/*1*/ a /*2*/) => x;
 
-async (a) => x;
+async (/*1*/ a /*2*/) => x;
 
-async (a) => x;
+async (/*1*/ a /*2*/) => x;
 
-async (a, b) => x;
+async (a /*1*/, /*2*/ b) => x;
 
-async (a) => x;
+async (a /*1*/) => x;
 
-async (a: string) => x;
+async (a /*1*/: string) => x;
 
-async (...a: string) => x;
+async (...a /*1*/: string) => x;
 
-async (...a: string, []) => x;
+async (...a /*1*/: string, []) => x;
 
-async (x? : string) => {};
+async (x /* 2 */? : string /* 5 */) => {};
 
 ```
 

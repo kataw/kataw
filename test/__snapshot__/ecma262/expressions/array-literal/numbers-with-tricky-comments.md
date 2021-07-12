@@ -601,8 +601,7 @@ const lazyCatererNumbers = [
     407,
     436,
     466,
-
-    // line
+    /*block*/ // line
     497,
     529,
     562,
@@ -622,7 +621,6 @@ const lazyCatererNumbers = [
     1129,
     1177,
     1226,
-
     // line 2
     1276,
     1327,

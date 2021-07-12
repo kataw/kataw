@@ -214,18 +214,13 @@
 ### Printed
 
 ```javascript
-
-/*-1*/foo:  switch (false) {
-
-  /*6*/case false:
-
-    /*10*/break foo;
-
-  /*13*/default:
-
-
-  /*16*/case false:
-    {}
+/*-1*/ foo /*0*/:  switch (false /*4*/) {
+  /*6*/ case false /*8*/:
+    /*10*/ break foo /*12*/;
+  /*13*/ default:
+     /*15*/
+  /*16*/ case false /*18*/:
+    {} /*22*/
 }
 ```
 

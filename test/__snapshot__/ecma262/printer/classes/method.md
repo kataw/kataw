@@ -233,10 +233,10 @@ class C {
 
 ```javascript
 class C {
-  name() {}
+  name /*comment*/() {}
 }
 ({
-    name() {}
+    name /*comment*/() {}
   });
 
 ```

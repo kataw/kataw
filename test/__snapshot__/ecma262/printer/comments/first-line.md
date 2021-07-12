@@ -62,7 +62,8 @@ b
 ### Printed
 
 ```javascript
-a;
+a; // comment
+
 b;
 
 ```

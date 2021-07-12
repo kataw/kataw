@@ -237,8 +237,8 @@ let y: [.../*1*/x/*2*/];
 ### Printed
 
 ```javascript
-let x: [? x];
-let y: [...x];
+let x: [? x /*2*/];
+let y: [...x /*2*/];
 
 ```
 

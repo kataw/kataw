@@ -286,10 +286,9 @@ x(function (other) { return other });
 ### Printed
 
 ```javascript
-var x = function (foo) {
+var x = function (/* pre */ foo /* post */) {
   return "'foo'" + "'bar'";
 };
-
 /* raz */
 x(function (other) {
   return other;

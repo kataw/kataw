@@ -170,7 +170,7 @@ function * gen() { function not_gen() { yield /* comment */ }}
 function *gen() {
   function not_gen() {
     yield;
-  }
+  } /* comment */
 }
 ```
 

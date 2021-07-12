@@ -62,7 +62,8 @@ xyz*/"bar";
 ### Printed
 
 ```javascript
-"\"foo\"";
+"\"foo\""; /*abc
+xyz*/
 "\"bar\"";
 
 ```

@@ -136,10 +136,9 @@ for /*2*/(x /*3*/in /*4*/ y) /*5*/ {}
 ### Printed
 
 ```javascript
-for (a in b);
-
+for (a /* comment 3 */ in b /* comment 5 */); /* comment 7 */
 /*1*/
-for (x in y) {}
+for (x /*3*/ in y) {}
 
 ```
 

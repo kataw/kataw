@@ -126,7 +126,7 @@
 ### Printed
 
 ```javascript
-({ async *x() {} });
+({ async *x /*3*/() {} });
 ```
 
 ### Diagnostics

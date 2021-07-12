@@ -116,9 +116,7 @@ b
 ### Printed
 
 ```javascript
-function commentedParameters(
-  /* Parameter a */
-  a, b) {}
+function commentedParameters(/* Parameter a */a /* End of parameter a */, b) {}
 ```
 
 ### Diagnostics

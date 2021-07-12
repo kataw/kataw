@@ -1246,29 +1246,27 @@ const foo3 = 123
 let obj1 = {
     key: "'val'"
   };
-let obj2 = {
+let obj2 // Comment = {
     key: "'val'"
   };
 
 let obj3 = {
+    // Comment
     key: "'val'"
   };
 
 let obj4 = {
-
     // Comment
     key: "'val'"
   };
 
 let obj5 = ["'val'"];
 
-let obj6 = ["'val'"];
+let obj6 // Comment = ["'val'"];
 
-let obj7 = ["'val'"];
+let obj7 = [// Comment"'val'"];
 
-let obj8 = [
-    // Comment
-    "'val'"];
+let obj8 = [// Comment"'val'"];
 
 let obj9 = `val`;
 
@@ -1284,9 +1282,9 @@ val
 val
 `;
 
-let foo1 = "'val'";
+let // Commentfoo1 = "'val'";
 
-let foo2 = "'val'", bar = "'val'";
+let // Commentfoo2 = "'val'", bar = "'val'";
 
 const foo3 = 123;
 ["\"2\"", "\"3\""].forEach(x => console.log(x));

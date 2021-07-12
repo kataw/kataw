@@ -95,7 +95,7 @@ const array = [/* element 1 */ 1, /* end of element 1 */];
 ### Printed
 
 ```javascript
-const array = [1,];
+const array = [/* element 1 */ 1,];
 ```
 
 ### Diagnostics

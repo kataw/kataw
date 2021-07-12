@@ -90,8 +90,8 @@ do {} while (/* comment 1 */x/* comment 2 */) /* comment 3 */ {} /* comment 4 */
 
 ```javascript
 do  {}
-while (x);
-{}
+while (x /* comment 2 */); /* comment 3 */
+{} /* comment 4 */
 
 ```
 

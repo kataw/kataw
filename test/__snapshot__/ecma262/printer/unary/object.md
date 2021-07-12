@@ -120,7 +120,6 @@ state = {
 
 ```javascript
 state = {
-
   // students
   hoverColumn: -1
 };

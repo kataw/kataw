@@ -1229,28 +1229,26 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
 ### Printed
 
 ```javascript
-
 /*1*/
-function identity(value: string): string {
+function identity /*3*/(value /*4*/: string /*5*/): string /*6*/ {
   return value;
-}
-function identity<T>(value: T): T
-/*1*/{
+} /*7*/
+function identity<T>(value: T): T /*1*/ {
   return value;
-}
+} /*2*/
 
-type IdentityWrapper = { func<T> (T): T }
+type IdentityWrapper = { func</*1*/ T> /*2*/ (/*3*/ T /*4*/): T }
 
-function method<T>(param: T): T {}
+function method<T>(param: T): T // ...
+{}
 
-function method(func: <T>(param: T) => T) {}
+function method /*2*/(func: </*3*/ T> /*4*/(/*5*/ param /*6*/: T /*7*/) => T) {}
 
-function constant<T>(value: T): () => T
-/*5*/{
-  return function (): T {
+function constant /*2*/<T>(value /*3*/: T /*4*/): () => T /*5*/ {
+  return function (): T /*9*/ {
     return value;
-  };
-}
+  } /*12*/;
+} /*13*/
 
 ```
 

@@ -93,7 +93,7 @@
 ```javascript
 {
   length:  3000;
-}
+} /*{ StatementListItem }*/
 ```
 
 ### Diagnostics

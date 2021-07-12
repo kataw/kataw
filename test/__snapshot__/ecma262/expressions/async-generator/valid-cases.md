@@ -3867,7 +3867,6 @@ for (;;) {}});
     (yield ) ? yield  : yield ;
   });
 
-
 // If there is a newline before the next token, we don't look for RHS.
 (function *gen() {
     yield ;

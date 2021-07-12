@@ -203,16 +203,19 @@ foo /* comment */
 ### Printed
 
 ```javascript
-foo``;
-foo``;
+foo``; // comment
 
-foo`
+foo // comment
+``;
+
+foo // comment
+`
 `;
 
-foo`
+foo /* comment */`
 `;
 
-foo`
+foo /* comment */`
 `;
 
 ```

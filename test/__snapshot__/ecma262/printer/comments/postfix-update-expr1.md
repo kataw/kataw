@@ -59,7 +59,7 @@ a--/*1*/;
 ### Printed
 
 ```javascript
-a--;
+a-- /*1*/;
 ```
 
 ### Diagnostics

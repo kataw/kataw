@@ -114,8 +114,8 @@ var bar; // another comment
 ### Printed
 
 ```javascript
-var foo;
-var bar;
+var foo; /* comment */
+var bar; // another comment
 
 ```
 

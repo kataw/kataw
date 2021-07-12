@@ -85,7 +85,6 @@ function MyClass() {}
 ### Printed
 
 ```javascript
-
 /**
  * @class MyClass
  */

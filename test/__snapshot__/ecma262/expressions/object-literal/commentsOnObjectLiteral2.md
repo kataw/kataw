@@ -250,7 +250,6 @@ var Person = makeClass(
 
 ```javascript
 var Person = makeClass({
-
   /**
         This is just another way to define a constructor.
         @constructs
@@ -258,7 +257,7 @@ var Person = makeClass({
         */
   initialize: function (name) {
     this.name = name;
-  },
+  } /* trailing comment 1*/,
 });
 ```
 

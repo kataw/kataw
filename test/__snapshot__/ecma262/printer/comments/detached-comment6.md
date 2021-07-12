@@ -56,7 +56,6 @@
 ### Printed
 
 ```javascript
-
 // detached comment 1
 x;
 ```

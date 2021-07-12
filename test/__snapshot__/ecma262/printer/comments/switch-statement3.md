@@ -158,7 +158,7 @@ switch (x) {
     foo;
   default:
     foo;
-}
+} /* comment 7 */
 ```
 
 ### Diagnostics

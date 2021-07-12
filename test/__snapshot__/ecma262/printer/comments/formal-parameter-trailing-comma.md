@@ -299,9 +299,9 @@ function* a(b, c, d/*1*/,
 
 ```javascript
 function *a(b, c, d) {}
-function *a(b, c, d) {}
+function *a(b, c, d /*1*/) {}
 
-function *a(b, c, d) {}
+function *a(b, c, d /*1*/) {}
 
 ```
 

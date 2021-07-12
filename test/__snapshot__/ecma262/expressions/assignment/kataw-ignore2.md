@@ -69,7 +69,7 @@ foo = bar;
 ### Printed
 
 ```javascript
-
+// kataw-ignore
 // kataw-ignore
 foo = bar;
 ```

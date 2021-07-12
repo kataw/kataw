@@ -28,8 +28,7 @@
 ### Printed
 
 ```javascript
-
-/* detached comment */
+/* detached comment */ 
 ```
 
 ### Diagnostics

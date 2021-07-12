@@ -2236,47 +2236,50 @@ function foo4() {
 function x() {}
 function x() {}
 
-function x() {}
+function x /*2*/() {}
 
-function a() {}
+function a() {} // comment
 
-function b() {}
 
-function c(argA, argB, argC) {}
+function b() {} // comment
 
-call((row) => {});
 
-function f1() {}
+function c(/* comment */ argA, argB, argC) {} // comment
+
+
+call((/*object*/ row) => {});
+
+function f1 /* f */() {}
 
 function f2() {}
 
 function f3() {}
 
-function f4() {}
+function f4 /* f */() {}
 
-function f5(a) {}
+function f5 /* f */(/* a */ a) {}
 
-function f6(a) {}
+function f6 /* f */(a /* a */) {}
 
-function f7(a) {}
+function f7 /* f */(/* a */ a) {}
 
 const obj = {
-    f1() {},
+    f1 /* f */() {},
     f2() {},
     f3() {},
-    f4() {},
+    f4 /* f */() {},
   };
 
-(function f() {})();
+(function f /* f */() {})();
 
 (function f() {})();
 
 (function f() {})();
 
-(function f() {})();
+(function f /* f */() {})();
 
 class C1 {
-  f() {}
+  f /* f */() {}
 }
 
 class C2 {
@@ -2288,7 +2291,7 @@ class C3 {
 }
 
 class C4 {
-  f() {}
+  f /* f */() {}
 }
 
 function foo1() {
@@ -2303,8 +2306,7 @@ function foo3() {
   return 42;
 }
 
-function foo4()
-// this is a function
+function foo4() // this is a function
 {
   return 42;
 }

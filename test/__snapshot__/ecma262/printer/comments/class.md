@@ -352,14 +352,13 @@ class D {
 ### Printed
 
 ```javascript
-
 // #8718
 class C {
-  ma() {}
+  ma() {} /* D */ /* E */
   mb() {}
 }
 class D {
-  ma() {}
+  ma() {} /* D */ /* E */ /* F */
   mb() {}
 }
 

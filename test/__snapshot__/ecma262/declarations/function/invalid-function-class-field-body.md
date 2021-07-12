@@ -207,9 +207,7 @@ function* foo() {
 ```javascript
 function *foo() {
   class C {
-
-    // here yield is an identifier reference
-    p = yield +42;;
+    // here yield is an identifier referencep = yield +42;;
   }
 }
 ```

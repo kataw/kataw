@@ -80,7 +80,7 @@
 ### Printed
 
 ```javascript
-(((-- x)));
+(((-- x /*5*/) /*6*/) /*7*/);
 ```
 
 ### Diagnostics

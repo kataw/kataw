@@ -727,7 +727,6 @@ function f() {
 ### Printed
 
 ```javascript
-
 // Both functions below should be formatted exactly the same
 function f() {
   if (position) return { name: pair };

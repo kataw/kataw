@@ -291,7 +291,6 @@ export class C extends fn(await []) {};
 function fn() {
   return function () {};
 }
-
 // extends CallExpression with arguments
 export class C extends fn(await []) {}
 

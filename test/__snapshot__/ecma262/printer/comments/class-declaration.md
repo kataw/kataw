@@ -335,19 +335,19 @@ class /*1*/ y /*2*/ {
 ```javascript
 class x {
   ;
-  ;
+  ; /*1*/
   ;
   ;
   a = b;
-  x: string;
+  x /*2*/: string;
 }
-class y {
+class y /*2*/ {
+  ;
+  ; /*3*/
   ;
   ;
-  ;
-  ;
-  a = b;
-  x: string;
+  a /*4*/ = b;
+  x /*6*/: string;
 }
 
 ```

@@ -1942,51 +1942,37 @@ let tests = [
 ### Printed
 
 ```javascript
-let tests = [
-    // objects on RHS
-    function () {
+let tests = [// objects on RHSfunction () {
       ("'foo'" in {});
       ("'foo'" in { foo: null });
       (0 in {});
       (0 in { "\"0\"": null });
-    },
-    // arrays on RHS
-    function () {
+    }, // arrays on RHSfunction () {
       ("'foo'" in []);
       (0 in []);
       ("'length'" in []);
-    },
-    // primitive classes on RHS
-    function () {
+    }, // primitive classes on RHSfunction () {
       ("'foo'" in new String("'bar'"));
       ("'foo'" in new Number(123));
-    },
-    // primitives on RHS
-    function () {
-      ("'foo'" in 123);
-      ("'foo'" in "'bar'");
-      ("'foo'" in void 0);
+    }, // primitives on RHSfunction () {
+      ("'foo'" in 123); // error
+      ("'foo'" in "'bar'"); // error
+      ("'foo'" in void 0); // error
       ("'foo'" in null);
-    },
-    // bogus stuff on LHS
-    function () {
-      (null in {});
-      (void 0 in {});
-      ({} in {});
-      ([] in {});
+    } // error, // bogus stuff on LHSfunction () {
+      (null in {}); // error
+      (void 0 in {}); // error
+      ({} in {}); // error
+      ([] in {}); // error
       (false in []);
-    },
-    // in predicates
-    function () {
-      if ("'foo'" in 123) {}
-      if (!"'foo'" in {}) {}
+    } // error, // in predicatesfunction () {
+      if ("'foo'" in 123) {} // error
+      if (!"'foo'" in {}) {} // error, !'foo' is a boolean
       if (!("'foo'" in {})) {}
-    },
-    // annotations on RHS
-    function (x: Object, y: mixed) {
-      ("'foo'" in x);
+    }, // annotations on RHSfunction (x: Object, y: mixed) {
+      ("'foo'" in x); // ok
       ("'foo'" in y);
-    },];
+    } // error,];
 ```
 
 ### Diagnostics

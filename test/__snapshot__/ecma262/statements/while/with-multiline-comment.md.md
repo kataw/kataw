@@ -170,11 +170,12 @@ there; }
 
 ```javascript
 while (true) {
-    break;
+    break; /* Multiline
+Comment */
     there;
   }
 while (true) {
-    break;
+    break; // Comment
     there;
   }
 

@@ -109,7 +109,7 @@ let x /*1*/ :/*2*/ string /*3*/|/*4*/ number;
 ### Printed
 
 ```javascript
-let x: string | number;
+let x /*1*/: string /*3*/ | number;
 ```
 
 ### Diagnostics

@@ -36,9 +36,7 @@
 ### Printed
 
 ```javascript
-
-//@license
-
+//@license 
 ```
 
 ### Diagnostics

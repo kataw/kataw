@@ -261,7 +261,7 @@ else stuff;
 ```javascript
 if (cond) {
     stuff;
-  }
+  } /* comment */
 else  if (cond) {
     stuff;
   }

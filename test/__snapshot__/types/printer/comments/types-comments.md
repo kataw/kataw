@@ -1617,30 +1617,27 @@ type x = {get x (/*1*/): string }
 ### Printed
 
 ```javascript
-
 /*1*/
 type a = (Array<string>) => void
 type A = (Array<string>, ...Array<string>) => void
 
-type A = (Array<string>, ...Array<string>) => void
+type A = (Array</*1*/ string> /*2*/, ...Array<string> /*4*/) => void
 
-type Fn1 = <T>(T) => T
+type Fn1 /*1*/ = </*3*/ T> /*4*/(/*5*/ T /*6*/) => T
 
-type E = Obj["'bar'"][]
+type E = Obj /*1*/["'bar'"][]
 
-type E = Obj["'bar'"][]
+type E = Obj /*1*/["'bar'" /*3*/] /*5*/[]
 
-type O1 = { ...{ p: T } | { q: U } }
+type O1 = { /*1*/ ...{ /*2*/ p: T /*3*/ } /*4*/ | { /*5*/ q: U } /*6*/ }
 
-type a = { "\"string\"": y.
-  /*7*/
-  z }
+type a /*2*/ = { /*4*/ "\"string\"" /*5*/: y./*7*/z }
 
-type C = { ...A & B }
+type C = { ...A & B /*1*/ }
 
-type foo<number> = string
+type foo<number> /*1*/ = string
 
-type x = { x(): string }
+type x = { x( /*1*/): string }
 
 ```
 

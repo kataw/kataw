@@ -671,9 +671,9 @@ let e = f`template with ${some}, /*2*/ ${variables}`;
 
 let f = f`template with ${some}, ${variables}, ${attached}`;
 
-let g = f()`template with function call before`;
+let g /*3*/ = f /*5*/()`template with function call before`;
 
-let h = f().g`template with more complex function call`;
+let h = f() /*7*/.g`template with more complex function call`; /*9*/
 
 ```
 

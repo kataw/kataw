@@ -108,7 +108,7 @@
 ### Printed
 
 ```javascript
-({ x = y } = z);
+({ /*1*/ x /*2*/ = y /*4*/ } /*5*/ = z);
 ```
 
 ### Diagnostics

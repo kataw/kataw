@@ -134,7 +134,7 @@ let g = GeneratorFunction(
     "\"a\"",
     "\" /* a */ b, c /* b */ //\"",
     "\"/* c */ yield yield; /* d */ //\""
-  );
+  ) /* after */;
 ```
 
 ### Diagnostics

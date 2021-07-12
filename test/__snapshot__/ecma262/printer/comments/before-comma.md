@@ -150,8 +150,7 @@
 
 ```javascript
 const foo = {
-    a: "'a'",
-
+    a: "'a'" /* comment for this line */,
     /* Section B */
     b: "'b'",
   };

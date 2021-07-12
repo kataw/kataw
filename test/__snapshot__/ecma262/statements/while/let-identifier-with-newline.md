@@ -106,7 +106,8 @@ x = 1;
 ### Printed
 
 ```javascript
-while (false) let;
+while (false) let; // ASI
+
 x = 1;
 
 ```

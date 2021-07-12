@@ -314,11 +314,9 @@ function f() {
   a;
 }
 
-function name()
-// comment1
+function name() // comment1
 {
   func1();
-
   // comment2
   func2();
 }

@@ -63,7 +63,8 @@ a;
 ### Printed
 
 ```javascript
-l\u0065t;
+l\u0065t; // ASI
+
 a;
 
 ```

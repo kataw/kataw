@@ -679,18 +679,18 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
 ### Printed
 
 ```javascript
-(foo++)?.();
+(foo /*1*/++)?.();
 async () => {
   (await foo)?.();
-};
+}; /*3*/
 
-(+foo)?.();
+(+foo) /*4*/?.();
 
-+(+foo);
++(+foo); /*6*/
 
-class x extends (+Bar) {}
+class x extends (+Bar /*8*/)  /*9*/{}
 
-class y extends (Bar ?? Baz) {}
+class y extends (Bar /*10*/ ?? Baz) {}
 
 const foo = class extends (Bar ?? Baz) {};
 

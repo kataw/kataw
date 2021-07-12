@@ -132,9 +132,7 @@
 ### Printed
 
 ```javascript
-({ async *
-    /*3*/
-    x() {} });
+({ async */*3*/x() {} });
 ```
 
 ### Diagnostics

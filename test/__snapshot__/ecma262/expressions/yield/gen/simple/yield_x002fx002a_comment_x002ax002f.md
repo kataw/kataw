@@ -53,7 +53,7 @@ yield /* comment */
 ### Printed
 
 ```javascript
-yield;
+yield; /* comment */
 ```
 
 ### Diagnostics

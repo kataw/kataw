@@ -105,11 +105,7 @@
 ### Printed
 
 ```javascript
-for (
-/* comment 2 */
-a in
-/* comment 4 */
-b);
+for (/* comment 2 */a in /* comment 4 */b); /* comment 7 */
 ```
 
 ### Diagnostics

@@ -137,7 +137,7 @@ type A = {
 ### Printed
 
 ```javascript
-type A = { ...(B) }
+type A = { ...(B /* comment 1 */) }
 ```
 
 ### Diagnostics

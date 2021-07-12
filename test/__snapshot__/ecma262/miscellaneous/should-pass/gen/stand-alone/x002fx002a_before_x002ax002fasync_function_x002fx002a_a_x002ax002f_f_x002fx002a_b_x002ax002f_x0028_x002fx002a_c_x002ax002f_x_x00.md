@@ -130,11 +130,10 @@
 ### Printed
 
 ```javascript
+/* before */ async function f /* b */(/* c */ x /* d */, /* e */ y /* f */) {
+   /* i */
 
-/* before */async function f(x, y) {
-
-
-}
+} /* j */ /* after */
 ```
 
 ### Diagnostics

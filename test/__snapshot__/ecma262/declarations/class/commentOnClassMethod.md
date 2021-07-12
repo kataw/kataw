@@ -159,15 +159,9 @@ class WebControls {
 
 ```javascript
 class WebControls {
-
   /**
      * Render a control
-     */
-
-  /**
-     * Render a control
-     */
-  createControl(): any {}
+     */createControl(): any {}
 }
 ```
 

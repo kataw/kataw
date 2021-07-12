@@ -36,8 +36,7 @@
 ### Printed
 
 ```javascript
-
-/*!\r     * Re-indent test\r     */
+/*!\r     * Re-indent test\r     */ 
 ```
 
 ### Diagnostics

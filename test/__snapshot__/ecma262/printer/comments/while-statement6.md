@@ -68,7 +68,7 @@ while /* comment 1 */ (x// comment 2
 ### Printed
 
 ```javascript
-while (x) {}
+while (x // comment 2) {}
 ```
 
 ### Diagnostics

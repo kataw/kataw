@@ -190,7 +190,7 @@ class C {
 
 ```javascript
 class C {
-  ma() {}
+  ma() {} /* D */ /* E */
   mb() {}
 }
 ```

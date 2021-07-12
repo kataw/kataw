@@ -339,7 +339,8 @@ var b = {};
 
 var b = [];
 
-function d() {}
+function d() /* dangling */
+{}
 
 new Thing();
 

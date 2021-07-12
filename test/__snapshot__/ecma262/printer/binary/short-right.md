@@ -754,7 +754,7 @@ const isPartOfPackageJSON =
     -1
   ;
 
-defaultContent.filter(defaultLocale => {})[0] || null;
+defaultContent.filter(defaultLocale => // ...{})[0] || null;
 
 ```
 

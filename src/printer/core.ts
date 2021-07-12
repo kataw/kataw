@@ -1,5 +1,6 @@
+import { softline } from './../formatter/index';
 import { SyntaxKind, TransformFlags, tokenToString } from '../ast/syntax-node';
-import { hardline, concat, group, indent, line } from '../formatter/index';
+import { concat, group, hardline, indent, line } from '../formatter/index';
 import { collectLeadingComments, collectTrailingComments } from '../parser/scanner/comments';
 
 export const enum PrinterFlags {
@@ -21,19 +22,17 @@ export const enum PrinterFlags {
   ArrayBracketNewline = 1 << 13,
   EnforceLineBreaksBetweenArray = 1 << 14,
   ComputedPropertySpacing = 1 << 15,
-  PrintComments = 1 << 16,
+  NoComments = 1 << 16,
 }
 
 export interface Printer {
   source: string;
   space: string;
   flags: PrinterFlags;
-  containerPos: number;
-  containerEnd: number;
-  nextListElementPos: number;
-  declarationListContainerEnd: number;
-  lastSingleLinePos: number;
-  detachedCommentsInfo: any;
+  detachedCommentsInfo: any,
+  consumedCommentRanges: any[];
+  leadingCommentRangePositions: any[];
+  trailingCommentRangePositions: any[];
 }
 
 export function createPrinter(source: string, flags: PrinterFlags, space: string): Printer {
@@ -41,12 +40,10 @@ export function createPrinter(source: string, flags: PrinterFlags, space: string
     source,
     flags,
     space,
-    containerPos: -1,
-    containerEnd: -1,
-    nextListElementPos: 0,
-    lastSingleLinePos: -1,
-    declarationListContainerEnd: -1,
-    detachedCommentsInfo: undefined
+    detachedCommentsInfo: undefined,
+    consumedCommentRanges: [],
+    leadingCommentRangePositions: [],
+    trailingCommentRangePositions: []
   };
 }
 
@@ -70,10 +67,6 @@ export function printAssignmentRight(left: any, right: any, printedRight: any): 
     left.kind === SyntaxKind.StringLiteral
     ? group(indent(concat([line, printedRight])), {})
     : concat([' ', printedRight]);
-}
-
-export function lastOrUndefined<T>(array: readonly T[]): any {
-  return array.length === 0 ? undefined : array[array.length - 1];
 }
 
 export function printKeywordNoSpace(printer: any, keyword: any): any {
@@ -157,113 +150,155 @@ export function toggleSemicolon(printer: Printer): string {
     : ';';
 }
 
-export function printWithComments(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-  parentNode: any,
-  printCallback: any,
-): any {
-  if (node) {
-    const { start, end } = node;
-
-    if ((start < 0 && end < 0) || start === end) {
-      return printCallback(printer, node, lineMap, parentNode);
-    }
-
-    let leadingComments: any = [];
-
-    if (start >= 0) {
-      leadingComments = printLeadingComments(printer, start);
-    }
-
-    const { containerPos, containerEnd, declarationListContainerEnd } = printer;
-
-    if (start >= 0) {
-      printer.containerPos = start;
-    }
-
-    if (end >= 0) {
-      printer.containerEnd = end;
-
-      if (node.kind === SyntaxKind.VariableDeclarationList) {
-        printer.declarationListContainerEnd = end;
-      }
-    }
-
-    const printed = printCallback(printer, node, lineMap, parentNode);
-
-    // Restore previous container state.
-    printer.containerPos = containerPos;
-    printer.containerEnd = containerEnd;
-    printer.declarationListContainerEnd = declarationListContainerEnd;
-
-    if (end >= 0) {
-      // printTrailingComments(printer, end);
-    }
-
-    if (leadingComments && leadingComments.length > 0) {
-      return concat([
-        printComments(printer, leadingComments, true),
-        printed
-      ])
-    }
-
-    return printed;
-  }
-  return '';
+export function positionIsSynthesized(pos: number): boolean {
+  return !(pos >= 0);
 }
 
-function printComments(printer: Printer, comments: any, printLeadingSpace: boolean = false) {
-  let parts: any = []
-for (const comment of comments) {
-  if (printLeadingSpace) {
-    parts.push(hardline);
-    printLeadingSpace = false;
+
+export function getTrailingComments(printer: Printer, range: any) {
+  let comments = getTrailingCommentsOfPosition(printer, range.end);
+  return comments;
+}
+
+export function getTrailingCommentsOfPosition(printer: Printer, pos: number) {
+  if (printer.flags & PrinterFlags.NoComments || positionIsSynthesized(pos) || printer.trailingCommentRangePositions[pos]) {
+      return '';
   }
 
-  if (comment.kind === SyntaxKind.MultiLineComment) {
-    parts.push(printer.source.substring(comment.pos, comment.end))
-    if (comment.hasTrailingNewLine) {
-      parts.push(hardline);
-    } else {
-      printLeadingSpace = true;
-    }
-  } else {
-    parts.push(concat([printer.source.substring(comment.pos, comment.end), hardline]))
+  printer.trailingCommentRangePositions[pos] = true;
+  const comments = collectTrailingComments(printer.source, pos);
+  return consumeCommentRanges(printer, comments);
+}
+
+function hasConsumedCommentRange(printer: Printer, comment: any) {
+  return comment.end === printer.consumedCommentRanges[comment.pos];
+}
+
+
+function consumeCommentRange(printer: Printer, comment: any) {
+  if (!hasConsumedCommentRange(printer, comment)) {
+      printer.consumedCommentRanges[comment.pos] = comment.end;
+      return true;
   }
+
+  return false;
+}
+
+function consumeCommentRanges(printer: Printer, comments: any[]) {
+  let consumed: any;
+  if (comments) {
+      let commentsSkipped = 0;
+      let commentsConsumed = 0;
+      for (let i = 0; i < comments.length; i++) {
+          const comment = comments[i];
+          if (consumeCommentRange(printer, comment)) {
+              commentsConsumed++;
+              if (commentsSkipped !== 0) {
+                  if (consumed === undefined) {
+                      consumed = [comment];
+                  }
+                  else {
+                      consumed.push(comment);
+                  }
+              }
+          }
+          else {
+              commentsSkipped++;
+              if (commentsConsumed !== 0 && consumed === undefined) {
+                  consumed = comments.slice(0, i);
+              }
+          }
+      }
+
+      if (commentsConsumed) {
+          return consumed || comments;
+      }
   }
-  return concat(parts);
+
+  //return [];
+}
+
+function lastOrUndefined<T>(array: readonly T[]): any {
+  return array.length === 0 ? undefined : array[array.length - 1];
 }
 
 function hasDetachedComments(printer: Printer, pos: number) {
-  return printer.detachedCommentsInfo !== undefined && lastOrUndefined(printer.detachedCommentsInfo).nodePos === pos;
+  return printer.detachedCommentsInfo !== undefined && (printer.detachedCommentsInfo).nodePos === pos;
 }
 
-export function printLeadingComments(printer: Printer, pos: number) {
-  let leadingComments!: any[] | undefined;
-   if (printer.containerPos === -1 || pos !== printer.containerPos) {
-    leadingComments = hasDetachedComments(printer, pos)
-      ? getLeadingCommentsWithoutDetachedComments(printer)
-      : getLeadingCommentRanges(printer.source, pos);
-  }
-  return leadingComments;
+
+export function getLeadingComments(printer: Printer, range: any) {
+  let comments = getLeadingCommentsOfPosition(printer, range.start);
+  return comments;
 }
 
 function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
+  // get the leading comments from detachedPos
   const pos = lastOrUndefined(printer.detachedCommentsInfo).detachedCommentEndPos;
-  const leadingComments = getLeadingCommentRanges(printer.source, pos);
+  const leadingComments = collectLeadingComments(printer.source, pos);
   if (printer.detachedCommentsInfo.length - 1) {
     printer.detachedCommentsInfo.pop();
-  } else {
+  }
+  else {
     printer.detachedCommentsInfo = undefined;
   }
 
   return leadingComments;
 }
 
-export function getLeadingCommentRanges(text: string, pos: number): any {
-  if (pos !== undefined) {
-    return collectLeadingComments(text, pos);
+function getLeadingCommentsOfPosition(printer: Printer, pos: number) {
+  if (positionIsSynthesized(pos) || printer.leadingCommentRangePositions[pos]) {
+      return undefined;
   }
+  printer.leadingCommentRangePositions[pos] = true;
+  const comments = hasDetachedComments(printer, pos)
+      ? getLeadingCommentsWithoutDetachedComments(printer)
+      : collectLeadingComments(printer.source, pos);
+  return consumeCommentRanges(printer, comments);
 }
+
+
+
+export function emitLeadingComments(printer: Printer, range: any, comments = getLeadingComments(printer, range)) {
+  //emitNewLineBeforeLeadingComments(printer.lineMap, writer, range, comments);
+
+  // Leading comments are emitted at /*leading comment1 */space/*leading comment*/space
+  return printComments(printer, comments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
+}
+
+export function emitTrailingComments(printer: Printer,range: any, comments = getTrailingComments(printer, range)) {
+  // trailing comments are emitted at space/*trailing comment1 */space/*trailing comment*/
+  return printComments(printer, comments, /*leadingSeparator*/ true, /*trailingSeparator*/ false);
+}
+
+export function printComments(printer: Printer, comments: any, leadingSeparator: boolean, trailingSeparator: boolean): any {
+  if (comments && comments.length > 0) {
+    let pussy: any = [];
+    if (leadingSeparator) {
+    pussy.push(' ');
+    }
+    let emitInterveningSeparator = false;
+    for (const comment of comments) {
+        if (emitInterveningSeparator) {
+          pussy.push(' ');
+            emitInterveningSeparator = false;
+        }
+        pussy.push(printer, printer.source.substring(comment.pos, comment.end));
+
+        if (comment.hasTrailingNewLine) {
+          pussy.push(softline);
+        }
+        else {
+            emitInterveningSeparator = true;
+        }
+    }
+
+    if (emitInterveningSeparator && trailingSeparator) {
+      pussy.push(' ');
+    }
+return concat(pussy);
+}
+return '';
+}
+
+//writeCommentRange(printertext, lineMap, writer, comment, newLine);

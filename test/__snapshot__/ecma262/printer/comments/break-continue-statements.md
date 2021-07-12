@@ -258,9 +258,9 @@ for (;;)
 loop:  for (;;)
   {
     break loop;
-    break loop;
+    break loop /* comment */;
     continue loop;
-    continue loop;
+    continue loop /* comment */;
   }
 
 ```

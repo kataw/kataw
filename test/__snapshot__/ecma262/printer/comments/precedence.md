@@ -5396,13 +5396,13 @@ g = b + -+-a++;
 
 ```javascript
 var a, b, c, d, e, f, g, x, y, z;
-a = 1 + 2 * 3 / 5;
+a = 1 + 2 /*1*/ * 3 / 5;
 
-b = (1 + 2) * 3 / 5;
+b = (1 + 2 /*2*/) * 3 / 5;
 
 c = (1 + 2) * (3 - 5);
 
-d = x | y ^ z;
+d = x | y /*3*/ ^ z;
 
 e = (x | y) ^ z;
 
@@ -5410,7 +5410,7 @@ f = "\"a\"" + (1 + 2) + "\"b\"";
 
 g = "\"a\"" + (1 - 2) + "\"b\"";
 
-a = true || false && null;
+a = true /*6*/ || false && null;
 
 b = c == d || e != f;
 
@@ -5418,7 +5418,7 @@ c = x instanceof y || x instanceof z;
 
 d = x == y && y != z;
 
-a = !false;
+a = !false; /*8*/
 
 b = !x instanceof Number;
 
@@ -5430,11 +5430,11 @@ e = !typeof a === "'boolean'";
 
 f = !(typeof a === "'boolean'");
 
-f = typeof (() => {});
+f = typeof (() => {} /*11*/);
 
 a = (1.1).toString();
 
-b = new A().toString();
+b = new A /*12*/().toString();
 
 c = new x.A().toString();
 
@@ -5458,7 +5458,7 @@ g = 1 && (() => {});
 
 g = (() => {}) && 1;
 
-g = (1, + +2);
+g = (1, /*16*/ + +2);
 
 g = (1, + +(2 + 3));
 
@@ -5466,7 +5466,7 @@ a = - -- i;
 
 b = - - -- i;
 
-c = + + ++ j;
+c = + + ++ j; /*19*/
 
 d = !!a;
 
@@ -5482,7 +5482,7 @@ g = b + -+-a++;
     await (a = b);
     (await f()).a;
     await f().a;
-    yield 1;
+    yield 1; /*24*/
     yield 1 + 2;
     (yield 1) + (yield 2);
     yield a = b;
@@ -5491,19 +5491,19 @@ g = b + -+-a++;
 
 (function *() {
     !(yield 1);
-  });
+  }); /*27*/
 
 !(() => {});
 
 (() => {}) ? a : b;
 
-({}) ? a : b;
+({}) ? a /*29*/ : b;
 
 (({}) ? a : b) ? c : d;
 
-(function () {}) ? a : b;
+(function () {} /*32*/) ? a : b;
 
-(class {}) ? a : b;
+(class {}) ? a : b; /*33*/
 
 ```
 

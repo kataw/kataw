@@ -148,11 +148,9 @@
 ### Printed
 
 ```javascript
-
-/*1*/try {
-
-  /*4*/throw "\"no\"";
-} catch (e) {} finally {}
+/*1*/ try {
+  /*4*/ throw "\"no\"" /*6*/;
+} /*8*/ catch (e /*11*/) {} /*15*/ finally {} /*19*/
 ```
 
 ### Diagnostics

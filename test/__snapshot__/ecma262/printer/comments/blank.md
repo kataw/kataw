@@ -48,7 +48,6 @@
 ### Printed
 
 ```javascript
-
 // This file only
 // has comments. This comment
 // should still exist
@@ -66,8 +65,7 @@
  * @property {Function} tickFormat
  */
 // comment
-// comment
-
+// comment 
 ```
 
 ### Diagnostics

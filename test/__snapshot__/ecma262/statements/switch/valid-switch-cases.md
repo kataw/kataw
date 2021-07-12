@@ -6492,13 +6492,13 @@ switch (x) {
 
 switch (x) {
   case y:
-    (foo) = (foo) - b;
+    (foo) = (foo) /* comment */ - b;
 }
 
 switch (x) {
   case y:
     foo;
-}
+} // comment;
 
 
 // should be ignored - switch(x) { case y: foo };

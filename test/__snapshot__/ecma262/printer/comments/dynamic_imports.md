@@ -277,15 +277,13 @@ wrap(
 
 ```javascript
 import("'something'");
-import("'something'");
+import("'something'" /* Hello */);
 
-import("'something'");
+import("'something'" /* Hello */);
 
-import("'something'" + "'else'");
+import("'something'" /* Hello */ + "'else'");
 
-import(
-/* Hello */
-"'something'");
+import(/* Hello */"'something'");
 
 wrap(import("'something'"));
 

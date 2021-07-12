@@ -1857,39 +1857,29 @@ class c9 {
 ### Printed
 
 ```javascript
-
 /** This is class c2 without constuctor*/
-class c2 {}
+class c2 {} // trailing comment1
+
 var i2 = new c2();
 
 var i2_c = c2;
 
 class c3 {
-
-  /** Constructor comment*/
-
-  /** Constructor comment*/
-  constructor() {}
-}
+  /** Constructor comment*/constructor() {} // trailing comment of constructor
+} /* trailing comment 2 */
 
 var i3 = new c3();
 
 var i3_c = c3;
 
-
 /** Class comment*/
 class c4 {
-
-  /** Constructor comment*/
-
-  /** Constructor comment*/
-  constructor() {}
+  /** Constructor comment*/constructor() {} /* trailing comment of constructor 2*/
 }
 
 var i4 = new c4();
 
 var i4_c = c4;
-
 
 /** Class with statics*/
 class c5 {
@@ -1900,48 +1890,33 @@ var i5 = new c5();
 
 var i5_c = c5;
 
-
 /// class with statics and constructor
 class c6 {
-  static s1: number;;
-
-  /// constructor comment
-
-  /// constructor comment
-  constructor() {}
+  static s1: number;; /// s1 comment2
+  /// constructor commentconstructor() {} /// constructor comment2
 }
 
 var i6 = new c6();
 
 var i6_c = c6;
 
-
 // class with statics and constructor
 class c7 {
   static s1: number;;
-
-  // constructor comment
-
-  // constructor comment
-  constructor() {}
+  // constructor commentconstructor() {}
 }
 
 var i7 = new c7();
 
 var i7_c = c7;
 
-
 /** class with statics and constructor
  */
 class c8 {
-  static s1: number;;
-
+  static s1: number;; /** s1 comment2 */
   /** constructor comment
-    */
-
-  /** constructor comment
-    */
-  constructor() {}
+    */constructor() /** constructor comment2
+        */{}
 }
 
 var i8 = new c8();
@@ -1949,7 +1924,7 @@ var i8 = new c8();
 var i8_c = c8;
 
 class c9 {
-  constructor() {}
+  constructor() /// This is some detached comment// should emit this leading comment of } too{}
 }
 
 ```

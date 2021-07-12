@@ -214,7 +214,6 @@ function test() {
 ```javascript
 function test() {
   var x = "\"a\"";
-
   /*
     * test3
     */

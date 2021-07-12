@@ -223,7 +223,7 @@ type a = (|2&3,symbol['string']) => T;
 ### Printed
 
 ```javascript
-type a = (| 2 & 3, symbol["'string'"]) => T
+type a = (2 & 3, symbol["'string'"]) => T
 ```
 
 ### Diagnostics

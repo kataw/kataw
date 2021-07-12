@@ -946,13 +946,13 @@ f();
 
 f(a);
 
-f(a, b);
+f(a, /* ... */ b);
 
-f(a, b);
+f(/* ... */ a, b);
 
-let f3 = () => import(a);
+let f3 = () => import(a /* ... */);
 
-let f4 = () => doThing(a, b);
+let f4 = () => doThing(a, /* ... */ b);
 
 ```
 

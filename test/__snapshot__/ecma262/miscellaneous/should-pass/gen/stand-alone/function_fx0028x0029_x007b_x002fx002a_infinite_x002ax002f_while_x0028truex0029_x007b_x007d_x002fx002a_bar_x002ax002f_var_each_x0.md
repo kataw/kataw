@@ -170,7 +170,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
 
 ```javascript
 function f() {
-  while (true) {}
+  while (true) {} /* bar */
   var each;
 }
 ```

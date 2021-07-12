@@ -81,7 +81,7 @@
 ### Printed
 
 ```javascript
-[, , , ,];
+[, , /* 1 */ , ,];
 ```
 
 ### Diagnostics

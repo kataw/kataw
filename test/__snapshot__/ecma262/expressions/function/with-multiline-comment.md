@@ -208,7 +208,7 @@ x; })
     return x;
   });
 (function () {
-    return;
+    return; // Comment
     x;
   });
 

@@ -347,11 +347,11 @@ function x (
 
 ```javascript
 function x() {}
-function x() {}
+function x() {} /*2*/
 
-function x(a, b) {}
+function x(/*1*/ a, b /*2*/) {}
 
-function x(a, b) {}
+function x(/*1*/ a, b /*2*/) {}
 
 function x() {}
 

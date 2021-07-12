@@ -350,8 +350,8 @@ if (
 ### Printed
 
 ```javascript
-if (code === 92) {}
-if (code === 92) {}
+if (code === 92 /* '\' */) {}
+if (code === 92 /* '\' */ /* '\' */) {}
 
 if (code === 92) {}
 
