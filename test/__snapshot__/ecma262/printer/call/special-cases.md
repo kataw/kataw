@@ -248,16 +248,16 @@ new it(/* comment */)
 ### Printed
 
 ```javascript
-require();
-new require();
+require(/* comment */ );
+new require(/* comment */ );
 
-define();
+define(/* comment */ );
 
-new define();
+new define(/* comment */ );
 
-it();
+it(/* comment */ );
 
-new it();
+new it(/* comment */ );
 
 ```
 

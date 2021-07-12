@@ -1241,12 +1241,13 @@ function identity<T>(value: T): T /*1*/ {
 
 type IdentityWrapper = { func</*1*/ T> /*2*/ (/*3*/ T /*4*/): T }
 
-function method<T>(param: T): T {}
+function method<T>(param: T): T {// ...
+}
 
 function method /*2*/(func: </*3*/ T> /*4*/(/*5*/ param /*6*/: T /*7*/) => T) {}
 
 function constant /*2*/<T>(value /*3*/: T /*4*/): () => T /*5*/ {
-  /*5*/ return function (): T /*9*/ {
+  /*5*/ return function (/*7*/ ): T /*9*/ {
     return value;
   } /*12*/;
 } /*13*/

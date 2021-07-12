@@ -855,7 +855,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
 ### Printed
 
 ```javascript
-async () => x;
+async (/*1*/ ) => x;
 async (a /*1*/) => x;
 
 async (/*1*/ a /*2*/) => x;
@@ -872,7 +872,7 @@ async (a /*1*/: string) => x;
 
 async (...a /*1*/: string) => x;
 
-async (...a /*1*/: string, []) => x;
+async (...a /*1*/: string, [/*2*/ ]) => x;
 
 async (x /* 2 */? : string /* 5 */) => {};
 

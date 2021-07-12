@@ -930,19 +930,19 @@ let f4 = () => doThing(a, /* ... */ b);
 ### Printed
 
 ```javascript
-let f1 = () => {};
-(function () {})();
+let f1 = (/* ... */ ) => {};
+(function (/* ... */ ) {})(/* ... */ );
 
-function f2() {}
+function f2(/* ... */ ) {}
 
 const obj = {
-    f() {},
-    f: () => {},
-    f: function () {},
-    f: function f() {}
+    f(/* ... */ ) {},
+    f: (/* ... */ ) => {},
+    f: function (/* ... */ ) {},
+    f: function f(/* ... */ ) {}
   };
 
-f();
+f(/* ... */ );
 
 f(a);
 

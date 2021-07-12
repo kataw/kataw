@@ -1896,7 +1896,8 @@ class c6 {
   static s1: number;; /// s1 comment2
 
   /// constructor comment
-  constructor() {}
+  constructor() {/// constructor comment2
+  }
 }
 
 var i6 = new c6();
@@ -1919,7 +1920,8 @@ var i7_c = c7;
 class c8 {
   static s1: number;; /** s1 comment2 */
   /** constructor comment
-    */constructor() {}
+    */constructor() {/** constructor comment2
+        */}
 }
 
 var i8 = new c8();
@@ -1927,7 +1929,9 @@ var i8 = new c8();
 var i8_c = c8;
 
 class c9 {
-  constructor() {}
+  constructor() {/// This is some detached comment
+  // should emit this leading comment of } too
+  }
 }
 
 ```

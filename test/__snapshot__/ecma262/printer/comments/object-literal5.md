@@ -120,7 +120,7 @@
 ### Printed
 
 ```javascript
-({ async x /*2*/() {} });
+({ async x /*2*/(/*3*/ ) {} });
 ```
 
 ### Diagnostics

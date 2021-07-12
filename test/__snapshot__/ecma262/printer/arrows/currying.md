@@ -887,7 +887,8 @@ const mw = store => next => action => {
     return next(action);
   };
 
-const middleware = options => (req, res, next) => {};
+const middleware = options => (req, res, next) => {// ...
+  };
 
 ```
 

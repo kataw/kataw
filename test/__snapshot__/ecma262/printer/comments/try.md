@@ -131,7 +131,13 @@ finally { // Comment 8
 
 ```javascript
 // Comment 1
-try {} catch (e) {} finally {}
+try {// Comment 2
+// Comment 3
+} catch (e) {// Comment 5
+// Comment 6
+} finally {// Comment 8
+// Comment 9
+}
 ```
 
 ### Diagnostics

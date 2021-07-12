@@ -932,7 +932,8 @@ if (1) // comment
 else  if (2) true;
 else  if (3) // existing comment
   true;
-else  if (4) {}
+else  if (4) {// empty with existing comment
+  }
 else  {}
 if (5) true;
 

@@ -690,7 +690,7 @@ async () => {
 
 class x extends (+Bar /*8*/)  /*9*/{}
 
-class y extends (Bar /*10*/ ?? Baz) {}
+class y extends (Bar /*10*/ ?? Baz) {/*11*/ }
 
 const foo = class extends (Bar ?? Baz) {};
 

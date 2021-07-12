@@ -66,7 +66,8 @@ switch (x) {
 ### Printed
 
 ```javascript
-switch (x) {}
+switch (x) {/*1*/
+}
 ```
 
 ### Diagnostics

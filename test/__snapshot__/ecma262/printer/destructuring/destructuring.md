@@ -2045,9 +2045,13 @@ const {
     d: { e }
   } = someObject;
 
-try {} catch ({ data: { message } }) {}
+try {// code
+} catch ({ data: { message } }) {// code
+}
 
-try {} catch ({ data: { message: { errors } } }) {}
+try {// code
+} catch ({ data: { message: { errors } } }) {// code
+}
 
 const obj = {
     func(id, { blog: { title } }) {

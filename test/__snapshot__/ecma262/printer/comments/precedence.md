@@ -5430,15 +5430,15 @@ e = !typeof a === "'boolean'";
 
 f = !(typeof a === "'boolean'");
 
-f = typeof (() => {});
+f = typeof ((/*10*/ ) => {/*11*/ });
 
 a = (1.1).toString();
 
-b = new A /*12*/().toString();
+b = new A /*12*/(/*13*/ ).toString();
 
 c = new x.A().toString();
 
-d = new x.y().z();
+d = new x.y().z(/*14*/ );
 
 var r = (/ab+c/i).exec("'abc'");
 
@@ -5480,8 +5480,8 @@ g = b + -+-a++;
     await a + b;
     await a + await b;
     await (a = b);
-    (await f()).a;
-    await f().a;
+    (await f(/*22*/ )).a;
+    await f(/*23*/ ).a;
     yield 1; /*24*/
     yield 1 + 2;
     (yield 1) + (yield 2);
@@ -5501,7 +5501,7 @@ g = b + -+-a++;
 
 (({}) ? a : b) ? c : d;
 
-(function () {}) ? a : b;
+(function () {/*32*/ }) ? a : b;
 
 (class {}) ? a : b; /*33*/
 

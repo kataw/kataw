@@ -135,7 +135,8 @@ class x {
 
 ```javascript
 class x {
-  focus() {}
+  focus() {// comment 2
+  }
 }
 ```
 

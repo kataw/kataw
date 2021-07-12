@@ -134,7 +134,7 @@
 ### Printed
 
 ```javascript
-/* before */ class A /* b */ extends class B /* e */ {}  /* g */{} /* after */
+/* before */ class A /* b */ extends class B /* e */ {/* f */ }  /* g */{/* h */ } /* after */
 ```
 
 ### Diagnostics

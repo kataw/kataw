@@ -447,7 +447,7 @@ x
 
 ```javascript
 (async /*1*/  < T > [(x)]);
-(async  < {} > (x));
+(async  < {/*1*/ } > (x));
 
 async  < T, /*1*/ U > (x) >> y /*2*/ - z;
 

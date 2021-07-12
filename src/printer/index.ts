@@ -741,7 +741,12 @@ function printArrayBindingPattern(printer: Printer, node: any, lineMap: number[]
 
 export function printBindingElementList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.elements.length === 0) {
-    return '[]';
+    return concat([
+      '[',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      ']',
+    ]);
   }
 
   const children = node.elements;
@@ -781,7 +786,12 @@ function printBlockStatement(printer: Printer, node: any, lineMap: number[]): an
 
 function printBlock(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.statements.length === 0) {
-    return '{}';
+    return concat([
+      '{',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      '}',
+    ]);
   }
 
   const { statements } = node;
@@ -1058,7 +1068,12 @@ function printSubtractionType(printer: Printer, node: any, lineMap: number[], pa
 
 function printTupleType(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.elementTypes.length === 0) {
-    return '[]';
+    return concat([
+      '[',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      ']',
+    ]);
   }
 
   const children = node.elementTypes;
@@ -1092,7 +1107,12 @@ function printTupleType(printer: Printer, node: any, lineMap: number[], parentNo
 
 function printTypeInstantiations(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.types.length === 0) {
-    return '<>';
+    return concat([
+      '<',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      '>',
+    ]);
   }
 
   const elements: any = [];
@@ -1126,7 +1146,12 @@ function printTypeParameterInstantiation(printer: Printer, node: any, lineMap: n
 
 function printTypeParameterList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.parameters.length === 0) {
-    return '<>';
+    return concat([
+      '<',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      '>',
+    ]);
   }
 
   const children = node.parameters;
@@ -1331,8 +1356,14 @@ function printFunctionBody(printer: Printer, node: any, lineMap: number[], paren
 
 function printFunctionStatementList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.statements.length === 0) {
-    return concat(['{}']);
+    return concat([
+      '{',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      '}',
+    ]);
   }
+
   const { directives, statements } = node;
 
   const tokens = [];
@@ -1402,7 +1433,12 @@ function printNewExpression(printer: Printer, node: any, lineMap: number[], pare
 
 function printArgumentsList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.elements.length === 0) {
-    return '()';
+    return concat([
+      '(',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      ')',
+    ]);
   }
 
   if (node.elements.length === 1) {
@@ -1572,8 +1608,14 @@ function printClassTail(printer: Printer, node: any, lineMap: number[], parentNo
 
 function printClassBody(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.elements.length === 0) {
-    return '{}';
+    return concat([
+      '{',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      '}',
+    ]);
   }
+
   printer.flags = (printer.flags | PrinterFlags.DisallowSemicolon) ^ PrinterFlags.DisallowSemicolon;
   const elements = [];
   let previousSibling: SyntaxNode | undefined;
@@ -1636,7 +1678,12 @@ function printFieldDefinition(printer: Printer, node: any, lineMap: number[], pa
 
 function printObjectType(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.properties.length === 0) {
-    return '{}';
+    return concat([
+      '{',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      '}',
+    ]);
   }
 
   const children = node.properties;
@@ -1730,7 +1777,12 @@ function printArrowFunction(printer: Printer, node: any, lineMap: number[], pare
 
 function printArrowParameterList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.parameters.length === 0) {
-    return '()';
+    return concat([
+      '(',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      ')',
+    ]);
   }
   const children = node.parameters;
 
@@ -1790,7 +1842,12 @@ function printBindingPropertyListOrPropertyDefinitionList(
   const properties = node.properties;
 
   if (properties.length === 0) {
-    return '{}';
+      return concat([
+        '{',
+        printTrailingCommentsOfPosition(printer, node.start),
+        emitLeadingComments(printer, node.end),
+        '}',
+      ]);
   }
 
   const elements: any = [];
@@ -1829,7 +1886,12 @@ function printBindingPropertyListOrPropertyDefinitionList1(
   const properties = node.properties;
 
   if (properties.length === 0) {
-    return '{}';
+    return concat([
+      '{',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      '}',
+    ]);
   }
 
   const elements: any = [];
@@ -2024,7 +2086,12 @@ function printMethodDefinition(printer: Printer, node: any, lineMap: number[]): 
 
 function printFormalParameterList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.formalParameters.length === 0) {
-    return '()';
+    return concat([
+      '(',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      ')',
+    ]);
   }
   const children = node.formalParameters;
 
@@ -2191,7 +2258,12 @@ function printNamedImports(printer: Printer, node: any, lineMap: number[], paren
 
 function printExportsImportsList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.specifiers.length === 0) {
-    return '{}';
+    return concat([
+      '{',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      '}',
+    ]);
   }
 
   const children = node.specifiers;
@@ -2361,7 +2433,12 @@ function printSwitchStatement(printer: Printer, node: any, lineMap: number[]): a
 
 function printCaseBlock(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.clauses.length === 0) {
-    return '{}';
+    return concat([
+      '{',
+      printTrailingCommentsOfPosition(printer, node.start),
+      emitLeadingComments(printer, node.end),
+      '}',
+    ]);
   }
   const children = node.clauses;
 

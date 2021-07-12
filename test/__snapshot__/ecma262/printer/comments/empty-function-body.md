@@ -84,7 +84,8 @@ function x() {
 ### Printed
 
 ```javascript
-function x() {}
+function x() {// Something
+}
 ```
 
 ### Diagnostics

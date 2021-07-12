@@ -104,8 +104,17 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) /* comment 4 */ {/* comment
 ### Printed
 
 ```javascript
-if (x /* comment 3 */) {} /* comment 6 */
-else  {}
+if (x /* comment 3 */) {/* comment 5 */ } /* comment 6 */
+else
+  {/* comment 8 */
+  /* comment 9 */
+  /* comment 10 */
+  /* comment 11 */
+  /* comment 12 */
+  // comment 13
+  // comment 14
+  // comment 15
+  }
 ```
 
 ### Diagnostics

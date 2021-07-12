@@ -334,16 +334,18 @@ Thing(/* dangling */);
 ### Printed
 
 ```javascript
-var a = {};
-var b = {};
+var a = {/* dangling */ };
+var b = {// dangling
+};
 
 var b = [];
 
-function d() {}
+function d() {/* dangling */
+}
 
-new Thing();
+new Thing(/* dangling */ );
 
-Thing();
+Thing(/* dangling */ );
 
 ```
 
