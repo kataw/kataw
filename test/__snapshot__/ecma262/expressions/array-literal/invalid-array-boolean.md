@@ -51,8 +51,6 @@
 ```javascript
 //[false] = x;
 //[true] = x;
-//[false] = x;
-//[true] = x;
 
 ```
 

@@ -196,7 +196,6 @@ export interface PrinterOptions {
 }
 
 export const nodeLookupMap: any = {
-	[SyntaxKind.RootNode]: printRootNode,
 	[SyntaxKind.ExpressionStatement]: printExpressionStatement,
 	[SyntaxKind.EmptyStatement]: printEmptyStatement,
 	[SyntaxKind.Identifier]: printIdentifier,
@@ -414,7 +413,7 @@ export function printSource(root: RootNode, options?: PrinterOptions) {
 
 	const printer = createPrinter(root.source, flags, space);
 
-	const source = printStatement(printer, root, /* lineMap */ [], root);
+	const source = printRootNode(printer, root, /* lineMap */ [], root);
 
 	return toString(
 		printWidth,

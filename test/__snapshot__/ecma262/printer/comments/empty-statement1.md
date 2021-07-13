@@ -36,7 +36,7 @@ while-statement6# Kataw parser test case
 ### Printed
 
 ```javascript
-/*1*/ /*1*/ 
+/*1*/ 
 ```
 
 ### Diagnostics

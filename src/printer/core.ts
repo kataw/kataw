@@ -331,17 +331,15 @@ export function printLeadingDetachedCommentsAndUpdateCommentsInfo(
 	let leadingComments: any;
 	let currentDetachedCommentInfo: any;
 	leadingComments = collectLeadingComments(printer.source, node.start);
-
+//
 	if (leadingComments) {
 		const detachedComments: any = [];
-		let lastComment: any;
 
 		for (const comment of leadingComments) {
 			detachedComments.push(comment);
-			lastComment = comment;
 		}
 
-		if (detachedComments.length) {
+    if (detachedComments.length) {
 			leadingComments = printComments(
 				printer,
 				detachedComments,
@@ -465,4 +463,8 @@ let parts: any = []
       parts.push(emitLeadingComments(printer, detachedRange.end));
   }
   return concat(parts);
+}
+
+export function nodeIsSynthesized(node: any): boolean {
+  return positionIsSynthesized(node.start) || positionIsSynthesized(node.end);
 }
