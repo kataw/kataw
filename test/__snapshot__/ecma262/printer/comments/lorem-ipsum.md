@@ -319,7 +319,9 @@ function foo(a, b, c) {
 
 ```javascript
 function foo(a, b, c) {
-  return ((a >= b && a <= c) || a === 42 || a === 666);
+  return ((a >= b && a <= c) // lorem
+    // ipsum
+    || a === 42 || a === 666);
 }
 ```
 

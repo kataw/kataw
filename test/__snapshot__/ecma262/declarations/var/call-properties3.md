@@ -2082,6 +2082,7 @@ var z : Object = (x) => "hi"
 
 ```javascript
 // Expecting properties that don't exist should be an error
+// Expecting properties that don't exist should be an error
 var a: { someProp: number } = function () {};
 // Expecting properties that do exist should be fine
 var b: { apply: Function } = function () {};

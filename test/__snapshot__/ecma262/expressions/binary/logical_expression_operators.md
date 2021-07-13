@@ -2243,6 +2243,7 @@ foo || bar && baz;
 
 ```javascript
 // Same operators do not require parens
+// Same operators do not require parens
 (foo && bar) && baz;
 foo && (bar && baz);
 

@@ -39,6 +39,7 @@
 
 ```javascript
 /*
+  */ /* optional SingleLineDelimitedCommentSequence */ /*
   */ /* optional SingleLineDelimitedCommentSequence */ 
 ```
 

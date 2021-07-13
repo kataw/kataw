@@ -59,7 +59,7 @@
 ### Printed
 
 ```javascript
--- a;
+-- /*1*/ a;
 ```
 
 ### Diagnostics

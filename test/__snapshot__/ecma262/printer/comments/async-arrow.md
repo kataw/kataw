@@ -868,13 +868,13 @@ async (a /*1*/, /*2*/ b) => x;
 
 async (a /*1*/) => x;
 
-async (a /*1*/: string) => x;
+async (a /*1*/:/*2*/  string) => x;
 
-async (...a /*1*/: string) => x;
+async (...a /*1*/:/*2*/  string) => x;
 
-async (...a /*1*/: string, [/*2*/ ]) => x;
+async (...a /*1*/:/*2*/  string, [/*2*/ ]) => x;
 
-async (x /* 2 */? : string /* 5 */) => {};
+async /* 1 */ (x /* 2 */? /* 3 */ :/* 3 */  string /* 5 */) =>/* 9 */  {};
 
 ```
 

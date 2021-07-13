@@ -205,7 +205,7 @@ x; })
 
 ```javascript
 (function () {
-    return x;
+    return /* Multiline\nComment */ x;
   });
 (function () {
     return; // Comment

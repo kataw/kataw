@@ -71,7 +71,7 @@ if /* comment 1 */ (
 ### Printed
 
 ```javascript
-if (/* comment 2 */x /* comment 3 */) {}
+if (/* comment 2 */x /* comment 3 */)/* comment 4 */  {}
 ```
 
 ### Diagnostics

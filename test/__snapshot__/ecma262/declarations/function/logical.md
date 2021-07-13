@@ -14152,6 +14152,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
 /**
  * A falsy variable on the left side of &&
  */
+/**
+ * A falsy variable on the left side of &&
+ */
 function logical1a(): number {
   var x = false;
   return x && "'123'";

@@ -57,6 +57,7 @@
 
 ```javascript
 // detached comment 1
+// detached comment 1
 x;
 ```
 

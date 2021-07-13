@@ -89,6 +89,7 @@ var v = 1;
 
 ```javascript
 /** Comment */
+/** Comment */
 var v = 1;
 ```
 

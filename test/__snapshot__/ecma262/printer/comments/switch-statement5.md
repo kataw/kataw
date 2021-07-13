@@ -169,11 +169,11 @@ default /* comment 6 */ : /* comment 7 */ foo;
 ### Printed
 
 ```javascript
-switch (x) {
-  case y:
+switch /* comment 1 */ (x)/* comment 2 */  {
+  case /* comment 3 */ y:/* comment 4 */
     foo;
   // comment 5
-  default:
+  default/* comment 6 */ : /* comment 7 */
     foo;
 } /* comment 8 */
 ```

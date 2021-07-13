@@ -74,7 +74,8 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) /* comment 4 */ {/* comment
 ### Printed
 
 ```javascript
-if (x /* comment 3 */) {/* comment 5 */ } // comment 6
+if (/* comment 2 */ x /* comment 3 */)/* comment 4 */
+  {/* comment 5 */ } // comment 6
 
 ```
 

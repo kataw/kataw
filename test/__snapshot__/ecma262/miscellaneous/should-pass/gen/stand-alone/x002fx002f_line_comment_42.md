@@ -56,6 +56,7 @@
 
 ```javascript
 // line comment
+// line comment
 42;
 ```
 

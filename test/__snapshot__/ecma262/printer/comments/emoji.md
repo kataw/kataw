@@ -83,6 +83,7 @@ const test = '💖'
 
 ```javascript
 /* #2091 */
+/* #2091 */
 const test = "'💖'";
 ```
 

@@ -1858,6 +1858,7 @@ class c9 {
 
 ```javascript
 /** This is class c2 without constuctor*/
+/** This is class c2 without constuctor*/
 class c2 {} // trailing comment1
 
 var i2 = new c2();
@@ -1893,6 +1894,7 @@ var i5_c = c5;
 
 /// class with statics and constructor
 class c6 {
+  /// s1 comment
   static s1: number;; /// s1 comment2
 
   /// constructor comment
@@ -1906,6 +1908,7 @@ var i6_c = c6;
 
 // class with statics and constructor
 class c7 {
+  // s1 comment
   static s1: number;;
   // constructor comment
   constructor() {}
@@ -1918,7 +1921,7 @@ var i7_c = c7;
 /** class with statics and constructor
  */
 class c8 {
-  static s1: number;; /** s1 comment2 */
+  /** s1 comment */static s1: number;; /** s1 comment2 */
   /** constructor comment
     */constructor() {/** constructor comment2
         */}

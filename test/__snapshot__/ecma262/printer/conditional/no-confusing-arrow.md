@@ -260,6 +260,7 @@ var x = a <= 1 ? 2 : 3;
 
 ```javascript
 // no-confusing-arrow
+// no-confusing-arrow
 var x = a => 1 ? 2 : 3;
 var x = a <= 1 ? 2 : 3;
 

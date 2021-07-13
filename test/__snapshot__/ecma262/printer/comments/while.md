@@ -394,13 +394,15 @@ while(1) // Comment
 ### Printed
 
 ```javascript
-while (true) {}
-while (true) {}
+while (true// Comment
+) {}
+while (true)// Comment
+ {}
 
 while (true) {} // Comment
 
 
-while (true) {}
+while (true)/*Comment*/  {}
 
 while (true // Comment
    && true // Comment
@@ -409,9 +411,10 @@ while (true // Comment
 while (true) {} // comment
 
 
-while (true) ++ x;
+while (true)/* comment */  ++ x;
 
-while (1) foo();
+while (1)// Comment
+ foo();
 
 ```
 

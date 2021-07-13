@@ -120,8 +120,9 @@ foo: while (
 ### Printed
 
 ```javascript
-foo:  while (x) {
-    break foo;
+foo:  while (x// comment 1
+) {
+    break/* comment 2 */  foo;
   }
 ```
 

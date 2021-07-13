@@ -661,9 +661,9 @@ function g() // Line comment for instruction 1:
   // Several line comments
   // …for…
   // …instruction 7:
-  instruction7;
-// Trailing line comment
-// Another comment
+  instruction7;// Trailing line comment
+  // Another comment
+
 }
 
 ```

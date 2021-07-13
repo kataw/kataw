@@ -136,9 +136,9 @@ for /*2*/(x /*3*/in /*4*/ y) /*5*/ {}
 ### Printed
 
 ```javascript
-for (a /* comment 3 */ in b /* comment 5 */); /* comment 7 */
+for (/* comment 2 */ a /* comment 3 */ in /* comment 4 */ b /* comment 5 */)/* comment 6 */ ; /* comment 7 */
 /*1*/
-for (x /*3*/ in y) {}
+for (x /*3*/ in /*4*/ y)/*5*/  {}
 
 ```
 

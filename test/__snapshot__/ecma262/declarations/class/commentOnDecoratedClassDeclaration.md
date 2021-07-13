@@ -310,6 +310,9 @@ class AnotherRomote {
 /**
  * Leading trivia
  */
+/**
+ * Leading trivia
+ */
 @decorator("\"hello\"")
 class Remote {}
 /**

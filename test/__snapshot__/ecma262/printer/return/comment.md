@@ -720,30 +720,35 @@ fn(function f() {
 
 ```javascript
 function f() {
-  return;
+  return/* a */ ;
 }
 function f() {
-  return;
-}
-
-function f() {
-  return;
+  return// a
+  ;
 }
 
 function f() {
-  return;
+  return// a
+  ;
+}
+
+function f() {
+  return/* a */ ;
 }
 
 function x() {
-  return func2.bar();
+  return func2//comment
+  .bar();
 }
 
 function f() {
-  return (foo.bar());
+  return (foo// comment
+    .bar());
 }
 
 fn(function f() {
-  return (foo.bar());
+  return (foo// comment
+    .bar());
 });
 
 ```

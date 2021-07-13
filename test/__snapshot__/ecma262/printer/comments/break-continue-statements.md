@@ -252,14 +252,14 @@ loop: for (;;) {
 ```javascript
 for (;;)
   {
-    break;
-    continue;
+    break/* comment */ ;
+    continue/* comment */ ;
   }
 loop:  for (;;)
   {
-    break loop;
+    break/* comment */  loop;
     break loop /* comment */;
-    continue loop;
+    continue/* comment */  loop;
     continue loop /* comment */;
   }
 

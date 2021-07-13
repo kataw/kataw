@@ -694,6 +694,7 @@ a;/*
 
 ```javascript
 /*========= All on same line =========*/
+/*========= All on same line =========*/
 a;
 /*1*/ /*2*/ /*3*/
 b;

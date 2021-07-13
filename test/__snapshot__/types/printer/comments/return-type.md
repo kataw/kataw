@@ -191,7 +191,8 @@ function f(
 ### Printed
 
 ```javascript
-function f(a: number): number {
+function f(a: number)// some comment here
+: number {
   return a + 1;
 }
 ```

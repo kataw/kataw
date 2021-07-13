@@ -1243,7 +1243,8 @@ const foo3 = 123
 ### Printed
 
 ```javascript
-let obj1 = {
+let obj1 =// Comment
+   {
     key: "'val'"
   };
 let obj2 // Comment
@@ -1261,7 +1262,8 @@ let obj4 = {
     key: "'val'"
   };
 
-let obj5 = ["'val'"];
+let obj5 =// Comment
+   ["'val'"];
 
 let obj6 // Comment
    = ["'val'"];
@@ -1272,16 +1274,20 @@ let obj7 = [// Comment
 let obj8 = [// Comment
     "'val'"];
 
-let obj9 = `val`;
+let obj9 =// Comment
+   `val`;
 
-let obj10 = `
+let obj10 =// Comment
+   `
 val
 val
 `;
 
-let obj11 = tag`val`;
+let obj11 =// Comment
+   tag`val`;
 
-let obj12 = tag`
+let obj12 =// Comment
+   tag`
 val
 val
 `;

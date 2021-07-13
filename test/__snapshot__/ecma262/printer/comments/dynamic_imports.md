@@ -276,16 +276,16 @@ wrap(
 ### Printed
 
 ```javascript
-import("'something'");
+import(/* Hello */ "'something'");
 import("'something'" /* Hello */);
 
-import("'something'" /* Hello */);
+import(/* Hello */ "'something'" /* Hello */);
 
 import("'something'" /* Hello */ + "'else'");
 
-import(/* Hello */"'something'");
+import(/* Hello */"'something'"/* Hello */);
 
-wrap(import("'something'"));
+wrap(import(/* Hello */ "'something'"));
 
 ```
 

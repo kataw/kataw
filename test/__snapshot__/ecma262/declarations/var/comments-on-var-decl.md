@@ -1027,6 +1027,7 @@ n4 = z2;
 
 ```javascript
 /** Variable comments*/
+/** Variable comments*/
 var myVariable = 10; // This trailing Comment1
 
 /** This is another variable comment*/
@@ -1053,15 +1054,15 @@ x = myVariable;
 var n = 30;
 
 /** var deckaration with comment on type as well*/
-var y = 20;
+var y =/** value comment */  20;
 
 /// var deckaration with comment on type as well
 var yy = /// value comment
 20;
 
 /** comment2 */
-var z = (/** lambda comment */ x: number, /** lambda comment */ y: number) =>
-  x + y;
+var z =/** lambda comment */  (/** lambda comment */ x: number,
+/** lambda comment */ y: number) => x + y;
 
 var z2: (/** type comment*/ x: number) => string;
 

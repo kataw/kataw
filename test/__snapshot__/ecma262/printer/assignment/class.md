@@ -148,7 +148,9 @@ class x {
 
 ```javascript
 class x {
-  static get defaultSettings() {}
+  /**
+  * Set of default settings to be applied to model fetch calls in DAO layer.
+  */static get defaultSettings() {}
 }
 ```
 

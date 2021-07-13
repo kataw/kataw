@@ -69,7 +69,7 @@ if /* comment 1 */ (x) /* comment 2 */ {}
 ### Printed
 
 ```javascript
-if (x) {}
+if (x)/* comment 2 */  {}
 ```
 
 ### Diagnostics

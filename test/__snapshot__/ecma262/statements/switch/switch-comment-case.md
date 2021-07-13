@@ -117,7 +117,7 @@ switch(x) /* comment */ { case y: foo }
 ### Printed
 
 ```javascript
-switch (x) {
+switch (x)/* comment */  {
   case y:
     foo;
 }

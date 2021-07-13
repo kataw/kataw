@@ -89,7 +89,7 @@ if /* comment 1 */ (x)  /* comment 2 */  {}  /* comment 3 */  else {}
 ### Printed
 
 ```javascript
-if (x) {} /* comment 3 */
+if (x)/* comment 2 */  {} /* comment 3 */
 else  {}
 ```
 

@@ -337,10 +337,12 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
 ### Printed
 
 ```javascript
-type a = { x: string } /* foo */ | string /* bar */ /*b*/
-type b = { x: string } /* trailing */ /*d*/
+type a =/*a*/  { x:/* foo */  string } /* foo */ | string /* bar */ /*b*/
+type b =/*c*/ /* leading */  {
+  x:/* trailing */ /*d*/  string
+} /* trailing */ /*d*/
 
-type c = { x: string } /* inner */ | string // trailing/*f*/
+type c =/*e*/  { x:/* inner */  string } /* inner */ | string // trailing/*f*/
 
 
 ```

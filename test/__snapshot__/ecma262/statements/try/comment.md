@@ -423,14 +423,17 @@ fn(function f() {
 
 ```javascript
 function x() {
-  throw func2.bar();
+  throw func2//comment
+  .bar();
 }
 function f() {
-  throw (foo.bar());
+  throw (foo// comment
+    .bar());
 }
 
 fn(function f() {
-  throw (foo.bar());
+  throw (foo// comment
+    .bar());
 });
 
 ```

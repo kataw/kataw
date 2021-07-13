@@ -29,6 +29,7 @@
 
 ```javascript
 // detached comment
+// detached comment
 
 ```
 

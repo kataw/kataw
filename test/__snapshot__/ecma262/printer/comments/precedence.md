@@ -5402,15 +5402,15 @@ b = (1 + 2 /*2*/) * 3 / 5;
 
 c = (1 + 2) * (3 - 5);
 
-d = x | y /*3*/ ^ z;
+d = x | y /*3*/ ^/*4*/  z;
 
 e = (x | y) ^ z;
 
-f = "\"a\"" + (1 + 2) + "\"b\"";
+f = "\"a\"" + (1 + 2) +/*5*/  "\"b\"";
 
 g = "\"a\"" + (1 - 2) + "\"b\"";
 
-a = true /*6*/ || false && null;
+a = true /*6*/ ||/*7*/  false && null;
 
 b = c == d || e != f;
 
@@ -5422,7 +5422,7 @@ a = !false; /*8*/
 
 b = !x instanceof Number;
 
-c = !(x instanceof Number);
+c = !(x instanceof/*9*/  Number);
 
 d = typeof a === "'boolean'";
 
@@ -5442,7 +5442,7 @@ d = new x.y().z(/*14*/ );
 
 var r = (/ab+c/i).exec("'abc'");
 
-a = b ** 2 * 3;
+a = b ** 2 */*15*/  3;
 
 c = (d ** 2) ** 3;
 
@@ -5458,11 +5458,11 @@ g = 1 && (() => {});
 
 g = (() => {}) && 1;
 
-g = (1, /*16*/ + +2);
+g = (1, /*16*/ +/*17*/  +2);
 
 g = (1, + +(2 + 3));
 
-a = - -- i;
+a = -/*18*/  -- i;
 
 b = - - -- i;
 
@@ -5479,12 +5479,12 @@ g = b + -+-a++;
 (async function *() {
     await a + b;
     await a + await b;
-    await (a = b);
+    await (a =/*21*/  b);
     (await f(/*22*/ )).a;
     await f(/*23*/ ).a;
     yield 1; /*24*/
     yield 1 + 2;
-    (yield 1) + (yield 2);
+    (yield 1) +/*25*/  (yield 2);
     yield a = b;
     const c = yield 3;
   });

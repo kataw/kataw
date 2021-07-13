@@ -118,7 +118,7 @@
 
 ```javascript
 foo:  while (x) {
-    break foo;
+    break/* comment 1 */  foo;
   }
 ```
 

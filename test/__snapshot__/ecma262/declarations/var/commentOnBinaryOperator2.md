@@ -267,10 +267,11 @@ var c = 'some'
 ### Printed
 
 ```javascript
-var a = "'some'" + "'text'";
-var b = "'some'" + "'text'";
+var a = "'some'" // comment
+  + "'text'";
+var b = "'some'" /* comment */+ "'text'";
 
-var c = "'some'" + "'text'";
+var c = "'some'" /* comment */+/*comment1*/  "'text'";
 
 ```
 

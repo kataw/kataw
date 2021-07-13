@@ -422,10 +422,12 @@ undefined?.b.c(++x).d; // long short-circuiting.
 ### Printed
 
 ```javascript
-a?.[++ x] // short-circuiting.
+a?.[++ x]// short-circuiting.
+ // short-circuiting.
 .a?.b.c(++ x).d; // long short-circuiting.
 
-undefined?.[++ x] // short-circuiting.
+undefined?.[++ x]// short-circuiting.
+ // short-circuiting.
 .undefined?.b.c(++ x).d; // long short-circuiting.
 
 

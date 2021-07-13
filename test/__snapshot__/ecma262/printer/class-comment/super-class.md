@@ -1154,7 +1154,8 @@ extends Base
 
 ```javascript
 class A // comment 1
- extends B {}
+ // comment 2
+extends B {}
 class A1 extends B  // comment1
 {}
 
@@ -1162,10 +1163,11 @@ class A2 /* a */ extends B {}
 
 class A3 extends B  /* a */{}
 
-class A4 extends B {}
+class A4 extends /* a */ B {}
 
 (class A5 // comment 1
-   extends B {});
+   // comment 2
+  extends B {});
 
 (class A6 extends B  // comment1
   {});
@@ -1174,7 +1176,7 @@ class A4 extends B {}
 
 (class A8 extends B  /* a */{});
 
-(class A9 extends B {});
+(class A9 extends /* a */ B {});
 
 class a extends b  // comment
 {

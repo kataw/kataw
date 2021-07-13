@@ -584,6 +584,7 @@ function e(x: { (): string; (x: number): string }): () => number {
 
 ```javascript
 // Only one call property needs to match the function
+// Only one call property needs to match the function
 function d(x: { (): string, (x: number): string }): () => string {
   return x;
 }

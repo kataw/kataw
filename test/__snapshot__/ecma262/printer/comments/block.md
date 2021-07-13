@@ -315,6 +315,12 @@ Block comment for this script file.
 /*
 Block comment for function f.
 */
+/*
+Block comment for this script file.
+*/
+/*
+Block comment for function f.
+*/
 function f() {}
 /**
 * JSDoc block comment.
@@ -344,10 +350,10 @@ function h() /*
   Block comment for instruction 3…
   …with several indented lines.
   */
-  instruction3;
-/*
+  instruction3;/*
   Trailing block comment inside of function h.
   */
+
 }
 
 ```

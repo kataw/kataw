@@ -75,7 +75,8 @@ if /* comment 2 */ (x) /* comment 3 */ {}
 
 ```javascript
 /* comment 1 */
-if (x) {}
+/* comment 1 */
+if (x)/* comment 3 */  {}
 ```
 
 ### Diagnostics

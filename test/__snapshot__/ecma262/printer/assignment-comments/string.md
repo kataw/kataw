@@ -1977,10 +1977,12 @@ fnString = /* inline */
   "'string'"
 ;
 
-fnString = // Comment1
+fnString =// Comment0
+ // Comment1
 "'some'" + "'long'" + "'string'";
 
-fnString = "'some'" + "'long'" + "'string'";
+fnString =// Comment
+ "'some'" + "'long'" + "'string'";
 
 fnString = // Comment
 "'some'" + "'long'" + "'string'";
@@ -2012,10 +2014,12 @@ var fnString = /* inline */
   "'string'"
 ;
 
-var fnString = // Comment1
+var fnString =// Comment0
+ // Comment1
 "'some'" + "'long'" + "'string'";
 
-var fnString = "'some'" + "'long'" + "'string'";
+var fnString =// Comment
+ "'some'" + "'long'" + "'string'";
 
 ```
 

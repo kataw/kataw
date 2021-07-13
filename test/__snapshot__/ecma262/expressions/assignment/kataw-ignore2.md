@@ -71,6 +71,7 @@ foo = bar;
 ```javascript
 // kataw-ignore
 // kataw-ignore
+// kataw-ignore
 foo = bar;
 ```
 

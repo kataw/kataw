@@ -339,15 +339,15 @@ class x {
   ;
   ;
   a = b;
-  x /*2*/: string;
+  x /*2*/:/*3*/  string;
 }
-class y /*2*/ {
+class /*1*/ y /*2*/ {
   ;
   ; /*3*/
   ;
   ;
-  a /*4*/ = b;
-  x /*6*/: string;
+  a /*4*/ =/*5*/  b;
+  x /*6*/:/*7*/  string;
 }
 
 ```

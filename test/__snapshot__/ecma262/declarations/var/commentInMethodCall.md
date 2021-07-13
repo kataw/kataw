@@ -198,6 +198,7 @@ s.map(// do something
 
 ```javascript
 //commment here
+//commment here
 var s: string[];
 s.map(function () {});
 

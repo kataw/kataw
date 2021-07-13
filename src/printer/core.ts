@@ -1,6 +1,7 @@
 import { softline } from './../formatter/index';
 import { SyntaxKind, TransformFlags, tokenToString } from '../ast/syntax-node';
 import { concat, group, hardline, indent, line } from '../formatter/index';
+import { skipWhitespace } from '../parser/scanner/common';
 import {
 	collectLeadingComments,
 	collectTrailingComments,
@@ -34,8 +35,6 @@ export interface Printer {
 	flags: PrinterFlags;
 	detachedCommentsInfo: any;
 	consumedCommentRanges: any[];
-	leadingCommentRangePositions: any[];
-	trailingCommentRangePositions: any[];
 	containerPos: number;
 	containerEnd: number;
 	declarationListContainerEnd: number;
@@ -55,8 +54,6 @@ export function createPrinter(
 		containerEnd: -1,
 		declarationListContainerEnd: -1,
 		consumedCommentRanges: [],
-		leadingCommentRangePositions: [],
-		trailingCommentRangePositions: [],
 	};
 }
 
@@ -105,11 +102,36 @@ export function printKeyword(
 	addSpace: boolean,
 ): any {
 	if (keyword) {
-		return addSpace
-			? concat([tokenToString(keyword), ' '])
-			: tokenToString(keyword);
-	}
-	return '';
+    let parts: any = []
+        if (keyword.start !== -1 && parent.start !== keyword.start) {
+          parts.push(emitLeadingComments(printer, keyword.start));
+        }
+    parts.push(addSpace
+      ? concat([tokenToString(keyword), ' '])
+      : tokenToString(keyword));
+        if (parent.end !== keyword.end) {
+          parts.push(printTrailingCommentsOfPosition(printer, keyword.end));
+        }
+        return concat(parts);
+      }
+      return '';
+}
+
+export function printPunctuator(punctuator: string, printer: any, pos: number, parent: any): any {
+  const startPos = pos;
+  let parts: any = []
+  pos = skipWhitespace(printer.source, pos);
+
+  if (startPos !== -1 && parent.start !== pos) {
+    parts.push(emitLeadingComments(printer, startPos));
+  }
+
+  parts.push(punctuator);
+
+  if (parent.end !== pos + 1) {
+    parts.push(printTrailingCommentsOfPosition(printer, pos + 1));
+  }
+  return concat(parts);
 }
 
 export function shouldprintWhitespaceBeforeOperand(node: any): boolean {
@@ -217,6 +239,7 @@ function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
 		pos,
 		printer.consumedCommentRanges,
 	);
+
 	if (printer.detachedCommentsInfo.length - 1) {
 		printer.detachedCommentsInfo.pop();
 	} else {
@@ -424,4 +447,22 @@ export function printNodeWithComments(
 
           return concat(parts);
       }
+}
+
+
+export function emitBodyWithDetachedComments(printer: Printer, detachedRange: any, lineMap: any, parentNode: any, emitCallback: any) {
+  const { pos, end } = detachedRange;
+  const skipLeadingComments = pos < 0;
+  const skipTrailingComments = end < 0;
+let parts: any = []
+  if (!skipLeadingComments) {
+    parts.push(printLeadingDetachedCommentsAndUpdateCommentsInfo(printer, detachedRange, false));
+  }
+
+  parts.push(emitCallback(printer, detachedRange, lineMap, parentNode));
+
+  if (!skipTrailingComments) {
+      parts.push(emitLeadingComments(printer, detachedRange.end));
+  }
+  return concat(parts);
 }

@@ -58,6 +58,7 @@
 
 ```javascript
 /* detached */
+/* detached */
 [];
 ```
 

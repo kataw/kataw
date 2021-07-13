@@ -131,9 +131,11 @@ finally { // Comment 8
 
 ```javascript
 // Comment 1
+// Comment 1
 try {// Comment 2
 // Comment 3
-} catch (e) {// Comment 5
+} catch // Comment 7
+(e) {// Comment 5
 // Comment 6
 } finally {// Comment 8
 // Comment 9

@@ -480,6 +480,12 @@ const bem = block =>
  * @param {String} block - the BEM Block you'd like to select.
  * @returns {Function}
  */
+/**
+ * Curried function that ends with a BEM CSS Selector
+ *
+ * @param {String} block - the BEM Block you'd like to select.
+ * @returns {Function}
+ */
 const bem = block => /**
    * @param {String} [element] - the BEM Element within that block; if undefined, selects the block itself.
    * @returns {Function}

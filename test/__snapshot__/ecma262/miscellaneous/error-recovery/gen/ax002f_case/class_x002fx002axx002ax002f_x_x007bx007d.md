@@ -79,7 +79,7 @@ class /*x*/ x {}
 ### Printed
 
 ```javascript
-class x {}
+class /*x*/ x {}
 ```
 
 ### Diagnostics

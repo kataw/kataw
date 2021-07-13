@@ -165,7 +165,7 @@ class x {
 
 ```javascript
 class x {
-  /*1*/ @foo bar() {}
+  /*1*/ @/*1*/ foo bar() {}
 }
 ```
 

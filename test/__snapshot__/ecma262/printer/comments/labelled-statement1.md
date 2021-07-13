@@ -68,7 +68,7 @@ x /* comment 1 */ : /* comment 2 */  y;
 ### Printed
 
 ```javascript
-x /* comment 1 */:  y;
+x /* comment 1 */: /* comment 2 */  y;
 ```
 
 ### Diagnostics

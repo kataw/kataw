@@ -155,7 +155,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
 ### Printed
 
 ```javascript
-let g = function (/* b */ x /* c */, /* d */ y /* e */) {
+let g =/* before */  function /* a */ (/* b */ x /* c */, /* d */ y /* e */) {
      /* h */
 
   } /* i */ /* after */;

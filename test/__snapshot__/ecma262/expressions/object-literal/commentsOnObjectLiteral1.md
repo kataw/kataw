@@ -120,6 +120,7 @@ var Person = makeClass(
 
 ```javascript
 // @removeComments: false
+// @removeComments: false
 var Person = makeClass(/**
      @scope Person
    */{});

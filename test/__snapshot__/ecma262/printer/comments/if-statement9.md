@@ -104,8 +104,9 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) /* comment 4 */ {/* comment
 ### Printed
 
 ```javascript
-if (x /* comment 3 */) {/* comment 5 */ } /* comment 6 */
-else
+if (/* comment 2 */ x /* comment 3 */)/* comment 4 */
+  {/* comment 5 */ } /* comment 6 */
+else /* comment 7 */
   {/* comment 8 */
   /* comment 9 */
   /* comment 10 */

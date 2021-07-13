@@ -545,7 +545,7 @@ x /*2*/
 }
 
 {
-  async function x /*3*/() {}
+  async /*1*/ function /*2*/ x /*3*/() {}
 }
 
 // 1

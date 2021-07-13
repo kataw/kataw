@@ -70,6 +70,7 @@ foo = bar;
 
 ```javascript
 // kataw-ignore-block
+// kataw-ignore-block
 foo = bar;
 ```
 

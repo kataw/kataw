@@ -46,6 +46,7 @@ while-statement6# Kataw parser test case
 
 ```javascript
 /*1*/
+/*1*/
 
 ```
 

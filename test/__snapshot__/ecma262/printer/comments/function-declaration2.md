@@ -2236,7 +2236,7 @@ function foo4() {
 function x(/*1*/ ) {}
 function x(/*2*/ ) {}
 
-function x /*2*/(/*3*/ ) {}
+function /*1*/ x /*2*/(/*3*/ ) {}
 
 function a(/* comment */ ) {} // comment
 
@@ -2270,13 +2270,13 @@ const obj = {
     f4 /* f */(/* args */ ) {},
   };
 
-(function f /* f */() {})();
+(/*2*/ function f /* f */() {})();
 
-(function f(/* args */ ) {})();
+(/*2*/ function f(/* args */ ) {})();
 
-(function f() {})();
+(/*2*/ function f() {})();
 
-(function f /* f */(/* args */ ) {})();
+(/*2*/ function f /* f */(/* args */ ) {})();
 
 class C1 {
   f /* f */() {}

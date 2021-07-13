@@ -1195,12 +1195,13 @@ f2 = (a = b) => {};
 f3 = (a = b //comment
 ) => {};
 
-f4 = () => {};
+f4 =// Comment
+ () => {};
 
 f5 = // Comment
 () => {};
 
-f6 = // Comment
+f6 =/* comment */  // Comment
 () => {};
 
 let f1 = (a = //comment
@@ -1211,12 +1212,13 @@ let f2 = (a = b) => {};
 let f3 = (a = b //comment
   ) => {};
 
-let f4 = () => {};
+let f4 =// Comment
+   () => {};
 
 let f5 = // Comment
   () => {};
 
-let f6 = // Comment
+let f6 =/* comment */  // Comment
   () => {};
 
 ```

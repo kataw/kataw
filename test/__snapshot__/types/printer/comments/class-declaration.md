@@ -539,12 +539,12 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
 ### Printed
 
 ```javascript
-class Item <T> /*2*/{
+class /*1*/ Item <T> /*2*/{
   prop: T;; /*3*/
   constructor /*4*/(param /*5*/: T) {
-    this /*6*/.prop = param;
+    this /*6*/./*7*/ prop = param;
   }
-  /*8*/method(): T /*10*/ {
+  /*8*/method():/*9*/  T /*10*/ {
     return this /*12*/ /*13*/.prop;
   } /*14*/
 }

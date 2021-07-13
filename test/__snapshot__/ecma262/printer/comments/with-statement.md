@@ -67,7 +67,8 @@
 
 ```javascript
 // @ts-ignore
-/*1*/ with (false /*4*/) {}
+/*1*/ // @ts-ignore
+/*1*/ with (/*3*/ false /*4*/)/*5*/  {}
 ```
 
 ### Diagnostics

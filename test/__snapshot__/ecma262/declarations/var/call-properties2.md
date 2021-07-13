@@ -616,6 +616,7 @@ var c: { (): string; (x: number): string } =
 
 ```javascript
 // It should be fine when a function satisfies them all
+// It should be fine when a function satisfies them all
 var b: { (): string, (x: number): string } = function (x? : number): string {
   return "\"hi\"";
 };
